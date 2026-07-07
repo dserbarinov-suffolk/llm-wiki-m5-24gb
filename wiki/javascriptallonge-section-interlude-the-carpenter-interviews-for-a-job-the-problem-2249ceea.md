@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-2249ceea
 page_kind: source
-summary: Interlude: The Carpenter Interviews for a Job / the problem: 13 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+summary: Interlude: The Carpenter Interviews for a Job / the problem: 12 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-2249ceea@39feb0af978c0c8f99e4e7dfd738aac1
+projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-2249ceea@b583cbb5de9278bb75901c625eb26f83
 ---
 
 # Interlude: The Carpenter Interviews for a Job / the problem
@@ -47,27 +47,3 @@ From [[javascriptallonge]].
 
 <a id="atom-technical-atom-9ebf48821bd5bae5"></a>
 > You may use babeljs.io 95 , or ES6Fiddle 96 to check your work.
-
-### Technical frame 2: Interlude: The Carpenter Interviews for a Job / the problem
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01790))_
-
-> Christine interrupted. 'To save time, we have written a template of the solution for you in ECMASCript 2015 notation. Fill in the blanks. Your code should not presume anything about the game-board's size or contents, only that it is given an arrow every time though the while loop. You may use babeljs.io 95 , or ES6Fiddle 96 to check your work. '
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01794))_
-
-<a id="atom-technical-atom-d61b8fe300c839a0"></a>
-```text
-95 http://babeljs.io
-96 http://www.es6fiddle.net
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 95 | http://babeljs.io |
-| 96 | http://www.es6fiddle.net |
-
-</details>

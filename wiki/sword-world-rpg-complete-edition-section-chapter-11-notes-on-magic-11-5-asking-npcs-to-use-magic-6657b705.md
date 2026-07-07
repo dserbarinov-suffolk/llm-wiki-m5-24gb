@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-6657b705
 page_kind: source
-summary: Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic: 27 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic: 25 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-6657b705@dfe2631b4fa81825a2581c43032e8efb
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-6657b705@257850bd3ebe0c9b031e6d7299f261d9
 ---
 
 # Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic
@@ -37,66 +37,3 @@ From [[sword-world-rpg-complete-edition]].
 - For such requests, you usually give 10% to 30% as advance payment. If the magic use fails , you do not have to pay the remainder. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05282))_
 - Think about when you use Resurrection to bring back a friend who lost their life on an adventure. Let's say you have a corpse that's been dead for 5 days, but has been preserved via Preservation . At this time, the final score required for resurrection is 19. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05284))_
 - You successfully find a 10th level priest and the negotiations are settled. If you want to cast Resurrection normally, the required money is 10 (priest's level) x 45 (base mental power cost for Resurrection ) x 20 = 9000 (gamels). However, assuming the priest's intelligence bonus is +2 , a 2D roll of 7 or greater is required for a successful resurrection. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05285))_
-
-## Technical atoms
-
-### Technical frame 1: Table 11-2: NPC Presence by Level.
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05269))_
-
-> Basically, you can expect to meet any rune master up to 2 levels higher than the adventurers' adventurer level. If you want to meet someone at a higher level, you'll need some connections on the side.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05267))_
-
-<a id="atom-technical-atom-85c278f6038583eb"></a>
-```text
-Table 11-2: NPC Presence by Level.
-                                    The market price is NPC's rune master      You successfully find a 10th level
-  Once you have found such a rune
-                                    skill level x base mental power cost for   priest and the negotiations are settled. If
- master, you  must  next  determine
-                                    magic x 20. If you have the magic    you want to cast Resurrection normally,
- whether or not your request will be
-                                    expanded, the price will increase by    the required money is 10 (priest's level) x
- granted. The   higher-ranking rune
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| The market price is NPC's rune master | You successfully find a 10th level |
-| --- | --- |
-| skill level x base mental power cost for | priest and the negotiations are settled. If |
-| master, you | must |
-| magic x 20. If you have the magic | you want to cast Resurrection normally, |
-| expanded, the price will increase by | the required money is 10 (priest's level) x |
-| granted. The | higher-ranking rune |
-
-</details>
-
-### Technical frame 2: Table 11-2: NPC Presence by Level
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05269))_
-
-> Basically, you can expect to meet any rune master up to 2 levels higher than the adventurers' adventurer level. If you want to meet someone at a higher level, you'll need some connections on the side.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05270))_
-
-<a id="atom-technical-atom-591e826fc1061e10"></a>
-| You | may | want | to | have | a | Remove | Curse | 7th | level | Large | city | in | a | large | country, | royal | capital | level | of | a | small | country |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| cast Resurrection have | on a | you magical | when cast | when item | you're someone appraised | cursed, | a dies, or using | 5th 3rd | level level | Moderate Town | of | city around |  | 1000 | people |  |  |  |  |  |  |  |
-| Analyze | Of | Enchantment. course, | these |  | services |  | are not | 1st | level | All | but the | most |  | remote | village |  |  |  |  |  |  |  |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 11-2: NPC Presence by Level
-| You | may | want | to | have | a | Remove | Curse | 7th | level | Large | city | in | a | large | country, | royal | capital | level | of | a | small | country |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| cast Resurrection have | on a | you magical | when cast | when item | you're someone appraised | cursed, | a dies, or using | 5th 3rd | level level | Moderate Town | of | city around |  | 1000 | people |  |  |  |  |  |  |  |
-| Analyze | Of | Enchantment. course, | these |  | services |  | are not | 1st | level | All | but the | most |  | remote | village |  |  |  |  |  |  |  |
-```
-
-</details>

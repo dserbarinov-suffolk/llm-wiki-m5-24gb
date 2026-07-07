@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-method
 page_kind: concept
-summary: Method: 10 statement(s) and 18 atom(s) from raw/javascriptallonge.pdf.
+summary: Method: 10 statement(s) and 14 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-method@93ebb39e9b27ecc65ee261f9c623ad0b
+projection_coverage: topic-javascriptallonge-method@12528498626f071b3f9474937986cb9f
 ---
 
 # Method
@@ -51,86 +51,7 @@ What [[javascriptallonge]] covers about method:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / Building Blocks / partial application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00588))_
-
-> Wegeneralized composition with the compose combinator. Partial application also has a combinator, which we'll see in the partial recipe.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00585))_
-
-<a id="atom-technical-atom-8f517a4c4e32b9dc"></a>
-```text
-39 http://underscorejs.org
-41 If we don't want to sort out Underscore, we can also write the following: const map = (a, fn) => a.map(fn); , and trust that it works even though we haven't discussed methods yet.
-40 Modern JavaScript implementations provide a map method for arrays, but Underscore's implementation also works with older browsers if you are working with that headache.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 39 | http://underscorejs.org |
-| 41 | If we don't want to sort out Underscore, we can also write the following: const map = (a, fn) => a.map(fn);, and trust that it works even though we haven't discussed methods yet. |
-| 40 | Modern JavaScript implementations provide a map method for arrays, but Underscore's implementation also works with older browsers if you are working with that headache. |
-
-</details>
-
-### Technical frame 2: Composing and Decomposing Data / Tail Calls (and Default Arguments)
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00946))_
-
-> Is there a better way? Yes. In fact, there are several better ways. Making algorithms faster is a very highly studied field of computer science. The one we're going to look at here is called tail-call optimization , or 'TCO.'
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00945))_
-
-<a id="atom-technical-atom-4b62e9e27a52fdc6"></a>
-```
-mapWith((x) => x * x, [
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
-30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
-40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
-50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
-60, 61, 62, 63, 64, 65, 66, 67, 68, 69,
-70, 71, 72, 73, 74, 75, 76, 77, 78, 79,
-80, 81, 82, 83, 84, 85, 86, 87, 88, 89,
-90, 91, 92, 93, 94, 95, 96, 97, 98, 99,
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
-30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
-40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
-50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
-60, 61, 62, 63, 64, 65, 66, 67, 68, 69,
-70, 71, 72, 73, 74, 75, 76, 77, 78, 79,
-80, 81, 82, 83, 84, 85, 86, 87, 88, 89,
-90, 91, 92, 93, 94, 95, 96, 97, 98, 99
-])
-//=> ???
-```
-
-### Technical frame 3: Recipes with Data / Flip / flipping methods
+### Technical frame 1: Recipes with Data / Flip / flipping methods
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01443))_
 
@@ -162,7 +83,7 @@ return fn.call(this, second, first);
 };
 ```
 
-### Technical frame 4: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 2: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01532))_
 
@@ -210,45 +131,7 @@ return {done: false, value: this.array[iterationIndex--]}
 const stack = Stack3();
 ```
 
-### Technical frame 5: Served by the Pot: Collections / Iteration and Iterables / iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01532))_
-
-> The for...of loop works directly with any object that is iterable , meaning it works with any object that has a Symbol.iterator method that returns an object iterator. Here's another linked list, this one is iterable:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01531))_
-
-<a id="atom-technical-atom-16d5c5eff09bed36"></a>
-```
-stack.push(2000);
-stack.push(10);
-stack.push(5)
-const collectionSum = (collection) => {
-const iterator = collection[Symbol.iterator]();
-let eachIteration,
-sum = 0;
-while ((eachIteration = iterator.next(), !eachIteration.done)) {
-sum += eachIteration.value;
-}
-return sum
-}
-collectionSum(stack)
-//=> 2015
-Using [Symbol.iterator] instead of .iterator seems like adding an extra moving part for nothing.
-Do we get anything in return?
-Indeed we do. Behold the for...of loop:
-const iterableSum = (iterable) => {
-let sum = 0;
-for (const num of iterable) {
-sum += num;
-}
-return sum
-}
-iterableSum(stack)
-//=> 2015
-```
-
-### Technical frame 6: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 3: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01534))_
 
@@ -294,7 +177,7 @@ iterableSum(someSquares)
 //=> 55
 ```
 
-### Technical frame 7: Served by the Pot: Collections / Generating Iterables
+### Technical frame 4: Served by the Pot: Collections / Generating Iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01599))_
 
@@ -305,7 +188,7 @@ iterableSum(someSquares)
 <a id="atom-technical-atom-8ca85058badf52a7"></a>
 > Iterators have to arrange its own state such that when you call them, they compute and return the next item.
 
-### Technical frame 8: Served by the Pot: Collections / Generating Iterables / javascript's generators
+### Technical frame 5: Served by the Pot: Collections / Generating Iterables / javascript's generators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01637))_
 
@@ -321,7 +204,7 @@ empty().next()
 {"done":true}
 ```
 
-### Technical frame 9: Served by the Pot: Collections / Generating Iterables / generators and iterables
+### Technical frame 6: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01684))_
 
@@ -340,7 +223,7 @@ yield 3
 }
 ```
 
-### Technical frame 10: Served by the Pot: Collections / Generating Iterables / more generators
+### Technical frame 7: Served by the Pot: Collections / Generating Iterables / more generators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01695))_
 
@@ -381,7 +264,7 @@ console.log(i);
 ...
 ```
 
-### Technical frame 11: Served by the Pot: Collections / Generating Iterables / yielding iterables
+### Technical frame 8: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01701))_
 
@@ -419,7 +302,7 @@ console.log(i);
 5
 ```
 
-### Technical frame 12: Served by the Pot: Collections / Generating Iterables / yielding iterables
+### Technical frame 9: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01705))_
 
@@ -452,34 +335,7 @@ console.log(i);
 5
 ```
 
-### Technical frame 13: Lazy and Eager Collections / lazy collection operations
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01761))_
-
-> This expression begins with a stack containing 30 elements. The top two are 29 and 28 . It maps to the squares of all 30 numbers, but our code for mapping an iteration returns an iterable that can iterate over the squares of our numbers, not an array or stack of the squares. Same with .filter , we get an iterable that can iterate over the even squares, but not an actual stack or array.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01760))_
-
-<a id="atom-technical-atom-25a90abc89f4f9aa"></a>
-```
-Stack.from([ 0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-20, 21, 22, 23, 24, 25, 26, 27, 28, 29])
-.map((x) => x * x)
-.filter((x) => x % 2 == 0)
-.first()
-```
-
-### Technical frame 14: Lazy and Eager Collections / eager collections
+### Technical frame 10: Lazy and Eager Collections / eager collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01776))_
 
@@ -502,7 +358,7 @@ return consumer
 };
 ```
 
-### Technical frame 15: Lazy and Eager Collections / eager collections
+### Technical frame 11: Lazy and Eager Collections / eager collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01776))_
 
@@ -550,7 +406,7 @@ if (fn(element)) return element;
 until(fn) {
 ```
 
-### Technical frame 16: Lazy and Eager Collections / eager collections
+### Technical frame 12: Lazy and Eager Collections / eager collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01776))_
 
@@ -598,7 +454,7 @@ yield element;
 });
 ```
 
-### Technical frame 17: Lazy and Eager Collections / eager collections
+### Technical frame 13: Lazy and Eager Collections / eager collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01776))_
 
@@ -642,7 +498,7 @@ Pair.from([1, 2, 3, 4, 5]).map(x => x * 2)
 //=>
 ```
 
-### Technical frame 18: Lazy and Eager Collections / eager collections
+### Technical frame 14: Lazy and Eager Collections / eager collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01776))_
 
@@ -670,14 +526,14 @@ Pair.from([1, 2, 3, 4, 5]).map(x => x * 2)
 
 ### Shared technical atoms
 
-- [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Object shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (2 shared statement(s), 7 shared atom(s))
-- [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects / Like this:: Now our .iterator() method is returning an iterator object. When working with objects, we do things the object way. But having started by building functional iterato ... [truncated]; Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (3 shared statement(s), 6 shared atom(s))
+- [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Object shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (2 shared statement(s), 6 shared atom(s))
+- [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects / Like this:: Now our .iterator() method is returning an iterator object. When working with objects, we do things the object way. But having started by building functional iterato ... [truncated]; Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (3 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Lazy and Eager Collections / eager collections: const extend = function (consumer, ...providers) { for (let i = 0; i < providers.length; ++i) { const provider = providers[i]; for (let key in provider) { if (provid ... [truncated] (5 shared atom(s))
 - [[javascriptallonge-eager-collection]] - shared technical atoms: Eager Collection shares technical record from Lazy and Eager Collections / eager collections: const extend = function (consumer, ...providers) { for (let i = 0; i < providers.length; ++i) { const provider = providers[i]; for (let key in provider) { if (provid ... [truncated] (3 shared atom(s))
-- [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (3 shared atom(s))
-- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Served by the Pot: Collections / Generating Iterables / javascript's generators: function * empty () {}; empty().next() //=> {"done":true} (3 shared atom(s))
-- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Expression shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (1 shared statement(s), 2 shared atom(s))
 - [[javascriptallonge-iterable]] - shared technical atoms: Iterable shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const EMPTY = { isEmpty: () => true }; const isEmpty = (node) => node === EMPTY; const Pair1 = (first, rest = EMPTY) => ({ first, rest, isEmpty () { return false }, ... [truncated] (2 shared atom(s))
+- [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (2 shared atom(s))
+- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Served by the Pot: Collections / Generating Iterables / javascript's generators: function * empty () {}; empty().next() //=> {"done":true} (2 shared atom(s))
+- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Expression shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (1 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 

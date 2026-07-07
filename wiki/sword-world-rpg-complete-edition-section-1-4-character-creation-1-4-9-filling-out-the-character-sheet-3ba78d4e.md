@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-3ba78d4e
 page_kind: source
-summary: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet: 19 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet: 18 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-3ba78d4e@575ff2010b61f3245cff675160a17962
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-3ba78d4e@d2efd9b638daa9c89bf94fcbb52e0f32
 ---
 
 # 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
@@ -74,38 +74,3 @@ From [[sword-world-rpg-complete-edition]].
 
 - The character sheet is not completely filled out yet. However, to fill in anything other than what's explained here, you must understand the rules a bit more in detail. So for now, this is the end of the instructions for filling out the sheet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00900))_
 - The other sections will be explained as necessary in the coming rules. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00901))_
-
-## Technical atoms
-
-### Technical frame 1: Table 1-5: Backgrounds or Table 1-6: highest adventurer skill level. Write this
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00860))_
-
-<a id="atom-technical-atom-070c5770a85c5ed7"></a>
-```text
-Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write this
- record and list various character details.
-                                    Starting Experience by Race in the    number down.
- This will help keep the game running
-                                    experience points field.
- smoothly.
-  In fact, a Character Sheet saves time
-                                                                         [⑮   Purchase   Equipment]
- and eliminates mistakes in character
-                                     [
-                                         ⑧
-                                             Starting   Skills   ]
-                                                                           Use  your  money  to  purchase
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| Table 1-5: Backgrounds or Table 1-6: | highest adventurer skill level. Write this |
-| --- | --- |
-| Starting Experience by Race in the | number down. |
-| [⑮ | Purchase |
-| Starting | Skills |
-| Use | your |
-
-</details>

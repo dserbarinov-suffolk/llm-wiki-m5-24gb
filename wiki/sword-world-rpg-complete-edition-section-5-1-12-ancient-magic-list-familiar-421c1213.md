@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-familiar-421c1213
 page_kind: source
-summary: 5.1.12 Ancient Magic List / [ Familiar ]: 26 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.12 Ancient Magic List / [ Familiar ]: 25 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-familiar-421c1213@d8f26f76eadb906ab3d6678af1d7db81
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-familiar-421c1213@63c5c5c86a0f02606a334ee2f34692fa
 ---
 
 # 5.1.12 Ancient Magic List / [ Familiar ]
@@ -75,30 +75,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-257cc74d5c157399"></a>
 > Of course, you cannot make a substitution that would cause mental points to become negative, and a familiar whose mental points reach 0 will lose consciousness.
-
-### Technical frame 4: Table 5-2: Familiars
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02064))_
-
-> The caster can also borrow mental points from their familiar to cast spells. In this case, the mental power that would've been consumed by the caster will instead be reduced from the familiar's mental points. Of course, you cannot make a substitution that would cause mental points to become negative, and a familiar whose mental points reach 0 will lose consciousness.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02065))_
-
-<a id="atom-technical-atom-5b20227110b893af"></a>
-| Category | Frog | 2 | 2 | Can | see | things | over | a | wide | range |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | Area=1 specific animal Dove | 3 | 3 |  |  |  | Can fly |  |  |  |
-| Duration=Permanent | Crow | 3 | 4 |  |  |  | Can fly |  |  |  |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 5-2: Familiars
-| Category | Frog | 2 | 2 | Can | see | things | over | a | wide | range |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | Area=1 specific animal Dove | 3 | 3 |  |  |  | Can fly |  |  |  |
-| Duration=Permanent | Crow | 3 | 4 |  |  |  | Can fly |  |  |  |
-```
-
-</details>

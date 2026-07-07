@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-03a359ee
 page_kind: source
-summary: 5.1.14 Spirit Magic List: 36 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.14 Spirit Magic List: 36 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-03a359ee@ae30b2429c6f47c2c4743f3bad7f6879
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-03a359ee@5732add9aa18ac37acb1d8d307c57863
 ---
 
 # 5.1.14 Spirit Magic List
@@ -80,70 +80,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-e9a04e34a8d8aaf3"></a>
 > Resist=None
-
-### Technical frame 2: Table 5-5: Fears
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03003))_
-
-<a id="atom-technical-atom-ee1cdc49b10b71af"></a>
-| The | target | goes | berserk | from | a | state | of | panic. | Attack | points | +2, | evasion | points | -4. | Even | those | with | intelligence | can | no | longer | act | rationally | and |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2 cannot 3 Same | as | use magic, above | etc. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| 4 Target | is | struck | by panic | and | is | prevented |  |  | from taking | action. |  | Take | a -1 penalty |  | on all | success | rolls |  |  |  |  |  |  |  |
-| 5 Same | as | above, | but penalty |  | is -2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| 6 Same | as | above, | but penalty |  | is -3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 5-5: Fears
-| The | target | goes | berserk | from | a | state | of | panic. | Attack | points | +2, | evasion | points | -4. | Even | those | with | intelligence | can | no | longer | act | rationally | and |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2 cannot 3 Same | as | use magic, above | etc. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| 4 Target | is | struck | by panic | and | is | prevented |  |  | from taking | action. |  | Take | a -1 penalty |  | on all | success | rolls |  |  |  |  |  |  |  |
-| 5 Same | as | above, | but penalty |  | is -2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| 6 Same | as | above, | but penalty |  | is -3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-```
-
-</details>
-
-### Technical frame 3: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit) / [ Tunnel ] (Gnome/Earth Spirit)
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03010))_
-
-<a id="atom-technical-atom-b3ecd670e8472631"></a>
-```text
-4 Target is struck by panic and is prevented from taking action. Take a -1 penalty on all success rolls
-5
-Same as above, but penalty is -2
-6
-Same as above, but penalty is -3
-7 Target runs away. They go berserk if that's not possible.
-8
-Target runs away. If that's not possible, they act with a -3 penalty
-9
-Target runs away. If that's not possible, they freeze in fear and become unable to act
-10
-Target freezes in fear. They become unable to act
-11
-Same as above
-12 Target loses consciousness from fear. It takes 1 hour to regain consciousness naturally
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 4 | Target is struck by panic and is prevented from taking action. Take a -1 penalty on all success rolls |
-| 5 | Same as above, but penalty is -2 |
-| 6 | Same as above, but penalty is -3 |
-| 7 | Target runs away. They go berserk if that's not possible. |
-| 8 | Target runs away. If that's not possible, they act with a -3 penalty |
-| 9 | Target runs away. If that's not possible, they freeze in fear and become unable to act |
-| 10 | Target freezes in fear. They become unable to act |
-| 11 | Same as above |
-| 12 | Target loses consciousness from fear. It takes 1 hour to regain consciousness naturally |
-
-</details>

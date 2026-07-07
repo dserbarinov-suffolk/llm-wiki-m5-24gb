@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-cd5a8622
 page_kind: source
-summary: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table: 1 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table: 1 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-cd5a8622@f18da5834a7d1238b870dd1a3f9c563d
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-cd5a8622@86aa08473fde07dde5137b8b6c3b9c06
 ---
 
 # 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table
@@ -76,19 +76,3 @@ Destruction Points
 ```
 
 </details>
-
-### Technical frame 2: Table 18-2 Types of Magic
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10512))_
-
-> When it comes to destroying structures, some weapons and magic are completely unsuitable, while conversely, others are extremely effective. This is expressed by what's given here.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10506))_
-
-<a id="atom-technical-atom-a3cf598a37cc6719"></a>
-```text
-Table 18-2 Types of Magic
- its destruction points begin to decrease,
- and on  the next round  when          Fire-type                   Firebolt, Fireball, Firestorm
- destruction points reach 1, the paper
-```

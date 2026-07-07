@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-literal
 page_kind: concept
-summary: Literal: 13 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
+summary: Literal: 13 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-literal@5b377939451faf06e851b84c052557b1
+projection_coverage: topic-javascriptallonge-literal@d94c3fdd1384d6d1dd65e8114a2126fd
 ---
 
 # Literal
@@ -118,41 +118,7 @@ array_of_one() === array_of_one()
 //=> ["foo","bar","baz"]
 ```
 
-### Technical frame 5: Composing and Decomposing Data / Self-Similarity
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00877))_
-
-> Armed with our definition of an empty list and with what we've already learned, we can build a great many functions that operate on arrays. We know that we can get the length of an array using its .length . But as an exercise, how would we write a length function using just what we have already?
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00875))_
-
-<a id="atom-technical-atom-335bb0c71c306c75"></a>
-```
-const [first, ...rest] = [];
-first
-//=> undefined
-rest
-//=> []:
-const [first, ...rest] = ["foo"];
-first
-//=> "foo"
-rest
-//=> []
-const [first, ...rest] = ["foo", "bar"];
-first
-//=> "foo"
-rest
-//=> ["bar"]
-const [first, ...rest] = ["foo", "bar", "baz"];
-first
-//=> "foo"
-rest
-//=> ["bar","baz"]
-For the purpose of this exploration, we will presume the following:61
-const isEmpty = ([first, ...rest]) => first === undefined;
-```
-
-### Technical frame 6: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+### Technical frame 5: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01479))_
 
@@ -168,7 +134,7 @@ const isEmpty = ([first, ...rest]) => first === undefined;
 //=> 'fizzbuzz'
 ```
 
-### Technical frame 7: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+### Technical frame 6: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01482))_
 
@@ -182,7 +148,7 @@ const isEmpty = ([first, ...rest]) => first === undefined;
 //=> 'A popular number for nerds is 42'
 ```
 
-### Technical frame 8: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+### Technical frame 7: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01485))_
 
@@ -196,7 +162,7 @@ const isEmpty = ([first, ...rest]) => first === undefined;
 //=> 'A popular number for nerds is 42'
 ```
 
-### Technical frame 9: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+### Technical frame 8: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01485))_
 
@@ -218,10 +184,10 @@ const isEmpty = ([first, ...rest]) => first === undefined;
 - [[javascriptallonge-quasi]] - shared statements and technical atoms: Quasi shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (5 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from Composing and Decomposing Data / Self-Similarity: We saw that the basic idea that putting an array together with a literal array expression was the reverse or opposite of taking it apart with a destructuring assignment.; Expression shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (2 shared statement(s), 4 shared atom(s))
 - [[javascriptallonge-array]] - shared statements and technical atoms: Array shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: Array literals are expressions, and arrays are reference types . We can see that each time an array literal is evaluated, we get a new, distinct array, even if it co ... [truncated]; Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: [] //=> [] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (2 shared atom(s))
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" ... [truncated]; Javascript shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: [] //=> [] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-string]] - shared statements and technical atoms: String shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; String shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-element]] - shared technical atoms: Element shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (1 shared atom(s))
+- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (1 shared atom(s))
 - [[javascriptallonge-programming]] - shared technical atoms: Programming shares technical record from A Rich Aroma: Basic Numbers: The machine's representation of a number almost never lines up perfectly with our understanding of how a number behaves, and thus there will be places where the comp ... [truncated] (1 shared atom(s))
 
 ### Shared claims

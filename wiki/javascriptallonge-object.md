@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-object
 page_kind: concept
-summary: Object: 19 statement(s) and 28 atom(s) from raw/javascriptallonge.pdf.
+summary: Object: 19 statement(s) and 22 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-object@fb175edecaac9f97b10f178b7b8eba9e
+projection_coverage: topic-javascriptallonge-object@47c752efa7475f74680edd369ec91fb9
 ---
 
 # Object
@@ -83,31 +83,7 @@ What [[javascriptallonge]] covers about object:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / Magic Names / the function keyword
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
-
-> The most common use of the arguments binding is to build functions that can take a variable number of arguments. We'll see it used in many of the recipes, starting off with partial application and ellipses.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00598))_
-
-<a id="atom-technical-atom-5bb18c52a0c78571"></a>
-```text
-42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
-43 We'll look at arrays and plain old javascript objects in depth later.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 42 | You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. |
-| 43 | We'll look at arrays and plain old javascript objects in depth later. |
-
-</details>
-
-### Technical frame 2: Plain Old JavaScript Objects / literal object syntax
+### Technical frame 1: Plain Old JavaScript Objects / literal object syntax
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01054))_
 
@@ -120,7 +96,7 @@ What [[javascriptallonge]] covers about object:
 { year: 2012, month: 6, day: 14 }
 ```
 
-### Technical frame 3: Plain Old JavaScript Objects / literal object syntax
+### Technical frame 2: Plain Old JavaScript Objects / literal object syntax
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01056))_
 
@@ -137,7 +113,7 @@ Objects use [] to access the values by name, using a string:
 //=> 14
 ```
 
-### Technical frame 4: Plain Old JavaScript Objects / literal object syntax
+### Technical frame 3: Plain Old JavaScript Objects / literal object syntax
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01058))_
 
@@ -156,7 +132,7 @@ o['a'] === x && o['b'] === y && o['c'] === z
 //=> true
 ```
 
-### Technical frame 5: Plain Old JavaScript Objects / literal object syntax
+### Technical frame 4: Plain Old JavaScript Objects / literal object syntax
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01072))_
 
@@ -186,59 +162,7 @@ return cyphertext
 }
 ```
 
-### Technical frame 6: Plain Old JavaScript Objects / destructuring objects
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01079))_
-
-> Terrible grammar and capitalization, but let's move on. It is very common to write things like title: title when destructuring objects. When the label is a valid variable name, it's often the most obvious variable name as well. So JavaScript supports a further syntactic optimization:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01075))_
-
-<a id="atom-technical-atom-7e6f1f63a68d677c"></a>
-```
-const user = {
-name: { first: "Reginald",
-last: "Braithwaite"
-},
-occupation: { title: "Author",
-responsibilities: [ "JavaScript Allongé",
-"JavaScript Spessore",
-"CoffeeScript Ristretto"
-]
-}
-};
-user.name.last
-//=> "Braithwaite"
-user.occupation.title
-//=> "Author"
-And we can also write:
-const {name: { first: given, last: surname}, occupation: { title: title }
-er;
-surname
-//=> "Braithwaite"
-title
-//=> "Author"
-```
-
-### Technical frame 7: Plain Old JavaScript Objects / destructuring objects
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01079))_
-
-> Terrible grammar and capitalization, but let's move on. It is very common to write things like title: title when destructuring objects. When the label is a valid variable name, it's often the most obvious variable name as well. So JavaScript supports a further syntactic optimization:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01080))_
-
-<a id="atom-technical-atom-154953666ca27427"></a>
-```
-const description = ({name: { first }, occupation: { title } }) =>
-`${first} is a ${title}`;
-description(user)
-//=> "Reginald is a Author"
-And that same syntax works for literals:
-const abbrev = ({name: { first, last }, occupation: { title } }) => {
-```
-
-### Technical frame 8: Plain Old JavaScript Objects / destructuring objects
+### Technical frame 5: Plain Old JavaScript Objects / destructuring objects
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01079))_
 
@@ -255,7 +179,7 @@ abbrev(user)
 //=> {"first":"Reginald","last":"Braithwaite","title":"Author"}
 ```
 
-### Technical frame 9: Plain Old JavaScript Objects / revisiting linked lists
+### Technical frame 6: Plain Old JavaScript Objects / revisiting linked lists
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01088))_
 
@@ -270,35 +194,7 @@ In that case, a linked list of the numbers 1, 2, and 3 will look like this: { fi
 We can then perform the equivalent of [first, ...rest] with direct property accessors:
 ```
 
-### Technical frame 10: Plain Old JavaScript Objects / revisiting linked lists
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01088))_
-
-> What about mapping? Well, let's start with the simplest possible thing, making a copy of a list. As we saw above, and discussed in Garbage, Garbage Everywhere, it is fast to iterate forward through a linked list. What isn't fast is naïvely copying a list:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01087))_
-
-<a id="atom-technical-atom-047a1c592c0a9923"></a>
-```
-const EMPTY = {};
-const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
-} } };
-OneTwoThree.first
-//=> 1
-OneTwoThree.rest
-//=> {"first":2,"rest":{"first":3,"rest":{}}}
-OneTwoThree.rest.rest.first
-//=> 3
-Taking the length of a linked list is easy:
-const length = (node, delayed = 0) =>
-node === EMPTY
-? delayed
-: length(node.rest, delayed + 1);
-length(OneTwoThree)
-//=> 3
-```
-
-### Technical frame 11: Mutation
+### Technical frame 7: Mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01105))_
 
@@ -314,7 +210,7 @@ oneTwoThree
 //=> [ 'one', 2, 3 ]
 ```
 
-### Technical frame 12: Mutation
+### Technical frame 8: Mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01105))_
 
@@ -334,7 +230,7 @@ lastName: 'Braithwaite',
 middleName: 'Austin' }
 ```
 
-### Technical frame 13: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
+### Technical frame 9: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01511))_
 
@@ -383,7 +279,7 @@ stack.push("to");
 stack.push("you!")
 ```
 
-### Technical frame 14: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
+### Technical frame 10: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01511))_
 
@@ -400,7 +296,7 @@ iter().value
 //=> "to"
 ```
 
-### Technical frame 15: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
+### Technical frame 11: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01513))_
 
@@ -423,7 +319,7 @@ collectionSum(stack)
 //=> 6
 ```
 
-### Technical frame 16: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 12: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01532))_
 
@@ -471,45 +367,7 @@ return {done: false, value: this.array[iterationIndex--]}
 const stack = Stack3();
 ```
 
-### Technical frame 17: Served by the Pot: Collections / Iteration and Iterables / iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01532))_
-
-> The for...of loop works directly with any object that is iterable , meaning it works with any object that has a Symbol.iterator method that returns an object iterator. Here's another linked list, this one is iterable:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01531))_
-
-<a id="atom-technical-atom-16d5c5eff09bed36"></a>
-```
-stack.push(2000);
-stack.push(10);
-stack.push(5)
-const collectionSum = (collection) => {
-const iterator = collection[Symbol.iterator]();
-let eachIteration,
-sum = 0;
-while ((eachIteration = iterator.next(), !eachIteration.done)) {
-sum += eachIteration.value;
-}
-return sum
-}
-collectionSum(stack)
-//=> 2015
-Using [Symbol.iterator] instead of .iterator seems like adding an extra moving part for nothing.
-Do we get anything in return?
-Indeed we do. Behold the for...of loop:
-const iterableSum = (iterable) => {
-let sum = 0;
-for (const num of iterable) {
-sum += num;
-}
-return sum
-}
-iterableSum(stack)
-//=> 2015
-```
-
-### Technical frame 18: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 13: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01534))_
 
@@ -555,7 +413,7 @@ iterableSum(someSquares)
 //=> 55
 ```
 
-### Technical frame 19: Served by the Pot: Collections / Generating Iterables
+### Technical frame 14: Served by the Pot: Collections / Generating Iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01599))_
 
@@ -566,7 +424,7 @@ iterableSum(someSquares)
 <a id="atom-technical-atom-8ca85058badf52a7"></a>
 > Iterators have to arrange its own state such that when you call them, they compute and return the next item.
 
-### Technical frame 20: Served by the Pot: Collections / Generating Iterables / generators and iterables
+### Technical frame 15: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
 
@@ -577,7 +435,7 @@ iterableSum(someSquares)
 <a id="atom-technical-atom-7ca2d5da0f09f056"></a>
 > If we call our generator function more than once, we get new iterators.
 
-### Technical frame 21: Served by the Pot: Collections / Generating Iterables / generators and iterables
+### Technical frame 16: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01684))_
 
@@ -596,7 +454,7 @@ yield 3
 }
 ```
 
-### Technical frame 22: Served by the Pot: Collections / Generating Iterables / yielding iterables
+### Technical frame 17: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01701))_
 
@@ -634,7 +492,7 @@ console.log(i);
 5
 ```
 
-### Technical frame 23: Served by the Pot: Collections / Generating Iterables / yielding iterables
+### Technical frame 18: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01705))_
 
@@ -645,7 +503,7 @@ console.log(i);
 <a id="atom-technical-atom-56d4d47f5e80ca55"></a>
 > But if you can write it as a simple generator, write it as a simple generator.
 
-### Technical frame 24: Served by the Pot: Collections / Generating Iterables / yielding iterables
+### Technical frame 19: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01705))_
 
@@ -678,7 +536,7 @@ console.log(i);
 5
 ```
 
-### Technical frame 25: Lazy and Eager Collections / implementing methods with iteration
+### Technical frame 20: Lazy and Eager Collections / implementing methods with iteration
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01746))_
 
@@ -702,7 +560,7 @@ const EMPTY = {
 isEmpty: () => true
 ```
 
-### Technical frame 26: Lazy and Eager Collections / implementing methods with iteration
+### Technical frame 21: Lazy and Eager Collections / implementing methods with iteration
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01746))_
 
@@ -748,7 +606,7 @@ index: -1,
 push: function (value) {
 ```
 
-### Technical frame 27: Lazy and Eager Collections / implementing methods with iteration
+### Technical frame 22: Lazy and Eager Collections / implementing methods with iteration
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01746))_
 
@@ -802,14 +660,14 @@ return stack;
 
 ### Shared technical atoms
 
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Plain Old JavaScript Objects: In JavaScript, an object is a map from string keys to values.; Javascript shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: { year: 2012, month: 6, day: 14 } (3 shared statement(s), 8 shared atom(s))
-- [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: Fortunately, an iterator object is almost as simple as an iterator function. Instead of having a function that you call to get the next element, you have an object w ... [truncated]; Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (5 shared statement(s), 6 shared atom(s))
-- [[javascriptallonge-method]] - shared statements and technical atoms: Method shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Method shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (2 shared statement(s), 7 shared atom(s))
-- [[javascriptallonge-iteration]] - shared statements and technical atoms: Iteration shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: Iteration for functions and objects has been around for many, many decades. For simple linear collections like arrays, linked lists, stacks, and queues, functional i ... [truncated]; Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (1 shared statement(s), 6 shared atom(s))
-- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Expression shares technical record from Plain Old JavaScript Objects / literal object syntax: const SecretDecoderRing = { encode (plaintext) { return plaintext .split('') .map( char => char.charCodeAt() ) .map( code => code + 1 ) .map( code => String.fromChar ... [truncated] (1 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: Fortunately, an iterator object is almost as simple as an iterator function. Instead of having a function that you call to get the next element, you have an object w ... [truncated]; Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (5 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-method]] - shared statements and technical atoms: Method shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Method shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (2 shared statement(s), 6 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Plain Old JavaScript Objects: In JavaScript, an object is a map from string keys to values.; Javascript shares technical record from Plain Old JavaScript Objects / literal object syntax: { year: 2012, month: 6, day: 14 } (3 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-iteration]] - shared statements and technical atoms: Iteration shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: Iteration for functions and objects has been around for many, many decades. For simple linear collections like arrays, linked lists, stacks, and queues, functional i ... [truncated]; Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (1 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Functional Iterators shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-return]] - shared statements and technical atoms: Return shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Return shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-iterable]] - shared statements and technical atoms: Iterable shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The for...of loop works directly with any object that is iterable , meaning it works with any object that has a Symbol.iterator method that returns an object iterato ... [truncated]; Iterable shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const EMPTY = { isEmpty: () => true }; const isEmpty = (node) => node === EMPTY; const Pair1 = (first, rest = EMPTY) => ({ first, rest, isEmpty () { return false }, ... [truncated] (2 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Expression shares technical record from Plain Old JavaScript Objects / literal object syntax: const SecretDecoderRing = { encode (plaintext) { return plaintext .split('') .map( char => char.charCodeAt() ) .map( code => code + 1 ) .map( code => String.fromChar ... [truncated] (1 shared statement(s), 2 shared atom(s))
 
 ### Shared claims
 

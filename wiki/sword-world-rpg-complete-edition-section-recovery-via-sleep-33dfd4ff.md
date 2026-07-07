@@ -8,18 +8,12 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-recovery-via-sleep-33dfd4ff@20489349e9e72f2f54f6ad0daad6645a
+projection_coverage: section-sword-world-rpg-complete-edition-section-recovery-via-sleep-33dfd4ff@32c50e98ecc6646025bf98b7b5400a13
 ---
 
 # 《 Recovery via Sleep 》
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-5-1-7-magic-expansion-8e2b18ab]] - next source section: 5.1.7 Magic Expansion
 
 ## Statements
 

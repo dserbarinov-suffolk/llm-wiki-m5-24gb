@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-94f83dae
 page_kind: source
-summary: Served by the Pot: Collections / Iteration and Iterables / iterables: 22 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+summary: Served by the Pot: Collections / Iteration and Iterables / iterables: 21 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

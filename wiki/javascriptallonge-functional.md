@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-functional
 page_kind: concept
-summary: Functional: 4 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
+summary: Functional: 4 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-functional@1079a96bfcab041c6396c8311dff0ae0
+projection_coverage: topic-javascriptallonge-functional@1a1fd83b02cd0a4f21e9ac5c7ef9126c
 ---
 
 # Functional
@@ -31,80 +31,7 @@ What [[javascriptallonge]] covers about functional:
 
 ## Technical atoms
 
-### Technical frame 1: Recipes with Basic Functions / Partial Application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00643))_
-
-> These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want to leave a 'hole' in the argument list, you will need to either use a generalized partial recipe, or you will need to repeatedly apply arguments. They are context-agnostic.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00642))_
-
-<a id="atom-technical-atom-83e28a0f45b81408"></a>
-```text
-Partial Application
-In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libraries provide some form of partial application. You'll find examples in Lemonad 45 from Michael Fogus, Functional JavaScript 46 from Oliver Steele and the terse but handy node-ap 47 from James Halliday.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 45 | from Michael Fogus, Functional JavaScript |
-| 46 | from Oliver Steele and the terse but handy node-ap |
-| 47 | from James Halliday. |
-
-</details>
-
-### Technical frame 2: Recipes with Basic Functions / Partial Application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00648))_
-
-> We take it a step further, and can use gathering and spreading to allow for partial application with more than one argument:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00646))_
-
-<a id="atom-technical-atom-695bbaa3f7cd2b31"></a>
-```text
-45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 45 | https://github.com/fogus/lemonad |
-| 46 | http://osteele.com/sources/javascript/functional/ |
-| 47 | https://github.com/substack/node-ap 48 |
-
-</details>
-
-### Technical frame 3: Recipes with Basic Functions / Maybe
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00683))_
-
-> Naturally, there's a function decorator recipe for that, borrowed from Haskell's maybe monad 50 , Ruby's andand 51 , and CoffeeScript's existential method invocation:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00685))_
-
-<a id="atom-technical-atom-629b95f90576bfd6"></a>
-```text
-50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad
-51 https://github.com/raganwald/andand
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 50 | https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad |
-| 51 | https://github.com/raganwald/andand |
-
-</details>
-
-### Technical frame 4: Served by the Pot: Collections / Generating Iterables
+### Technical frame 1: Served by the Pot: Collections / Generating Iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01599))_
 
@@ -115,7 +42,7 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 <a id="atom-technical-atom-8ca85058badf52a7"></a>
 > Iterators have to arrange its own state such that when you call them, they compute and return the next item.
 
-### Technical frame 5: Served by the Pot: Collections / Generating Iterables / recursive iterators
+### Technical frame 2: Served by the Pot: Collections / Generating Iterables / recursive iterators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01613))_
 
@@ -158,7 +85,7 @@ console.log(n)
 5
 ```
 
-### Technical frame 6: Served by the Pot: Collections / Generating Iterables / state machines
+### Technical frame 3: Served by the Pot: Collections / Generating Iterables / state machines
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01623))_
 
@@ -192,148 +119,25 @@ fibonacci()
 34
 ```
 
-### Technical frame 7: Served by the Pot: Collections / Generating Iterables / state machines
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01623))_
-
-> The thing to note here is that our fibonacci generator has three states: generating 0 , generating 1 , and generating everything after that. This isn't a good fit for an iterator, because iterators have one functional entry point and therefore, we'd have to represent our three states explicitly, perhaps using a state pattern 90 :
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01622))_
-
-<a id="atom-technical-atom-59b85769c4575211"></a>
-```text
-while (true) {
-[a, b] = [b, a + b];
-console.log(b);
-}
-}
-fibonacci()
-//=>
-0
-1
-1
-2
-3
-5
-8
-13
-21
-34
-Served by the Pot: Collections
-206
-55
-89
-144
-...
-The thing to note here is that our fibonacci generator has three states: generating 0, generating
-1, and generating everything after that. This isn’t a good fit for an iterator, because iterators have
-one functional entry point and therefore, we’d have to represent our three states explicitly, perhaps
-using a state pattern90:
-We’ll keep it simple:
-// Iteration
-let a, b, state = 0;
-const fibonacci = () => {
-switch (state) {
-case 0:
-state = 1;
-return a = 0;
-case 1:
-state = 2;
-return b = 1;
-case 2:
-[a, b] = [b, a + b];
-return b
-}
-};
-while (true) {
-console.log(fibonacci());
-}
-//=>
-0
-1
-1
-2
-3
-5
-8
-13
-90https://en.wikipedia.org/wiki/State_pattern
-Served by the Pot: Collections
-207
-21
-34
-55
-89
-144
-...
-Again, this is not particularly horrendous, but like the recursive example, we’re explicitly greenspun-
-ning the natural linear state. In a generator, we write “do this, then this, then this.” In an iterator,
-we have to wrap that up and explicitly keep track of what step we’re on.
-So we see the same thing: The generation version has state, but it’s implicit in JavaScript’s linear
-control flow. Whereas the iteration version must make that state explicit.
-javascript’s generators
-It would be very nice if we could sometimes write iterators as a .next() method that gets called, and
-sometimes write out a generator. Given the title of this chapter, it is not a surprise that JavaScript
-makes this possible.
-We can write an iterator, but use a generation style of programming. An iterator written in a
-generation style is called a generator. To write a generator, we write a function, but we make two
-changes:
-1. We declare the function using the function * syntax. Not a fat arrow. Not a plain function.
-2. We don’t return values or output them to console.log. We “yield” values using the yield
-keyword.
-When we invoke the function, we get an iterator object back. Let’s start with the degenerate example,
-the empty iterator:91
-function * empty () {};
-empty().next()
-//=>
-{"done":true}
-When we invoke empty, we get an iterator with no elements. This makes sense, because empty never
-yields anything. We call its .next() method, but it’s done immediately.
-Generator functions can take an argument. Let’s use that to illustrate yield:
-91We wrote a generator declaration. We can also write const empty = function * () {} to bind an anonymous generator to the empty keyword,
-but we don’t need to do that here.
-Served by the Pot: Collections
-208
-function * only (something) {
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 34 | Served by the Pot: Collections |
-| 144 | The thing to note here is that our fibonacci generator has three states: generating 0, generating 1, and generating everything after that. This isn’t a good fit for an iterator, because iterators have one functional entry point and therefore, we’d have to represent our three states explicitly, perhaps using a state pattern90: We’ll keep it simple: // Iteration let a, b, state = 0; const fibonacci = () => { switch (state) { case 0: state = 1; return a = 0; case 1: state = 2; return b = 1; case 2: [a, b] = [b, a + b]; return b while (true) { console.log(fibonacci()); |
-| 13 | 90https://en.wikipedia.org/wiki/State_pattern |
-| 207 | Served by the Pot: Collections |
-| 144 | Again, this is not particularly horrendous, but like the recursive example, we’re explicitly greenspun- ning the natural linear state. In a generator, we write “do this, then this, then this.” In an iterator, we have to wrap that up and explicitly keep track of what step we’re on. So we see the same thing: The generation version has state, but it’s implicit in JavaScript’s linear control flow. Whereas the iteration version must make that state explicit. javascript’s generators It would be very nice if we could sometimes write iterators as a.next() method that gets called, and sometimes write out a generator. Given the title of this chapter, it is not a surprise that JavaScript makes this possible. We can write an iterator, but use a generation style of programming. An iterator written in a generation style is called a generator. To write a generator, we write a function, but we make two changes: |
-| 1 | We declare the function using the function * syntax. Not a fat arrow. Not a plain function. |
-| 2 | We don’t return values or output them to console.log. We “yield” values using the yield keyword. When we invoke the function, we get an iterator object back. Let’s start with the degenerate example, the empty iterator:91 function * empty () {}; empty().next() {"done":true} When we invoke empty, we get an iterator with no elements. This makes sense, because empty never yields anything. We call its.next() method, but it’s done immediately. 91We wrote a generator declaration. We can also write const empty = function * () {} to bind an anonymous generator to the empty keyword, but we don’t need to do that here. |
-| 208 | Generator functions can take an argument. Let’s use that to illustrate yield: Served by the Pot: Collections function * only (something) { |
-
-</details>
-
 
 ## Related pages
 
 ### Shared technical atoms
 
-- [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Iterator shares technical record from Served by the Pot: Collections / Generating Iterables: Iterators have to arrange its own state such that when you call them, they compute and return the next item. (1 shared statement(s), 4 shared atom(s))
-- [[javascriptallonge-recipe]] - shared technical atoms: Recipe shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (4 shared atom(s))
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated]; Javascript shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-programming]] - shared statements and technical atoms: Programming shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated]; Programming shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (2 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Object shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: Iterators have to arrange its own state such that when you call them, they compute and return the next item. (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-partial-application]] - shared technical atoms: partial application shares technical record from Recipes with Basic Functions / Partial Application: Partial Application In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libra ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-allong]] - shared statements and technical atoms: Allong shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated]; Allong shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Iterator shares technical record from Served by the Pot: Collections / Generating Iterables: Iterators have to arrange its own state such that when you call them, they compute and return the next item. (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-method]] - shared statements and technical atoms: Method shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Method shares technical record from Served by the Pot: Collections / Generating Iterables: Iterators have to arrange its own state such that when you call them, they compute and return the next item. (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Object shares technical record from Served by the Pot: Collections / Generating Iterables: Iterators have to arrange its own state such that when you call them, they compute and return the next item. (1 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 
+- [[javascriptallonge-programming]] - shared statements: Programming shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated] (2 shared statement(s))
+- [[javascriptallonge-allong]] - shared statements: Allong shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated] (1 shared statement(s))
+- [[javascriptallonge-javascript]] - shared statements: Javascript shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-javascript-allong]] - shared statements: About JavaScript Allongé shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated] (1 shared statement(s))
 
 ### Topics
 
-- [[javascriptallonge-functional-iterator]] - narrower topic: Functional Iterators shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Functional Iterators shares technical record from Served by the Pot: Collections / Generating Iterables / state machines: while (true) { [a, b] = [b, a + b]; console.log(b); } } fibonacci() //=> 0 1 1 2 3 5 8 13 21 34 Served by the Pot: Collections 206 55 89 144 ... The thing to note he ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-functional-iterator]] - narrower topic: Functional Iterators shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated] (1 shared statement(s))
 
 ## Source
 

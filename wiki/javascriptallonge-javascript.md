@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-javascript
 page_kind: concept
-summary: Javascript: 75 statement(s) and 80 atom(s) from raw/javascriptallonge.pdf.
+summary: Javascript: 75 statement(s) and 64 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-javascript@1f18d82b31a663b873b7b326a1bed658
+projection_coverage: topic-javascriptallonge-javascript@8b8a2e56a2f5e25678803bb98067bc3e
 ---
 
 # Javascript
@@ -240,33 +240,7 @@ function foo (first, ...rest) {
 }
 ```
 
-### Technical frame 5: ECMAScript 6 has three major groups of features:
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00078))_
-
-> With ECMAScript 6, JavaScript has become much larger as a language. JavaScript Allongé, the 'Six' Edition is both a comprehensive tour of its features and a rich collection of techniques for making better use of them. You will learn much about functional programming and object-oriented programming. And you'll do so via ES6 code, handed to you in small, easily digestible pieces.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00080))_
-
-<a id="atom-technical-atom-24432d50b19465df"></a>
-```text
-2 http://www.2ality.com
-4 http://exploringjs.com
-3 http://ecmanauten.de
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 2 | http://www.2ality.com |
-| 4 | http://exploringjs.com |
-| 3 | http://ecmanauten.de |
-
-</details>
-
-### Technical frame 6: Prelude: Values and Expressions over Coffee / values are expressions
+### Technical frame 5: Prelude: Values and Expressions over Coffee / values are expressions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00105))_
 
@@ -280,58 +254,7 @@ function foo (first, ...rest) {
 //=> 42
 ```
 
-### Technical frame 7: Prelude: Values and Expressions over Coffee / values are expressions
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00118))_
-
-> Second, sometimes, the cups are of the same type-perhaps two espresso cups-but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different 'content.' For example, the number 5 is not the same thing as the number 2 .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00110))_
-
-<a id="atom-technical-atom-c64bb3ece0d1ebd3"></a>
-```text
-10 Technically, it's a representation of a value using Base10 notation, but we needn't worry about that in this book. You and I both understand that this means '42,' and so does the computer.
-11 In some languages, expressions are a kind of value unto themselves and can be manipulated. The grandfather of such languages is Lisp. JavaScript is not such a language, expressions in and of themselves are not values.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 10 | Technically, it's a representation of a value using Base10 notation, but we needn't worry about that in this book. You and I both understand that this means '42,' and so does the computer. |
-| 11 | In some languages, expressions are a kind of value unto themselves and can be manipulated. The grandfather of such languages is Lisp. JavaScript is not such a language, expressions in and of themselves are not values. |
-
-</details>
-
-### Technical frame 8: Prelude: Values and Expressions over Coffee / values are expressions
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00118))_
-
-> Second, sometimes, the cups are of the same type-perhaps two espresso cups-but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different 'content.' For example, the number 5 is not the same thing as the number 2 .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00112))_
-
-<a id="atom-technical-atom-2ce83e0abe51f9aa"></a>
-```text
-2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' !== 'goodbye' //=> true How does work, exactly? Imagine that you’re shown a cup of coffee. And then you’re shown === another cup of coffee. Are the two cups “identical?” In JavaScript, there are four possibilities: First, sometimes, the cups are of different kinds. One is a demitasse, the other a mug. This corresponds to comparing two things in JavaScript that have different types. For example, the string "2" is not the same thing as the number 2. Strings and numbers are different types, so strings and numbers are never identical:
-2 === '2' //=> false true !== 'true' //=> true Second, sometimes, the cups are of the same type–perhaps two espresso cups–but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different “content.” For example, the number 5 is not the same thing as the number 2. true === false //=> false
-2 !== 5 //=> true 'two' === 'five' //=> false What if the cups are of the same type and the contents are the same? Well, JavaScript’s third and fourth possibilities cover that. Prelude: Values and Expressions over Coffee xvii value types Third, some types of cups have no distinguishing marks on them. If they are the same kind of cup, and they hold the same contents, we have no way to tell the difference between them. This is the case with the strings, numbers, and booleans we have seen so far.
-2 + 2 === 4 //=> true (2 + 2 === 4) === (2 !== 5) //=> true Note well what is happening with these examples: Even when we obtain a string, number, or boolean as the result of evaluating an expression, it is identical to another value of the same type with the same “content.” Strings, numbers, and booleans are examples of what JavaScript calls “value” or “primitive” types. We’ll use both terms interchangeably. We haven’t encountered the fourth possibility yet. Stretching the metaphor somewhat, some types of cups have a serial number on the bottom. So even if you have two cups of the same type, and their contents are the same, you can still distinguish between them. Cafe Macchiato is also a fine drink, especially when following up on the fortunes of the Azzurri or the standings in the Giro d’Italia reference types So what kinds of values might be the same type and have the same contents, but not be considered identical to JavaScript? Let’s meet a data structure that is very common in contemporary programming languages, the Array (other languages sometimes call it a List or a Vector). Prelude: Values and Expressions over Coffee xviii An array looks like this: [1, 2, 3]. This is an expression, and you can combine [] with other expressions. Go wild with things like: [2-1, 2, 2+1] [1, 1+1, 1+1+1] Notice that you are always generating arrays with the same contents. But are they identical the same way that every value of is identical to every other value of 42? Try these for yourself: 42 [2-1, 2, 2+1] === [1,2,3] [1,2,3] === [1, 2, 3] [1, 2, 3] === [1, 2, 3] How about that! When you type or any of its variations, you are typing an expression [1, 2, 3] that generates its own unique array that is not identical to any other array, even if that other array also looks like 3]. It’s as if JavaScript is generating new cups of coffee with serial numbers [1, 2, on the bottom. They look the same, but if you examine them with ===, you see that they are different. Every time you evaluate an expression (including typing something in) to create an array, you’re creating a new, distinct value even if it appears to be the same as some other array value. As we’ll see, this is true of many other kinds of values, including functions, the main subject of this book.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 2 | In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator:!== 2 === 2 //=> true 'hello'!== 'goodbye' //=> true How does work, exactly? Imagine that you’re shown a cup of coffee. And then you’re shown === another cup of coffee. Are the two cups “identical?” In JavaScript, there are four possibilities: First, sometimes, the cups are of different kinds. One is a demitasse, the other a mug. This corresponds to comparing two things in JavaScript that have different types. For example, the string "2" is not the same thing as the number 2. Strings and numbers are different types, so strings and numbers are never identical: |
-| 2 | === '2' //=> false true!== 'true' //=> true Second, sometimes, the cups are of the same type–perhaps two espresso cups–but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different “content.” For example, the number 5 is not the same thing as the number 2. true === false //=> false 2!== 5 //=> true 'two' === 'five' //=> false What if the cups are of the same type and the contents are the same? Well, JavaScript’s third and fourth possibilities cover that. Prelude: Values and Expressions over Coffee xvii value types Third, some types of cups have no distinguishing marks on them. If they are the same kind of cup, and they hold the same contents, we have no way to tell the difference between them. This is the case with the strings, numbers, and booleans we have seen so far. |
-| 2 | + 2 === 4 //=> true (2 + 2 === 4) === (2!== 5) //=> true Note well what is happening with these examples: Even when we obtain a string, number, or boolean as the result of evaluating an expression, it is identical to another value of the same type with the same “content.” Strings, numbers, and booleans are examples of what JavaScript calls “value” or “primitive” types. We’ll use both terms interchangeably. We haven’t encountered the fourth possibility yet. Stretching the metaphor somewhat, some types of cups have a serial number on the bottom. So even if you have two cups of the same type, and their contents are the same, you can still distinguish between them. Cafe Macchiato is also a fine drink, especially when following up on the fortunes of the Azzurri or the standings in the Giro d’Italia reference types So what kinds of values might be the same type and have the same contents, but not be considered identical to JavaScript? Let’s meet a data structure that is very common in contemporary programming languages, the Array (other languages sometimes call it a List or a Vector). Prelude: Values and Expressions over Coffee xviii An array looks like this: [1, 2, 3]. This is an expression, and you can combine [] with other expressions. Go wild with things like: [2-1, 2, 2+1] [1, 1+1, 1+1+1] Notice that you are always generating arrays with the same contents. But are they identical the same way that every value of is identical to every other value of 42? Try these for yourself: 42 [2-1, 2, 2+1] === [1,2,3] [1,2,3] === [1, 2, 3] [1, 2, 3] === [1, 2, 3] How about that! When you type or any of its variations, you are typing an expression [1, 2, 3] that generates its own unique array that is not identical to any other array, even if that other array also looks like 3]. It’s as if JavaScript is generating new cups of coffee with serial numbers [1, 2, on the bottom. They look the same, but if you examine them with ===, you see that they are different. Every time you evaluate an expression (including typing something in) to create an array, you’re creating a new, distinct value even if it appears to be the same as some other array value. As we’ll see, this is true of many other kinds of values, including functions, the main subject of this book. |
-
-</details>
-
-### Technical frame 9: Prelude: Values and Expressions over Coffee / values are expressions
+### Technical frame 6: Prelude: Values and Expressions over Coffee / values are expressions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00116))_
 
@@ -347,7 +270,7 @@ function foo (first, ...rest) {
 //=> true
 ```
 
-### Technical frame 10: Prelude: Values and Expressions over Coffee / values are expressions
+### Technical frame 7: Prelude: Values and Expressions over Coffee / values are expressions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00118))_
 
@@ -363,7 +286,7 @@ true !== 'true'
 //=> true
 ```
 
-### Technical frame 11: Prelude: Values and Expressions over Coffee / values are expressions
+### Technical frame 8: Prelude: Values and Expressions over Coffee / values are expressions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00118))_
 
@@ -381,7 +304,7 @@ true === false
 //=> false
 ```
 
-### Technical frame 12: Prelude: Values and Expressions over Coffee / values are expressions / value types
+### Technical frame 9: Prelude: Values and Expressions over Coffee / values are expressions / value types
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00124))_
 
@@ -397,7 +320,7 @@ true === false
 //=> true
 ```
 
-### Technical frame 13: Prelude: Values and Expressions over Coffee / values are expressions / value types
+### Technical frame 10: Prelude: Values and Expressions over Coffee / values are expressions / value types
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00126))_
 
@@ -408,31 +331,7 @@ true === false
 <a id="atom-technical-atom-63d3491cbf82f2a9"></a>
 > So even if you have two cups of the same type, and their contents are the same, you can still distinguish between them.
 
-### Technical frame 14: A Rich Aroma: Basic Numbers / floating
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00151))_
-
-> But as a rule, if you need to work with real numbers, you should have more than a nodding acquaintance with the IEEE Standard for Floating-Point Arithmetic 15 . Professional programmers almost never use floating point numbers to represent monetary amounts. For example, '$43.21' will nearly always be presented as two numbers: 43 for dollars and 21 for cents, not 43.21 . In this book, we need not think about such details, but outside of this book, we must.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00148))_
-
-<a id="atom-technical-atom-aee77d48a5615cc7"></a>
-```text
-13 http://en.wikipedia.org/wiki/Double-precision_floating-point_format
-14 Implementations of JavaScript are free to handle larger numbers. For example, if you type 9007199254740991 + 9007199254740991 into node.js , it will happily report that the answer is 18014398509481982 . But code that depends upon numbers larger than 9007199254740991 may not be reliable when moved to other implementations.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 13 | http://en.wikipedia.org/wiki/Double-precision_floating-point_format |
-| 14 | Implementations of JavaScript are free to handle larger numbers. For example, if you type 9007199254740991 + 9007199254740991 into node.js, it will happily report that the answer is 18014398509481982. But code that depends upon numbers larger than 9007199254740991 may not be reliable when moved to other implementations. |
-
-</details>
-
-### Technical frame 15: A Rich Aroma: Basic Numbers / floating
+### Technical frame 11: A Rich Aroma: Basic Numbers / floating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00144))_
 
@@ -443,7 +342,7 @@ true === false
 <a id="atom-technical-atom-dc77c060fb9232f3"></a>
 > Professional programmers almost never use floating point numbers to represent monetary amounts.
 
-### Technical frame 16: A Rich Aroma: Basic Numbers / operations on numbers
+### Technical frame 12: A Rich Aroma: Basic Numbers / operations on numbers
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00156))_
 
@@ -459,7 +358,7 @@ true === false
 //=> 11
 ```
 
-### Technical frame 17: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
+### Technical frame 13: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00164))_
 
@@ -472,7 +371,7 @@ true === false
 () => 0
 ```
 
-### Technical frame 18: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
+### Technical frame 14: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00166))_
 
@@ -486,7 +385,7 @@ true === false
 //=> [Function]
 ```
 
-### Technical frame 19: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities
+### Technical frame 15: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00173))_
 
@@ -500,7 +399,7 @@ true === false
 //=> false
 ```
 
-### Technical frame 20: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / applying functions
+### Technical frame 16: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / applying functions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00178))_
 
@@ -513,7 +412,7 @@ true === false
 fn_expr(args)
 ```
 
-### Technical frame 21: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / commas
+### Technical frame 17: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / commas
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00195))_
 
@@ -527,7 +426,7 @@ fn_expr(args)
 (1 + 1, 2 + 2)
 ```
 
-### Technical frame 22: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / commas
+### Technical frame 18: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / commas
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00195))_
 
@@ -541,7 +440,7 @@ fn_expr(args)
 (1 + 1, 2 + 2)
 ```
 
-### Technical frame 23: Or even: / the simplest possible block / undefined
+### Technical frame 19: Or even: / the simplest possible block / undefined
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00214))_
 
@@ -554,7 +453,7 @@ fn_expr(args)
 undefined
 ```
 
-### Technical frame 24: Or even: / the simplest possible block / undefined
+### Technical frame 20: Or even: / the simplest possible block / undefined
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00214))_
 
@@ -567,132 +466,7 @@ undefined
 //=> undefined
 ```
 
-### Technical frame 25: Or even: / back on the block
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00237))_
-
-> But no matter how we arrange them, a block with one or more expressions still evaluates to undefined :
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00238))_
-
-<a id="atom-technical-atom-bb398f7a1ecce0a5"></a>
-```text
-//=> undefined
-We said that the function returns the result of evaluating a block, and we said that a block is a
-(possibly empty) list of JavaScript statements separated by semicolons.21
-Something like: { statement1; statement2; statement3; ... ; statementn }
-We haven’t discussed these statements. What’s a statement?
-There are many kinds of JavaScript statements, but the first kind is one we’ve already met. An
-expression is a JavaScript statement. Although they aren’t very practical, these are valid JavaScript
-functions, and they return undefined when applied:
-() => { 2 + 2 }
-() => { 1 + 1; 2 + 2 }
-As we saw with commas above, we can rearrange these functions onto multiple lines when we feel
-its more readable that way:
-() => {
-1 + 1;
-2 + 2
-}
-But no matter how we arrange them, a block with one or more expressions still evaluates to
-undefined:
-(() => { 2 + 2 })()
-//=> undefined
-(() => { 1 + 1; 2 + 2 })()
-//=> undefined
-(() => {
-1 + 1;
-2 + 2
-})()
-//=> undefined
-As you can see, a block with one expression does not behave like an expression, and a block with
-more than one expression does not behave like an expression constructed with the comma operator:
-21You can also separate statements with line breaks. Readers who follow internet flame-fests may be aware of something called automatic semi-
-colon insertion. Basically, there’s a step where JavaScript looks at your code and follows some rules to guess where you meant to put semicolons in
-should you leave them out. This feature was originally created as a kind of helpful error-correction. Some programmers argue that since it’s part of
-the language’s definition, it’s fair game to write code that exploits it, so they deliberately omit any semicolon that JavaScript will insert for them.
-The first sip: Basic Functions
-14
-(() => 2 + 2)()
-//=> 4
-(() => { 2 + 2 })()
-//=> undefined
-(() => (1 + 1, 2 + 2))()
-//=> 4
-(() => { 1 + 1; 2 + 2 })()
-//=> undefined
-So how do we get a function that evaluates a block to return a value when applied? With the return
-keyword and any expression:
-(() => { return 0 })()
-//=> 0
-(() => { return 1 })()
-//=> 1
-(() => { return 'Hello ' + 'World' })()
-// 'Hello World'
-The return keyword creates a return statement that immediately terminates the function application
-and returns the result of evaluating its expression. For example:
-(() => {
-1 + 1;
-return 2 + 2
-})()
-//=> 4
-And also:
-(() => {
-return 1 + 1;
-2 + 2
-})()
-//=> 2
-The return statement is the first statement we’ve seen, and it behaves differently than an expression.
-For example, you can’t use one as the expression in a simple function, because it isn’t an expression:
-The first sip: Basic Functions
-15
-(() => return 0)()
-//=> ERROR
-Statements belong inside blocks and only inside blocks. Some languages simplify this by making
-everything an expression, but JavaScript maintains this distinction, so when learning JavaScript we
-also learn about statements like function declarations, for loops, if statements, and so forth. We’ll
-see a few more of these later.
-functions that evaluate to functions
-If an expression that evaluates to a function is, well, an expression, and if a return statement can
-have any expression on its right side… Can we put an expression that evaluates to a function on the
-right side of a function expression?
-Yes:
-() => () => 0
-That’s a function! It’s a function that when applied, evaluates to a function that when applied,
-evaluates to 0. So we have a function, that returns a function, that returns zero. Likewise:
-() => () => true
-That’s a function, that returns a function, that returns true:
-(() => () => true)()()
-//=> true
-We could, of course, do the same thing with a block if we wanted:
-() => () => { return true; }
-But we generally don’t.
-Well. We’ve been very clever, but so far this all seems very abstract. Diffraction of a crystal is
-beautiful and interesting in its own right, but you can’t blame us for wanting to be shown a practical
-use for it, like being able to determine the composition of a star millions of light years away. So… In
-the next chapter, “I’d Like to Have an Argument, Please,” we’ll see how to make functions practical.
-The first sip: Basic Functions
-16
-Ah. I’d Like to Have an Argument, Please.22
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 1 | + 1; |
-| 2 | + 2 But no matter how we arrange them, a block with one or more expressions still evaluates to undefined: (() => {2 + 2})() //=> undefined (() => {1 + 1; 2 + 2})() //=> undefined |
-| 1 | + 1; |
-| 2 | + 2 //=> undefined As you can see, a block with one expression does not behave like an expression, and a block with more than one expression does not behave like an expression constructed with the comma operator: 21You can also separate statements with line breaks. Readers who follow internet flame-fests may be aware of something called automatic semi- colon insertion. Basically, there’s a step where JavaScript looks at your code and follows some rules to guess where you meant to put semicolons in should you leave them out. This feature was originally created as a kind of helpful error-correction. Some programmers argue that since it’s part of the language’s definition, it’s fair game to write code that exploits it, so they deliberately omit any semicolon that JavaScript will insert for them. |
-| 14 | The first sip: Basic Functions (() => 2 + 2)() //=> 4 (() => {2 + 2})() //=> undefined (() => (1 + 1, 2 + 2))() //=> 4 (() => {1 + 1; 2 + 2})() //=> undefined So how do we get a function that evaluates a block to return a value when applied? With the return keyword and any expression: (() => {return 0})() //=> 0 (() => {return 1})() //=> 1 (() => {return 'Hello ' + 'World'})() // 'Hello World' The return keyword creates a return statement that immediately terminates the function application and returns the result of evaluating its expression. For example: |
-| 1 | + 1; return 2 + 2 //=> 4 return 1 + 1; |
-| 2 | And also: + 2 //=> 2 The return statement is the first statement we’ve seen, and it behaves differently than an expression. For example, you can’t use one as the expression in a simple function, because it isn’t an expression: |
-| 15 | The first sip: Basic Functions (() => return 0)() //=> ERROR Statements belong inside blocks and only inside blocks. Some languages simplify this by making everything an expression, but JavaScript maintains this distinction, so when learning JavaScript we also learn about statements like function declarations, for loops, if statements, and so forth. We’ll see a few more of these later. functions that evaluate to functions If an expression that evaluates to a function is, well, an expression, and if a return statement can have any expression on its right side… Can we put an expression that evaluates to a function on the right side of a function expression? Yes: () => () => 0 That’s a function! It’s a function that when applied, evaluates to a function that when applied, evaluates to 0. So we have a function, that returns a function, that returns zero. Likewise: () => () => true That’s a function, that returns a function, that returns true: (() => () => true)()() //=> true We could, of course, do the same thing with a block if we wanted: () => () => {return true;} But we generally don’t. Well. We’ve been very clever, but so far this all seems very abstract. Diffraction of a crystal is beautiful and interesting in its own right, but you can’t blame us for wanting to be shown a practical use for it, like being able to determine the composition of a star millions of light years away. So… In the next chapter, “I’d Like to Have an Argument, Please,” we’ll see how to make functions practical. |
-| 16 | The first sip: Basic Functions Ah. I’d Like to Have an Argument, Please.22 |
-
-</details>
-
-### Technical frame 26: And also: / Closures and Scope / shadowy variables from a shadowy planet
+### Technical frame 21: And also: / Closures and Scope / shadowy variables from a shadowy planet
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00358))_
 
@@ -706,7 +480,7 @@ Ah. I’d Like to Have an Argument, Please.22
 (x, y) => x + y
 ```
 
-### Technical frame 27: And also: / Closures and Scope / shadowy variables from a shadowy planet
+### Technical frame 22: And also: / Closures and Scope / shadowy variables from a shadowy planet
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00360))_
 
@@ -723,7 +497,7 @@ Ah. I’d Like to Have an Argument, Please.22
 x + y + z
 ```
 
-### Technical frame 28: And also: / Closures and Scope / which came first, the chicken or the egg?
+### Technical frame 23: And also: / Closures and Scope / which came first, the chicken or the egg?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00365))_
 
@@ -734,7 +508,7 @@ x + y + z
 <a id="atom-technical-atom-6cb62b7189b018dc"></a>
 > If you don't want your code to operate directly within the global environment, what can you do?
 
-### Technical frame 29: And also: / Closures and Scope / which came first, the chicken or the egg?
+### Technical frame 24: And also: / Closures and Scope / which came first, the chicken or the egg?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00365))_
 
@@ -751,7 +525,7 @@ x + y + z
 // bottom of the file
 ```
 
-### Technical frame 30: And also: / That Constant Coffee Craving / inside-out
+### Technical frame 25: And also: / That Constant Coffee Craving / inside-out
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00391))_
 
@@ -765,7 +539,7 @@ x + y + z
 // ...
 ```
 
-### Technical frame 31: And also: / That Constant Coffee Craving / const
+### Technical frame 26: And also: / That Constant Coffee Craving / const
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00407))_
 
@@ -781,7 +555,7 @@ return diameter * PI
 }
 ```
 
-### Technical frame 32: And also: / That Constant Coffee Craving / rebinding
+### Technical frame 27: And also: / That Constant Coffee Craving / rebinding
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00481))_
 
@@ -807,7 +581,7 @@ evenStevens(42)
 //=> true
 ```
 
-### Technical frame 33: And also: / Naming Functions / the function keyword
+### Technical frame 28: And also: / Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00514))_
 
@@ -822,7 +596,7 @@ someBackboneView.on('click', function clickHandler () {
 });
 ```
 
-### Technical frame 34: And also: / Combinators and Function Decorators / function decorators
+### Technical frame 29: And also: / Combinators and Function Decorators / function decorators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00563))_
 
@@ -848,7 +622,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 </details>
 
-### Technical frame 35: And also: / Building Blocks / composition
+### Technical frame 30: And also: / Building Blocks / composition
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00571))_
 
@@ -862,7 +636,7 @@ const compose = (a, b) => (c) => a(b(c));
 const cookAndEat = compose(eat, cook);
 ```
 
-### Technical frame 36: And also: / Building Blocks / composition
+### Technical frame 31: And also: / Building Blocks / composition
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00572))_
 
@@ -873,106 +647,7 @@ const cookAndEat = compose(eat, cook);
 <a id="atom-technical-atom-cfaa3155b7ac1dea"></a>
 > The other 80% comes from organizing your code such that you can use it: Writing functions that can be composed in various ways.
 
-### Technical frame 37: And also: / Building Blocks / partial application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00588))_
-
-> Wegeneralized composition with the compose combinator. Partial application also has a combinator, which we'll see in the partial recipe.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00585))_
-
-<a id="atom-technical-atom-8f517a4c4e32b9dc"></a>
-```text
-39 http://underscorejs.org
-41 If we don't want to sort out Underscore, we can also write the following: const map = (a, fn) => a.map(fn); , and trust that it works even though we haven't discussed methods yet.
-40 Modern JavaScript implementations provide a map method for arrays, but Underscore's implementation also works with older browsers if you are working with that headache.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 39 | http://underscorejs.org |
-| 41 | If we don't want to sort out Underscore, we can also write the following: const map = (a, fn) => a.map(fn);, and trust that it works even though we haven't discussed methods yet. |
-| 40 | Modern JavaScript implementations provide a map method for arrays, but Underscore's implementation also works with older browsers if you are working with that headache. |
-
-</details>
-
-### Technical frame 38: And also: / Magic Names / the function keyword
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
-
-> The most common use of the arguments binding is to build functions that can take a variable number of arguments. We'll see it used in many of the recipes, starting off with partial application and ellipses.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00598))_
-
-<a id="atom-technical-atom-5bb18c52a0c78571"></a>
-```text
-42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
-43 We'll look at arrays and plain old javascript objects in depth later.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 42 | You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. |
-| 43 | We'll look at arrays and plain old javascript objects in depth later. |
-
-</details>
-
-### Technical frame 39: Recipes with Basic Functions / Partial Application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00643))_
-
-> These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want to leave a 'hole' in the argument list, you will need to either use a generalized partial recipe, or you will need to repeatedly apply arguments. They are context-agnostic.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00642))_
-
-<a id="atom-technical-atom-83e28a0f45b81408"></a>
-```text
-Partial Application
-In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libraries provide some form of partial application. You'll find examples in Lemonad 45 from Michael Fogus, Functional JavaScript 46 from Oliver Steele and the terse but handy node-ap 47 from James Halliday.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 45 | from Michael Fogus, Functional JavaScript |
-| 46 | from Oliver Steele and the terse but handy node-ap |
-| 47 | from James Halliday. |
-
-</details>
-
-### Technical frame 40: Recipes with Basic Functions / Partial Application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00648))_
-
-> We take it a step further, and can use gathering and spreading to allow for partial application with more than one argument:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00646))_
-
-<a id="atom-technical-atom-695bbaa3f7cd2b31"></a>
-```text
-45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 45 | https://github.com/fogus/lemonad |
-| 46 | http://osteele.com/sources/javascript/functional/ |
-| 47 | https://github.com/substack/node-ap 48 |
-
-</details>
-
-### Technical frame 41: Recipes with Basic Functions / Unary
+### Technical frame 32: Recipes with Basic Functions / Unary
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00657))_
 
@@ -986,7 +661,7 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 //=> [1, 2, 3]
 ```
 
-### Technical frame 42: Recipes with Basic Functions / Left-Variadic Functions / a history lesson
+### Technical frame 33: Recipes with Basic Functions / Left-Variadic Functions / a history lesson
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00714))_
 
@@ -1015,7 +690,7 @@ firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
 //=> ["why",["hello","there","little","droid"]]
 ```
 
-### Technical frame 43: Picking the Bean: Choice and Truthiness / truthiness and operators
+### Technical frame 34: Picking the Bean: Choice and Truthiness / truthiness and operators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00760))_
 
@@ -1031,7 +706,7 @@ firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
 //=> true
 ```
 
-### Technical frame 44: Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
+### Technical frame 35: Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00808))_
 
@@ -1045,7 +720,7 @@ firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
 //=> []
 ```
 
-### Technical frame 45: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
+### Technical frame 36: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00845))_
 
@@ -1058,7 +733,7 @@ firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
 const [what] = [];
 ```
 
-### Technical frame 46: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
+### Technical frame 37: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00849))_
 
@@ -1076,7 +751,7 @@ who
 //=> undefined
 ```
 
-### Technical frame 47: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
+### Technical frame 38: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00849))_
 
@@ -1094,7 +769,7 @@ they
 //=> []
 ```
 
-### Technical frame 48: Composing and Decomposing Data / Tail Calls (and Default Arguments)
+### Technical frame 39: Composing and Decomposing Data / Tail Calls (and Default Arguments)
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00940))_
 
@@ -1117,7 +792,7 @@ return _temp3;
 }
 ```
 
-### Technical frame 49: Composing and Decomposing Data / Tail Calls (and Default Arguments) / tail-call optimization
+### Technical frame 40: Composing and Decomposing Data / Tail Calls (and Default Arguments) / tail-call optimization
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00950))_
 
@@ -1141,185 +816,7 @@ return fn.apply(this, args);
 }
 ```
 
-### Technical frame 50: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00967))_
-
-> Brilliant! We can map over large arrays without incurring all the memory and performance overhead of non-tail-calls. And this basic transformation from a recursive function that does not make a tail call, into a recursive function that calls itself in tail position, is a bread-and-butter pattern for programmers using a language that incorporates tail-call optimization.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00964))_
-
-<a id="atom-technical-atom-09b3f51b7d0928fc"></a>
-```
-const mapWithDelaysWork = (fn, [first, ...rest], prepend) =>
-first === undefined
-? prepend
-: mapWithDelaysWork(fn, rest, [...prepend, fn(first)]);
-const mapWith = callLast(mapWithDelaysWork, []);
-mapWith((x) => x * x, [1, 2, 3, 4, 5])
-//=> [1,4,9,16,25]
-We can use it with ridiculously large arrays:
-```
-
-### Technical frame 51: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00967))_
-
-> Brilliant! We can map over large arrays without incurring all the memory and performance overhead of non-tail-calls. And this basic transformation from a recursive function that does not make a tail call, into a recursive function that calls itself in tail position, is a bread-and-butter pattern for programmers using a language that incorporates tail-call optimization.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00965))_
-
-<a id="atom-technical-atom-a5e35321dc80423c"></a>
-```
-mapWith((x) => x * x, [
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10,
-11,
-12,
-13,
-14,
-15,
-16,
-17,
-18,
-19,
-20,
-21,
-22,
-23,
-24,
-25,
-26,
-27,
-28,
-29,
-30,
-31,
-32,
-33,
-34,
-35,
-36,
-37,
-38,
-39,
-40,
-41,
-42,
-43,
-44,
-45,
-46,
-47,
-48,
-49,
-50,
-51,
-52,
-53,
-54,
-55,
-56,
-57,
-58,
-59,
-60,
-61,
-62,
-63,
-64,
-65,
-66,
-67,
-68,
-69,
-70,
-71,
-72,
-73,
-74,
-75,
-76,
-77,
-78,
-79,
-80,
-81,
-82,
-83,
-84,
-85,
-86,
-87,
-88,
-89,
-90,
-91,
-92,
-93,
-94,
-95,
-96,
-97,
-98,
-99,
-// ...
-2980, 2981, 2982, 2983, 2984, 2985, 2986, 2987, 2988, 2989,
-2990, 2991, 2992, 2993, 2994, 2995, 2996, 2997, 2998, 2999 ])
-//=> [0,1,4,9,16,25,36,49,64,81,100,121,144,169,196, ...
-```
-
-### Technical frame 52: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00967))_
-
-> Brilliant! We can map over large arrays without incurring all the memory and performance overhead of non-tail-calls. And this basic transformation from a recursive function that does not make a tail call, into a recursive function that calls itself in tail position, is a bread-and-butter pattern for programmers using a language that incorporates tail-call optimization.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00966))_
-
-<a id="atom-technical-atom-3439b2237aced771"></a>
-| 0, | 1, | 2, | 3, | 4, | 5, | 6, | 7, | 8, | 9, |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 10, | 11, | 12, | 13, | 14, | 15, | 16, | 17, | 18, | 19, |
-| 20, | 21, | 22, | 23, | 24, | 25, | 26, | 27, | 28, | 29, |
-| 30, | 31, | 32, | 33, | 34, | 35, | 36, | 37, | 38, | 39, |
-| 40, | 41, | 42, | 43, | 44, | 45, | 46, | 47, | 48, | 49, |
-| 50, | 51, | 52, | 53, | 54, | 55, | 56, | 57, | 58, | 59, |
-| 60, | 61, | 62, | 63, | 64, | 65, | 66, | 67, | 68, | 69, |
-| 70, | 71, | 72, | 73, | 74, | 75, | 76, | 77, | 78, | 79, |
-| 80, | 81, | 82, | 83, | 84, | 85, | 86, | 87, | 88, | 89, |
-| 90, | 91, | 92, | 93, | 94, | 95, | 96, | 97, | 98, | 99, |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-converting non-tail-calls to tail-calls
-| 0, | 1, | 2, | 3, | 4, | 5, | 6, | 7, | 8, | 9, |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 10, | 11, | 12, | 13, | 14, | 15, | 16, | 17, | 18, | 19, |
-| 20, | 21, | 22, | 23, | 24, | 25, | 26, | 27, | 28, | 29, |
-| 30, | 31, | 32, | 33, | 34, | 35, | 36, | 37, | 38, | 39, |
-| 40, | 41, | 42, | 43, | 44, | 45, | 46, | 47, | 48, | 49, |
-| 50, | 51, | 52, | 53, | 54, | 55, | 56, | 57, | 58, | 59, |
-| 60, | 61, | 62, | 63, | 64, | 65, | 66, | 67, | 68, | 69, |
-| 70, | 71, | 72, | 73, | 74, | 75, | 76, | 77, | 78, | 79, |
-| 80, | 81, | 82, | 83, | 84, | 85, | 86, | 87, | 88, | 89, |
-| 90, | 91, | 92, | 93, | 94, | 95, | 96, | 97, | 98, | 99, |
-```
-
-</details>
-
-### Technical frame 53: Garbage, Garbage Everywhere / some history
+### Technical frame 41: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01021))_
 
@@ -1336,7 +833,7 @@ cdr
 = ([a, d]) => d;
 ```
 
-### Technical frame 54: Garbage, Garbage Everywhere / some history
+### Technical frame 42: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01021))_
 
@@ -1354,7 +851,7 @@ node1 = [1, node2];
 const oneToFive = node1;
 ```
 
-### Technical frame 55: Garbage, Garbage Everywhere / some history
+### Technical frame 43: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01026))_
 
@@ -1368,7 +865,7 @@ cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
 ```
 
-### Technical frame 56: Plain Old JavaScript Objects / literal object syntax
+### Technical frame 44: Plain Old JavaScript Objects / literal object syntax
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01054))_
 
@@ -1381,25 +878,7 @@ cdr(oneToFive)
 { year: 2012, month: 6, day: 14 }
 ```
 
-### Technical frame 57: Plain Old JavaScript Objects / destructuring objects
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01079))_
-
-> Terrible grammar and capitalization, but let's move on. It is very common to write things like title: title when destructuring objects. When the label is a valid variable name, it's often the most obvious variable name as well. So JavaScript supports a further syntactic optimization:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01080))_
-
-<a id="atom-technical-atom-154953666ca27427"></a>
-```
-const description = ({name: { first }, occupation: { title } }) =>
-`${first} is a ${title}`;
-description(user)
-//=> "Reginald is a Author"
-And that same syntax works for literals:
-const abbrev = ({name: { first, last }, occupation: { title } }) => {
-```
-
-### Technical frame 58: Plain Old JavaScript Objects / destructuring objects
+### Technical frame 45: Plain Old JavaScript Objects / destructuring objects
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01079))_
 
@@ -1416,7 +895,7 @@ abbrev(user)
 //=> {"first":"Reginald","last":"Braithwaite","title":"Author"}
 ```
 
-### Technical frame 59: Mutation
+### Technical frame 46: Mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01105))_
 
@@ -1432,7 +911,7 @@ oneTwoThree
 //=> [ 'one', 2, 3 ]
 ```
 
-### Technical frame 60: Mutation
+### Technical frame 47: Mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01107))_
 
@@ -1446,7 +925,7 @@ const allHallowsEve = [2012, 10, 31]
 const halloween = allHallowsEve;
 ```
 
-### Technical frame 61: Reassignment
+### Technical frame 48: Reassignment
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01143))_
 
@@ -1472,7 +951,7 @@ evenStevens(42)
 //=> true
 ```
 
-### Technical frame 62: Reassignment
+### Technical frame 49: Reassignment
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01146))_
 
@@ -1488,7 +967,7 @@ age
 //=> 53
 ```
 
-### Technical frame 63: Reassignment / mixing let and const / var
+### Technical frame 50: Reassignment / mixing let and const / var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01167))_
 
@@ -1519,7 +998,7 @@ else {
 --x;
 ```
 
-### Technical frame 64: Reassignment / mixing let and const / var
+### Technical frame 51: Reassignment / mixing let and const / var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01167))_
 
@@ -1536,7 +1015,7 @@ factorial2(5)
 //=> 120
 ```
 
-### Technical frame 65: Reassignment / mixing let and const / var
+### Technical frame 52: Reassignment / mixing let and const / var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01176))_
 
@@ -1561,7 +1040,7 @@ factorial(4)
 //=> 24
 ```
 
-### Technical frame 66: Reassignment / mixing let and const / var
+### Technical frame 53: Reassignment / mixing let and const / var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01176))_
 
@@ -1598,7 +1077,7 @@ factorial(4)
 //=> undefined is not a function (evaluating 'innerFactorial(n, 1)')
 ```
 
-### Technical frame 67: Reassignment / mixing let and const / var
+### Technical frame 54: Reassignment / mixing let and const / var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01176))_
 
@@ -1624,7 +1103,7 @@ factorial(4)
 //=> undefined is not a function (evaluating 'innerFactorial(n, 1)')
 ```
 
-### Technical frame 68: Reassignment / why const and let were invented
+### Technical frame 55: Reassignment / why const and let were invented
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01181))_
 
@@ -1642,7 +1121,7 @@ sum
 #=> 5050
 ```
 
-### Technical frame 69: Copy on Write / Functional Iterators / iterating
+### Technical frame 56: Copy on Write / Functional Iterators / iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01263))_
 
@@ -1663,53 +1142,7 @@ arraySum([1, 4, 9, 16, 25])
 //=> 55
 ```
 
-### Technical frame 70: Copy on Write / Functional Iterators / iterating
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01269))_
-
-> Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iteratorSum function iterates over the elements by calling the iterator function repeatedly until it returns { done: true } .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01267))_
-
-<a id="atom-technical-atom-e2eebf14a262e5cb"></a>
-```
-const arraySum = (array) => {
-let iter,
-sum = 0,
-index = 0;
-while (
-(eachIteration = {
-done: index === array.length,
-value: index < array.length ? array[index] : undefined
-},
-++index,
-!eachIteration.done)
-) {
-sum += eachIteration.value;
-}
-return sum;
-}
-arraySum([1, 4, 9, 16, 25])
-//=> 55
-With this code, we make a POJO that has done and value keys. All the summing code needs to know
-is to add eachIteration.value. Now we can extract the ickiness into a separate function:
-const arrayIterator = (array) => {
-let i = 0;
-return () => {
-const done = i === array.length;
-return {
-done,
-value: done ? undefined : array[i++]
-}
-}
-}
-const iteratorSum = (iterator) => {
-let eachIteration,
-sum = 0;
-while ((eachIteration = iterator(), !eachIteration.done)) {
-```
-
-### Technical frame 71: Copy on Write / Functional Iterators / iterating
+### Technical frame 57: Copy on Write / Functional Iterators / iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01269))_
 
@@ -1727,7 +1160,7 @@ iteratorSum(arrayIterator([1, 4, 9, 16, 25]))
 //=> 55
 ```
 
-### Technical frame 72: Copy on Write / Functional Iterators / bonus
+### Technical frame 58: Copy on Write / Functional Iterators / bonus
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01294))_
 
@@ -1741,7 +1174,7 @@ const firstInIteration = (fn, iterator) =>
 take(filterIteratorWith(fn, iterator), 1);
 ```
 
-### Technical frame 73: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 59: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01565))_
 
@@ -1765,7 +1198,7 @@ return ({done, value: done ? undefined : 2 *value});
 };
 ```
 
-### Technical frame 74: Served by the Pot: Collections / Iteration and Iterables / from
+### Technical frame 60: Served by the Pot: Collections / Iteration and Iterables / from
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01584))_
 
@@ -1779,7 +1212,7 @@ Array.from(UpTo1000)
 //=> [1,81,121,361,441,841,961]
 ```
 
-### Technical frame 75: Served by the Pot: Collections / Generating Iterables / generators and iterables
+### Technical frame 61: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
 
@@ -1790,7 +1223,7 @@ Array.from(UpTo1000)
 <a id="atom-technical-atom-7ca2d5da0f09f056"></a>
 > If we call our generator function more than once, we get new iterators.
 
-### Technical frame 76: Served by the Pot: Collections / Generating Iterables / generators and iterables
+### Technical frame 62: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01684))_
 
@@ -1809,49 +1242,24 @@ yield 3
 }
 ```
 
-### Technical atom 77
-
-<a id="atom-technical-atom-83f43abc1781eefe"></a>
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00230))_
-
-> We said that the function returns the result of evaluating a block , and we said that a block is a (possibly empty) list of JavaScript statements separated by semicolons. 21
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00228))_
-
-```text
-back on the block
-Back to our function. We evaluated this:
-19 Experienced JavaScript programmers are aware that there's a fourth way, using a function argument. This was actually the preferred mechanism until void became commonplace.
-20 As an exercise for the reader, we suggest you ask your friendly neighbourhood programming language designer or human factors subjectmatter expert to explain why a keyword called void is used to generate an undefined value, instead of calling them both void or both undefined . We have no idea.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 19 | Experienced JavaScript programmers are aware that there's a fourth way, using a function argument. This was actually the preferred mechanism until void became commonplace. |
-| 20 | As an exercise for the reader, we suggest you ask your friendly neighbourhood programming language designer or human factors subjectmatter expert to explain why a keyword called void is used to generate an undefined value, instead of calling them both void or both undefined. We have no idea. |
-
-</details>
-
 
 ## Related pages
 
 ### Shared technical atoms
 
-- [[javascriptallonge-allong]] - shared statements and technical atoms: Allong shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; Allong shares technical record from JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite: function foo (first, ...rest) { // ... } (10 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Plain Old JavaScript Objects: In JavaScript, an object is a map from string keys to values.; Object shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: { year: 2012, month: 6, day: 14 } (3 shared statement(s), 8 shared atom(s))
-- [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from And also: / call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated]; Bind shares technical record from And also: / Magic Names / the function keyword: const [what] = []; (2 shared statement(s), 7 shared atom(s))
-- [[javascriptallonge-ecmascript]] - shared statements and technical atoms: Ecmascript shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: Prior to ECMAScript 2015, JavaScript did not include many features that programmers have discovered are vital to writing great software. For example, JavaScript did ... [truncated]; Ecmascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (4 shared statement(s), 6 shared atom(s))
-- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Or even: / back on the block: !5 //=> false !undefined //=> true (6 shared atom(s))
-- [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write / Functional Iterators / iterating: JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with:; Copy on Write shares technical record from Copy on Write / Functional Iterators / iterating: const arraySum = (array) => { let sum = 0; for (let i = 0; i < array.length; ++i) { sum += array[i]; } return sum } arraySum([1, 4, 9, 16, 25]) //=> 55 (4 shared statement(s), 4 shared atom(s))
-- [[javascriptallonge-type]] - shared statements and technical atoms: Type shares source evidence from And also: / call by sharing: Whatabout reference types? JavaScript does not place copies of reference values in any environment. JavaScript places references to reference types in environments, ... [truncated]; Type shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 + 2 === 4 //=> true (2 + 2 === 4) === (2 !== 5) //=> true (2 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-edition]] - shared statements and technical atoms: Edition shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: JavaScript Allongé, The 'Six' Edition packs all the goodness of JavaScript Allongé into a new, updated package that is relevant for programmers working with (or plan ... [truncated]; Edition shares technical record from JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite: 2 http://www.2ality.com 4 http://exploringjs.com 3 http://ecmanauten.de (3 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-allong]] - shared statements and technical atoms: Allong shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; Allong shares technical record from JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite: function foo (first, ...rest) { // ... } (10 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Plain Old JavaScript Objects: In JavaScript, an object is a map from string keys to values.; Object shares technical record from Plain Old JavaScript Objects / literal object syntax: { year: 2012, month: 6, day: 14 } (3 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from And also: / call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated]; Bind shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching: const [what] = []; (2 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-ecmascript]] - shared statements and technical atoms: Ecmascript shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: Prior to ECMAScript 2015, JavaScript did not include many features that programmers have discovered are vital to writing great software. For example, JavaScript did ... [truncated]; Ecmascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (4 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write / Functional Iterators / iterating: JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with:; Copy on Write shares technical record from Copy on Write / Functional Iterators / iterating: const arraySum = (array) => { let sum = 0; for (let i = 0; i < array.length; ++i) { sum += array[i]; } return sum } arraySum([1, 4, 9, 16, 25]) //=> 55 (4 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-array]] - shared statements and technical atoms: Array shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: JavaScript has a literal syntax for creating an array: The [ and ] characters. We can create an empty array:; Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: [] //=> [] (1 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Element shares technical record from Garbage, Garbage Everywhere / some history: const cons = (a, d) => [a, d], car = ([a, d]) => a, cdr = ([a, d]) => d; (1 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Copy on Write / Functional Iterators / iterating: JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with:; Functional Iterators shares technical record from Copy on Write / Functional Iterators / iterating: const arraySum = (array) => { let sum = 0; for (let i = 0; i < array.length; ++i) { sum += array[i]; } return sum } arraySum([1, 4, 9, 16, 25]) //=> 55 (3 shared statement(s), 3 shared atom(s))
 
 ### Shared claims
 
+- [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: Wecertainly don't want JavaScript trying to evaluate deleteRecord(currentRecord) unless isAuthorized(currentUser) returns true . (2 shared statement(s))
+- [[javascriptallonge-functional]] - shared statements: Functional shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-quasi]] - shared statements: Quasi shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-quasi-literal]] - shared statements: Quasi Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-ternary-operator]] - shared statements: Ternary Operator shares source evidence from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? ... [truncated] (1 shared statement(s))

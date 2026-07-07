@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-copy-on-write-functional-iterators-iterating-155e14c1
 page_kind: source
-summary: Copy on Write / Functional Iterators / iterating: 16 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: Copy on Write / Functional Iterators / iterating: 15 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

@@ -9,6 +9,7 @@ from llmwiki.domain.ledger.atoms import (
     WorkedExamplePayload,
 )
 from llmwiki.domain.ledger.ledger import SourceProfile
+from llmwiki.domain.ledger.technical_atom_trust import atom_is_authoritative
 
 _INHERENTLY_TECHNICAL = {"code-block", "table", "formula"}
 _TECHNICAL_DENSITY_MIN = 0.05
@@ -18,6 +19,8 @@ def atom_is_topic_projectable(
     atom: TechnicalAtom, source_profile: SourceProfile | None = None
 ) -> bool:
     """Return whether an atom has enough structure for concept-page rendering."""
+    if not atom_is_authoritative(atom):
+        return False
     if atom.technical_atom_kind in _INHERENTLY_TECHNICAL:
         return True
     if source_profile is not None and not _source_supports_prose_atoms(source_profile):

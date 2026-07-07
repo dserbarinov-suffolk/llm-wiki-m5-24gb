@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-dragon-priest-skill@308042f00180d09f1c7f69e1347abbab
+projection_coverage: topic-sword-world-rpg-complete-edition-dragon-priest-skill@850efd19361406e79b0eb37a2ec9638d
 ---
 
 # Dragon Priest Skill
@@ -169,10 +169,6 @@ What [[sword-world-rpg-complete-edition]] covers about dragon priest skill:
 - [[sword-world-rpg-complete-edition-11-acquiring-rune-master-skill]] - shared statements: 11 Acquiring Rune Master Skill shares source evidence from Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels / 《 Priest Skill 》: To acquire the priest skill, it is necessary to awaken to faith . When you awaken to faith and recognize the existence of the gods, you can acquire the 1st level pri ... [truncated] (5 shared statement(s))
 - [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Reptile Check [Intelligence]: Dragon priests have knowledge of dragons, their subspecies such as wyrms, wyverns, etc. and reptiles. For these monsters only, they can identify them with a success ... [truncated] (1 shared statement(s))
-
-### Topics
-
-- [[sword-world-rpg-complete-edition-priest-skill]] - broader topic: Priest Skill shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (22 shared statement(s))
 
 ## Source
 

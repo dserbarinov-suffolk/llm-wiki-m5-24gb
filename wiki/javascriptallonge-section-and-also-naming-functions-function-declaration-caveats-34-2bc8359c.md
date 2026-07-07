@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-2bc8359c
 page_kind: source
-summary: And also: / Naming Functions / function declaration caveats 34: 13 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
+summary: And also: / Naming Functions / function declaration caveats 34: 12 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-2bc8359c@d505ed9133e2f2aa8fbe5276fd26a524
+projection_coverage: section-javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-2bc8359c@a0213eced9eb7ce0fa56cf483434f1ad
 ---
 
 # And also: / Naming Functions / function declaration caveats 34
@@ -74,18 +74,3 @@ return "Fizz" + "Buzz";
 
 <a id="atom-technical-atom-f6e9174305a8c36c"></a>
 > Or it may work one way today and a different way when the JavaScript engine is updated, say with a new optimization.
-
-### Technical frame 3: And also: / Naming Functions / function declaration caveats 34
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00539))_
-
-> The parentheses make this an expression, not a function declaration.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00538))_
-
-<a id="atom-technical-atom-edf9e0a9b8803541"></a>
-```
-function trueDat () { return true }
-But this is not:
-(function trueDat () { return true })
-```

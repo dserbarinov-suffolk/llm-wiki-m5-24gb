@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-recipes-with-basic-functions-d7445960
 page_kind: source
-summary: Recipes with Basic Functions: 27 source-backed entries and 7 atom(s) from raw/javascriptallonge.pdf.
+summary: Recipes with Basic Functions: 26 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-d7445960@1df0ee7ebf6fbb510bb92a9ce47d2290
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-d7445960@cc4fde3ff88ba5961aeaef6050c2335b
 ---
 
 # Recipes with Basic Functions
@@ -59,56 +59,7 @@ From [[javascriptallonge]].
 
 ## Technical atoms
 
-### Technical frame 1: Recipes with Basic Functions / Partial Application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00643))_
-
-> These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want to leave a 'hole' in the argument list, you will need to either use a generalized partial recipe, or you will need to repeatedly apply arguments. They are context-agnostic.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00642))_
-
-<a id="atom-technical-atom-83e28a0f45b81408"></a>
-```text
-Partial Application
-In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libraries provide some form of partial application. You'll find examples in Lemonad 45 from Michael Fogus, Functional JavaScript 46 from Oliver Steele and the terse but handy node-ap 47 from James Halliday.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 45 | from Michael Fogus, Functional JavaScript |
-| 46 | from Oliver Steele and the terse but handy node-ap |
-| 47 | from James Halliday. |
-
-</details>
-
-### Technical frame 2: Recipes with Basic Functions / Partial Application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00648))_
-
-> We take it a step further, and can use gathering and spreading to allow for partial application with more than one argument:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00646))_
-
-<a id="atom-technical-atom-695bbaa3f7cd2b31"></a>
-```text
-45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 45 | https://github.com/fogus/lemonad |
-| 46 | http://osteele.com/sources/javascript/functional/ |
-| 47 | https://github.com/substack/node-ap 48 |
-
-</details>
-
-### Technical frame 3: Recipes with Basic Functions / Maybe
+### Technical frame 1: Recipes with Basic Functions / Maybe
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00681))_
 
@@ -127,7 +78,7 @@ if (isSomething(value)) {
 }
 ```
 
-### Technical frame 4: Recipes with Basic Functions / Maybe
+### Technical frame 2: Recipes with Basic Functions / Maybe
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00691))_
 
@@ -148,31 +99,7 @@ if (arg == null) return;
 }
 ```
 
-### Technical frame 5: Recipes with Basic Functions / Maybe
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00683))_
-
-> Naturally, there's a function decorator recipe for that, borrowed from Haskell's maybe monad 50 , Ruby's andand 51 , and CoffeeScript's existential method invocation:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00685))_
-
-<a id="atom-technical-atom-629b95f90576bfd6"></a>
-```text
-50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad
-51 https://github.com/raganwald/andand
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 50 | https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad |
-| 51 | https://github.com/raganwald/andand |
-
-</details>
-
-### Technical frame 6: Recipes with Basic Functions / Maybe
+### Technical frame 3: Recipes with Basic Functions / Maybe
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00691))_
 
@@ -187,7 +114,7 @@ return fn.apply(this, args)
 }
 ```
 
-### Technical frame 7: Recipes with Basic Functions / Once
+### Technical frame 4: Recipes with Basic Functions / Once
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00695))_
 

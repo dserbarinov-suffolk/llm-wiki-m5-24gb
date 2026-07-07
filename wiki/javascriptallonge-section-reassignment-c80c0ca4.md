@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-reassignment-c80c0ca4
 page_kind: source
-summary: Reassignment: 18 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+summary: Reassignment: 17 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

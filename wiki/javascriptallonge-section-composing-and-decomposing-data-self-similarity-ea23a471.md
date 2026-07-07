@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-composing-and-decomposing-data-self-similarity-ea23a471
 page_kind: source
-summary: Composing and Decomposing Data / Self-Similarity: 28 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: Composing and Decomposing Data / Self-Similarity: 26 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

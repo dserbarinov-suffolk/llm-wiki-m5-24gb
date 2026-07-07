@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-bind
 page_kind: concept
-summary: Bind: 10 statement(s) and 31 atom(s) from raw/javascriptallonge.pdf.
+summary: Bind: 10 statement(s) and 28 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-bind@d936f9b27e8487ef41b3f7e945c2835e
+projection_coverage: topic-javascriptallonge-bind@89c304aca7bfe0dbecd6f4ba66d45cab
 ---
 
 # Bind
@@ -354,31 +354,7 @@ return "Fizz" + "Buzz";
 //=> undefined is not a function (evaluating 'fizzbuzz()')
 ```
 
-### Technical frame 19: And also: / Magic Names / the function keyword
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
-
-> The most common use of the arguments binding is to build functions that can take a variable number of arguments. We'll see it used in many of the recipes, starting off with partial application and ellipses.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00598))_
-
-<a id="atom-technical-atom-5bb18c52a0c78571"></a>
-```text
-42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
-43 We'll look at arrays and plain old javascript objects in depth later.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 42 | You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. |
-| 43 | We'll look at arrays and plain old javascript objects in depth later. |
-
-</details>
-
-### Technical frame 20: And also: / Magic Names / magic names and fat arrows
+### Technical frame 19: And also: / Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00612))_
 
@@ -398,7 +374,7 @@ row(3)
 //=> [3,6,9,12,15,18,21,24,27,30,33,36]
 ```
 
-### Technical frame 21: And also: / Magic Names / magic names and fat arrows
+### Technical frame 20: And also: / Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00616))_
 
@@ -418,7 +394,7 @@ row(3)
 //=> [1,4,9,16,25,36,49,64,81,100,121,144]
 ```
 
-### Technical frame 22: Recipes with Basic Functions / Partial Application
+### Technical frame 21: Recipes with Basic Functions / Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00645))_
 
@@ -446,31 +422,7 @@ sayHelloToCeline('Eartha')
 //=> 'Hello, Celine, my name is Eartha'
 ```
 
-### Technical frame 23: Recipes with Basic Functions / Partial Application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00648))_
-
-> We take it a step further, and can use gathering and spreading to allow for partial application with more than one argument:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00646))_
-
-<a id="atom-technical-atom-695bbaa3f7cd2b31"></a>
-```text
-45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 45 | https://github.com/fogus/lemonad |
-| 46 | http://osteele.com/sources/javascript/functional/ |
-| 47 | https://github.com/substack/node-ap 48 |
-
-</details>
-
-### Technical frame 24: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
+### Technical frame 22: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00845))_
 
@@ -483,7 +435,7 @@ sayHelloToCeline('Eartha')
 const [what] = [];
 ```
 
-### Technical frame 25: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
+### Technical frame 23: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00849))_
 
@@ -501,7 +453,7 @@ who
 //=> undefined
 ```
 
-### Technical frame 26: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
+### Technical frame 24: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00849))_
 
@@ -519,7 +471,7 @@ they
 //=> []
 ```
 
-### Technical frame 27: Reassignment
+### Technical frame 25: Reassignment
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01149))_
 
@@ -539,23 +491,7 @@ return age;
 //=> 49
 ```
 
-### Technical frame 28: Reassignment
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01154))_
-
-> Like evaluating variable labels, when a binding is rebound, JavaScript searches for the binding in the current environment and then each ancestor in turn until it finds one. It then rebinds the name in that environment.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01150))_
-
-<a id="atom-technical-atom-137d15c932fddea1"></a>
-```
-{age: 49, '..': global-environment}
-To:
-{age: 50, '..': {age: 49, '..': global-environment}}
-Then back to:
-```
-
-### Technical frame 29: Reassignment
+### Technical frame 26: Reassignment
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01154))_
 
@@ -568,7 +504,7 @@ Then back to:
 {age: 49, '..': global-environment}
 ```
 
-### Technical frame 30: Reassignment / mixing let and const / var
+### Technical frame 27: Reassignment / mixing let and const / var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01167))_
 
@@ -599,7 +535,7 @@ else {
 --x;
 ```
 
-### Technical frame 31: Reassignment / mixing let and const / var
+### Technical frame 28: Reassignment / mixing let and const / var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01167))_
 
@@ -622,13 +558,13 @@ factorial2(5)
 ### Shared technical atoms
 
 - [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from And also: / That Constant Coffee Craving: ((PI) => // ???? )(3.14159265) (8 shared atom(s))
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from And also: / call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated]; Javascript shares technical record from And also: / Magic Names / the function keyword: 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48 (2 shared statement(s), 7 shared atom(s))
-- [[javascriptallonge-binding]] - shared statements and technical atoms: Binding shares source evidence from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: We can test this by creating another conflict. But instead of binding two different variables to the same name in two different places, we'll bind two different valu ... [truncated]; Binding shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (1 shared statement(s), 7 shared atom(s))
-- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Argument shares technical record from And also: / Magic Names / the function keyword: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (2 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-function-keyword]] - shared technical atoms: the function keyword shares technical record from And also: / Naming Functions / the function keyword: const double = function repeat (str) { return str + str; } (4 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from And also: / call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated]; Javascript shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching: const [what] = []; (2 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-binding]] - shared statements and technical atoms: Binding shares source evidence from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: We can test this by creating another conflict. But instead of binding two different variables to the same name in two different places, we'll bind two different valu ... [truncated]; Binding shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (1 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Argument shares technical record from And also: / Magic Names / magic names and fat arrows: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (2 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-array]] - shared technical atoms: Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching: const [what] = []; (3 shared atom(s))
-- [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; partial application shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-function-keyword]] - shared technical atoms: the function keyword shares technical record from And also: / Naming Functions / the function keyword: const double = function repeat (str) { return str + str; } (3 shared atom(s))
+- [[javascriptallonge-fat-arrow]] - shared statements and technical atoms: Fat Arrow shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Fat Arrow shares technical record from And also: / Magic Names / magic names and fat arrows: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

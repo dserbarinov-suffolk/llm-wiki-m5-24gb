@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-ddaad36a
 page_kind: source
-summary: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill: 6 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-ddaad36a@fddb46ed4d4dbd6595ad655cf344d433
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-ddaad36a@3657555d2748ed126e55dc74f3224a89
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill
@@ -32,29 +32,3 @@ From [[sword-world-rpg-complete-edition]].
 - To use this skill, you are subject to the same equipment restrictions as when using the ranger skill. Also, as mentioned above, the hunter skill is similar to the ranger skill, so please refer to the ranger skill section for overlapping abilities . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04319))_
 - The abilities of the hunter skill are as follows. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04320))_
 - Regarding the abilities from ① to ⑧ , ranger has an ability with the same name, and they are exactly the same. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04331))_
-
-## Technical atoms
-
-### Technical frame 1: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill / [ ⑨ Pre-processing [Dexterity]] / [ ③ Herbs [Intelligence] ] (Not retriable)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04344))_
-
-> The sailor skill is the skill needed to operate a ship. Owners of this skill are called sailors, and people called sailors own this skill. Also, even if you are not a professional sailor, those who sail as a hobby or a side job still possess this skill.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04343))_
-
-<a id="atom-technical-atom-9a895a11d304958a"></a>
-```text
-7.6
-7.6 Sailor Skill
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 7 | 6 |
-| 7 | 6 Sailor Skill |
-
-</details>

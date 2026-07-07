@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-copy-on-write-making-data-out-of-functions-182a6c8b
 page_kind: source
-summary: Copy on Write / Making Data Out Of Functions: 13 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
+summary: Copy on Write / Making Data Out Of Functions: 12 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-182a6c8b@dc8dd910e460444d406a0d6c6a82ee41
+projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-182a6c8b@bdb9f83e21a06605a6b7b9cf91ecc527
 ---
 
 # Copy on Write / Making Data Out Of Functions
@@ -69,53 +69,3 @@ node === EMPTY
 length(OneTwoThree)
 //=> 3
 ```
-
-### Technical frame 2: Copy on Write / Making Data Out Of Functions
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01305))_
-
-> They established that arbitrary computations could be represented a small set of axiomatic components. For example, we don't need arrays to represent lists, or even POJOs to represent nodes in a linked list. We can model lists just using functions.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
-
-<a id="atom-technical-atom-268f5812c47797c2"></a>
-```text
-76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422
-77 http://oscin.es
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 76 | http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 |
-| 77 | http://oscin.es |
-
-</details>
-
-### Technical frame 3: Copy on Write / Making Data Out Of Functions / functions are not the real point
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01379))_
-
-> Knowing how to make a list out of just functions is a little like knowing that photons are the Gauge Bosons 81 of the electromagnetic force. It's the QED of physics that underpins the Maxwell's Equations of programming. Deeply important, but not practical when you're building a bridge.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01380))_
-
-<a id="atom-technical-atom-f2ed9b6962a2b6bc"></a>
-```text
-79 https://en.wikipedia.org/wiki/Church_encoding
-81 https://en.wikipedia.org/wiki/Gauge_boson
-80 https://en.wikipedia.org/wiki/Surreal_number
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 79 | https://en.wikipedia.org/wiki/Church_encoding |
-| 81 | https://en.wikipedia.org/wiki/Gauge_boson |
-| 80 | https://en.wikipedia.org/wiki/Surreal_number |
-
-</details>

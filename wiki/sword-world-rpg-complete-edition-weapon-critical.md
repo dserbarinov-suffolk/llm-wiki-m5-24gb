@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-weapon-critical
 page_kind: concept
-summary: 《 Weapons Cannot Critical 》: 16 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 《 Weapons Cannot Critical 》: 16 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-weapon-critical@485a85752a48daba4c225547bea14442
+projection_coverage: topic-sword-world-rpg-complete-edition-weapon-critical@750c900c7bee71146f23cc9f5db77683
 ---
 
 # 《 Weapons Cannot Critical 》
@@ -75,34 +75,7 @@ What [[sword-world-rpg-complete-edition]] covers about 《 weapons cannot critic
 
 ## Technical atoms
 
-### Technical frame 1: Table 16-1 Weapon Optional Rules
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09954))_
-
-> Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is different for each weapon . This is indicated by the critical target . Axes, maces, etc. do not critical even if you roll a 10, but rather require an 11 or 12 . One can say that the lower this score, the more
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09955))_
-
-<a id="atom-technical-atom-720b52b0484e0c87"></a>
-| differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| quantifies weapons used Optional explained | Here by The | the and Weapon is adventurers Rules"). terms below. | armor. a table | finer used | differences Modifiers of weapons ("Table on | 16-1 this | between commonly Weapon table | are | Spears/1H Spears/2H Maces/1H Maces/2H Clubs/1H Staves/2H Flails/1H Flails/2H War Hammer/1H War Hammer/2H Bows Crossbow | -1 ±0 +1 +1 +1 +1 -1 -1 -1 -2 ±0 ±0 | +5 +5 +5 +10 ±0 +5 +5 +10 +5 +15 +5 +10 | 10* 10* 12 12 12 12 10 10 10 10 10* 10* |
-| modifier power Weapons | Attack Attack | added when with | power | Power to using higher | modifier an adventurer's numbers | Modifier indicates that | weapon. are | the attack more | Slings/1H Slings/2H Rocks Whip/1H Net/1H | ±0 ±0 +1 -2 -2 | +5 +10 ±0 0** -△ | 11 11 12 10* -△ |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 16-1 Weapon Optional Rules
-| differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| quantifies weapons used Optional explained | Here by The | the and Weapon is adventurers Rules"). terms below. | armor. a table | finer used | differences Modifiers of weapons ("Table on | 16-1 this | between commonly Weapon table | are | Spears/1H Spears/2H Maces/1H Maces/2H Clubs/1H Staves/2H Flails/1H Flails/2H War Hammer/1H War Hammer/2H Bows Crossbow | -1 ±0 +1 +1 +1 +1 -1 -1 -1 -2 ±0 ±0 | +5 +5 +5 +10 ±0 +5 +5 +10 +5 +15 +5 +10 | 10* 10* 12 12 12 12 10 10 10 10 10* 10* |
-| modifier power Weapons | Attack Attack | added when with | power | Power to using higher | modifier an adventurer's numbers | Modifier indicates that | weapon. are | the attack more | Slings/1H Slings/2H Rocks Whip/1H Net/1H | ±0 ±0 +1 -2 -2 | +5 +10 ±0 0** -△ | 11 11 12 10* -△ |
-```
-
-</details>
-
-### Technical frame 2: 18.3 Rules for Destroying Structures / 18.3.2 Structure Material List / [ Wood ]
+### Technical frame 1: 18.3 Rules for Destroying Structures / 18.3.2 Structure Material List / [ Wood ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10551))_
 
@@ -116,13 +89,10 @@ Table 16-1 Weapon Optional Rules
 
 ## Related pages
 
-### Shared technical atoms
-
-- [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements and technical atoms: Critical Target Variation shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated]; Critical Target Variation shares technical record from Table 16-1 Weapon Optional Rules: Table 16-1 Weapon Optional Rules | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* | | --- | --- | --- | --- | --- | --- | --- ... [truncated] (8 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-16-weapon]] - shared statements and technical atoms: 16 Weapon shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated]; 16 Weapon shares technical record from Table 16-1 Weapon Optional Rules: Table 16-1 Weapon Optional Rules | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* | | --- | --- | --- | --- | --- | --- | --- ... [truncated] (2 shared statement(s), 1 shared atom(s))
-
 ### Shared claims
 
+- [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements: Critical Target Variation shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (8 shared statement(s))
+- [[sword-world-rpg-complete-edition-16-weapon]] - shared statements: 16 Weapon shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated] (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Golem ]: Monster Level=9 Rarity=12 Agility=6 Movement Speed=8 Number=One Frequency=Rare Intellect=Obeys commands Reaction=Command-based Attack Points=Arms:17 (10) Strike Poin ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Golem ]: Monster Level=9 Rarity=12 Agility=6 Movement Speed=8 Number=One Frequency=Rare Intellect=Obeys commands Reaction=Command-based Attack Points=Arms:17 (10) Strike Poin ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))

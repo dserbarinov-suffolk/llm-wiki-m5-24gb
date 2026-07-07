@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: collection-sword-world-rpg-complete-edition-collection-chapter-6-0a12e20d@a46777e9b5dba83d3c419fa072412d88
+projection_coverage: collection-sword-world-rpg-complete-edition-collection-chapter-6-0a12e20d@8b2a8447e665fdb66e9022344db2802a
 ---
 
 # Chapter 6:
@@ -28,4 +28,4 @@ Broader source section: [[sword-world-rpg-complete-edition]].
 | --- | --- | --- |
 | Chapter 6: / [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable) | [[sword-world-rpg-complete-edition-section-chapter-6-treasure-appraisal-intelligence-not-retriable-2f47b1db]] | 8 statement(s), 8 atom(s) |
 | Chapter 6: / Bard Skill | [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-c1d2d527]] | 28 statement(s), 18 atom(s) |
-| Chapter 6: / Common Adventurer Abilities | [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-90386567]] | 88 statement(s), 174 atom(s) |
+| Chapter 6: / Common Adventurer Abilities | [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-90386567]] | 88 statement(s), 138 atom(s) |

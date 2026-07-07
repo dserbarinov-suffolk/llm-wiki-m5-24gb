@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor
 page_kind: procedure
-summary: Complete Excellent Weapons and Armor: 4 ordered step(s), 10 decision point(s), and 44 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Complete Excellent Weapons and Armor: 4 ordered step(s), 10 decision point(s), and 43 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-excellent-weapons-and-armor, excellent-weapons-and-armor
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor@44c3c7cb19994644b403e7d1f5af611d
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor@a21ba081d8e158d0d7fbde05d8847e6c
 ---
 
 # Excellent Weapons and Armor
@@ -54,7 +54,6 @@ From [[sword-world-rpg-complete-edition]].
 
 - `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-9f7e82f5]]#atom-technical-atom-495e5584f118ab33 Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than u _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01431))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-9f7e82f5]]#atom-technical-atom-31b50f752ff5c7c1 However, if you want one of higher quality, you must go to a larger town. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01432))_
-- `table`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-9f7e82f5]]#atom-technical-atom-0f7ebd73a605d5d4 Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01433))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-9f7e82f5]]#atom-technical-atom-8cf4fd0aab647694 Whenever an adventurer declares that their attack on a monster is a mercy, that monster will always remain alive. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01435))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-9f7e82f5]]#atom-technical-atom-d5713434037c8756 Magical weapons can deal damage to monsters that normal weapons cannot harm. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01451))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-9f7e82f5]]#atom-technical-atom-6845040b27724d2b Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01467))_
@@ -64,6 +63,7 @@ From [[sword-world-rpg-complete-edition]].
 - `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-9f7e82f5]]#atom-technical-atom-4bcd649adce68f1b If the result is anything other than double ones, the magic takes effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01543))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-9f7e82f5]]#atom-technical-atom-c521768567712511 When attempting to cast resistible magic on a monster, the caster must determine whether their opponent can resist it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01545))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-9f7e82f5]]#atom-technical-atom-303962bf9baf5458 If the 2D roll comes up double sixes , the magic automatically succeeds and will take its full effect, no matter how hig _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01546))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-9f7e82f5]]#atom-technical-atom-c5a3a4cd9e086609 Fire Bolt is resistible magic, so if it's resisted by the opponent, its effect will be reduced. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01549))_
 
 ## Completion Check
 

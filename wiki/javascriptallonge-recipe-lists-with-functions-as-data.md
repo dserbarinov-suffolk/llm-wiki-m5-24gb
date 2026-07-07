@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-lists-with-functions-as-data
 page_kind: recipe
-summary: lists with functions as data: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: lists with functions as data: reusable source-backed pattern with 4 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: lists-with-functions-as-data
-projection_coverage: recipe-javascriptallonge-recipe-lists-with-functions-as-data@a511c332e909b3dfabb87dfcaac4c4a1
+projection_coverage: recipe-javascriptallonge-recipe-lists-with-functions-as-data@8bdb2e08aabac2c19b36a76e5fb9f08c
 ---
 
 # lists with functions as data
@@ -51,41 +51,6 @@ first(rest(rest(l123)))
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01354)_
-
-```
-const length = (aPair) =>
-aPair === EMPTY
-? 0
-: 1 + length(rest(aPair));
-length(l123)
-//=> 3
-const reverse = (aPair, delayed = EMPTY) =>
-aPair === EMPTY
-? delayed
-: reverse(rest(aPair), pair(first(aPair), delayed));
-const mapWith = (fn, aPair, delayed = EMPTY) =>
-aPair === EMPTY
-? reverse(delayed)
-: mapWith(fn, rest(aPair), pair(fn(first(aPair)), delayed));
-const doubled = mapWith((x) => x * 2, l123);
-first(doubled)
-//=> 2
-first(rest(doubled))
-//=> 4
-first(rest(rest(doubled)))
-//=> 6
-Can we do the same with the linked lists we build out of functions? Yes:
-const first = K,
-rest
-= K(I),
-pair = V,
-EMPTY = (() => {});
-const l123 = pair(1)(pair(2)(pair(3)(EMPTY)));
-```
-
-### Atom 3: `code-block`
-
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01355)_
 
 ```
@@ -99,18 +64,7 @@ l123(first)
 l123(rest)(first)
 ```
 
-### Atom 4: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01356)_
-
-```
-//=> 2
-return l123(rest)(rest)(first)
-//=> 3
-We write them in a backwards way, but they seem to work. How about
-```
-
-### Atom 5: `code-block`
+### Atom 3: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01358)_
 

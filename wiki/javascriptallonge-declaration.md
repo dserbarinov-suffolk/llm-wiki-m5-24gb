@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-declaration
 page_kind: concept
-summary: Declaration: 4 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
+summary: Declaration: 4 statement(s) and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-declaration@cbd0b68db318df7683db8aed78ae144b
+projection_coverage: topic-javascriptallonge-declaration@a1174ea2f0d3842460c45989417e5d43
 ---
 
 # Declaration
@@ -39,25 +39,6 @@ What [[javascriptallonge]] covers about declaration:
 
 > In that it binds a name in the environment to a named function. However, there are two important differences. First, function declarations are hoisted to the top of the function in which they occur.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00523))_
-
-<a id="atom-technical-atom-8c58014f32c8c5ed"></a>
-```
-function someName () {
-// ...
-}
-This behaves a little like:
-const someName = function someName ()
-// ...
-}
-```
-
-### Technical frame 2: And also: / Naming Functions / function declarations
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00525))_
-
-> In that it binds a name in the environment to a named function. However, there are two important differences. First, function declarations are hoisted to the top of the function in which they occur.
-
 **Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00524))_
 
 <a id="atom-technical-atom-1edc2159fdc08db8"></a>
@@ -65,29 +46,7 @@ const someName = function someName ()
 {
 ```
 
-### Technical frame 3: And also: / Naming Functions / function declarations
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00531))_
-
-> The definition of the fizzbuzz is 'hoisted' to the top of its enclosing scope (an IIFE in this case). This behaviour is intentional on the part of JavaScript's design to facilitate a certain style of programming where you put the main logic up front, and the 'helper functions' at the bottom. It is not necessary to declare functions in this way in JavaScript, but understanding the syntax and its behaviour (especially the way it differs from const ) is essential for working with production code.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00529))_
-
-<a id="atom-technical-atom-10bea7f25cc0eba7"></a>
-```
-(function () {
-return fizzbuzz();
-function fizzbuzz () {
-return "Fizz" + "Buzz";
-}
-})()
-//=> 'FizzBuzz'
-Although fizzbuzz is declared later in the function, JavaScript behaves as if we’d written:
-(function () {
-const fizzbuzz = function fizzbuzz () {
-```
-
-### Technical frame 4: And also: / Naming Functions / function declarations
+### Technical frame 2: And also: / Naming Functions / function declarations
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00531))_
 
@@ -104,22 +63,7 @@ return fizzbuzz();
 })()
 ```
 
-### Technical frame 5: And also: / Naming Functions / function declaration caveats 34
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00539))_
-
-> The parentheses make this an expression, not a function declaration.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00538))_
-
-<a id="atom-technical-atom-edf9e0a9b8803541"></a>
-```
-function trueDat () { return true }
-But this is not:
-(function trueDat () { return true })
-```
-
-### Technical frame 6: Reassignment / mixing let and const / var
+### Technical frame 3: Reassignment / mixing let and const / var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01169))_
 
@@ -139,7 +83,7 @@ return age;
 //=> 50
 ```
 
-### Technical frame 7: Reassignment / mixing let and const / var
+### Technical frame 4: Reassignment / mixing let and const / var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01176))_
 
@@ -164,7 +108,7 @@ factorial(4)
 //=> 24
 ```
 
-### Technical frame 8: Reassignment / mixing let and const / var
+### Technical frame 5: Reassignment / mixing let and const / var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01176))_
 
@@ -197,7 +141,6 @@ factorial(4)
 
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Reassignment / mixing let and const / var: const factorial = (n) => { return innerFactorial(n, 1); function innerFactorial (x, y) { if (x == 1) { return y; } else { return innerFactorial(x-1, x * y); } } } fa ... [truncated] (2 shared atom(s))
 - [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from And also: / Naming Functions / function declarations: { (1 shared atom(s))
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from And also: / Naming Functions / function declaration caveats 34: function trueDat () { return true } But this is not: (function trueDat () { return true }) (1 shared atom(s))
 
 ## Source
 

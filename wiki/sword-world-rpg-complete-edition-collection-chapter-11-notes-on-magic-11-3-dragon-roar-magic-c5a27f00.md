@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: collection-sword-world-rpg-complete-edition-collection-chapter-11-notes-on-magic-11-3-dragon-roar-magic-c5a27f00@4a752123da55b7a197045fa353efa220
+projection_coverage: collection-sword-world-rpg-complete-edition-collection-chapter-11-notes-on-magic-11-3-dragon-roar-magic-c5a27f00@8a76b24727ea393a9a79aaa86044dc7d
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
@@ -27,7 +27,7 @@ Broader source section: [[sword-world-rpg-complete-edition-section-chapter-11-no
 | Member | Source section | Evidence |
 | --- | --- | --- |
 | Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 《 Summon 》 | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-summon-5e314d0d]] | 11 statement(s), 17 atom(s) |
-| Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 1st Level Dragon Roar Magic List [ Iron Stomach ] | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-1st-level-dragon-roar-magic-list-iron-stomach-11099e82]] | 5 statement(s), 46 atom(s) |
+| Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 1st Level Dragon Roar Magic List [ Iron Stomach ] | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-1st-level-dragon-roar-magic-list-iron-stomach-11099e82]] | 5 statement(s), 42 atom(s) |
 | Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 2nd Level Dragon Roar Magic List | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-d0190556]] | 6 statement(s), 48 atom(s) |
 | Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 3rd Level Dragon Roar Magic List | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-3rd-level-dragon-roar-magic-list-e4833ac3]] | 9 statement(s), 56 atom(s) |
 | Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-4th-level-dragon-roar-magic-list-e8bb9ade]] | 8 statement(s), 30 atom(s) |

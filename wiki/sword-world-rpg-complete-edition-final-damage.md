@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-final-damage
 page_kind: concept
-summary: 4.5.5 Final Damage: 15 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.5.5 Final Damage: 15 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-final-damage@790a7eea229163c0334df070301976dc
+projection_coverage: topic-sword-world-rpg-complete-edition-final-damage@f7d0d0409deca5f554ef3270d468a024
 ---
 
 # 4.5.5 Final Damage
@@ -67,81 +67,19 @@ What [[sword-world-rpg-complete-edition]] covers about 4.5.5 final damage:
 - If the defense roll came up double ones , no such calculation would be made, and the goblin's 7 strike points would be the damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01320))_
 - If final damage is 0 or negative , that means you took no damage at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01321))_
 
-## Technical atoms
-
-### Technical frame 1: Attacks From Monsters Against Characters / 4.6.5 Final Damage
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01320))_
-
-> If the defense roll came up double ones , no such calculation would be made, and the goblin's 7 strike points would be the damage.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01319))_
-
-<a id="atom-technical-atom-359adc15fff571da"></a>
-```text
-7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5
-7 (goblin's strike points) - {6 (defense roll) +2 (damage reduction)} = -1
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 7 | (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5 |
-| 7 | (goblin's strike points) - {6 (defense roll) +2 (damage reduction)} = -1 |
-
-</details>
-
-### Technical atom 2
-
-<a id="atom-technical-atom-1b86ceef81c1f61b"></a>
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01278))_
-
-> If the base damage dealt by Ducard II is 4, 18 , or 14 , respectively, the final damage he could deal to the goblin would be:
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01279))_
-
-```text
-4 (base damage) +4 (bonus damage) -4 (goblin's defense points) = 4
-18 (base damage) +4 (bonus damage)
--4 (goblin's defense points) = 18
-14 (base damage) +4 (bonus damage) -4 (goblin's defense points) = 14
-If  final  damage  is 0  or  negative ,  it means  that no  damage was  dealt.  The attack  was  prevented  by  thick  skin  or hard scales.
-4.6
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 4 | (base damage) +4 (bonus damage) -4 (goblin's defense points) = 4 |
-| 18 | (base damage) +4 (bonus damage) |
-| 4 | (goblin's defense points) = 18 |
-| 14 | (base damage) +4 (bonus damage) -4 (goblin's defense points) = 14 If final damage is 0 or negative, it means that no damage was dealt. The attack was prevented by thick skin or hard scales. |
-| 4 | 6 |
-
-</details>
-
-
 ## Related pages
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-e115436c]] - source section: Attacks From Monsters Against Characters / 4.6.5 Final Damage shares source evidence from Attacks From Monsters Against Characters / 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction .; Attacks From Monsters Against Characters / 4.6.5 Final Damage shares technical record from Attacks From Monsters Against Characters / 4.6.5 Final Damage: 7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5 7 (goblin's strike points) - {6 (defense roll) +2 (damage reduction)} = -1 (5 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-4-5-5-final-damage-11fc6c58]] - source section: 4.5.5 Final Damage shares technical record from 4.5.5 Final Damage: final damage = base damage + bonus damage - monster's defense points (2 shared atom(s))
-
-### Shared technical atoms
-
-- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements and technical atoms: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters / 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction .; Attacks From Monsters Against Characters shares technical record from Attacks From Monsters Against Characters / 4.6.5 Final Damage: 7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5 7 (goblin's strike points) - {6 (defense roll) +2 (damage reduction)} = -1 (5 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from Attacks From Monsters Against Characters / 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction .; Attacks From Characters Against Monsters shares technical record from Attacks From Monsters Against Characters / 4.6.5 Final Damage: 7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5 7 (goblin's strike points) - {6 (defense roll) +2 (damage reduction)} = -1 (1 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-e115436c]] - source section: Attacks From Monsters Against Characters / 4.6.5 Final Damage shares source evidence from Attacks From Monsters Against Characters / 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction . (5 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-4-5-5-final-damage-11fc6c58]] - source section: 4.5.5 Final Damage shares technical record from 4.5.5 Final Damage: final damage = base damage + bonus damage - monster's defense points (1 shared atom(s))
 
 ### Shared claims
 
+- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters / 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction . (5 shared statement(s))
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from 5.1.12 Ancient Magic List / [ Lightning Bind ]: Type=Target score, damage (Electric-type) Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect (4 shared statement(s))
 - [[sword-world-rpg-complete-edition-damage-reduction]] - shared statements: 【 Damage Reduction 】 shares source evidence from Attacks From Monsters Against Characters / 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction . (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Attacks From Monsters Against Characters / 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction . (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-control-spirit-lesser]] - shared statements: [ Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-shade]] - shared statements: Shade shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
 

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-function-keyword
-projection_coverage: recipe-javascriptallonge-recipe-the-function-keyword@aa2e364e0e5644f1cdd96a605cd5847d
+projection_coverage: recipe-javascriptallonge-recipe-the-function-keyword@4ffa3fea5007287d6a161941a3e4a80a
 ---
 
 # the function keyword
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 ## Pattern
 
 - Use the source-backed pattern described in [[javascriptallonge-section-and-also-magic-names-the-function-keyword-55f3d121]].
-- Evidence roles: decision, procedure, constraint, example, structured-state.
+- Evidence roles: decision, procedure, constraint, example.
 
 ## Applicability And Rationale
 

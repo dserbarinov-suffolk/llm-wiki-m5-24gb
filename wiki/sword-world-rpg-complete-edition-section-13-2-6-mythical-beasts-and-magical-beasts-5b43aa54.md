@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-5b43aa54
 page_kind: source
-summary: 13.2.6 Mythical Beasts and Magical Beasts: 54 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.2.6 Mythical Beasts and Magical Beasts: 54 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-5b43aa54@62b484ea80befb816cb2262932a48ab3
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-5b43aa54@b3a11423e5fc976da4c50310387c5d75
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts
@@ -72,44 +72,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Technical atoms
 
-### Technical frame 1: 13.2.6 Mythical Beasts and Magical Beasts / [ Buckbaird ]
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06682))_
-
-> In combat, a buckbaird uses five different types of rays. The game master should roll 1D to determine which ray the buckbaird fires (or if it attempts to ram). The ray can only affect one target. Those targeted by the ray will be unaffected if they succeed on a mental power resistance roll against target score 16, but will be seriously affected if they fail. This ray cannot affect the buckbaird itself, even if it's reflected using a mirror, etc.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06683))_
-
-<a id="atom-technical-atom-214620eb5f69e3f7"></a>
-```text
-1. Paralysis Ray
-You will be paralyzed for 6 rounds.
-2. Hypnosis Ray
-You will fall asleep. This is considered natural sleep.
-3. Freeze Ray
-You will freeze instantly and enter a state of suspended animation. Treat this the same way as the spirit magic Ice Coffin (see p. 94).
-4. Brainwashing Ray
-You  will  think  the  buckbaird  is your ally and attack your allies. This effect lasts 18 rounds. Treat this the same  way  as  magic  that  belongs  to mind .
-5. Metal Destruction Ray
-Destroys metal weapons and armor you are wearing. Magical weapons and armor are not affected. This ray cannot be resisted.
-6. No firing
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 1 | Paralysis Ray You will be paralyzed for 6 rounds. |
-| 2 | Hypnosis Ray You will fall asleep. This is considered natural sleep. |
-| 3 | Freeze Ray You will freeze instantly and enter a state of suspended animation. Treat this the same way as the spirit magic Ice Coffin (see p. 94). |
-| 4 | Brainwashing Ray You will think the buckbaird is your ally and attack your allies. This effect lasts 18 rounds. Treat this the same way as magic that belongs to mind. |
-| 5 | Metal Destruction Ray Destroys metal weapons and armor you are wearing. Magical weapons and armor are not affected. This ray cannot be resisted. |
-| 6 | No firing |
-
-</details>
-
-### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.3 Converting Character Data to Monster Data
+### Technical frame 1: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.3 Converting Character Data to Monster Data
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08561))_
 
@@ -142,7 +105,7 @@ Converting Character Data to Monster Data
 
 </details>
 
-### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.4 Representing Special Monsters with Character Data
+### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.4 Representing Special Monsters with Character Data
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08594))_
 
@@ -167,7 +130,7 @@ Monster Level and Adventurer Level
 
 </details>
 
-### Technical frame 4: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.5 Monster Level and Adventurer Level
+### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.5 Monster Level and Adventurer Level
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08601))_
 

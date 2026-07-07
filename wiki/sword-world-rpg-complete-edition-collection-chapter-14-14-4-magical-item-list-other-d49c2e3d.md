@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: collection-sword-world-rpg-complete-edition-collection-chapter-14-14-4-magical-item-list-other-d49c2e3d@a47b2dd329a5c10d84636f1a6ddc96d2
+projection_coverage: collection-sword-world-rpg-complete-edition-collection-chapter-14-14-4-magical-item-list-other-d49c2e3d@5b63b4e42e782e4c3cb7179ffdd8203b
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》
@@ -39,7 +39,7 @@ Broader source section: [[sword-world-rpg-complete-edition-section-chapter-14-14
 | Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Scape Doll ] | [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-scape-doll-42b7eb1d]] | 6 statement(s), 12 atom(s) |
 | Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Statue of Changing ] | [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-statue-of-changing-f1204bd4]] | 3 statement(s), 10 atom(s) |
 | Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Spirit Sealing Stone ] | [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-spirit-sealing-stone-6974dd4a]] | 7 statement(s), 3 atom(s) |
-| Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Sleep Eye ] | [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-sleep-eye-3d3e9aab]] | 3 statement(s), 10 atom(s) |
+| Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Sleep Eye ] | [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-sleep-eye-3d3e9aab]] | 3 statement(s), 8 atom(s) |
 | Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Soft Lander ] | [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-soft-lander-abc8e204]] | 3 statement(s), 9 atom(s) |
 | Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Jar ] | [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-jar-f68fd8a4]] | 5 statement(s), 8 atom(s) |
 | Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Hand ] | [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-hand-4b1be922]] | 1 statement(s), 8 atom(s) |

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-projectile@68c250db4ba5fbec76a5354d46e6bd39
+projection_coverage: topic-sword-world-rpg-complete-edition-projectile@e467df57bcc522062373e976649d1cbc
 ---
 
 # Projectile
@@ -52,7 +52,7 @@ What [[sword-world-rpg-complete-edition]] covers about projectile:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-projectiles-fcb33f09]] - source section: 1.4 Character Creation / Projectiles shares source evidence from 1.4 Character Creation / Projectiles: On Table 1-8: Weapons, weapons with made for throwing or shooting after the weapon's name are strictly projectile weapons. Note that these cannot be used in melee. T ... [truncated]; 1.4 Character Creation / Projectiles shares technical record from 1.4 Character Creation / Projectiles: Throwable weapons are basically used in melee, although they can be thrown when the need arises. (2 shared statement(s), 3 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-projectiles-fcb33f09]] - source section: 1.4 Character Creation / Projectiles shares source evidence from 1.4 Character Creation / Projectiles: On Table 1-8: Weapons, weapons with made for throwing or shooting after the weapon's name are strictly projectile weapons. Note that these cannot be used in melee. T ... [truncated]; 1.4 Character Creation / Projectiles shares technical record from 1.4 Character Creation / Projectiles: Throwable weapons are basically used in melee, although they can be thrown when the need arises. (2 shared statement(s), 1 shared atom(s))
 
 ### Shared technical atoms
 

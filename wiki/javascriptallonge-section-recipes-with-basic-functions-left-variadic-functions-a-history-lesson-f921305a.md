@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-a-history-lesson-f921305a
 page_kind: source
-summary: Recipes with Basic Functions / Left-Variadic Functions / a history lesson: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: Recipes with Basic Functions / Left-Variadic Functions / a history lesson: 4 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

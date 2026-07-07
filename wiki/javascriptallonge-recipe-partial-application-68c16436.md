@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: partial-application
-projection_coverage: recipe-javascriptallonge-recipe-partial-application-68c16436@1676d9f1919dea9e2fb1bfd102de02ae
+projection_coverage: recipe-javascriptallonge-recipe-partial-application-68c16436@a4c48923cd6e5e8fe2a82e1c70699eb3
 ---
 
 # partial application
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 ## Pattern
 
 - Use the source-backed pattern described in [[javascriptallonge-section-and-also-building-blocks-partial-application-68c16436]].
-- Evidence roles: decision, constraint, example, structured-state.
+- Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
 

@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-mutation-mutation-and-data-structures-fe3c8850
 page_kind: source
-summary: Mutation / mutation and data structures: 13 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+summary: Mutation / mutation and data structures: 12 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-mutation-mutation-and-data-structures-fe3c8850@3f0594294b0703cda2c290b8d1ce7987
+projection_coverage: section-javascriptallonge-section-mutation-mutation-and-data-structures-fe3c8850@f216b1d21ca52270b9f3766cdb715bb3
 ---
 
 # Mutation / mutation and data structures
@@ -44,45 +44,3 @@ From [[javascriptallonge]].
 
 <a id="atom-technical-atom-02e050cf9b1a8a6c"></a>
 > But after returning the new list, we then become conservative about mutation. This also makes sense: Linked lists often use structure sharing. For example:
-
-### Technical frame 2: Mutation / mutation and data structures
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01126))_
-
-> The gathering operation [a, b, ...ThreeToFive] is slower, but 'safer. '
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01122))_
-
-<a id="atom-technical-atom-4408b37f838af47d"></a>
-```
-const EMPTY = {};
-const OneToFive = { first: 1,
-rest: {
-first: 2,
-rest: {
-first: 3,
-rest: {
-first: 4,
-rest: {
-first: 5,
-rest: EMPTY } } } } };
-OneToFive
-//=> {"first":1,"rest":{"first":2,"rest":{"first":"three","rest":{"first":"fou\
-r","rest":{"first":"five","rest":{}}}}}}
-const ThreeToFive = OneToFive.rest.rest;
-ThreeToFive
-//=> {"first":3,"rest":{"first":4,"rest":{"first":5,"rest":{}}}}
-ThreeToFive.first = "three";
-ThreeToFive.rest.first = "four";
-ThreeToFive.rest.rest.first = "five";
-ThreeToFive
-//=> {"first":"three","rest":{"first":"four","rest":{"first":"five","rest":{}}\
-}}
-OneToFive
-//=> {"first":1,"rest":{"first":2,"rest":{"first":"three","rest":{"first":"fou\
-r","rest":{"first":"five","rest":{}}}}}}
-Changes made to ThreeToFive affect OneToFive, because they share the same structure. When we
-wrote ThreeToFive = OneToFive.rest.rest;, we weren’t making a brand new copy of {"first":3,"rest":{"firs
-we were getting a reference to the same chain of nodes.
-Structure sharing like this is what makes linked lists so fast for taking everything but the first item
-```

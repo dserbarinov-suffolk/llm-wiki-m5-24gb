@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-iterating
 page_kind: recipe
-summary: iterating: reusable source-backed pattern with 9 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: iterating: reusable source-backed pattern with 9 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: iterating
-projection_coverage: recipe-javascriptallonge-recipe-iterating@0fcd0643a819e72fdb397251c6ef017c
+projection_coverage: recipe-javascriptallonge-recipe-iterating@e19db13c107adc6cf5660ffb9628e629
 ---
 
 # iterating
@@ -69,47 +69,6 @@ arraySum([1, 4, 9, 16, 25])
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01267)_
-
-```
-const arraySum = (array) => {
-let iter,
-sum = 0,
-index = 0;
-while (
-(eachIteration = {
-done: index === array.length,
-value: index < array.length ? array[index] : undefined
-},
-++index,
-!eachIteration.done)
-) {
-sum += eachIteration.value;
-}
-return sum;
-}
-arraySum([1, 4, 9, 16, 25])
-//=> 55
-With this code, we make a POJO that has done and value keys. All the summing code needs to know
-is to add eachIteration.value. Now we can extract the ickiness into a separate function:
-const arrayIterator = (array) => {
-let i = 0;
-return () => {
-const done = i === array.length;
-return {
-done,
-value: done ? undefined : array[i++]
-}
-}
-}
-const iteratorSum = (iterator) => {
-let eachIteration,
-sum = 0;
-while ((eachIteration = iterator(), !eachIteration.done)) {
-```
-
-### Atom 4: `code-block`
-
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01268)_
 
 ```
@@ -121,7 +80,7 @@ iteratorSum(arrayIterator([1, 4, 9, 16, 25]))
 //=> 55
 ```
 
-### Atom 5: `code-block`
+### Atom 4: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01271)_
 
@@ -150,7 +109,7 @@ const {first, rest} = aPair;
 aPair = aPair.rest;
 ```
 
-### Atom 6: `code-block`
+### Atom 5: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01272)_
 

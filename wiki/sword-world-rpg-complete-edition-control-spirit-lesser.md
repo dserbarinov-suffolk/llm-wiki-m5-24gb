@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-control-spirit-lesser@21470079fcc38ee999fa26c4c9fbf36d
+projection_coverage: topic-sword-world-rpg-complete-edition-control-spirit-lesser@d0a9288175cacba10172bb5f6ccfcf8e
 ---
 
 # [ Control Spirit ] (Various lesser spirits)
@@ -121,6 +121,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ control spirit ] (vario
 ### Shared claims
 
 - [[sword-world-rpg-complete-edition-final-damage]] - shared statements: 4.5.5 Final Damage shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-mind-spirit]] - shared statements: Mind Spirit shares source evidence from 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits): The main spirits that can be controlled are gnome (earth spirits), undine (water spirits), salamander (fire spirits), sylph (wind spirits), brownie (building spirits ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-shade]] - shared statements: Shade shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
 

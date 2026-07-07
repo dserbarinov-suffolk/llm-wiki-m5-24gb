@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-plain-old-javascript-objects-ae9a88a3
 page_kind: source
-summary: Plain Old JavaScript Objects: 14 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: Plain Old JavaScript Objects: 13 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

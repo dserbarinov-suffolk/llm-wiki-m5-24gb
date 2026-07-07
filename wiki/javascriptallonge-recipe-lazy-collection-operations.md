@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-lazy-collection-operations
 page_kind: recipe
-summary: lazy collection operations: reusable source-backed pattern with 11 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: lazy collection operations: reusable source-backed pattern with 11 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: lazy-collection-operations
-projection_coverage: recipe-javascriptallonge-recipe-lazy-collection-operations@7dd48484e36c8017da3f9469c0d3f855
+projection_coverage: recipe-javascriptallonge-recipe-lazy-collection-operations@1245105fa91502924d4f4ec86afa547a
 ---
 
 # lazy collection operations
@@ -48,105 +48,6 @@ Pair.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 ```
 
 ### Atom 2: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01760)_
-
-```
-Stack.from([ 0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-20, 21, 22, 23, 24, 25, 26, 27, 28, 29])
-.map((x) => x * x)
-.filter((x) => x % 2 == 0)
-.first()
-```
-
-### Atom 3: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01764)_
-
-```
-Stack.from([ 0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-20, 21, 22, 23, 24, 25, 26, 27, 28, 29])
-.map((x) => {
-console.log(`squaring ${x}`);
-return x * x
-})
-.filter((x) => {
-console.log(`filtering ${x}`);
-return x % 2 == 0
-})
-.first()
-//=>
-squaring 29
-filtering 841
-squaring 28
-filtering 784
-784
-```
-
-### Atom 4: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01766)_
-
-```
-[ 0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
-.reverse()
-.map((x) => {
-console.log(`squaring ${x}`);
-return x * x
-})
-.filter((x) => {
-console.log(`filtering ${x}`);
-return x % 2 == 0
-})[0]
-//=>
-squaring 0
-squaring 1
-squaring 2
-squaring 3
-...
-squaring 28
-squaring 29
-filtering 0
-filtering 1
-filtering 4
-...
-filtering 784
-filtering 841
-784
-```
-
-### Atom 5: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01769)_
 

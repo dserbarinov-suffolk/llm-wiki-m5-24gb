@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-643dc97e
 page_kind: source
-summary: Chapter 14: / 14.4 Magical Item List: 26 source-backed entries and 6 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 14: / 14.4 Magical Item List: 26 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-643dc97e@215765baad3ac2642cee3bc05817cc4c
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-643dc97e@b0111c3a3f7b43914a791972ba553fbf
 ---
 
 # Chapter 14: / 14.4 Magical Item List
@@ -156,130 +156,5 @@ From [[sword-world-rpg-complete-edition]].
 | 11 | 320000 | 23 | 620000 |
 | 12 | 340000 | 24 | 650000 |
 ```
-
-</details>
-
-### Technical frame 3: Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》 / 《 Red Eye 》
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09118))_
-
-<a id="atom-technical-atom-d5e0db1847bc79cd"></a>
-```text
-1 23000 《 Roan Ax 》 Strength (Gamels) Strength (Gamels) 8 29000 Rarity=11 Enchanter=Roan, “The Imperfect” 26000 9 25000 Form=Battle-ax 28000 10 23000
-4 30000
-5 32000 Required Strength=18 (Strike power 18, 23 30000 11 21000 with two hands) 12 20000 Base Trade Price=7100 gamels 32000 13 17000 Powers=+1 to bonus damage
-7 31000 《 Magic Armor (+1) 》 Chain mail, splint, lamellar, plate armor
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 1 | 23000 《 Roan Ax 》 Strength (Gamels) Strength (Gamels) 8 29000 Rarity=11 Enchanter=Roan, “The Imperfect” 26000 9 25000 Form=Battle-ax 28000 10 23000 |
-| 4 | 30000 |
-| 5 | 32000 Required Strength=18 (Strike power 18, 23 30000 11 21000 with two hands) 12 20000 Base Trade Price=7100 gamels 32000 13 17000 Powers=+1 to bonus damage |
-| 7 | 31000 《 Magic Armor (+1) 》 Chain mail, splint, lamellar, plate armor |
-
-</details>
-
-### Technical frame 4: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09175))_
-
-> This is a price list for magic metal armor with +1 power. While armor with high required strength tends to be unpopular, when it becomes exceptionally high-end, it suddenly becomes an object of interest for enthusiasts, causing prices to spike dramatically.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09176))_
-
-<a id="atom-technical-atom-63048b9c04627437"></a>
-| exceptionally | column 2 | high-end, it | column 4 | suddenly | Required | column 7 | Price | Required | column 10 | Price | column 12 | column 13 | column 14 | column 15 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| becomes | an object |  | of interest for |  | Strength |  | (Gamels) | Strength | (Gamels) |  | Required | Price | Required | Price |
-| enthusiasts, |  | causing | prices | to spike |  | 10 | 63000 | 18 |  | 150000 | Strength | (Gamels) | Strength | (Gamels) |
-| dramatically. |  |  |  |  |  | 11 | 73000 | 19 |  | 180000 | 10 | 380000 | 18 | 620000 |
-|  |  |  |  |  |  | 12 | 84000 | 20 |  | 240000 | 11 | 430000 | 19 | 660000 |
-| Required |  | Price | Required | Price |  | 13 | 92000 | 21 |  | 300000 | 12 | 470000 | 20 | 720000 |
-| Strength | (Gamels) |  | Strength | (Gamels) |  | 14 | 100000 | 22 |  | 370000 | 13 | 500000 | 21 | 780000 |
-| 10 |  | 23000 | 18 | 20000 |  | 15 | 110000 | 23 |  | 440000 | 14 | 520000 | 22 | 850000 |
-| 11 |  | 24000 | 19 | 23000 |  | 16 | 120000 | 24 |  | 510000 | 15 | 540000 | 23 | 920000 |
-| 12 |  | 24000 | 20 | 29000 |  | 17 | 130000 |  |  |  | 16 | 560000 | 24 | 1000000 |
-| 13 |  | 22000 | 21 | 34000 |  |  |  |  |  |  | 17 | 580000 |  |  |
-| 14 |  | 21000 | 22 | 45000 |  |  |  |  |  |  |  |  |  |  |
-| 15 16 17 |  | 19000 17000 18000 | 23 24 | 60000 97000 | 《 Magic Armor (+3) 》 Non-metal or ring mail Rarity=16 |  |  |  |  |  | 《 Magic Shield Rarity=12 (+1)/14 (+2)/16 (+3) |  |  | 》 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-《 Magic Armor (+2) 》
-| exceptionally |  | high-end, it |  | suddenly | Required |  | Price | Required |  | Price |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| becomes | an object |  | of interest for |  | Strength |  | (Gamels) | Strength | (Gamels) |  | Required | Price | Required | Price |
-| enthusiasts, |  | causing | prices | to spike |  | 10 | 63000 | 18 |  | 150000 | Strength | (Gamels) | Strength | (Gamels) |
-| dramatically. |  |  |  |  |  | 11 | 73000 | 19 |  | 180000 | 10 | 380000 | 18 | 620000 |
-|  |  |  |  |  |  | 12 | 84000 | 20 |  | 240000 | 11 | 430000 | 19 | 660000 |
-| Required |  | Price | Required | Price |  | 13 | 92000 | 21 |  | 300000 | 12 | 470000 | 20 | 720000 |
-| Strength | (Gamels) |  | Strength | (Gamels) |  | 14 | 100000 | 22 |  | 370000 | 13 | 500000 | 21 | 780000 |
-| 10 |  | 23000 | 18 | 20000 |  | 15 | 110000 | 23 |  | 440000 | 14 | 520000 | 22 | 850000 |
-| 11 |  | 24000 | 19 | 23000 |  | 16 | 120000 | 24 |  | 510000 | 15 | 540000 | 23 | 920000 |
-| 12 |  | 24000 | 20 | 29000 |  | 17 | 130000 |  |  |  | 16 | 560000 | 24 | 1000000 |
-| 13 |  | 22000 | 21 | 34000 |  |  |  |  |  |  | 17 | 580000 |  |  |
-| 14 |  | 21000 | 22 | 45000 |  |  |  |  |  |  |  |  |  |  |
-| 15 16 17 |  | 19000 17000 18000 | 23 24 | 60000 97000 | 《 Magic Armor (+3) 》 Non-metal or ring mail Rarity=16 |  |  |  |  |  | 《 Magic Shield Rarity=12 (+1)/14 (+2)/16 (+3) |  |  | 》 |
-```
-
-</details>
-
-### Technical frame 5: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09258))_
-
-> Rarity=16 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion speed damage reduction
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09257))_
-
-<a id="atom-technical-atom-927c3aef73892558"></a>
-```text
-17 18000 Rarity=12 (+1)/14 (+2)/16 (+3) Rarity=16 17 Enchanter=Many Enchanter=Many Form=Shield Form=Non-metal or ring mail armor 《 》 Magic Armor (+2) Required Strength/Base Trade Price=See Required Strength/Base Trade Price=See description description Non-metal or ring mail Magic Power=+3 to evasion speed and Powers=+1~+3 to evasion speed Rarity=14 damage reduction This is a price list for magical shields Enchanter=Many with enchantments. For shields with +2 Here is a list of prices of magical non- Form=Non-metal or ring mail armor metal or ring mail armor with +3 power. or higher enchantment, small shields Required Strength/Base Trade Price=See tend to be more expensive than large description Required Price Required Price shields due to differences in demand. For Powers=+2 to evasion speed and damage Strength (Gamels) Strength (Gamels) the same reason, high-quality large reduction
-1 200000 8 150000 Here is a list of prices of magical non- shields +1/+2 are more expensive than
-3 220000 210000 9 130000 large shields +2/+3. Shields requiring metal or ring mail armor with +2 power. 10 120000 strength of 13 cannot be used by most adventurers. Required Price Required Price 230000 11 130000
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 17 | 18000 Rarity=12 (+1)/14 (+2)/16 (+3) Rarity=16 17 Enchanter=Many Enchanter=Many Form=Shield Form=Non-metal or ring mail armor 《 》 Magic Armor (+2) Required Strength/Base Trade Price=See Required Strength/Base Trade Price=See description description Non-metal or ring mail Magic Power=+3 to evasion speed and Powers=+1~+3 to evasion speed Rarity=14 damage reduction This is a price list for magical shields Enchanter=Many with enchantments. For shields with +2 Here is a list of prices of magical non- Form=Non-metal or ring mail armor metal or ring mail armor with +3 power. or higher enchantment, small shields Required Strength/Base Trade Price=See tend to be more expensive than large description Required Price Required Price shields due to differences in demand. For Powers=+2 to evasion speed and damage Strength (Gamels) Strength (Gamels) the same reason, high-quality large reduction |
-| 1 | 200000 8 150000 Here is a list of prices of magical non- shields +1/+2 are more expensive than |
-| 3 | 220000 210000 9 130000 large shields +2/+3. Shields requiring metal or ring mail armor with +2 power. 10 120000 strength of 13 cannot be used by most adventurers. Required Price Required Price 230000 11 130000 |
-
-</details>
-
-### Technical frame 6: Table 14-1: Daemon Jar Summon
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09739))_
-
-<a id="atom-technical-atom-f27ccd3c6ef57327"></a>
-```text
-Table 14-1: Daemon  Jar Summon
- form as the statue. A shapeshifted form
-                                       2D      Result
- can return to his or her original state by
- either touching the snake statue or with       2       An Archdaemon appears and drags the summoner into the jar!
- a final score 15 Dispel Magic.                3～5     Aetherbeast
-  The animals you can shapeshift into
-                                       6       Grunel
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| Table 14-1: Daemon | Jar Summon |
-| --- | --- |
-| 2D | Result |
-| either touching the snake statue or with | 2 |
-| a final score 15 Dispel Magic. | 3～5 |
-| 6 | Grunel |
 
 </details>

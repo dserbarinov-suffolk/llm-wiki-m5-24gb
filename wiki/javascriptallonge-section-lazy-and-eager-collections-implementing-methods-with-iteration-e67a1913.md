@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913
 page_kind: source
-summary: Lazy and Eager Collections / implementing methods with iteration: 14 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: Lazy and Eager Collections / implementing methods with iteration: 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

@@ -147,15 +147,24 @@ def build_atom_entry(
     policy: ConfidencePolicy,
 ) -> LedgerEntry:
     parsed_clean = atom.parse_status == "parsed"
+    trusted = atom.trust_status == "trusted" and atom.projection_policy == "authoritative"
     confidence, basis = policy.assess(
         ConfidenceSignals(
             evidence_resolved=bool(atom.evidence_ids),
             required_fields_complete=True,
             validation_passed=True,
-            ambiguity_present=not parsed_clean,
+            ambiguity_present=not (parsed_clean and trusted),
             exact_payload_preserved=True,
         )
     )
+    status = "usable" if trusted else "needs-review"
+    review_reason = atom.review_reason
+    if not trusted and review_reason is None:
+        review_reason = ReviewReason(
+            "technical-atom-trust",
+            "technical atom is preserved but not trusted for authoritative projection",
+            atom.evidence_ids,
+        )
     fingerprint = content_fingerprint(("technical-atom", atom.technical_atom_id))
     return LedgerEntry(
         ledger_entry_id=deterministic_id(
@@ -167,7 +176,7 @@ def build_atom_entry(
         ),
         source_statement_id=statement_id,
         ledger_entry_kind="technical-atom",
-        ledger_entry_status="usable",
+        ledger_entry_status=status,
         extraction_confidence=confidence,
         confidence_basis=basis,
         source_locator=segment.source_locator,
@@ -176,7 +185,7 @@ def build_atom_entry(
         evidence_ids=atom.evidence_ids,
         source_text=atom_raw_text(atom.payload),
         structure_node_ids=structure_node_ids,
-        review_reason=atom.review_reason,
+        review_reason=review_reason,
         technical_atom_kind=atom.technical_atom_kind,
         technical_atom_id=atom.technical_atom_id,
     )

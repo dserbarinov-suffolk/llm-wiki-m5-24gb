@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-return
 page_kind: concept
-summary: Return: 18 statement(s) and 20 atom(s) from raw/javascriptallonge.pdf.
+summary: Return: 18 statement(s) and 18 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-return@fbb8755f24297e9b57f615ca883c852e
+projection_coverage: topic-javascriptallonge-return@3e3083931414ad07e41d5bb62a8ea1bc
 ---
 
 # Return
@@ -158,132 +158,7 @@ What [[javascriptallonge]] covers about return:
 //=> undefined
 ```
 
-### Technical frame 6: Or even: / back on the block
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00237))_
-
-> But no matter how we arrange them, a block with one or more expressions still evaluates to undefined :
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00238))_
-
-<a id="atom-technical-atom-bb398f7a1ecce0a5"></a>
-```text
-//=> undefined
-We said that the function returns the result of evaluating a block, and we said that a block is a
-(possibly empty) list of JavaScript statements separated by semicolons.21
-Something like: { statement1; statement2; statement3; ... ; statementn }
-We haven’t discussed these statements. What’s a statement?
-There are many kinds of JavaScript statements, but the first kind is one we’ve already met. An
-expression is a JavaScript statement. Although they aren’t very practical, these are valid JavaScript
-functions, and they return undefined when applied:
-() => { 2 + 2 }
-() => { 1 + 1; 2 + 2 }
-As we saw with commas above, we can rearrange these functions onto multiple lines when we feel
-its more readable that way:
-() => {
-1 + 1;
-2 + 2
-}
-But no matter how we arrange them, a block with one or more expressions still evaluates to
-undefined:
-(() => { 2 + 2 })()
-//=> undefined
-(() => { 1 + 1; 2 + 2 })()
-//=> undefined
-(() => {
-1 + 1;
-2 + 2
-})()
-//=> undefined
-As you can see, a block with one expression does not behave like an expression, and a block with
-more than one expression does not behave like an expression constructed with the comma operator:
-21You can also separate statements with line breaks. Readers who follow internet flame-fests may be aware of something called automatic semi-
-colon insertion. Basically, there’s a step where JavaScript looks at your code and follows some rules to guess where you meant to put semicolons in
-should you leave them out. This feature was originally created as a kind of helpful error-correction. Some programmers argue that since it’s part of
-the language’s definition, it’s fair game to write code that exploits it, so they deliberately omit any semicolon that JavaScript will insert for them.
-The first sip: Basic Functions
-14
-(() => 2 + 2)()
-//=> 4
-(() => { 2 + 2 })()
-//=> undefined
-(() => (1 + 1, 2 + 2))()
-//=> 4
-(() => { 1 + 1; 2 + 2 })()
-//=> undefined
-So how do we get a function that evaluates a block to return a value when applied? With the return
-keyword and any expression:
-(() => { return 0 })()
-//=> 0
-(() => { return 1 })()
-//=> 1
-(() => { return 'Hello ' + 'World' })()
-// 'Hello World'
-The return keyword creates a return statement that immediately terminates the function application
-and returns the result of evaluating its expression. For example:
-(() => {
-1 + 1;
-return 2 + 2
-})()
-//=> 4
-And also:
-(() => {
-return 1 + 1;
-2 + 2
-})()
-//=> 2
-The return statement is the first statement we’ve seen, and it behaves differently than an expression.
-For example, you can’t use one as the expression in a simple function, because it isn’t an expression:
-The first sip: Basic Functions
-15
-(() => return 0)()
-//=> ERROR
-Statements belong inside blocks and only inside blocks. Some languages simplify this by making
-everything an expression, but JavaScript maintains this distinction, so when learning JavaScript we
-also learn about statements like function declarations, for loops, if statements, and so forth. We’ll
-see a few more of these later.
-functions that evaluate to functions
-If an expression that evaluates to a function is, well, an expression, and if a return statement can
-have any expression on its right side… Can we put an expression that evaluates to a function on the
-right side of a function expression?
-Yes:
-() => () => 0
-That’s a function! It’s a function that when applied, evaluates to a function that when applied,
-evaluates to 0. So we have a function, that returns a function, that returns zero. Likewise:
-() => () => true
-That’s a function, that returns a function, that returns true:
-(() => () => true)()()
-//=> true
-We could, of course, do the same thing with a block if we wanted:
-() => () => { return true; }
-But we generally don’t.
-Well. We’ve been very clever, but so far this all seems very abstract. Diffraction of a crystal is
-beautiful and interesting in its own right, but you can’t blame us for wanting to be shown a practical
-use for it, like being able to determine the composition of a star millions of light years away. So… In
-the next chapter, “I’d Like to Have an Argument, Please,” we’ll see how to make functions practical.
-The first sip: Basic Functions
-16
-Ah. I’d Like to Have an Argument, Please.22
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 1 | + 1; |
-| 2 | + 2 But no matter how we arrange them, a block with one or more expressions still evaluates to undefined: (() => {2 + 2})() //=> undefined (() => {1 + 1; 2 + 2})() //=> undefined |
-| 1 | + 1; |
-| 2 | + 2 //=> undefined As you can see, a block with one expression does not behave like an expression, and a block with more than one expression does not behave like an expression constructed with the comma operator: 21You can also separate statements with line breaks. Readers who follow internet flame-fests may be aware of something called automatic semi- colon insertion. Basically, there’s a step where JavaScript looks at your code and follows some rules to guess where you meant to put semicolons in should you leave them out. This feature was originally created as a kind of helpful error-correction. Some programmers argue that since it’s part of the language’s definition, it’s fair game to write code that exploits it, so they deliberately omit any semicolon that JavaScript will insert for them. |
-| 14 | The first sip: Basic Functions (() => 2 + 2)() //=> 4 (() => {2 + 2})() //=> undefined (() => (1 + 1, 2 + 2))() //=> 4 (() => {1 + 1; 2 + 2})() //=> undefined So how do we get a function that evaluates a block to return a value when applied? With the return keyword and any expression: (() => {return 0})() //=> 0 (() => {return 1})() //=> 1 (() => {return 'Hello ' + 'World'})() // 'Hello World' The return keyword creates a return statement that immediately terminates the function application and returns the result of evaluating its expression. For example: |
-| 1 | + 1; return 2 + 2 //=> 4 return 1 + 1; |
-| 2 | And also: + 2 //=> 2 The return statement is the first statement we’ve seen, and it behaves differently than an expression. For example, you can’t use one as the expression in a simple function, because it isn’t an expression: |
-| 15 | The first sip: Basic Functions (() => return 0)() //=> ERROR Statements belong inside blocks and only inside blocks. Some languages simplify this by making everything an expression, but JavaScript maintains this distinction, so when learning JavaScript we also learn about statements like function declarations, for loops, if statements, and so forth. We’ll see a few more of these later. functions that evaluate to functions If an expression that evaluates to a function is, well, an expression, and if a return statement can have any expression on its right side… Can we put an expression that evaluates to a function on the right side of a function expression? Yes: () => () => 0 That’s a function! It’s a function that when applied, evaluates to a function that when applied, evaluates to 0. So we have a function, that returns a function, that returns zero. Likewise: () => () => true That’s a function, that returns a function, that returns true: (() => () => true)()() //=> true We could, of course, do the same thing with a block if we wanted: () => () => {return true;} But we generally don’t. Well. We’ve been very clever, but so far this all seems very abstract. Diffraction of a crystal is beautiful and interesting in its own right, but you can’t blame us for wanting to be shown a practical use for it, like being able to determine the composition of a star millions of light years away. So… In the next chapter, “I’d Like to Have an Argument, Please,” we’ll see how to make functions practical. |
-| 16 | The first sip: Basic Functions Ah. I’d Like to Have an Argument, Please.22 |
-
-</details>
-
-### Technical frame 7: And also: / Combinators and Function Decorators / function decorators
+### Technical frame 6: And also: / Combinators and Function Decorators / function decorators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00563))_
 
@@ -309,7 +184,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 </details>
 
-### Technical frame 8: And also: / Building Blocks / partial application
+### Technical frame 7: And also: / Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00584))_
 
@@ -326,7 +201,7 @@ squareAll([1, 2, 3])
 //=> [1, 4, 9]
 ```
 
-### Technical frame 9: Picking the Bean: Choice and Truthiness / truthiness and operators
+### Technical frame 8: Picking the Bean: Choice and Truthiness / truthiness and operators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00760))_
 
@@ -342,7 +217,7 @@ squareAll([1, 2, 3])
 //=> true
 ```
 
-### Technical frame 10: Composing and Decomposing Data / Self-Similarity / folding
+### Technical frame 9: Composing and Decomposing Data / Self-Similarity / folding
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00929))_
 
@@ -357,7 +232,7 @@ length([1, 2, 3, 4, 5])
 //=> 5
 ```
 
-### Technical frame 11: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 10: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01560))_
 
@@ -381,7 +256,7 @@ return ({done, value: done ? undefined : fn(value)});
 });
 ```
 
-### Technical frame 12: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 11: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01563))_
 
@@ -410,7 +285,7 @@ console.log(i)
 ...
 ```
 
-### Technical frame 13: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 12: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01579))_
 
@@ -432,7 +307,7 @@ return iterator;
 });
 ```
 
-### Technical frame 14: Served by the Pot: Collections / Generating Iterables / javascript's generators
+### Technical frame 13: Served by the Pot: Collections / Generating Iterables / javascript's generators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01637))_
 
@@ -448,7 +323,7 @@ empty().next()
 {"done":true}
 ```
 
-### Technical frame 15: Served by the Pot: Collections / Generating Iterables / javascript's generators
+### Technical frame 14: Served by the Pot: Collections / Generating Iterables / javascript's generators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01638))_
 
@@ -459,7 +334,7 @@ empty().next()
 <a id="atom-technical-atom-6fec125f97b16504"></a>
 > When we invoke empty , we get an iterator with no elements.
 
-### Technical frame 16: Served by the Pot: Collections / Generating Iterables / javascript's generators
+### Technical frame 15: Served by the Pot: Collections / Generating Iterables / javascript's generators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01641))_
 
@@ -477,7 +352,7 @@ only("the lonely").next()
 {"done":false, value: "the lonely"}
 ```
 
-### Technical frame 17: Served by the Pot: Collections / Generating Iterables / generators and iterables
+### Technical frame 16: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
 
@@ -488,7 +363,7 @@ only("the lonely").next()
 <a id="atom-technical-atom-7ca2d5da0f09f056"></a>
 > If we call our generator function more than once, we get new iterators.
 
-### Technical frame 18: Served by the Pot: Collections / Generating Iterables / yielding iterables
+### Technical frame 17: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01701))_
 
@@ -526,7 +401,7 @@ console.log(i);
 5
 ```
 
-### Technical frame 19: Served by the Pot: Collections / Generating Iterables / yielding iterables
+### Technical frame 18: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01705))_
 
@@ -537,33 +412,6 @@ console.log(i);
 <a id="atom-technical-atom-56d4d47f5e80ca55"></a>
 > But if you can write it as a simple generator, write it as a simple generator.
 
-### Technical frame 20: Lazy and Eager Collections / lazy collection operations
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01761))_
-
-> This expression begins with a stack containing 30 elements. The top two are 29 and 28 . It maps to the squares of all 30 numbers, but our code for mapping an iteration returns an iterable that can iterate over the squares of our numbers, not an array or stack of the squares. Same with .filter , we get an iterable that can iterate over the even squares, but not an actual stack or array.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01760))_
-
-<a id="atom-technical-atom-25a90abc89f4f9aa"></a>
-```
-Stack.from([ 0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-20, 21, 22, 23, 24, 25, 26, 27, 28, 29])
-.map((x) => x * x)
-.filter((x) => x % 2 == 0)
-.first()
-```
-
 
 ## Related pages
 
@@ -571,12 +419,12 @@ Stack.from([ 0,
 
 - [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Generating Iterables / javascript's generators: Invoking only("you") returns an iterator that we can call with .next() , and it yields "you" . Invoking only more than once gives us fresh iterators each time:; Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from And also: / Combinators and Function Decorators / higher-order functions: As we've seen, JavaScript functions take values as arguments and return values. JavaScript functions are values, so JavaScript functions can take functions as argume ... [truncated]; Argument shares technical record from And also: / Combinators and Function Decorators / function decorators: const mapWith = (fn) => (array) => map(array, fn); const squareAll = mapWith((n) => n * n); squareAll([1, 2, 3]) //=> [1, 4, 9] (3 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Javascript shares technical record from Or even: / back on the block: !5 //=> false !undefined //=> true (1 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Javascript shares technical record from And also: / Combinators and Function Decorators / function decorators: !5 //=> false !undefined //=> true (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Object shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (3 shared atom(s))
-- [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Served by the Pot: Collections / Generating Iterables / javascript's generators: function * empty () {}; empty().next() //=> {"done":true} (3 shared atom(s))
-- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: For completeness, here are two more handy iterable functions. first returns the first element of an iterable (if it has one), and rest returns an iterable that itera ... [truncated]; Element shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const first = (iterable) => iterable[Symbol.iterator]().next().value; const rest = (iterable) => ({ [Symbol.iterator] () { const iterator = iterable[Symbol.iterator] ... [truncated] (1 shared statement(s), 2 shared atom(s))
 - [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared atom(s))
+- [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Served by the Pot: Collections / Generating Iterables / javascript's generators: function * empty () {}; empty().next() //=> {"done":true} (2 shared atom(s))
+- [[javascriptallonge-operation]] - shared technical atoms: Operation shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared atom(s))
 
 ### Shared claims
 

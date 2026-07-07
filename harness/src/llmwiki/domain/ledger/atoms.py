@@ -161,6 +161,9 @@ class TechnicalAtom:
     source_element_ids: tuple[str, ...] = ()
     source_page_start: int = 0
     source_page_end: int = 0
+    trust_status: str = "trusted"
+    trust_reasons: tuple[str, ...] = ()
+    projection_policy: str = "authoritative"
 
 
 @dataclass(frozen=True)

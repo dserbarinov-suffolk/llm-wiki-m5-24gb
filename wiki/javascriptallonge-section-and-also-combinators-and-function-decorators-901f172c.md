@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-and-also-combinators-and-function-decorators-901f172c
 page_kind: source
-summary: And also: / Combinators and Function Decorators: 2 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+summary: And also: / Combinators and Function Decorators: 2 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-combinators-and-function-decorators-901f172c@5cb63265a5ed29faef956b6d7d96fca0
+projection_coverage: section-javascriptallonge-section-and-also-combinators-and-function-decorators-901f172c@b39806b2fa89f8d467dd7d3ad721fdbb
 ---
 
 # And also: / Combinators and Function Decorators
@@ -36,35 +36,7 @@ From [[javascriptallonge]].
 
 ## Technical atoms
 
-### Technical frame 1: And also: / Combinators and Function Decorators / combinators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00548))_
-
-> In this book, we will be using a looser definition of 'combinator:' Higher-order pure functions that take only functions as arguments and return a function. We won't be strict about using only previously defined combinators in their construction.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00547))_
-
-<a id="atom-technical-atom-2dd842e1a4d4096e"></a>
-```text
-combinators
-The word 'combinator' has a precise technical meaning in mathematics:
-'A combinator is a higher-order function that uses only function application and earlier defined combinators to define a result from its arguments.'-Wikipedia 35
-If we were learning Combinatorial Logic, we'd start with the most basic combinators like S , K , and I , and work up from there to practical combinators. We'd learn that the fundamental combinators are named after birds following the example of Raymond Smullyan's famous book To Mock a Mockingbird 36 .
-35 https://en.wikipedia.org/wiki/Combinatory_logic
-36 http://www.amazon.com/gp/product/B00A1P096Y/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00A1P096Y& linkCode=as2&tag=raganwald001-20
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 35 | https://en.wikipedia.org/wiki/Combinatory_logic |
-| 36 | http://www.amazon.com/gp/product/B00A1P096Y/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00A1P096Y& linkCode=as2&tag=raganwald001-20 |
-
-</details>
-
-### Technical frame 2: And also: / Combinators and Function Decorators / function decorators
+### Technical frame 1: And also: / Combinators and Function Decorators / function decorators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00563))_
 

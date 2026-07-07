@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-gathering
 page_kind: recipe
-summary: gathering: reusable source-backed pattern with 5 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: gathering: reusable source-backed pattern with 5 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: gathering
-projection_coverage: recipe-javascriptallonge-recipe-gathering@e916a2bfbbc8aa0f1e4b51fffb34ffd3
+projection_coverage: recipe-javascriptallonge-recipe-gathering@88f1dde7514550b317bf771ab4b83793
 ---
 
 # gathering
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 ## Pattern
 
 - Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-1b2d594b]].
-- Evidence roles: decision, explanation, example, structured-state.
+- Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
 
@@ -41,39 +41,6 @@ car
 //=> 1
 cdr
 //=> [2, 3, 4, 5]
-```
-
-### Atom 2: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00838)_
-
-```
-const [...butLast, last] = [1, 2, 3, 4, 5];
-//=> ERROR
-const [first, ..., last] = [1, 2, 3, 4, 5];
-//=> ERROR
-Now, when we introduced destructuring, we saw that it is kind-of-sort-of the reverse of array literals.
-So if
-const wrapped = [something];
-Then:
-const [unwrapped] = something;
-What is the reverse of gathering? We know that:
-const [car, ...cdr] = [1, 2, 3, 4, 5];
-What is the reverse? It would be:
-const cons = [car, ...cdr];
-Let’s try it:
-const oneTwoThree = ["one", "two", "three"];
-```
-
-### Atom 3: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00839)_
-
-```
-Let’s try it:
-const oneTwoThree = ["one", "two", "
-["zero", ...oneTwoThree]
-//=> ["zero","one","two","three"]
 ```
 
 ## Source Trail

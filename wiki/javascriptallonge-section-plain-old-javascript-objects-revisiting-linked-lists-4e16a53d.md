@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-4e16a53d
 page_kind: source
-summary: Plain Old JavaScript Objects / revisiting linked lists: 22 source-backed entries and 5 atom(s) from raw/javascriptallonge.pdf.
+summary: Plain Old JavaScript Objects / revisiting linked lists: 20 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-4e16a53d@e47e2559e1c64dd43f5fc35dd54c0e3f
+projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-4e16a53d@64d03e9edcb1627279116d6a196993ee
 ---
 
 # Plain Old JavaScript Objects / revisiting linked lists
@@ -75,34 +75,6 @@ We can then perform the equivalent of [first, ...rest] with direct property acce
 
 ### Technical frame 3: Plain Old JavaScript Objects / revisiting linked lists
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01088))_
-
-> What about mapping? Well, let's start with the simplest possible thing, making a copy of a list. As we saw above, and discussed in Garbage, Garbage Everywhere, it is fast to iterate forward through a linked list. What isn't fast is naïvely copying a list:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01087))_
-
-<a id="atom-technical-atom-047a1c592c0a9923"></a>
-```
-const EMPTY = {};
-const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
-} } };
-OneTwoThree.first
-//=> 1
-OneTwoThree.rest
-//=> {"first":2,"rest":{"first":3,"rest":{}}}
-OneTwoThree.rest.rest.first
-//=> 3
-Taking the length of a linked list is easy:
-const length = (node, delayed = 0) =>
-node === EMPTY
-? delayed
-: length(node.rest, delayed + 1);
-length(OneTwoThree)
-//=> 3
-```
-
-### Technical frame 4: Plain Old JavaScript Objects / revisiting linked lists
-
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01090))_
 
 > The problem here is that linked lists are constructed back-to-front, but we iterate over them frontto-back. So to copy a list, we have to save all the bits on the call stack and then construct the list from back-to-front as all the recursive calls return.
@@ -117,38 +89,4 @@ node === EMPTY
 : { first: node.first, rest: slowcopy(node.rest)};
 slowcopy(OneTwoThree)
 //=> {"first":1,"rest":{"first":2,"rest":{"first":3,"rest":{}}}}
-```
-
-### Technical frame 5: Plain Old JavaScript Objects / revisiting linked lists
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01095))_
-
-> Our mapWith function takes twice as long as a straight iteration, because it iterates over the entire list twice, once to map, and once to reverse the list. Likewise, it takes twice as much memory, because it constructs a reverse of the desired result before throwing it away.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01094))_
-
-<a id="atom-technical-atom-a82a801d0c424fdd"></a>
-```
-const reverse = (node, delayed = EMPTY) =>
-node === EMPTY
-? delayed
-: reverse(node.rest, { first: node.first, rest: delayed });
-And now, we can make a reversing map:
-const reverseMapWith = (fn, node, delayed = EMPTY) =>
-node === EMPTY
-? delayed
-: reverseMapWith(fn, node.rest, { first: fn(node.first), rest: delayed });
-reverseMapWith((x) => x * x, OneTwoThree)
-//=> {"first":9,"rest":{"first":4,"rest":{"first":1,"rest":{}}}}
-And a regular mapWith follows:
-const reverse = (node, delayed = EMPTY) =>
-node === EMPTY
-? delayed
-: reverse(node.rest, { first: node.first, rest: delayed });
-const mapWith = (fn, node, delayed = EMPTY) =>
-node === EMPTY
-? reverse(delayed)
-: mapWith(fn, node.rest, { first: fn(node.first), rest: delayed });
-mapWith((x) => x * x, OneTwoThree)
-//=> {"first":1,"rest":{"first":4,"rest":{"first":9,"rest":{}}}}
 ```

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-summon-5e314d0d
 page_kind: source
-summary: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 《 Summon 》: 13 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 《 Summon 》: 13 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-summon-5e314d0d@a6e80446849931907b2f02e1ccc7a049
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-summon-5e314d0d@af4298817f8e81096cdef34225d5e29a
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 《 Summon 》
@@ -58,22 +58,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-1e1422e4d55d1fbe"></a>
 > When using the Summon table, the game master can apply any modifiers as desired.
-
-### Technical frame 3: Table 11-1: Summon
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05067))_
-
-<a id="atom-technical-atom-4880f2bd6fca4c3f"></a>
-```text
-Table 11-1: Summon
- digest anything that enters their stomach
-                                      Final score - mental
- and use it as nourishment. For example,
-                                          resistance
-                                                      Result
- whether it's a pebble or mud, once it
-                                                      Appears immediately. However, the summoned creature becomes enraged and
- enters the stomach, it gives the same        (double ones)   attacks the caster!
- feeling of fullness as when eating the
-                                          -7 or less     10 days later
-```

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-starting
 page_kind: concept
-summary: Starting: 2 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Starting: 2 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-starting@3808950b839cea5b5829062cec142850
+projection_coverage: topic-sword-world-rpg-complete-edition-starting@6c434f7edcf8c08d5267e699efc4b6b2
 ---
 
 # Starting
@@ -46,38 +46,6 @@ What [[sword-world-rpg-complete-edition]] covers about starting:
 
 <a id="atom-technical-atom-c73b3beacdb7d580"></a>
 > If the player's background is merchant/scholar (roll 8), they must choose either 3rd level in the merchant skill or 3rd level in the sage skill for their character to acquire.
-
-### Technical frame 3: Table 1-6: Starting Experience by Race
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00356))_
-
-> If the player's background is merchant/scholar (roll 8), they must choose either 3rd level in the merchant skill or 3rd level in the sage skill for their character to acquire. If a character has acquired the merchant skill, they must always come from the merchant background. If they've acquired the sage skill, they can choose to come from either the merchant or scholar background. The backgrounds table does not always have to be used. Players may, if they so choose, create a character as if they
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00357))_
-
-<a id="atom-technical-atom-db2a88eb0ad14c1b"></a>
-```text
-Table 1-6: Starting Experience by Race
-                                                                        character, it should be between 15 years
-                                                 Pre-Adventure
-   Race           Restrictions／Special Abilities                  Money      old and around 30 years old at most for a
-                                                   Exp. Pts.
-                                                             Same as
-                                                                        human. The life span of a human is about
-  Human  ⬤ Refer to the backgrounds table (Table 1-5)       Same as above
-                                                              above     100 years old. Of course, it's natural that
-         ⬤
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| Race | Restrictions／Special Abilities | Money | old and around 30 years old at most for a |
-| --- | --- | --- | --- |
-| Human | ⬤ Refer to the backgrounds table (Table 1-5) | Same as above |  |
-| above | 100 years old. Of course, it's natural that |  |  |
-
-</details>
 
 
 ## Related pages

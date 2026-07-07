@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-garbage-garbage-everywhere-some-history-d0580aea
 page_kind: source
-summary: Garbage, Garbage Everywhere / some history: 30 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+summary: Garbage, Garbage Everywhere / some history: 29 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-some-history-d0580aea@01467edb0fbf1e70bbc2c4b7c3d9a648
+projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-some-history-d0580aea@bffb315d4994293447e2f47770e616c7
 ---
 
 # Garbage, Garbage Everywhere / some history
@@ -43,32 +43,3 @@ From [[javascriptallonge]].
 - In Lisp, it's blazingly fast because it happens in hardware. _(javascriptallonge.pdf (source-range-c98ab3e6-01026))_
 - In JavaScript, it's still much, much, much faster to get all the elements except the head from a linked list than from an array. _(javascriptallonge.pdf (source-range-c98ab3e6-01026))_
 - So now we understand that in Lisp, a lot of things use linked lists, and they do that in part because it was what the hardware made possible. _(javascriptallonge.pdf (source-range-c98ab3e6-01027))_
-
-## Technical atoms
-
-### Technical frame 1: Garbage, Garbage Everywhere / some history
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01009))_
-
-<a id="atom-technical-atom-e5250e23571ce1f5"></a>
-```text
-some history
-Once upon a time, there was a programming language called Lisp 65 , an acronym for LISt Processing. 66 Lisp was one of the very first high-level languages, the very first implementation was written for the IBM 704 67 computer. (The very first FORTRAN implementation was also written for the 704).
-The 704 had a 36-bit word, meaning that it was very fast to store and retrieve 36-bit values. The CPU's instruction set featured two important macros: CAR would fetch 15 bits representing the Contents of the Address part of the Register, while CDR would fetch the Contents of the Decrement part of the Register.
-65 https://en.wikipedia.org/wiki/Lisp_
-67 https://en.wikipedia.org/wiki/IBM_704
-66 Lisp is still very much alive, and one of the most interesting and exciting programming languages in use today is Clojure, a Lisp dialect that runs on the JVM, along with its sibling ClojureScript, Clojure that transpiles to JavaScript.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 66 | Lisp was one of the very first high-level languages, the very first implementation was written for the IBM 704 |
-| 67 | computer. (The very first FORTRAN implementation was also written for the 704). The 704 had a 36-bit word, meaning that it was very fast to store and retrieve 36-bit values. The CPU's instruction set featured two important macros: CAR would fetch 15 bits representing the Contents of the Address part of the Register, while CDR would fetch the Contents of the Decrement part of the Register. |
-| 65 | https://en.wikipedia.org/wiki/Lisp_ |
-| 67 | https://en.wikipedia.org/wiki/IBM_704 |
-| 66 | Lisp is still very much alive, and one of the most interesting and exciting programming languages in use today is Clojure, a Lisp dialect that runs on the JVM, along with its sibling ClojureScript, Clojure that transpiles to JavaScript. |
-
-</details>

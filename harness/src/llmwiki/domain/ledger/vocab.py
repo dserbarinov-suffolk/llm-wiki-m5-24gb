@@ -92,6 +92,12 @@ TECHNICAL_ATOM_KINDS: Final = (
     "worked-example",
 )
 PARSE_STATUSES: Final = ("parsed", "partially-parsed", "unparsed")
+TECHNICAL_ATOM_TRUST_STATUSES: Final = ("trusted", "review-only", "rejected")
+TECHNICAL_ATOM_PROJECTION_POLICIES: Final = (
+    "authoritative",
+    "raw-review-only",
+    "do-not-project",
+)
 FORMULA_SUBTYPES: Final = ("symbolic-formula", "procedural-formula")
 FORMULA_SURFACE_FORMS: Final = ("equation", "prose", "table-cell", "list-item", "mixed")
 RULE_FORCES: Final = (

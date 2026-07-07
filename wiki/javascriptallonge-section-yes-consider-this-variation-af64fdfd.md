@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-yes-consider-this-variation-af64fdfd
 page_kind: source
-summary: Yes. Consider this variation:: 16 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: Yes. Consider this variation:: 15 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

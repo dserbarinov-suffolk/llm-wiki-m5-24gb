@@ -8,6 +8,7 @@ from llmwiki.domain.ledger.atoms import TechnicalAtom
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
+from llmwiki.domain.ledger.technical_atom_trust import atom_is_authoritative
 
 _SECTION_NODE_KINDS = {"chapter", "section", "heading"}
 
@@ -42,12 +43,12 @@ def atoms_by_node(
         if entry.ledger_entry_kind != "technical-atom" or not entry.technical_atom_id:
             continue
         atom = ledger.atom(entry.technical_atom_id)
-        if atom is None or not entry.structure_node_ids:
+        if atom is None or not atom_is_authoritative(atom) or not entry.structure_node_ids:
             continue
         grouped.setdefault(entry.structure_node_ids[0], []).append(atom)
     for context in ledger.technical_atom_contexts:
         atom = ledger.atom(context.technical_atom_id)
-        if atom is None:
+        if atom is None or not atom_is_authoritative(atom):
             continue
         for entry_id in context.context_entry_ids:
             context_entry = ledger.entry(entry_id)
@@ -56,6 +57,8 @@ def atoms_by_node(
             for node_id in context_entry.structure_node_ids:
                 grouped.setdefault(node_id, []).append(atom)
     for atom in ledger.technical_atoms:
+        if not atom_is_authoritative(atom):
+            continue
         node = _nearest_preceding_section_node(sections_by_source, atom)
         if node is not None:
             grouped.setdefault(node.structure_node_id, []).append(atom)

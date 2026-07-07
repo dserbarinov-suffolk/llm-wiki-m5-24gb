@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-c5a27f00
 page_kind: source
-summary: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic: 23 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic: 23 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-c5a27f00@12757c85f23b342680ca984e35b6a3c4
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-c5a27f00@a0525e9f10595962a11b0100ed38d557
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
@@ -53,59 +53,3 @@ From [[sword-world-rpg-complete-edition]].
 ### Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Spell List
 
 - Here is a list of dragon roar magic that dragon priests can use. Among the types of spells, there is one called summon . For this, please follow the summon rules below. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05032))_
-
-## Technical atoms
-
-### Technical frame 1: Table 11-1: Summon
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05067))_
-
-<a id="atom-technical-atom-4880f2bd6fca4c3f"></a>
-```text
-Table 11-1: Summon
- digest anything that enters their stomach
-                                      Final score - mental
- and use it as nourishment. For example,
-                                          resistance
-                                                      Result
- whether it's a pebble or mud, once it
-                                                      Appears immediately. However, the summoned creature becomes enraged and
- enters the stomach, it gives the same        (double ones)   attacks the caster!
- feeling of fullness as when eating the
-                                          -7 or less     10 days later
-```
-
-### Technical frame 2: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 1st Level Dragon Roar Magic List [ Iron Stomach ] / [ Heavy Scale ]
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05069))_
-
-<a id="atom-technical-atom-daa85023d88f0bff"></a>
-```text
-1 day later
--5
-18 rounds later
--4
-6 rounds later
--3
-3 rounds later
--2
-2 rounds later
--1
-1 round later
-0 or more
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 1 | day later |
-| 18 | rounds later |
-| 6 | rounds later |
-| 3 | rounds later |
-| 2 | rounds later |
-| 1 | round later |
-| 0 | or more |
-
-</details>

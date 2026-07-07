@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls
 page_kind: recipe
-summary: converting non-tail-calls to tail-calls: reusable source-backed pattern with 5 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: converting non-tail-calls to tail-calls: reusable source-backed pattern with 5 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: converting-non-tail-calls-to-tail-calls
-projection_coverage: recipe-javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls@2e764ab7956b98fe0892c896135f6aa1
+projection_coverage: recipe-javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls@99fdf68db018e1bba5034463d103eae0
 ---
 
 # converting non-tail-calls to tail-calls
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 ## Pattern
 
 - Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-22a8069d]].
-- Evidence roles: decision, constraint, procedure, example, structured-state.
+- Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
 
@@ -55,147 +55,6 @@ first === undefined
 : lengthDelaysWork(rest, 1 + numberToBeAdded)
 const length = (n) =>
 lengthDelaysWork(n, 0);
-```
-
-### Atom 3: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00962)_
-
-```
-Or we could use partial application:
-const callLast = (fn, ...args) =>
-(...remainingArgs) =>
-fn(...remainingArgs, ...args);
-const length = callLast(lengthDelaysWork, 0);
-length(["foo", "bar", "baz"])
-//=> 3
-```
-
-### Atom 4: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00964)_
-
-```
-const mapWithDelaysWork = (fn, [first, ...rest], prepend) =>
-first === undefined
-? prepend
-: mapWithDelaysWork(fn, rest, [...prepend, fn(first)]);
-const mapWith = callLast(mapWithDelaysWork, []);
-mapWith((x) => x * x, [1, 2, 3, 4, 5])
-//=> [1,4,9,16,25]
-We can use it with ridiculously large arrays:
-```
-
-### Atom 5: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00965)_
-
-```
-mapWith((x) => x * x, [
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10,
-11,
-12,
-13,
-14,
-15,
-16,
-17,
-18,
-19,
-20,
-21,
-22,
-23,
-24,
-25,
-26,
-27,
-28,
-29,
-30,
-31,
-32,
-33,
-34,
-35,
-36,
-37,
-38,
-39,
-40,
-41,
-42,
-43,
-44,
-45,
-46,
-47,
-48,
-49,
-50,
-51,
-52,
-53,
-54,
-55,
-56,
-57,
-58,
-59,
-60,
-61,
-62,
-63,
-64,
-65,
-66,
-67,
-68,
-69,
-70,
-71,
-72,
-73,
-74,
-75,
-76,
-77,
-78,
-79,
-80,
-81,
-82,
-83,
-84,
-85,
-86,
-87,
-88,
-89,
-90,
-91,
-92,
-93,
-94,
-95,
-96,
-97,
-98,
-99,
-// ...
-2980, 2981, 2982, 2983, 2984, 2985, 2986, 2987, 2988, 2989,
-2990, 2991, 2992, 2993, 2994, 2995, 2996, 2997, 2998, 2999 ])
-//=> [0,1,4,9,16,25,36,49,64,81,100,121,144,169,196, ...
 ```
 
 ## Source Trail

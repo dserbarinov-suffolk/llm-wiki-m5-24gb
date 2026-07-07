@@ -8,18 +8,12 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-pharis-166558b3@34aea5375c0a7fc1fc5ea63217879ee5
+projection_coverage: section-sword-world-rpg-complete-edition-section-pharis-166558b3@4ea25e84523ef801df7fa64d41964450
 ---
 
 # 《 Pharis 》
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-priest-skill-b9e12303]] - previous source section: Priest Skill
 
 ## Statements
 

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-4-character-creation-weight-limits-09510f69
 page_kind: source
-summary: 1.4 Character Creation / [ Weight Limits ]: 28 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4 Character Creation / [ Weight Limits ]: 26 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-weight-limits-09510f69@8db7ad8c9cf569c773ac67df8948d0d4
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-weight-limits-09510f69@b2e5ca6869f3fb7beef03e7cd717abde
 ---
 
 # 1.4 Character Creation / [ Weight Limits ]
@@ -88,55 +88,5 @@ Table 1-11: Equipment
 |  | Lantern |  |  | 40 |
 |  | Tinderbox |  |  | 20 |
 ```
-
-</details>
-
-### Technical frame 2: 1.4 Character Creation / [ Weight Limits ]
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00838))_
-
-<a id="atom-technical-atom-183228d8d2f4ada2"></a>
-```text
-100 pen／ink 5 Quill 100 Thieves' tools 100+ Musical instrument Food
-1 serving 3+
-1 serving of rations 7+ Wine (1 cup) 2+ Ale (1 cup) 1+
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 100 | pen／ink 5 Quill 100 Thieves' tools 100+ Musical instrument Food |
-| 1 | serving 3+ |
-| 1 | serving of rations 7+ Wine (1 cup) 2+ Ale (1 cup) 1+ |
-
-</details>
-
-### Technical frame 3: 1.4 Character Creation / [ Weight Limits ]
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00855))_
-
-<a id="atom-technical-atom-e11d7fbcbcbe84ef"></a>
-```text
-1 night (not including food)
-1 week (not including food)
-1 month (not including food)
-30+
-150+
-300+
-Living expenses
-1 day
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 1 | night (not including food) |
-| 1 | week (not including food) |
-| 1 | month (not including food) |
-| 1 | 30+ 150+ 300+ Living expenses day |
 
 </details>

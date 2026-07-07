@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-11-acquiring-rune-master-skill@7ca9058ec731f44dd975cfe57ee82d03
+projection_coverage: topic-sword-world-rpg-complete-edition-11-acquiring-rune-master-skill@41464a565ab592cf975a31c28c03522f
 ---
 
 # 11 Acquiring Rune Master Skill
@@ -73,10 +73,6 @@ What [[sword-world-rpg-complete-edition]] covers about 11 acquiring rune master 
 
 
 ## Related pages
-
-### Shared technical atoms
-
-- [[sword-world-rpg-complete-edition-priest-skill]] - shared statements and technical atoms: Priest Skill shares source evidence from Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels / 《 Priest Skill 》: To acquire the priest skill, it is necessary to awaken to faith . When you awaken to faith and recognize the existence of the gods, you can acquire the 1st level pri ... [truncated]; Priest Skill shares technical record from Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels / 《 Priest Skill 》: When you awaken to faith and recognize the existence of the gods, you can acquire the 1st level priest skill. (10 shared statement(s), 2 shared atom(s))
 
 ### Shared claims
 

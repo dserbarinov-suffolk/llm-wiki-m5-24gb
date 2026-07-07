@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: collection-sword-world-rpg-complete-edition-collection-13-2-6-mythical-beasts-and-magical-beasts-5b43aa54@847f8473990ac1b9e658cc449d53b2b2
+projection_coverage: collection-sword-world-rpg-complete-edition-collection-13-2-6-mythical-beasts-and-magical-beasts-5b43aa54@5071a66e230e6c65874972f5ed5c9aa9
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts
@@ -52,7 +52,7 @@ Broader source section: [[sword-world-rpg-complete-edition-section-13-2-6-mythic
 | 13.2.6 Mythical Beasts and Magical Beasts / [ Basilisk ] | [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-basilisk-c286cdcf]] | 12 statement(s), 33 atom(s) |
 | 13.2.6 Mythical Beasts and Magical Beasts / [ Sea Dragon ] | [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-sea-dragon-d808acf9]] | 2 statement(s), 8 atom(s) |
 | 13.2.6 Mythical Beasts and Magical Beasts / [ Wyrm ] | [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-wyrm-3c1de5db]] | 5 statement(s), 2 atom(s) |
-| 13.2.6 Mythical Beasts and Magical Beasts / [ Buckbaird ] | [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-buckbaird-7aee63ac]] | 10 statement(s), 21 atom(s) |
+| 13.2.6 Mythical Beasts and Magical Beasts / [ Buckbaird ] | [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-buckbaird-7aee63ac]] | 10 statement(s), 14 atom(s) |
 | 13.2.6 Mythical Beasts and Magical Beasts / [ Hydra ] | [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-hydra-b7b233df]] | 9 statement(s), 12 atom(s) |
 | 13.2.6 Mythical Beasts and Magical Beasts / [ Humbaba ] | [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-humbaba-fe67f9ea]] | 11 statement(s), 31 atom(s) |
 | 13.2.6 Mythical Beasts and Magical Beasts / [ Roc ] | [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-roc-b0f2130d]] | 9 statement(s), 6 atom(s) |

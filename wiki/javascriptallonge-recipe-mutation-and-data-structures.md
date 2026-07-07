@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-mutation-and-data-structures
 page_kind: recipe
-summary: mutation and data structures: reusable source-backed pattern with 8 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: mutation and data structures: reusable source-backed pattern with 8 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: mutation-and-data-structures
-projection_coverage: recipe-javascriptallonge-recipe-mutation-and-data-structures@7ad826f98525e3514443c9d68ee5e047
+projection_coverage: recipe-javascriptallonge-recipe-mutation-and-data-structures@ab9559e6529c12ac1709e5f8826f482a
 ---
 
 # mutation and data structures
@@ -42,43 +42,6 @@ But after returning the new list, we then become conservative about mutation. Th
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01122)_
-
-```
-const EMPTY = {};
-const OneToFive = { first: 1,
-rest: {
-first: 2,
-rest: {
-first: 3,
-rest: {
-first: 4,
-rest: {
-first: 5,
-rest: EMPTY } } } } };
-OneToFive
-//=> {"first":1,"rest":{"first":2,"rest":{"first":"three","rest":{"first":"fou\
-r","rest":{"first":"five","rest":{}}}}}}
-const ThreeToFive = OneToFive.rest.rest;
-ThreeToFive
-//=> {"first":3,"rest":{"first":4,"rest":{"first":5,"rest":{}}}}
-ThreeToFive.first = "three";
-ThreeToFive.rest.first = "four";
-ThreeToFive.rest.rest.first = "five";
-ThreeToFive
-//=> {"first":"three","rest":{"first":"four","rest":{"first":"five","rest":{}}\
-}}
-OneToFive
-//=> {"first":1,"rest":{"first":2,"rest":{"first":"three","rest":{"first":"fou\
-r","rest":{"first":"five","rest":{}}}}}}
-Changes made to ThreeToFive affect OneToFive, because they share the same structure. When we
-wrote ThreeToFive = OneToFive.rest.rest;, we weren’t making a brand new copy of {"first":3,"rest":{"firs
-we were getting a reference to the same chain of nodes.
-Structure sharing like this is what makes linked lists so fast for taking everything but the first item
-```
-
-### Atom 3: `code-block`
-
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01124)_
 
 ```
@@ -88,7 +51,7 @@ OneToFive
 const [a, b, ...ThreeToFive] = OneToFive;
 ```
 
-### Atom 4: `code-block`
+### Atom 3: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01125)_
 

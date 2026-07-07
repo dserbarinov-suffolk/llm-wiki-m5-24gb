@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-climb-agility-f23c47e1
 page_kind: source
-summary: Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]: 45 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]: 43 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-climb-agility-f23c47e1@f70b71ccc55c202c7072c6ea86b5cefa
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-climb-agility-f23c47e1@5097def29095f22711334b36bd7a8ef0
 ---
 
 # Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]
@@ -54,42 +54,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Technical atoms
 
-### Technical frame 1: Table 6-1: Climb by Skill
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04155))_
-
-> When someone with the thief skill climbs without a rope, or someone without the thief skill climbs with a rope, set the target score using Table 6-2: Determining Climb Target Scores and make a success roll check. Determining the target score is almost the same in both cases. The baseline score is thief skill level + agility bonus or adventurer level + agility bonus .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04151))_
-
-<a id="atom-technical-atom-9d68535bdb73822c"></a>
-```text
-Table 6-1: Climb by Skill
- using adventurer level + agility bonus as
-                                                                         With Rope             Without Rope
- the baseline score, make a success roll
- against target score 13 (this can be
-                                    Climb with thief skill
-                                                               Almost always succeeds (only double  Requires success
-                                                                         ones fail)               roll
- increased or decreased depending on the
- weight of your belongings. Also, if the    Climb with common adventurer
-                                                                     Requires success roll        Not possible
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| With Rope | Without Rope |
-| --- | --- |
-| Almost always succeeds (only double | Requires success |
-| ones fail) | roll |
-| weight of your belongings. Also, if the | Climb with common adventurer |
-| Requires success roll | Not possible |
-
-</details>
-
-### Technical frame 2: Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]
+### Technical frame 1: Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04161))_
 
@@ -99,22 +64,3 @@ Table 6-1: Climb by Skill
 
 <a id="atom-technical-atom-d59689f6545d3f97"></a>
 > If this adventurer is a thief, he can remove and discard the heavy armor he is wearing, and he can use his thief skill to attempt the climb more safely.
-
-### Technical frame 3: Table 6-2: Determining Climb Target Scores
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04163))_
-
-> An adventurer tries to climb a 22 meter cliff. In this case, a success roll is attempted three times. The first and second attempts are successful, but the third attempt fails. Now he rolls 2D and gets a 5. 5 - 2 = 3 meters is added to the 20 meters from the two attempts, which means he has climbed 23 meters . Therefore, he climbs the cliff.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04170))_
-
-<a id="atom-technical-atom-46d95011fc8d3c22"></a>
-```text
-Table 6-2: Determining Climb Target Scores
- failure.
-                                        Base Target Score = 10
-                                      Modifier due to wall and cliff foothold conditions:
-  A  check must  be made every 10
-                                        *No walls or cliffs, using a vertical rope=                              +4
- meters. If you fail on the way, add 2D-2
-```

@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-iterables
 page_kind: recipe
-summary: iterables: reusable source-backed pattern with 16 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: iterables: reusable source-backed pattern with 16 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: iterables
-projection_coverage: recipe-javascriptallonge-recipe-iterables@e63e129b82b74a143f80955b1381bb99
+projection_coverage: recipe-javascriptallonge-recipe-iterables@e466ffb710d47dd13526ccb5dc204e86
 ---
 
 # iterables
@@ -77,39 +77,6 @@ const stack = Stack3();
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01531)_
-
-```
-stack.push(2000);
-stack.push(10);
-stack.push(5)
-const collectionSum = (collection) => {
-const iterator = collection[Symbol.iterator]();
-let eachIteration,
-sum = 0;
-while ((eachIteration = iterator.next(), !eachIteration.done)) {
-sum += eachIteration.value;
-}
-return sum
-}
-collectionSum(stack)
-//=> 2015
-Using [Symbol.iterator] instead of .iterator seems like adding an extra moving part for nothing.
-Do we get anything in return?
-Indeed we do. Behold the for...of loop:
-const iterableSum = (iterable) => {
-let sum = 0;
-for (const num of iterable) {
-sum += num;
-}
-return sum
-}
-iterableSum(stack)
-//=> 2015
-```
-
-### Atom 3: `code-block`
-
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01533)_
 
 ```
@@ -149,7 +116,7 @@ iterableSum(someSquares)
 //=> 55
 ```
 
-### Atom 4: `code-block`
+### Atom 3: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01536)_
 
@@ -158,7 +125,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01536)_
 //=> ["some squares", 1, 4, 9, 16, 25]
 ```
 
-### Atom 5: `code-block`
+### Atom 4: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01538)_
 

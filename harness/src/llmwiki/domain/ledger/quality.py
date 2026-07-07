@@ -22,6 +22,7 @@ from llmwiki.domain.ledger.quality_catalog import (
 )
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.ledger.table_references import unresolved_table_reference_entry_ids
+from llmwiki.domain.ledger.technical_atom_trust import atom_is_authoritative
 from llmwiki.domain.ledger.vocab import (
     CALIBRATION_BUCKETS,
     CLAIM_FORCES,
@@ -30,6 +31,8 @@ from llmwiki.domain.ledger.vocab import (
     LEDGER_ENTRY_KINDS,
     LEDGER_ENTRY_STATUSES,
     POLARITIES,
+    TECHNICAL_ATOM_PROJECTION_POLICIES,
+    TECHNICAL_ATOM_TRUST_STATUSES,
 )
 
 _INTERNAL_ID_PREFIXES = (
@@ -156,6 +159,12 @@ def build_projection_quality_report(
                     "rendered-technical-atom-block",
                     entry.technical_atom_id,
                 )
+            elif not atom_is_authoritative(atom):
+                finder.add(
+                    "ck-rendered-atom-trusted",
+                    "rendered-technical-atom-block",
+                    entry.technical_atom_id,
+                )
     _check_atoms_rendered(finder, ledger, coverage)
     _check_internal_ids(finder, plan, page_body)
     _check_review_items(finder, ledger, coverage)
@@ -216,6 +225,13 @@ def _check_atoms(finder: FindingCollector, ledger: ClaimLedger) -> None:
     for atom in ledger.technical_atoms:
         if not atom_raw_text(atom.payload).strip():
             finder.add("ck-technical-atom-payload", "technical-atom", atom.technical_atom_id)
+        if (
+            atom.trust_status not in TECHNICAL_ATOM_TRUST_STATUSES
+            or atom.projection_policy not in TECHNICAL_ATOM_PROJECTION_POLICIES
+        ):
+            finder.add(
+                "ck-technical-atom-trust-vocabulary", "technical-atom", atom.technical_atom_id
+            )
 
 
 def _check_entries(finder: FindingCollector, ledger: ClaimLedger) -> None:

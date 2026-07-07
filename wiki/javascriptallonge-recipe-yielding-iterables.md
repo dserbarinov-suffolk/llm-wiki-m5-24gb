@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-yielding-iterables
 page_kind: recipe
-summary: yielding iterables: reusable source-backed pattern with 6 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
+summary: yielding iterables: reusable source-backed pattern with 6 statement(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-nested-blocks
 page_kind: recipe
-summary: nested blocks: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: nested blocks: reusable source-backed pattern with 4 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: nested-blocks
-projection_coverage: recipe-javascriptallonge-recipe-nested-blocks@d1d0a82ee8d3d45628c5fff003e21ae7
+projection_coverage: recipe-javascriptallonge-recipe-nested-blocks@0d0c567dd973661384b3f5cbc4da7d51
 ---
 
 # nested blocks
@@ -79,28 +79,6 @@ return odd(x - 1);
 ```
 
 ### Atom 4: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00429)_
-
-```
-}
-return even(n)
-}
-And this also works:
-((n) => {
-const even = (x) => {
-if (x === 0)
-return true;
-else {
-const odd = (y) => !even(y);
-return odd(x - 1);
-}
-}
-return even(n)
-})(42)
-```
-
-### Atom 5: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-00430)_
 

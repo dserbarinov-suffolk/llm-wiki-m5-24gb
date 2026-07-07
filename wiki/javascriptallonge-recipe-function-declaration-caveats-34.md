@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-function-declaration-caveats-34
 page_kind: recipe
-summary: function declaration caveats 34: reusable source-backed pattern with 7 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: function declaration caveats 34: reusable source-backed pattern with 7 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: function-declaration-caveats-34
-projection_coverage: recipe-javascriptallonge-recipe-function-declaration-caveats-34@f57e08d65a110510ba968dc0a109018c
+projection_coverage: recipe-javascriptallonge-recipe-function-declaration-caveats-34@49a7a121ffac991d8a59385d360db167
 ---
 
 # function declaration caveats 34
@@ -51,16 +51,6 @@ return "Fizz" + "Buzz";
 }
 })(true)
 //=> 'FizzBuzz'? Or ERROR: Can't find variable: fizzbuzz?
-```
-
-### Atom 2: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00538)_
-
-```
-function trueDat () { return true }
-But this is not:
-(function trueDat () { return true })
 ```
 
 ## Source Trail

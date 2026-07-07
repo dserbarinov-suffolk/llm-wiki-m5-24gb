@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: collection-sword-world-rpg-complete-edition-collection-5-1-12-ancient-magic-list-a53ab7f2@703c2640aa8d71a9565caa21f864057f
+projection_coverage: collection-sword-world-rpg-complete-edition-collection-5-1-12-ancient-magic-list-a53ab7f2@d67cc32e8f1fcb068a507422e5016ae9
 ---
 
 # 5.1.12 Ancient Magic List
@@ -46,7 +46,7 @@ Broader source section: [[sword-world-rpg-complete-edition-section-5-1-12-ancien
 | 5.1.12 Ancient Magic List / [ Create Image ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-image-02d85506]] | 8 statement(s), 2 atom(s) |
 | 5.1.12 Ancient Magic List / [ Stone Servant ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-stone-servant-0c9ff731]] | 6 statement(s), 16 atom(s) |
 | 5.1.12 Ancient Magic List / [ Hard Lock ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-hard-lock-e2acd579]] | 7 statement(s), 4 atom(s) |
-| 5.1.12 Ancient Magic List / [ Familiar ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-familiar-421c1213]] | 20 statement(s), 26 atom(s) |
+| 5.1.12 Ancient Magic List / [ Familiar ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-familiar-421c1213]] | 20 statement(s), 22 atom(s) |
 | 5.1.12 Ancient Magic List / [ Physical Enchant ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-physical-enchant-a4265bd2]] | 14 statement(s), 19 atom(s) |
 | 5.1.12 Ancient Magic List / [ Bone Servant ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-bone-servant-aed99860]] | 7 statement(s), 19 atom(s) |
 | 5.1.12 Ancient Magic List / [ Levitation ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-levitation-eeac6181]] | 10 statement(s), 36 atom(s) |
@@ -73,8 +73,8 @@ Broader source section: [[sword-world-rpg-complete-edition-section-5-1-12-ancien
 | 5.1.12 Ancient Magic List / [ See-Through ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-see-through-c337b15f]] | 4 statement(s), 16 atom(s) |
 | 5.1.12 Ancient Magic List / [ Seal Enchantment ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-seal-enchantment-97a44123]] | 6 statement(s), 16 atom(s) |
 | 5.1.12 Ancient Magic List / [ Steal Mind ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-steal-mind-68974fe7]] | 8 statement(s), 14 atom(s) |
-| 5.1.12 Ancient Magic List / [ Slow ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-slow-4f24a98b]] | 4 statement(s), 14 atom(s) |
-| 5.1.12 Ancient Magic List / [ Haste ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-haste-7975656f]] | 4 statement(s), 22 atom(s) |
+| 5.1.12 Ancient Magic List / [ Slow ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-slow-4f24a98b]] | 4 statement(s), 12 atom(s) |
+| 5.1.12 Ancient Magic List / [ Haste ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-haste-7975656f]] | 4 statement(s), 20 atom(s) |
 | 5.1.12 Ancient Magic List / [ Rune Rope ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-rune-rope-b0b7449e]] | 13 statement(s), 20 atom(s) |
 | 5.1.12 Ancient Magic List / [ Telekinesis ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-telekinesis-fadcf280]] | 8 statement(s), 12 atom(s) |
 | 5.1.12 Ancient Magic List / [ Teleport ] | [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-teleport-1137f5ad]] | 7 statement(s), 12 atom(s) |

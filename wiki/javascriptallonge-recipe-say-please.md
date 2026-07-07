@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-say-please
 page_kind: recipe
-summary: say 'please': reusable source-backed pattern with 5 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: say 'please': reusable source-backed pattern with 5 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: say-please
-projection_coverage: recipe-javascriptallonge-recipe-say-please@10a3f6f76e976aefc16fbcab6000e2fc
+projection_coverage: recipe-javascriptallonge-recipe-say-please@bd5936c43d83da0be45f203542cf2de3
 ---
 
 # say 'please'
@@ -70,34 +70,6 @@ const rest = (list) => list(
 ```
 
 ### Atom 4: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01370)_
-
-```
-() => "ERROR: Can't take first of an empty list",
-(aPair) => aPair(pairRest)
-);
-const length = (list) => list(
-() => 0,
-(aPair) => 1 + length(aPair(pairRest)))
-);
-We’ll also write a handy list printer:
-const print = (list) => list(
-() => "",
-(aPair) => `${aPair(pairFirst)} ${print(aPair(pairRest))}`
-);
-How would all this work? Let’s start with the obvious. What is an empty list?
-const EMPTYLIST = (whenEmpty, unlessEmpty) => whenEmpty()
-And what is a node of a list?
-const node = (x) => (y) =>
-(whenEmpty, unlessEmpty) => unlessEmpty(pair(x)(y));
-Let’s try it:
-const l123 = node(1)(node(2)(node(3)(EMPTYLIST)));
-print(l123)
-//=> 1 2 3
-```
-
-### Atom 5: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01372)_
 

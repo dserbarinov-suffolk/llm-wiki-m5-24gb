@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-327f6ba9
 page_kind: source
-summary: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: 10 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+summary: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: 9 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-327f6ba9@41971abb2c333b20a8f17e4047fdbab5
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-327f6ba9@fd2146f3b618acf98192edbc59e54a98
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
@@ -37,22 +37,6 @@ From [[javascriptallonge]].
 ## Technical atoms
 
 ### Technical frame 1: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00824))_
-
-> The line const wrapped = [something]; is interesting. On the left hand is a name to be bound, and on the right hand is an array literal, a template for constructing an array, very much like a quasi-literal string.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00822))_
-
-<a id="atom-technical-atom-46a5553e38af2bb2"></a>
-```
-const wrap = (something) => [something];
-Let’s expand it to use a block and an extra name:
-const wrap = (something) => {
-const wrapped = [something];
-```
-
-### Technical frame 2: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00824))_
 

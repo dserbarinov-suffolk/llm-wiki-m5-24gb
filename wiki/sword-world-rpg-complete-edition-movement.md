@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-movement
 page_kind: concept
-summary: Movement: 3 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Movement: 3 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-movement@e8754821585ebf42523c05f981135b98
+projection_coverage: topic-sword-world-rpg-complete-edition-movement@4066a8d48d7fb5daf307a86d7150c3cc
 ---
 
 # Movement
@@ -25,40 +25,11 @@ What [[sword-world-rpg-complete-edition]] covers about movement:
 - The following actions can be taken at any time , regardless of the movement method. They do not prevent other actions at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01092))_
 
 
-## Technical atoms
-
-### Technical frame 1: Chapter 3: / Movement and Actions
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01088))_
-
-> Characters have three options for movement: full movement , normal movement , or stand still . Each has different distances that can be traveled and different restrictions on actions that can be taken.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01087))_
-
-<a id="atom-technical-atom-3cf4759715ad461b"></a>
-```text
-Movement and Actions
-3.4 Movement and Actions
-1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, actions are restricted. You cannot wield weapons or cast spells while running at full speed.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 3 | 4 Movement and Actions |
-| 1 | round lasts 10 seconds. Therefore, a character can also move during this time. However, when movement is made, actions are restricted. You cannot wield weapons or cast spells while running at full speed. |
-
-</details>
-
-
 ## Related pages
 
-### Shared technical atoms
+### Shared claims
 
-- [[sword-world-rpg-complete-edition-action]] - shared statements and technical atoms: Action shares source evidence from Chapter 3: / Movement and Actions: Below are some guidelines on how movement works and which actions can be taken. For any other actions, please use common sense based on the time frame of 1 round = 1 ... [truncated]; Action shares technical record from Chapter 3: / Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (2 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-full-movement]] - shared technical atoms: Full Movement shares technical record from Chapter 3: / Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (1 shared atom(s))
+- [[sword-world-rpg-complete-edition-action]] - shared statements: Action shares source evidence from Chapter 3: / Movement and Actions: Below are some guidelines on how movement works and which actions can be taken. For any other actions, please use common sense based on the time frame of 1 round = 1 ... [truncated] (2 shared statement(s))
 
 ## Source
 

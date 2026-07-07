@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-long-jump-high-jump-agility-60ba44ba
 page_kind: source
-summary: Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]: 24 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]: 22 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-long-jump-high-jump-agility-60ba44ba@50dbfa680cf74b108feef7a0e8ef8546
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-long-jump-high-jump-agility-60ba44ba@58a01581bdc3e556630d2181dfcefb25
 ---
 
 # Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]
@@ -36,57 +36,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Technical atoms
 
-### Technical frame 1: Table 6-3: Determining Long Jump Target Scores
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04212))_
-
-> Jumping over obstacles with a high jump does not guarantee a safe landing. Apply damage to an adventurer as if they had fallen from the height he jumped. It usually doesn't cause much damage, and if you're a thief, you'll be able to land it perfectly. However, this can be a problem if the ground you jump over is significantly lower than the ground you took off from.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04213))_
-
-<a id="atom-technical-atom-0ffc36f258971094"></a>
-```text
-Table 6-3: Determining Long Jump Target Scores
- boiling lava. At this time, considering the
-                                    Feature Used                         Base Target Score
- following conditions: 7 meter width,
-```
-
-### Technical frame 2: Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04212))_
-
-> Jumping over obstacles with a high jump does not guarantee a safe landing. Apply damage to an adventurer as if they had fallen from the height he jumped. It usually doesn't cause much damage, and if you're a thief, you'll be able to land it perfectly. However, this can be a problem if the ground you jump over is significantly lower than the ground you took off from.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04215))_
-
-<a id="atom-technical-atom-6e5b14524e1340ec"></a>
-```text
-5 for 3 meters, +1 for every 15 cm
-Thief Skill (Normal Long Jump)
-5 for 6 meters, +1 for every 30 cm
-Thief Skill (Pole Long Jump)
-5 for 10 meters, +1 for every 50 cm
-Adventurer Level Standing Long Jump)
-5 for 2 meters, +1 for every 10 cm
-Adventurer Level (Normal Long Jump)
-5 for 4 meters, +1 for every 20 cm
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 5 | for 3 meters, +1 for every 15 cm |
-| 5 | Thief Skill (Normal Long Jump) for 6 meters, +1 for every 30 cm |
-| 5 | Thief Skill (Pole Long Jump) for 10 meters, +1 for every 50 cm |
-| 5 | Adventurer Level Standing Long Jump) for 2 meters, +1 for every 10 cm |
-| 5 | Adventurer Level (Normal Long Jump) for 4 meters, +1 for every 20 cm |
-
-</details>
-
-### Technical frame 3: Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]
+### Technical frame 1: Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04244))_
 

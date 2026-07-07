@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-daemon
 page_kind: concept
-summary: Daemon: 7 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Daemon: 7 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-daemon@a57d81e41aa6ba160c1d6eb535885635
+projection_coverage: topic-sword-world-rpg-complete-edition-daemon@a0da357161054c157b6fc1326fab0e03
 ---
 
 # Daemon
@@ -29,38 +29,11 @@ What [[sword-world-rpg-complete-edition]] covers about daemon:
 - In the underworld where daemons live, there are also animal-like creatures with low intellect. Sages say that they are comparable to the animals in our world, and claim that this is proof that there are multiple material worlds. These underworld creatures are far more dangerous than the animals of the material world, just as daemons are far more dangerous than humans. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05805))_
 
 
-## Technical atoms
-
-### Technical frame 1: 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05805))_
-
-> In the underworld where daemons live, there are also animal-like creatures with low intellect. Sages say that they are comparable to the animals in our world, and claim that this is proof that there are multiple material worlds. These underworld creatures are far more dangerous than the animals of the material world, just as daemons are far more dangerous than humans.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05806))_
-
-<a id="atom-technical-atom-516fe491c8beda82"></a>
-```text
-13.2
-13.2 Monster Catalog
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 13 | 2 |
-| 13 | 2 Monster Catalog |
-
-</details>
-
-
 ## Related pages
 
-### Shared technical atoms
+### Shared claims
 
-- [[sword-world-rpg-complete-edition-underworld-creature]] - shared statements and technical atoms: Underworld Creature shares source evidence from 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》: Daemons are underworld monsters that live in a material world different from ours. In the age of the gods, they were known as terrifying slaughterers who followed th ... [truncated]; Underworld Creature shares technical record from 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》: 13.2 13.2 Monster Catalog (7 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-underworld-creature]] - shared statements: Underworld Creature shares source evidence from 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》: Daemons are underworld monsters that live in a material world different from ours. In the age of the gods, they were known as terrifying slaughterers who followed th ... [truncated] (7 shared statement(s))
 
 ## Source
 

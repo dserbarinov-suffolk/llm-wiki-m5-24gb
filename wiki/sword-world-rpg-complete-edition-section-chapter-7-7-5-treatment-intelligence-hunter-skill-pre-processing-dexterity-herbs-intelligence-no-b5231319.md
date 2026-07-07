@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-pre-processing-dexterity-herbs-intelligence-no-b5231319
 page_kind: source
-summary: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill / [ ⑨ Pre-processing [Dexterity]] / [ ③ Herbs [Intelligence] ] (Not retriable): 19 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill / [ ⑨ Pre-processing [Dexterity]] / [ ③ Herbs [Intelligence] ] (Not retriable): 18 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-pre-processing-dexterity-herbs-intelligence-no-b5231319@42e318b6a5d90f2ff614d56a80bcea90
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-pre-processing-dexterity-herbs-intelligence-no-b5231319@6bf46043e398a52cab99037ec7eacc73
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill / [ ⑨ Pre-processing [Dexterity]] / [ ③ Herbs [Intelligence] ] (Not retriable)
@@ -32,29 +32,3 @@ From [[sword-world-rpg-complete-edition]].
 - The abilities of the sailor skill are as follows. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04346))_
 - Unlike rangers, hunters hunt and convert their prey into gold to earn their own income. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04340))_
 - Therefore, when you want to use some of your abilities , you may be required to wear very light equipment. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04345))_
-
-## Technical atoms
-
-### Technical frame 1: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill / [ ⑨ Pre-processing [Dexterity]] / [ ③ Herbs [Intelligence] ] (Not retriable)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04344))_
-
-> The sailor skill is the skill needed to operate a ship. Owners of this skill are called sailors, and people called sailors own this skill. Also, even if you are not a professional sailor, those who sail as a hobby or a side job still possess this skill.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04343))_
-
-<a id="atom-technical-atom-9a895a11d304958a"></a>
-```text
-7.6
-7.6 Sailor Skill
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 7 | 6 |
-| 7 | 6 Sailor Skill |
-
-</details>

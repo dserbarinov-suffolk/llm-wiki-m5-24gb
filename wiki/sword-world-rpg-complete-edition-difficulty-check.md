@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-difficulty-check@d00cde931f849436d4510cc1e22c6654
+projection_coverage: topic-sword-world-rpg-complete-edition-difficulty-check@3f40b5ec4c4f50288068316118b0c9a0
 ---
 
 # Difficulty Check
@@ -54,7 +54,7 @@ What [[sword-world-rpg-complete-edition]] covers about difficulty check:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-315d8578]] - source section: 2.5 Difficulty Checks shares source evidence from 2.5 Difficulty Checks: You (your character) are now at a door. The owner of the mansion is known to be paranoid and is rumored to have set numerous traps. So you decide to check for traps, ... [truncated]; 2.5 Difficulty Checks shares technical record from 2.5 Difficulty Checks: Even if a bonus or penalty is applied, the roll is still an automatic success if the roll comes up double sixes , and an automatic failure if the roll if it's double ones . (47 shared statement(s), 5 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-315d8578]] - source section: 2.5 Difficulty Checks shares source evidence from 2.5 Difficulty Checks: You (your character) are now at a door. The owner of the mansion is known to be paranoid and is rumored to have set numerous traps. So you decide to check for traps, ... [truncated]; 2.5 Difficulty Checks shares technical record from 2.5 Difficulty Checks: Even if a bonus or penalty is applied, the roll is still an automatic success if the roll comes up double sixes , and an automatic failure if the roll if it's double ones . (47 shared statement(s), 4 shared atom(s))
 
 ### Shared technical atoms
 

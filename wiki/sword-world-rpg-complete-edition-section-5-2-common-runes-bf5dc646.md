@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-2-common-runes-bf5dc646
 page_kind: source
-summary: 5.2 Common Runes: 17 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.2 Common Runes: 16 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-2-common-runes-bf5dc646@214da811f95ddfd9fdec9041d23bfdae
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-2-common-runes-bf5dc646@93b3770a040d2eff904ce603d2e5a8ca
 ---
 
 # 5.2 Common Runes
@@ -36,58 +36,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Technical atoms
 
-### Technical frame 1: Table 5-9: Common Runes
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03838))_
-
-> The following are common runes that characters can obtain. However, Decrease Weight will not appear on the market as a common rune if it's lost to the world. It only appears on the market when a character discovers it, or has already discovered it, through an adventure (which means it is no longer a lost spell).
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03834))_
-
-<a id="atom-technical-atom-068e7321298b4b97"></a>
-```text
-Table 5-9: Common  Runes
- determined by each common rune.
-                                      Enchant Weapon  (Mental Power Consumed 3, 3000 Gamels)
-  Common   runes can be  used by
-                                      Counterspell (Mental Power Consumed  3, 3000 Gamels)
- anyone who knows the password. Also,
-                                      Decrease Weight (Mental Power Consumed 3, 3000 Gamels)
- even if you can't use your hands or are
-                                      Kindle (Mental Power Consumed  3, 3000 Gamels)
- wearing metal armor, you can use them
-                                      Protection (Mental Power Consumed  3, 3000 Gamels)
- as long as you can say the word. However,
-                                      Light (Mental Power Consumed  3, 3000 Gamels)
- no matter how  high your rune master
-                                      Lock (Mental Power Consumed 3, 3000 Gamels)
- skill is, you cannot reduce the amount of
- mental power consumed. When using
- common  runes, if magic  power is
- required for a game procedure, treat it as
- 0 regardless of the user. Common  runes
- can also be expanded by consuming
- extra mental power. However, increasing
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| Table 5-9: Common | Runes |
-| --- | --- |
-| Enchant Weapon | (Mental Power Consumed 3, 3000 Gamels) |
-| Common | runes can be |
-| Counterspell (Mental Power Consumed | 3, 3000 Gamels) |
-| Kindle (Mental Power Consumed | 3, 3000 Gamels) |
-| Protection (Mental Power Consumed | 3, 3000 Gamels) |
-| Light (Mental Power Consumed | 3, 3000 Gamels) |
-| no matter how | high your rune master |
-| common | runes, if magic |
-| 0 regardless of the user. Common | runes |
-
-</details>
-
-### Technical frame 2: 5.2 Common Runes
+### Technical frame 1: 5.2 Common Runes
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03843))_
 

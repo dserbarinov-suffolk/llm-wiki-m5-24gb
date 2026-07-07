@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-how-to-run-the-examples
 page_kind: recipe
-summary: How to run the examples: reusable source-backed pattern with 8 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: How to run the examples: reusable source-backed pattern with 8 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: how-to-run-the-examples
-projection_coverage: recipe-javascriptallonge-recipe-how-to-run-the-examples@0185a81f0e367693a0e8912508f65ca6
+projection_coverage: recipe-javascriptallonge-recipe-how-to-run-the-examples@b24c1040dd0435162a558205d22f0019
 ---
 
 # How to run the examples
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 ## Pattern
 
 - Use the source-backed pattern described in [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-how-to-run-the-examples-b92670cf]].
-- Evidence roles: decision, procedure, explanation, constraint, example, structured-state.
+- Evidence roles: decision, procedure, explanation, constraint, example.
 
 ## Applicability And Rationale
 
@@ -72,39 +72,13 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01924)_
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01925)_
-
-```
-const before = (decoration) =>
-(method) =>
-function (...args) {
-decoration.apply(this, args);
-return method.apply(this, args)
-};
-And it would be “transpiled” into:
-var before = function (decoration) {
-return function (method) {
-return function () {
-for (let _len = arguments.length, args = Array(_len), _key = 0; _key < _le\
-n; _key++) {
-args[_key] = arguments[_key];
-}
-decoration.apply(this, args);
-return method.apply(this, args);
-};
-};
-};
-```
-
-### Atom 5: `code-block`
-
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01928)_
 
 ```
 (() => 2 + 2)()
 ```
 
-### Atom 6: `code-block`
+### Atom 5: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01930)_
 

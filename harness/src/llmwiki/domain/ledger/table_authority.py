@@ -7,6 +7,7 @@ from dataclasses import dataclass
 from llmwiki.domain.ledger.atoms import TablePayload, TechnicalAtom
 from llmwiki.domain.ledger.canonical import deterministic_id
 from llmwiki.domain.ledger.table_identity import normalize_table_name, raw_table_caption_lines
+from llmwiki.domain.ledger.technical_atom_trust import atom_is_authoritative
 
 
 @dataclass(frozen=True)
@@ -24,6 +25,8 @@ def table_authority_decisions(
     groups: dict[str, list[TechnicalAtom]] = {}
     for atom in atoms:
         if atom.technical_atom_kind != "table" or not isinstance(atom.payload, TablePayload):
+            continue
+        if not atom_is_authoritative(atom):
             continue
         groups.setdefault(_candidate_key(atom), []).append(atom)
     decisions: list[TableAuthorityDecision] = []

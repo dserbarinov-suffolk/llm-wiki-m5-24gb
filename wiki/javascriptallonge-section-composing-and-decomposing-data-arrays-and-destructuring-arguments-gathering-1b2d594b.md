@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-1b2d594b
 page_kind: source
-summary: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering: 9 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+summary: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering: 6 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-1b2d594b@a762146e35b9bb4d162967117a34acdb
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-1b2d594b@b4ad871524763f95727fcfaf0eaa30cf
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
@@ -51,27 +51,3 @@ car
 cdr
 //=> [2, 3, 4, 5]
 ```
-
-### Technical frame 2: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00833))_
-
-> Sometimes we need to extract arrays from arrays. Here is the most common pattern: Extracting the head and gathering everything but the head from an array:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00837))_
-
-<a id="atom-technical-atom-5337ddc45c7cfcfe"></a>
-```text
-57 https://en.wikipedia.org/wiki/CAR_and_CDR
-58 Kyle Simpson is the author of You Don't Know JS, available here
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 57 | https://en.wikipedia.org/wiki/CAR_and_CDR |
-| 58 | Kyle Simpson is the author of You Don't Know JS, available here |
-
-</details>

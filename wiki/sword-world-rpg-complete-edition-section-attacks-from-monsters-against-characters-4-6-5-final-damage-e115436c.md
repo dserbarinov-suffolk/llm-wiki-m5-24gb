@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-e115436c
 page_kind: source
-summary: Attacks From Monsters Against Characters / 4.6.5 Final Damage: 7 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Attacks From Monsters Against Characters / 4.6.5 Final Damage: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-e115436c@0693bcabf4952f94b3a0ea9d08a6b2ec
+projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-e115436c@43b364eb68b909ea84b354d0555c71ca
 ---
 
 # Attacks From Monsters Against Characters / 4.6.5 Final Damage
@@ -37,29 +37,3 @@ From [[sword-world-rpg-complete-edition]].
 - If the defense roll came up double ones , no such calculation would be made, and the goblin's 7 strike points would be the damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01320))_
 - If final damage is 0 or negative , that means you took no damage at all. The monster's attack was completely blocked by your armor. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01321))_
 - If final damage is 0 or negative , that means you took no damage at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01321))_
-
-## Technical atoms
-
-### Technical frame 1: Attacks From Monsters Against Characters / 4.6.5 Final Damage
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01320))_
-
-> If the defense roll came up double ones , no such calculation would be made, and the goblin's 7 strike points would be the damage.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01319))_
-
-<a id="atom-technical-atom-359adc15fff571da"></a>
-```text
-7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5
-7 (goblin's strike points) - {6 (defense roll) +2 (damage reduction)} = -1
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 7 | (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5 |
-| 7 | (goblin's strike points) - {6 (defense roll) +2 (damage reduction)} = -1 |
-
-</details>

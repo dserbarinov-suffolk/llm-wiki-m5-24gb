@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-iterable@7f79223033a102ba2a242deca0fcd593
+projection_coverage: topic-javascriptallonge-iterable@394908e0a3fc550d6ae42ef4dd7135bc
 ---
 
 # Iterable
@@ -331,7 +331,7 @@ yield 3
 
 ### Source structure
 
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-94f83dae]] - source section: Served by the Pot: Collections / Iteration and Iterables / iterables shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: People have been writing iterators since JavaScript was first released in the late 1990s. Since there was no particular standard way to do it, people used all sorts ... [truncated]; Served by the Pot: Collections / Iteration and Iterables / iterables shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (16 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-94f83dae]] - source section: Served by the Pot: Collections / Iteration and Iterables / iterables shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: People have been writing iterators since JavaScript was first released in the late 1990s. Since there was no particular standard way to do it, people used all sorts ... [truncated]; Served by the Pot: Collections / Iteration and Iterables / iterables shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (16 shared statement(s), 4 shared atom(s))
 
 ### Shared technical atoms
 

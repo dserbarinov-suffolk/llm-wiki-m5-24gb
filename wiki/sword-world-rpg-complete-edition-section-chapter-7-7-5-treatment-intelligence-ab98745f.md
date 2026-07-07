@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-ab98745f
 page_kind: source
-summary: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]: 17 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]: 17 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-ab98745f@7a917d0cf03de438ababafb9fc24726b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-ab98745f@ee71d5aa8b0efdb70d8354386c32b103
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
@@ -52,29 +52,3 @@ From [[sword-world-rpg-complete-edition]].
 
 - Sailors have the ability to tie ropes at will so that they do not unravel or, conversely, quickly unravel. A sailor can untie a knot by succeeding on a success roll using sailor skill level + dexterity bonus as the baseline score. At this time, the game master should decide the difficulty or target score, taking into consideration the tightness of the knot and the time it'll take. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04369))_
 - A rope that a sailor tied to keep it from coming undone should have a difficulty equal to the sailor's skill level if someone attempts to untie it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04370))_
-
-## Technical atoms
-
-### Technical frame 1: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill / [ ⑨ Pre-processing [Dexterity]] / [ ③ Herbs [Intelligence] ] (Not retriable)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04344))_
-
-> The sailor skill is the skill needed to operate a ship. Owners of this skill are called sailors, and people called sailors own this skill. Also, even if you are not a professional sailor, those who sail as a hobby or a side job still possess this skill.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04343))_
-
-<a id="atom-technical-atom-9a895a11d304958a"></a>
-```text
-7.6
-7.6 Sailor Skill
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 7 | 6 |
-| 7 | 6 Sailor Skill |
-
-</details>

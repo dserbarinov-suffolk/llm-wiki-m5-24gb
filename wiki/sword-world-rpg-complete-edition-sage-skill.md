@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-sage-skill
 page_kind: concept
-summary: Sage Skill: 67 statement(s) and 6 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Sage Skill: 67 statement(s) and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-sage-skill@1f459db715d864316d5394341c64dcb5
+projection_coverage: topic-sword-world-rpg-complete-edition-sage-skill@5308980388e739f09292ccca3f0cd849
 ---
 
 # Sage Skill
@@ -160,56 +160,7 @@ What [[sword-world-rpg-complete-edition]] covers about sage skill:
 <a id="atom-technical-atom-445267433a93887f"></a>
 > If the research is successful, the sage may make another success roll.
 
-### Technical frame 3: Table 8-1: Experience Points by Skill. There is no reduction in experience
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04472))_
-
-> Suppose a character has a 3rd level sorcerer skill and a 1st level sage skill and increases his sage skill to 2nd level. At this time, the newly acquired sage skill level 2 is lower than the already acquired sorcerer skill level 3 , so he can acquire it for fewer experience points. The reduction on the 2 levels row is 500 points , so the experience points spent are 1000 points (experience points originally
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04471))_
-
-<a id="atom-technical-atom-216d7d611ccd3b56"></a>
-```text
-Table 8-1: Experience Points by Skill.        There is no reduction in experience
-                                    points when increasing the sage skill to    Example 3:
- Example 1:                           4th level. This is because the sorcerer      When a character who does not have
-  Suppose a character has a 3rd level   skill is only 3rd level.                  either the sorcerer skill or the sage skill
- sorcerer skill and a 1st level sage skill and                                        newly acquires a 1st level sorcerer skill,
- increases his sage skill to 2nd level. At    Example 2:                           they can also acquire a 1st level sage skill
- this time, the newly acquired sage skill     Consider a character with a 1st level   at the same time without spending
- level 2 is lower than the already acquired   sorcerer skill and a 3rd level sage skill  experience points. If you acquire the 1st
- sorcerer skill level 3, so he can acquire it   who wants to advance his sorcerer skill.  level sorcerer skill first, the experience
- for fewer experience points. The    In this case, as in the example above,   points will be reduced when you acquire
- reduction on the 2 levels row is 500 points,  when increasing the sorcerer skill to 2nd    the 1st level sage skill, and as a result, the
- so the experience points spent are 1000    and 3rd level, there is a reduction in    required experience points will be 500 -
- points (experience points originally  experience points for each, and they can    500 = 0 points.
-          8.3            How    to Use    Experience      Points:   Increasing      Ability  Scores
- 8.3 How  to Use Experience  Points: Increasing Ability Scores
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| Table 8-1: Experience Points by Skill. | There is no reduction in experience |
-| --- | --- |
-| points when increasing the sage skill to | Example 3: |
-| Example 1: | 4th level. This is because the sorcerer |
-| Suppose a character has a 3rd level | skill is only 3rd level. |
-| sorcerer skill and a 1st level sage skill and | newly acquires a 1st level sorcerer skill, |
-| increases his sage skill to 2nd level. At | Example 2: |
-| this time, the newly acquired sage skill | Consider a character with a 1st level |
-| level 2 is lower than the already acquired | sorcerer skill and a 3rd level sage skill |
-| sorcerer skill level 3, so he can acquire it | who wants to advance his sorcerer skill. |
-| for fewer experience points. The | In this case, as in the example above, |
-| reduction on the 2 levels row is 500 points, | when increasing the sorcerer skill to 2nd |
-| so the experience points spent are 1000 | and 3rd level, there is a reduction in |
-| points (experience points originally | experience points for each, and they can |
-| 8.3 | How |
-| 8.3 How | to Use Experience |
-
-</details>
-
-### Technical frame 4: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill
+### Technical frame 3: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04479))_
 
@@ -220,7 +171,7 @@ Table 8-1: Experience Points by Skill.        There is no reduction in experienc
 <a id="atom-technical-atom-b213182b130e8921"></a>
 > If you acquire the 1st level sorcerer skill first, the experience points will be reduced when you acquire the 1st level sage skill, and as a result, the required experience points will be 500 500 = 0 points.
 
-### Technical frame 5: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages
+### Technical frame 4: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05357))_
 
@@ -237,7 +188,7 @@ Table 8-1: Experience Points by Skill.        There is no reduction in experienc
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-6-sage-skill-afd61152]] - source section: Chapter 6: / Sage Skill shares source evidence from Chapter 6: / Sage Skill: The player chooses which language to learn, along with whether they will speak or read it. However, runes cannot be chosen. Even in the same language, being able to ... [truncated]; Chapter 6: / Sage Skill shares technical record from Chapter 6: / Sage Skill: If you can read both common and low ancient, you are free to learn subsequent languages. (27 shared statement(s), 3 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-sage-skill-6b692cd4]] - source section: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill shares source evidence from 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill: There is a close connection between the sorcerer skill and the sage skill. The sorcerer skill is the mastery of ancient through study and the improvement of magical ... [truncated]; 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill shares technical record from Table 8-1: Experience Points by Skill. There is no reduction in experience: Table 8-1: Experience Points by Skill.        There is no reduction in experience points when increasing the sage skill to    Example 3: Example 1: ... [truncated] (17 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-sage-skill-6b692cd4]] - source section: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill shares source evidence from 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill: There is a close connection between the sorcerer skill and the sage skill. The sorcerer skill is the mastery of ancient through study and the improvement of magical ... [truncated]; 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill shares technical record from 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill: If you acquire the 1st level sorcerer skill first, the experience points will be reduced when you acquire the 1st level sage skill, and as a result, the required exp ... [truncated] (17 shared statement(s), 1 shared atom(s))
 
 ### Shared technical atoms
 
@@ -249,7 +200,6 @@ Table 8-1: Experience Points by Skill.        There is no reduction in experienc
 - [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements: 【 Ranger Skill 】 shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction): The sage skill represents a comprehensive understanding and depth of knowledge in all academic fields. Academic fields in Sword World are undifferentiated, and owner ... [truncated] (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-11-acquiring-rune-master-skill]] - shared statements: 11 Acquiring Rune Master Skill shares source evidence from Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels / 《 Sorcerer Skill 》: Then, you'll be given basic knowledge as a sorcerer, such as speaking and reading in high and low ancient, thus a sorcerer who can use 1st level spells is born. In t ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-dragon-priest-skill]] - shared statements: Dragon Priest Skill shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Reptile Check [Intelligence]: Dragon priests have knowledge of dragons, their subspecies such as wyrms, wyverns, etc. and reptiles. For these monsters only, they can identify them with a success ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-priest-skill]] - shared statements: Priest Skill shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Reptile Check [Intelligence]: Dragon priests have knowledge of dragons, their subspecies such as wyrms, wyverns, etc. and reptiles. For these monsters only, they can identify them with a success ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-shape-change]] - shared statements: [ Shape Change shares source evidence from 5.1.12 Ancient Magic List / [ Shape Change: This is a spell that allows the caster to change their form into another living creature at will. However, the creatures they can change into are limited to about 10 ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-thief-skill]] - shared statements: 【 Thief Skill 】 shares source evidence from Chapter 7: / 7.2 Merchant Skill / How to Create General Skills: This is almost the same ability as the thief and sage skills' treasure appraisal . However, you can only make a check for items that the merchant deals with. Therefo ... [truncated] (1 shared statement(s))
 

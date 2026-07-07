@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-mutation
 page_kind: concept
-summary: Mutation: 4 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
+summary: Mutation: 4 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-mutation@aa7a8ae40934e54486c5036d471f4bc6
+projection_coverage: topic-javascriptallonge-mutation@1f7c4e49f683c50c6e8b2e0d981faebb
 ---
 
 # Mutation
@@ -31,48 +31,57 @@ What [[javascriptallonge]] covers about mutation:
 
 > The gathering operation [a, b, ...ThreeToFive] is slower, but 'safer. '
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01122))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01124))_
 
-<a id="atom-technical-atom-4408b37f838af47d"></a>
+<a id="atom-technical-atom-d83812ebf043293f"></a>
 ```
-const EMPTY = {};
-const OneToFive = { first: 1,
-rest: {
-first: 2,
-rest: {
-first: 3,
-rest: {
-first: 4,
-rest: {
-first: 5,
-rest: EMPTY } } } } };
+const OneToFive = [1, 2, 3, 4, 5];
 OneToFive
-//=> {"first":1,"rest":{"first":2,"rest":{"first":"three","rest":{"first":"fou\
-r","rest":{"first":"five","rest":{}}}}}}
-const ThreeToFive = OneToFive.rest.rest;
-ThreeToFive
-//=> {"first":3,"rest":{"first":4,"rest":{"first":5,"rest":{}}}}
-ThreeToFive.first = "three";
-ThreeToFive.rest.first = "four";
-ThreeToFive.rest.rest.first = "five";
-ThreeToFive
-//=> {"first":"three","rest":{"first":"four","rest":{"first":"five","rest":{}}\
-}}
-OneToFive
-//=> {"first":1,"rest":{"first":2,"rest":{"first":"three","rest":{"first":"fou\
-r","rest":{"first":"five","rest":{}}}}}}
-Changes made to ThreeToFive affect OneToFive, because they share the same structure. When we
-wrote ThreeToFive = OneToFive.rest.rest;, we weren’t making a brand new copy of {"first":3,"rest":{"firs
-we were getting a reference to the same chain of nodes.
-Structure sharing like this is what makes linked lists so fast for taking everything but the first item
+//=> [1,2,3,4,5]
+const [a, b, ...ThreeToFive] = OneToFive;
 ```
+
+### Technical frame 2: Mutation / mutation and data structures
+
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01126))_
+
+> The gathering operation [a, b, ...ThreeToFive] is slower, but 'safer. '
+
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01125))_
+
+<a id="atom-technical-atom-2e3f7352ee1f9aeb"></a>
+```
+OneToFive
+//=> [1,2,3,4,5]
+const [a, b, ...ThreeToFive] =
+ThreeToFive
+//=> [3, 4, 5]
+ThreeToFive[0] = "three";
+ThreeToFive[1] = "four";
+ThreeToFive[2] = "five";
+ThreeToFive
+//=> ["three","four","five"]
+OneToFive
+//=> [1,2,3,4,5]
+```
+
+### Technical frame 3: Mutation / mutation and data structures
+
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01126))_
+
+> The gathering operation [a, b, ...ThreeToFive] is slower, but 'safer. '
+
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01127))_
+
+<a id="atom-technical-atom-3d29236dca19d99c"></a>
+> We don't have to remember to use copying operations when we pass it as a value to a function, or extract some data from it.
 
 
 ## Related pages
 
 ### Source structure
 
-- [[javascriptallonge-section-mutation-ae8039d8]] - source section: Mutation shares source evidence from Mutation: In JavaScript, almost every type of value can mutate . Their identities stay the same, but not their structure. Specifically, arrays and objects can mutate. Recall t ... [truncated]; Mutation shares technical record from Mutation: const oneTwoThree = [1, 2, 3]; oneTwoThree[0] = 'one'; oneTwoThree //=> [ 'one', 2, 3 ] (25 shared statement(s), 15 shared atom(s))
+- [[javascriptallonge-section-mutation-ae8039d8]] - source section: Mutation shares source evidence from Mutation: In JavaScript, almost every type of value can mutate . Their identities stay the same, but not their structure. Specifically, arrays and objects can mutate. Recall t ... [truncated]; Mutation shares technical record from Mutation: const oneTwoThree = [1, 2, 3]; oneTwoThree[0] = 'one'; oneTwoThree //=> [ 'one', 2, 3 ] (25 shared statement(s), 14 shared atom(s))
 
 ### Shared claims
 

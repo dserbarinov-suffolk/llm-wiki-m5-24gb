@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-weapon-combat-skills-ed484c8f@a635f6d664e345a1cf3749adc3ae81fb
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-weapon-combat-skills-ed484c8f@b36491ee57f9a17e4a88f4dfcf73e44b
 ---
 
 # Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon Combat Skills
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-weapon-and-armor-restrictions-a288ca86]] - previous source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon and Armor Restrictions
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-projectile-restrictions-38cf54f9]] - next source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions
 
 ### Source structure

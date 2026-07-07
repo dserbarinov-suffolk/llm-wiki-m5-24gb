@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: collection-sword-world-rpg-complete-edition-collection-spellsongs-filling-out-the-character-sheet-46deb26a@90b0fc0db24f209b0dab80894c2f0d3c
+projection_coverage: collection-sword-world-rpg-complete-edition-collection-spellsongs-filling-out-the-character-sheet-46deb26a@843a669e139cca2d5740b8489104558b
 ---
 
 # Spellsongs / Filling out the Character Sheet
@@ -27,5 +27,5 @@ Broader source section: [[sword-world-rpg-complete-edition-section-spellsongs-fi
 | Member | Source section | Evidence |
 | --- | --- | --- |
 | Spellsongs / Filling out the Character Sheet / Sing (Mind) | [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-sing-mind-5ea8b1fa]] | 4 statement(s), 2 atom(s) |
-| Spellsongs / Filling out the Character Sheet / Charm (Mind) | [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-charm-mind-40b549a9]] | 5 statement(s), 26 atom(s) |
+| Spellsongs / Filling out the Character Sheet / Charm (Mind) | [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-charm-mind-40b549a9]] | 5 statement(s), 18 atom(s) |
 | Spellsongs / Filling out the Character Sheet / Requiem | [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-requiem-22aebd3a]] | 5 statement(s), 6 atom(s) |

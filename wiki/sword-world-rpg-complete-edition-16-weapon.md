@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-16-weapon
 page_kind: concept
-summary: 16 Weapon: 7 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 16 Weapon: 7 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-16-weapon@5674c90cbda2355deabe19ee304fa2c5
+projection_coverage: topic-sword-world-rpg-complete-edition-16-weapon@9c44900fd799f9a474612d16e9259a52
 ---
 
 # 16 Weapon
@@ -35,34 +35,7 @@ What [[sword-world-rpg-complete-edition]] covers about 16 weapon:
 
 ## Technical atoms
 
-### Technical frame 1: Table 16-1 Weapon Optional Rules
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09954))_
-
-> Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is different for each weapon . This is indicated by the critical target . Axes, maces, etc. do not critical even if you roll a 10, but rather require an 11 or 12 . One can say that the lower this score, the more
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09955))_
-
-<a id="atom-technical-atom-720b52b0484e0c87"></a>
-| differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| quantifies weapons used Optional explained | Here by The | the and Weapon is adventurers Rules"). terms below. | armor. a table | finer used | differences Modifiers of weapons ("Table on | 16-1 this | between commonly Weapon table | are | Spears/1H Spears/2H Maces/1H Maces/2H Clubs/1H Staves/2H Flails/1H Flails/2H War Hammer/1H War Hammer/2H Bows Crossbow | -1 ±0 +1 +1 +1 +1 -1 -1 -1 -2 ±0 ±0 | +5 +5 +5 +10 ±0 +5 +5 +10 +5 +15 +5 +10 | 10* 10* 12 12 12 12 10 10 10 10 10* 10* |
-| modifier power Weapons | Attack Attack | added when with | power | Power to using higher | modifier an adventurer's numbers | Modifier indicates that | weapon. are | the attack more | Slings/1H Slings/2H Rocks Whip/1H Net/1H | ±0 ±0 +1 -2 -2 | +5 +10 ±0 0** -△ | 11 11 12 10* -△ |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 16-1 Weapon Optional Rules
-| differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| quantifies weapons used Optional explained | Here by The | the and Weapon is adventurers Rules"). terms below. | armor. a table | finer used | differences Modifiers of weapons ("Table on | 16-1 this | between commonly Weapon table | are | Spears/1H Spears/2H Maces/1H Maces/2H Clubs/1H Staves/2H Flails/1H Flails/2H War Hammer/1H War Hammer/2H Bows Crossbow | -1 ±0 +1 +1 +1 +1 -1 -1 -1 -2 ±0 ±0 | +5 +5 +5 +10 ±0 +5 +5 +10 +5 +15 +5 +10 | 10* 10* 12 12 12 12 10 10 10 10 10* 10* |
-| modifier power Weapons | Attack Attack | added when with | power | Power to using higher | modifier an adventurer's numbers | Modifier indicates that | weapon. are | the attack more | Slings/1H Slings/2H Rocks Whip/1H Net/1H | ±0 ±0 +1 -2 -2 | +5 +10 ±0 0** -△ | 11 11 12 10* -△ |
-```
-
-</details>
-
-### Technical frame 2: Chapter 16: / 16.2 Weapon and Armor Modifiers / Number of Projectile Shots
+### Technical frame 1: Chapter 16: / 16.2 Weapon and Armor Modifiers / Number of Projectile Shots
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10111))_
 
@@ -76,10 +49,10 @@ Table 16-1 Weapon Optional Rules
 
 ## Related pages
 
-### Shared technical atoms
+### Shared claims
 
-- [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements and technical atoms: Critical Target Variation shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated]; Critical Target Variation shares technical record from Table 16-1 Weapon Optional Rules: Table 16-1 Weapon Optional Rules | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* | | --- | --- | --- | --- | --- | --- | --- ... [truncated] (3 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-weapon-critical]] - shared statements and technical atoms: 《 Weapons Cannot Critical 》 shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated]; 《 Weapons Cannot Critical 》 shares technical record from Table 16-1 Weapon Optional Rules: Table 16-1 Weapon Optional Rules | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* | | --- | --- | --- | --- | --- | --- | --- ... [truncated] (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements: Critical Target Variation shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated] (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-weapon-critical]] - shared statements: 《 Weapons Cannot Critical 》 shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated] (2 shared statement(s))
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-9708e5d4
 page_kind: source
-summary: 18.3 Rules for Destroying Structures: 44 source-backed entries and 25 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 18.3 Rules for Destroying Structures: 44 source-backed entries and 14 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-9708e5d4@1b12b60bcc549a6ef1d19dfae662eda2
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-9708e5d4@3464cebc34a45c109bee05aacb3fcb2b
 ---
 
 # 18.3 Rules for Destroying Structures
@@ -108,23 +108,7 @@ Destruction Points
 
 </details>
 
-### Technical frame 2: Table 18-2 Types of Magic
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10512))_
-
-> When it comes to destroying structures, some weapons and magic are completely unsuitable, while conversely, others are extremely effective. This is expressed by what's given here.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10506))_
-
-<a id="atom-technical-atom-a3cf598a37cc6719"></a>
-```text
-Table 18-2 Types of Magic
- its destruction points begin to decrease,
- and on  the next round  when          Fire-type                   Firebolt, Fireball, Firestorm
- destruction points reach 1, the paper
-```
-
-### Technical frame 3: 18.3 Rules for Destroying Structures / Currency
+### Technical frame 2: 18.3 Rules for Destroying Structures / Currency
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10860))_
 
@@ -175,7 +159,7 @@ Currency
 
 </details>
 
-### Technical frame 4: 18.3 Rules for Destroying Structures / Currency
+### Technical frame 3: 18.3 Rules for Destroying Structures / Currency
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10887))_
 
@@ -204,7 +188,7 @@ Currency
 
 </details>
 
-### Technical frame 5: 18.3 Rules for Destroying Structures / Currency
+### Technical frame 4: 18.3 Rules for Destroying Structures / Currency
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10922))_
 
@@ -245,7 +229,7 @@ Currency
 
 </details>
 
-### Technical frame 6: Table 1-1: Ability Bonuses Table 1-2: Skill Types
+### Technical frame 5: Table 1-1: Ability Bonuses Table 1-2: Skill Types
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10977))_
 
@@ -281,7 +265,7 @@ Table 1-1: Ability Bonuses                    Table 1-2: Skill Types
 
 </details>
 
-### Technical frame 7: Table 1-3: Determining Sub-Ability Scores
+### Technical frame 6: Table 1-3: Determining Sub-Ability Scores
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10977))_
 
@@ -319,7 +303,7 @@ Table 1-3: Determining Sub-Ability Scores
 
 </details>
 
-### Technical frame 8: Table 1-4: Average Ability Scores by Race
+### Technical frame 7: Table 1-4: Average Ability Scores by Race
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10977))_
 
@@ -354,7 +338,7 @@ Table 1-4: Average Ability Scores by Race
 
 </details>
 
-### Technical frame 9: Table 1-5: Backgrounds
+### Technical frame 8: Table 1-5: Backgrounds
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10977))_
 
@@ -399,28 +383,7 @@ Table 1-5: Backgrounds
 
 </details>
 
-### Technical frame 10: Table 1-6: Starting Experience by Race
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10977))_
-
-> On the table, "D" stands for dice . 1D stands for one die , 2D stands for two dice , and 1/2D stands for half the result of one dice (rounded up) . In addition, a notation such as 1D+6 means to roll one dice and add 6 to the result .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10980))_
-
-<a id="atom-technical-atom-faba2b7cb85e5e01"></a>
-```text
-Table 1-6: Starting Experience by Race
-                                                Pre-Adventure
-   Race          Restrictions／Special Abilities                  Money
-                                                  Exp. Pts.
-                                                            Same as
-  Human  ⬤ Refer to the backgrounds table (Table 1-5)      Same as above
-                                                            above
-         ⬤
-           Has 5 levels in a craftsman skill
-```
-
-### Technical frame 11: Table 1-8: Weapons-1
+### Technical frame 9: Table 1-8: Weapons-1
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11045))_
 
@@ -503,7 +466,7 @@ Table 1-8: Weapons-1
 
 </details>
 
-### Technical frame 12: Table 1-8: Weapons-2
+### Technical frame 10: Table 1-8: Weapons-2
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11058))_
 
@@ -582,44 +545,7 @@ Table 1-8: Weapons-2
 
 </details>
 
-### Technical frame 13: Table 1-9: Armor Table 1-10: Shields
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11059))_
-
-<a id="atom-technical-atom-84157a7e038bb948"></a>
-| Armor | Name | Required | Strength | Price | Calculation | Shield | Name | Req. | Str. | Price |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Non-metal armor |  |  |  |  |  | Small | shield |  | 1 | 60 |
-| Cloth armor |  |  | 1~3 |  | x10+10 | Large | shield |  | 13 | 300 |
-| Soft leather | armor |  | 2~7 |  | x15+20 |  |  |  |  |  |
-| Hard leather | armor |  | 5~13 |  | x30+30 |  |  |  |  |  |
-| Metal armor Ring mail | armor |  | 5~12 |  | x30+40 |  |  |  |  |  |
-| Splint armor |  |  | 8~17 |  | x40+50 |  |  |  |  |  |
-| Chain mail | armor |  | 10~19 |  | x50+50 |  |  |  |  |  |
-| Lamellar armor |  |  | 11~22 |  | x70+70 |  |  |  |  |  |
-| Plate armor |  |  | 13~ |  | x100+100 |  |  |  |  |  |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 1-9: Armor Table 1-10: Shields
-| Armor | Name | Required | Strength | Price | Calculation | Shield | Name | Req. | Str. | Price |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Non-metal armor |  |  |  |  |  | Small | shield |  | 1 | 60 |
-| Cloth armor |  |  | 1~3 |  | x10+10 | Large | shield |  | 13 | 300 |
-| Soft leather | armor |  | 2~7 |  | x15+20 |  |  |  |  |  |
-| Hard leather | armor |  | 5~13 |  | x30+30 |  |  |  |  |  |
-| Metal armor Ring mail | armor |  | 5~12 |  | x30+40 |  |  |  |  |  |
-| Splint armor |  |  | 8~17 |  | x40+50 |  |  |  |  |  |
-| Chain mail | armor |  | 10~19 |  | x50+50 |  |  |  |  |  |
-| Lamellar armor |  |  | 11~22 |  | x70+70 |  |  |  |  |  |
-| Plate armor |  |  | 13~ |  | x100+100 |  |  |  |  |  |
-```
-
-</details>
-
-### Technical frame 14: Table 1-11: Equipment Table 5-1: Area and Size Expansion
+### Technical frame 11: Table 1-11: Equipment Table 5-1: Area and Size Expansion
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11070))_
 
@@ -652,64 +578,7 @@ Table 1-11: Equipment Table 5-1: Area and Size Expansion
 
 </details>
 
-### Technical frame 15: 18.3 Rules for Destroying Structures / Currency
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11099))_
-
-<a id="atom-technical-atom-c6a921d32a722f7b"></a>
-```text
-100 pen／ink 5 Quill 100 Thieves' tools 100+ Musical instrument Food
-1 serving 3+
-1 serving of rations 7+ Wine (1 cup) 2+ Ale (1 cup) 1+
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 100 | pen／ink 5 Quill 100 Thieves' tools 100+ Musical instrument Food |
-| 1 | serving 3+ |
-| 1 | serving of rations 7+ Wine (1 cup) 2+ Ale (1 cup) 1+ |
-
-</details>
-
-### Technical frame 16: Table 9-1: Determining Target Scores or Difficulties
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11116))_
-
-<a id="atom-technical-atom-1dbc30bbfae129b0"></a>
-| If | you’re | a | pro | in | that | field, | you’ll | most | likely | succeed, | but | if | you | only | have | the | skill, | there’s | a | greater | risk | of | failure. |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 11 4 Amateurs |  |  | should |  | stay | away | from | it. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| 12 5 If | you’re | a | pro | in | that | field, | you | can expect |  | success, | but you |  | should | expect |  | to fail | if | you're | just | dabbling. |  |  |  |
-| 13 6 It's | possible |  | with |  | a little | luck | if | you're | someone | who's | only | dabbled. |  |  | Even | pros | can | fail due | to | a little | bad | luck. |  |
-| 14 7 A | simple | task |  | for | the | world's | greatest |  | expert. | At pro | level, | failure |  | is quite |  | possible. |  |  |  |  |  |  |  |
-| 15 8 If | you’re | a | master, |  | you’ll | never |  | fail, but | if you’re | a pro, | success |  | is | 50-50. |  |  |  |  |  |  |  |  |  |
-| 16 9 Even |  | if you’re |  | a master, |  | there | is | no guarantee |  | that | you’ll succeed. |  |  |  |  |  |  |  |  |  |  |  |  |
-| 17 10 Even |  | the greatest |  |  | master |  | is subject | to | the possibility |  | of failure. |  | It | is best | not | to | expect | success |  | at pro | level. |  |  |
-| 18 11 Even |  | a master |  | cannot |  | guarantee |  | success. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 9-1: Determining Target Scores or Difficulties
-| If | you’re | a | pro | in | that | field, | you’ll | most | likely | succeed, | but | if | you | only | have | the | skill, | there’s | a | greater | risk | of | failure. |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 11 4 Amateurs |  |  | should |  | stay | away | from | it. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| 12 5 If | you’re | a | pro | in | that | field, | you | can expect |  | success, | but you |  | should | expect |  | to fail | if | you're | just | dabbling. |  |  |  |
-| 13 6 It's | possible |  | with |  | a little | luck | if | you're | someone | who's | only | dabbled. |  |  | Even | pros | can | fail due | to | a little | bad | luck. |  |
-| 14 7 A | simple | task |  | for | the | world's | greatest |  | expert. | At pro | level, | failure |  | is quite |  | possible. |  |  |  |  |  |  |  |
-| 15 8 If | you’re | a | master, |  | you’ll | never |  | fail, but | if you’re | a pro, | success |  | is | 50-50. |  |  |  |  |  |  |  |  |  |
-| 16 9 Even |  | if you’re |  | a master, |  | there | is | no guarantee |  | that | you’ll succeed. |  |  |  |  |  |  |  |  |  |  |  |  |
-| 17 10 Even |  | the greatest |  |  | master |  | is subject | to | the possibility |  | of failure. |  | It | is best | not | to | expect | success |  | at pro | level. |  |  |
-| 18 11 Even |  | a master |  | cannot |  | guarantee |  | success. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-```
-
-</details>
-
-### Technical frame 17: Table 9-2: Success Roll Modifiers
+### Technical frame 12: Table 9-2: Success Roll Modifiers
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11174))_
 
@@ -731,68 +600,7 @@ Table 9-2: Success Roll Modifiers
 
 </details>
 
-### Technical frame 18: Table 10-1: Attack Power and Evasion Speed Modifiers
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11175))_
-
-<a id="atom-technical-atom-32ff728a54836685"></a>
-```text
-Table 10-1: Attack Power and Evasion Speed Modifiers
- Full movement (Evasion speed only)                                      -4
- Can’t see opponent (in the dark, invisible enemy, etc.)                         -4
-```
-
-### Technical frame 19: Table 10-2: Surprise Attack Check
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11188))_
-
-<a id="atom-technical-atom-ed99d3b0378ff19c"></a>
-| None, | almost | none, | obeys | commands | -6 | +6 |
-| --- | --- | --- | --- | --- | --- | --- |
-| Animal, | low |  |  |  | -5 | +7 |
-| Human |  |  |  |  | -4 | +8 |
-| High |  |  |  |  | -3 | +9 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 10-2: Surprise Attack Check
-| None, | almost | none, | obeys | commands | -6 | +6 |
-| --- | --- | --- | --- | --- | --- | --- |
-| Animal, | low |  |  |  | -5 | +7 |
-| Human |  |  |  |  | -4 | +8 |
-| High |  |  |  |  | -3 | +9 |
-```
-
-</details>
-
-### Technical frame 20: Table 11-2: NPC Presence by Level
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11204))_
-
-<a id="atom-technical-atom-2e1ec3b92225644b"></a>
-| 7th | level | Large | city | in | a | large | country, | royal | capital | level | of | a | small | country |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5th | level | Moderate |  | city |  |  |  |  |  |  |  |  |  |  |
-| 3rd | level | Town | of | around |  | 1000 | people |  |  |  |  |  |  |  |
-| 1st | level | All | but the | most |  | remote | village |  |  |  |  |  |  |  |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 11-2: NPC Presence by Level
-| 7th | level | Large | city | in | a | large | country, | royal | capital | level | of | a | small | country |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5th | level | Moderate |  | city |  |  |  |  |  |  |  |  |  |  |
-| 3rd | level | Town | of | around |  | 1000 | people |  |  |  |  |  |  |  |
-| 1st | level | All | but the | most |  | remote | village |  |  |  |  |  |  |  |
-```
-
-</details>
-
-### Technical frame 21: Table 16-3 Optional Armor Table
+### Technical frame 13: Table 16-3 Optional Armor Table
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11215))_
 
@@ -821,7 +629,7 @@ Table 16-3 Optional Armor Table
 
 </details>
 
-### Technical frame 22: Table 16-4 Maximum Ranges Table
+### Technical frame 14: Table 16-4 Maximum Ranges Table
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11216))_
 
@@ -867,336 +675,5 @@ Table 16-4 Maximum Ranges Table
 | Prod | 100 |  |  |  |  |  |  |  |  |
 | Dart | 20 |  |  |  |  |  |  |  |  |
 ```
-
-</details>
-
-### Technical frame 23: Table 18-1: Age-Based Ability Score Modification Table
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11220))_
-
-<a id="atom-technical-atom-c389e8d9b54dac1f"></a>
-| 3 | – | 5 | All | ability | scores | reduced | by | 1/6 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6 | – | 8 | All | ability | scores | reduced | by | 2/6 |
-| 9 | – | 10 | All | ability | scores | reduced | by | 3/6 |
-| 11 | – | 12 | All | ability | scores | reduced | by | 4/6 |
-| 13 | – | 14 | All | ability | scores | reduced | by | 5/6 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 18-1: Age-Based Ability Score Modification Table
-| 3 | – | 5 | All | ability | scores | reduced | by | 1/6 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6 | – | 8 | All | ability | scores | reduced | by | 2/6 |
-| 9 | – | 10 | All | ability | scores | reduced | by | 3/6 |
-| 11 | – | 12 | All | ability | scores | reduced | by | 4/6 |
-| 13 | – | 14 | All | ability | scores | reduced | by | 5/6 |
-```
-
-</details>
-
-### Technical frame 24: Table 18-2 Types of Magic
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11224))_
-
-<a id="atom-technical-atom-c7816cb1ffb4813b"></a>
-| Fire-Type | Firebolt, | Fireball, | Firestorm |
-| --- | --- | --- | --- |
-| Cold-Type | Blizzard, Ice Storm |  |  |
-| Electric-Type | Lightning, Lightning Bind |  |  |
-| Stone-Type | Stone Blast |  |  |
-| Wind Cutter-Type | Windstorm |  |  |
-| Earthquake | Crack, Earthquake |  |  |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 18-2 Types of Magic
-| Fire-Type | Firebolt, | Fireball, | Firestorm |
-| --- | --- | --- | --- |
-| Cold-Type | Blizzard, Ice Storm |  |  |
-| Electric-Type | Lightning, Lightning Bind |  |  |
-| Stone-Type | Stone Blast |  |  |
-| Wind Cutter-Type | Windstorm |  |  |
-| Earthquake | Crack, Earthquake |  |  |
-```
-
-</details>
-
-### Technical frame 25: 18.3 Rules for Destroying Structures / Currency
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11234))_
-
-<a id="atom-technical-atom-c5cc5d1a15a2327c"></a>
-```text
-Key Number
-0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
-2D 2 ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
-3
-0 0 0 0 0 0 0 0 0 0
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-4
-0 0 0 0 0 1 1 1 1 1
-1
-2
-2
-2
-2
-2
-2
-2
-2
-2
-5
-0 0 0 1 1 1 1 1 2 2
-2
-2
-2
-3
-3
-3
-3
-3
-3
-3
-6
-1 1 1 1 2 2 2 2 2 3
-3
-3
-3
-3
-4
-4
-4
-4
-4
-4
-7
-2 2 2 2 2 2 3 3 3 3
-3
-3
-4
-4
-4
-4
-4
-5
-5
-5
-8
-2 3 3 3 3 3 3 4 4 4
-4
-4
-4
-4
-4
-5
-5
-5
-6
-6
-9
-3 3 4 4 4 4 4 4 4 4
-5
-5
-5
-5
-5
-5
-6
-6
-6
-7
-10 3 3 4 4 4 5 5 5 5 5
-5
-6
-6
-6
-6
-6
-7
-7
-7
-7
-11 4 4 4 4 5 5 5 5 6 6
-6
-6
-6
-7
-7
-7
-7
-7
-7
-8
-12 4 4 4 5 5 5 5 6 6 7
-7
-7
-7
-7
-8
-8
-8
-8
-8
-9
-Key Number
-20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39
-2D ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
-3
-1 1 1 2 2 2 2 2 2 2
-2
-2
-3
-3
-3
-3
-3
-3
-3
-4
-4
-2 2 2 2 3 3 3 3 3 3
-4
-4
-4
-4
-4
-4
-5
-5
-5
-5
-5
-3 3 3 3 4 4 4 4 4 4
-4
-5
-5
-5
-5
-5
-5
-6
-6
-6
-6
-4 4 5 5 5 5 5 6 6 6
-6
-6
-6
-6
-6
-7
-7
-7
-7
-7
-7
-5 6 6 6 6 6 6 6 6 7
-7
-7
-7
-8
-8
-8
-8
-8
-8
-8
-8
-6 6 6 7 7 7 8 8 8 8
-8
-8
-8
-8
-9
-9
-9
-9 10 10
-9
-7 7 7 7 7 8 8 8 9 9
-9
-9 10 10 10 10 10 10 10 11
-10 8 8 8 8 8 8 9 9 9 9 10 10 10 10 10 10 11 11 11 11
-11 9 9 9 9 9 9 9 9 10 10 10 10 10 10 11 11 11 12 12 12
-12 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 12 12 12 13 13
-Key Number
-40 41 42 43 44 45 46 47 48 49 50
-2D ** ** ** ** ** ** ** ** ** ** ** **
-3
-4 4 4 4 4 4 4 4 4 4
-4
-4
-5 6 6 6 6 6 6 6 6 6
-6
-5
-6 6 7 7 7 7 7 7 7 7
-8
-6
-7 7 7 8 8 9 9 9 9 10 10
-7
-9 9 9 9 10 10 10 10 10 10 10
-8 10 10 10 10 10 10 10 11 12 12 12
-9 11 11 11 11 11 11 12 12 12 12 12
-10 11 12 12 12 12 12 13 13 13 13 13
-11 12 12 13 13 13 13 13 13 13 14 15
-12 13 13 13 14 14 14 14 15 15 15 15
-[Reprint Edition] Sword World RPG Complete Edition
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 0 | 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 2D 2 ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** |
-| 0 | 0 0 0 0 0 0 0 0 0 |
-| 0 | 0 0 0 0 1 1 1 1 1 |
-| 0 | 0 0 1 1 1 1 1 2 2 |
-| 1 | 1 1 1 2 2 2 2 2 3 |
-| 2 | 2 2 2 2 2 3 3 3 3 |
-| 2 | 3 3 3 3 3 3 4 4 4 |
-| 3 | 3 4 4 4 4 4 4 4 4 |
-| 10 | 3 3 4 4 4 5 5 5 5 5 |
-| 11 | 4 4 4 4 5 5 5 5 6 6 |
-| 12 | 4 4 4 5 5 5 5 6 6 7 |
-| 9 | Key Number |
-| 20 | 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 2D ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** |
-| 1 | 1 1 2 2 2 2 2 2 2 |
-| 2 | 2 2 2 3 3 3 3 3 3 |
-| 3 | 3 3 3 4 4 4 4 4 4 |
-| 4 | 4 5 5 5 5 5 6 6 6 |
-| 5 | 6 6 6 6 6 6 6 6 7 |
-| 6 | 6 6 7 7 7 8 8 8 8 |
-| 9 | 10 10 |
-| 7 | 7 7 7 7 8 8 8 9 9 |
-| 9 | 10 10 10 10 10 10 10 11 |
-| 10 | 8 8 8 8 8 8 9 9 9 9 10 10 10 10 10 10 11 11 11 11 |
-| 11 | 9 9 9 9 9 9 9 9 10 10 10 10 10 10 11 11 11 12 12 12 |
-| 12 | 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 12 12 12 13 13 |
-| 40 | Key Number 41 42 43 44 45 46 47 48 49 50 |
-| 3 | 2D ** ** ** ** ** ** ** ** ** ** ** ** |
-| 4 | 4 4 4 4 4 4 4 4 4 |
-| 5 | 6 6 6 6 6 6 6 6 6 |
-| 6 | 6 7 7 7 7 7 7 7 7 |
-| 7 | 7 7 8 8 9 9 9 9 10 10 |
-| 9 | 9 9 9 10 10 10 10 10 10 10 |
-| 8 | 10 10 10 10 10 10 10 11 12 12 12 |
-| 9 | 11 11 11 11 11 11 12 12 12 12 12 |
-| 10 | 11 12 12 12 12 12 13 13 13 13 13 |
-| 11 | 12 12 13 13 13 13 13 13 13 14 15 |
-| 12 | 13 13 13 14 14 14 14 15 15 15 15 [Reprint Edition] Sword World RPG Complete Edition |
 
 </details>

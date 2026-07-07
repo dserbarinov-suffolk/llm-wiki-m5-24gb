@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-difficulty
 page_kind: concept
-summary: Difficulty: 10 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Difficulty: 10 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-difficulty@1db9b6ac336d07246824232435cdb9de
+projection_coverage: topic-sword-world-rpg-complete-edition-difficulty@213132e7f15c2197200162d54663db6f
 ---
 
 # Difficulty
@@ -35,46 +35,7 @@ What [[sword-world-rpg-complete-edition]] covers about difficulty:
 
 ## Technical atoms
 
-### Technical frame 1: Table 9-1: Determining Target Scores or Difficulties
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04506))_
-
-> This table is written in a somewhat abstract format to accommodate all success rolls. As a game master, don't think too much about it, trust your own judgment and intuition when deciding on the target score or difficulty. It's not a good idea in an RPG to worry about situations like this and stall the game.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04505))_
-
-<a id="atom-technical-atom-fc344e950b79249b"></a>
-| If | you’re | a | pro | in | that | field, | you’ll | most | likely | succeed, | but | if | you | only | have | the | skill, | there’s | a | greater | risk | of | failure. |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 11 4 Amateurs |  |  | should |  | stay | away | from | it. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| 12 5 If | you’re | a | pro | in | that | field, | you | can expect |  | success, | but you |  | should | expect |  | to fail | if | you're | just | dabbling. |  |  |  |
-| 13 6 It's | possible |  | with |  | a little | luck | if | you're | someone | who's | only | dabbled. |  |  | Even | pros | can | fail due | to | a little | bad | luck. |  |
-| 14 7 A | simple | task |  | for | the | world's | greatest |  | expert. | At pro | level, | failure |  | is quite |  | possible. |  |  |  |  |  |  |  |
-| 15 8 If | you’re | a | master, |  | you’ll | never |  | fail, but | if you’re | a pro, | success |  | is | 50-50. |  |  |  |  |  |  |  |  |  |
-| 16 9 Even |  | if you’re |  | a master, |  | there | is | no guarantee |  | that | you’ll succeed. |  |  |  |  |  |  |  |  |  |  |  |  |
-| 17 10 Even |  | the greatest |  |  | master |  | is subject | to | the possibility |  | of failure. |  | It | is best | not | to | expect | success |  | at pro | level. |  |  |
-| 18 11 Even |  | a master |  | cannot |  | guarantee |  | success. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 9-1: Determining Target Scores or Difficulties
-| If | you’re | a | pro | in | that | field, | you’ll | most | likely | succeed, | but | if | you | only | have | the | skill, | there’s | a | greater | risk | of | failure. |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 11 4 Amateurs |  |  | should |  | stay | away | from | it. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| 12 5 If | you’re | a | pro | in | that | field, | you | can expect |  | success, | but you |  | should | expect |  | to fail | if | you're | just | dabbling. |  |  |  |
-| 13 6 It's | possible |  | with |  | a little | luck | if | you're | someone | who's | only | dabbled. |  |  | Even | pros | can | fail due | to | a little | bad | luck. |  |
-| 14 7 A | simple | task |  | for | the | world's | greatest |  | expert. | At pro | level, | failure |  | is quite |  | possible. |  |  |  |  |  |  |  |
-| 15 8 If | you’re | a | master, |  | you’ll | never |  | fail, but | if you’re | a pro, | success |  | is | 50-50. |  |  |  |  |  |  |  |  |  |
-| 16 9 Even |  | if you’re |  | a master, |  | there | is | no guarantee |  | that | you’ll succeed. |  |  |  |  |  |  |  |  |  |  |  |  |
-| 17 10 Even |  | the greatest |  |  | master |  | is subject | to | the possibility |  | of failure. |  | It | is best | not | to | expect | success |  | at pro | level. |  |  |
-| 18 11 Even |  | a master |  | cannot |  | guarantee |  | success. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-```
-
-</details>
-
-### Technical frame 2: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
+### Technical frame 1: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04570))_
 
@@ -85,7 +46,7 @@ Table 9-1: Determining Target Scores or Difficulties
 <a id="atom-technical-atom-7b777b7ebab5891c"></a>
 > The standard for deciding is whether the character can tell if the action succeeded or failed .
 
-### Technical frame 3: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
+### Technical frame 2: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04575))_
 
@@ -102,7 +63,7 @@ Table 9-1: Determining Target Scores or Difficulties
 ### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-should-you-target-score-check]] - shared statements and technical atoms: Should You Target Score Check shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Should You Target Score Check shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (2 shared statement(s), 2 shared atom(s))
-- [[sword-world-rpg-complete-edition-setting-target-score]] - shared statements and technical atoms: Setting Target Score shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Setting Target Score shares technical record from Table 9-1: Determining Target Scores or Difficulties: Table 9-1: Determining Target Scores or Difficulties | If | you’re | a | pro | in | that | field, | you’ll | most | likely | succeed, | but | if | you | only | have ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-setting-target-score]] - shared statements and technical atoms: Setting Target Score shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Setting Target Score shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (1 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements and technical atoms: Target Scores shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Target Scores shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (1 shared statement(s), 1 shared atom(s))
 
 ### Topics

@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-destructuring-objects
 page_kind: recipe
-summary: destructuring objects: reusable source-backed pattern with 2 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: destructuring objects: reusable source-backed pattern with 2 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: destructuring-objects
-projection_coverage: recipe-javascriptallonge-recipe-destructuring-objects@25da957fc46eacdd32d932f045272510
+projection_coverage: recipe-javascriptallonge-recipe-destructuring-objects@44c18bfdc3d4e876ce519793d7baa70e
 ---
 
 # destructuring objects
@@ -30,42 +30,13 @@ From [[javascriptallonge]].
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01075)_
-
-```
-const user = {
-name: { first: "Reginald",
-last: "Braithwaite"
-},
-occupation: { title: "Author",
-responsibilities: [ "JavaScript Allongé",
-"JavaScript Spessore",
-"CoffeeScript Ristretto"
-]
-}
-};
-user.name.last
-//=> "Braithwaite"
-user.occupation.title
-//=> "Author"
-And we can also write:
-const {name: { first: given, last: surname}, occupation: { title: title }
-er;
-surname
-//=> "Braithwaite"
-title
-//=> "Author"
-```
-
-### Atom 2: `code-block`
-
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01077)_
 
 ```
 } = us\
 ```
 
-### Atom 3: `code-block`
+### Atom 2: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01078)_
 
@@ -76,20 +47,7 @@ description(user)
 //=> "Reginald is a Author"
 ```
 
-### Atom 4: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01080)_
-
-```
-const description = ({name: { first }, occupation: { title } }) =>
-`${first} is a ${title}`;
-description(user)
-//=> "Reginald is a Author"
-And that same syntax works for literals:
-const abbrev = ({name: { first, last }, occupation: { title } }) => {
-```
-
-### Atom 5: `code-block`
+### Atom 3: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01081)_
 

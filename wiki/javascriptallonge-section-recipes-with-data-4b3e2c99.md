@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-recipes-with-data-4b3e2c99
 page_kind: source
-summary: Recipes with Data: 14 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+summary: Recipes with Data: 13 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-4b3e2c99@dbe59d7f7f8aff452fe83dd516b8b5c2
+projection_coverage: section-javascriptallonge-section-recipes-with-data-4b3e2c99@20da65ac88713947e9229fd9977492b4
 ---
 
 # Recipes with Data
@@ -44,29 +44,3 @@ From [[javascriptallonge]].
 - One tip is to use JavaScript to name things. For example, you could start by writing: _(javascriptallonge.pdf (source-range-c98ab3e6-01465))_
 - What is this something and how does it work? Another friendly tip: Change some of the fat arrow functions inside of it into named function expressions to help you decipher stack traces. _(javascriptallonge.pdf (source-range-c98ab3e6-01467))_
 - Another friendly tip: Change some of the fat arrow functions inside of it into named function expressions to help you decipher stack traces. _(javascriptallonge.pdf (source-range-c98ab3e6-01467))_
-
-## Technical atoms
-
-### Technical frame 1: Recipes with Data / Flip
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01435))_
-
-> What we have now is a function that takes a function and 'flips' the order of arguments around, then curries it. So let's call it flipAndCurry :
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01436))_
-
-<a id="atom-technical-atom-890a831292ffdfc1"></a>
-```text
-84 https://github.com/raganwald/allong.es
-85 http://underscorejs.org
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 84 | https://github.com/raganwald/allong.es |
-| 85 | http://underscorejs.org |
-
-</details>

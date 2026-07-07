@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters
 page_kind: procedure
-summary: Complete Attacks From Monsters Against Characters: 5 ordered step(s), 2 decision point(s), and 9 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Complete Attacks From Monsters Against Characters: 5 ordered step(s), 2 decision point(s), and 7 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-attacks-from-monsters-against-characters, attacks-from-monsters-against-characters
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters@1cbfde6e856c433ee7345b775cf85919
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters@46134ae23acedeebf54440c67303802e
 ---
 
 # Attacks From Monsters Against Characters
@@ -51,8 +51,6 @@ From [[sword-world-rpg-complete-edition]].
 
 - `formula`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-033cf8f5]]#atom-technical-atom-c69504e08ba002bd evasion speed + 2D ≥ monster's attack points → evasion success (monster's attack fails) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01286))_
 - `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-033cf8f5]]#atom-technical-atom-6fbe8df285f74f14 Characters can reduce the damage they receive from monsters by means of armor. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01300))_
-- `table`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-033cf8f5]]#atom-technical-atom-83ad89087c79a40d Table 4-3: Rating Table, Key Number _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01301))_
-- `table`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-033cf8f5]]#atom-technical-atom-359adc15fff571da 7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01319))_
 - `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-033cf8f5]]#atom-technical-atom-05a3cbbd7f350b20 If a monster's attack hits (or if a character fails to evade), you must look for the base damage dealt by the monster. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01295))_
 - `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-033cf8f5]]#atom-technical-atom-d76016fe39ffe28a When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01306))_
 - `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-033cf8f5]]#atom-technical-atom-57d2212b25b347e8 When making a defense roll, criticals do not occur like they do with a strike roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01308))_

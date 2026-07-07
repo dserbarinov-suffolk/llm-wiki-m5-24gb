@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-a9aedd9a
 page_kind: source
-summary: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: 12 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: 11 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-a9aedd9a@d5557823c928b5b05e074281d0a200db
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-a9aedd9a@79a9de6278b1bdd84a2cc7b4331273f7
 ---
 
 # Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks
@@ -100,72 +100,5 @@ Key Number
 | 10 | 8 8 8 8 8 8 9 9 9 9 10 10 10 10 10 10 11 11 11 11 |
 | 11 | 9 9 9 9 9 9 9 9 10 10 10 10 10 10 11 11 11 12 12 12 |
 | 12 | 10 10 10 10 10 10 10 10 10 10 10 10 10 11 12 12 12 13 13 |
-
-</details>
-
-### Technical frame 2: Table 4-2: Rating Table, Key Number
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01234))_
-
-<a id="atom-technical-atom-bbee6513a79d8963"></a>
-```text
-Table 4-2: Rating Table, Key Number
-   8  6  6  6 7  7  7 8  8  8  8 8  8  8  8  9  9  9  9 10 10
-                                                                    Column  14
-   9  7  7  7 7  7  8 8  8  9  9 9  9  10 10 10 10 10 10 10 11
-                                                                                    14
-   10 8  8  8 8  8  8 9  9  9  9 10 10 10 10 10 10 11 11 11 11
-                                                                                    **
-   11 9  9  9 9  9  9 9  9 10 10 10 10 10 10 11 11 11 12 12 12
-                                                                                    1
-   12 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 12 12 12 13 13
-                                                                                    2
-                                                                                    3
-      Key Number
-                                                                                    4
-      40 41 42 43 44 45 46 47 48 49 50
-                                                                                    4
- 2D 2  ** ** ** ** ** ** ** ** ** ** **
-                                                                                    4
-   3  4  4  4 4  4  4 4  4  4 4  4
-                                                                                    5
-   4  5  6  6 6  6  6 6  6  6 6  6
-                                                                                    6
-   5  6  6  7 7  7  7 7  7  7 7  8
-                                                                                    7
-   6  7  7  7 8  8  9 9  9  9 10 10
-                                                                                    8
-   7  9  9  9 9 10 10 10 10 10 10 10
-   8  10 10 10 10 10 10 10 11 12 12 12                                    The  player should then roll 2D.
-   9  11 11 11 11 11 11 12 12 12 12 12                                 Follow along the row next to the result
-                                                                    and look for the number under the key
-   10 11 12 12 12 12 12 13 13 13 13 13
-                                                                    number  column  that matches your
-   11 12 12 13 13 13 13 13 13 13 14 15
-                                                                    character's strike power. That's the base
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 8 | 6 6 6 7 7 7 8 8 8 8 8 8 8 8 9 9 9 9 10 10 |
-| 9 | Column 14 7 7 7 7 7 8 8 8 9 9 9 9 10 10 10 10 10 10 10 11 |
-| 10 | 8 8 8 8 8 8 9 9 9 9 10 10 10 10 10 10 11 11 11 11 |
-| 11 | 9 9 9 9 9 9 9 9 10 10 10 10 10 10 11 11 11 12 12 12 |
-| 12 | 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 12 12 12 13 13 |
-| 3 | Key Number |
-| 40 | 41 42 43 44 45 46 47 48 49 50 |
-| 4 | 2D 2 ** ** ** ** ** ** ** ** ** ** ** |
-| 3 | 4 4 4 4 4 4 4 4 4 4 4 |
-| 4 | 5 6 6 6 6 6 6 6 6 6 6 |
-| 5 | 6 6 7 7 7 7 7 7 7 7 8 |
-| 6 | 7 7 7 8 8 9 9 9 9 10 10 |
-| 7 | 9 9 9 9 10 10 10 10 10 10 10 |
-| 8 | 10 10 10 10 10 10 10 11 12 12 12 The player should then roll 2D. |
-| 9 | 11 11 11 11 11 11 12 12 12 12 12 Follow along the row next to the result and look for the number under the key |
-| 10 | 11 12 12 12 12 12 13 13 13 13 13 number column that matches your |
-| 11 | 12 12 13 13 13 13 13 13 13 14 15 character's strike power. That's the base |
 
 </details>

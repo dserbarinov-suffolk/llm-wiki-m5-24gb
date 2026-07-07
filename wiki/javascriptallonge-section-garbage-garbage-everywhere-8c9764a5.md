@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-garbage-garbage-everywhere-8c9764a5
 page_kind: source
-summary: Garbage, Garbage Everywhere: 19 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+summary: Garbage, Garbage Everywhere: 19 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-8c9764a5@80785f802fbf146626e5b92c7b2c0290
+projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-8c9764a5@91f1f69a1beee9a27cf4d86839b35ffe
 ---
 
 # Garbage, Garbage Everywhere
@@ -46,32 +46,3 @@ From [[javascriptallonge]].
 
 - Although we showed how to use tail calls to map and fold over arrays with [first, ...rest] , in reality this is not how it ought to be done. But it is an extremely simple illustration of how recursion works when you have a self-similar means of constructing a data structure. _(javascriptallonge.pdf (source-range-c98ab3e6-01039))_
 - But it is an extremely simple illustration of how recursion works when you have a self-similar means of constructing a data structure. _(javascriptallonge.pdf (source-range-c98ab3e6-01039))_
-
-## Technical atoms
-
-### Technical frame 1: Garbage, Garbage Everywhere / some history
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01009))_
-
-<a id="atom-technical-atom-e5250e23571ce1f5"></a>
-```text
-some history
-Once upon a time, there was a programming language called Lisp 65 , an acronym for LISt Processing. 66 Lisp was one of the very first high-level languages, the very first implementation was written for the IBM 704 67 computer. (The very first FORTRAN implementation was also written for the 704).
-The 704 had a 36-bit word, meaning that it was very fast to store and retrieve 36-bit values. The CPU's instruction set featured two important macros: CAR would fetch 15 bits representing the Contents of the Address part of the Register, while CDR would fetch the Contents of the Decrement part of the Register.
-65 https://en.wikipedia.org/wiki/Lisp_
-67 https://en.wikipedia.org/wiki/IBM_704
-66 Lisp is still very much alive, and one of the most interesting and exciting programming languages in use today is Clojure, a Lisp dialect that runs on the JVM, along with its sibling ClojureScript, Clojure that transpiles to JavaScript.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 66 | Lisp was one of the very first high-level languages, the very first implementation was written for the IBM 704 |
-| 67 | computer. (The very first FORTRAN implementation was also written for the 704). The 704 had a 36-bit word, meaning that it was very fast to store and retrieve 36-bit values. The CPU's instruction set featured two important macros: CAR would fetch 15 bits representing the Contents of the Address part of the Register, while CDR would fetch the Contents of the Decrement part of the Register. |
-| 65 | https://en.wikipedia.org/wiki/Lisp_ |
-| 67 | https://en.wikipedia.org/wiki/IBM_704 |
-| 66 | Lisp is still very much alive, and one of the most interesting and exciting programming languages in use today is Clojure, a Lisp dialect that runs on the JVM, along with its sibling ClojureScript, Clojure that transpiles to JavaScript. |
-
-</details>

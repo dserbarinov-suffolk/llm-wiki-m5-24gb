@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-array
 page_kind: concept
-summary: Array: 14 statement(s) and 14 atom(s) from raw/javascriptallonge.pdf.
+summary: Array: 14 statement(s) and 13 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-array@714e3d53e305e165b5ed2993ae63e55a
+projection_coverage: topic-javascriptallonge-array@9ec3b98be567abae182ffbc0e1ba0b03
 ---
 
 # Array
@@ -156,22 +156,6 @@ a[0] === x
 
 > The line const wrapped = [something]; is interesting. On the left hand is a name to be bound, and on the right hand is an array literal, a template for constructing an array, very much like a quasi-literal string.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00822))_
-
-<a id="atom-technical-atom-46a5553e38af2bb2"></a>
-```
-const wrap = (something) => [something];
-Let’s expand it to use a block and an extra name:
-const wrap = (something) => {
-const wrapped = [something];
-```
-
-### Technical frame 8: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00824))_
-
-> The line const wrapped = [something]; is interesting. On the left hand is a name to be bound, and on the right hand is an array literal, a template for constructing an array, very much like a quasi-literal string.
-
 **Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00823))_
 
 <a id="atom-technical-atom-74c0e617f7101462"></a>
@@ -184,7 +168,7 @@ wrap("package")
 //=> ["package"]
 ```
 
-### Technical frame 9: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
+### Technical frame 8: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00829))_
 
@@ -202,7 +186,7 @@ surname(["Reginald", "Braithwaite"])
 //=> "Braithwaite"
 ```
 
-### Technical frame 10: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
+### Technical frame 9: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00835))_
 
@@ -219,7 +203,7 @@ cdr
 //=> [2, 3, 4, 5]
 ```
 
-### Technical frame 11: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
+### Technical frame 10: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00845))_
 
@@ -232,7 +216,7 @@ cdr
 const [what] = [];
 ```
 
-### Technical frame 12: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
+### Technical frame 11: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00849))_
 
@@ -250,7 +234,7 @@ who
 //=> undefined
 ```
 
-### Technical frame 13: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
+### Technical frame 12: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00849))_
 
@@ -268,7 +252,7 @@ they
 //=> []
 ```
 
-### Technical frame 14: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
+### Technical frame 13: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00858))_
 

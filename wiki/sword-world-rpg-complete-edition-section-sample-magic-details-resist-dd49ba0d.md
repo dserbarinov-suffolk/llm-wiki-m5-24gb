@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-resist-dd49ba0d@11592f1559d8bd3f8b48608fbf2a6d0a
+projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-resist-dd49ba0d@a2c212342999b94b3de7a87ca31060f7
 ---
 
 # [Sample Magic Details] / 《 Resist 》
@@ -16,10 +16,6 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-sample-mag
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-5-1-11-ancient-magic-and-the-sorcerer-skill-1f74acd6]] - next source section: [Sample Magic Details] / 5.1.11 Ancient Magic and the Sorcerer Skill
 
 ### Source structure
 

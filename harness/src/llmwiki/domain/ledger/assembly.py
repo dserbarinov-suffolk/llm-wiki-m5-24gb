@@ -9,6 +9,8 @@ receives exactly one disposition.
 
 from __future__ import annotations
 
+from dataclasses import replace
+
 from llmwiki.domain.ledger.atoms import (
     AtomCandidate,
     TechnicalAtom,
@@ -25,6 +27,10 @@ from llmwiki.domain.ledger.entry_build import (
     build_source_note,
 )
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
+from llmwiki.domain.ledger.technical_atom_trust import (
+    REJECTED,
+    assess_technical_atom_trust,
+)
 
 _FURNITURE_ELIGIBILITIES = frozenset({"source-furniture", "source-framing"})
 _MIN_MEANINGFUL_WORDS = 6
@@ -45,6 +51,17 @@ def build_segment_entries(
     for candidate in candidates:
         if candidate.validation_status == "valid" and candidate.payload is not None:
             atom = _materialize_atom(seg, candidate)
+            trust = assess_technical_atom_trust(atom)
+            atom = replace(
+                atom,
+                trust_status=trust.trust_status,
+                trust_reasons=trust.trust_reasons,
+                projection_policy=trust.projection_policy,
+                review_reason=trust.review_reason or atom.review_reason,
+            )
+            if trust.trust_status == REJECTED:
+                rejected.append(replace(candidate, review_reason=trust.review_reason))
+                continue
             atoms.append(atom)
             atom_texts.append(atom_raw_text(atom.payload))
             produced.append(
@@ -90,7 +107,7 @@ def segment_disposition(produced: list[LedgerEntry], candidates: tuple[AtomCandi
         return "accepted"
     if any(entry.ledger_entry_status == "needs-review" for entry in produced):
         return "needs-review"
-    if any(candidate.validation_status != "valid" for candidate in candidates):
+    if candidates:
         return "rejected"
     return "non-claim"
 

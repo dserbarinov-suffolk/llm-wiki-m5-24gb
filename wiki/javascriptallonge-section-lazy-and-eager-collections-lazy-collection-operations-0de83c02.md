@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-0de83c02
 page_kind: source
-summary: Lazy and Eager Collections / lazy collection operations: 23 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+summary: Lazy and Eager Collections / lazy collection operations: 20 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-revisiting-linked-lists
 page_kind: recipe
-summary: revisiting linked lists: reusable source-backed pattern with 13 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: revisiting linked lists: reusable source-backed pattern with 13 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: revisiting-linked-lists
-projection_coverage: recipe-javascriptallonge-recipe-revisiting-linked-lists@7d44cf7c81c811a6f2b089377993ebf8
+projection_coverage: recipe-javascriptallonge-recipe-revisiting-linked-lists@1069bea25d553ac69aa9c2fe8506f984
 ---
 
 # revisiting linked lists
@@ -56,29 +56,6 @@ We can then perform the equivalent of [first, ...rest] with direct property acce
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01087)_
-
-```
-const EMPTY = {};
-const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
-} } };
-OneTwoThree.first
-//=> 1
-OneTwoThree.rest
-//=> {"first":2,"rest":{"first":3,"rest":{}}}
-OneTwoThree.rest.rest.first
-//=> 3
-Taking the length of a linked list is easy:
-const length = (node, delayed = 0) =>
-node === EMPTY
-? delayed
-: length(node.rest, delayed + 1);
-length(OneTwoThree)
-//=> 3
-```
-
-### Atom 4: `code-block`
-
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01089)_
 
 ```
@@ -90,7 +67,7 @@ slowcopy(OneTwoThree)
 //=> {"first":1,"rest":{"first":2,"rest":{"first":3,"rest":{}}}}
 ```
 
-### Atom 5: `code-block`
+### Atom 4: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01092)_
 
@@ -101,35 +78,6 @@ node === EMPTY
 : copy2(node.rest, { first: node.first, rest: delayed });
 copy2(OneTwoThree)
 //=> {"first":3,"rest":{"first":2,"rest":{"first":1,"rest":{}}}}
-```
-
-### Atom 6: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01094)_
-
-```
-const reverse = (node, delayed = EMPTY) =>
-node === EMPTY
-? delayed
-: reverse(node.rest, { first: node.first, rest: delayed });
-And now, we can make a reversing map:
-const reverseMapWith = (fn, node, delayed = EMPTY) =>
-node === EMPTY
-? delayed
-: reverseMapWith(fn, node.rest, { first: fn(node.first), rest: delayed });
-reverseMapWith((x) => x * x, OneTwoThree)
-//=> {"first":9,"rest":{"first":4,"rest":{"first":1,"rest":{}}}}
-And a regular mapWith follows:
-const reverse = (node, delayed = EMPTY) =>
-node === EMPTY
-? delayed
-: reverse(node.rest, { first: node.first, rest: delayed });
-const mapWith = (fn, node, delayed = EMPTY) =>
-node === EMPTY
-? reverse(delayed)
-: mapWith(fn, node.rest, { first: fn(node.first), rest: delayed });
-mapWith((x) => x * x, OneTwoThree)
-//=> {"first":1,"rest":{"first":4,"rest":{"first":9,"rest":{}}}}
 ```
 
 ## Source Trail

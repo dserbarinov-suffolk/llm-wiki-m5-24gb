@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-copy-write
 page_kind: concept
-summary: Copy on Write: 120 statement(s) and 63 atom(s) from raw/javascriptallonge.pdf.
+summary: Copy on Write: 120 statement(s) and 57 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-copy-write@8c08f636595bbf9b3ec842e67af3a509
+projection_coverage: topic-javascriptallonge-copy-write@fa595fa4447933cef3ab514e259699ca
 ---
 
 # Copy on Write
@@ -641,52 +641,6 @@ arraySum([1, 4, 9, 16, 25])
 
 > Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iteratorSum function iterates over the elements by calling the iterator function repeatedly until it returns { done: true } .
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01267))_
-
-<a id="atom-technical-atom-e2eebf14a262e5cb"></a>
-```
-const arraySum = (array) => {
-let iter,
-sum = 0,
-index = 0;
-while (
-(eachIteration = {
-done: index === array.length,
-value: index < array.length ? array[index] : undefined
-},
-++index,
-!eachIteration.done)
-) {
-sum += eachIteration.value;
-}
-return sum;
-}
-arraySum([1, 4, 9, 16, 25])
-//=> 55
-With this code, we make a POJO that has done and value keys. All the summing code needs to know
-is to add eachIteration.value. Now we can extract the ickiness into a separate function:
-const arrayIterator = (array) => {
-let i = 0;
-return () => {
-const done = i === array.length;
-return {
-done,
-value: done ? undefined : array[i++]
-}
-}
-}
-const iteratorSum = (iterator) => {
-let eachIteration,
-sum = 0;
-while ((eachIteration = iterator(), !eachIteration.done)) {
-```
-
-### Technical frame 20: Copy on Write / Functional Iterators / iterating
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01269))_
-
-> Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iteratorSum function iterates over the elements by calling the iterator function repeatedly until it returns { done: true } .
-
 **Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01268))_
 
 <a id="atom-technical-atom-e53a3a370658b356"></a>
@@ -699,7 +653,7 @@ iteratorSum(arrayIterator([1, 4, 9, 16, 25]))
 //=> 55
 ```
 
-### Technical frame 21: Copy on Write / Functional Iterators / iterating
+### Technical frame 20: Copy on Write / Functional Iterators / iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01270))_
 
@@ -733,7 +687,7 @@ const {first, rest} = aPair;
 aPair = aPair.rest;
 ```
 
-### Technical frame 22: Copy on Write / Functional Iterators / iterating
+### Technical frame 21: Copy on Write / Functional Iterators / iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01270))_
 
@@ -759,7 +713,7 @@ iteratorSum(aListIterator)
 //=> 55
 ```
 
-### Technical frame 23: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 22: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01278))_
 
@@ -784,7 +738,7 @@ fromOne().value;
 //=> 5
 ```
 
-### Technical frame 24: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 23: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01278))_
 
@@ -817,7 +771,7 @@ fib().value
 //=> 5
 ```
 
-### Technical frame 25: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 24: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01282))_
 
@@ -838,7 +792,7 @@ squares().value
 squares().value
 ```
 
-### Technical frame 26: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 25: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01282))_
 
@@ -853,7 +807,7 @@ squares().value
 //=> 9
 ```
 
-### Technical frame 27: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 26: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01284))_
 
@@ -887,7 +841,7 @@ toArray(take(squares, 5))
 //=> [1, 4, 9, 16, 25]
 ```
 
-### Technical frame 28: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 27: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
@@ -900,7 +854,7 @@ toArray(take(squares, 5))
 const odds = () => {
 ```
 
-### Technical frame 29: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 28: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
@@ -922,7 +876,7 @@ toArray(take(squareOf(odds()), 5))
 //=> [1, 9, 25, 49, 81]
 ```
 
-### Technical frame 30: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 29: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
@@ -944,7 +898,7 @@ toArray(take(squareOf(oddsOf(NumberIterator(1))), 5))
 //=> [1, 9, 25, 49, 81]
 ```
 
-### Technical frame 31: Copy on Write / Functional Iterators / bonus
+### Technical frame 30: Copy on Write / Functional Iterators / bonus
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01294))_
 
@@ -958,7 +912,7 @@ const firstInIteration = (fn, iterator) =>
 take(filterIteratorWith(fn, iterator), 1);
 ```
 
-### Technical frame 32: Copy on Write / Functional Iterators / bonus
+### Technical frame 31: Copy on Write / Functional Iterators / bonus
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01296))_
 
@@ -972,7 +926,7 @@ const firstInArray = (fn, array) =>
 array.filter(fn)[0];
 ```
 
-### Technical frame 33: Copy on Write / Making Data Out Of Functions
+### Technical frame 32: Copy on Write / Making Data Out Of Functions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01304))_
 
@@ -999,31 +953,7 @@ length(OneTwoThree)
 //=> 3
 ```
 
-### Technical frame 34: Copy on Write / Making Data Out Of Functions
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01305))_
-
-> They established that arbitrary computations could be represented a small set of axiomatic components. For example, we don't need arrays to represent lists, or even POJOs to represent nodes in a linked list. We can model lists just using functions.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
-
-<a id="atom-technical-atom-268f5812c47797c2"></a>
-```text
-76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422
-77 http://oscin.es
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 76 | http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 |
-| 77 | http://oscin.es |
-
-</details>
-
-### Technical frame 35: Copy on Write / Making Data Out Of Functions
+### Technical frame 33: Copy on Write / Making Data Out Of Functions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01307))_
 
@@ -1038,7 +968,7 @@ const I = (x) => (x);
 const V = (x) => (y) => (z) => z(x)(y);
 ```
 
-### Technical frame 36: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
+### Technical frame 34: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01315))_
 
@@ -1056,7 +986,7 @@ fortyTwo("Hello")
 //=> 42
 ```
 
-### Technical frame 37: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
+### Technical frame 35: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01318))_
 
@@ -1072,7 +1002,7 @@ K(12)(24)
 //=> 12
 ```
 
-### Technical frame 38: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
+### Technical frame 36: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01326))_
 
@@ -1085,7 +1015,7 @@ K(12)(24)
 Therefore, K(I)(x)(y) => y:
 ```
 
-### Technical frame 39: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
+### Technical frame 37: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01326))_
 
@@ -1101,7 +1031,7 @@ K(I)(12)(24)
 //=> 24
 ```
 
-### Technical frame 40: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
+### Technical frame 38: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01326))_
 
@@ -1117,7 +1047,7 @@ K(I)("primus")("secundus")
 //=> "secundus"
 ```
 
-### Technical frame 41: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
+### Technical frame 39: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01326))_
 
@@ -1135,7 +1065,7 @@ second("primus")("secundus")
 //=> "secundus"
 ```
 
-### Technical frame 42: Copy on Write / Making Data Out Of Functions / backwardness
+### Technical frame 40: Copy on Write / Making Data Out Of Functions / backwardness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01332))_
 
@@ -1154,7 +1084,7 @@ second(latin)
 //=> "secundus"
 ```
 
-### Technical frame 43: Copy on Write / Making Data Out Of Functions / backwardness
+### Technical frame 41: Copy on Write / Making Data Out Of Functions / backwardness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01332))_
 
@@ -1173,7 +1103,7 @@ second(latin)
 //=> "secundus"
 ```
 
-### Technical frame 44: Copy on Write / Making Data Out Of Functions / backwardness
+### Technical frame 42: Copy on Write / Making Data Out Of Functions / backwardness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01336))_
 
@@ -1192,7 +1122,7 @@ latin(second)
 //=> "secundus"
 ```
 
-### Technical frame 45: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 43: Copy on Write / Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01341))_
 
@@ -1205,7 +1135,7 @@ latin(second)
 (first, second) => (selector) => selector(first)(second)
 ```
 
-### Technical frame 46: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 44: Copy on Write / Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01348))_
 
@@ -1218,7 +1148,7 @@ latin(second)
 (first) => (second) => (selector) => selector(first)(second)
 ```
 
-### Technical frame 47: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 45: Copy on Write / Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01348))_
 
@@ -1238,7 +1168,7 @@ latin(second)
 //=> "secundus"
 ```
 
-### Technical frame 48: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 46: Copy on Write / Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01348))_
 
@@ -1249,7 +1179,7 @@ latin(second)
 <a id="atom-technical-atom-136eb8fe93527eb9"></a>
 > If we change the names to x , y , and z , we get: (x) => (y) => (z) => z(x)(y) .
 
-### Technical frame 49: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 47: Copy on Write / Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01348))_
 
@@ -1269,7 +1199,7 @@ latin(second)
 //=> "secundus"
 ```
 
-### Technical frame 50: Copy on Write / Making Data Out Of Functions / lists with functions as data
+### Technical frame 48: Copy on Write / Making Data Out Of Functions / lists with functions as data
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01359))_
 
@@ -1293,47 +1223,7 @@ first(rest(rest(l123)))
 //=3
 ```
 
-### Technical frame 51: Copy on Write / Making Data Out Of Functions / lists with functions as data
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01359))_
-
-> Presto, we can use pure functions to represent a linked list . And with care, we can do amazing things like use functions to represent numbers, build more complex data structures like trees, and in fact, anything that can be computed can be computed using just functions and nothing else.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01354))_
-
-<a id="atom-technical-atom-674bd1bfff03f2e3"></a>
-```
-const length = (aPair) =>
-aPair === EMPTY
-? 0
-: 1 + length(rest(aPair));
-length(l123)
-//=> 3
-const reverse = (aPair, delayed = EMPTY) =>
-aPair === EMPTY
-? delayed
-: reverse(rest(aPair), pair(first(aPair), delayed));
-const mapWith = (fn, aPair, delayed = EMPTY) =>
-aPair === EMPTY
-? reverse(delayed)
-: mapWith(fn, rest(aPair), pair(fn(first(aPair)), delayed));
-const doubled = mapWith((x) => x * 2, l123);
-first(doubled)
-//=> 2
-first(rest(doubled))
-//=> 4
-first(rest(rest(doubled)))
-//=> 6
-Can we do the same with the linked lists we build out of functions? Yes:
-const first = K,
-rest
-= K(I),
-pair = V,
-EMPTY = (() => {});
-const l123 = pair(1)(pair(2)(pair(3)(EMPTY)));
-```
-
-### Technical frame 52: Copy on Write / Making Data Out Of Functions / lists with functions as data
+### Technical frame 49: Copy on Write / Making Data Out Of Functions / lists with functions as data
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01359))_
 
@@ -1353,23 +1243,7 @@ l123(first)
 l123(rest)(first)
 ```
 
-### Technical frame 53: Copy on Write / Making Data Out Of Functions / lists with functions as data
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01359))_
-
-> Presto, we can use pure functions to represent a linked list . And with care, we can do amazing things like use functions to represent numbers, build more complex data structures like trees, and in fact, anything that can be computed can be computed using just functions and nothing else.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01356))_
-
-<a id="atom-technical-atom-dbeee7a78ed8a18e"></a>
-```
-//=> 2
-return l123(rest)(rest)(first)
-//=> 3
-We write them in a backwards way, but they seem to work. How about
-```
-
-### Technical frame 54: Copy on Write / Making Data Out Of Functions / lists with functions as data
+### Technical frame 50: Copy on Write / Making Data Out Of Functions / lists with functions as data
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01359))_
 
@@ -1403,7 +1277,7 @@ doubled(rest)(rest)(first)
 //=> 6
 ```
 
-### Technical frame 55: Copy on Write / Making Data Out Of Functions / say 'please'
+### Technical frame 51: Copy on Write / Making Data Out Of Functions / say 'please'
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01368))_
 
@@ -1419,7 +1293,7 @@ aPair === EMPTY
 : 1 + length(aPair(rest));
 ```
 
-### Technical frame 56: Copy on Write / Making Data Out Of Functions / say 'please'
+### Technical frame 52: Copy on Write / Making Data Out Of Functions / say 'please'
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01368))_
 
@@ -1435,7 +1309,7 @@ const length = (list) => list(
 );
 ```
 
-### Technical frame 57: Copy on Write / Making Data Out Of Functions / say 'please'
+### Technical frame 53: Copy on Write / Making Data Out Of Functions / say 'please'
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01371))_
 
@@ -1456,40 +1330,7 @@ const first = (list) => list(
 const rest = (list) => list(
 ```
 
-### Technical frame 58: Copy on Write / Making Data Out Of Functions / say 'please'
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01371))_
-
-> We can write reverse and mapWith as well. We aren't being super-strict about emulating combinatory logic, we'll use default parameters:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01370))_
-
-<a id="atom-technical-atom-e4bdef73b9660258"></a>
-```
-() => "ERROR: Can't take first of an empty list",
-(aPair) => aPair(pairRest)
-);
-const length = (list) => list(
-() => 0,
-(aPair) => 1 + length(aPair(pairRest)))
-);
-We’ll also write a handy list printer:
-const print = (list) => list(
-() => "",
-(aPair) => `${aPair(pairFirst)} ${print(aPair(pairRest))}`
-);
-How would all this work? Let’s start with the obvious. What is an empty list?
-const EMPTYLIST = (whenEmpty, unlessEmpty) => whenEmpty()
-And what is a node of a list?
-const node = (x) => (y) =>
-(whenEmpty, unlessEmpty) => unlessEmpty(pair(x)(y));
-Let’s try it:
-const l123 = node(1)(node(2)(node(3)(EMPTYLIST)));
-print(l123)
-//=> 1 2 3
-```
-
-### Technical frame 59: Copy on Write / Making Data Out Of Functions / say 'please'
+### Technical frame 54: Copy on Write / Making Data Out Of Functions / say 'please'
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01373))_
 
@@ -1514,33 +1355,7 @@ print(mapWith(x => x * x, reverse(l123)))
 //=> 941
 ```
 
-### Technical frame 60: Copy on Write / Making Data Out Of Functions / functions are not the real point
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01379))_
-
-> Knowing how to make a list out of just functions is a little like knowing that photons are the Gauge Bosons 81 of the electromagnetic force. It's the QED of physics that underpins the Maxwell's Equations of programming. Deeply important, but not practical when you're building a bridge.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01380))_
-
-<a id="atom-technical-atom-f2ed9b6962a2b6bc"></a>
-```text
-79 https://en.wikipedia.org/wiki/Church_encoding
-81 https://en.wikipedia.org/wiki/Gauge_boson
-80 https://en.wikipedia.org/wiki/Surreal_number
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 79 | https://en.wikipedia.org/wiki/Church_encoding |
-| 81 | https://en.wikipedia.org/wiki/Gauge_boson |
-| 80 | https://en.wikipedia.org/wiki/Surreal_number |
-
-</details>
-
-### Technical frame 61: Copy on Write / Making Data Out Of Functions / a return to backward thinking
+### Technical frame 55: Copy on Write / Making Data Out Of Functions / a return to backward thinking
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01387))_
 
@@ -1563,7 +1378,7 @@ latin(second)
 //=> "secundus"
 ```
 
-### Technical frame 62: Copy on Write / Making Data Out Of Functions / a return to backward thinking
+### Technical frame 56: Copy on Write / Making Data Out Of Functions / a return to backward thinking
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01390))_
 
@@ -1579,7 +1394,7 @@ const length = (list) => list(
 );
 ```
 
-### Technical frame 63: Copy on Write / Making Data Out Of Functions / a return to backward thinking
+### Technical frame 57: Copy on Write / Making Data Out Of Functions / a return to backward thinking
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01393))_
 
@@ -1600,17 +1415,17 @@ node === EMPTY
 
 ### Source structure
 
-- [[javascriptallonge-section-copy-on-write-d081f846]] - source section: Copy on Write shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (120 shared statement(s), 63 shared atom(s))
+- [[javascriptallonge-section-copy-on-write-d081f846]] - source section: Copy on Write shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (120 shared statement(s), 57 shared atom(s))
 - [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-db9192e0]] - source section: Copy on Write / a few utilities / copy-on-write shares source evidence from Copy on Write / a few utilities / copy-on-write: But our new parent and child lists are copies that contain the desired modifications, without interfering with each other:; Copy on Write / a few utilities / copy-on-write shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (7 shared statement(s), 3 shared atom(s))
 
 ### Shared technical atoms
 
-- [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Copy on Write / Functional Iterators: The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still re ... [truncated]; Functional Iterators shares technical record from Copy on Write / Functional Iterators: const arraySum = ([first, ...rest], accumulator = 0) => first === undefined ? accumulator : arraySum(rest, first + accumulator) arraySum([1, 4, 9, 16, 25]) //=> 55 (31 shared statement(s), 20 shared atom(s))
-- [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; List shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (7 shared statement(s), 19 shared atom(s))
-- [[javascriptallonge-data]] - shared statements and technical atoms: Data shares source evidence from Copy on Write / Functional Iterators: What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function do ... [truncated]; Data shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (5 shared statement(s), 9 shared atom(s))
+- [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Copy on Write / Functional Iterators: The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still re ... [truncated]; Functional Iterators shares technical record from Copy on Write / Functional Iterators: const arraySum = ([first, ...rest], accumulator = 0) => first === undefined ? accumulator : arraySum(rest, first + accumulator) arraySum([1, 4, 9, 16, 25]) //=> 55 (31 shared statement(s), 19 shared atom(s))
+- [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; List shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (7 shared statement(s), 17 shared atom(s))
+- [[javascriptallonge-data]] - shared statements and technical atoms: Data shares source evidence from Copy on Write / Functional Iterators: What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function do ... [truncated]; Data shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (5 shared statement(s), 7 shared atom(s))
 - [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Copy on Write: This is remarkably unsafe. If we know that a list doesn't share any elements with another list, we can safely modify it. But how do we keep track of that? Add a bunc ... [truncated]; Element shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (2 shared statement(s), 7 shared atom(s))
 - [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Copy on Write / Functional Iterators / unfolding and laziness: Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.; Iterator shares technical record from Copy on Write / Functional Iterators / unfolding and laziness: const NumberIterator = (number = 0) => () => ({ done: false, value: number++ }) fromOne = NumberIterator(1); fromOne().value; //=> 1 fromOne().value; //=> 2 fromOne( ... [truncated] (2 shared statement(s), 7 shared atom(s))
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Copy on Write / Functional Iterators / iterating: JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with:; Javascript shares technical record from Copy on Write / Functional Iterators / iterating: const arraySum = (array) => { let sum = 0; for (let i = 0; i < array.length; ++i) { sum += array[i]; } return sum } arraySum([1, 4, 9, 16, 25]) //=> 55 (4 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Copy on Write / Functional Iterators / iterating: JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with:; Javascript shares technical record from Copy on Write / Functional Iterators / iterating: const arraySum = (array) => { let sum = 0; for (let i = 0; i < array.length; ++i) { sum += array[i]; } return sum } arraySum([1, 4, 9, 16, 25]) //=> 55 (4 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-structure]] - shared statements and technical atoms: Structure shares source evidence from Copy on Write / Functional Iterators: What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function do ... [truncated]; Structure shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (3 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-parameter]] - shared statements and technical atoms: Parameter shares source evidence from Copy on Write / Making Data Out Of Functions / the vireo: Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. ... [truncated]; Parameter shares technical record from Copy on Write / Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared statement(s), 2 shared atom(s))
 
@@ -1622,8 +1437,8 @@ node === EMPTY
 
 ### Topics
 
-- [[javascriptallonge-copy]] - broader topic: Copy shares source evidence from Copy on Write / a few utilities / copy-on-write: This strategy of waiting to copy until you are writing is called copy-on-write, or 'COW:'; Copy shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (3 shared statement(s), 4 shared atom(s))
-- [[javascriptallonge-write]] - broader topic: Write shares source evidence from Copy on Write / a few utilities / copy-on-write: Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) c ... [truncated]; Write shares technical record from Copy on Write / Making Data Out Of Functions: 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 77 http://oscin.es (2 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-copy]] - broader topic: Copy shares source evidence from Copy on Write / a few utilities / copy-on-write: This strategy of waiting to copy until you are writing is called copy-on-write, or 'COW:'; Copy shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (3 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-write]] - broader topic: Write shares source evidence from Copy on Write / a few utilities / copy-on-write: Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) c ... [truncated] (2 shared statement(s))
 
 ## Source
 

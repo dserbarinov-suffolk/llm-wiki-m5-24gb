@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-volume-contraction-c2cf9ba7@293b7f08d7a90b673c6baafe51d54dba
+projection_coverage: section-sword-world-rpg-complete-edition-section-volume-contraction-c2cf9ba7@e7923c72fe7e7806186327b1ea858860
 ---
 
 # 《 Volume Contraction 》
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-area-contraction-6a78e48b]] - previous source section: 《 Area Contraction 》
-- [[sword-world-rpg-complete-edition-section-effect-contraction-ed151bfd]] - next source section: 《 Effect Contraction 》
 
 ### Source structure
 

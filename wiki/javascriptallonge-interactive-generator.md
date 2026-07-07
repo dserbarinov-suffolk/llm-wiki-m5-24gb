@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-interactive-generator
 page_kind: concept
-summary: Interactive Generators: 31 statement(s) and 17 atom(s) from raw/javascriptallonge.pdf.
+summary: Interactive Generators: 31 statement(s) and 16 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-interactive-generator@d094749da32a5ad659df4004504225f4
+projection_coverage: topic-javascriptallonge-interactive-generator@d643cbedb6dceaea81edbe4636f38862
 ---
 
 # Interactive Generators
@@ -374,7 +374,7 @@ const zip = callFirst(zipWith, (...values) => values);
 
 ### Source structure
 
-- [[javascriptallonge-section-interactive-generators-c6339bc5]] - source section: Interactive Generators shares source evidence from Interactive Generators: We used generators to build iterators that maintain implicit state. We saw how to use them for recursive unfolds and state machines. But there are other times we wan ... [truncated]; Interactive Generators shares technical record from Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:: [ 'o', 'x', ' ', 'x', ' ', ' ', 'o', ' ', ' ' ] (31 shared statement(s), 17 shared atom(s))
+- [[javascriptallonge-section-interactive-generators-c6339bc5]] - source section: Interactive Generators shares source evidence from Interactive Generators: We used generators to build iterators that maintain implicit state. We saw how to use them for recursive unfolds and state machines. But there are other times we wan ... [truncated]; Interactive Generators shares technical record from Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:: [ 'o', 'x', ' ', 'x', ' ', ' ', 'o', ' ', ' ' ] (31 shared statement(s), 16 shared atom(s))
 - [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-0e36e551]] - source section: Interactive Generators / this seems familiar / interactive generators shares source evidence from Interactive Generators / this seems familiar / interactive generators: So far, we have called iterators (and generators) with .next() . But what if we pass a value to .next() ? If we could do that, a generator function that played naugh ... [truncated]; Interactive Generators / this seems familiar / interactive generators shares technical record from Interactive Generators / this seems familiar / interactive generators: function* generatorNaughtsAndCrosses () { const x1 = yield 0; switch (x1) { case 1: const x2 = yield 6; switch (x2) { case 2: case 4: case 5: case 7: case 8: yield 3 ... [truncated] (6 shared statement(s), 1 shared atom(s))
 
 ### Shared technical atoms

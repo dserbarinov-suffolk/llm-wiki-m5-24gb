@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-thief-skill
 page_kind: concept
-summary: 【 Thief Skill 】: 118 statement(s) and 24 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 【 Thief Skill 】: 118 statement(s) and 23 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-thief-skill@5ccc1e515062f898b3340313ab7fab62
+projection_coverage: topic-sword-world-rpg-complete-edition-thief-skill@d8aa43457192fd76aeccdc8ca9aac548
 ---
 
 # 【 Thief Skill 】
@@ -375,41 +375,6 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 <a id="atom-technical-atom-bd59361ee1b4de4b"></a>
 > For set , you can set traps up to a difficulty equal to your thief skill level without failing (you cannot set traps of a higher level).
 
-### Technical frame 18: Table 6-1: Climb by Skill
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04155))_
-
-> When someone with the thief skill climbs without a rope, or someone without the thief skill climbs with a rope, set the target score using Table 6-2: Determining Climb Target Scores and make a success roll check. Determining the target score is almost the same in both cases. The baseline score is thief skill level + agility bonus or adventurer level + agility bonus .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04151))_
-
-<a id="atom-technical-atom-9d68535bdb73822c"></a>
-```text
-Table 6-1: Climb by Skill
- using adventurer level + agility bonus as
-                                                                         With Rope             Without Rope
- the baseline score, make a success roll
- against target score 13 (this can be
-                                    Climb with thief skill
-                                                               Almost always succeeds (only double  Requires success
-                                                                         ones fail)               roll
- increased or decreased depending on the
- weight of your belongings. Also, if the    Climb with common adventurer
-                                                                     Requires success roll        Not possible
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| With Rope | Without Rope |
-| --- | --- |
-| Almost always succeeds (only double | Requires success |
-| ones fail) | roll |
-| weight of your belongings. Also, if the | Climb with common adventurer |
-| Requires success roll | Not possible |
-
-</details>
-
 
 ## Related pages
 
@@ -420,8 +385,8 @@ Table 6-1: Climb by Skill
 
 ### Shared technical atoms
 
+- [[sword-world-rpg-complete-edition-jump]] - shared statements and technical atoms: Jump shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction): You can jump over obstacles using (pole) high jump or (pole) long jump . For more information, please refer to the rules for ⑤ Long Jump/High Jump (see p. 122) under ... [truncated]; Jump shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction) / [ ⑬ Follow [Agility] ] (Equipment restriction): The side that's following must use thief skill level + agility bonus as their baseline score, while the side being followed must use adventurer level + intelligence ... [truncated] (5 shared statement(s), 2 shared atom(s))
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements and technical atoms: Target Scores shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Target Scores shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】: critical target = 10 (9 if using thief skill) (7 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements and technical atoms: 1.3.3 Adventurer Level shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction): At this time, the thief makes a success roll using thief skill + dexterity bonus as the baseline score, and the person trying to hear the sound makes one using adven ... [truncated]; 1.3.3 Adventurer Level shares technical record from Table 6-1: Climb by Skill: Table 6-1: Climb by Skill using adventurer level + agility bonus as With Rope             Without Rope the baseline score, make a success roll against target score 1 ... [truncated] (6 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction]] - shared statements and technical atoms: [ ⑤ Listen [Intelligence] ] (Equipment restriction) shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction): This ability is used to hear certain sounds from behind walls, doors, or from a distance. You can also choose and listen to a specific sound from a mixture of variou ... [truncated]; [ ⑤ Listen [Intelligence] ] (Equipment restriction) shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction): You can also choose and listen to a specific sound from a mixture of various sounds. (5 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-remove]] - shared statements and technical atoms: Remove shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable): You can attempt to remove traps discovered through fi nd . Removal also involves attempting a success roll against the trap's difficulty.; Remove shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable): If you fail, the trap will be activated if the dice roll was 6 or more beneath the target score. (3 shared statement(s), 2 shared atom(s))
 - [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements and technical atoms: Critical Target Variation shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction): Even thieves have combat abilities and can fight using their thief skill level. However, the way a thief fights is quite different from that of a fighter. For more i ... [truncated]; Critical Target Variation shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】: critical target = 10 (9 if using thief skill) (4 shared statement(s), 1 shared atom(s))
@@ -430,7 +395,7 @@ Table 6-1: Climb by Skill
 ### Shared claims
 
 - [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements: 【 Ranger Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. (13 shared statement(s))
-- [[sword-world-rpg-complete-edition-jump]] - shared statements: Jump shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction): You can jump over obstacles using (pole) high jump or (pole) long jump . For more information, please refer to the rules for ⑤ Long Jump/High Jump (see p. 122) under ... [truncated] (5 shared statement(s))
+- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction): At this time, the thief makes a success roll using thief skill + dexterity bonus as the baseline score, and the person trying to hear the sound makes one using adven ... [truncated] (6 shared statement(s))
 - [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus. (4 shared statement(s))
 - [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-10-mithril-silver-weapon]] - shared statements: 10 Mithril Silver Weapon shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor: Chain mail made of mithril silver does not inhibit bodily movement as much as that made of steel (but splint armor, lamellar armor, and plate armor still do ). Mithr ... [truncated] (1 shared statement(s))

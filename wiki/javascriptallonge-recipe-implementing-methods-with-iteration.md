@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-implementing-methods-with-iteration
 page_kind: recipe
-summary: implementing methods with iteration: reusable source-backed pattern with 6 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
+summary: implementing methods with iteration: reusable source-backed pattern with 6 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: implementing-methods-with-iteration
-projection_coverage: recipe-javascriptallonge-recipe-implementing-methods-with-iteration@4fd92cb6954d0dc15db008730db7e240
+projection_coverage: recipe-javascriptallonge-recipe-implementing-methods-with-iteration@323618423aa8d61962bd0828dfa8324d
 ---
 
 # implementing methods with iteration
@@ -78,115 +78,6 @@ return accumulator;
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01743)_
-
-```
-},
-filter(fn) {
-return Object.assign({
-[Symbol.iterator]: () => {
-const iterator = this[Symbol.iterator]();
-return {
-next: () => {
-do {
-const {
-done, value
-} = iterator.next();
-} while (!done && !fn(value));
-return {
-done, value
-};
-}
-}
-}
-}, LazyCollection)
-},
-find(fn) {
-return Object.assign({
-[Symbol.iterator]: () => {
-const iterator = this[Symbol.iterator]();
-return {
-next: () => {
-let {
-done, value
-} = iterator.next();
-done = done || fn(value);
-return ({
-done, value: done ? undefined : value
-});
-}
-}
-}
-```
-
-### Atom 3: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01744)_
-
-```
-}, LazyCollection)
-},
-until(fn) {
-return Object.assign({
-[Symbol.iterator]: () => {
-const iterator = this[Symbol.iterator]();
-return {
-next: () => {
-let {
-done, value
-} = iterator.next();
-done = done || fn(value);
-return ({
-done, value: done ? undefined : value
-});
-}
-}
-}
-}, LazyCollection)
-},
-first() {
-return this[Symbol.iterator]().next().value;
-},
-rest() {
-return Object.assign({
-[Symbol.iterator]: () => {
-const iterator = this[Symbol.iterator]();
-iterator.next();
-return iterator;
-}
-}, LazyCollection);
-},
-take(numberToTake) {
-return Object.assign({
-```
-
-### Atom 4: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01745)_
-
-```
-[Symbol.iterator]: () => {
-const iterator = this[Symbol.iterator]();
-let remainingElements = numberToTake;
-return {
-next: () => {
-let {
-done, value
-} = iterator.next();
-done = done || remainingElements-- <= 0;
-return ({
-done, value: done ? undefined : value
-});
-}
-}
-}
-}, LazyCollection);
-}
-}
-```
-
-### Atom 5: `code-block`
-
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01747)_
 
 ```
@@ -204,7 +95,7 @@ const EMPTY = {
 isEmpty: () => true
 ```
 
-### Atom 6: `code-block`
+### Atom 3: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01748)_
 
@@ -243,6 +134,67 @@ Object.assign({
 array: [],
 index: -1,
 push: function (value) {
+```
+
+### Atom 4: `code-block`
+
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01749)_
+
+```
+return this.array[this.index += 1] = value;
+},
+pop: function () {
+const value = this.array[this.index];
+this.array[this.index] = undefined;
+if (this.index >= 0) {
+this.index -= 1
+}
+return value
+},
+isEmpty: function () {
+return this.index < 0
+},
+[Symbol.iterator]: function () {
+let iterationIndex = this.index;
+return {
+next: () => {
+if (iterationIndex > this.index) {
+iterationIndex = this.index;
+}
+if (iterationIndex < 0) {
+return {done: true};
+}
+else {
+return {done: false, value: this.array[iterationIndex--]}
+}
+}
+}
+}
+}, LazyCollection);
+Stack.from = function (iterable) {
+const stack = this();
+for (let element of iterable) {
+stack.push(element);
+}
+return stack;
+}
+```
+
+### Atom 5: `code-block`
+
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01750)_
+
+```
+// Pair and Stack in action
+Stack.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+.map((x) => x * x)
+.filter((x) => x % 2 == 0)
+.first()
+//=> 100
+Pair.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+.map((x) => x * x)
+.filter((x) => x % 2 == 0)
+.reduce((seed, element) => seed + element, 0)
 ```
 
 ## Source Trail

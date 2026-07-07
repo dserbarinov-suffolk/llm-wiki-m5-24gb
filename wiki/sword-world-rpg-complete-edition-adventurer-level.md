@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-adventurer-level
 page_kind: concept
-summary: 1.3.3 Adventurer Level: 86 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.3.3 Adventurer Level: 86 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-level@074ea744e0c9c7dcffff53c9be6d35b2
+projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-level@e264a127bf188562dca6f7bbec698de2
 ---
 
 # 1.3.3 Adventurer Level
@@ -194,98 +194,23 @@ What [[sword-world-rpg-complete-edition]] covers about 1.3.3 adventurer level:
 <a id="atom-technical-atom-06bfaa1ff236e18c"></a>
 > damage reduction = adventurer level
 
-### Technical frame 2: Table 6-1: Climb by Skill
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04155))_
-
-> When someone with the thief skill climbs without a rope, or someone without the thief skill climbs with a rope, set the target score using Table 6-2: Determining Climb Target Scores and make a success roll check. Determining the target score is almost the same in both cases. The baseline score is thief skill level + agility bonus or adventurer level + agility bonus .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04151))_
-
-<a id="atom-technical-atom-9d68535bdb73822c"></a>
-```text
-Table 6-1: Climb by Skill
- using adventurer level + agility bonus as
-                                                                         With Rope             Without Rope
- the baseline score, make a success roll
- against target score 13 (this can be
-                                    Climb with thief skill
-                                                               Almost always succeeds (only double  Requires success
-                                                                         ones fail)               roll
- increased or decreased depending on the
- weight of your belongings. Also, if the    Climb with common adventurer
-                                                                     Requires success roll        Not possible
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| With Rope | Without Rope |
-| --- | --- |
-| Almost always succeeds (only double | Requires success |
-| ones fail) | roll |
-| weight of your belongings. Also, if the | Climb with common adventurer |
-| Requires success roll | Not possible |
-
-</details>
-
-### Technical frame 3: Table 10-2: Surprise Attack Check
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04625))_
-
-> When encountering a monster, one of you may notice the other without them noticing you, allowing you to perform a surprise attack . This should also be determined by the game master depending on the situation, but we've included Table 10-2: Surprise Attack Check as a reference. The game master must roll 2D and add it to the monster level (the highest one in the case of a group). Next, all adventurers make a success roll using ranger skill level + intelligence bonus as the baseline score. Subtrac
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04626))_
-
-<a id="atom-technical-atom-3901ff9cc3ad76d1"></a>
-```text
-Table 10-2: Surprise Attack Check
- included Table 10-2: Surprise Attack
-                                    Intelligence                                  Monster    Adventurer
- Check as a reference. The game master
-                                    None, almost none, obeys commands                     -6          +6
- must roll 2D and add it to the monster
-                                    Animal, low                                       -5          +7
- level (the highest one in the case of a
- group). Next, all adventurers make  a    Human                                           -4          +8
- success roll using ranger skill level +    High                                            -3          +9
- intelligence bonus as the baseline score.
- Subtract the monster's score from the
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| Intelligence | Monster | Adventurer |
-| --- | --- | --- |
-| None, almost none, obeys commands | -6 | +6 |
-| Animal, low | -5 | +7 |
-| group). Next, all adventurers make | a | Human |
-| success roll using ranger skill level + | High | -3 |
-
-</details>
-
 
 ## Related pages
 
 ### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-damage-reduction]] - shared statements and technical atoms: 【 Damage Reduction 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】: Those who are called heroes do not die from just a few injuries. In Sword World RPG , a character with a high adventurer level, that is, a character who has a high l ... [truncated]; 【 Damage Reduction 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】: damage reduction = adventurer level (7 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements and technical atoms: 【 Thief Skill 】 shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction): At this time, the thief makes a success roll using thief skill + dexterity bonus as the baseline score, and the person trying to hear the sound makes one using adven ... [truncated]; 【 Thief Skill 】 shares technical record from Table 6-1: Climb by Skill: Table 6-1: Climb by Skill using adventurer level + agility bonus as With Rope             Without Rope the baseline score, make a success roll against target score 1 ... [truncated] (6 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements and technical atoms: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters / 4.6.4 Damage Reduction: Characters can also reduce damage using their adventurer level . The result of your defense roll plus this damage reduction equals the fi nal amount of damage your c ... [truncated]; Attacks From Monsters Against Characters shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (5 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from [ Ale (Dose) ] / 《 Types of Poison 》: Those affected by the poison can reduce this damage. For characters, the score is adventurer level, and for monsters, it's monster level. After deducting this score, ... [truncated]; Attacks From Characters Against Monsters shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (3 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements and technical atoms: 【 Ranger Skill 】 shares source evidence from 10.3 Surprise Attacks: When encountering a monster, one of you may notice the other without them noticing you, allowing you to perform a surprise attack . This should also be determined by ... [truncated]; 【 Ranger Skill 】 shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (3 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks: This check is made using a life force resistance roll . The baseline score is life force resistance (adventurer level + life force bonus) and the target score is 7 . ... [truncated] (10 shared statement(s))
+- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements: 【 Thief Skill 】 shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction): At this time, the thief makes a success roll using thief skill + dexterity bonus as the baseline score, and the person trying to hear the sound makes one using adven ... [truncated] (6 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters / 4.6.4 Damage Reduction: Characters can also reduce damage using their adventurer level . The result of your defense roll plus this damage reduction equals the fi nal amount of damage your c ... [truncated] (5 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from [ Ale (Dose) ] / 《 Types of Poison 》: Those affected by the poison can reduce this damage. For characters, the score is adventurer level, and for monsters, it's monster level. After deducting this score, ... [truncated] (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from 13.2.3 Youma / [ Shade ]: Shade is a spirit of darkness, and also a mind spirit that controls fear. All natural light within 5 meters of its body is canceled out, leaving you in total darknes ... [truncated] (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-dragon-priest-skill]] - shared statements: Dragon Priest Skill shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ]: Once you've acquired your final skills (starting skill and growth via starting experience points), you can determine your adventurer level. (3 shared statement(s))
-- [[sword-world-rpg-complete-edition-priest-skill]] - shared statements: Priest Skill shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (3 shared statement(s))
-- [[sword-world-rpg-complete-edition-ship-steering-dexterity]] - shared statements: [ ③ Ship Steering [Dexterity]] shares source evidence from 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Maelstrom ]: If a ship is caught in the whirlpool, the person at the helm must make a success roll using the ship steering ability. The baseline score is sailor skill level/adven ... [truncated] (3 shared statement(s))
-- [[sword-world-rpg-complete-edition-underworld-creature]] - shared statements: Underworld Creature shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Hellhound ]: At first glance, the hellhound looks like a large black dog. However, in reality, it' s a terrifying beast from the underworld, also known as the watchdog of Hell. H ... [truncated] (2 shared statement(s))
-- [[sword-world-rpg-complete-edition-13-monster-level]] - shared statements: 13 Monster Level shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.5 Monster Level and Adventurer Level: A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a charact ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements: 【 Ranger Skill 】 shares source evidence from 10.3 Surprise Attacks: When encountering a monster, one of you may notice the other without them noticing you, allowing you to perform a surprise attack . This should also be determined by ... [truncated] (3 shared statement(s))
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-function-declarations
 page_kind: recipe
-summary: function declarations: reusable source-backed pattern with 8 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: function declarations: reusable source-backed pattern with 8 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: function-declarations
-projection_coverage: recipe-javascriptallonge-recipe-function-declarations@1da9ab7d57aba411b1f227f4080e1c3b
+projection_coverage: recipe-javascriptallonge-recipe-function-declarations@823cbf9c3e9c9ad0306e937b04aa2ddb
 ---
 
 # function declarations
@@ -34,27 +34,13 @@ From [[javascriptallonge]].
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00523)_
-
-```
-function someName () {
-// ...
-}
-This behaves a little like:
-const someName = function someName ()
-// ...
-}
-```
-
-### Atom 2: `code-block`
-
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-00524)_
 
 ```
 {
 ```
 
-### Atom 3: `worked-example`
+### Atom 2: `worked-example`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-00526)_
 
@@ -62,7 +48,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00526)_
 Consider this example where we try to use the variable fizzbuzz as a function before we bind a function to it with const :
 ```
 
-### Atom 4: `code-block`
+### Atom 3: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-00527)_
 
@@ -76,24 +62,7 @@ return "Fizz" + "Buzz";
 //=> undefined is not a function (evaluating 'fizzbuzz()')
 ```
 
-### Atom 5: `code-block`
-
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00529)_
-
-```
-(function () {
-return fizzbuzz();
-function fizzbuzz () {
-return "Fizz" + "Buzz";
-}
-})()
-//=> 'FizzBuzz'
-Although fizzbuzz is declared later in the function, JavaScript behaves as if we’d written:
-(function () {
-const fizzbuzz = function fizzbuzz () {
-```
-
-### Atom 6: `code-block`
+### Atom 4: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-00530)_
 

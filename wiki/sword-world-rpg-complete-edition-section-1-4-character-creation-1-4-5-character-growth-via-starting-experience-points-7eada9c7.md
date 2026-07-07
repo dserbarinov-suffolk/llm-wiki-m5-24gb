@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7
 page_kind: source
-summary: 1.4 Character Creation / 1.4.5 Character Growth via Starting Experience Points: 35 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4 Character Creation / 1.4.5 Character Growth via Starting Experience Points: 34 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7@24ee231627fc6dae29fbd3de182e2a0b
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7@2915abcda5ef7148d81b7ff3ec1dfcec
 ---
 
 # 1.4 Character Creation / 1.4.5 Character Growth via Starting Experience Points
@@ -16,10 +16,6 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-charac
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-6-purchasing-weapons-and-armor-03e4bdf9]] - next source section: 1.4 Character Creation / 1.4.6 Purchasing Weapons and Armor
 
 ### Source structure
 
@@ -59,34 +55,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-9618f8f39fff04c4"></a>
 > For example, if you do not have the ranger skill and you want to acquire 2 levels in ranger at once, you must spend 500 + 1000 for a total of 1500 experience points.
-
-### Technical frame 2: Table 1-7: Experience Points by Skill Trident (throwable) 1H 4~16 x10+20
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00473))_
-
-> As this shows, the use of starting experience points is exactly the same as the use of experience points during character growth, so it might be a good idea to read the explanation in chapter 8 first.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00472))_
-
-<a id="atom-technical-atom-8d1a0fc857619e6e"></a>
-```text
-Table 1-7: Experience Points by Skill     Trident (throwable)                  1H      4~16        x10+20
- (at Character Creation) is almost      Longspear                         1~2H     4~20        x10+20
- identical to a segment of Table 8-1:     Pike                               2H      10~         x10+40
- Experience Points by Skill, which is used    Maces
- for character growth as explained in      Light mace                          1H      5~12        x20+20
- chapter 8.                              Heavy mace                         1~2H     9~16        x20+30
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| Table 1-7: Experience Points by Skill | Trident (throwable) | 1H | 4~16 | x10+20 |
-| --- | --- | --- | --- | --- |
-| (at Character Creation) is almost | Longspear | 1~2H | 4~20 | x10+20 |
-| identical to a segment of Table 8-1: | Pike | 2H | 10~ | x10+40 |
-| Experience Points by Skill, which is used | Maces |  |  |  |
-| for character growth as explained in | Light mace | 1H | 5~12 | x20+20 |
-| chapter 8. | Heavy mace | 1~2H | 9~16 | x20+30 |
-
-</details>

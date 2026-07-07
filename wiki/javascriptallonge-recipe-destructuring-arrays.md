@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-destructuring-arrays
 page_kind: recipe
-summary: destructuring arrays: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: destructuring arrays: reusable source-backed pattern with 4 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: destructuring-arrays
-projection_coverage: recipe-javascriptallonge-recipe-destructuring-arrays@da0fc0673102a32403efa2963056a36a
+projection_coverage: recipe-javascriptallonge-recipe-destructuring-arrays@75dcab695fb2a617421bf4909ef7aa17
 ---
 
 # destructuring arrays
@@ -32,17 +32,6 @@ From [[javascriptallonge]].
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00822)_
-
-```
-const wrap = (something) => [something];
-Let’s expand it to use a block and an extra name:
-const wrap = (something) => {
-const wrapped = [something];
-```
-
-### Atom 2: `code-block`
-
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-00823)_
 
 ```
@@ -54,7 +43,7 @@ wrap("package")
 //=> ["package"]
 ```
 
-### Atom 3: `code-block`
+### Atom 2: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-00826)_
 
@@ -67,7 +56,7 @@ unwrap(["present"])
 //=> "present"
 ```
 
-### Atom 4: `code-block`
+### Atom 3: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-00828)_
 
@@ -80,7 +69,7 @@ surname(["Reginald", "Braithwaite"])
 //=> "Braithwaite"
 ```
 
-### Atom 5: `code-block`
+### Atom 4: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-00831)_
 

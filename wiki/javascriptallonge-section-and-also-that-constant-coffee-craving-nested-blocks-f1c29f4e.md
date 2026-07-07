@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-f1c29f4e
 page_kind: source
-summary: And also: / That Constant Coffee Craving / nested blocks: 12 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: And also: / That Constant Coffee Craving / nested blocks: 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

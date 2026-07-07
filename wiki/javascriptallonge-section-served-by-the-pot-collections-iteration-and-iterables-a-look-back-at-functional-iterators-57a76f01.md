@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-57a76f01
 page_kind: source
-summary: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: 10 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
+summary: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: 9 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

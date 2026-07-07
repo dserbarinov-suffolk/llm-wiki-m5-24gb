@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-argument
 page_kind: concept
-summary: Argument: 15 statement(s) and 33 atom(s) from raw/javascriptallonge.pdf.
+summary: Argument: 15 statement(s) and 27 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-argument@53a2defb560bc4eae741823afa8a0d1a
+projection_coverage: topic-javascriptallonge-argument@1c8b38c39009ba521a4e72f7f8a71422
 ---
 
 # Argument
@@ -203,35 +203,7 @@ console.log(`Hello ${n}`)
 undefined
 ```
 
-### Technical frame 10: And also: / Combinators and Function Decorators / combinators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00548))_
-
-> In this book, we will be using a looser definition of 'combinator:' Higher-order pure functions that take only functions as arguments and return a function. We won't be strict about using only previously defined combinators in their construction.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00547))_
-
-<a id="atom-technical-atom-2dd842e1a4d4096e"></a>
-```text
-combinators
-The word 'combinator' has a precise technical meaning in mathematics:
-'A combinator is a higher-order function that uses only function application and earlier defined combinators to define a result from its arguments.'-Wikipedia 35
-If we were learning Combinatorial Logic, we'd start with the most basic combinators like S , K , and I , and work up from there to practical combinators. We'd learn that the fundamental combinators are named after birds following the example of Raymond Smullyan's famous book To Mock a Mockingbird 36 .
-35 https://en.wikipedia.org/wiki/Combinatory_logic
-36 http://www.amazon.com/gp/product/B00A1P096Y/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00A1P096Y& linkCode=as2&tag=raganwald001-20
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 35 | https://en.wikipedia.org/wiki/Combinatory_logic |
-| 36 | http://www.amazon.com/gp/product/B00A1P096Y/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00A1P096Y& linkCode=as2&tag=raganwald001-20 |
-
-</details>
-
-### Technical frame 11: And also: / Combinators and Function Decorators / function decorators
+### Technical frame 10: And also: / Combinators and Function Decorators / function decorators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00563))_
 
@@ -257,7 +229,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 </details>
 
-### Technical frame 12: And also: / Building Blocks / partial application
+### Technical frame 11: And also: / Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00582))_
 
@@ -271,7 +243,7 @@ _.map([1, 2, 3], (n) => n * n)
 //=> [1, 4, 9]
 ```
 
-### Technical frame 13: And also: / Building Blocks / partial application
+### Technical frame 12: And also: / Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00582))_
 
@@ -285,7 +257,7 @@ const squareAll = (array) => map(array,
 (n) => n * n);
 ```
 
-### Technical frame 14: And also: / Building Blocks / partial application
+### Technical frame 13: And also: / Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00584))_
 
@@ -302,7 +274,7 @@ squareAll([1, 2, 3])
 //=> [1, 4, 9]
 ```
 
-### Technical frame 15: And also: / Magic Names / the function keyword
+### Technical frame 14: And also: / Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00597))_
 
@@ -319,7 +291,7 @@ plus(2,3)
 //=> 5
 ```
 
-### Technical frame 16: And also: / Magic Names / the function keyword
+### Technical frame 15: And also: / Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00597))_
 
@@ -336,31 +308,7 @@ args(2,3)
 //=> { '0': 2, '1': 3 }
 ```
 
-### Technical frame 17: And also: / Magic Names / the function keyword
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
-
-> The most common use of the arguments binding is to build functions that can take a variable number of arguments. We'll see it used in many of the recipes, starting off with partial application and ellipses.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00598))_
-
-<a id="atom-technical-atom-5bb18c52a0c78571"></a>
-```text
-42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
-43 We'll look at arrays and plain old javascript objects in depth later.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 42 | You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. |
-| 43 | We'll look at arrays and plain old javascript objects in depth later. |
-
-</details>
-
-### Technical frame 18: And also: / Magic Names / the function keyword
+### Technical frame 16: And also: / Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
 
@@ -377,7 +325,7 @@ plus(2,3)
 //=> 5
 ```
 
-### Technical frame 19: And also: / Magic Names / the function keyword
+### Technical frame 17: And also: / Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
 
@@ -398,7 +346,7 @@ howMany('sharks', 'are', 'apex', 'predators')
 //=> 4
 ```
 
-### Technical frame 20: And also: / Magic Names / magic names and fat arrows
+### Technical frame 18: And also: / Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00607))_
 
@@ -414,7 +362,7 @@ return (function () { return arguments[0]; })('inner');
 //=> "inner"
 ```
 
-### Technical frame 21: And also: / Magic Names / magic names and fat arrows
+### Technical frame 19: And also: / Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00609))_
 
@@ -430,7 +378,7 @@ return (() => arguments[0])('inner');
 //=> "outer"
 ```
 
-### Technical frame 22: And also: / Magic Names / magic names and fat arrows
+### Technical frame 20: And also: / Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00612))_
 
@@ -450,7 +398,7 @@ row(3)
 //=> [3,6,9,12,15,18,21,24,27,30,33,36]
 ```
 
-### Technical frame 23: And also: / Magic Names / magic names and fat arrows
+### Technical frame 21: And also: / Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00616))_
 
@@ -470,7 +418,7 @@ row(3)
 //=> [1,4,9,16,25,36,49,64,81,100,121,144]
 ```
 
-### Technical frame 24: Recipes with Basic Functions / Partial Application
+### Technical frame 22: Recipes with Basic Functions / Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00645))_
 
@@ -498,31 +446,7 @@ sayHelloToCeline('Eartha')
 //=> 'Hello, Celine, my name is Eartha'
 ```
 
-### Technical frame 25: Recipes with Basic Functions / Partial Application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00648))_
-
-> We take it a step further, and can use gathering and spreading to allow for partial application with more than one argument:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00646))_
-
-<a id="atom-technical-atom-695bbaa3f7cd2b31"></a>
-```text
-45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 45 | https://github.com/fogus/lemonad |
-| 46 | http://osteele.com/sources/javascript/functional/ |
-| 47 | https://github.com/substack/node-ap 48 |
-
-</details>
-
-### Technical frame 26: Recipes with Basic Functions / Partial Application
+### Technical frame 23: Recipes with Basic Functions / Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00648))_
 
@@ -540,7 +464,7 @@ const callRight = (fn, ...args) =>
 fn(...remainingArgs, ...args);
 ```
 
-### Technical frame 27: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
+### Technical frame 24: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00730))_
 
@@ -557,7 +481,7 @@ butFirst
 //=> ["hello","there","little","droid"]
 ```
 
-### Technical frame 28: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
+### Technical frame 25: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00732))_
 
@@ -583,7 +507,7 @@ last
 //=> 'droid'
 ```
 
-### Technical frame 29: Picking the Bean: Choice and Truthiness / truthiness and operators
+### Technical frame 26: Picking the Bean: Choice and Truthiness / truthiness and operators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00760))_
 
@@ -599,72 +523,7 @@ last
 //=> true
 ```
 
-### Technical frame 30: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00833))_
-
-> Sometimes we need to extract arrays from arrays. Here is the most common pattern: Extracting the head and gathering everything but the head from an array:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00837))_
-
-<a id="atom-technical-atom-5337ddc45c7cfcfe"></a>
-```text
-57 https://en.wikipedia.org/wiki/CAR_and_CDR
-58 Kyle Simpson is the author of You Don't Know JS, available here
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 57 | https://en.wikipedia.org/wiki/CAR_and_CDR |
-| 58 | Kyle Simpson is the author of You Don't Know JS, available here |
-
-</details>
-
-### Technical frame 31: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00967))_
-
-> Brilliant! We can map over large arrays without incurring all the memory and performance overhead of non-tail-calls. And this basic transformation from a recursive function that does not make a tail call, into a recursive function that calls itself in tail position, is a bread-and-butter pattern for programmers using a language that incorporates tail-call optimization.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00966))_
-
-<a id="atom-technical-atom-3439b2237aced771"></a>
-| 0, | 1, | 2, | 3, | 4, | 5, | 6, | 7, | 8, | 9, |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 10, | 11, | 12, | 13, | 14, | 15, | 16, | 17, | 18, | 19, |
-| 20, | 21, | 22, | 23, | 24, | 25, | 26, | 27, | 28, | 29, |
-| 30, | 31, | 32, | 33, | 34, | 35, | 36, | 37, | 38, | 39, |
-| 40, | 41, | 42, | 43, | 44, | 45, | 46, | 47, | 48, | 49, |
-| 50, | 51, | 52, | 53, | 54, | 55, | 56, | 57, | 58, | 59, |
-| 60, | 61, | 62, | 63, | 64, | 65, | 66, | 67, | 68, | 69, |
-| 70, | 71, | 72, | 73, | 74, | 75, | 76, | 77, | 78, | 79, |
-| 80, | 81, | 82, | 83, | 84, | 85, | 86, | 87, | 88, | 89, |
-| 90, | 91, | 92, | 93, | 94, | 95, | 96, | 97, | 98, | 99, |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-converting non-tail-calls to tail-calls
-| 0, | 1, | 2, | 3, | 4, | 5, | 6, | 7, | 8, | 9, |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 10, | 11, | 12, | 13, | 14, | 15, | 16, | 17, | 18, | 19, |
-| 20, | 21, | 22, | 23, | 24, | 25, | 26, | 27, | 28, | 29, |
-| 30, | 31, | 32, | 33, | 34, | 35, | 36, | 37, | 38, | 39, |
-| 40, | 41, | 42, | 43, | 44, | 45, | 46, | 47, | 48, | 49, |
-| 50, | 51, | 52, | 53, | 54, | 55, | 56, | 57, | 58, | 59, |
-| 60, | 61, | 62, | 63, | 64, | 65, | 66, | 67, | 68, | 69, |
-| 70, | 71, | 72, | 73, | 74, | 75, | 76, | 77, | 78, | 79, |
-| 80, | 81, | 82, | 83, | 84, | 85, | 86, | 87, | 88, | 89, |
-| 90, | 91, | 92, | 93, | 94, | 95, | 96, | 97, | 98, | 99, |
-```
-
-</details>
-
-### Technical frame 32: Composing and Decomposing Data / default arguments
+### Technical frame 27: Composing and Decomposing Data / default arguments
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00988))_
 
@@ -684,46 +543,19 @@ factorial(6)
 //=> 720
 ```
 
-### Technical atom 33
-
-<a id="atom-technical-atom-83f43abc1781eefe"></a>
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00230))_
-
-> We said that the function returns the result of evaluating a block , and we said that a block is a (possibly empty) list of JavaScript statements separated by semicolons. 21
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00228))_
-
-```text
-back on the block
-Back to our function. We evaluated this:
-19 Experienced JavaScript programmers are aware that there's a fourth way, using a function argument. This was actually the preferred mechanism until void became commonplace.
-20 As an exercise for the reader, we suggest you ask your friendly neighbourhood programming language designer or human factors subjectmatter expert to explain why a keyword called void is used to generate an undefined value, instead of calling them both void or both undefined . We have no idea.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 19 | Experienced JavaScript programmers are aware that there's a fourth way, using a function argument. This was actually the preferred mechanism until void became commonplace. |
-| 20 | As an exercise for the reader, we suggest you ask your friendly neighbourhood programming language designer or human factors subjectmatter expert to explain why a keyword called void is used to generate an undefined value, instead of calling them both void or both undefined. We have no idea. |
-
-</details>
-
 
 ## Related pages
 
 ### Shared technical atoms
 
-- [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from And also: / Building Blocks / partial application: The resulting functionsquareAll -is still the map function, it's just that we've applied one of its two arguments already. squareAll is nice, but why write one funct ... [truncated]; partial application shares technical record from And also: / Building Blocks / partial application: _.map([1, 2, 3], (n) => n * n) //=> [1, 4, 9] (2 shared statement(s), 6 shared atom(s))
-- [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Bind shares technical record from And also: / Magic Names / the function keyword: 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. 43 W ... [truncated] (2 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Or even: / back on the block: 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. 43 W ... [truncated] (6 shared atom(s))
-- [[javascriptallonge-function-keyword]] - shared statements and technical atoms: the function keyword shares source evidence from And also: / Magic Names / the function keyword: arguments always contains all of the arguments passed to a function, regardless of how many are declared. Therefore, we can write plus like this:; the function keyword shares technical record from And also: / Magic Names / the function keyword: const plus = function (a, b) { return arguments[0] + arguments[1]; } plus(2,3) //=> 5 (1 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from And also: / Building Blocks / partial application: The resulting functionsquareAll -is still the map function, it's just that we've applied one of its two arguments already. squareAll is nice, but why write one funct ... [truncated]; partial application shares technical record from And also: / Building Blocks / partial application: _.map([1, 2, 3], (n) => n * n) //=> [1, 4, 9] (2 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-function-keyword]] - shared statements and technical atoms: the function keyword shares source evidence from And also: / Magic Names / the function keyword: arguments always contains all of the arguments passed to a function, regardless of how many are declared. Therefore, we can write plus like this:; the function keyword shares technical record from And also: / Magic Names / the function keyword: const plus = function (a, b) { return arguments[0] + arguments[1]; } plus(2,3) //=> 5 (1 shared statement(s), 4 shared atom(s))
 - [[javascriptallonge-return]] - shared statements and technical atoms: Return shares source evidence from And also: / Combinators and Function Decorators / higher-order functions: As we've seen, JavaScript functions take values as arguments and return values. JavaScript functions are values, so JavaScript functions can take functions as argume ... [truncated]; Return shares technical record from And also: / Combinators and Function Decorators / function decorators: const mapWith = (fn) => (array) => map(array, fn); const squareAll = mapWith((n) => n * n); squareAll([1, 2, 3]) //=> [1, 4, 9] (3 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Bind shares technical record from And also: / Magic Names / magic names and fat arrows: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (2 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-fat-arrow]] - shared statements and technical atoms: Fat Arrow shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Fat Arrow shares technical record from And also: / Magic Names / magic names and fat arrows: (function () { return (() => arguments[0])('inner'); })('outer') //=> "outer" (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering: 57 https://en.wikipedia.org/wiki/CAR_and_CDR 58 Kyle Simpson is the author of You Don't Know JS, available here (2 shared atom(s))
+- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from And also: / Combinators and Function Decorators / function decorators: !5 //=> false !undefined //=> true (2 shared atom(s))
+- [[javascriptallonge-variable]] - shared technical atoms: Variable shares technical record from And also: / variables and bindings: (x) => (y) => x (2 shared atom(s))
+- [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 1 shared atom(s))
 
 ### Topics
 

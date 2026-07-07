@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-24f5a2c3
 page_kind: source
-summary: 1.4 Character Creation / 1.4.2 Determine Ability Scores: 26 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4 Character Creation / 1.4.2 Determine Ability Scores: 24 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-24f5a2c3@8bfd01dbe6c018dd0a7d8eaefb0fda3c
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-24f5a2c3@fbb34b209719fc5dc8544188da1ca493
 ---
 
 # 1.4 Character Creation / 1.4.2 Determine Ability Scores
@@ -45,49 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Technical atoms
 
-### Technical frame 1: Table 1-3: Determining Sub-Ability Scores
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00322))_
-
-> On the table, "D" stands for dice . 1D stands for one die , 2D stands for two dice , and 1/2D stands for half the result of one dice (rounded up) . In addition, a notation such as 1D+6 means to roll one dice and add 6 to the result .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00321))_
-
-<a id="atom-technical-atom-599fd06284f5c146"></a>
-```text
-Table 1-3: Determining Sub-Ability Scores
-  Dwarves excel in strength, life force,       Sub-Ability Score   Human   Dwarf  Grassrunner   Elf    Half-Elf
- and mental power. On the other hand,              A            2D    2D+6      1D+6      1D+6     1D+4
- they tend to be less agile and less             B            2D    1/2D      2D+4      1D+6     1D+6
- intelligent. In terms of skills, sorcerer             C            2D    1D+4      1D+6      1D+6     1D+4
- and shaman cannot be chosen.                     D            2D     1D        1D       1D+6     1D+6
-                                              E            2D    1D+4      1/2D       1D      1D+2
-  【     Grassrunner       】
-                                              F            2D    1D+6      1/2D      1/2D     1D+2
-                                              G            2D    2D+4      2D+6      1D+4     1D+4
-  Grassrunners   have    excellent
-                                              H            2D    2D+4      2D+4      1D+6      2D
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| Dwarves excel in strength, life force, | Sub-Ability Score | Human | Dwarf | Grassrunner | Elf | Half-Elf |
-| --- | --- | --- | --- | --- | --- | --- |
-| and mental power. On the other hand, | A | 2D | 2D+6 | 1D+6 | 1D+6 | 1D+4 |
-| they tend to be less agile and less | B | 2D | 1/2D | 2D+4 | 1D+6 | 1D+6 |
-| intelligent. In terms of skills, sorcerer | C | 2D | 1D+4 | 1D+6 | 1D+6 | 1D+4 |
-| and shaman cannot be chosen. | D | 2D | 1D | 1D | 1D+6 | 1D+6 |
-| E | 2D | 1D+4 | 1/2D | 1D | 1D+2 |  |
-| 【 | Grassrunner | 】 |  |  |  |  |
-| F | 2D | 1D+6 | 1/2D | 1/2D | 1D+2 |  |
-| G | 2D | 2D+4 | 2D+6 | 1D+4 | 1D+4 |  |
-| Grassrunners | have | excellent |  |  |  |  |
-| H | 2D | 2D+4 | 2D+4 | 1D+6 | 2D |  |
-
-</details>
-
-### Technical frame 2: 1.4 Character Creation / 1.4.2 Determine Ability Scores
+### Technical frame 1: 1.4 Character Creation / 1.4.2 Determine Ability Scores
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00326))_
 
@@ -118,39 +76,6 @@ Table 1-3: Determining Sub-Ability Scores
 | Strength | 14 | 4 | 17 | 5.5 | 11 |
 | Life Force | 14 | 15 | 20.5 | 9.5 | 13 |
 | Mental Power | 14 | 24 | 22 | 17 | 14.5 |
-```
-
-</details>
-
-### Technical frame 3: Table 1-5: Backgrounds
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00322))_
-
-> On the table, "D" stands for dice . 1D stands for one die , 2D stands for two dice , and 1/2D stands for half the result of one dice (rounded up) . In addition, a notation such as 1D+6 means to roll one dice and add 6 to the result .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00325))_
-
-<a id="atom-technical-atom-6128a1895d6a0dc1"></a>
-| been | determined, | the | next | step | is | to |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2D Background Starting Skills Exp. Pts. Money determine 2 Savage Fighter 1 & Ranger 1 2000 2Dx100 adventure 3 Rune Master Sorcerer & Sage 1 2000 2Dx200 represented 4 Villain Thief 1 2500 2Dx200 starting 5 Traveler Bard 1 3000 2Dx200 6 Hunter Ranger 1 3000 2Dx200 For | experience Humans | the adventurer's experience. by starting points. | and | This skills Half- | pre- and | is |
-| 7 Ordinary citizen General skill level 3 3000 2Dx200 Elves 8 Merchant/Scholar Merchant 3/Sage 1 3000 2Dx200 | Raised If the | by race is human | Humans | or | half-elf |  |
-| 9 Mercenary Fighter 1 2500 2Dx200 raised 10 Priest Priest 1 2500 2Dx200 Backgrounds. | by humans, | Roll 2D | use and | Table look | 1-5: at | the |
-| 11 Curse Specialist Shaman 1 2000 2Dx200 appropriate | row. |  |  |  |  |  |
-| 12 Noble Fighter 1 & Sage 1 2000 2Dx500 citizen Once ability scores are determined, the sub-ability scores are never used during Once the ability scores have been general the game. determined, also find the ability bonuses character | If the player's (roll 7), game master skill and | background they must to appropriate acquire | determine it at | is ordinary consult for 3rd level. | with one | the At |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 1-5: Backgrounds
-| been | determined, | the | next | step | is | to |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2D Background Starting Skills Exp. Pts. Money determine 2 Savage Fighter 1 & Ranger 1 2000 2Dx100 adventure 3 Rune Master Sorcerer & Sage 1 2000 2Dx200 represented 4 Villain Thief 1 2500 2Dx200 starting 5 Traveler Bard 1 3000 2Dx200 6 Hunter Ranger 1 3000 2Dx200 For | experience Humans | the adventurer's experience. by starting points. | and | This skills Half- | pre- and | is |
-| 7 Ordinary citizen General skill level 3 3000 2Dx200 Elves 8 Merchant/Scholar Merchant 3/Sage 1 3000 2Dx200 | Raised If the | by race is human | Humans | or | half-elf |  |
-| 9 Mercenary Fighter 1 2500 2Dx200 raised 10 Priest Priest 1 2500 2Dx200 Backgrounds. | by humans, | Roll 2D | use and | Table look | 1-5: at | the |
-| 11 Curse Specialist Shaman 1 2000 2Dx200 appropriate | row. |  |  |  |  |  |
-| 12 Noble Fighter 1 & Sage 1 2000 2Dx500 citizen Once ability scores are determined, the sub-ability scores are never used during Once the ability scores have been general the game. determined, also find the ability bonuses character | If the player's (roll 7), game master skill and | background they must to appropriate acquire | determine it at | is ordinary consult for 3rd level. | with one | the At |
 ```
 
 </details>

@@ -206,6 +206,12 @@ _CHECKS: tuple[QualityCheckDefinition, ...] = (
         ("ledger-build",),
         ("technical-atom",),
     ),
+    _ck(
+        "ck-technical-atom-trust-vocabulary",
+        "controlled-vocabulary-invalid",
+        ("ledger-build",),
+        ("technical-atom",),
+    ),
     _ck("ck-needs-review-reason", "review-required", ("ledger-build",), ("ledger-entry",)),
     _ck(
         "ck-named-table-reference-resolved",
@@ -242,6 +248,12 @@ _CHECKS: tuple[QualityCheckDefinition, ...] = (
     _ck("ck-accepted-atom-rendered", "coverage-gap", ("page-projection",), ("technical-atom",)),
     _ck(
         "ck-atom-block-payload",
+        "technical-atom-fidelity-failure",
+        ("page-projection",),
+        ("rendered-technical-atom-block",),
+    ),
+    _ck(
+        "ck-rendered-atom-trusted",
         "technical-atom-fidelity-failure",
         ("page-projection",),
         ("rendered-technical-atom-block",),

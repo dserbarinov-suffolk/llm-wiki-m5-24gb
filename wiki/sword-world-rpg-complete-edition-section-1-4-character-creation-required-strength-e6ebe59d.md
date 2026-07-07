@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-required-strength-e6ebe59d@1db2f751a49fbe2545fc565296af73eb
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-required-strength-e6ebe59d@e2265f4a4f6bc429316a140110cb1972
 ---
 
 # 1.4 Character Creation / Required Strength
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-6-purchasing-weapons-and-armor-03e4bdf9]] - previous source section: 1.4 Character Creation / 1.4.6 Purchasing Weapons and Armor
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-one-handed-and-twohanded-weapons-06cd107c]] - next source section: 1.4 Character Creation / One-Handed and TwoHanded Weapons
 
 ### Source structure

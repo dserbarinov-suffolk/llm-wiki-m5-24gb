@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-adba5c82
 page_kind: source
-summary: Served by the Pot: Collections / Generating Iterables / generators and iterables: 12 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+summary: Served by the Pot: Collections / Generating Iterables / generators and iterables: 11 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-adba5c82@8d89591349be16be89ebcd73920ff8a1
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-adba5c82@bd44b92bf7315f80e9d3e8e0b40336d6
 ---
 
 # Served by the Pot: Collections / Generating Iterables / generators and iterables
@@ -37,127 +37,6 @@ From [[javascriptallonge]].
 ## Technical atoms
 
 ### Technical frame 1: Served by the Pot: Collections / Generating Iterables / generators and iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
-
-> This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01681))_
-
-<a id="atom-technical-atom-86777cb39baec6c0"></a>
-```text
-yield 3
-}
-}
-for (const i of ThreeNumbers) {
-console.log(i);
-}
-//=>
-1
-2
-3
-[...ThreeNumbers]
-//=>
-[1,2,3]
-const iterator = ThreeNumbers[Symbol.iterator]();
-iterator.next()
-//=>
-{"done":false, value: 1}
-iterator.next()
-//=>
-{"done":false, value: 2}
-iterator.next()
-//=>
-{"done":false, value: 3}
-iterator.next()
-//=>
-{"done":true}
-Now we can use it in a for...of loop, spread it into an array literal, or spread it into a function
-invocation, because we have written an iterable that uses a generator to return an iterator from its
-[Symbol.iterator] method.
-This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing
-Served by the Pot: Collections
-213
-generator methods for objects:
-const ThreeNumbers = {
-*[Symbol.iterator] () {
-yield 1;
-yield 2;
-yield 3
-}
-}
-This object declares a [Symbol.iterator] function that makes it iterable. Because it’s declared
-*[Symbol.iterator], it’s a generator instead of an iterator.
-So to summarize, ThreeNumbers is an object that we’ve made iterable, by way of writing a generator
-method for [Symbol.iterator].
-more generators
-Generators can produce infinite streams of values:
-const Numbers = {
-*[Symbol.iterator] () {
-let i = 0;
-while (true) {
-yield i++;
-}
-}
-};
-for (const i of Numbers) {
-console.log(i);
-}
-//=>
-0
-1
-2
-3
-4
-5
-6
-7
-Served by the Pot: Collections
-214
-8
-9
-10
-...
-Our OneTwoThree example used implicit state to output the numbers in sequence. Recall that we
-wrote Fibonacci using explicit state:
-const Fibonacci = {
-[Symbol.iterator]: () => {
-let a = 0, b = 1, state = 0;
-return {
-next: () => {
-switch (state) {
-case 0:
-state = 1;
-return {value: a};
-case 1:
-state = 2;
-return {value: b};
-case 2:
-[a, b] = [b, a + b];
-return {value: b};
-}
-}
-}
-}
-};
-for (let n of Fibonacci) {
-console.log(n)
-}
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 3 | [...ThreeNumbers] [1,2,3] const iterator = ThreeNumbers[Symbol.iterator](); iterator.next() {"done":false, value: 1} iterator.next() {"done":false, value: 2} iterator.next() {"done":false, value: 3} iterator.next() {"done":true} Now we can use it in a for...of loop, spread it into an array literal, or spread it into a function invocation, because we have written an iterable that uses a generator to return an iterator from its [Symbol.iterator] method. This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing |
-| 213 | Served by the Pot: Collections generator methods for objects: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 This object declares a [Symbol.iterator] function that makes it iterable. Because it’s declared *[Symbol.iterator], it’s a generator instead of an iterator. So to summarize, ThreeNumbers is an object that we’ve made iterable, by way of writing a generator method for [Symbol.iterator]. more generators Generators can produce infinite streams of values: const Numbers = { *[Symbol.iterator] () { let i = 0; while (true) { yield i++; for (const i of Numbers) { console.log(i); |
-| 7 | Served by the Pot: Collections |
-| 10 | Our OneTwoThree example used implicit state to output the numbers in sequence. Recall that we wrote Fibonacci using explicit state: const Fibonacci = { [Symbol.iterator]: () => { let a = 0, b = 1, state = 0; return { next: () => { switch (state) { case 0: state = 1; return {value: a}; case 1: state = 2; return {value: b}; case 2: [a, b] = [b, a + b]; return {value: b}; for (let n of Fibonacci) { console.log(n) |
-
-</details>
-
-### Technical frame 2: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01684))_
 

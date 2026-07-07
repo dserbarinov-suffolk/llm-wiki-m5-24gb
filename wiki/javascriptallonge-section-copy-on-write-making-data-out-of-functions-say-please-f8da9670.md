@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-f8da9670
 page_kind: source
-summary: Copy on Write / Making Data Out Of Functions / say 'please': 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: Copy on Write / Making Data Out Of Functions / say 'please': 10 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-spellsongs-8f5de8c9
 page_kind: source
-summary: Spellsongs: 21 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Spellsongs: 21 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-8f5de8c9@709b8a3fadcdec1b7f3a7ffc0ce6ef40
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-8f5de8c9@6bd4e2424c9d302063a078d77ef9bce0
 ---
 
 # Spellsongs
@@ -62,43 +62,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-82b312914e46c4d2"></a>
 > As long as a bard is singing a spellsong, they cannot take any other actions and cannot move more than 3 meters in one round.
-
-### Technical frame 3: Table 5-10: Requiem
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03872))_
-
-<a id="atom-technical-atom-fb62c1b93135c2fe"></a>
-```text
-Table 5-10: Requiem
- around the bard. It takes about 18 rounds
-                                     2D  Result
- to gather. If the summoned  small
-```
-
-### Technical frame 4: Table 5-10: Requiem
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03873))_
-
-<a id="atom-technical-atom-a3c690d138538970"></a>
-```text
-Table 5-10: Requiem
-2D Result
-2
-No effect.
-3-4 Movement slows down while the song continues. -1 to attack points and evasion points.
-5
-Movement slows down while the song continues. -2 to attack points and evasion points.
-6
-Movement slows down while the song continues. -3 to attack points and evasion points.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 2 | No effect. 3-4 Movement slows down while the song continues. -1 to attack points and evasion points. |
-| 5 | Movement slows down while the song continues. -2 to attack points and evasion points. |
-| 6 | Movement slows down while the song continues. -3 to attack points and evasion points. |
-
-</details>

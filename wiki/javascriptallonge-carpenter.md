@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-carpenter
 page_kind: concept
-summary: Carpenter: 8 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
+summary: Carpenter: 8 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-carpenter@750b6e0479812b13de28476fcb959f09
+projection_coverage: topic-javascriptallonge-carpenter@c43bf41409cff9758ce1c29ffb8074ff
 ---
 
 # Carpenter
@@ -43,31 +43,7 @@ What [[javascriptallonge]] covers about carpenter:
 
 ## Technical atoms
 
-### Technical frame 1: Interlude: The Carpenter Interviews for a Job / the problem
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01790))_
-
-> Christine interrupted. 'To save time, we have written a template of the solution for you in ECMASCript 2015 notation. Fill in the blanks. Your code should not presume anything about the game-board's size or contents, only that it is given an arrow every time though the while loop. You may use babeljs.io 95 , or ES6Fiddle 96 to check your work. '
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01794))_
-
-<a id="atom-technical-atom-d61b8fe300c839a0"></a>
-```text
-95 http://babeljs.io
-96 http://www.es6fiddle.net
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 95 | http://babeljs.io |
-| 96 | http://www.es6fiddle.net |
-
-</details>
-
-### Technical frame 2: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
+### Technical frame 1: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01803))_
 
@@ -96,7 +72,7 @@ board[i][j] = '￿￿￿￿'[Math.floor(Math.random() * 4)];
 const position = [
 ```
 
-### Technical frame 3: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
+### Technical frame 2: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01803))_
 

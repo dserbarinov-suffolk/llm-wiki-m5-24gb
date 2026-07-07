@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-46deb26a
 page_kind: source
-summary: Spellsongs / Filling out the Character Sheet: 57 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Spellsongs / Filling out the Character Sheet: 57 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-46deb26a@fda8dde58378a427e1d17ea20a6ea112
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-46deb26a@88185022e460d701c78d75934bd0ee2d
 ---
 
 # Spellsongs / Filling out the Character Sheet
@@ -93,45 +93,3 @@ From [[sword-world-rpg-complete-edition]].
 - This spell is effective on objects that break due to vibrations, such as thin glass, ceramics, etc. These objects will shatter on the fourth round after the spellsong begins. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03907))_
 - These objects will shatter on the fourth round after the spellsong begins. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03907))_
 - This spell is effective on objects that break due to vibrations, such as thin glass, ceramics, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03907))_
-
-## Technical atoms
-
-### Technical frame 1: Table 5-10: Requiem
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03872))_
-
-<a id="atom-technical-atom-fb62c1b93135c2fe"></a>
-```text
-Table 5-10: Requiem
- around the bard. It takes about 18 rounds
-                                     2D  Result
- to gather. If the summoned  small
-```
-
-### Technical frame 2: Table 5-10: Requiem
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03873))_
-
-<a id="atom-technical-atom-a3c690d138538970"></a>
-```text
-Table 5-10: Requiem
-2D Result
-2
-No effect.
-3-4 Movement slows down while the song continues. -1 to attack points and evasion points.
-5
-Movement slows down while the song continues. -2 to attack points and evasion points.
-6
-Movement slows down while the song continues. -3 to attack points and evasion points.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 2 | No effect. 3-4 Movement slows down while the song continues. -1 to attack points and evasion points. |
-| 5 | Movement slows down while the song continues. -2 to attack points and evasion points. |
-| 6 | Movement slows down while the song continues. -3 to attack points and evasion points. |
-
-</details>

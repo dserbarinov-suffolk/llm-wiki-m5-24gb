@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc
 page_kind: source
-summary: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill: 11 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill: 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc@92242b9718580c01a8047388b37cfe3f
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc@099e2d84ea5652c230fb434c9027d858
 ---
 
 # 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
@@ -38,32 +38,3 @@ From [[sword-world-rpg-complete-edition]].
 ### 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Fighter ］
 
 - There are no restrictions. The basic idea is to choose weapons and armor whose required strength is the same as your own strength. Weapons and armor that have a required strength less than your own strength will make your character's attack and defense incomplete, and weapons and armor with a required strength greater than your own strength cannot be handled. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00782))_
-
-## Technical atoms
-
-### Technical frame 1: Table 1-9: Armor
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00740))_
-
-> The following are guidelines for purchasing weapons and armor based on which skills a character has. For characters with multiple skills, look at the description of each skill and decide which weapons and armor you will buy. If the equipment has both unrestricted and restricted skills, please understand that your equipment must conform to the restricted skill if you want to take full advantage of both skills.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00741))_
-
-<a id="atom-technical-atom-614b35743663e492"></a>
-| In | the | case | of | shields, | there | are |
-| --- | --- | --- | --- | --- | --- | --- |
-| only two strength strength 13 or greater, | types: 1) 13). | small and If a a large | large character's shield | shields shields can | (required (required strength be chosen. | Hard leather armor 5~13 x30+30 Metal armor Ring mail armor 5~12 x30+40 is Splint armor 8~17 x40+50 Chain mail armor 10~19 x50+50 |
-| However, character's | in defensive | terms |  | of ability, | increasing the effects | a Lamellar armor 11~22 x70+70 of Plate armor 13~ x100+100 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 1-9: Armor
-| In | the | case | of | shields, | there | are |
-| --- | --- | --- | --- | --- | --- | --- |
-| only two strength strength 13 or greater, | types: 1) 13). | small and If a a large | large character's shield | shields shields can | (required (required strength be chosen. | Hard leather armor 5~13 x30+30 Metal armor Ring mail armor 5~12 x30+40 is Splint armor 8~17 x40+50 Chain mail armor 10~19 x50+50 |
-| However, character's | in defensive | terms |  | of ability, | increasing the effects | a Lamellar armor 11~22 x70+70 of Plate armor 13~ x100+100 |
-```
-
-</details>

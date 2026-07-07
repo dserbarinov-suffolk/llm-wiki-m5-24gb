@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-2-1-baseline-scores-target-scores-80c1ce46
 page_kind: source
-summary: 2.1 Baseline Scores / Target Scores: 7 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 2.1 Baseline Scores / Target Scores: 6 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-1-baseline-scores-target-scores-80c1ce46@8cef0e495ad7054aa75f449ca5f7c331
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-1-baseline-scores-target-scores-80c1ce46@b3cb15de31772dde50625fbc8fb35b5a
 ---
 
 # 2.1 Baseline Scores / Target Scores
@@ -43,40 +43,12 @@ From [[sword-world-rpg-complete-edition]].
 
 > Once the baseline score and target score are determined, a success roll check can finally be made.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00916))_
-
-<a id="atom-technical-atom-746d4f42d19af6a3"></a>
-```text
-Target Scores
-2.2 Target Scores
-The baseline score is  a number that represents a character's ability. However, the  success  of  an  action  is  not  only related to the ability of the person attempting it, but also to the difficulty of the action itself. The difficulty of hitting a target with the same weapon is much greater when your opponent is a seasoned  warrior,  than  when  he  is  an amateur with no fighting experience.
-2.3
-2.3 Checks
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 2 | 2 Target Scores The baseline score is a number that represents a character's ability. However, the success of an action is not only related to the ability of the person attempting it, but also to the difficulty of the action itself. The difficulty of hitting a target with the same weapon is much greater when your opponent is a seasoned warrior, than when he is an amateur with no fighting experience. |
-| 2 | 3 |
-| 2 | 3 Checks |
-
-</details>
-
-### Technical frame 2: 2.1 Baseline Scores / Target Scores
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00917))_
-
-> Once the baseline score and target score are determined, a success roll check can finally be made.
-
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00918))_
 
 <a id="atom-technical-atom-efbd12aa4af11240"></a>
 > The player must roll two dice and add their baseline score to the roll.
 
-### Technical frame 3: 2.1 Baseline Scores / Target Scores
+### Technical frame 2: 2.1 Baseline Scores / Target Scores
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00918))_
 

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: maybe
-projection_coverage: recipe-javascriptallonge-recipe-maybe@7a11fc0b4358a5fcfb921e003052a4ec
+projection_coverage: recipe-javascriptallonge-recipe-maybe@0eebbef621062aec1eec6369815403dd
 ---
 
 # Maybe
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 ## Pattern
 
 - Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-d7445960]].
-- Evidence roles: decision, constraint, example, structured-state.
+- Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
 

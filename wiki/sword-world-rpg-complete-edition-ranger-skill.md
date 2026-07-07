@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-ranger-skill
 page_kind: concept
-summary: 【 Ranger Skill 】: 78 statement(s) and 13 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 【 Ranger Skill 】: 78 statement(s) and 12 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-ranger-skill@ca8e559c6b727f2142180b46472a11d7
+projection_coverage: topic-sword-world-rpg-complete-edition-ranger-skill@2d5f503b4985b26d92df89d509472a7e
 ---
 
 # 【 Ranger Skill 】
@@ -222,43 +222,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 ranger skill 】:
 <a id="atom-technical-atom-18555f2a0a9b91b2"></a>
 > Even if the player knows, they must treat it as if they had no prior knowledge.
 
-### Technical frame 7: Table 10-2: Surprise Attack Check
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04625))_
-
-> When encountering a monster, one of you may notice the other without them noticing you, allowing you to perform a surprise attack . This should also be determined by the game master depending on the situation, but we've included Table 10-2: Surprise Attack Check as a reference. The game master must roll 2D and add it to the monster level (the highest one in the case of a group). Next, all adventurers make a success roll using ranger skill level + intelligence bonus as the baseline score. Subtrac
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04626))_
-
-<a id="atom-technical-atom-3901ff9cc3ad76d1"></a>
-```text
-Table 10-2: Surprise Attack Check
- included Table 10-2: Surprise Attack
-                                    Intelligence                                  Monster    Adventurer
- Check as a reference. The game master
-                                    None, almost none, obeys commands                     -6          +6
- must roll 2D and add it to the monster
-                                    Animal, low                                       -5          +7
- level (the highest one in the case of a
- group). Next, all adventurers make  a    Human                                           -4          +8
- success roll using ranger skill level +    High                                            -3          +9
- intelligence bonus as the baseline score.
- Subtract the monster's score from the
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| Intelligence | Monster | Adventurer |
-| --- | --- | --- |
-| None, almost none, obeys commands | -6 | +6 |
-| Animal, low | -5 | +7 |
-| group). Next, all adventurers make | a | Human |
-| success roll using ranger skill level + | High | -3 |
-
-</details>
-
-### Technical atom 8
+### Technical atom 7
 
 <a id="atom-technical-atom-db4114d3f15212aa"></a>
 
@@ -280,21 +244,19 @@ Table 10-2: Surprise Attack Check
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus.; Attacks From Characters Against Monsters shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (4 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction]] - shared statements and technical atoms: [ ⑤ Listen [Intelligence] ] (Equipment restriction) shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction): Rangers can listen to even the smallest sounds and can choose the sound they want to hear from a wide range of sounds. This is handed the same way as the thief's ability.; [ ⑤ Listen [Intelligence] ] (Equipment restriction) shares technical record from Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction): For example, when you walk through a ravine and see a pebble fall, you may feel like a landslide is about to occur, or you may feel an arrow flying from the darkness. (4 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements and technical atoms: 1.3.3 Adventurer Level shares source evidence from 10.3 Surprise Attacks: When encountering a monster, one of you may notice the other without them noticing you, allowing you to perform a surprise attack . This should also be determined by ... [truncated]; 1.3.3 Adventurer Level shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (3 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements and technical atoms: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus.; Attacks From Monsters Against Characters shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (3 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-search-intelligence-equipment-restriction-not-retriable]] - shared statements and technical atoms: [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable) shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ⑧ Search [Intelligence] ] (No equipment restriction, not retriable): This is the ability to search for hidden things. The game master should determine the difficulty depending on what's hidden. Since it's an ability that relies on fee ... [truncated]; [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable) shares technical record from Chapter 6: / 6.3 Ranger Skill / [ ⑧ Search [Intelligence] ] (No equipment restriction, not retriable): The game master should determine the difficulty depending on what's hidden. (2 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 
 - [[sword-world-rpg-complete-edition-thief-skill]] - shared statements: 【 Thief Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. (13 shared statement(s))
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (9 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. (4 shared statement(s))
 - [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus. (4 shared statement(s))
+- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from 10.3 Surprise Attacks: When encountering a monster, one of you may notice the other without them noticing you, allowing you to perform a surprise attack . This should also be determined by ... [truncated] (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction): The sage skill represents a comprehensive understanding and depth of knowledge in all academic fields. Academic fields in Sword World are undifferentiated, and owner ... [truncated] (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-10-mithril-silver-weapon]] - shared statements: 10 Mithril Silver Weapon shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor: Chain mail made of mithril silver does not inhibit bodily movement as much as that made of steel (but splint armor, lamellar armor, and plate armor still do ). Mithr ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-adventurer-skill]] - shared statements: Adventurer Skill shares source evidence from Chapter 7: / 7.1 Notes on General Skills / The Difference Between General Skills and Adventurer Skills: The reason for this is that the hunter skill is a general skill, while the ranger skill is, as precisely called, an adventurer skill. (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-hit-check]] - shared statements: 4.5.1 Hit Checks shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (1 shared statement(s))
 
 ## Source
 

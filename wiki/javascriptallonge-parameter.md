@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-parameter
 page_kind: concept
-summary: Parameter: 6 statement(s) and 13 atom(s) from raw/javascriptallonge.pdf.
+summary: Parameter: 6 statement(s) and 12 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-parameter@ed9269a8f8c818fa7c279ea28f14656c
+projection_coverage: topic-javascriptallonge-parameter@0add5bbbaa704b07da0b3f86371bcad1
 ---
 
 # Parameter
@@ -82,36 +82,6 @@ return diameter * PI;
 
 > Again, confusing. Typically, we want to bind our names as close to where we need them as possible. This design rule is called the Principle of Least Privilege 32 , and it has both quality and security implications. Being able to bind a name inside of a block means that if the name is only needed in the block, we are not 'leaking' its binding to other parts of the code that do not need to interact with it.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00467))_
-
-<a id="atom-technical-atom-fa9d38a0f871166d"></a>
-```
-if (true) {
-// an immediately invoked block statement (IIBS)
-}
-Let’s try it:
-((diameter) => {
-const PI = 3;
-if (true) {
-const PI = 3.14159265;
-return diameter * PI;
-}
-})(2)
-//=> 6.2831853
-((diameter) => {
-const PI = 3.14159265;
-if (true) {
-const PI = 3;
-}
-return diameter * PI;
-```
-
-### Technical frame 4: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
-
-> Again, confusing. Typically, we want to bind our names as close to where we need them as possible. This design rule is called the Principle of Least Privilege 32 , and it has both quality and security implications. Being able to bind a name inside of a block means that if the name is only needed in the block, we are not 'leaking' its binding to other parts of the code that do not need to interact with it.
-
 **Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00468))_
 
 <a id="atom-technical-atom-c164dd0fd5dca0c5"></a>
@@ -120,7 +90,7 @@ return diameter * PI;
 //=> 6.2831853
 ```
 
-### Technical frame 5: Recipes with Basic Functions / Left-Variadic Functions
+### Technical frame 4: Recipes with Basic Functions / Left-Variadic Functions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00702))_
 
@@ -141,7 +111,7 @@ abccc(1, 2, 3, 4, 5)
 [3,4,5]
 ```
 
-### Technical frame 6: Recipes with Basic Functions / Left-Variadic Functions / a history lesson
+### Technical frame 5: Recipes with Basic Functions / Left-Variadic Functions / a history lesson
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00714))_
 
@@ -170,7 +140,7 @@ firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
 //=> ["why",["hello","there","little","droid"]]
 ```
 
-### Technical frame 7: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
+### Technical frame 6: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00730))_
 
@@ -184,7 +154,7 @@ const [...butLast, last] = ['why', 'hello', 'there', 'little', 'droid'];
 //=> Unexpected token
 ```
 
-### Technical frame 8: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
+### Technical frame 7: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00732))_
 
@@ -210,7 +180,7 @@ last
 //=> 'droid'
 ```
 
-### Technical frame 9: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
+### Technical frame 8: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00858))_
 
@@ -225,7 +195,7 @@ bar("smaug")
 baz(1, 2, 3)
 ```
 
-### Technical frame 10: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
+### Technical frame 9: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00858))_
 
@@ -240,7 +210,7 @@ const bar = (name) => ...
 const baz = (a, b, c) => ...
 ```
 
-### Technical frame 11: Composing and Decomposing Data / default arguments
+### Technical frame 10: Composing and Decomposing Data / default arguments
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00990))_
 
@@ -264,7 +234,7 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 //=> [1,4,9,16,25]
 ```
 
-### Technical frame 12: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 11: Copy on Write / Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01341))_
 
@@ -277,7 +247,7 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 (first, second) => (selector) => selector(first)(second)
 ```
 
-### Technical frame 13: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 12: Copy on Write / Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01348))_
 
@@ -296,13 +266,13 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 ### Shared technical atoms
 
 - [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write / Making Data Out Of Functions / the vireo: Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. ... [truncated]; Copy on Write shares technical record from Copy on Write / Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-statement]] - shared technical atoms: Statement shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: if (true) { // an immediately invoked block statement (IIBS) } Let’s try it: ((diameter) => { const PI = 3; if (true) { const PI = 3.14159265; return diameter * PI; ... [truncated] (2 shared atom(s))
 - [[javascriptallonge-binding]] - shared statements and technical atoms: Binding shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope.; Binding shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((diameter) => { const PI = 3.14159265; (() => { const PI = 3; })(); return diameter * PI; })(2) //=> 6.2831853 (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-ecmascript]] - shared statements and technical atoms: Ecmascript shares source evidence from Recipes with Basic Functions / Left-Variadic Functions: ECMAScript 2015 only permits gathering parameters from the end of the parameter list. Not the beginning. What to do?; Ecmascript shares technical record from Recipes with Basic Functions / Left-Variadic Functions / a history lesson: var __slice = Array.prototype.slice; function rightVariadic (fn) { if (fn.length < 1) return fn; return function () { var ordinaryArgs = (1 <= arguments.length ? __s ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Composing and Decomposing Data / default arguments: By writing our parameter list as (n, work = 1) => , we're stating that if a second parameter is not provided, work is to be bound to 1 . We can do similar things wit ... [truncated]; List shares technical record from Composing and Decomposing Data / default arguments: const length = ([first, ...rest], numberToBeAdded = 0) => first === undefined ? numberToBeAdded : length(rest, 1 + numberToBeAdded) length(["foo", "bar", "baz"]) //= ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring: const leftGather = (outputArrayLength) => { return function (inputArray) { return [inputArray.slice(0, inputArray.length - outputArrayLength + 1)].conc\ at( inputArr ... [truncated] (1 shared atom(s))
 - [[javascriptallonge-array]] - shared technical atoms: Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters: const foo = () => ... const bar = (name) => ... const baz = (a, b, c) => ... (1 shared atom(s))
 - [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((diameter) => { const PI = 3.14159265; (() => { const PI = 3; })(); return diameter * PI; })(2) //=> 6.2831853 (1 shared atom(s))
+- [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from Copy on Write / Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared atom(s))
 
 ### Shared claims
 

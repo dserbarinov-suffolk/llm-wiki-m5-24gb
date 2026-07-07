@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-filling-character-sheet
 page_kind: concept
-summary: 1.4.9 Filling Out the Character Sheet: 128 statement(s) and 30 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4.9 Filling Out the Character Sheet: 128 statement(s) and 27 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-filling-character-sheet@3d14ec9b59c0a352b61b42dce4547ceb
+projection_coverage: topic-sword-world-rpg-complete-edition-filling-character-sheet@bcef6f850ffaa1700b38e7aa981812aa
 ---
 
 # 1.4.9 Filling Out the Character Sheet
@@ -465,64 +465,14 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-967f6e636bf667f6"></a>
 > If this spellsong is sung to the deceased for over an hour during their funeral, the deceased will never become undead.
 
-### Technical atom 26
-
-<a id="atom-technical-atom-fb62c1b93135c2fe"></a>
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03871))_
-
-> With this spellsong, a bard can make those they charm take specific actions. What you want them to do must be carefully woven into the lyrics. This weaving of lyrics must be in a language that is understandable to those who hear it (conversely, it does not have to be in high ancient). If forced to perform such an action, the charmed one can attempt
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03872))_
-
-```text
-Table 5-10: Requiem
- around the bard. It takes about 18 rounds
-                                     2D  Result
- to gather. If the summoned  small
-```
-
-### Technical atom 27
-
-<a id="atom-technical-atom-a3c690d138538970"></a>
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03871))_
-
-> With this spellsong, a bard can make those they charm take specific actions. What you want them to do must be carefully woven into the lyrics. This weaving of lyrics must be in a language that is understandable to those who hear it (conversely, it does not have to be in high ancient). If forced to perform such an action, the charmed one can attempt
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03873))_
-
-```text
-Table 5-10: Requiem
-2D Result
-2
-No effect.
-3-4 Movement slows down while the song continues. -1 to attack points and evasion points.
-5
-Movement slows down while the song continues. -2 to attack points and evasion points.
-6
-Movement slows down while the song continues. -3 to attack points and evasion points.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 2 | No effect. 3-4 Movement slows down while the song continues. -1 to attack points and evasion points. |
-| 5 | Movement slows down while the song continues. -2 to attack points and evasion points. |
-| 6 | Movement slows down while the song continues. -3 to attack points and evasion points. |
-
-</details>
-
 
 ## Related pages
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-46deb26a]] - source section: Spellsongs / Filling out the Character Sheet shares source evidence from Spellsongs / Filling out the Character Sheet: belongs to mind explained under 5.1.9: Magic Types (see p. 63). In other words, each one counters (overpowers): and cannot take an effect at the same time as magic o ... [truncated]; Spellsongs / Filling out the Character Sheet shares technical record from Spellsongs / Filling out the Character Sheet: In other words, each one counters (overpowers): and cannot take an effect at the same time as magic or other spellsongs that also belong to mind . (61 shared statement(s), 12 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-46deb26a]] - source section: Spellsongs / Filling out the Character Sheet shares source evidence from Spellsongs / Filling out the Character Sheet: belongs to mind explained under 5.1.9: Magic Types (see p. 63). In other words, each one counters (overpowers): and cannot take an effect at the same time as magic o ... [truncated]; Spellsongs / Filling out the Character Sheet shares technical record from Spellsongs / Filling out the Character Sheet: In other words, each one counters (overpowers): and cannot take an effect at the same time as magic or other spellsongs that also belong to mind . (61 shared statement(s), 10 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-fi-1b545431]] - source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: On the Character Sheet, there is a magic field. Characters with rune master skills must write their runes , skill level , and magic power in this field.; 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet shares technical record from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: Magic that is resistible can be rendered ineffective or less effective if the target chooses to resist . (30 shared statement(s), 16 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-3ba78d4e]] - source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet: The Character Sheet that accompanies this book is designed to record and list various character details. This will help keep the game running smoothly.; 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares technical record from Table 1-5: Backgrounds or Table 1-6: highest adventurer skill level. Write this: Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write this record and list various character details. Starting Experience by Race in the    nu ... [truncated] (20 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-3ba78d4e]] - source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet: The Character Sheet that accompanies this book is designed to record and list various character details. This will help keep the game running smoothly.; 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares technical record from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑥ Origin ]: If the character is a human or a halfelf raised by a human, Table 1-5: Backgrounds must be used to determine their origin. (20 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-filling-o-7519ce82]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: Please write these scores in the designated fields on the Character Sheet. This will make the game run more smoothly. (7 shared statement(s))
 - [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-filling-out-the-character-sheet-162b01bf]] - source section: 2.6 Success Rolls Using Adventurer Level / Resistance Rolls / Filling Out the Character Sheet shares source evidence from 2.6 Success Rolls Using Adventurer Level / Resistance Rolls / Filling Out the Character Sheet: The two resistance rolls are frequently performed. Therefore, it' s advisable to make a note of the baseline score ( resistance ) so that it is readily available. Th ... [truncated] (5 shared statement(s))
 

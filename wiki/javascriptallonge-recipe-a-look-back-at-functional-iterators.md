@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-a-look-back-at-functional-iterators
 page_kind: recipe
-summary: a look back at functional iterators: reusable source-backed pattern with 4 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: a look back at functional iterators: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: a-look-back-at-functional-iterators
-projection_coverage: recipe-javascriptallonge-recipe-a-look-back-at-functional-iterators@4e0929b92b0440f9e919a2cdaa2121c9
+projection_coverage: recipe-javascriptallonge-recipe-a-look-back-at-functional-iterators@8fd4f8e384cc4db48d666ecd5eb20e03
 ---
 
 # a look back at functional iterators
@@ -88,23 +88,6 @@ iter().value
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01506)_
-
-```
-The .iterator() method is defined with shorthand equivalent to iterator: function iterator()
-{ ... }. Note that it uses the function keyword, so when we invoke it with stack.iterator(),
-JavaScript sets this to the value of stack. But what about the function .iterator() returns? It is
-defined with a fat arrow () => { ... }. What is the value of this within that function?
-Since JavaScript doesn’t bind this within a fat arrow function, we follow the same rules of variable
-scoping as any other variable name: We check in the environment enclosing the function. Although
-the .iterator() method has returned, its environment is the one that encloses our () => { ...
-} function, and that’s where this is bound to the value of stack.
-Therefore, the iterator function returned by the .iterator() method has this bound to the stack
-object, even though we call it with iter().
-```
-
-### Atom 4: `code-block`
-
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01508)_
 
 ```
@@ -118,7 +101,7 @@ return sum
 }
 ```
 
-### Atom 5: `code-block`
+### Atom 4: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01510)_
 
@@ -131,7 +114,7 @@ iteratorSum(stack.iterator())
 //=> 6
 ```
 
-### Atom 6: `code-block`
+### Atom 5: `code-block`
 
 _Source: javascriptallonge.pdf (source-range-c98ab3e6-01512)_
 

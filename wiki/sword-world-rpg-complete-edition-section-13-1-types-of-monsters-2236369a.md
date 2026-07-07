@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-1-types-of-monsters-2236369a
 page_kind: source
-summary: 13.1 Types of Monsters: 4 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.1 Types of Monsters: 4 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-2236369a@9c14006996b42b4cfd25bc2fd0c3cc87
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-2236369a@c051f0c633bc2ee89683c9bc161cb5ab
 ---
 
 # 13.1 Types of Monsters
@@ -37,29 +37,3 @@ From [[sword-world-rpg-complete-edition]].
 
 - There are 12 types of monsters in Alecrast: fae , youma , spirits , titans , mythical beasts , magical beasts , animals , plants , undead , magical creatures , daemons , humans , and others . This is based on the types set by Laverna, the famous witch of Orphan, who compiled the Natural History of Alecrast . The meaning of each type are as follows. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05764))_
 - certain that spirits are involved in the activities of life itself. Poisons, illnesses, and mental attacks are all meaningless against spirits. Also, they will not be wounded even if attacked by the spirit power they control. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05765))_
-
-## Technical atoms
-
-### Technical frame 1: 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05805))_
-
-> In the underworld where daemons live, there are also animal-like creatures with low intellect. Sages say that they are comparable to the animals in our world, and claim that this is proof that there are multiple material worlds. These underworld creatures are far more dangerous than the animals of the material world, just as daemons are far more dangerous than humans.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05806))_
-
-<a id="atom-technical-atom-516fe491c8beda82"></a>
-```text
-13.2
-13.2 Monster Catalog
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 13 | 2 |
-| 13 | 2 Monster Catalog |
-
-</details>

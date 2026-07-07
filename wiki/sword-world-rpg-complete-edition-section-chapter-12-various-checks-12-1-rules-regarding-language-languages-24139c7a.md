@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-languages-24139c7a
 page_kind: source
-summary: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages: 17 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages: 16 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-languages-24139c7a@cc563c57eb3b7d0be6076c2ab57c5018
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-languages-24139c7a@5eb028561af3ad8243db21d4b50f970d
 ---
 
 # Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages
@@ -44,34 +44,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-950bb0b65cda7b7c"></a>
 > An owner of the sorcerer skill can read low ancient, so acquiring the sage skill will quickly allow you to learn new languages (if you can read common).
-
-### Technical frame 2: Table 12-1: Languages table below lists the languages used by
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05358))_
-
-> The languages that adventurers can learn are shown on Table 12-1: Languages.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05359))_
-
-<a id="atom-technical-atom-374966481697dee5"></a>
-| High | ancient | Yes | [ | Common | ] | Not | among | the | monsters | in | this | book |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Silent | spirit | No | Soldier (knight, | knight | leader) |  |  |  |  |  |  |  |
-| Holy | prayer/daemon | scream* Yes |  |  |  |  |  |  |  |  |  |  |
-| Dragon | roar | No |  |  |  |  |  | [ | Imp | ] |  |  |
-| High | giant** | No | [ | Regional | ] | Imp, | gremlin, |  | marshman |  |  |  |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 12-1: Languages table below lists the languages used by
-| High | ancient | Yes | [ | Common | ] | Not | among | the | monsters | in | this | book |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Silent | spirit | No | Soldier (knight, | knight | leader) |  |  |  |  |  |  |  |
-| Holy | prayer/daemon | scream* Yes |  |  |  |  |  |  |  |  |  |  |
-| Dragon | roar | No |  |  |  |  |  | [ | Imp | ] |  |  |
-| High | giant** | No | [ | Regional | ] | Imp, | gremlin, |  | marshman |  |  |  |
-```
-
-</details>

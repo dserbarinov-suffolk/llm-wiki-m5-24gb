@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-3ea5e6e1
 page_kind: source
-summary: 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks: 15 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks: 14 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-3ea5e6e1@281fafbfb6fb64de02be2e0e22838aab
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-3ea5e6e1@b28cd4889116d693e4e45aaae1e82739
 ---
 
 # 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks
@@ -35,36 +35,3 @@ From [[sword-world-rpg-complete-edition]].
 - Bucky dodges Ducard II's attack, then counterattacks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01353))_
 - Bucky then determines the damage he deals. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01354))_
 - After adding his damage reduction of 2 , 3+2= 5 points is the final amount of damage Ducard II is able to reduce. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01355))_
-
-## Technical atoms
-
-### Technical frame 1: Table 4-4: Attack Checks
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01357))_
-
-<a id="atom-technical-atom-974438dff2cea6ae"></a>
-```text
-Table 4-4: Attack Checks
- hits
-                                    determine damage. This procedure is
-                                                                                         Defender's Roll
-  attacker's attack power  +  2D  ≤
-                                    exactly the same for characters as it was
- defender's evasion speed +2D  → attack                                                    Double        Double
-                                    during combat with monsters.                               3～11
-                                                                                      Ones         Sixes
- fails
-                                       The attacker must make a strike roll
-                                                                               Double Attack Attack Attack
-                                    to determine their base damage, then
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| defender's evasion speed +2D | → attack | Double | Double |
-| --- | --- | --- | --- |
-| during combat with monsters. | 3～11 |  |  |
-| Ones | Sixes |  |  |
-
-</details>

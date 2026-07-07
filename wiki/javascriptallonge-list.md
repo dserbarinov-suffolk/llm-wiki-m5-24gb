@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-list
 page_kind: concept
-summary: List: 21 statement(s) and 48 atom(s) from raw/javascriptallonge.pdf.
+summary: List: 21 statement(s) and 38 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-list@d7cab81838b954798f5f3d417abad716
+projection_coverage: topic-javascriptallonge-list@c054fd1b8dd3a4b4d7e04e3a2acbb9ca
 ---
 
 # List
@@ -83,132 +83,7 @@ What [[javascriptallonge]] covers about list:
 
 ## Technical atoms
 
-### Technical frame 1: Or even: / back on the block
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00237))_
-
-> But no matter how we arrange them, a block with one or more expressions still evaluates to undefined :
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00238))_
-
-<a id="atom-technical-atom-bb398f7a1ecce0a5"></a>
-```text
-//=> undefined
-We said that the function returns the result of evaluating a block, and we said that a block is a
-(possibly empty) list of JavaScript statements separated by semicolons.21
-Something like: { statement1; statement2; statement3; ... ; statementn }
-We haven’t discussed these statements. What’s a statement?
-There are many kinds of JavaScript statements, but the first kind is one we’ve already met. An
-expression is a JavaScript statement. Although they aren’t very practical, these are valid JavaScript
-functions, and they return undefined when applied:
-() => { 2 + 2 }
-() => { 1 + 1; 2 + 2 }
-As we saw with commas above, we can rearrange these functions onto multiple lines when we feel
-its more readable that way:
-() => {
-1 + 1;
-2 + 2
-}
-But no matter how we arrange them, a block with one or more expressions still evaluates to
-undefined:
-(() => { 2 + 2 })()
-//=> undefined
-(() => { 1 + 1; 2 + 2 })()
-//=> undefined
-(() => {
-1 + 1;
-2 + 2
-})()
-//=> undefined
-As you can see, a block with one expression does not behave like an expression, and a block with
-more than one expression does not behave like an expression constructed with the comma operator:
-21You can also separate statements with line breaks. Readers who follow internet flame-fests may be aware of something called automatic semi-
-colon insertion. Basically, there’s a step where JavaScript looks at your code and follows some rules to guess where you meant to put semicolons in
-should you leave them out. This feature was originally created as a kind of helpful error-correction. Some programmers argue that since it’s part of
-the language’s definition, it’s fair game to write code that exploits it, so they deliberately omit any semicolon that JavaScript will insert for them.
-The first sip: Basic Functions
-14
-(() => 2 + 2)()
-//=> 4
-(() => { 2 + 2 })()
-//=> undefined
-(() => (1 + 1, 2 + 2))()
-//=> 4
-(() => { 1 + 1; 2 + 2 })()
-//=> undefined
-So how do we get a function that evaluates a block to return a value when applied? With the return
-keyword and any expression:
-(() => { return 0 })()
-//=> 0
-(() => { return 1 })()
-//=> 1
-(() => { return 'Hello ' + 'World' })()
-// 'Hello World'
-The return keyword creates a return statement that immediately terminates the function application
-and returns the result of evaluating its expression. For example:
-(() => {
-1 + 1;
-return 2 + 2
-})()
-//=> 4
-And also:
-(() => {
-return 1 + 1;
-2 + 2
-})()
-//=> 2
-The return statement is the first statement we’ve seen, and it behaves differently than an expression.
-For example, you can’t use one as the expression in a simple function, because it isn’t an expression:
-The first sip: Basic Functions
-15
-(() => return 0)()
-//=> ERROR
-Statements belong inside blocks and only inside blocks. Some languages simplify this by making
-everything an expression, but JavaScript maintains this distinction, so when learning JavaScript we
-also learn about statements like function declarations, for loops, if statements, and so forth. We’ll
-see a few more of these later.
-functions that evaluate to functions
-If an expression that evaluates to a function is, well, an expression, and if a return statement can
-have any expression on its right side… Can we put an expression that evaluates to a function on the
-right side of a function expression?
-Yes:
-() => () => 0
-That’s a function! It’s a function that when applied, evaluates to a function that when applied,
-evaluates to 0. So we have a function, that returns a function, that returns zero. Likewise:
-() => () => true
-That’s a function, that returns a function, that returns true:
-(() => () => true)()()
-//=> true
-We could, of course, do the same thing with a block if we wanted:
-() => () => { return true; }
-But we generally don’t.
-Well. We’ve been very clever, but so far this all seems very abstract. Diffraction of a crystal is
-beautiful and interesting in its own right, but you can’t blame us for wanting to be shown a practical
-use for it, like being able to determine the composition of a star millions of light years away. So… In
-the next chapter, “I’d Like to Have an Argument, Please,” we’ll see how to make functions practical.
-The first sip: Basic Functions
-16
-Ah. I’d Like to Have an Argument, Please.22
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 1 | + 1; |
-| 2 | + 2 But no matter how we arrange them, a block with one or more expressions still evaluates to undefined: (() => {2 + 2})() //=> undefined (() => {1 + 1; 2 + 2})() //=> undefined |
-| 1 | + 1; |
-| 2 | + 2 //=> undefined As you can see, a block with one expression does not behave like an expression, and a block with more than one expression does not behave like an expression constructed with the comma operator: 21You can also separate statements with line breaks. Readers who follow internet flame-fests may be aware of something called automatic semi- colon insertion. Basically, there’s a step where JavaScript looks at your code and follows some rules to guess where you meant to put semicolons in should you leave them out. This feature was originally created as a kind of helpful error-correction. Some programmers argue that since it’s part of the language’s definition, it’s fair game to write code that exploits it, so they deliberately omit any semicolon that JavaScript will insert for them. |
-| 14 | The first sip: Basic Functions (() => 2 + 2)() //=> 4 (() => {2 + 2})() //=> undefined (() => (1 + 1, 2 + 2))() //=> 4 (() => {1 + 1; 2 + 2})() //=> undefined So how do we get a function that evaluates a block to return a value when applied? With the return keyword and any expression: (() => {return 0})() //=> 0 (() => {return 1})() //=> 1 (() => {return 'Hello ' + 'World'})() // 'Hello World' The return keyword creates a return statement that immediately terminates the function application and returns the result of evaluating its expression. For example: |
-| 1 | + 1; return 2 + 2 //=> 4 return 1 + 1; |
-| 2 | And also: + 2 //=> 2 The return statement is the first statement we’ve seen, and it behaves differently than an expression. For example, you can’t use one as the expression in a simple function, because it isn’t an expression: |
-| 15 | The first sip: Basic Functions (() => return 0)() //=> ERROR Statements belong inside blocks and only inside blocks. Some languages simplify this by making everything an expression, but JavaScript maintains this distinction, so when learning JavaScript we also learn about statements like function declarations, for loops, if statements, and so forth. We’ll see a few more of these later. functions that evaluate to functions If an expression that evaluates to a function is, well, an expression, and if a return statement can have any expression on its right side… Can we put an expression that evaluates to a function on the right side of a function expression? Yes: () => () => 0 That’s a function! It’s a function that when applied, evaluates to a function that when applied, evaluates to 0. So we have a function, that returns a function, that returns zero. Likewise: () => () => true That’s a function, that returns a function, that returns true: (() => () => true)()() //=> true We could, of course, do the same thing with a block if we wanted: () => () => {return true;} But we generally don’t. Well. We’ve been very clever, but so far this all seems very abstract. Diffraction of a crystal is beautiful and interesting in its own right, but you can’t blame us for wanting to be shown a practical use for it, like being able to determine the composition of a star millions of light years away. So… In the next chapter, “I’d Like to Have an Argument, Please,” we’ll see how to make functions practical. |
-| 16 | The first sip: Basic Functions Ah. I’d Like to Have an Argument, Please.22 |
-
-</details>
-
-### Technical frame 2: Recipes with Basic Functions / Partial Application
+### Technical frame 1: Recipes with Basic Functions / Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00645))_
 
@@ -236,31 +111,7 @@ sayHelloToCeline('Eartha')
 //=> 'Hello, Celine, my name is Eartha'
 ```
 
-### Technical frame 3: Recipes with Basic Functions / Partial Application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00648))_
-
-> We take it a step further, and can use gathering and spreading to allow for partial application with more than one argument:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00646))_
-
-<a id="atom-technical-atom-695bbaa3f7cd2b31"></a>
-```text
-45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 45 | https://github.com/fogus/lemonad |
-| 46 | http://osteele.com/sources/javascript/functional/ |
-| 47 | https://github.com/substack/node-ap 48 |
-
-</details>
-
-### Technical frame 4: Composing and Decomposing Data / Self-Similarity
+### Technical frame 2: Composing and Decomposing Data / Self-Similarity
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00872))_
 
@@ -280,63 +131,7 @@ sayHelloToCeline('Eartha')
 //=> ["foo","bar","baz"]
 ```
 
-### Technical frame 5: Composing and Decomposing Data / Self-Similarity
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00877))_
-
-> Armed with our definition of an empty list and with what we've already learned, we can build a great many functions that operate on arrays. We know that we can get the length of an array using its .length . But as an exercise, how would we write a length function using just what we have already?
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00875))_
-
-<a id="atom-technical-atom-335bb0c71c306c75"></a>
-```
-const [first, ...rest] = [];
-first
-//=> undefined
-rest
-//=> []:
-const [first, ...rest] = ["foo"];
-first
-//=> "foo"
-rest
-//=> []
-const [first, ...rest] = ["foo", "bar"];
-first
-//=> "foo"
-rest
-//=> ["bar"]
-const [first, ...rest] = ["foo", "bar", "baz"];
-first
-//=> "foo"
-rest
-//=> ["bar","baz"]
-For the purpose of this exploration, we will presume the following:61
-const isEmpty = ([first, ...rest]) => first === undefined;
-```
-
-### Technical frame 6: Composing and Decomposing Data / Self-Similarity
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00884))_
-
-> Our length function is recursive , it calls itself. This makes sense because our definition of a list is recursive, and if a list is self-similar, it is natural to create an algorithm that is also self-similar.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00882))_
-
-<a id="atom-technical-atom-daf22a203c62c1eb"></a>
-```
-const length = ([first, ...rest]) =>
-first === undefined
-? 0
-: 1 + length(rest);
-Let’s try it!
-length([])
-//=> 0
-length(["foo"])
-//=> 1
-length(["foo", "bar", "baz"])
-```
-
-### Technical frame 7: Composing and Decomposing Data / Self-Similarity
+### Technical frame 3: Composing and Decomposing Data / Self-Similarity
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00884))_
 
@@ -349,7 +144,7 @@ length(["foo", "bar", "baz"])
 //=> 3
 ```
 
-### Technical frame 8: Composing and Decomposing Data / Self-Similarity / mapping
+### Technical frame 4: Composing and Decomposing Data / Self-Similarity / mapping
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00910))_
 
@@ -367,7 +162,7 @@ squareAll([1, 2, 3, 4, 5])
 //=> [1,4,9,16,25]
 ```
 
-### Technical frame 9: Composing and Decomposing Data / Self-Similarity / mapping
+### Technical frame 5: Composing and Decomposing Data / Self-Similarity / mapping
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00910))_
 
@@ -384,7 +179,7 @@ truthyAll([null, true, 25, false, "foo"])
 //=> [false,true,true,false,true]
 ```
 
-### Technical frame 10: Composing and Decomposing Data / Self-Similarity / folding
+### Technical frame 6: Composing and Decomposing Data / Self-Similarity / folding
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00925))_
 
@@ -401,7 +196,7 @@ sumSquares([1, 2, 3, 4, 5])
 //=> 55
 ```
 
-### Technical frame 11: Composing and Decomposing Data / default arguments
+### Technical frame 7: Composing and Decomposing Data / default arguments
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00990))_
 
@@ -425,7 +220,7 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 //=> [1,4,9,16,25]
 ```
 
-### Technical frame 12: Garbage, Garbage Everywhere / some history
+### Technical frame 8: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01021))_
 
@@ -438,7 +233,7 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 const oneToFive = cons(1, cons(2, cons(3, cons(4, cons(5, null)))));
 ```
 
-### Technical frame 13: Garbage, Garbage Everywhere / some history
+### Technical frame 9: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01021))_
 
@@ -452,7 +247,7 @@ oneToFive
 //=> [1,[2,[3,[4,[5,null]]]]]
 ```
 
-### Technical frame 14: Garbage, Garbage Everywhere / some history
+### Technical frame 10: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01021))_
 
@@ -470,7 +265,7 @@ node1 = [1, node2];
 const oneToFive = node1;
 ```
 
-### Technical frame 15: Garbage, Garbage Everywhere / some history
+### Technical frame 11: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01023))_
 
@@ -484,7 +279,7 @@ car(oneToFive)
 //=> 1
 ```
 
-### Technical frame 16: Garbage, Garbage Everywhere / some history
+### Technical frame 12: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01026))_
 
@@ -498,7 +293,7 @@ cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
 ```
 
-### Technical frame 17: Garbage, Garbage Everywhere / so why arrays
+### Technical frame 13: Garbage, Garbage Everywhere / so why arrays
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01035))_
 
@@ -509,7 +304,7 @@ cdr(oneToFive)
 <a id="atom-technical-atom-2f4e99e8f46abfbf"></a>
 > And if you want an arbitrary item from a list, you have to iterate through the list element by element, whereas with the indexed array you just fetch it.
 
-### Technical frame 18: Garbage, Garbage Everywhere / so why arrays
+### Technical frame 14: Garbage, Garbage Everywhere / so why arrays
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01036))_
 
@@ -520,21 +315,7 @@ cdr(oneToFive)
 <a id="atom-technical-atom-557e4bd3a4b86aac"></a>
 > We have avoided discussing rebinding and mutating values, but if we want to change elements of our lists, the naïve linked list implementation suffers as well: When we take the cdr of a linked list, we are sharing the elements.
 
-### Technical frame 19: Plain Old JavaScript Objects
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01044))_
-
-> Remembering that the name is the first item is error-prone, and being expected to look at user[0][1] and know that we are talking about a surname is unreasonable. So back when lists were the only things available, programmers would introduce constants to make things easier on themselves:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01042))_
-
-<a id="atom-technical-atom-43f8a421c1d63b62"></a>
-```
-const remember = ["the milk", "the coffee beans", "the biscotti"];
-And they can be used to store heterogeneous things in various levels of structure:
-```
-
-### Technical frame 20: Plain Old JavaScript Objects
+### Technical frame 15: Plain Old JavaScript Objects
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01044))_
 
@@ -548,7 +329,7 @@ const user = [["Reginald", "Braithwaite"],[ "author", ["JavaScript Allongé", "J
 vaScript Spessore", "CoffeeScript Ristretto"]]];
 ```
 
-### Technical frame 21: Plain Old JavaScript Objects
+### Technical frame 16: Plain Old JavaScript Objects
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01046))_
 
@@ -568,7 +349,7 @@ const user = [["Reginald", "Braithwaite"],[ "author", ["JavaScript Allongé", "J
 vaScript Spessore", "CoffeeScript Ristretto"]]];
 ```
 
-### Technical frame 22: Plain Old JavaScript Objects / revisiting linked lists
+### Technical frame 17: Plain Old JavaScript Objects / revisiting linked lists
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01085))_
 
@@ -585,7 +366,7 @@ cdr
 = ([a, d]) => d;
 ```
 
-### Technical frame 23: Plain Old JavaScript Objects / revisiting linked lists
+### Technical frame 18: Plain Old JavaScript Objects / revisiting linked lists
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01088))_
 
@@ -600,35 +381,7 @@ In that case, a linked list of the numbers 1, 2, and 3 will look like this: { fi
 We can then perform the equivalent of [first, ...rest] with direct property accessors:
 ```
 
-### Technical frame 24: Plain Old JavaScript Objects / revisiting linked lists
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01088))_
-
-> What about mapping? Well, let's start with the simplest possible thing, making a copy of a list. As we saw above, and discussed in Garbage, Garbage Everywhere, it is fast to iterate forward through a linked list. What isn't fast is naïvely copying a list:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01087))_
-
-<a id="atom-technical-atom-047a1c592c0a9923"></a>
-```
-const EMPTY = {};
-const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
-} } };
-OneTwoThree.first
-//=> 1
-OneTwoThree.rest
-//=> {"first":2,"rest":{"first":3,"rest":{}}}
-OneTwoThree.rest.rest.first
-//=> 3
-Taking the length of a linked list is easy:
-const length = (node, delayed = 0) =>
-node === EMPTY
-? delayed
-: length(node.rest, delayed + 1);
-length(OneTwoThree)
-//=> 3
-```
-
-### Technical frame 25: Plain Old JavaScript Objects / revisiting linked lists
+### Technical frame 19: Plain Old JavaScript Objects / revisiting linked lists
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01090))_
 
@@ -646,41 +399,7 @@ slowcopy(OneTwoThree)
 //=> {"first":1,"rest":{"first":2,"rest":{"first":3,"rest":{}}}}
 ```
 
-### Technical frame 26: Plain Old JavaScript Objects / revisiting linked lists
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01095))_
-
-> Our mapWith function takes twice as long as a straight iteration, because it iterates over the entire list twice, once to map, and once to reverse the list. Likewise, it takes twice as much memory, because it constructs a reverse of the desired result before throwing it away.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01094))_
-
-<a id="atom-technical-atom-a82a801d0c424fdd"></a>
-```
-const reverse = (node, delayed = EMPTY) =>
-node === EMPTY
-? delayed
-: reverse(node.rest, { first: node.first, rest: delayed });
-And now, we can make a reversing map:
-const reverseMapWith = (fn, node, delayed = EMPTY) =>
-node === EMPTY
-? delayed
-: reverseMapWith(fn, node.rest, { first: fn(node.first), rest: delayed });
-reverseMapWith((x) => x * x, OneTwoThree)
-//=> {"first":9,"rest":{"first":4,"rest":{"first":1,"rest":{}}}}
-And a regular mapWith follows:
-const reverse = (node, delayed = EMPTY) =>
-node === EMPTY
-? delayed
-: reverse(node.rest, { first: node.first, rest: delayed });
-const mapWith = (fn, node, delayed = EMPTY) =>
-node === EMPTY
-? reverse(delayed)
-: mapWith(fn, node.rest, { first: fn(node.first), rest: delayed });
-mapWith((x) => x * x, OneTwoThree)
-//=> {"first":1,"rest":{"first":4,"rest":{"first":9,"rest":{}}}}
-```
-
-### Technical frame 27: Mutation / building with mutation
+### Technical frame 20: Mutation / building with mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01131))_
 
@@ -697,7 +416,7 @@ node === EMPTY
 const copy = (node) => reverse(reverse(node));
 ```
 
-### Technical frame 28: Mutation / building with mutation
+### Technical frame 21: Mutation / building with mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01133))_
 
@@ -725,7 +444,7 @@ return copy(node.rest, head, newNode);
 }
 ```
 
-### Technical frame 29: Copy on Write
+### Technical frame 22: Copy on Write
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01207))_
 
@@ -736,7 +455,7 @@ return copy(node.rest, head, newNode);
 <a id="atom-technical-atom-b34cb1ee5a282e9c"></a>
 > The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array.
 
-### Technical frame 30: Copy on Write
+### Technical frame 23: Copy on Write
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01207))_
 
@@ -747,7 +466,7 @@ return copy(node.rest, head, newNode);
 <a id="atom-technical-atom-575252d5f4b2c744"></a>
 > Whereas if you have a linked list, and you take it's 'rest,' your 'child' list shares its nodes with the 'parent' list.
 
-### Technical frame 31: Copy on Write / a few utilities
+### Technical frame 24: Copy on Write / a few utilities
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01212))_
 
@@ -795,7 +514,7 @@ const parentList = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY }
 }};
 ```
 
-### Technical frame 32: Copy on Write / a few utilities
+### Technical frame 25: Copy on Write / a few utilities
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01212))_
 
@@ -815,7 +534,7 @@ childList
 //=> {"first":"two","rest":{"first":"three","rest":{"first":{},"rest":{}}}}
 ```
 
-### Technical frame 33: Copy on Write / a few utilities / copy-on-read
+### Technical frame 26: Copy on Write / a few utilities / copy-on-read
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01216))_
 
@@ -838,7 +557,7 @@ childList
 //=> {"first":"two","rest":{"first":3,"rest":{"first":{},"rest":{}}}}
 ```
 
-### Technical frame 34: Copy on Write / a few utilities / copy-on-write
+### Technical frame 27: Copy on Write / a few utilities / copy-on-write
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01224))_
 
@@ -860,7 +579,7 @@ const newParentList = set(2, "three", parentList);
 const newChildList = set(0, "two", childList);
 ```
 
-### Technical frame 35: Copy on Write / a few utilities / copy-on-write
+### Technical frame 28: Copy on Write / a few utilities / copy-on-write
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01224))_
 
@@ -877,7 +596,7 @@ childList
 //=> {"first":2,"rest":{"first":3,"rest":{"first":{},"rest":{}}}}
 ```
 
-### Technical frame 36: Copy on Write / a few utilities / copy-on-write
+### Technical frame 29: Copy on Write / a few utilities / copy-on-write
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01226))_
 
@@ -894,7 +613,7 @@ newChildList
 //=> {"first":"two","rest":{"first":3,"rest":{"first":{},"rest":{}}}}
 ```
 
-### Technical frame 37: Copy on Write / Functional Iterators / iterating
+### Technical frame 30: Copy on Write / Functional Iterators / iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01270))_
 
@@ -928,7 +647,7 @@ const {first, rest} = aPair;
 aPair = aPair.rest;
 ```
 
-### Technical frame 38: Copy on Write / Functional Iterators / iterating
+### Technical frame 31: Copy on Write / Functional Iterators / iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01270))_
 
@@ -954,7 +673,7 @@ iteratorSum(aListIterator)
 //=> 55
 ```
 
-### Technical frame 39: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 32: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01278))_
 
@@ -979,7 +698,7 @@ fromOne().value;
 //=> 5
 ```
 
-### Technical frame 40: Copy on Write / Making Data Out Of Functions
+### Technical frame 33: Copy on Write / Making Data Out Of Functions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01304))_
 
@@ -1006,7 +725,7 @@ length(OneTwoThree)
 //=> 3
 ```
 
-### Technical frame 41: Copy on Write / Making Data Out Of Functions / lists with functions as data
+### Technical frame 34: Copy on Write / Making Data Out Of Functions / lists with functions as data
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01359))_
 
@@ -1030,7 +749,7 @@ first(rest(rest(l123)))
 //=3
 ```
 
-### Technical frame 42: Copy on Write / Making Data Out Of Functions / say 'please'
+### Technical frame 35: Copy on Write / Making Data Out Of Functions / say 'please'
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01368))_
 
@@ -1046,7 +765,7 @@ const length = (list) => list(
 );
 ```
 
-### Technical frame 43: Copy on Write / Making Data Out Of Functions / say 'please'
+### Technical frame 36: Copy on Write / Making Data Out Of Functions / say 'please'
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01371))_
 
@@ -1067,66 +786,7 @@ const first = (list) => list(
 const rest = (list) => list(
 ```
 
-### Technical frame 44: Copy on Write / Making Data Out Of Functions / say 'please'
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01371))_
-
-> We can write reverse and mapWith as well. We aren't being super-strict about emulating combinatory logic, we'll use default parameters:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01370))_
-
-<a id="atom-technical-atom-e4bdef73b9660258"></a>
-```
-() => "ERROR: Can't take first of an empty list",
-(aPair) => aPair(pairRest)
-);
-const length = (list) => list(
-() => 0,
-(aPair) => 1 + length(aPair(pairRest)))
-);
-We’ll also write a handy list printer:
-const print = (list) => list(
-() => "",
-(aPair) => `${aPair(pairFirst)} ${print(aPair(pairRest))}`
-);
-How would all this work? Let’s start with the obvious. What is an empty list?
-const EMPTYLIST = (whenEmpty, unlessEmpty) => whenEmpty()
-And what is a node of a list?
-const node = (x) => (y) =>
-(whenEmpty, unlessEmpty) => unlessEmpty(pair(x)(y));
-Let’s try it:
-const l123 = node(1)(node(2)(node(3)(EMPTYLIST)));
-print(l123)
-//=> 1 2 3
-```
-
-### Technical frame 45: Copy on Write / Making Data Out Of Functions / functions are not the real point
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01379))_
-
-> Knowing how to make a list out of just functions is a little like knowing that photons are the Gauge Bosons 81 of the electromagnetic force. It's the QED of physics that underpins the Maxwell's Equations of programming. Deeply important, but not practical when you're building a bridge.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01380))_
-
-<a id="atom-technical-atom-f2ed9b6962a2b6bc"></a>
-```text
-79 https://en.wikipedia.org/wiki/Church_encoding
-81 https://en.wikipedia.org/wiki/Gauge_boson
-80 https://en.wikipedia.org/wiki/Surreal_number
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 79 | https://en.wikipedia.org/wiki/Church_encoding |
-| 81 | https://en.wikipedia.org/wiki/Gauge_boson |
-| 80 | https://en.wikipedia.org/wiki/Surreal_number |
-
-</details>
-
-### Technical frame 46: Copy on Write / Making Data Out Of Functions / a return to backward thinking
+### Technical frame 37: Copy on Write / Making Data Out Of Functions / a return to backward thinking
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01390))_
 
@@ -1142,7 +802,7 @@ const length = (list) => list(
 );
 ```
 
-### Technical frame 47: Copy on Write / Making Data Out Of Functions / a return to backward thinking
+### Technical frame 38: Copy on Write / Making Data Out Of Functions / a return to backward thinking
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01393))_
 
@@ -1163,14 +823,14 @@ node === EMPTY
 
 ### Shared technical atoms
 
-- [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (7 shared statement(s), 19 shared atom(s))
-- [[javascriptallonge-copy]] - shared statements and technical atoms: Copy shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Copy shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (2 shared statement(s), 8 shared atom(s))
+- [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (7 shared statement(s), 17 shared atom(s))
 - [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's convert our rules to array literals. The first rule is simple: [] is a list. How about the second rule? We can express that using a spread. Given an element e ... [truncated]; Element shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (3 shared statement(s), 6 shared atom(s))
-- [[javascriptallonge-data]] - shared statements and technical atoms: Data shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's be more specific. Some data structures, like lists, can obviously be seen as a collection of items. Some are empty, some have three items, some forty-two, some ... [truncated]; Data shares technical record from Garbage, Garbage Everywhere / some history: car(oneToFive) //=> 1 (1 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Or even: / back on the block: 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48 (4 shared atom(s))
+- [[javascriptallonge-copy]] - shared statements and technical atoms: Copy shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Copy shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (2 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-data]] - shared statements and technical atoms: Data shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's be more specific. Some data structures, like lists, can obviously be seen as a collection of items. Some are empty, some have three items, some forty-two, some ... [truncated]; Data shares technical record from Garbage, Garbage Everywhere / some history: car(oneToFive) //=> 1 (1 shared statement(s), 4 shared atom(s))
 - [[javascriptallonge-structure]] - shared statements and technical atoms: Structure shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's be more specific. Some data structures, like lists, can obviously be seen as a collection of items. Some are empty, some have three items, some forty-two, some ... [truncated]; Structure shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-functional-iterator]] - shared technical atoms: Functional Iterators shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (3 shared atom(s))
 - [[javascriptallonge-reference]] - shared technical atoms: Reference shares technical record from Garbage, Garbage Everywhere / some history: const node5 = [5,null], node4 = [4, node5], node3 = [3, node4], node2 = [2, node3], node1 = [1, node2]; const oneToFive = node1; (3 shared atom(s))
+- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Garbage, Garbage Everywhere / some history: const node5 = [5,null], node4 = [4, node5], node3 = [3, node4], node2 = [2, node3], node1 = [1, node2]; const oneToFive = node1; (2 shared atom(s))
 
 ## Source
 

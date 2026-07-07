@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-served-by-the-pot-collections-generating-iterables-yielding-iterables-89322869
 page_kind: source
-summary: Served by the Pot: Collections / Generating Iterables / yielding iterables: 17 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
+summary: Served by the Pot: Collections / Generating Iterables / yielding iterables: 15 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-yielding-iterables-89322869@97dfcb9ce196720d976c015cc28c8914
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-yielding-iterables-89322869@f0f09e10cf2e29ad61c91b9ecbb065a6
 ---
 
 # Served by the Pot: Collections / Generating Iterables / yielding iterables
@@ -111,94 +111,3 @@ console.log(i);
 4
 5
 ```
-
-### Technical frame 4: Served by the Pot: Collections / Generating Iterables / yielding iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01710))_
-
-> append iterates over a collection of iterables, one element at a time. Things like arrays can be easily catenated, but append iterates lazily, so there's no need to construct intermediary results.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01716))_
-
-<a id="atom-technical-atom-973b2255b0347893"></a>
-```text
-else {
-yield e;
-}
-}
-};
-for (const i of tree([1, [2, [3, 4], 5]])) {
-console.log(i);
-}
-//=>
-1
-2
-3
-4
-5
-yield* is handy when writing generator functions that operate on or create iterables.
-rewriting iterable operations
-Now that we know about iterables, we can rewrite our iterable operations as generators. Instead of:
-Served by the Pot: Collections
-221
-const mapWith = (fn, iterable) =>
-({
-[Symbol.iterator]: () => {
-const iterator = iterable[Symbol.iterator]();
-return {
-next: () => {
-const {done, value} = iterator.next();
-return ({done, value: done ? undefined : fn(value)});
-}
-}
-}
-});
-We can write:
-function * mapWith (fn, iterable) {
-for (const element of iterable) {
-yield fn(element);
-}
-}
-No need to explicitly construct an object that has a [Symbol.iterator] method. No need to return
-an object with a .next() method. No need to fool around with {done} or {value}, just yield values
-until we’re done.
-We can do the same thing with our other operations like filterWith and untilWith. Here’re our
-iterable methods rewritten as generators:
-function * mapWith(fn, iterable) {
-for (const element of iterable) {
-yield fn(element);
-}
-}
-function * filterWith (fn, iterable) {
-for (const element of iterable) {
-if (!!fn(element)) yield element;
-}
-}
-Served by the Pot: Collections
-222
-function * untilWith (fn, iterable) {
-for (const element of iterable) {
-if (fn(element)) break;
-yield fn(element);
-}
-}
-first works directly with iterators and remains unchanged, but rest can be rewritten as a generator:
-const first = (iterable) =>
-iterable[Symbol.iterator]().next().value;
-function * rest (iterable) {
-const iterator = iterable[Symbol.iterator]();
-iterator.next();
-yield * iterator;
-}
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 5 | yield* is handy when writing generator functions that operate on or create iterables. rewriting iterable operations Now that we know about iterables, we can rewrite our iterable operations as generators. Instead of: |
-| 221 | Served by the Pot: Collections const mapWith = (fn, iterable) => [Symbol.iterator]: () => { const iterator = iterable[Symbol.iterator](); return { next: () => { const {done, value} = iterator.next(); return ({done, value: done? undefined: fn(value)}); We can write: function * mapWith (fn, iterable) { for (const element of iterable) { yield fn(element); No need to explicitly construct an object that has a [Symbol.iterator] method. No need to return an object with a.next() method. No need to fool around with {done} or {value}, just yield values until we’re done. We can do the same thing with our other operations like filterWith and untilWith. Here’re our iterable methods rewritten as generators: function * mapWith(fn, iterable) { for (const element of iterable) { yield fn(element); function * filterWith (fn, iterable) { for (const element of iterable) { if (!!fn(element)) yield element; |
-| 222 | Served by the Pot: Collections function * untilWith (fn, iterable) { for (const element of iterable) { if (fn(element)) break; yield fn(element); first works directly with iterators and remains unchanged, but rest can be rewritten as a generator: const first = (iterable) => iterable[Symbol.iterator]().next().value; function * rest (iterable) { const iterator = iterable[Symbol.iterator](); iterator.next(); yield * iterator; |
-
-</details>

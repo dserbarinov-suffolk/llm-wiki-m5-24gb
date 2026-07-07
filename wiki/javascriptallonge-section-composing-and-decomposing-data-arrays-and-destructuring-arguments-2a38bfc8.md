@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8
 page_kind: source
-summary: Composing and Decomposing Data / Arrays and Destructuring Arguments: 6 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+summary: Composing and Decomposing Data / Arrays and Destructuring Arguments: 6 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8@49457cf46a1a312a37fb357e8d623fa2
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8@a97e11467068b5c168cdd9bc7f4d14ef
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments
@@ -37,29 +37,3 @@ From [[javascriptallonge]].
 - While we have mentioned arrays briefly, we haven't had a close look at them. Arrays are JavaScript's 'native' representation of lists. Strings are important because they represent writing. Lists are important because they represent ordered collections of things, and ordered collections are a fundamental abstraction for making sense of reality. _(javascriptallonge.pdf (source-range-c98ab3e6-00798))_
 - Lists are important because they represent ordered collections of things, and ordered collections are a fundamental abstraction for making sense of reality. _(javascriptallonge.pdf (source-range-c98ab3e6-00798))_
 - Strings are important because they represent writing. _(javascriptallonge.pdf (source-range-c98ab3e6-00798))_
-
-## Technical atoms
-
-### Technical frame 1: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00833))_
-
-> Sometimes we need to extract arrays from arrays. Here is the most common pattern: Extracting the head and gathering everything but the head from an array:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00837))_
-
-<a id="atom-technical-atom-5337ddc45c7cfcfe"></a>
-```text
-57 https://en.wikipedia.org/wiki/CAR_and_CDR
-58 Kyle Simpson is the author of You Don't Know JS, available here
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 57 | https://en.wikipedia.org/wiki/CAR_and_CDR |
-| 58 | Kyle Simpson is the author of You Don't Know JS, available here |
-
-</details>

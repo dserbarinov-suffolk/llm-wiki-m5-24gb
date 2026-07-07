@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-and-also-building-blocks-partial-application-68c16436
 page_kind: source
-summary: And also: / Building Blocks / partial application: 15 source-backed entries and 5 atom(s) from raw/javascriptallonge.pdf.
+summary: And also: / Building Blocks / partial application: 14 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-building-blocks-partial-application-68c16436@0206ab87a91bee5823dea3b28f30e0ee
+projection_coverage: section-javascriptallonge-section-and-also-building-blocks-partial-application-68c16436@2346be18c41b0119e016a9a97826deb4
 ---
 
 # And also: / Building Blocks / partial application
@@ -73,32 +73,6 @@ const squareAll = (array) => map(array,
 
 > Wegeneralized composition with the compose combinator. Partial application also has a combinator, which we'll see in the partial recipe.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00585))_
-
-<a id="atom-technical-atom-8f517a4c4e32b9dc"></a>
-```text
-39 http://underscorejs.org
-41 If we don't want to sort out Underscore, we can also write the following: const map = (a, fn) => a.map(fn); , and trust that it works even though we haven't discussed methods yet.
-40 Modern JavaScript implementations provide a map method for arrays, but Underscore's implementation also works with older browsers if you are working with that headache.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 39 | http://underscorejs.org |
-| 41 | If we don't want to sort out Underscore, we can also write the following: const map = (a, fn) => a.map(fn);, and trust that it works even though we haven't discussed methods yet. |
-| 40 | Modern JavaScript implementations provide a map method for arrays, but Underscore's implementation also works with older browsers if you are working with that headache. |
-
-</details>
-
-### Technical frame 4: And also: / Building Blocks / partial application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00588))_
-
-> Wegeneralized composition with the compose combinator. Partial application also has a combinator, which we'll see in the partial recipe.
-
 **Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00586))_
 
 <a id="atom-technical-atom-4c6ddb25dada617c"></a>
@@ -106,7 +80,7 @@ const squareAll = (array) => map(array,
 const safeSquareAll = mapWith(maybe((n) => n * n));
 ```
 
-### Technical frame 5: And also: / Building Blocks / partial application
+### Technical frame 4: And also: / Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00588))_
 

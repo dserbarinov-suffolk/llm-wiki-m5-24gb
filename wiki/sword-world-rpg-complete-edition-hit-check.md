@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-hit-check
 page_kind: concept
-summary: 4.5.1 Hit Checks: 32 statement(s) and 9 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.5.1 Hit Checks: 32 statement(s) and 8 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-hit-check@79b6c674b5782a4162de373c495b3513
+projection_coverage: topic-sword-world-rpg-complete-edition-hit-check@7b8aad8c5731627dbc3295d98d1e1bbb
 ---
 
 # 4.5.1 Hit Checks
@@ -243,12 +243,12 @@ Key Number
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-a7a24296]] - source section: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks shares source evidence from 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks: To make a hit check, both sides must roll the dice (2D). The attacker adds their roll to their attack power , and the defender adds their roll to their evasion speed .; 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks shares technical record from 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks: To make a hit check, both sides must roll the dice (2D). (8 shared statement(s), 4 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-a9aedd9a]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (8 shared statement(s), 4 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-a9aedd9a]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (8 shared statement(s), 3 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-hit-checks-7f1d9463]] - source section: 10.5 Attacks Against the Sleeping / 《 Hit Checks 》 shares source evidence from 10.5 Attacks Against the Sleeping / 《 Hit Checks 》: The spirit magic Sleep is still an exception. Unless the magic itself is broken by Dispel Magic or other magic belonging to mind , they'll never wake up.; 10.5 Attacks Against the Sleeping / 《 Hit Checks 》 shares technical record from 10.5 Attacks Against the Sleeping / 《 Hit Checks 》: Unless the magic itself is broken by Dispel Magic or other magic belonging to mind , they'll never wake up. (1 shared statement(s), 1 shared atom(s))
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Attacks From Characters Against Monsters shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (9 shared statement(s), 4 shared atom(s))
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Attacks From Characters Against Monsters shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (9 shared statement(s), 3 shared atom(s))
 
 ### Shared claims
 

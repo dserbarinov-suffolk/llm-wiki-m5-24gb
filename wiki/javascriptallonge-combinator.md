@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-combinator
 page_kind: concept
-summary: Combinator: 5 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
+summary: Combinator: 5 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-combinator@c7c9810119d13f8613bf6ab213c46c4e
+projection_coverage: topic-javascriptallonge-combinator@5caa1424fbaa405c58f0d3a8e94e9513
 ---
 
 # Combinator
@@ -33,28 +33,7 @@ What [[javascriptallonge]] covers about combinator:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / Combinators and Function Decorators / combinators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00551))_
-
-> This is, of course, just one example of many. You'll find lots more perusing the recipes in this book. While some programmers believe 'There Should Only Be One Way To Do It,' having combinators available as well as explicitly writing things out with lots of symbols and keywords has some advantages when used judiciously.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00550))_
-
-<a id="atom-technical-atom-3b4af0b9f7fa4e34"></a>
-```
-const compose = (a, b) =>
-(c) => a(b(c))
-Let’s say we have:
-const addOne = (number) => number + 1;
-const doubleOf = (number) => number * 2;
-With compose, anywhere you would write
-const doubleOfAddOne = (number) => doubleOf(addOne(number));
-You could also write:
-const doubleOfAddOne = compose(doubleOf, addOne);
-```
-
-### Technical frame 2: And also: / Combinators and Function Decorators / function decorators
+### Technical frame 1: And also: / Combinators and Function Decorators / function decorators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00563))_
 
@@ -72,7 +51,7 @@ const nothing = not(something);
 
 ### Source structure
 
-- [[javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-96e491bc]] - source section: And also: / Combinators and Function Decorators / combinators shares source evidence from And also: / Combinators and Function Decorators / combinators: In this book, we will be using a looser definition of 'combinator:' Higher-order pure functions that take only functions as arguments and return a function. We won't ... [truncated]; And also: / Combinators and Function Decorators / combinators shares technical record from And also: / Combinators and Function Decorators / combinators: combinators The word 'combinator' has a precise technical meaning in mathematics: 'A combinator is a higher-order function that uses only function application and ea ... [truncated] (3 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-96e491bc]] - source section: And also: / Combinators and Function Decorators / combinators shares source evidence from And also: / Combinators and Function Decorators / combinators: In this book, we will be using a looser definition of 'combinator:' Higher-order pure functions that take only functions as arguments and return a function. We won't ... [truncated] (3 shared statement(s))
 
 ### Shared technical atoms
 

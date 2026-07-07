@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-truthiness
 page_kind: concept
-summary: Truthiness: 4 statement(s) and 10 atom(s) from raw/javascriptallonge.pdf.
+summary: Truthiness: 4 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-truthiness@1bbd7cf0d073f6a9c194c2dbf4291a1a
+projection_coverage: topic-javascriptallonge-truthiness@ccf73ea99513e0e01afbb33f15d154c4
 ---
 
 # Truthiness
@@ -93,126 +93,7 @@ true ? 'Hello' : 'Good bye'
 //=> 'Pentatonic'
 ```
 
-### Technical frame 4: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00750))_
-
-> JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? second : third . It evaluates first , and if first is 'truthy', it evaluates second and that is its value. If first is not truthy, it evaluates third and that is its value.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00755))_
-
-<a id="atom-technical-atom-3a87fa2a0a8bf88b"></a>
-```text
-//=> 'Hello'
-0 ? 'Hello' : 'Good bye'
-//=> 'Good bye'
-[1, 2, 3, 4, 5].length === 5 ? 'Pentatonic' : 'Quasimodal'
-//=> 'Pentatonic'
-The fact that either the second or the third (but not both) expressions are evaluated can have
-important repercussions. Consider this hypothetical example:
-const status = isAuthorized(currentUser) ? deleteRecord(currentRecord) : 'Forbid\
-den';
-We certainly don’t want JavaScript trying to evaluate deleteRecord(currentRecord) unless isAutho-
-rized(currentUser) returns true.
-truthiness and operators
-Our logical operators !, &&, and || are a little more subtle than our examples above implied. ! is the
-simplest. It always returns false if its argument is truthy, and true is its argument is not truthy:
-!5
-//=> false
-!undefined
-//=> true
-Programmers often take advantage of this behaviour to observe that !!(someExpression) will
-always evaluate to true is someExpression is truthy, and to false if it is not. So in JavaScript
-(and other languages with similar semantics), when you see something like !!currentUser(), this
-Picking the Bean: Choice and Truthiness
-74
-is an idiom that means “true if currentUser is truthy.” Thus, a function like currentUser() is free to
-return null, or undefined, or false if there is no current user.
-Thus, !! is the way we write “is truthy” in JavaScript. How about && and ||? What haven’t we
-discussed?
-First, and unlike !, && and || do not necessarily evaluate to true or false. To be precise:
-• && evaluates its left-hand expression.
-– If its left-hand expression evaluates to something falsy, && returns the value of its left-
-hand expression without evaluating its right-hand expression.
-– If its left-hand expression evaluates to something truthy, && evaluates its right-hand
-expression and returns the value of the right-hand expression.
-• || evaluates its left-hand expression.
-– If its left-hand expression evaluates to something truthy, || returns the value of its left-
-hand expression without evaluating its right-hand expression.
-– If its left-hand expression evaluates to something false, || evaluates its right-hand
-expression and returns the value of the right-hand expression.
-If we look at our examples above, we see that when we pass true and false to && and ||, we do
-indeed get true or false as a result. But when we pass other values, we no longer get true or false:
-1 || 2
-//=> 1
-null && undefined
-//=> null
-undefined && null
-//=> undefined
-In JavaScript, && and || aren’t boolean logical operators in the logical sense. They don’t operate
-strictly on logical values, and they don’t commute: a || b is not always equal to b || a, and the
-same goes for &&.
-This is not a subtle distinction.
-|| and && are control-flow operators
-We’ve seen the ternary operator: It is a control-flow operator, not a logical operator. The same is
-true of && and ||. Consider this tail-recursive function that determines whether a positive integer
-is even:
-For example:
-Picking the Bean: Choice and Truthiness
-75
-const even = (n) =>
-n === 0 || (n !== 1 && even(n - 2))
-even(42)
-//=> true
-If n === 0, JavaScript does not evaluate (n !== 1 && even(n - 2)). This is very important!
-Imagine that JavaScript evaluated both sides of the || operator before determining its value. n ===
-0 would be true. What about (n !== 1 && even(n - 2))? Well, it would evaluate even(n - 2), or
-even(-2)
-This leads us to evaluate n === 0 || (n !== 1 && even(n - 2)) all over again, and this time we
-end up evaluating even(-4). And then even(-6). and so on and so forth until JavaScript throws up
-its hands and runs out of stack space.
-But that’s not what happens. || and && have short-cut semantics. In this case, if n === 0, JavaScript
-does not evaluate (n !== 1 && even(n - 2)). Likewise, if n === 1, JavaScript evaluates n !== 1
-&& even(n - 2) as false without ever evaluating even(n - 2).
-This is more than just an optimization. It’s best to think of || and && as control-flow operators. The
-expression on the left is always evaluated, and its value determines whether the expression on the
-right is evaluated or not.
-function parameters are eager
-In contrast to the behaviour of the ternary operator, ||, and &&, function parameters are always
-eagerly evaluated:
-const or = (a, b) => a || b
-const and = (a, b) => a && b
-const even = (n) =>
-or(n === 0, and(n !== 1, even(n - 2)))
-even(42)
-//=> Maximum call stack size exceeded.
-Now our expression or(n === 0, and(n !== 1, even(n - 2))) is calling functions, and JavaScript
-always evaluates the expressions for parameters before passing the values to a function to invoke.
-This leads to the infinite recursion we fear.
-If we need to have functions with control-flow semantics, we can pass anonymous functions. We
-obviously don’t need anything like this for or and and, but to demonstrate the technique:
-Picking the Bean: Choice and Truthiness
-76
-const or = (a, b) => a() || b()
-const and = (a, b) => a() && b()
-const even = (n) =>
-or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 74 | is an idiom that means “true if currentUser is truthy.” Thus, a function like currentUser() is free to return null, or undefined, or false if there is no current user. Thus,!! is the way we write “is truthy” in JavaScript. How about && and \|\|? What haven’t we discussed? First, and unlike!, && and \|\| do not necessarily evaluate to true or false. To be precise: • && evaluates its left-hand expression. – If its left-hand expression evaluates to something falsy, && returns the value of its left- hand expression without evaluating its right-hand expression. – If its left-hand expression evaluates to something truthy, && evaluates its right-hand expression and returns the value of the right-hand expression. • \|\| evaluates its left-hand expression. – If its left-hand expression evaluates to something truthy, \|\| returns the value of its left- hand expression without evaluating its right-hand expression. – If its left-hand expression evaluates to something false, \|\| evaluates its right-hand expression and returns the value of the right-hand expression. If we look at our examples above, we see that when we pass true and false to && and \|\|, we do indeed get true or false as a result. But when we pass other values, we no longer get true or false: |
-| 1 | \|\| 2 //=> 1 null && undefined //=> null undefined && null //=> undefined In JavaScript, && and \|\| aren’t boolean logical operators in the logical sense. They don’t operate strictly on logical values, and they don’t commute: a \|\| b is not always equal to b \|\| a, and the same goes for &&. This is not a subtle distinction. \|\| and && are control-flow operators We’ve seen the ternary operator: It is a control-flow operator, not a logical operator. The same is true of && and \|\|. Consider this tail-recursive function that determines whether a positive integer is even: |
-| 75 | For example: Picking the Bean: Choice and Truthiness const even = (n) => n === 0 \|\| (n!== 1 && even(n - 2)) even(42) //=> true If n === 0, JavaScript does not evaluate (n!== 1 && even(n - 2)). This is very important! Imagine that JavaScript evaluated both sides of the \|\| operator before determining its value. n === |
-| 0 | would be true. What about (n!== 1 && even(n - 2))? Well, it would evaluate even(n - 2), or even(-2) This leads us to evaluate n === 0 \|\| (n!== 1 && even(n - 2)) all over again, and this time we end up evaluating even(-4). And then even(-6). and so on and so forth until JavaScript throws up its hands and runs out of stack space. But that’s not what happens. \|\| and && have short-cut semantics. In this case, if n === 0, JavaScript does not evaluate (n!== 1 && even(n - 2)). Likewise, if n === 1, JavaScript evaluates n!== 1 && even(n - 2) as false without ever evaluating even(n - 2). This is more than just an optimization. It’s best to think of \|\| and && as control-flow operators. The expression on the left is always evaluated, and its value determines whether the expression on the right is evaluated or not. function parameters are eager In contrast to the behaviour of the ternary operator, \|\|, and &&, function parameters are always eagerly evaluated: const or = (a, b) => a \|\| b const and = (a, b) => a && b const even = (n) => or(n === 0, and(n!== 1, even(n - 2))) even(42) //=> Maximum call stack size exceeded. Now our expression or(n === 0, and(n!== 1, even(n - 2))) is calling functions, and JavaScript always evaluates the expressions for parameters before passing the values to a function to invoke. This leads to the infinite recursion we fear. If we need to have functions with control-flow semantics, we can pass anonymous functions. We obviously don’t need anything like this for or and and, but to demonstrate the technique: |
-| 76 | Picking the Bean: Choice and Truthiness const or = (a, b) => a() \|\| b() const and = (a, b) => a() && b() const even = (n) => or(() => n === 0, () => and(() => n!== 1, () => even(n - 2))) |
-
-</details>
-
-### Technical frame 5: Picking the Bean: Choice and Truthiness / truthiness and operators
+### Technical frame 4: Picking the Bean: Choice and Truthiness / truthiness and operators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00760))_
 
@@ -228,7 +109,7 @@ or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
 //=> true
 ```
 
-### Technical frame 6: Picking the Bean: Choice and Truthiness / truthiness and operators
+### Technical frame 5: Picking the Bean: Choice and Truthiness / truthiness and operators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00771))_
 
@@ -239,7 +120,7 @@ or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
 <a id="atom-technical-atom-77ca1ad65a2fc56a"></a>
 > But when we pass other values, we no longer get true or false :
 
-### Technical frame 7: Picking the Bean: Choice and Truthiness / truthiness and operators
+### Technical frame 6: Picking the Bean: Choice and Truthiness / truthiness and operators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00771))_
 
@@ -257,7 +138,7 @@ undefined && null
 //=> undefined
 ```
 
-### Technical frame 8: Picking the Bean: Choice and Truthiness / || and && are control-flow operators
+### Technical frame 7: Picking the Bean: Choice and Truthiness / || and && are control-flow operators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00780))_
 
@@ -273,7 +154,7 @@ even(42)
 //=> true
 ```
 
-### Technical frame 9: Picking the Bean: Choice and Truthiness / function parameters are eager
+### Technical frame 8: Picking the Bean: Choice and Truthiness / function parameters are eager
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00785))_
 
@@ -291,7 +172,7 @@ even(42)
 //=> Maximum call stack size exceeded.
 ```
 
-### Technical frame 10: Picking the Bean: Choice and Truthiness / function parameters are eager
+### Technical frame 9: Picking the Bean: Choice and Truthiness / function parameters are eager
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00787))_
 
@@ -314,11 +195,11 @@ even(7)
 
 ### Shared technical atoms
 
-- [[javascriptallonge-ternary-operator]] - shared technical atoms: Ternary Operator shares technical record from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: true ? 'Hello' : 'Good bye' //=> 'Hello' 0 ? 'Hello' : 'Good bye' //=> 'Good bye' [1, 2, 3, 4, 5].length === 5 ? 'Pentatonic' : 'Quasimodal' //=> 'Pentatonic' (2 shared atom(s))
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: In JavaScript, there is a notion of 'truthiness.' Every value is either 'truthy' or 'falsy.' Obviously, false is falsy. So are null and undefined , values that seman ... [truncated]; Javascript shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
 - [[javascriptallonge-operator]] - shared technical atoms: Operator shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
 - [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
+- [[javascriptallonge-ternary-operator]] - shared technical atoms: Ternary Operator shares technical record from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: true ? 'Hello' : 'Good bye' //=> 'Hello' 0 ? 'Hello' : 'Good bye' //=> 'Good bye' [1, 2, 3, 4, 5].length === 5 ? 'Pentatonic' : 'Quasimodal' //=> 'Pentatonic' (1 shared atom(s))
 
 ### Shared claims
 

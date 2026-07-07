@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-strong-blow-0985a057
 page_kind: source
-summary: Chapter 16: / 16.5 Combat Options / Strong Blow: 9 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 16: / 16.5 Combat Options / Strong Blow: 8 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-strong-blow-0985a057@fd5c09f543af2d13895f72f60484c4d0
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-strong-blow-0985a057@a2e2560f93c7152dff2388f0c00c3398
 ---
 
 # Chapter 16: / 16.5 Combat Options / Strong Blow
@@ -35,19 +35,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Technical atoms
 
-### Technical frame 1: Table 16-4 Maximum Ranges
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10233))_
-
-<a id="atom-technical-atom-1414cf1023241557"></a>
-```text
-Table 16-4 Maximum  Ranges
- 20 meters for throwing weapons and 100
-                                     Dagger                  30
- meters for shooting weapons. If you
-```
-
-### Technical frame 2: Chapter 16: / 16.5 Combat Options / Strong Blow
+### Technical frame 1: Chapter 16: / 16.5 Combat Options / Strong Blow
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10236))_
 
@@ -58,7 +46,7 @@ Table 16-4 Maximum  Ranges
 <a id="atom-technical-atom-fbe775181a106f99"></a>
 > You cannot declare mercy (of course!).
 
-### Technical frame 3: Chapter 16: / 16.5 Combat Options / Strong Blow
+### Technical frame 2: Chapter 16: / 16.5 Combat Options / Strong Blow
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10236))_
 

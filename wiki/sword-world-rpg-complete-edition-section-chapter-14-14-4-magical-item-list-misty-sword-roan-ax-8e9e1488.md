@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-roan-ax-8e9e1488@5d6219e1a3e5e1c396687414b52d75c4
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-roan-ax-8e9e1488@04a3d01062d0811ce39927532ac1b396
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》 / 《 Roan Ax 》
@@ -16,10 +16,6 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-red-eye-066e8a96]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》 / 《 Red Eye 》
 
 ### Source structure
 

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-a53ab7f2
 page_kind: source
-summary: 5.1.12 Ancient Magic List: 24 source-backed entries and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.12 Ancient Magic List: 24 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-a53ab7f2@284c9bb898c8e5fb836d9187b9ec6bf4
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-a53ab7f2@79a84e1ef7db0061b4ce51f11e90d64e
 ---
 
 # 5.1.12 Ancient Magic List
@@ -56,50 +56,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Technical atoms
 
-### Technical frame 1: Table 5-2: Familiars
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02064))_
-
-> The caster can also borrow mental points from their familiar to cast spells. In this case, the mental power that would've been consumed by the caster will instead be reduced from the familiar's mental points. Of course, you cannot make a substitution that would cause mental points to become negative, and a familiar whose mental points reach 0 will lose consciousness.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02065))_
-
-<a id="atom-technical-atom-5b20227110b893af"></a>
-| Category | Frog | 2 | 2 | Can | see | things | over | a | wide | range |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | Area=1 specific animal Dove | 3 | 3 |  |  |  | Can fly |  |  |  |
-| Duration=Permanent | Crow | 3 | 4 |  |  |  | Can fly |  |  |  |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Table 5-2: Familiars
-| Category | Frog | 2 | 2 | Can | see | things | over | a | wide | range |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | Area=1 specific animal Dove | 3 | 3 |  |  |  | Can fly |  |  |  |
-| Duration=Permanent | Crow | 3 | 4 |  |  |  | Can fly |  |  |  |
-```
-
-</details>
-
-### Technical frame 2: Table 5-3: Slow: Agility and Evasion Distance=Within the caster's view
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02409))_
-
-> This is a spell that reduces the target's agility to half its original score. Targets who fail to resist will have their action order and movement speed reduced by half due to changes in their agility, and their evasion speed (points) will also take a penalty. Regarding the evasion speed (points) penalty, the effect differs depending on the target's original agility. Please refer to Table 5-3: Slow: Agility and Evasion Penalties.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02410))_
-
-<a id="atom-technical-atom-2d4f06c232ea304b"></a>
-```text
-Table 5-3: Slow: Agility and Evasion                                        Distance=Within the caster's view
-                                    completely unable to move. The poor
-                                                                        Area=One person or object up to 1 cubic
- Penalties
-```
-
-### Technical frame 3: 5.1.12 Ancient Magic List / [ Slow ]
+### Technical frame 1: 5.1.12 Ancient Magic List / [ Slow ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02409))_
 
@@ -132,25 +89,7 @@ Table 5-3: Slow: Agility and Evasion                                        Dist
 
 </details>
 
-### Technical frame 4: Table 5-4: Haste: Agility and Evasion commands
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02422))_
-
-> This is a spell that doubles the target's agility from its original score. The target's action order and movement speed will be doubled, and their evasion speed (points) will also receive a bonus. Regarding the evasion speed (points) bonus, the effect differs depending on the target's original agility. Please refer to Table 5-4: Haste: Agility and Evasion Bonuses.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02423))_
-
-<a id="atom-technical-atom-43ab7c4acb83ffe5"></a>
-```text
-Table 5-4: Haste: Agility and Evasion    commands
-                                                                        Type=-
- Bonuses.                            Type=Counters (Negates): All puppet and
-                                                                        Expansion=Final score, target score
-                                    golem-type magic, Geas, Command Golem,
-                                                                        Resist=Negated effect
-```
-
-### Technical frame 5: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 5.1.13 Spirit Magic and the Shaman Skill
+### Technical frame 2: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 5.1.13 Spirit Magic and the Shaman Skill
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02703))_
 

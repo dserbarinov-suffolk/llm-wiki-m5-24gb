@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-destruction-5791484a
 page_kind: source
-summary: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Destruction Points: 30 source-backed entries and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Destruction Points: 29 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-destruction-5791484a@7b49b256e21088a1a5eb397353e7e7be
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-destruction-5791484a@ba8896645020dd95c4d760e1969ab905
 ---
 
 # 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Destruction Points
@@ -67,23 +67,7 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-99f745e33e369574"></a>
 > If the result is greater than 1 but less than the destruction points, the defense points are reduced by 1 point.
 
-### Technical frame 3: Table 18-2 Types of Magic
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10512))_
-
-> When it comes to destroying structures, some weapons and magic are completely unsuitable, while conversely, others are extremely effective. This is expressed by what's given here.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10506))_
-
-<a id="atom-technical-atom-a3cf598a37cc6719"></a>
-```text
-Table 18-2 Types of Magic
- its destruction points begin to decrease,
- and on  the next round  when          Fire-type                   Firebolt, Fireball, Firestorm
- destruction points reach 1, the paper
-```
-
-### Technical frame 4: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Destruction Points
+### Technical frame 3: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Destruction Points
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10512))_
 
@@ -94,7 +78,7 @@ Table 18-2 Types of Magic
 <a id="atom-technical-atom-aa0e0d83aeef382f"></a>
 > If the damage is greater than 8 but less than 21 points , the defense points will be reduced by 1 point (if the defense points become 0 , the destruction points will start to decrease .
 
-### Technical frame 5: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Destruction Points
+### Technical frame 4: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Destruction Points
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10534))_
 

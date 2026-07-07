@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters
 page_kind: procedure
-summary: Complete Attacks From Characters Against Characters: 2 ordered step(s), 3 decision point(s), and 11 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Complete Attacks From Characters Against Characters: 2 ordered step(s), 3 decision point(s), and 10 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-attacks-from-characters-against-characters, attacks-from-characters-against-characters
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters@c4378f04f5af73f09774a7b49a9c598d
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters@0dd4de34bfdeb4a960add30f6efed2ae
 ---
 
 # Attacks From Characters Against Characters
@@ -45,7 +45,6 @@ From [[sword-world-rpg-complete-edition]].
 - `rule`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-592f145783e223a8 The defender doesn't even have to roll the dice. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01342))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-bf5cf879cafdaf6d If the defender's roll is double sixes , the attack will always fail. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01345))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-17ab041c1577e2dc The attacker must make a strike roll to determine their base damage, then add their bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01349))_
-- `table`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-974438dff2cea6ae Table 4-4: Attack Checks _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01357))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-f4c39f1df2ba9f3f To make a hit check, both sides must roll the dice (2D). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01328))_
 - `formula`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-9934c64602d2758c attacker's attack power + 2D ≤ defender's evasion speed +2D → attack fails _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01334))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-972f99e6c87327ef If your attack hits, you must then determine damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01348))_

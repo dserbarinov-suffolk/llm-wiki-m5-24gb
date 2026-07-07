@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-armor
 page_kind: concept
-summary: Armor: 22 statement(s) and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Armor: 22 statement(s) and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-armor@e2f40a6ed6397a95a716ea6659206c31
+projection_coverage: topic-sword-world-rpg-complete-edition-armor@d81b884442c5220e4ea08f0a6be113d0
 ---
 
 # Armor
@@ -91,44 +91,7 @@ What [[sword-world-rpg-complete-edition]] covers about armor:
 <a id="atom-technical-atom-31b50f752ff5c7c1"></a>
 > However, if you want one of higher quality, you must go to a larger town.
 
-### Technical frame 3: Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01436))_
-
-> In addition, no matter how high quality it is, nothing can affect its attack power or evasion speed. It'll also have no effect on monsters that can only be wounded by magic or magical weapons (such as spirits, beastmen, etc.).
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01433))_
-
-<a id="atom-technical-atom-0f7ebd73a605d5d4"></a>
-```text
-Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
- a strike power of 16.
-  It is important to note that such      5 less Required Strength Royal city level in a large country
- weapons and armor cannot exceed the      4 less Required Strength Large city in a large country, royal city level in a small country
- limits of the weapon or armor itself. For      3 less Required Strength Reasonable city
- example, if you  want a high-quality    2 less Required Strength Town of about 1000 people
- broadsword, its required strength (size)     1 less Required Strength All but the most remote village
- is naturally limited to 8-16. Since there is
-                                                                                                          51
-                                    and armor in the world with +3 power,
-            4.10.2                                                                  4.10.4
-                                    and any with +4 or more have yet to be
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| It is important to note that such | 5 less Required Strength Royal city level in a large country |
-| --- | --- |
-| weapons and armor cannot exceed the | 4 less Required Strength Large city in a large country, royal city level in a small country |
-| limits of the weapon or armor itself. For | 3 less Required Strength Reasonable city |
-| example, if you | want a high-quality |
-| broadsword, its required strength (size) | 1 less Required Strength All but the most remote village |
-| 4.10.2 | 4.10.4 |
-
-</details>
-
-### Technical frame 4: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
+### Technical frame 3: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01468))_
 
@@ -139,7 +102,7 @@ Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
 <a id="atom-technical-atom-6845040b27724d2b"></a>
 > Mithril silver weapons can deal damage to monsters that normal weapons cannot harm.
 
-### Technical frame 5: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
+### Technical frame 4: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01471))_
 
@@ -155,7 +118,7 @@ Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-659f9b02]] - source section: 4.10 Excellent Weapons and Armor / and Armor shares source evidence from 4.10 Excellent Weapons and Armor / and Armor: There are people in the world who are called master craftsmen, and they sometimes create weapons and armor that are better than normal. These highquality weapons and ... [truncated]; 4.10 Excellent Weapons and Armor / and Armor shares technical record from 4.10 Excellent Weapons and Armor / and Armor: Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than usual . (14 shared statement(s), 5 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-659f9b02]] - source section: 4.10 Excellent Weapons and Armor / and Armor shares source evidence from 4.10 Excellent Weapons and Armor / and Armor: There are people in the world who are called master craftsmen, and they sometimes create weapons and armor that are better than normal. These highquality weapons and ... [truncated]; 4.10 Excellent Weapons and Armor / and Armor shares technical record from 4.10 Excellent Weapons and Armor / and Armor: Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than usual . (14 shared statement(s), 4 shared atom(s))
 
 ### Shared technical atoms
 

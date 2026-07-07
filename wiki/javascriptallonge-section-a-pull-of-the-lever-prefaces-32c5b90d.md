@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-pull-of-the-lever-prefaces-32c5b90d@50d6a7880e882b6c31adc8c09229e7d0
+projection_coverage: section-javascriptallonge-section-a-pull-of-the-lever-prefaces-32c5b90d@923f20a15dca6e28d801c1602b3cfd64
 ---
 
 # A Pull of the Lever: Prefaces
@@ -16,10 +16,6 @@ projection_coverage: section-javascriptallonge-section-a-pull-of-the-lever-prefa
 From [[javascriptallonge]].
 
 ## Related pages
-
-### Source order
-
-- [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-316fded8]] - next source section: ECMAScript 6 has three major groups of features:
 
 ### Source structure
 

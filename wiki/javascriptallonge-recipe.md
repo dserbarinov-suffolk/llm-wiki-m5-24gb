@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-recipe
 page_kind: concept
-summary: Recipe: 5 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
-page_family: broad-topic
+summary: Recipe: 5 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
+page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-recipe@79507498561b9070d45edb23ded5be44
+projection_coverage: topic-javascriptallonge-recipe@e54756401bca4458599d70ee10c2bfda
 ---
 
 # Recipe
@@ -41,31 +41,6 @@ What [[javascriptallonge]] covers about recipe:
 
 ### Technical frame 1: Recipes with Basic Functions / Partial Application
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00643))_
-
-> These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want to leave a 'hole' in the argument list, you will need to either use a generalized partial recipe, or you will need to repeatedly apply arguments. They are context-agnostic.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00642))_
-
-<a id="atom-technical-atom-83e28a0f45b81408"></a>
-```text
-Partial Application
-In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libraries provide some form of partial application. You'll find examples in Lemonad 45 from Michael Fogus, Functional JavaScript 46 from Oliver Steele and the terse but handy node-ap 47 from James Halliday.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 45 | from Michael Fogus, Functional JavaScript |
-| 46 | from Oliver Steele and the terse but handy node-ap |
-| 47 | from James Halliday. |
-
-</details>
-
-### Technical frame 2: Recipes with Basic Functions / Partial Application
-
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00645))_
 
 > As noted above, our partial recipe allows us to create functions that are partial applications of functions that are context aware. We'd need a different recipe if we wish to create partial applications of object methods.
@@ -92,31 +67,7 @@ sayHelloToCeline('Eartha')
 //=> 'Hello, Celine, my name is Eartha'
 ```
 
-### Technical frame 3: Recipes with Basic Functions / Partial Application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00648))_
-
-> We take it a step further, and can use gathering and spreading to allow for partial application with more than one argument:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00646))_
-
-<a id="atom-technical-atom-695bbaa3f7cd2b31"></a>
-```text
-45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 45 | https://github.com/fogus/lemonad |
-| 46 | http://osteele.com/sources/javascript/functional/ |
-| 47 | https://github.com/substack/node-ap 48 |
-
-</details>
-
-### Technical frame 4: Recipes with Basic Functions / Maybe
+### Technical frame 2: Recipes with Basic Functions / Maybe
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00681))_
 
@@ -135,7 +86,7 @@ if (isSomething(value)) {
 }
 ```
 
-### Technical frame 5: Recipes with Basic Functions / Maybe
+### Technical frame 3: Recipes with Basic Functions / Maybe
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00691))_
 
@@ -156,31 +107,7 @@ if (arg == null) return;
 }
 ```
 
-### Technical frame 6: Recipes with Basic Functions / Maybe
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00683))_
-
-> Naturally, there's a function decorator recipe for that, borrowed from Haskell's maybe monad 50 , Ruby's andand 51 , and CoffeeScript's existential method invocation:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00685))_
-
-<a id="atom-technical-atom-629b95f90576bfd6"></a>
-```text
-50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad
-51 https://github.com/raganwald/andand
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 50 | https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad |
-| 51 | https://github.com/raganwald/andand |
-
-</details>
-
-### Technical frame 7: Recipes with Basic Functions / Maybe
+### Technical frame 4: Recipes with Basic Functions / Maybe
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00691))_
 
@@ -195,43 +122,16 @@ return fn.apply(this, args)
 }
 ```
 
-### Technical frame 8: Recipes with Data / Flip
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01435))_
-
-> What we have now is a function that takes a function and 'flips' the order of arguments around, then curries it. So let's call it flipAndCurry :
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01436))_
-
-<a id="atom-technical-atom-890a831292ffdfc1"></a>
-```text
-84 https://github.com/raganwald/allong.es
-85 http://underscorejs.org
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 84 | https://github.com/raganwald/allong.es |
-| 85 | http://underscorejs.org |
-
-</details>
-
 
 ## Related pages
 
 ### Shared technical atoms
 
-- [[javascriptallonge-decorator]] - shared statements and technical atoms: Decorator shares source evidence from And also: / Building Blocks / composition: In the recipes, we'll look at a decorator called once: It ensures that a function can only be executed once. Thereafter, it does nothing. Once is useful for ensuring ... [truncated]; Decorator shares technical record from Recipes with Basic Functions / Maybe: const maybe = (fn) => function (...args) { if (args.length === 0) { return } else { for (let arg of args) { if (arg == null) return; } (2 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-functional]] - shared technical atoms: Functional shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48 (4 shared atom(s))
-- [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; partial application shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48 (3 shared atom(s))
-- [[javascriptallonge-allong]] - shared technical atoms: Allong shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (2 shared atom(s))
+- [[javascriptallonge-decorator]] - shared statements and technical atoms: Decorator shares source evidence from And also: / Building Blocks / composition: In the recipes, we'll look at a decorator called once: It ensures that a function can only be executed once. Thereafter, it does nothing. Once is useful for ensuring ... [truncated]; Decorator shares technical record from Recipes with Basic Functions / Maybe: const maybe = (fn) => function (...args) { if (args.length === 0) { return } else { for (let arg of args) { if (arg == null) return; } (2 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; partial application shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared atom(s))
 
 ## Source
 
