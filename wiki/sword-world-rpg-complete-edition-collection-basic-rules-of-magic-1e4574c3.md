@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: collection-sword-world-rpg-complete-edition-collection-basic-rules-of-magic-1e4574c3@2aa0c23b0a133a7d7e76741c64b22735
+projection_coverage: collection-sword-world-rpg-complete-edition-collection-basic-rules-of-magic-1e4574c3@daf44082ce682ddc0265852354920929
 ---
 
 # Basic Rules of Magic
@@ -34,11 +34,11 @@ Broader source section: [[sword-world-rpg-complete-edition-section-basic-rules-o
 | Basic Rules of Magic / 5.1.8 Magic Contraction | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-5-1-8-magic-contraction-e66e2346]] | 27 statement(s), 19 atom(s) |
 | Basic Rules of Magic / 5.1.9 Magic Types | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-5-1-9-magic-types-fb0de1e7]] | 109 statement(s), 61 atom(s) |
 | Basic Rules of Magic / Details | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-details-cbeeadd0]] | 25 statement(s), 10 atom(s) |
-| Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-2080fc95]] | 60 statement(s), 252 atom(s) |
-| Basic Rules of Magic / 2nd Level Ancient Magic List [ Oak ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-2nd-level-ancient-magic-list-oak-563fdfb8]] | 37 statement(s), 56 atom(s) |
-| Basic Rules of Magic / 3rd Level Ancient Magic List | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-3rd-level-ancient-magic-list-95895739]] | 79 statement(s), 121 atom(s) |
-| Basic Rules of Magic / 4th Level Ancient Magic List [ Counter Sense ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-4th-level-ancient-magic-list-counter-sense-27f4fbd7]] | 51 statement(s), 101 atom(s) |
-| Basic Rules of Magic / 5th Level Ancient Magic List [ Apport ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-5th-level-ancient-magic-list-apport-aa21e1dc]] | 37 statement(s), 133 atom(s) |
-| Basic Rules of Magic / 6th Level Ancient Magic List [ Acid Cloud ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-6th-level-ancient-magic-list-acid-cloud-0151ea88]] | 66 statement(s), 197 atom(s) |
-| Basic Rules of Magic / 7th Level Ancient Magic List [ Dispel Order ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-7th-level-ancient-magic-list-dispel-order-d3bc038b]] | 58 statement(s), 155 atom(s) |
-| Basic Rules of Magic / 8th Level Ancient Magic List | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39]] | 137 statement(s), 297 atom(s) |
+| Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-2080fc95]] | 60 statement(s), 192 atom(s) |
+| Basic Rules of Magic / 2nd Level Ancient Magic List [ Oak ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-2nd-level-ancient-magic-list-oak-563fdfb8]] | 37 statement(s), 68 atom(s) |
+| Basic Rules of Magic / 3rd Level Ancient Magic List | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-3rd-level-ancient-magic-list-95895739]] | 79 statement(s), 122 atom(s) |
+| Basic Rules of Magic / 4th Level Ancient Magic List [ Counter Sense ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-4th-level-ancient-magic-list-counter-sense-27f4fbd7]] | 51 statement(s), 90 atom(s) |
+| Basic Rules of Magic / 5th Level Ancient Magic List [ Apport ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-5th-level-ancient-magic-list-apport-aa21e1dc]] | 37 statement(s), 132 atom(s) |
+| Basic Rules of Magic / 6th Level Ancient Magic List [ Acid Cloud ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-6th-level-ancient-magic-list-acid-cloud-0151ea88]] | 66 statement(s), 176 atom(s) |
+| Basic Rules of Magic / 7th Level Ancient Magic List [ Dispel Order ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-7th-level-ancient-magic-list-dispel-order-d3bc038b]] | 58 statement(s), 118 atom(s) |
+| Basic Rules of Magic / 8th Level Ancient Magic List | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39]] | 137 statement(s), 248 atom(s) |

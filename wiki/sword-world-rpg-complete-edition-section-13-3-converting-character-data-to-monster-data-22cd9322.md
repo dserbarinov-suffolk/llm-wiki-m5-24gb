@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-3-converting-character-data-to-monster-data-22cd9322
 page_kind: source
-summary: 13.3 Converting Character Data to Monster Data: 34 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.3 Converting Character Data to Monster Data: 20 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-3-converting-character-data-to-monster-data-22cd9322@11fd84b3c563bb15b657261f7166739c
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-3-converting-character-data-to-monster-data-22cd9322@9afa3e8ee5563f6583397b9790718146
 ---
 
 # 13.3 Converting Character Data to Monster Data
@@ -20,6 +20,10 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-13-2-13-other-3f55101b]] - previous source section: 13.2.13 Other
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-3-converting-character-data-to-monster-data-redcap-8ef0341f]] - narrower source section: 13.3 Converting Character Data to Monster Data / Redcap
 
 ## Statements
 
@@ -33,9 +37,6 @@ From [[sword-world-rpg-complete-edition]].
 - Attack points are the character's attack power + 7 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08522))_
 - For strike points , apply strike power to Table 13-1: Key Number = Expected Equivalents , then add bonus damage to the result. Critical target is normally 10, _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08523))_
 - A weretiger is a lycanthrope with the power to shapeshift into a tiger. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08525))_
-- A redcap is a patient suffering from the disease of the same name, red cap , and whose depth has reached 2 or greater. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08542))_
-- but if using the optional rule 16.2: Weapon and Armor Modifiers (see p. 262) to have variation in a weapon's critical target, please look at the appropriate column. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08544))_
-- Evasion points are the character's evasion speed + 8 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08545))_
 - Equivalents table (No Critical), then add adventurer level to the result. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08548))_
 - Life points and mental points use the ability scores life force and mental power as they are. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08549))_
 - Life point resistance and mental point resistance are each resistance +8 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08550))_

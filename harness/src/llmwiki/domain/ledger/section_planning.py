@@ -21,7 +21,7 @@ from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.ledger.topic_evidence import heading_topic_decision
 from llmwiki.domain.ledger.topic_terms import source_label_terms, topic_matcher, topic_term_role
 
-_SECTION_NODE_KINDS = {"chapter", "section", "heading"}
+_SECTION_NODE_KINDS = {"chapter", "section", "heading", "record"}
 _HEADING_NUMBER = re.compile(
     r"^(?:chapter|part|section|appendix|book)\s+[\dIVXLC]+\s*[-:.]?\s*", re.IGNORECASE
 )
@@ -153,11 +153,15 @@ def _target_for_node(
     entries = _entries_for_node(ledger, node.structure_node_id)
     atoms = _atoms_for_node(ledger, structure, node)
     atom_ids = tuple(atom.technical_atom_id for atom in atoms)
-    decision = heading_topic_decision(terms, list(entries), atom_ids, matcher)
-    if not decision.accepted:
-        return None
     direct_entries = _direct_entries_for_node(ledger, node.structure_node_id)
     direct_atoms = _direct_atoms_for_node(ledger, node.structure_node_id)
+    if node.structure_node_kind == "record":
+        if not direct_entries and not direct_atoms:
+            return None
+    else:
+        decision = heading_topic_decision(terms, list(entries), atom_ids, matcher)
+        if not decision.accepted:
+            return None
     child_branch_count = _child_branches_with_evidence(ledger, structure, node)
     page_promoted = _promote_section_page(
         node,

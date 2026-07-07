@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-greater-ice-spirit@3eb4c0b23e58a696b9bef6a5aac30248
+projection_coverage: topic-sword-world-rpg-complete-edition-greater-ice-spirit@1fdddbfa44887269827713f667b214f4
 ---
 
 # Greater Ice Spirit
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 
 ## Statements
 
-### [ Freeze ] (Fenrir/Greater Ice Spirit)
+### [ Freeze ] (Fenrir/Greater Ice Spirit) / Maelstrom
 
 - Base Mental Power Cost=50 Distance=Caster Area=A space within a 100 meter radius from the caster Duration=18 rounds Effect=Appeal to the greater spirits to neutralize spirit power Type=Target score Counters (Overpowers): All magic that uses related spirit power Expansion=Final score, duration, area _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03275))_
 
@@ -29,7 +29,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 
 ## Technical atoms
 
-### Technical frame 1: [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 1: [ Freeze ] (Fenrir/Greater Ice Spirit) / Freeze
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03257))_
 
@@ -49,7 +49,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-b5561fcea323ae88"></a>
 > Duration=Instant
 
-### Technical frame 2: [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 2: [ Freeze ] (Fenrir/Greater Ice Spirit) / Freeze
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03257))_
 
@@ -60,33 +60,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-dae1b133f8fa2f06"></a>
 > Resist=Negated effect
 
-### Technical frame 3: [ Freeze ] (Fenrir/Greater Ice Spirit)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03257))_
-
-> This spell has the effect of completely freezing the target instantly. If you successfully resist the spell, there will be no effect, but if you fail, all life activities will cease and you will die immediately. This spell cannot exert its original effect on things that do not have living bodies with blood flowing through them, such as undead, golems, etc. and can only freeze the surface of their bodies and render them unable to act.
-
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03261, source-range-e5870dca-03262, source-range-e5870dca-03263, source-range-e5870dca-03264, source-range-e5870dca-03265, source-range-e5870dca-03266))_
-
-<a id="atom-technical-atom-b72d8571750ea3bc"></a>
-> Base Mental Power Cost=45
-
-<a id="atom-technical-atom-9a9d5427dba8aa53"></a>
-> Distance=500 meters
-
-<a id="atom-technical-atom-05fcac86456d2ea0"></a>
-> Area=50 meter radius water surface
-
-<a id="atom-technical-atom-4b05de1cb541998b"></a>
-> Duration=18 rounds
-
-<a id="atom-technical-atom-c5e471f8cc2eedbd"></a>
-> Effect=Creates a maelstrom that sinks floating people and objects
-
-<a id="atom-technical-atom-0d70778f5fe10202"></a>
-> Type=Target score
-
-### Technical frame 4: [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 3: [ Freeze ] (Fenrir/Greater Ice Spirit) / Maelstrom
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03270))_
 
@@ -97,7 +71,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-eb497b17f981b912"></a>
 > Resist=None
 
-### Technical frame 5: [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 4: [ Freeze ] (Fenrir/Greater Ice Spirit) / Maelstrom
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03272))_
 
@@ -108,7 +82,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-3abafde7d85eb194"></a>
 > If a ship is caught in the whirlpool, the person at the helm must make a success roll using the ship steering ability.
 
-### Technical frame 6: [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 5: [ Freeze ] (Fenrir/Greater Ice Spirit) / Maelstrom
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03277))_
 
@@ -119,7 +93,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-78196e287c41e1f6"></a>
 > Resist=None
 
-### Technical frame 7: [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 6: [ Freeze ] (Fenrir/Greater Ice Spirit) / Maelstrom
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03278))_
 
@@ -136,6 +110,8 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-freeze-fenrir-greater-ice-spirit-1da8ba25]] - source section: [ Freeze ] (Fenrir/Greater Ice Spirit)
+- [[sword-world-rpg-complete-edition-section-freeze-fenrir-greater-ice-spirit-freeze-0c7a9ed9]] - source section: [ Freeze ] (Fenrir/Greater Ice Spirit) / Freeze
+- [[sword-world-rpg-complete-edition-section-freeze-fenrir-greater-ice-spirit-maelstrom-835f3abc]] - source section: [ Freeze ] (Fenrir/Greater Ice Spirit) / Maelstrom
 
 ## Source
 

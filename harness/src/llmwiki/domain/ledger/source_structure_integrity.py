@@ -126,6 +126,20 @@ def structure_nodes_that_drive_pages(
 def _node_disposition(node: StructureNode) -> StructureNodeDisposition:
     if node.structure_node_kind == "root":
         return StructureNodeDisposition(node.structure_node_id, "trusted", ())
+    if node.structure_node_kind == "record":
+        text = _plain(node.heading_text)
+        record_reasons: list[str] = []
+        if not text:
+            record_reasons.append("empty")
+        if _has_unbalanced_delimiters(text):
+            record_reasons.append("unbalanced-delimiters")
+        if _too_long_for_label(text):
+            record_reasons.append("label-too-long")
+        if record_reasons:
+            return StructureNodeDisposition(
+                node.structure_node_id, "evidence-only", tuple(record_reasons)
+            )
+        return StructureNodeDisposition(node.structure_node_id, "trusted", ())
     text = _plain(node.heading_text)
     reasons: list[str] = []
     if not text:

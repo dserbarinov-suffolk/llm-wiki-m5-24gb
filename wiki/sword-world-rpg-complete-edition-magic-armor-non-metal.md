@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magic-armor-non-metal@b5bcec87a8bb375a691869aac20d2110
+projection_coverage: topic-sword-world-rpg-complete-edition-magic-armor-non-metal@2a5c796609badee5574f4e24148a159b
 ---
 
 # Magic Armor Non Metal
@@ -22,12 +22,14 @@ What [[sword-world-rpg-complete-edition]] covers about magic armor non metal:
 
 - Rarity=16 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion speed damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09218))_
 
+### 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor
+
 - Chain mail, splint, lamellar, plate armor Rarity=16 Enchanter=Many Form=Metal Armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09255))_
 
 
 ## Technical atoms
 
-### Technical frame 1: 《 Magic Armor (+2) 》 Non-metal or ring mail
+### Technical frame 1: 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09298))_
 
@@ -41,7 +43,7 @@ What [[sword-world-rpg-complete-edition]] covers about magic armor non metal:
 <a id="atom-technical-atom-ba79530f6553ec1c"></a>
 > Powers=+1~+3 to evasion speed
 
-### Technical frame 2: 《 Magic Armor (+2) 》 Non-metal or ring mail
+### Technical frame 2: 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09331))_
 
@@ -61,7 +63,7 @@ What [[sword-world-rpg-complete-edition]] covers about magic armor non metal:
 <a id="atom-technical-atom-eb78e62f9b04f63b"></a>
 > Powers=+1 to evasion speed and damage reduction
 
-### Technical frame 3: 《 Magic Armor (+2) 》 Non-metal or ring mail
+### Technical frame 3: 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09342))_
 
@@ -81,7 +83,7 @@ What [[sword-world-rpg-complete-edition]] covers about magic armor non metal:
 <a id="atom-technical-atom-ad4f18bf84277114"></a>
 > Required Strength=3 (Defense power 3)
 
-### Technical frame 4: 《 Magic Armor (+2) 》 Non-metal or ring mail
+### Technical frame 4: 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09348))_
 
@@ -92,7 +94,7 @@ What [[sword-world-rpg-complete-edition]] covers about magic armor non metal:
 <a id="atom-technical-atom-d700e975b500261f"></a>
 > When performing a treasure appraisal with the sage skill , if the fi nal score of the success roll is between 12 and 17, it will only be identified as a +1 soft leather.
 
-### Technical frame 5: 《 Magic Armor (+2) 》 Non-metal or ring mail
+### Technical frame 5: 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09348))_
 
@@ -103,7 +105,7 @@ What [[sword-world-rpg-complete-edition]] covers about magic armor non metal:
 <a id="atom-technical-atom-6de579cb6cb5ff08"></a>
 > Rarity=14
 
-### Technical frame 6: 《 Magic Armor (+2) 》 Non-metal or ring mail
+### Technical frame 6: 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09351))_
 
@@ -114,7 +116,7 @@ What [[sword-world-rpg-complete-edition]] covers about magic armor non metal:
 <a id="atom-technical-atom-9c93c7dd06b39402"></a>
 > Powers=-1 to opponent's strike points or +1 to their critical target
 
-### Technical frame 7: 《 Magic Armor (+2) 》 Non-metal or ring mail
+### Technical frame 7: 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09348))_
 
@@ -125,7 +127,7 @@ What [[sword-world-rpg-complete-edition]] covers about magic armor non metal:
 <a id="atom-technical-atom-3620500b50af8d14"></a>
 > When facing opponents who use weapons like adventurers and determine damage through strike rolls, there is an effect that increases their critical target by +1 , but there is no direct damage reduction.
 
-### Technical frame 8: 《 Magic Armor (+2) 》 Non-metal or ring mail
+### Technical frame 8: 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09360))_
 
@@ -145,7 +147,7 @@ What [[sword-world-rpg-complete-edition]] covers about magic armor non metal:
 <a id="atom-technical-atom-966c19fcee31188e"></a>
 > Base Trade Price=3300 gamels
 
-### Technical frame 9: 《 Magic Armor (+2) 》 Non-metal or ring mail
+### Technical frame 9: 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09360))_
 
@@ -162,10 +164,11 @@ What [[sword-world-rpg-complete-edition]] covers about magic armor non metal:
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-magic-armor-2-non-metal-or-ring-mail-9414896b]] - source section: 《 Magic Armor (+2) 》 Non-metal or ring mail
+- [[sword-world-rpg-complete-edition-section-magic-armor-2-non-metal-or-ring-mail-chain-mail-splint-lamellar-plate-armor-4155d7ff]] - source section: 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-ring-mail]] - shared statements and technical atoms: Ring Mail shares source evidence from 《 Magic Armor (+2) 》 Non-metal or ring mail: Rarity=14 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction; Ring Mail shares technical record from 《 Magic Armor (+2) 》 Non-metal or ring mail: Rarity=12 (+1)/14 (+2)/16 (+3) Enchanter=Many Form=Shield Required Strength/Base Trade Price=See description (2 shared statement(s), 19 shared atom(s))
+- [[sword-world-rpg-complete-edition-ring-mail]] - shared statements and technical atoms: Ring Mail shares source evidence from 《 Magic Armor (+2) 》 Non-metal or ring mail: Rarity=14 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction; Ring Mail shares technical record from 《 Magic Armor (+2) 》 Non-metal or ring mail / Chain mail, splint, lamellar, plate armor: Rarity=12 (+1)/14 (+2)/16 (+3) Enchanter=Many Form=Shield Required Strength/Base Trade Price=See description (2 shared statement(s), 19 shared atom(s))
 
 ## Source
 

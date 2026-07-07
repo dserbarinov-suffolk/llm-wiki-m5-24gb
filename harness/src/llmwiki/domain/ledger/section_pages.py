@@ -36,7 +36,7 @@ from llmwiki.domain.ledger.topic_relations import RelatedTopicLink
 from llmwiki.domain.ledger.walkability import audit_related_links, related_links_markdown
 from llmwiki.domain.pages import PageMetadata, WikiPage, slugify
 
-_SECTION_NODE_KINDS = {"chapter", "section", "heading"}
+_SECTION_NODE_KINDS = {"chapter", "section", "heading", "record"}
 
 
 @dataclass(frozen=True)

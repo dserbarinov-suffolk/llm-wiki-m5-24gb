@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-shade@39dbb7a50334a1200c5462aece896f00
+projection_coverage: topic-sword-world-rpg-complete-edition-shade@33af70c777afc15a4a3ec136fc825fcf
 ---
 
 # Shade
@@ -27,6 +27,7 @@ What [[sword-world-rpg-complete-edition]] covers about shade:
 
 ### Source structure
 
+- [[sword-world-rpg-complete-edition-section-monster-catalog-13-2-4-spirits-shade-fb49d658]] - source section: Monster Catalog / 13.2.4 Spirits / Shade shares source evidence from Monster Catalog / 13.2.4 Spirits / Shade: Shade is a spirit of darkness, and also a mind spirit that controls fear. All natural light within 5 meters of its body is canceled out, leaving you in total darknes ... [truncated]; Monster Catalog / 13.2.4 Spirits / Shade shares technical record from Monster Catalog / 13.2.4 Spirits / Shade: Monster Level=2 (6 shared statement(s), 9 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-fear-shade-dark-spirit-62cd44d7]] - source section: [ Fear ] (Shade/Dark Spirit)
 - [[sword-world-rpg-complete-edition-section-shade-shade-dark-spirit-ad660537]] - source section: [ Shade ] (Shade/Dark Spirit)
 

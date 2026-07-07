@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-monsters-still-exist@2c8abb093b3fc28126e38f1061a34f7b
+projection_coverage: topic-sword-world-rpg-complete-edition-monsters-still-exist@fffa4cc35a52cf831c7b762a0040cd97
 ---
 
 # Monsters Still Exist
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about monsters still exist:
 
 ## Statements
 
-### 13.2.10 Magical Creatures
+### 13.2.10 Magical Creatures / Gargoyle
 
 - A gargoyle is a species of golem, a statue brought to life through magic, but its flexible movements resemble those of a normal living creature. Its appearance resembles a stone statue, and if you close your eyes, you won't be able to tell it apart unless you look very closely. These monsters still exist in the ruins of the ancient kingdom without ceasing activity, but the means to control them and the technology to create them have already been lost. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07990))_
 

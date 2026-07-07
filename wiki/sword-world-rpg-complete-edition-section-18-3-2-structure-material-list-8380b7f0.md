@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-8380b7f0
 page_kind: source
-summary: 18.3.2 Structure Material List: 40 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 18.3.2 Structure Material List: 0 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-8380b7f0@104f8e0ea736fe0046399a4460cba486
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-8380b7f0@56cdc1c824ba790159cab8dd514bffd7
 ---
 
 # 18.3.2 Structure Material List
@@ -21,14 +21,11 @@ From [[sword-world-rpg-complete-edition]].
 
 - [[sword-world-rpg-complete-edition-section-18-3-3-handling-spirit-walls-c702f244]] - next source section: 18.3.3 Handling Spirit Walls
 
-## Statements
+### Source structure
 
-- When you use fire magic or a weapon with Fire Weapon cast on it, it will ignite if a critical occurs, and will be destroyed as a result. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10511))_
-- Complete Immunity = Swords, axes, spears, clubs, staves, bows, crossbows, slings, rocks, barehanded, cold-type, electrictype, wind cutter-type, blade, poison gas-type magic _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10529))_
-- Special = When destroyed with fire-type or pure energy-type magic, its temperature becomes extremely high immediately after destruction. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10533))_
-- If your character accidentally touches it, he or she will suffer severe burns. If you try this in a closed room, there's a great possibility your character will succumb to the heat before the wall is destroyed. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10534))_
-- No Criticals = Swords, spears, clubs, staves, barehanded, electric-type, wind cuttertype, blade-type magic _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10539))_
-- Special = If destroyed with fire-type or pure energy-type magic, it'll melt and turn into water. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10542))_
-- Special = If attacked with fire-type magic or a weapon with Fire Weapon cast on it, treat it the same as wood. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10550))_
-- Special = When destroyed with fire-type or pure energy-type magic, its temperature becomes extremely high immediately after destruction. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10533))_
-- If you try this in a closed room, there's a great possibility your character will succumb to the heat before the wall is destroyed. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10534))_
+- [[sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-brick-08d2f65a]] - narrower source section: 18.3.2 Structure Material List / Brick
+- [[sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-ice-101cbf92]] - narrower source section: 18.3.2 Structure Material List / Ice
+- [[sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-iron-636b4daa]] - narrower source section: 18.3.2 Structure Material List / Iron
+- [[sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-stone-d47b5f0e]] - narrower source section: 18.3.2 Structure Material List / Stone
+- [[sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-vegetation-0e0156da]] - narrower source section: 18.3.2 Structure Material List / Vegetation
+- [[sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-wood-c9334083]] - narrower source section: 18.3.2 Structure Material List / Wood

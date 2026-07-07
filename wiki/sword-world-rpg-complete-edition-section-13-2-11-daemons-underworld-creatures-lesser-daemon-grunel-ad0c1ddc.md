@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-lesser-daemon-grunel-ad0c1ddc@dfe1557ea27216b4c7b33bd3cbcba05a
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-lesser-daemon-grunel-ad0c1ddc@bf6ec6be8462e35dcfa4f0fdba6e3ac8
 ---
 
 # 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
@@ -19,6 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
+- [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-cerberus-6d28a22f]] - previous source section: 13.2.11 Daemons/Underworld Creatures / Cerberus
 - [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-greater-daemons-doppelganger-c893337b]] - next source section: 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
 
 ### Source structure

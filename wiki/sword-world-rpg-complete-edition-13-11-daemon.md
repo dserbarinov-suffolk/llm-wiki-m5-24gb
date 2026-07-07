@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-13-11-daemon@2cb0bc03f96bdc2ca0ed0cbd07d902a7
+projection_coverage: topic-sword-world-rpg-complete-edition-13-11-daemon@65eb614e1643dc7e28b6d0084be7b527
 ---
 
 # 13 11 Daemon
@@ -160,7 +160,10 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-acef5a51]] - source section: 13.2.11 Daemons/Underworld Creatures
+- [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-aetherbeast-a2e5816e]] - source section: 13.2.11 Daemons/Underworld Creatures / Aetherbeast
+- [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-cerberus-6d28a22f]] - source section: 13.2.11 Daemons/Underworld Creatures / Cerberus
 - [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-greater-daemons-doppelganger-c893337b]] - source section: 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
+- [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-hellhound-012635e2]] - source section: 13.2.11 Daemons/Underworld Creatures / Hellhound
 - [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-lesser-daemon-grunel-ad0c1ddc]] - source section: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 ## Source

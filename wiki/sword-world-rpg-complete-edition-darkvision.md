@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-darkvision@5c1b3a87c0d7b81a73870d5254b78082
+projection_coverage: topic-sword-world-rpg-complete-edition-darkvision@1d5d027efe8b1ccb871178d18e1ea791
 ---
 
 # Darkvision
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about darkvision:
 
 ## Statements
 
-### Monster Catalog / How to Read the Monster Catalog
+### Monster Catalog / How to Read the Monster Catalog / Dog
 
 - ( Darkvision ) means the monster can see completely in the dark. Dwarf player characters have this ability. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05852))_
 

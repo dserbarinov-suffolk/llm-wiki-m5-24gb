@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-common-adventurer-abilities-c4de9b68@55673ba857640e762135a19a3a13179e
+projection_coverage: section-sword-world-rpg-complete-edition-section-common-adventurer-abilities-c4de9b68@4a7721f6558d8306b20ee2cd88346bdb
 ---
 
 # Common Adventurer Abilities
@@ -35,6 +35,17 @@ From [[sword-world-rpg-complete-edition]].
 - When a drowning person loses consciousness, their life force immediately falls to 0, so a death check must be made. If you're alive, you'll be able to breathe again if you're rescued and treated within 30 minutes. If you're not rescued within 30 minutes, you will automatically die. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04106))_
 - Adventurers can handle small boats using oars or poles. However, sailing ships require the full-fledged sailor skill , and adventurer level cannot be used as a substitute. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04108))_
 - Any adventurer can operate a small vessel (boat, raft, etc.) that is operated using oars or poles. If you're just going straight through calm water, you don't need a success roll. In special cases such as avoiding collision with an approaching ship or surviving rapids , the adventurer operating the ship must succeed on a success roll using adventurer level + dexterity bonus as the baseline score. The difficulty is determined by the game master. If you fail, the boat will capsize. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04109))_
+- Therefore, you can swim across any pond that is about 25 meters in size. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04100))_
+- Each round is 10 seconds long, so this success roll can only be made a number of times equal to your life force ÷ 6, or in other words, your life force bonus. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04104))_
+- An adventurer can only hold their breath underwater for a number of rounds equal to their life force. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04104))_
+- If you're not rescued within 30 minutes, you will automatically die. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04106))_
+- If you're alive, you'll be able to breathe again if you're rescued and treated within 30 minutes. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04106))_
+- In special cases such as avoiding collision with an approaching ship or surviving rapids , the adventurer operating the ship must succeed on a success roll using adventurer level + dexterity bonus as the baseline score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04109))_
+
+## Statements by subsection
+
+### Common Adventurer Abilities / ④ Climb [Agility
+
 - Climbing is both a common adventurer ability and a thief skill ability. The latter allows for more advanced climbing challenges. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04111))_
 - First of all, climbing, which is a common ability of adventurers, always requires assistance such as rope. Without such a thing, it's not possible to climb using adventurer level as a baseline score calculation. Climbing with the thief skill does not require rope assistance, and if you do have a rope, you can almost certainly climb. As a formality, a success roll should still be made, but a failure only occurs on double ones. For details, please refer to Table 6-1: Climb by Skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04112))_
 - When someone with the thief skill climbs without a rope, or someone without the thief skill climbs with a rope, set the target score using Table 6-2: Determining Climb Target Scores and make a success roll check. Determining the target score is almost the same in both cases. The baseline score is thief skill level + agility bonus or adventurer level + agility bonus . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04117))_
@@ -57,12 +68,6 @@ From [[sword-world-rpg-complete-edition]].
 - An adventurer with adventurer level 4, agility bonus +2, wearing chain mail, is in a cave beneath a volcano. A narrow rocky area continues, but eventually it is interrupted by a 7 meter long chasm. The adventurer tries to jump over it. Below is boiling lava. At this time, considering the following conditions: 7 meter width , chain mail , the rocky area is too narrow to make a proper run-up , and death is inevitable if you fall , the target score is 20+4+2+2= 28. The baseline score is 6 , so anything other than double sixes is a failure. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04171))_
 - The adventurer has 1 level in the thief skill. Thinking it'd be impossible to jump like this, he takes off his heavy chain mail. This will allow him to utilize his thief skill. The adventurer throws away his luggage and takes on a light outfit with only a short sword strapped to his waist. The target score at this time is 9 + 0 - 2 + 2 + 2 = 11 , taking into account the following conditions: 7 meters wide , no armor , no luggage , insufficient run-up , and danger . The baseline score is 3, so it's a success if he rolls 8 or greater on 2D. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04173))_
 - Jumping over obstacles with a high jump does not guarantee a safe landing. Apply damage to an adventurer as if they had fallen from the height he jumped. It usually doesn't cause much damage, and if you're a thief, you'll be able to land it perfectly. However, this can be a problem if the ground you jump over is significantly lower than the ground you took off from. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04174))_
-- Therefore, you can swim across any pond that is about 25 meters in size. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04100))_
-- Each round is 10 seconds long, so this success roll can only be made a number of times equal to your life force ÷ 6, or in other words, your life force bonus. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04104))_
-- An adventurer can only hold their breath underwater for a number of rounds equal to their life force. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04104))_
-- If you're not rescued within 30 minutes, you will automatically die. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04106))_
-- If you're alive, you'll be able to breathe again if you're rescued and treated within 30 minutes. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04106))_
-- In special cases such as avoiding collision with an approaching ship or surviving rapids , the adventurer operating the ship must succeed on a success roll using adventurer level + dexterity bonus as the baseline score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04109))_
 - First of all, climbing, which is a common ability of adventurers, always requires assistance such as rope. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04112))_
 - As a formality, a success roll should still be made, but a failure only occurs on double ones. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04112))_
 - At this time, only double ones will result in a failure. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04122))_

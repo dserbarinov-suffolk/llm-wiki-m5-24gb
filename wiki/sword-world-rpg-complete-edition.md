@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition
 page_kind: source
-summary: Claim-ledger projection (rules-reference): 10818 usable entries, 3642 technical atoms, 1436 needs-review, 416 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (rules-reference): 10818 usable entries, 3642 technical atoms, 1436 needs-review, 832 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: projection-coverage-fd96f19967134257@2b326743605c65ea
+projection_coverage: projection-coverage-8892d8574a53b4ca@8812bac2261da274
 ---
 
 # Sword World RPG Complete Edition
@@ -16,16 +16,16 @@ projection_coverage: projection-coverage-fd96f19967134257@2b326743605c65ea
 ## Source
 
 - Raw source: `raw/Sword World RPG - Complete Edition.pdf`
-- Claim-ledger projection (rules-reference): 10818 usable entries, 3642 technical atoms, 1436 needs-review, 416 linked page(s); write decision write-with-review-work.
+- Claim-ledger projection (rules-reference): 10818 usable entries, 3642 technical atoms, 1436 needs-review, 832 linked page(s); write decision write-with-review-work.
 
 ## Page Families
 
-- broad-topic: 6 page(s) - broad concept overview pages
-- collection-page: 3 page(s) - list and catalog pages
+- broad-topic: 8 page(s) - broad concept overview pages
+- collection-page: 29 page(s) - list and catalog pages
 - procedure-guide: 3 page(s) - ordered task pages
-- section-reference: 335 page(s) - source-order reference pages
+- section-reference: 713 page(s) - source-order reference pages
 - source-manifest: 1 page(s) - source entry point
-- topic-concept: 69 page(s) - focused concept pages
+- topic-concept: 79 page(s) - focused concept pages
 
 ## Procedure Guides
 
@@ -37,7 +37,33 @@ projection_coverage: projection-coverage-fd96f19967134257@2b326743605c65ea
 
 - [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-1e4574c3]] - collection: Basic Rules of Magic: 16 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-filling-out-the-character-sheet-f0d81142]] - collection: Basic Rules of Magic / Filling out the Character Sheet: 5 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39]] - collection: Basic Rules of Magic / 8th Level Ancient Magic List: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-2080fc95]] - collection: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ]: 4 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-5-1-12-ancient-magic-list-5f037903]] - collection: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] / 5.1.12 Ancient Magic List: 11 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-2nd-level-ancient-magic-list-oak-563fdfb8]] - collection: Basic Rules of Magic / 2nd Level Ancient Magic List [ Oak ]: 5 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-3rd-level-ancient-magic-list-95895739]] - collection: Basic Rules of Magic / 3rd Level Ancient Magic List: 8 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-4th-level-ancient-magic-list-counter-sense-27f4fbd7]] - collection: Basic Rules of Magic / 4th Level Ancient Magic List [ Counter Sense ]: 7 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-5th-level-ancient-magic-list-apport-aa21e1dc]] - collection: Basic Rules of Magic / 5th Level Ancient Magic List [ Apport ]: 8 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-6th-level-ancient-magic-list-acid-cloud-0151ea88]] - collection: Basic Rules of Magic / 6th Level Ancient Magic List [ Acid Cloud ]: 9 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-7th-level-ancient-magic-list-dispel-order-d3bc038b]] - collection: Basic Rules of Magic / 7th Level Ancient Magic List [ Dispel Order ]: 8 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39]] - collection: Basic Rules of Magic / 8th Level Ancient Magic List: 8 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-8th-level-ancient-magic-list-9th-level-ancient-magic-list-command-golem-b86c85dd]] - collection: Basic Rules of Magic / 8th Level Ancient Magic List / 9th Level Ancient Magic List [ Command Golem ]: 4 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-8th-level-ancient-magic-list-10th-level-ancient-magic-list-dimension-gate-ea45ed57]] - collection: Basic Rules of Magic / 8th Level Ancient Magic List / 10th Level Ancient Magic List [ Dimension Gate ]: 4 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-magic-list-cure-wounds-c22f3e58]] - collection: Magic List [ Cure Wounds ]: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-2nd-level-basic-holy-magic-list-cure-deafness-1aaa27d1]] - collection: 2nd Level Basic Holy Magic List [ Cure Deafness ]: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-8th-level-basic-holy-magic-list-076ca4f1]] - collection: 8th Level Basic Holy Magic List: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-10th-level-basic-holy-magic-list-call-god-a0191f0f]] - collection: 10th Level Basic Holy Magic List [ Call God ]: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-1st-level-dragon-roar-magic-list-iron-stomach-385b53a7]] - collection: 1st Level Dragon Roar Magic List [ Iron Stomach ]: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-3rd-level-dragon-roar-magic-list-789c644d]] - collection: 3rd Level Dragon Roar Magic List: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-12-2-1-poisons-f9b71416]] - collection: 12.2.1 Poisons: 21 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-12-2-2-illnesses-f56f6d8a]] - collection: 12.2.2 Illnesses: 17 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-12-2-3-herbs-47b2af1e]] - collection: 12.2.3 Herbs: 5 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-creeping-tree-63e60c25]] - collection: Creeping Tree: 21 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-13-2-10-magical-creatures-56568f0e]] - collection: 13.2.10 Magical Creatures: 8 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-13-2-11-daemons-underworld-creatures-acef5a51]] - collection: 13.2.11 Daemons/Underworld Creatures: 5 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-13-2-12-humans-c6182bf8]] - collection: 13.2.12 Humans: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-accessories-earrings-of-interpretation-3d23dd61]] - collection: 《 Accessories 》 [ Earrings of Interpretation ]: 8 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-staves-and-wands-ice-blaze-wand-2a273ade]] - collection: 《 Staves and Wands 》 [ Ice Blaze Wand ]: 49 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-18-3-2-structure-material-list-8380b7f0]] - collection: 18.3.2 Structure Material List: 6 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
 
 ## Concept Entry Points
 
@@ -47,7 +73,7 @@ projection_coverage: projection-coverage-fd96f19967134257@2b326743605c65ea
 - [[sword-world-rpg-complete-edition-11-acquiring-rune-master-skill]] - concept: 11 Acquiring Rune Master Skill: 22 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-13-11-daemon]] - concept: 13 11 Daemon: 4 statement(s) and 7 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-13-monster-level]] - concept: 13 Monster Level: 4 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-mythical-beast]] - concept: 13 Mythical Beast: 6 statement(s) and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-mythical-beast]] - concept: 13 Mythical Beast: 6 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-action]] - concept: Action: 5 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-adventurer-cast-magic-mix]] - concept: Adventurer Cast Magic Mix: 6 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-adventurer-level]] - concept: Adventurer Level: 3 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
@@ -60,11 +86,11 @@ projection_coverage: projection-coverage-fd96f19967134257@2b326743605c65ea
 - [[sword-world-rpg-complete-edition-attack-monster-character]] - concept: Attacks From Monsters Against Characters: 33 statement(s) and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-automatic-failure]] - concept: Automatic Failure: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-automatic-success]] - concept: Automatic Success: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-beast-maker-dose]] - concept: Beast Maker Dose: 2 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-bonuse]] - concept: Bonuse: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-centauri-blood-touch]] - concept: Centauri Blood Touch: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-charm-dryad]] - concept: Charm Dryad: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-control-spirit-lesser]] - concept: [ Control Spirit ] (Various lesser spirits): 13 statement(s) and 9 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-critical-target-variation]] - concept: Critical Target Variation: 7 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-darkvision]] - concept: Darkvision: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 
 ## Source Section Index
 

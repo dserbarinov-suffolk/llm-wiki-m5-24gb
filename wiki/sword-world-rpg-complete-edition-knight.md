@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-knight@dfc5ae603858587fe830849a378b4e90
+projection_coverage: topic-sword-world-rpg-complete-edition-knight@fab449ccf6fffba02b9c084afc32c2f7
 ---
 
 # Knight
@@ -22,6 +22,10 @@ What [[sword-world-rpg-complete-edition]] covers about knight:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-creeping-tree-undead-knight-b847ffc5]] - source section: Creeping Tree / Undead Knight
 
 ### Shared claims
 

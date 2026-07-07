@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-illumination@c54019757fab17100f899732281bde7c
+projection_coverage: topic-sword-world-rpg-complete-edition-illumination@c1f56061fefc7bbee591eb9a8f48bc5f
 ---
 
 # Illumination
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about illumination:
 
 ## Statements
 
-### Monster Catalog / How to Read the Monster Catalog
+### Monster Catalog / How to Read the Monster Catalog / Dog
 
 - ( Illumination ) means the monster can see as clearly as daytime even under very weak light, such as only starlight. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05854))_
 

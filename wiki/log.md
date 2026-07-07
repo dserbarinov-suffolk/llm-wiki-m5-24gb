@@ -721,3 +721,133 @@ Orphan pages (no inbound links from any other page):
 - ... 137 more
 
 Model repair loop skipped because the deterministic finding set contains 162 issue(s), above the 50-issue interactive repair budget.
+
+## [2026-07-07] ingest | Sword World RPG - Complete Edition.pdf
+Claim-ledger ingest of raw/Sword World RPG - Complete Edition.pdf (669 source unit(s)).
+Claim-ledger projection (rules-reference): 10818 usable entries, 3642 technical atoms, 1436 needs-review, 402 linked page(s); write decision write-with-review-work.
+Source page: [[sword-world-rpg-complete-edition]]; linked pages: 402. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/sword-world-rpg-complete-edition-8e67d04d99d8/ledger.
+Provenance audit: 3169 finding(s), 580 outside source manifests.
+Graph export: current; nodes=783; edges=3466; unresolved=363.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-07] ingest | Sword World RPG - Complete Edition.pdf
+Claim-ledger ingest of raw/Sword World RPG - Complete Edition.pdf (669 source unit(s)).
+Claim-ledger projection (rules-reference): 10818 usable entries, 3642 technical atoms, 1436 needs-review, 904 linked page(s); write decision write-with-review-work.
+Source page: [[sword-world-rpg-complete-edition]]; linked pages: 904. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/sword-world-rpg-complete-edition-8e67d04d99d8/ledger.
+Provenance audit: 3577 finding(s), 988 outside source manifests.
+Graph export: current; nodes=1285; edges=5437; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-07] ingest | javascriptallonge.pdf
+Claim-ledger ingest of raw/javascriptallonge.pdf (206 source unit(s)).
+Claim-ledger projection (coding): 1901 usable entries, 608 technical atoms, 466 needs-review, 373 linked page(s); write decision write-with-review-work.
+Source page: [[javascriptallonge]]; linked pages: 373. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/ledger.
+Provenance audit: 1890 finding(s), 1289 outside source manifests.
+Graph export: current; nodes=1281; edges=5449; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-07] lint | wiki health
+Deterministic lint report.
+
+Orphan pages (no inbound links from any other page):
+- antikythera-mechanism-section-the-antikythera-mechanism-759d40e0
+- javascriptallonge-invoked
+- javascriptallonge-kestrel
+- javascriptallonge-lazy
+- javascriptallonge-pure
+- javascriptallonge-recipe-a-history-lesson
+- javascriptallonge-recipe-a-look-back-at-functional-iterators
+- javascriptallonge-recipe-a-return-to-backward-thinking
+- javascriptallonge-recipe-after-another-drink
+- javascriptallonge-recipe-applying-functions
+- javascriptallonge-recipe-back-on-the-block
+- javascriptallonge-recipe-backwardness
+- javascriptallonge-recipe-bonus
+- javascriptallonge-recipe-building-with-mutation
+- javascriptallonge-recipe-call-by-sharing
+- javascriptallonge-recipe-call-by-value
+- javascriptallonge-recipe-commas
+- javascriptallonge-recipe-composition
+- javascriptallonge-recipe-const
+- javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls
+- javascriptallonge-recipe-copy-on-read
+- javascriptallonge-recipe-copy-on-write
+- javascriptallonge-recipe-defaults-and-destructuring
+- javascriptallonge-recipe-destructuring-is-not-pattern-matching
+- javascriptallonge-recipe-destructuring-objects
+- ... 151 more
+
+Model repair loop skipped because the deterministic finding set contains 176 issue(s), above the 50-issue interactive repair budget.
+
+## [2026-07-07] ingest | javascriptallonge.pdf
+Claim-ledger ingest of raw/javascriptallonge.pdf (206 source unit(s)).
+Claim-ledger projection (coding): 1901 usable entries, 608 technical atoms, 466 needs-review, 380 linked page(s); write decision write-with-review-work.
+Source page: [[javascriptallonge]]; linked pages: 380. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/ledger.
+Provenance audit: 1998 finding(s), 1397 outside source manifests.
+Graph export: current; nodes=1288; edges=5478; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-07] ingest | javascriptallonge.pdf
+Claim-ledger ingest of raw/javascriptallonge.pdf (206 source unit(s)).
+Claim-ledger projection (coding): 1901 usable entries, 608 technical atoms, 466 needs-review, 380 linked page(s); write decision write-with-review-work.
+Source page: [[javascriptallonge]]; linked pages: 380. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/ledger.
+Provenance audit: 2035 finding(s), 1434 outside source manifests.
+Graph export: current; nodes=1288; edges=5480; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-07] ingest | javascriptallonge.pdf
+Claim-ledger ingest of raw/javascriptallonge.pdf (206 source unit(s)).
+Claim-ledger projection (coding): 1901 usable entries, 608 technical atoms, 466 needs-review, 380 linked page(s); write decision write-with-review-work.
+Source page: [[javascriptallonge]]; linked pages: 380. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/ledger.
+Provenance audit: 2039 finding(s), 1438 outside source manifests.
+Graph export: current; nodes=1288; edges=5474; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-07] ingest | javascriptallonge.pdf
+Claim-ledger ingest of raw/javascriptallonge.pdf (206 source unit(s)).
+Claim-ledger projection (coding): 1901 usable entries, 608 technical atoms, 466 needs-review, 377 linked page(s); write decision write-with-review-work.
+Source page: [[javascriptallonge]]; linked pages: 377. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/ledger.
+Provenance audit: 2035 finding(s), 1434 outside source manifests.
+Graph export: current; nodes=1285; edges=5437; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-07] ingest | Sword World RPG - Complete Edition.pdf
+Claim-ledger ingest of raw/Sword World RPG - Complete Edition.pdf (669 source unit(s)).
+Claim-ledger projection (rules-reference): 10818 usable entries, 3642 technical atoms, 1436 needs-review, 832 linked page(s); write decision write-with-review-work.
+Source page: [[sword-world-rpg-complete-edition]]; linked pages: 832. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/sword-world-rpg-complete-edition-8e67d04d99d8/ledger.
+Provenance audit: 3583 finding(s), 994 outside source manifests.
+Graph export: current; nodes=1213; edges=5209; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-07] lint | wiki health
+Deterministic lint report.
+
+Orphan pages (no inbound links from any other page):
+- antikythera-mechanism-section-the-antikythera-mechanism-759d40e0
+- javascriptallonge-invoked
+- javascriptallonge-kestrel
+- javascriptallonge-lazy
+- javascriptallonge-pure
+- javascriptallonge-recipe-a-history-lesson
+- javascriptallonge-recipe-a-look-back-at-functional-iterators
+- javascriptallonge-recipe-a-return-to-backward-thinking
+- javascriptallonge-recipe-after-another-drink
+- javascriptallonge-recipe-applying-functions
+- javascriptallonge-recipe-array-literals
+- javascriptallonge-recipe-back-on-the-block
+- javascriptallonge-recipe-backwardness
+- javascriptallonge-recipe-bonus
+- javascriptallonge-recipe-building-with-mutation
+- javascriptallonge-recipe-call-by-sharing
+- javascriptallonge-recipe-call-by-value
+- javascriptallonge-recipe-closures-and-scope
+- javascriptallonge-recipe-commas
+- javascriptallonge-recipe-composition
+- javascriptallonge-recipe-const
+- javascriptallonge-recipe-const-and-lexical-scope
+- javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls
+- javascriptallonge-recipe-copy-on-read
+- javascriptallonge-recipe-copy-on-write
+- ... 138 more
+
+Model repair loop skipped because the deterministic finding set contains 163 issue(s), above the 50-issue interactive repair budget.

@@ -36,6 +36,7 @@ from llmwiki.domain.ledger.schemas import (
     default_calibration_policy,
 )
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
+from llmwiki.domain.ledger.source_records import add_source_records_to_structure
 from llmwiki.domain.ledger.source_unit_ownership import build_source_unit_ownership_plan
 from llmwiki.domain.ledger.structure import (
     DocumentStructure,
@@ -88,9 +89,11 @@ def build_claim_ledger(
     schema: SchemaBundle,
 ) -> LedgerBuildResult:
     validator = AtomValidator(schema.atom_schema_set)
-    plan = build_structure(source_hash, source_locator, tuple(s.segment for s in segments))
+    source_segments = tuple(s.segment for s in segments)
+    plan = build_structure(source_hash, source_locator, source_segments)
+    plan = add_source_records_to_structure(source_hash, source_locator, source_segments, plan)
     skeleton = DocumentStructure(plan.root_node_id, plan.nodes, structure_relations=plan.relations)
-    ownership_plan = build_source_unit_ownership_plan(tuple(s.segment for s in segments), plan)
+    ownership_plan = build_source_unit_ownership_plan(source_segments, plan)
 
     entries: list[LedgerEntry] = []
     atoms: list[TechnicalAtom] = []
@@ -151,7 +154,7 @@ def build_claim_ledger(
     ordered_entries = _ordered(entries, segments)
     technical_atom_contexts = build_technical_atom_contexts(
         source_hash=source_hash,
-        segments=tuple(item.segment for item in segments),
+        segments=source_segments,
         entries=ordered_entries,
         atoms=tuple(atoms),
         ownership_plan=ownership_plan,

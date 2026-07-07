@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-sonar@3f077fb213cc118fb0973907c57f109e
+projection_coverage: topic-sword-world-rpg-complete-edition-sonar@1d32dfb88f1449ce7a08e7842151be26
 ---
 
 # Sonar
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about sonar:
 
 ## Statements
 
-### Monster Catalog / How to Read the Monster Catalog
+### Monster Catalog / How to Read the Monster Catalog / Dog
 
 - ( Sonar ) means the monster can use sound waves or ultrasonic echoes to perceive the outside world. Therefore, they have almost no restrictions on action even in the dark. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05855))_
 

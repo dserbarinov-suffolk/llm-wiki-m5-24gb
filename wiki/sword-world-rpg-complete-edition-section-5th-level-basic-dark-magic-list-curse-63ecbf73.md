@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5th-level-basic-dark-magic-list-curse-63ecbf73@51fdfadf56221d20ea0c12a72173bcdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-5th-level-basic-dark-magic-list-curse-63ecbf73@e22f67e9e3ea2e0611840998df3fa35c
 ---
 
 # 5th Level Basic Dark Magic List / Curse
@@ -16,6 +16,10 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-5th-level-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-5th-level-basic-dark-magic-list-create-zombie-b788db87]] - previous source section: 5th Level Basic Dark Magic List / Create Zombie
 
 ### Source structure
 

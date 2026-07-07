@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-plant-spirit@615bc85303c1c2ce164da0e8e54bdb78
+projection_coverage: topic-sword-world-rpg-complete-edition-plant-spirit@f8707985ad0ff572800e73e5beb3697a
 ---
 
 # Plant Spirit
@@ -29,6 +29,7 @@ What [[sword-world-rpg-complete-edition]] covers about plant spirit:
 - [[sword-world-rpg-complete-edition-section-binding-dryad-plant-spirit-95fa5484]] - source section: [ Binding ] (Dryad/Plant Spirit)
 - [[sword-world-rpg-complete-edition-section-charm-dryad-plant-spirit-eb0eaa6d]] - source section: [ Charm ] (Dryad/Plant Spirit)
 - [[sword-world-rpg-complete-edition-section-maze-woods-ent-greater-plant-spirit-291444e4]] - source section: [ Maze Woods ] (Ent/Greater Plant Spirit)
+- [[sword-world-rpg-complete-edition-section-valkyrie-blessing-valkyrie-mind-spirit-plant-shell-f0ec0614]] - source section: [ Valkyrie Blessing ] (Valkyrie/Mind Spirit) / Plant Shell
 
 ## Source
 
