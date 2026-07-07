@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-penalty@8ff2f6c07388e62551cfeb7db7f48d85
+projection_coverage: topic-sword-world-rpg-complete-edition-penalty@db9da122e871f5ca77e3ba89f36b6fd2
 ---
 
 # Penalty
@@ -18,22 +18,22 @@ What [[sword-world-rpg-complete-edition]] covers about penalty:
 
 ### 2.4 Bonuses and Penalties
 
-- In such cases, the game master applies a bonus or penalty to the success roll. Things like, +2 because they're falling over , or -4 because it's dark . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00948))_
+- In such cases, the game master applies a bonus or penalty to the success roll. Things like, +2 because they're falling over , or -4 because it's dark . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00946))_
 
-- When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00949))_
+- When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00947))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: 2.4 Bonuses and Penalties
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00949))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00947))_
 
 > When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00950))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00948))_
 
-<a id="atom-technical-atom-8371e321ce6bf600"></a>
+<a id="atom-technical-atom-ceb1a6dc554cec9f"></a>
 > final score {baseline score + 2D ± (bonus, penalty)} ≥ target score → action is successful
 
 

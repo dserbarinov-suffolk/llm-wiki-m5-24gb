@@ -56,17 +56,29 @@ def test_collection_plans_use_repeated_peer_shape_not_domain_nouns() -> None:
         StructureNode("one", "section", "Rin", "r-002", "x.pdf", 2, 1, "parent"),
         StructureNode("two", "section", "Paz", "r-003", "x.pdf", 3, 1, "parent"),
         StructureNode("three", "section", "Tov", "r-004", "x.pdf", 4, 1, "parent"),
+        StructureNode(
+            "record",
+            "section",
+            "[ Vel ] Rate=2 Cost=4 Range=near",
+            "r-005",
+            "x.pdf",
+            5,
+            1,
+            "parent",
+        ),
     )
     ledger = _ledger(
         _entry("e1", "one", "Rin has a structured value."),
         _entry("e2", "two", "Paz has a structured value."),
         _entry("e3", "three", "Tov has a structured value."),
+        _entry("e4", "record", "Vel has a structured value."),
         atoms=(
             _table_atom("t1", "r-002"),
             _table_atom("t2", "r-003"),
             _table_atom("t3", "r-004"),
+            _table_atom("t4", "r-005"),
         ),
-        atom_nodes={"t1": "one", "t2": "two", "t3": "three"},
+        atom_nodes={"t1": "one", "t2": "two", "t3": "three", "t4": "record"},
     )
     catalog = build_knowledge_shape_catalog(ledger, structure)
 
@@ -75,7 +87,7 @@ def test_collection_plans_use_repeated_peer_shape_not_domain_nouns() -> None:
         structure,
         "x",
         catalog,
-        _section_plan(structure, "parent", "one", "two", "three"),
+        _section_plan(structure, "parent", "one", "two", "three", "record"),
     )
 
     assert len(plans) == 1

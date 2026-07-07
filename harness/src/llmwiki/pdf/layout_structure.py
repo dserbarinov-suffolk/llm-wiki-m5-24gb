@@ -7,6 +7,11 @@ from collections import Counter
 from dataclasses import dataclass, replace
 from typing import Any
 
+from llmwiki.domain.ledger.source_structure_integrity import (
+    HeadingAdmissionDecision,
+    HeadingCandidate,
+    heading_admission,
+)
 from llmwiki.pdf.document import DocumentElement, DocumentModel
 
 
@@ -107,7 +112,10 @@ def layout_box_from_bbox(page_no: int, page_height: float, bbox: Any) -> LayoutB
 
 
 def compile_layout_structure(model: DocumentModel, *, body_font_size: float) -> DocumentModel:
-    accepted = _accepted_heading_ids(model.elements, body_font_size)
+    decisions = _heading_decisions(model.elements, body_font_size)
+    accepted = {
+        element_id for element_id, decision in decisions.items() if decision.admitted
+    }
     level_by_size = _level_by_size(
         tuple(e.layout_font_size for e in model.elements if e.element_id in accepted)
     )
@@ -141,19 +149,46 @@ def compile_layout_structure(model: DocumentModel, *, body_font_size: float) -> 
     return replace(model, elements=tuple(elements))
 
 
-def _accepted_heading_ids(
+def _heading_decisions(
     elements: tuple[DocumentElement, ...], body_font_size: float
-) -> set[str]:
+) -> dict[str, HeadingAdmissionDecision]:
     headings = tuple(e for e in elements if e.element_kind == "heading")
     if not headings:
-        return set()
-    threshold = body_font_size * 1.08 if body_font_size else 0.0
-    accepted = {
-        e.element_id
-        for e in headings
-        if e.heading_level > 1 or (e.layout_font_size and e.layout_font_size >= threshold)
+        return {}
+    decisions = {
+        heading.element_id: heading_admission(_candidate(heading, body_font_size))
+        for heading in headings
     }
-    return accepted or {e.element_id for e in headings}
+    if any(decision.admitted for decision in decisions.values()):
+        return decisions
+    return {
+        heading.element_id: _fallback_decision(heading, decisions[heading.element_id])
+        for heading in headings
+    }
+
+
+def _candidate(element: DocumentElement, body_font_size: float) -> HeadingCandidate:
+    return HeadingCandidate(
+        candidate_id=element.element_id,
+        text=element.text,
+        heading_level=element.heading_level,
+        layout_font_size=element.layout_font_size,
+        body_font_size=body_font_size,
+        layout_x0=element.layout_x0,
+        layout_y0=element.layout_y0,
+    )
+
+
+def _fallback_decision(
+    element: DocumentElement, decision: HeadingAdmissionDecision
+) -> HeadingAdmissionDecision:
+    if decision.admission_kind != "body-text":
+        return decision
+    return HeadingAdmissionDecision(
+        element.element_id,
+        "container-heading" if element.heading_level <= 1 else "trusted-heading",
+        ("extractor-heading-fallback",),
+    )
 
 
 def _level_by_size(sizes: tuple[float, ...]) -> dict[float, int]:

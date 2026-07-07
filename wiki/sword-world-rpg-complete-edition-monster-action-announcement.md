@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-monster-action-announcement@f45f47816b7d55655f7cab7df9486690
+projection_coverage: topic-sword-world-rpg-complete-edition-monster-action-announcement@388ab37d4cb51319f4b787ca2eb429a6
 ---
 
 # Monster Action Announcement
@@ -18,22 +18,22 @@ What [[sword-world-rpg-complete-edition]] covers about monster action announceme
 
 ### Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements
 
-- When NPCs, monsters, etc. announce their actions, it's done by the game master who manages them. Specific action announcements may not be made at this time. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01045))_
+- When NPCs, monsters, etc. announce their actions, it's done by the game master who manages them. Specific action announcements may not be made at this time. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01043))_
 
-- You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the game master. The game master, as the person who manages the game, must know the actions of all the characters and monsters that appear. However, the players should only act from their characters' point of view. So, if a character cannot predict something, the player cannot know it either. When you see it for the first time, you won't know how a monster you don't recognize will act, and when an enemy tries to cast a spell you don't recognize, you won't know what that spell does. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01047))_
+- You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the game master. The game master, as the person who manages the game, must know the actions of all the characters and monsters that appear. However, the players should only act from their characters' point of view. So, if a character cannot predict something, the player cannot know it either. When you see it for the first time, you won't know how a monster you don't recognize will act, and when an enemy tries to cast a spell you don't recognize, you won't know what that spell does. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01045))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01047))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01045))_
 
 > You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the game master. The game master, as the person who manages the game, must know the actions of all the characters and monsters that appear. However, the players should only act from their characters' point of view. So, if a character cannot predict something, the player cannot know it either. When you see it for the first time, you won'
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01048))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01046))_
 
-<a id="atom-technical-atom-ba327b71894b8f63"></a>
+<a id="atom-technical-atom-2ac1d226a8d18221"></a>
 > If it's something the character should know, the game master should tell you when they announce the action.
 
 

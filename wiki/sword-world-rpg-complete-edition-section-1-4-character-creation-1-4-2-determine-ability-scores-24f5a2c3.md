@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-24f5a2c3@fbb34b209719fc5dc8544188da1ca493
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-24f5a2c3@f3622cc6c97888cbc33e85996a7a94a3
 ---
 
 # 1.4 Character Creation / 1.4.2 Determine Ability Scores
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-half-elf-c82de32c]] - previous source section: 1.4 Character Creation / 【 Half-Elf 】
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-1-choose-a-race-9bc3c05e]] - previous source section: 1.4 Character Creation / 1.4.1 Choose a Race
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-8d7899ba]] - next source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting
 
 ### Source structure

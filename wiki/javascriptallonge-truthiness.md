@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-truthiness@ccf73ea99513e0e01afbb33f15d154c4
+projection_coverage: topic-javascriptallonge-truthiness@041052cb391e14517714cdeb8913bdc1
 ---
 
 # Truthiness
@@ -138,7 +138,7 @@ undefined && null
 //=> undefined
 ```
 
-### Technical frame 7: Picking the Bean: Choice and Truthiness / || and && are control-flow operators
+### Technical frame 7: Picking the Bean: Choice and Truthiness / truthiness and operators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00780))_
 

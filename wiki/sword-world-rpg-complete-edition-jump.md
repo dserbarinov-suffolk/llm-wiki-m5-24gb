@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-jump
 page_kind: concept
-summary: Jump: 12 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Jump: 2 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-jump@82e00da063dea597a25519b227783fa2
+projection_coverage: topic-sword-world-rpg-complete-edition-jump@f38f90648f52e7b575f16aed8bd4510a
 ---
 
 # Jump
@@ -18,54 +18,33 @@ What [[sword-world-rpg-complete-edition]] covers about jump:
 
 ### Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction)
 
-- You can jump over obstacles using (pole) high jump or (pole) long jump . For more information, please refer to the rules for ⑤ Long Jump/High Jump (see p. 122) under 6.6: Common Adventurer Abilities . The methods for determining target scores, etc. are included there. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03978))_
-
-### Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]
-
-- Long jump and high jump are common adventurer abilities, and are also abilities of the thief skill. The latter allows you to jump farther and higher. The baseline score is thief skill level + agility bonus or adventurer level + agility bonus (Table 6-3: Determining Long Jump Target Scores). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04206))_
-
-- In addition, the thief skill allows you to attempt pole long jumps and pole high jumps using a long pole. In this case, the distance you can jump will be further improved. However, to attempt a pole long jump, you need a pole that is at least half as long as the distance you are attempting to jump. To attempt a pole high jump, you will need a pole that is about the same length as the height you are attempting to jump (Table 6-4: Determining High Jump Target Scores). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04207))_
-
-- The adventurer has 1 level in the thief skill. Thinking it'd be impossible to jump like this, he takes off his heavy chain mail. This will allow him to utilize his thief skill. The adventurer throws away his luggage and takes on a light outfit with only a short sword strapped to his waist. The target score at this time is 9 + 0 - 2 + 2 + 2 = 11 , taking into account the following conditions: 7 meters wide , no armor , no luggage , insufficient run-up , and danger . The baseline score is 3, so it's a success if he rolls 8 or greater on 2D. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04211))_
-
-- Jumping over obstacles with a high jump does not guarantee a safe landing. Apply damage to an adventurer as if they had fallen from the height he jumped. It usually doesn't cause much damage, and if you're a thief, you'll be able to land it perfectly. However, this can be a problem if the ground you jump over is significantly lower than the ground you took off from. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04212))_
+- You can jump over obstacles using (pole) high jump or (pole) long jump . For more information, please refer to the rules for ⑤ Long Jump/High Jump (see p. 122) under 6.6: Common Adventurer Abilities . The methods for determining target scores, etc. are included there. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03940))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction) / [ ⑬ Follow [Agility] ] (Equipment restriction)
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03981))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03943))_
 
 > If you fail, your opponent will realize that they are being followed. What action the person takes after that is up to them.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03980))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03942))_
 
-<a id="atom-technical-atom-d9fb67774ce5b313"></a>
+<a id="atom-technical-atom-4273eb60cd790a13"></a>
 > The side that's following must use thief skill level + agility bonus as their baseline score, while the side being followed must use adventurer level + intelligence bonus , and success or failure is determined by comparing the final scores of their success rolls.
 
 ### Technical frame 2: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction) / [ ⑭ Disguise [Dexterity] ] (No equipment restriction)
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03983))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03945))_
 
 > This is the ability to change one's face and appearance using special makeup. It's easy to just act like a completely different person, but it's difficult to disguise yourself as someone specific. Things like height and physique can be changed to a certain extent, but there are still limits.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03984))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03946))_
 
-<a id="atom-technical-atom-f2cbfd2e498de4b6"></a>
+<a id="atom-technical-atom-a8ecde547b55a40d"></a>
 > If the thief is disguised as a specific person and they encounter an acquaintance of that person, they must make a success roll to determine success or failure.
 
-
-## Related pages
-
-### Shared technical atoms
-
-- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements and technical atoms: 【 Thief Skill 】 shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction): You can jump over obstacles using (pole) high jump or (pole) long jump . For more information, please refer to the rules for ⑤ Long Jump/High Jump (see p. 122) under ... [truncated]; 【 Thief Skill 】 shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction) / [ ⑬ Follow [Agility] ] (Equipment restriction): The side that's following must use thief skill level + agility bonus as their baseline score, while the side being followed must use adventurer level + intelligence ... [truncated] (5 shared statement(s), 2 shared atom(s))
-
-### Shared claims
-
-- [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]: Long jump and high jump are common adventurer abilities, and are also abilities of the thief skill. The latter allows you to jump farther and higher. The baseline sc ... [truncated] (2 shared statement(s))
-- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]: Long jump and high jump are common adventurer abilities, and are also abilities of the thief skill. The latter allows you to jump farther and higher. The baseline sc ... [truncated] (1 shared statement(s))
 
 ## Source
 

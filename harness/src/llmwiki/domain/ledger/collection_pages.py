@@ -18,6 +18,7 @@ from llmwiki.domain.ledger.procedure_evidence_index import (
 from llmwiki.domain.ledger.projection_policy import PAGE_FAMILY_COLLECTION_PAGE
 from llmwiki.domain.ledger.section_navigation import projected_section_page_id, section_title
 from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
+from llmwiki.domain.ledger.source_structure_integrity import structure_node_can_drive_pages
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.pages import PageMetadata, WikiPage, slugify
 
@@ -166,6 +167,8 @@ def _members(
 ) -> tuple[CollectionMember, ...]:
     members: list[CollectionMember] = []
     for child in structure.children(node.structure_node_id):
+        if not structure_node_can_drive_pages(child):
+            continue
         entries = rollup_entries(structure, grouped_entries, child)
         atoms = rollup_atoms(structure, grouped_atoms, child)
         if shape_by_node.get(child.structure_node_id) not in _MEMBER_SHAPES and not atoms:

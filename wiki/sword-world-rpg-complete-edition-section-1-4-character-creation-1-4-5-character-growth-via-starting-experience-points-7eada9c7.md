@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7@2915abcda5ef7148d81b7ff3ec1dfcec
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7@bc85354d7e63566749b3e56600e1d05e
 ---
 
 # 1.4 Character Creation / 1.4.5 Character Growth via Starting Experience Points
@@ -16,6 +16,10 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-charac
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-09c881e7]] - previous source section: 1.4 Character Creation / 1.4.4 Age, Gender, Name
 
 ### Source structure
 

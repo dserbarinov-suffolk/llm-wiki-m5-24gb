@@ -7,6 +7,7 @@ import re
 from llmwiki.domain.ledger.atoms import TechnicalAtom
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
+from llmwiki.domain.ledger.source_structure_integrity import structure_node_can_drive_pages
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.ledger.technical_atom_trust import atom_is_authoritative
 
@@ -21,6 +22,7 @@ def section_nodes(structure: DocumentStructure) -> tuple[StructureNode, ...]:
             key=lambda item: item.source_order,
         )
         if node.structure_node_kind in _SECTION_NODE_KINDS and node.structure_node_kind != "root"
+        and structure_node_can_drive_pages(node)
     )
 
 

@@ -83,3 +83,44 @@ def test_layout_structure_demotes_nearby_duplicate_heading_fragments() -> None:
     assert compiled.elements[1].element_kind == "paragraph"
     assert compiled.elements[1].heading_path == "Chapter 7 - Alpha Beta Gamma"
     assert compiled.elements[2].heading_path == "Chapter 7 - Alpha Beta Gamma"
+
+
+def test_layout_structure_demotes_record_shaped_heading_candidates() -> None:
+    model = _model(
+        _heading("h1", "Reference Catalog", 18.0, 30.0),
+        _heading("h2", "[ Luma ] Rate=2 Cost=4 Range=near Duration=short", 18.0, 60.0),
+        _paragraph("p1", "The record remains evidence inside the catalog."),
+    )
+
+    compiled = compile_layout_structure(model, body_font_size=9.0)
+
+    assert compiled.elements[0].element_kind == "heading"
+    assert compiled.elements[1].element_kind == "paragraph"
+    assert compiled.elements[1].heading_path == "Reference Catalog"
+    assert compiled.elements[2].heading_path == "Reference Catalog"
+
+
+def test_layout_structure_demotes_unbalanced_heading_fragments() -> None:
+    model = _model(
+        _heading("h1", "Transformations", 18.0, 30.0),
+        _heading("h2", "[ Shape Change", 18.0, 60.0),
+        _paragraph("p1", "The fragment remains under the valid heading."),
+    )
+
+    compiled = compile_layout_structure(model, body_font_size=9.0)
+
+    assert compiled.elements[1].element_kind == "paragraph"
+    assert compiled.elements[1].heading_path == "Transformations"
+
+
+def test_layout_structure_demotes_bracket_wrapped_record_labels() -> None:
+    model = _model(
+        _heading("h1", "Catalog", 18.0, 30.0),
+        _heading("h2", "[ Luma ]", 18.0, 60.0),
+        _paragraph("p1", "The label remains inside the catalog evidence."),
+    )
+
+    compiled = compile_layout_structure(model, body_font_size=9.0)
+
+    assert compiled.elements[1].element_kind == "paragraph"
+    assert compiled.elements[1].heading_path == "Catalog"

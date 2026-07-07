@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-bonuse@d7233bc218072f3d465068b09b8878ba
+projection_coverage: topic-sword-world-rpg-complete-edition-bonuse@29227716af8482c3e7abaec555730df9
 ---
 
 # Bonuse
@@ -18,20 +18,20 @@ What [[sword-world-rpg-complete-edition]] covers about bonuse:
 
 ### 2.4 Bonuses and Penalties
 
-- When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00949))_
+- When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00947))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: 2.4 Bonuses and Penalties
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00949))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00947))_
 
 > When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00950))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00948))_
 
-<a id="atom-technical-atom-8371e321ce6bf600"></a>
+<a id="atom-technical-atom-ceb1a6dc554cec9f"></a>
 > final score {baseline score + 2D ± (bonus, penalty)} ≥ target score → action is successful
 
 

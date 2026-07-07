@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-truthiness-and-operators
 page_kind: recipe
-summary: truthiness and operators: reusable source-backed pattern with 8 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: truthiness and operators: reusable source-backed pattern with 11 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: truthiness-and-operators
-projection_coverage: recipe-javascriptallonge-recipe-truthiness-and-operators@b4ebf728ab5cf409b43aa5e97a796e8e
+projection_coverage: recipe-javascriptallonge-recipe-truthiness-and-operators@e99aaf990a72c2e4cb62b7a9cc5c26cc
 ---
 
 # truthiness and operators
@@ -54,6 +54,17 @@ null && undefined
 //=> null
 undefined && null
 //=> undefined
+```
+
+### Atom 3: `code-block`
+
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00776)_
+
+```
+const even = (n) =>
+n === 0 || (n !== 1 && even(n - 2))
+even(42)
+//=> true
 ```
 
 ## Source Trail

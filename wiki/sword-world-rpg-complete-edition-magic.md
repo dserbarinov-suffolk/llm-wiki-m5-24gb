@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-magic
 page_kind: concept
-summary: Magic: 12 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-page_family: broad-topic
+summary: Magic: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magic@45e1ed078d19e1ad244bbcaa5c813926
+projection_coverage: topic-sword-world-rpg-complete-edition-magic@2829e409982331b2f7f4477abba1ee5d
 ---
 
 # Magic
@@ -18,52 +18,26 @@ What [[sword-world-rpg-complete-edition]] covers about magic:
 
 ### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles
 
-- Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01140))_
+- Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01138))_
 
-- If you want to attack with a projectile, please follow the process of actions you can take during normal movement . If you chose stand still , then attack with that weapon can be read as attack with that projectile . However, when you're engaged (being attacked by a melee weapon), you cannot use projectiles. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01141))_
-
-### [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)]
-
-- It's a white gas. Those who inhale this and fail to resist will have their entire body stiffen and become like a statue. Victims retain their will and senses, but are unable to move a single finger. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05567))_
-
-### [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)] / [Midnight Scream (Touch/Mind)]
-
-- This is a viscous poison and is used by smearing it on doorknobs, etc. Those who touch this poison and fail to resist will be struck with intense fear. Determine its effect using Table 5-5: Fears (see p. 89). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05571))_
-
-### [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)] / [Moonlight Drone (Dose/Magic)]
-
-- This is a small granular poison, and if someone drinks it and fails to resist, they will become a woman if they're a man, and a man if they're a woman. There are no other penalties. Additionally, there are no changes to the magic that shamans can use. If you drink it again, you can return to normal. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05576))_
-
-### [Deathlike Sleep (Dose)] / [Medusa Eyes (Dose/Magic)]
-
-- This is a clear liquid poison that has a slight odor, so it's used by mixing with alcohol, etc. Those who fail to resist will have their bodies petrified and become stone statues. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05583))_
-
-### [Deathlike Sleep (Dose)] / [ Love Passion (Inhaled, Dose/Magic, Mind) ] / [Living Doll (Injected/Magic)]
-
-- This is a very rare type of poison, and only a few know the recipe. If a woman is wounded by a knife poisoned with this and fails to resist, her body will shrink and become a little person, about 30 cm tall, and will enter a state of suspended animation. The victims look like dolls, hence the name. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05599))_
-
-- This poison has its normal effect only on women. When a man is affected by this poison and fails to resist, his body undergoes abnormal mutations as a side effect, turning him into a mutant monster. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05600))_
+- If you want to attack with a projectile, please follow the process of actions you can take during normal movement . If you chose stand still , then attack with that weapon can be read as attack with that projectile . However, when you're engaged (being attacked by a melee weapon), you cannot use projectiles. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01139))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01140))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01138))_
 
 > Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01141))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01139))_
 
-<a id="atom-technical-atom-2f2de83d4f29a77a"></a>
+<a id="atom-technical-atom-5fcd530d8c611acd"></a>
 > If you want to attack with a projectile, please follow the process of actions you can take during normal movement .
 
 
 ## Related pages
-
-### Source structure
-
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-magic-f4349db3]] - source section: 5.1.12 Ancient Magic List / [ Sense Magic ] shares source evidence from 5.1.12 Ancient Magic List / [ Sense Magic ]: By casting this spell, a normally invisible magical aura becomes visible to the caster. This lets you know if there are magical items, magical traps, etc. within you ... [truncated]; 5.1.12 Ancient Magic List / [ Sense Magic ] shares technical record from 5.1.12 Ancient Magic List / [ Sense Magic ]: Base Mental Power Cost=3 (4 shared statement(s), 7 shared atom(s))
 
 ### Shared technical atoms
 

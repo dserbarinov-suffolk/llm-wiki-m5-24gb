@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-expression@d260ff9503392fb1ff12d7b0ba8f61a8
+projection_coverage: topic-javascriptallonge-expression@cc00076d64434b4b1726a76391175807
 ---
 
 # Expression
@@ -54,7 +54,7 @@ What [[javascriptallonge]] covers about expression:
 
 - But sometimes, a function is a small-f function. It's a simple representation of an expression to be computed. In our example above, row is a Big-F function, but (column) => column * arguments[0] is a small-f function, it exists just to give mapWith something to apply. _(javascriptallonge.pdf (source-range-c98ab3e6-00617))_
 
-### Picking the Bean: Choice and Truthiness / || and && are control-flow operators
+### Picking the Bean: Choice and Truthiness / truthiness and operators
 
 - This is more than just an optimization. It's best to think of || and && as control-flow operators. The expression on the left is always evaluated, and its value determines whether the expression on the right is evaluated or not. _(javascriptallonge.pdf (source-range-c98ab3e6-00780))_
 

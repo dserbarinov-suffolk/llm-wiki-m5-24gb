@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: create-character, character-creation
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-create-character@3c8afa10e7b8c02e574acf370437f150
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-create-character@28be88d8e18d20ac1698f7710584d66d
 ---
 
 # Create Character
@@ -22,11 +22,32 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Procedure Steps
 
-1. **Choose a Race** (`choose`) - evidence section [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]].
+1. **Choose a Race** (`choose`) - evidence section [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-1-choose-a-race-9bc3c05e]].
    - There are five types to choose from: human, dwarf, grassrunner, elf, and half-elf. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00271))_
    - Each also has strengths and weaknesses in the ability scores that form the basis of the character. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00271))_
    - Each race has their own characteristics and limitations. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00271))_
    - First, the player character's race must be chosen. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00271))_
+   - Humans have the most average ability scores and can do almost anything without a hitch. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00273))_
+   - This is probably the most suitable race for a beginner to choose. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00273))_
+   - They have no restrictions on skill selection. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00273))_
+   - On the other hand, they tend to be less agile and less intelligent. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00275))_
+   - In terms of skills, sorcerer and shaman cannot be chosen. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00275))_
+   - Rune master skills cannot be acquired. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00277))_
+   - It's a good idea to advance the thief skill acquired from the beginning. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00277))_
+   - Their strength, on the other hand, is decidedly inferior. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00277))_
+   - At the same time, their low strength does not let them benefit much from acquiring the fighter skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00277))_
+   - Grassrunners have excellent dexterity, agility, and mental power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00277))_
+   - Their intelligence and life force are average. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00277))_
+   - There is a restriction that they cannot acquire the priest skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00279))_
+   - On the other hand, their strength and life force tend to be low. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00279))_
+   - They are also a suitable race for thief. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00279))_
+   - It would be better to advance the shaman skill acquired from the beginning, or to acquire the sorcerer skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00279))_
+   - Half-elves are halfway between human and elf in terms of ability. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00281))_
+   - However, they do not deviate very far from the average and are fully capable of handling all skills. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00281))_
+   - Therefore, their dexterity, agility, intelligence, and mental power are slightly higher, while their strength and life force are slightly lower. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00281))_
+   - First, a race must be chosen. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00285))_
+   - Evidence dependencies:
+     - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-1-choose-a-race-9bc3c05e]]#atom-technical-atom-0d60f5f3836a5bc8 If they were raised by elves, there is a restriction that they cannot acquire the priest skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00282))_
 2. **Determine Ability Scores** (`generate`) - evidence section [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-24f5a2c3]].
    - First, you must roll the dice to determine subability scores A~H . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00287))_
    - Table 1-3: Determining Sub-Ability Scores shows how to determine subability scores for each race. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00288))_
@@ -83,6 +104,43 @@ From [[sword-world-rpg-complete-edition]].
    - In other words, it is assumed that there are no differences or changes in ability based on gender or age. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00401))_
    - Of course, no matter what name you choose, it will not affect their abilities. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00401))_
    - In Sword World RPG , these are not related to the numeric aspects of the game. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00401))_
+   - It is basically impossible to play as a child who has not fully grown both physically and mentally, or an old man who is clearly on the physical decline. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00403))_
+   - In addition, in Sword World RPG , newly created characters are green youths , so to speak, who don't have much experience. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00403))_
+   - Therefore, making them too old poses a problem in this sense as well. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00403))_
+   - When deciding on the age of a character, it should be between 15 years old and around 30 years old at most for a human. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00404))_
+   - Of course, it's natural that they'll die earlier than this if they're ill or wounded. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00404))_
+   - In Alecrast, the average life span of a human is about 50 years due to underdeveloped medical care. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00404))_
+   - The life span of a human is about 100 years old. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00404))_
+   - However, it is one thing to be physically mature and another to be socially recognized as an adult. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00407))_
+   - There was a time when the socially accepted age of adulthood was about 15 years old, and even younger. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00407))_
+   - Whether or not a person is recognized as an adult is not only a matter of physical growth, but also a matter of social judgment. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00407))_
+   - In Japan, where we live, we are considered adults at the age of 20, but there are some actions that are recognized as adult at the age of 18. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00407))_
+   - However, in the societies of other races, you basically have to be older to be considered an adult, and the longer the life span of the race, the later they tend to do so. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00408))_
+   - In the human societies of Alecrast , 15 years old is considered to be the age of adulthood. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00408))_
+   - As a result, the time for characters of other races to be recognized as adults and have the opportunity to go on adventures will be significantly later than it is for humans; around 30 years of age for dwarves, 40 years for grassrunners, and 100 for elves. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00409))_
+   - Half-elves, if raised in human society, are treated as adults at around age 15, just like humans. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00410))_
+   - This is because it' s considered common sense in human society. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00410))_
+   - However, because they are clearly known to have a shorter lifespan than elves and because they are essentially detested, they are not made to wait until they are 100 years old and are forced out of society at around age 30. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00410))_
+   - Therefore, the choice of gender is completely free. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00413))_
+   - As mentioned before, Sword World RPG treats men and women as having no difference in ability. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00413))_
+   - Naturally, a character must have a name. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00416))_
+   - Therefore, a character should be given a name that is appropriate for Forcelia. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00417))_
+   - Purely Japanese or Chinese names are not suitable. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00418))_
+   - After all, the names of most people in Alecrast , the setting of Sword World RPG , are like that. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00418))_
+   - When deciding on a name for a character, it is usually best to stick with a basic western-style name. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00418))_
+   - In rare cases, a middle name may also be added between the first and last names. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00419))_
+   - In Alecrast , first name, then last name are usually written in that order. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00419))_
+   - Since they're a human, their age will be around 15~30 years old. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00423))_
+   - This character comes from the mercenary background, so being too young is not an option. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00423))_
+   - Therefore, the age should be a little higher, like around 24. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00423))_
+   - Either gender is acceptable. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00424))_
+   - Although there are many women who fight in Forcelia, mercenaries will probably still have a higher percentage of men. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00424))_
+   - In this section, we'll use Ducard Sample Ⅱ (the second), though it's not a very sensible name. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00425))_
+   - Y ou may follow your own sensibilities, or you may borrow the name of a real westerner. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00425))_
+   - Evidence dependencies:
+     - `worked-example`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-09c881e7]]#atom-technical-atom-5a62266218a09ed9 For races other than humans, consider age as follows. Even for different races with long life spans, the rate of growth _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00406))_
+     - `worked-example`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-09c881e7]]#atom-technical-atom-23f7ef4557704afd Even races other than humans have two genders, male and female, exactly the same as humans. Also consider the difference _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00414))_
+     - `table`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-09c881e7]]#atom-technical-atom-27967460a6a36226 1.4.5 Character Growth via Starting Experience Points _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00420))_
 5. **Character Growth via Starting Experience Points** (`allocate`) - evidence section [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7]].
    - A character has already acquired certain skills (starting skills) according to Table 1-5: Backgrounds or Table 1-6: Starting Experience by Race. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00427))_
    - In addition to this, starting experience points can also be used to acquire new skills or increase a character's skills. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00427))_
@@ -153,19 +211,45 @@ From [[sword-world-rpg-complete-edition]].
    - Since our starting amount was 1200 gamels, our character now has 1200 - 320 - 240 - 60 = 580 gamels remaining. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00805))_
    - Evidence dependencies:
      - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-755df8959122a461 If the equipment has both unrestricted and restricted skills, please understand that your equipment must conform to the _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00740))_
+     - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-216893ab0da30ac5 If you want to take advantage of your thief skill, your weapons and armor must be light . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00784))_
      - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-91f6547a1527556e If you want to make use of your ranger skill, your armor must be light . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00786))_
      - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-3cfe34a4cb8bec22 Therefore, it is a good idea to choose a projectile, if you have to choose a weapon. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00788))_
+     - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-dac98e3f2e1342dc If you want to make use of your sorcerer skill, your armor must be cloth or soft leather . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00790))_
      - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-8ccc45797215e016 If the character's strength is 10 or less, it is appropriate to buy one with the same required strength as the character _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00791))_
      - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-88ed5c23e511ff9c If a character has acquired only these skills, the basic idea is to choose weapons and armor whose required strength is _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00796))_
      - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-e144a0fe993c5345 So, when choosing a weapon, we'll choose one that has a required strength equal to the character's strength (14). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00799))_
      - `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-26d7a3cdaf7b9317 The price is 14 x 20 + 40 = 320 (gamels). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00800))_
      - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-6f852af28922dda9 When choosing armor, the ranger skill's limitations come into play (required strength can only be up to half one's own s _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00801))_
      - `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-de3fa35acc3391ab The price is 7 x 30 + 30 = 240 (gamels). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00803))_
-     - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-216893ab0da30ac5 If you want to take advantage of your thief skill, your weapons and armor must be light . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00784))_
-     - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-dac98e3f2e1342dc If you want to make use of your sorcerer skill, your armor must be cloth or soft leather . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00790))_
-8. **Purchasing Other Equipment** (`acquire`) - evidence section [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]].
+8. **Purchasing Other Equipment** (`acquire`) - evidence section [[sword-world-rpg-complete-edition-section-1-4-character-creation-equipment-fa988ff9]].
    - If you only have weapons and armor, you will not be able to go on an adventure. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00808))_
    - It won't be an adventure if you forget your ropes and torches. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00808))_
+   - Many games set some kind of weight on weapons, armor and equipment, limiting the amount of goods a character can carry. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00811))_
+   - However, Sword World RPG does not do this. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00811))_
+   - Instead, please use your common sense to make decisions. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00811))_
+   - This would be a matter of course even if the rules do not stipulate it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00812))_
+   - A character cannot have an infinite number of things. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00812))_
+   - It is impossible to hold 1000 torches or 1 kilometer of rope. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00812))_
+   - Ducard II has 580 gamels left. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00814))_
+   - Without it, it'll be difficult to carry luggage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00815))_
+   - We should also have a belt pouch (15G) for small items and money. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00815))_
+   - Since we're going on an adventure, a water bag (20G) is a must. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00815))_
+   - First, we'll need a rucksack (50G). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00815))_
+   - If he has friends, though, it would be nice if we could pool our money together to buy it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00816))_
+   - A tent is too expensive and we don't need something large enough for five people. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00816))_
+   - Tableware (12G) and cooking utensils (50G) will also be needed for camping. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00816))_
+   - If we're planning to sleep outdoors, we'll need a mantle (40G) and a blanket (50G). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00816))_
+   - Without that, a fire cannot be started. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00817))_
+   - For a lighting tool, we'll first need a tinderbox (20G). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00817))_
+   - We'll also need torches (6 for 5 G). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00817))_
+   - A lantern would be brighter, but money is tight and we can't afford that luxury. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00817))_
+   - Ducard II's ranger skill includes the map creation ability. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00819))_
+   - It may be useful at some point. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00819))_
+   - The thieves' tools are for a thief and the musical instruments are for a bard, so they're not necessary for Ducard II. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00819))_
+   - So far, 277 gamels have been spent on purchases, with 303 gamels remaining. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00820))_
+   - We won't buy preserved food yet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00821))_
+   - Evidence dependencies:
+     - `table`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-equipment-fa988ff9]]#atom-technical-atom-f1511db212e6c030 Table 1-11: Equipment _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00822))_
 9. **Filling Out the Character Sheet** (`record`) - evidence section [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-3ba78d4e]].
    - This will help keep the game running smoothly. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00859))_
    - The Character Sheet that accompanies this book is designed to record and list various character details. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00859))_
@@ -177,16 +261,16 @@ From [[sword-world-rpg-complete-edition]].
    - If the character was not raised in a human society, there is no need to write anything in this field. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00874))_
    - Once it's been decided, write it in the origin field. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00874))_
    - Please write down starting experience points as determined by Table 1-5: Backgrounds or Table 1-6: Starting Experience by Race in the experience points field. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00876))_
-   - Once the process has been completed up to this point, you should have developed an image of the character. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00883))_
-   - It should now be easier to decide on gender and age, plus the character's name. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00883))_
-   - Starting experience points can be used to acquire new adventurer skills or to increase any skills already acquired (Table 1-7: Experience Points by Skill). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00890))_
-   - Once you've acquired your final skills (starting skill and growth via starting experience points), you can determine your adventurer level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00893))_
-   - Adventurer level is equal to the highest adventurer skill level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00894))_
-   - Write down the items you purchased then rewrite your money, reducing by the amount of money you spent (Table 1-11: Equipment). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00896))_
-   - The character sheet is not completely filled out yet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00900))_
-   - So for now, this is the end of the instructions for filling out the sheet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00900))_
-   - However, to fill in anything other than what's explained here, you must understand the rules a bit more in detail. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00900))_
-   - The other sections will be explained as necessary in the coming rules. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00901))_
+   - Once the process has been completed up to this point, you should have developed an image of the character. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00881))_
+   - It should now be easier to decide on gender and age, plus the character's name. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00881))_
+   - Starting experience points can be used to acquire new adventurer skills or to increase any skills already acquired (Table 1-7: Experience Points by Skill). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00888))_
+   - Once you've acquired your final skills (starting skill and growth via starting experience points), you can determine your adventurer level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00891))_
+   - Adventurer level is equal to the highest adventurer skill level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00892))_
+   - Write down the items you purchased then rewrite your money, reducing by the amount of money you spent (Table 1-11: Equipment). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00894))_
+   - However, to fill in anything other than what's explained here, you must understand the rules a bit more in detail. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00898))_
+   - The character sheet is not completely filled out yet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00898))_
+   - So for now, this is the end of the instructions for filling out the sheet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00898))_
+   - The other sections will be explained as necessary in the coming rules. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00899))_
    - Evidence dependencies:
      - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-3ba78d4e]]#atom-technical-atom-2c838fe257a4bbeb If the character is a human or a halfelf raised by a human, Table 1-5: Backgrounds must be used to determine their origi _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00874))_
 
@@ -201,8 +285,8 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Table
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-24f5a2c3]]#atom-technical-atom-88a9299d8142bab6 1.4.3 Starting Skills and Starting _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00324))_
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-27967460a6a36226 1.4.5 Character Growth via Starting Experience Points _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00420))_
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-f1511db212e6c030 Table 1-11: Equipment _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00822))_
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-09c881e7]]#atom-technical-atom-27967460a6a36226 1.4.5 Character Growth via Starting Experience Points _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00420))_
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-equipment-fa988ff9]]#atom-technical-atom-f1511db212e6c030 Table 1-11: Equipment _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00822))_
 
 ### Formula
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-26d7a3cdaf7b9317 The price is 14 x 20 + 40 = 320 (gamels). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00800))_
@@ -220,13 +304,15 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-2a1cac30cb5e4dc6 When buying weapons and armor, one must be aware of their required strength . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00612))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-d94a460c4e629505 Therefore, if the required strength of the weapon you're buying on Table 1-8: Weapons does not match your character's st _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00615))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-755df8959122a461 If the equipment has both unrestricted and restricted skills, please understand that your equipment must conform to the _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00740))_
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-216893ab0da30ac5 If you want to take advantage of your thief skill, your weapons and armor must be light . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00784))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-91f6547a1527556e If you want to make use of your ranger skill, your armor must be light . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00786))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-3cfe34a4cb8bec22 Therefore, it is a good idea to choose a projectile, if you have to choose a weapon. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00788))_
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-dac98e3f2e1342dc If you want to make use of your sorcerer skill, your armor must be cloth or soft leather . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00790))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-8ccc45797215e016 If the character's strength is 10 or less, it is appropriate to buy one with the same required strength as the character _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00791))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-88ed5c23e511ff9c If a character has acquired only these skills, the basic idea is to choose weapons and armor whose required strength is _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00796))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-e144a0fe993c5345 So, when choosing a weapon, we'll choose one that has a required strength equal to the character's strength (14). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00799))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-6f852af28922dda9 When choosing armor, the ranger skill's limitations come into play (required strength can only be up to half one's own s _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00801))_
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-0d60f5f3836a5bc8 If they were raised by elves, there is a restriction that they cannot acquire the priest skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00282))_
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-1-choose-a-race-9bc3c05e]]#atom-technical-atom-0d60f5f3836a5bc8 If they were raised by elves, there is a restriction that they cannot acquire the priest skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00282))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-24f5a2c3]]#atom-technical-atom-4b52393d77f0c613 Once you've chosen a race, you can determine your ability scores. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00287))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7]]#atom-technical-atom-a259d1a660ac8c62 Characters can spend their starting experience points to gain skill levels. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00430))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7]]#atom-technical-atom-9618f8f39fff04c4 For example, if you do not have the ranger skill and you want to acquire 2 levels in ranger at once, you must spend 500 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00432))_
@@ -235,13 +321,11 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-e7fe97a47ee5118a Of course, if you have a twohanded weapon, you cannot hold a shield, which will make your character less capable of defe _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00617))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-9fcc2dc0a6e5e68f Throwable weapons are basically used in melee, although they can be thrown when the need arises. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00620))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-b7fa232aac683d30 If a character's strength is 13 or greater, a large shield can be chosen. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00734))_
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-216893ab0da30ac5 If you want to take advantage of your thief skill, your weapons and armor must be light . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00784))_
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]]#atom-technical-atom-dac98e3f2e1342dc If you want to make use of your sorcerer skill, your armor must be cloth or soft leather . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00790))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-3ba78d4e]]#atom-technical-atom-2c838fe257a4bbeb If the character is a human or a halfelf raised by a human, Table 1-5: Backgrounds must be used to determine their origi _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00874))_
 
 ### Worked-Example
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-5a62266218a09ed9 For races other than humans, consider age as follows. Even for different races with long life spans, the rate of growth _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00406))_
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-23f7ef4557704afd Even races other than humans have two genders, male and female, exactly the same as humans. Also consider the difference _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00414))_
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-09c881e7]]#atom-technical-atom-23f7ef4557704afd Even races other than humans have two genders, male and female, exactly the same as humans. Also consider the difference _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00414))_
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-09c881e7]]#atom-technical-atom-5a62266218a09ed9 For races other than humans, consider age as follows. Even for different races with long life spans, the rate of growth _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00406))_
 
 ## Review-Only Dependencies
 

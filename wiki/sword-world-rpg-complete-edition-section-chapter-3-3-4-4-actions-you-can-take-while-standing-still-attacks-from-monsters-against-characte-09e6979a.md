@@ -1,0 +1,95 @@
+---
+page_id: sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-monsters-against-characte-09e6979a
+page_kind: source
+summary: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.7 Magic Expansion: 56 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-07
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-monsters-against-characte-09e6979a@80c90f89b0c90a20e442ee3b80538622
+---
+
+# Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.7 Magic Expansion
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-monsters-against-characte-7aaa42d7]] - previous source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Power
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-monsters-against-characte-e66e2346]] - next source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.8 Magic Contraction
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-monsters-against-characte-1e4574c3]] - broader source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic
+
+## Statements
+
+- Magic expansion includes the following types. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01617))_
+- If it's two or three targets...... the mental power consumed will also be doubled or tripled ....... _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01620))_
+- For spells that can perform this expansion, targets is written in the expansion section of the magic details. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01622))_
+- If the area is doubled or tripled ...... the mental power consumed will also be doubled or tripled ....... You can also expand an area by a fraction (x1.5, x8/3, etc.), in which case the fraction is rounded up when determining the multiplier for mental power consumed. So for expansions such as x 1.5 and x 8/3 , the cost would be double and triple , respectively. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01625))_
+- Since it's the area that gets expanded, the radius of a circle, a side of a square, etc., can only be increased by the square root of the expansion rate. Please see Table 5-1: Area and Size Expansion. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01626))_
+- For spells that can perform this expansion, area is written in the expansion section of the magic details. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01627))_
+- Some spells that affect a space or object can have their volume expanded. If the volume is expanded by two or three times...... the mental power consumed will also be doubled or tripled ....... Rounding should be handled the same way you would for area expansion. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01629))_
+- Since it' s the volume that gets expanded, the radius of a sphere, a side of a cube, etc., can only be increased by the cube root of the expansion rate. Please see Table 5-1: Area and Size Expansion. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01630))_
+- For spells that can perform this expansion, target volume is written in the expansion section of the magic details. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01631))_
+- Note: On the table, expansion rate is the multiplier for mental power consumed. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01641))_
+- When you cast a spell by consuming that multiplied amount of mental power, multiply the number in area expansion length or volume expansion length by the number (radius, side) that represents the spell's area of effect , and the result will be the spell's area . For spells cast on a flat surface, use the number in the area expansion length column, and for spells cast into space, use the number in the volume expansion length column. For example, when you cast the ancient magic Light , whose area is A space with a 10 meter radius , by consuming double the mental power, the resulting area will be a spherical space with a radius of 10 x 1.3 = 13 meters . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01642))_
+- For spells whose effects last a certain amount of time, you can expand that duration. If the duration is doubled or tripled ...... the mental power consumed will also be doubled or tripled ....... Y ou can also increase it by a fraction, such as x1.5, in which case the fraction is rounded up when determining the multiplier for mental power consumed. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01644))_
+- For spells that can perform this expansion, duration is written in the expansion section of the magic details. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01645))_
+- Magic basically only works up to a certain distance. However, there are spells that can extend their reach. If reach distance is doubled or tripled ...... the mental power consumed will also be doubled or tripled ....... You can also increase it by a fraction, such as x1.5, in which case the fraction is rounded up when determining the multiplier for mental power consumed. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01647))_
+- For spells that can perform this expansion, distance is written in the expansion section of the magic details. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01648))_
+- For spells that deal damage, expansion can increase the certainty of that damage. If you double or triple the amount of mental power you consume...... you can make a damage check (strike roll) twice or three times . The damage you will deal is equal to the greatest of all the strike rolls you made in this way ( not the total). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01650))_
+- For spells that can perform this expansion, damage certainty is written in the expansion section of the magic details. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01651))_
+- There's some magic whose effects are negated or reduced if they're resisted by the target, but will also let you increase the magic's final score (resist target score) in order to prevent this. This increase in final score may also take effect if a nullifying spell is cast later. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01653))_
+- For spells that can perform this expansion, fi nal score is written in the expansion section of the magic details. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01655))_
+- This expansion requires a deep proficiency in magic. Therefore, it cannot be done infinitely. Final score can only be increased up to a maximum of caster's rune master skill level ÷ 2 (rounded up) . That's up to +1 (double) for 1st~2nd level, +2 (triple) for 3rd~4th level, and +5 (sextuple) for 9th~10th level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01656))_
+- Some expansions don't fall into any of the above types. For spells that can perform these special expansions, effect is written in the expansion section of the magic details, and an explanation is given under each spell. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01658))_
+- Some magic allows for multiple expansion types. In these cases, you can perform multiple expansions at the same time. However, at this time, the amount of mental power consumed will become extremely large. By multiplying the rates determined for each expansion, you can determine the total multiplied rate of mental power consumed. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01660))_
+- Suppose a sorcerer casts an Energy Bolt on three enemies ( x 3 expansion) with a +1 to his final score ( x 2 expansion) and he makes 4 damage checks for each ( x 4 expansion). In this case, the multiplied rate of mental power consumed is 3 x 2 x 4 = 24! _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01662))_
+- So for expansions such as x 1.5 and x 8/3 , the cost would be double and triple , respectively. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01625))_
+- Since it's the area that gets expanded, the radius of a circle, a side of a square, etc., can only be increased by the square root of the expansion rate. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01626))_
+- Since it' s the volume that gets expanded, the radius of a sphere, a side of a cube, etc., can only be increased by the cube root of the expansion rate. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01630))_
+- For example, when you cast the ancient magic Light , whose area is A space with a 10 meter radius , by consuming double the mental power, the resulting area will be a spherical space with a radius of 10 x 1.3 = 13 meters . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01642))_
+- Magic basically only works up to a certain distance. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01647))_
+- Final score can only be increased up to a maximum of caster's rune master skill level ÷ 2 (rounded up) . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01656))_
+- Therefore, it cannot be done infinitely. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01656))_
+
+## Technical atoms
+
+### Technical frame 1: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.7 Magic Expansion
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01620))_
+
+> If it's two or three targets...... the mental power consumed will also be doubled or tripled .......
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01619))_
+
+<a id="atom-technical-atom-7f4db1b26de382bc"></a>
+> If you expand a spell that affects one enemy (or ally), it can instead affect multiple at the same time.
+
+### Technical frame 2: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.7 Magic Expansion
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01645))_
+
+> For spells that can perform this expansion, duration is written in the expansion section of the magic details.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01644))_
+
+<a id="atom-technical-atom-1570abe425d8d4ff"></a>
+> Y ou can also increase it by a fraction, such as x1.5, in which case the fraction is rounded up when determining the multiplier for mental power consumed.
+
+### Technical frame 3: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.7 Magic Expansion
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01655))_
+
+> For spells that can perform this expansion, fi nal score is written in the expansion section of the magic details.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01654))_
+
+<a id="atom-technical-atom-cf96e17fe321650f"></a>
+> you can add a +1 or +2 bonus to your final score.

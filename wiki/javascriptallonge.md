@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge
 page_kind: source
-summary: Claim-ledger projection (coding): 1916 usable entries, 608 technical atoms, 450 needs-review, 380 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (coding): 1916 usable entries, 608 technical atoms, 451 needs-review, 378 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources
 source_id: javascriptallonge.pdf
-projection_coverage: projection-coverage-2ae2489a7b9b14da@5a9a3dba1d1ff479
+projection_coverage: projection-coverage-78546ff9c53a86bb@413cefad2a6499f3
 ---
 
 # Javascriptallonge
@@ -16,14 +16,14 @@ projection_coverage: projection-coverage-2ae2489a7b9b14da@5a9a3dba1d1ff479
 ## Source
 
 - Raw source: `raw/javascriptallonge.pdf`
-- Claim-ledger projection (coding): 1916 usable entries, 608 technical atoms, 450 needs-review, 380 linked page(s); write decision write-with-review-work.
+- Claim-ledger projection (coding): 1916 usable entries, 608 technical atoms, 451 needs-review, 378 linked page(s); write decision write-with-review-work.
 
 ## Page Families
 
 - broad-topic: 19 page(s) - broad concept overview pages
 - collection-page: 26 page(s) - list and catalog pages
-- recipe-pattern: 104 page(s) - reusable example pattern pages
-- section-reference: 168 page(s) - source-order reference pages
+- recipe-pattern: 103 page(s) - reusable example pattern pages
+- section-reference: 167 page(s) - source-order reference pages
 - source-manifest: 1 page(s) - source entry point
 - topic-concept: 63 page(s) - focused concept pages
 
@@ -37,7 +37,7 @@ projection_coverage: projection-coverage-2ae2489a7b9b14da@5a9a3dba1d1ff479
 - [[javascriptallonge-collection-and-also-naming-functions-c49aef83]] - collection: And also: / Naming Functions: 3 collection member(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-collection-recipes-with-basic-functions-d7445960]] - collection: Recipes with Basic Functions: 6 collection member(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-collection-recipes-with-basic-functions-left-variadic-functions-574b019e]] - collection: Recipes with Basic Functions / Left-Variadic Functions: 3 collection member(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-collection-picking-the-bean-choice-and-truthiness-d2a76f30]] - collection: Picking the Bean: Choice and Truthiness: 4 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-picking-the-bean-choice-and-truthiness-d2a76f30]] - collection: Picking the Bean: Choice and Truthiness: 3 collection member(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-collection-composing-and-decomposing-data-99b4771a]] - collection: Composing and Decomposing Data: 6 collection member(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-collection-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8]] - collection: Composing and Decomposing Data / Arrays and Destructuring Arguments: 7 collection member(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-collection-composing-and-decomposing-data-self-similarity-ea23a471]] - collection: Composing and Decomposing Data / Self-Similarity: 3 collection member(s) from raw/javascriptallonge.pdf.
@@ -410,6 +410,7 @@ const status  — _technical-atom-trust: table-parse-incomplete, table-raw-text-
 - -If its left-hand expression evaluates to something truthy, || returns the value of its lefthand expression without evaluating its right-hand expression. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00767))_
 - -If its left-hand expression evaluates to something false, || evaluates its right-hand expression and returns the value of the right-hand expression. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00768))_
 - In JavaScript, && and || aren't boolean logical operators in the logical sense. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00771))_
+- || and && are control-flow operators — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00773))_
 - If n === 0 , JavaScript does not evaluate (n !== 1 && even(n -2)) . This is very important! Imagine that JavaScript evaluated both sides of the || operator before determining its value. n === 0 would be true. What about (n !== 1 && even(n -2)) ? Well, it would evaluate even(n 2) , or even(-2) — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00777))_
 - and so on and so forth until JavaScript throws up its hands and runs out of stack space. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00778))_
 - But that's not what happens. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00779))_

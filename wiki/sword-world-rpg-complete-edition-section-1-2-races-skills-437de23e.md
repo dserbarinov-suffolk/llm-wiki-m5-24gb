@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-2-races-skills-437de23e
 page_kind: source
-summary: 1.2 Races / Skills: 16 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.2 Races / Skills: 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-437de23e@fcdd8908e136e64071521c65d888aa41
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-437de23e@b26c816d2cb9403aec2622637241a94b
 ---
 
 # 1.2 Races / Skills
@@ -17,20 +17,11 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-1-2-races-half-elf-27acbf34]] - previous source section: 1.2 Races / 【 Half-Elf 】
-
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-1-2-races-7e38ee04]] - broader source section: 1.2 Races
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-2-skill-types-4ef42dcd]] - narrower source section: 1.2 Races / Skills / 1.3.2 Skill Types
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-4-explanation-of-adventurer-skills-e25e82e6]] - narrower source section: 1.2 Races / Skills / 1.3.4 Explanation of Adventurer Skills
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-bard-c2378965]] - narrower source section: 1.2 Races / Skills / 【 Bard 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-changeling-42881993]] - narrower source section: 1.2 Races / Skills / 《 Changeling 》
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-dark-priest-04f6395c]] - narrower source section: 1.2 Races / Skills / 【 Dark Priest 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-dragon-priest-539b2c28]] - narrower source section: 1.2 Races / Skills / 【 Dragon Priest 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-priest-c2d3b2c0]] - narrower source section: 1.2 Races / Skills / 【 Priest 】
 
 ## Statements
 
@@ -50,8 +41,3 @@ From [[sword-world-rpg-complete-edition]].
 - In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a character has is called that character's adventurer level . For example, a character with priest skill level 1, fighter skill level 4 (these are adventurer skills), sailor skill level 5, and fisher skill level 2 (these are general skills) would be at adventurer level 4 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00219))_
 - The highest level among the adventurer skills that a character has is called that character's adventurer level . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00219))_
 - For example, a character with priest skill level 1, fighter skill level 4 (these are adventurer skills), sailor skill level 5, and fisher skill level 2 (these are general skills) would be at adventurer level 4 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00219))_
-
-### 1.2 Races / Skills / 【 Fighter 】
-
-- Those with this skill are adept warriors, who fight with weapons. They are experts in combat, able to use all kinds of weapons and armor. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00224))_
-- A wandering swordsman who makes a name for himself solely on the strength of his sword, and eventually establishes a kingdom. Such a story is also possible in Forcelia. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00225))_

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-13-11-daemon@746109a38c33575d55416c1fab2779b7
+projection_coverage: topic-sword-world-rpg-complete-edition-13-11-daemon@251edd5a29d0630855e35025f8d8568a
 ---
 
 # 13 11 Daemon
@@ -16,150 +16,144 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 
 ## Statements
 
-### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Monster Catalog / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
-- A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enemies. If it uses its tail to entangle, treat this as a strangling attack (see p. 236). The target will be unable to move, and the grunel can attack with the weapon in its right hand. They have the ability to use ancient magic. They seem to have been especially proficient at enchanting, and often carry a magical sword. If a grunel has a magic sword, add a bonus of 1 point to both its attack points and strike points. They can also use dark magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08238))_
+- A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enemies. If it uses its tail to entangle, treat this as a strangling attack (see p. 236). The target will be unable to move, and the grunel can attack with the weapon in its right hand. They have the ability to use ancient magic. They seem to have been especially proficient at enchanting, and often carry a magical sword. If a grunel has a magic sword, add a bonus of 1 point to both its attack points and strike points. They can also use dark magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08200))_
 
-- The zalbard is a lesser daemon that's said to be the model for the gargoyle. Its appearance is almost identical to that of a gargoyle, but its skin is fiery red. Its eyes are also bright red, and glow suspiciously. A zalbard's method of attack is the sharp claws on its hands, and it also has the power to breathe magical fire from its mouth. The fire breathed by a zalbard extends in a straight line, making one target within 5 meters its victim. Those attacked by the fire will suffer damage equal to a strike power 10 strike roll plus 5 points of bonus damage. If you succeed on a resistance roll, strike power becomes 0. In addition, fire and heat attacks cannot wound a zalbard. They have the ability to use dark magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08260))_
+- The zalbard is a lesser daemon that's said to be the model for the gargoyle. Its appearance is almost identical to that of a gargoyle, but its skin is fiery red. Its eyes are also bright red, and glow suspiciously. A zalbard's method of attack is the sharp claws on its hands, and it also has the power to breathe magical fire from its mouth. The fire breathed by a zalbard extends in a straight line, making one target within 5 meters its victim. Those attacked by the fire will suffer damage equal to a strike power 10 strike roll plus 5 points of bonus damage. If you succeed on a resistance roll, strike power becomes 0. In addition, fire and heat attacks cannot wound a zalbard. They have the ability to use dark magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08222))_
 
-- A doubleburg is almost the same size as a human, and its entire body is pitch black. It has a bright red open mouth straight across its face, but no other features. This daemon has the ability to completely copy any opponent's appearance after just one look, including their clothes. If it spends one minute to observe them, it can imitate their tone of speech and gestures exactly. Therefore, it's not possible to discern whether it's the real thing by appearance alone. To shapeshift or shapeshift back requires one full round. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08278))_
+- A doubleburg is almost the same size as a human, and its entire body is pitch black. It has a bright red open mouth straight across its face, but no other features. This daemon has the ability to completely copy any opponent's appearance after just one look, including their clothes. If it spends one minute to observe them, it can imitate their tone of speech and gestures exactly. Therefore, it's not possible to discern whether it's the real thing by appearance alone. To shapeshift or shapeshift back requires one full round. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08240))_
 
-- The Maligdorai is a daemon whose upper body resembles an owl and lower body the hind legs of a goat, and its entire body is covered in feathers. As well as wings on its back, it has jointless tentacle-like viscera sprouting from the base of each wing. Its arms come to sharp gimlet-shaped points, and it performs physical attacks by stabbing with them. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08306))_
+- The Maligdorai is a daemon whose upper body resembles an owl and lower body the hind legs of a goat, and its entire body is covered in feathers. As well as wings on its back, it has jointless tentacle-like viscera sprouting from the base of each wing. Its arms come to sharp gimlet-shaped points, and it performs physical attacks by stabbing with them. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08268))_
 
 
 ## Technical atoms
 
-### Technical frame 1: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 1: Monster Catalog / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08238))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08200))_
 
 > A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enemies. If it uses its tail to entangle, treat this as a strangling attack (see p. 236). The target will be unable to move, and the grunel can attack with the weapon in its right hand. They have the ability to use ancient magic. They seem to have been especially proficient at enchanting, and often carry a magical sword. If a grunel has 
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08240, source-range-e5870dca-08241, source-range-e5870dca-08242, source-range-e5870dca-08243, source-range-e5870dca-08244, source-range-e5870dca-08245, source-range-e5870dca-08246, source-range-e5870dca-08247, source-range-e5870dca-08249, source-range-e5870dca-08251, source-range-e5870dca-08252, source-range-e5870dca-08253))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08202, source-range-e5870dca-08203, source-range-e5870dca-08204, source-range-e5870dca-08205, source-range-e5870dca-08206, source-range-e5870dca-08207, source-range-e5870dca-08208, source-range-e5870dca-08209, source-range-e5870dca-08211, source-range-e5870dca-08213, source-range-e5870dca-08214, source-range-e5870dca-08215))_
 
-<a id="atom-technical-atom-5aeab48df8db2e76"></a>
+<a id="atom-technical-atom-879a9bd6b03578a0"></a>
 > Monster Level=5
 
-<a id="atom-technical-atom-ccc15232be1b9cf2"></a>
+<a id="atom-technical-atom-07e7884432ed16ac"></a>
 > Rarity=13
 
-<a id="atom-technical-atom-9052ba7ee8fdbbce"></a>
+<a id="atom-technical-atom-4142b416d826184e"></a>
 > Agility=14
 
-<a id="atom-technical-atom-c4bb0875f5376fb5"></a>
+<a id="atom-technical-atom-7d6f86096d9be6a2"></a>
 > Movement Speed=15/17 (air)
 
-<a id="atom-technical-atom-bd1d4f602d0085ba"></a>
+<a id="atom-technical-atom-beb7c11cdcaca667"></a>
 > Number=One to several
 
-<a id="atom-technical-atom-461d51ba16e44f44"></a>
+<a id="atom-technical-atom-2bff4fa6c6702e13"></a>
 > Frequency=Very rare
 
-<a id="atom-technical-atom-1b593d8046794cfb"></a>
+<a id="atom-technical-atom-c344f6dce3be1a1f"></a>
 > Intellect=Human
 
-<a id="atom-technical-atom-787bbdcab830364c"></a>
+<a id="atom-technical-atom-7763085dfc463c32"></a>
 > Reaction=Adversarial, or command-based
 
-<a id="atom-technical-atom-39a2b693e842b1e7"></a>
+<a id="atom-technical-atom-c58440ada1ed091e"></a>
 > Strike Points=14
 
-<a id="atom-technical-atom-d1b646b214e89a1d"></a>
+<a id="atom-technical-atom-cd60cccc6675cdbe"></a>
 > Life Points/Resistance=25/15 (8)
 
-<a id="atom-technical-atom-d3dbef234412bbbf"></a>
+<a id="atom-technical-atom-43075b8112c79a77"></a>
 > Mental Points/Resistance=18/14 (7)
 
-<a id="atom-technical-atom-63987c621efd2329"></a>
+<a id="atom-technical-atom-2da5b6976f256eeb"></a>
 > Special Abilities=3rd level dark magic (magic intensity/magic power=12/5)
 
-### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 2: Monster Catalog / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08260))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08222))_
 
 > The zalbard is a lesser daemon that's said to be the model for the gargoyle. Its appearance is almost identical to that of a gargoyle, but its skin is fiery red. Its eyes are also bright red, and glow suspiciously. A zalbard's method of attack is the sharp claws on its hands, and it also has the power to breathe magical fire from its mouth. The fire breathed by a zalbard extends in a straight line, making one target within 5 meters its victim. Those attacked by the fire will suffer damage equal 
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08262, source-range-e5870dca-08263, source-range-e5870dca-08265, source-range-e5870dca-08266, source-range-e5870dca-08267, source-range-e5870dca-08268, source-range-e5870dca-08270, source-range-e5870dca-08272, source-range-e5870dca-08273, source-range-e5870dca-08274))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08224, source-range-e5870dca-08225, source-range-e5870dca-08227, source-range-e5870dca-08228, source-range-e5870dca-08229, source-range-e5870dca-08230, source-range-e5870dca-08232, source-range-e5870dca-08234, source-range-e5870dca-08235, source-range-e5870dca-08236))_
 
-<a id="atom-technical-atom-cf280f957090096e"></a>
+<a id="atom-technical-atom-040a06b8971b1640"></a>
 > Monster Level=5
 
-<a id="atom-technical-atom-143d47fea4b4cf7b"></a>
+<a id="atom-technical-atom-8f16a7306084cb0a"></a>
 > Rarity=14
 
-<a id="atom-technical-atom-186b106be6a65718"></a>
+<a id="atom-technical-atom-adc439c2c26a7d38"></a>
 > Number=One to several
 
-<a id="atom-technical-atom-907d5080a247169b"></a>
+<a id="atom-technical-atom-46777ed012063016"></a>
 > Frequency=Very rare
 
-<a id="atom-technical-atom-31eb6324a373a0a3"></a>
+<a id="atom-technical-atom-548ea74848c359e7"></a>
 > Intellect=Human
 
-<a id="atom-technical-atom-45636166774d52f5"></a>
+<a id="atom-technical-atom-72abdce5d0a0f384"></a>
 > Reaction=Adversarial, or command-based
 
-<a id="atom-technical-atom-571690ff6504b406"></a>
+<a id="atom-technical-atom-4be058774d77aa9d"></a>
 > Strike Points=12
 
-<a id="atom-technical-atom-57ce9d846d647a87"></a>
+<a id="atom-technical-atom-e9a08995a754c6f6"></a>
 > Life Points/Resistance=20/14 (7)
 
-<a id="atom-technical-atom-00f28520feb752b9"></a>
+<a id="atom-technical-atom-4d959690f7c00697"></a>
 > Mental Points/Resistance=18/14 (7)
 
-<a id="atom-technical-atom-5d72aabf1076d8e7"></a>
+<a id="atom-technical-atom-32ca55e5a21f0cd1"></a>
 > Special Abilities=Shapeshift
 
-### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 3: Monster Catalog / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08278))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08240))_
 
 > A doubleburg is almost the same size as a human, and its entire body is pitch black. It has a bright red open mouth straight across its face, but no other features. This daemon has the ability to completely copy any opponent's appearance after just one look, including their clothes. If it spends one minute to observe them, it can imitate their tone of speech and gestures exactly. Therefore, it's not possible to discern whether it's the real thing by appearance alone. To shapeshift or shapeshift 
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08277))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08239))_
 
-<a id="atom-technical-atom-838de3680013f42d"></a>
+<a id="atom-technical-atom-ac245e8d4dde5a4e"></a>
 > Perception=Five senses (Darkvision)
 
-### Technical frame 4: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 4: Monster Catalog / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08290))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08252))_
 
 > A ragnakang is a lesser daemon that looks like an upright dragon. It has wings reminiscent of a giant bat, can reach over 3 meters in height with its neck extended, and uses its long neck to attack by biting. It also uses its strong tail as a weapon. They perform these two attacks at the same time every round. Its sharp fangs contain a powerful poison, and those who fail to resist will immediately suffer damage equal to a strike power 20 strike roll plus 6 points of bonus damage.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08292, source-range-e5870dca-08293, source-range-e5870dca-08294, source-range-e5870dca-08296, source-range-e5870dca-08297, source-range-e5870dca-08298, source-range-e5870dca-08300, source-range-e5870dca-08301))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08254, source-range-e5870dca-08255, source-range-e5870dca-08256, source-range-e5870dca-08258, source-range-e5870dca-08259, source-range-e5870dca-08260, source-range-e5870dca-08262, source-range-e5870dca-08263))_
 
-<a id="atom-technical-atom-eb3e705939482877"></a>
+<a id="atom-technical-atom-aa79cbd5a9492a24"></a>
 > Monster Level=7
 
-<a id="atom-technical-atom-5f2599f7c9f6bacd"></a>
+<a id="atom-technical-atom-045bcd42459ea29a"></a>
 > Rarity=15
 
-<a id="atom-technical-atom-56582e41e60434c6"></a>
+<a id="atom-technical-atom-64148d0b30b98443"></a>
 > Agility=14 Movement Speed=15/20 (air)
 
-<a id="atom-technical-atom-1ab69498e8b72f5c"></a>
+<a id="atom-technical-atom-b90db504f082d645"></a>
 > Intellect=High
 
-<a id="atom-technical-atom-96da050c0ad75289"></a>
+<a id="atom-technical-atom-b5878b65fac56f45"></a>
 > Reaction=Adversarial, or command-based Attack Points=Needle x 2: 14 (7)
 
-<a id="atom-technical-atom-05d6baa84d0c5754"></a>
+<a id="atom-technical-atom-aa3d18813683381d"></a>
 > Strike Points=16x2
 
-<a id="atom-technical-atom-b389fad23955c525"></a>
+<a id="atom-technical-atom-8e6135cd5852e1bd"></a>
 > Life Points/Resistance=20/16 (9)
 
-<a id="atom-technical-atom-32d8ecfe704d1a84"></a>
+<a id="atom-technical-atom-c9ea26a7b8e3177e"></a>
 > Mental Points/Resistance=25/17 (10)
 
-
-## Related pages
-
-### Shared technical atoms
-
-- [[sword-world-rpg-complete-edition-underworld-creature]] - shared statements and technical atoms: Underworld Creature shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enem ... [truncated]; Underworld Creature shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: Monster Level=5 (4 shared statement(s), 7 shared atom(s))
 
 ## Source
 

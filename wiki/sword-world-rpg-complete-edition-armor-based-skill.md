@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-armor-based-skill
 page_kind: concept
-summary: Armor Based Skill: 5 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Armor Based Skill: 5 statement(s) and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-armor-based-skill@66d0c65eb624b2fd6dc43ddbb27a94cc
+projection_coverage: topic-sword-world-rpg-complete-edition-armor-based-skill@e0b033a12dfff4a2086f96d9c08151cc
 ---
 
 # Armor Based Skill
@@ -22,11 +22,7 @@ What [[sword-world-rpg-complete-edition]] covers about armor based skill:
 
 - The following are guidelines for purchasing weapons and armor based on which skills a character has. For characters with multiple skills, look at the description of each skill and decide which weapons and armor you will buy. If the equipment has both unrestricted and restricted skills, please understand that your equipment must conform to the restricted skill if you want to take full advantage of both skills. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00740))_
 
-### 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Shaman ]
-
 - If you want to make use of your shaman skill, your armor is limited to cloth , soft leather , or hard leather . Of these, the one with the greatest required strength within the character's strength range should be chosen. Also, you should not buy a shield. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00793))_
-
-### 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
 
 - These skills have no weapon or armor restrictions. Refer to restrictions on other skills acquired at the same time. If a character has acquired only these skills, the basic idea is to choose weapons and armor whose required strength is the same as their own strength. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00796))_
 
@@ -44,22 +40,33 @@ What [[sword-world-rpg-complete-edition]] covers about armor based skill:
 <a id="atom-technical-atom-755df8959122a461"></a>
 > If the equipment has both unrestricted and restricted skills, please understand that your equipment must conform to the restricted skill if you want to take full advantage of both skills.
 
-### Technical frame 2: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Ranger ]
+### Technical frame 2: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00786))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00788))_
 
-> If you want to make use of your ranger skill, your armor must be light . Specifically, it is armor that requires up to half of your strength (rounded up) . For armor, metal armor other than ring mail may not be used, regardless of the character's strength or required strength. Choose non-metal armor or ring mail.
+> For weapons, there are no restrictions. Y ou should buy a weapon whose required strength is the same as your own strength. Ranger does not include the ability to fight with melee weapons, but it does include the ability to handle projectiles . Therefore, it is a good idea to choose a projectile, if you have to choose a weapon. On Table 1-8: Weapons, they are indicated as throwable made for throwing , and shooting .
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00786))_
+
+<a id="atom-technical-atom-91f6547a1527556e"></a>
+> If you want to make use of your ranger skill, your armor must be light .
+
+### Technical frame 3: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00790))_
+
+> If you want to make use of your sorcerer skill, your armor must be cloth or soft leather . Either of these should be the one with the greatest required strength within the character's strength range. Also, you should not buy a shield.
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00788))_
 
 <a id="atom-technical-atom-3cfe34a4cb8bec22"></a>
 > Therefore, it is a good idea to choose a projectile, if you have to choose a weapon.
 
-### Technical frame 3: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sorcerer ]
+### Technical frame 4: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00790))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00793))_
 
-> If you want to make use of your sorcerer skill, your armor must be cloth or soft leather . Either of these should be the one with the greatest required strength within the character's strength range. Also, you should not buy a shield.
+> If you want to make use of your shaman skill, your armor is limited to cloth , soft leather , or hard leather . Of these, the one with the greatest required strength within the character's strength range should be chosen. Also, you should not buy a shield.
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00791))_
 
@@ -69,10 +76,9 @@ What [[sword-world-rpg-complete-edition]] covers about armor based skill:
 
 ## Related pages
 
-### Shared claims
+### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-magic-armor]] - shared statements: 《 Magic Armor (+1) 》 shares source evidence from 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill: The general rule is to choose one whose required strength equals the character's strength , but a character may be substantially limited by the skills they have. For ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-restriction-weapon]] - shared statements: Restriction Weapon shares source evidence from 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]: These skills have no weapon or armor restrictions. Refer to restrictions on other skills acquired at the same time. If a character has acquired only these skills, th ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-restriction-weapon]] - shared statements and technical atoms: Restriction Weapon shares source evidence from 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill: These skills have no weapon or armor restrictions. Refer to restrictions on other skills acquired at the same time. If a character has acquired only these skills, th ... [truncated]; Restriction Weapon shares technical record from 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill: If you want to make use of your ranger skill, your armor must be light . (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

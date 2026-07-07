@@ -1,0 +1,57 @@
+---
+page_id: sword-world-rpg-complete-edition-section-priest-skill-36193cbe
+page_kind: source
+summary: Priest Skill: 65 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-07
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-priest-skill-36193cbe@5823c29027394d17b8ed12ac28f0f9ed
+---
+
+# Priest Skill
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-priest-skill-the-nameless-god-of-madness-wicked-god-a1089925]] - narrower source section: Priest Skill / The Nameless God of Madness (Wicked God)
+
+## Statements
+
+- Among the gods of Alecrast, the six most powerful gods (and those with the greatest number of believers) are called the six major gods . These six major gods almost always have temples in most towns. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03284))_
+- These six major gods are Pharis (the supreme god) , the guardian of order and law, Phalaris (the dark god) , who rules over destruction and chaos, Myrii (the god of war) , the guardian of war and victory, Rahda (the god of knowledge) , who rules over wisdom and knowledge, Cha Za (the god of trade) , who is the god of luck and commerce, and Marfa (the earth mother) , the goddess of nature and agriculture, and the protector of marriage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03285))_
+- Pharis's teachings are for people to act in an orderly manner and to achieve unchanging justice in the world. It's up to the game master to decide what is fair, but assault, murder, and for that matter, theft for fun, etc. cannot be called good acts. Also, he especially dislikes undead, monsters created by magic, or summoned from other planes as they're impure (this is a characteristic common to most gods except wicked gods). His ardent believers include members of the ruling class such as kings, aristocrats, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03288))_
+- He denies any acts of cowardice or cowardly behavior. He only supports righteous conflict, so he will not lend his strength to fights that are just for the sake of stealing or simply killing one another. His believers are knights and mercenaries. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03290))_
+- He doesn't have many restrictions, but he tends to dislike barbaric behavior. He teaches an intelligent way of life, and his doctrine is that if all things are wise, the world will be well. It seems that he has many believers among sages and sorcerers. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03292))_
+- He prohibits causing misfortune to others. He also denies closed-minded thinking. He teaches that happiness can be achieved through conversation and interaction between people, such as through trade. Although he prohibits stealing, it's okay to claim something that doesn't have an obvious owner (such as lost property or treasure in ruins) as your own. His believers are the citizens living in towns. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03294))_
+- Her doctrine is expressed in the words be natural . This is different from the concept of nature-worship, and her ideal is for humans to be in their natural state. She approves of fighting for selfdefense, but denies any other kind of fighting. She particularly encourages farming and hunting, which are basic activities indispensable for human survival. It seems that she has many believers among the poor, farmers, and hunters. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03296))_
+- Phalaris is a wicked god . Game masters should not allow player characters to worship this god. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03298))_
+- Followers of Phalaris recognize all desires inherent in the individual and affirm any means necessary to enhance one's own existence. He teaches that it is okay to do something, even if it means destruction or murder, as long as it is for your own benefit. What his followers aim for is complete freedom, and they dislike succumbing to the constraints of law, order, and morality. It is clear that those who follow these doctrines must eventually become wicked. Although there is no shortage of believers, it seems they often remain hidden in order to protect their own position. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03299))_
+- Temples of Phalaris often exist in large towns, but because he is considered a wicked god, they are confined to basements and secluded forests. However, the kingdom of chaos Phandria , located in the central plains region, has Phalaris as its state religion, and the largest Phalaris temple in Alecrast is built there. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03300))_
+- These teachings are not formal, but express inner thinking. Therefore, players and game masters should use common sense when making judgments, rather than forcefully twisting the doctrine or interpreting it too rigidly. The gods see everything, but they also see from a vast perspective at the same time, so unless it's a very extreme act, they will not abandon a priest. However, this does not mean that everything is forgivable, so game masters should only confiscate the priest skill when the character repeatedly commits unjust acts or shows no remorse. Also, if this happens, don't forget to warn them first. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03301))_
+- In addition to the six major gods, the following gods are also worshiped in Alecrast. Among these are wicked gods whose teachings are to bring disaster to the world. Player characters cannot worship wicked gods. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03304))_
+- Fenes is the younger brother of the supreme god Pharis, and is said to govern things that repeat (cycles). During the war of the gods, it is said that he did not join the forces of darkness nor the forces of light led by his older brother Pharis, choosing instead to take the position of king of the neutral gods. Belief in him is not popular in Alecrast, and he has almost no temples. It is sometimes said that he is the true form of the Nameless God of Madness (a wicked god, explained later), and he is also said to be the god of beastmen such as werewolves. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03306))_
+- He is the god of the arts and also the god of bards. He is also believed to write history, and so is also characterized as a god of destiny. Although he does not have great power, he is widely believed in by the masses, and his temples can be seen from time to time. Belief in him is especially popular among artists. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03308))_
+- Although he is said to be the god of thieves, he was originally the god of craftsmanship, and so has believers among craftsmen. He is also considered the god of gifts, as he brings unexpected wealth. Temples dedicated to Ganerd can sometimes be seen in large towns, but his power is by no means great. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03310))_
+- He is known as the god of smiths. However, he was originally the god of volcanoes, and because he told people that when you heat a stone, it melts like water, he was worshiped as the god of smiths. He has many believers among those who work in the mines, and he even has the personality of a chief god, especially among the dwarves. As a result, most dwarven settlements have built shrines to Braki. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03312))_
+- However, his temples are rarely seen in human cities. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03313))_
+- His ardent believers include members of the ruling class such as kings, aristocrats, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03288))_
+- Also, he especially dislikes undead, monsters created by magic, or summoned from other planes as they're impure (this is a characteristic common to most gods except wicked gods). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03288))_
+- He only supports righteous conflict, so he will not lend his strength to fights that are just for the sake of stealing or simply killing one another. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03290))_
+- He teaches that happiness can be achieved through conversation and interaction between people, such as through trade. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03294))_
+- Although he prohibits stealing, it's okay to claim something that doesn't have an obvious owner (such as lost property or treasure in ruins) as your own. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03294))_
+- Followers of Phalaris recognize all desires inherent in the individual and affirm any means necessary to enhance one's own existence. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03299))_
+- He teaches that it is okay to do something, even if it means destruction or murder, as long as it is for your own benefit. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03299))_
+- What his followers aim for is complete freedom, and they dislike succumbing to the constraints of law, order, and morality. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03299))_
+- Temples of Phalaris often exist in large towns, but because he is considered a wicked god, they are confined to basements and secluded forests. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03300))_
+- However, the kingdom of chaos Phandria , located in the central plains region, has Phalaris as its state religion, and the largest Phalaris temple in Alecrast is built there. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03300))_
+- Therefore, players and game masters should use common sense when making judgments, rather than forcefully twisting the doctrine or interpreting it too rigidly. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03301))_
+- However, this does not mean that everything is forgivable, so game masters should only confiscate the priest skill when the character repeatedly commits unjust acts or shows no remorse. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03301))_
+- The gods see everything, but they also see from a vast perspective at the same time, so unless it's a very extreme act, they will not abandon a priest. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03301))_
+- It is sometimes said that he is the true form of the Nameless God of Madness (a wicked god, explained later), and he is also said to be the god of beastmen such as werewolves. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03306))_
+- However, he was originally the god of volcanoes, and because he told people that when you heat a stone, it melts like water, he was worshiped as the god of smiths. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03312))_

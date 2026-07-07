@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-10-silver-weapon@5a9570ecea6679a551d7e417d536eeed
+projection_coverage: topic-sword-world-rpg-complete-edition-10-silver-weapon@060c9b50ab3353168085039d3fd68f8c
 ---
 
 # 10 Silver Weapon
@@ -16,18 +16,19 @@ What [[sword-world-rpg-complete-edition]] covers about 10 silver weapon:
 
 ## Statements
 
-### 4.10 Excellent Weapons and Armor / 4.10.2 Silver Weapons and Armor
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.2 Silver Weapons and Armor
 
-- Even silver weapons and armor have no differences in their strike power, defense power, attack power, or evasion speed at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01440))_
+- Even silver weapons and armor have no differences in their strike power, defense power, attack power, or evasion speed at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01423))_
 
-- To buy silver weapons and armor in a store, you must be in a town about the size of the royal city level in a small country. Silver weapons and armor will also cost 5 times the original price. Y ou can also ask for a high-quality item of silver, but the price will be even higher . Just think in terms of multiplication. For example, the price of a silver item with a required strength 2 times lower than the original would be 5 x 2 = 10 times the price of the original. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01443))_
+- To buy silver weapons and armor in a store, you must be in a town about the size of the royal city level in a small country. Silver weapons and armor will also cost 5 times the original price. Y ou can also ask for a high-quality item of silver, but the price will be even higher . Just think in terms of multiplication. For example, the price of a silver item with a required strength 2 times lower than the original would be 5 x 2 = 10 times the price of the original. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01426))_
 
 
 ## Related pages
 
 ### Shared claims
 
-- [[sword-world-rpg-complete-edition-armor]] - shared statements: Armor shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.2 Silver Weapons and Armor: Even silver weapons and armor have no differences in their strike power, defense power, attack power, or evasion speed at all. (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-armor]] - shared statements: Armor shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.2 Silver Weapons and Armor: Even silver weapons and armor have no differences in their strike power, defense power, attack power, or evasion speed at all. (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.2 Silver Weapons and Armor: Even silver weapons and armor have no differences in their strike power, defense power, attack power, or evasion speed at all. (3 shared statement(s))
 
 ## Source
 

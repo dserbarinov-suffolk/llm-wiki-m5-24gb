@@ -123,6 +123,27 @@ def test_generic_table_instruction_heading_does_not_create_page_target() -> None
     assert "roll-table" not in keys
 
 
+def test_record_shaped_structure_node_does_not_create_page_target() -> None:
+    result = _build(
+        [
+            ("heading", "# Reference Catalog", []),
+            (
+                "paragraph",
+                "Reference catalog provides reusable entries.",
+                ["Reference catalog provides reusable entries."],
+            ),
+            ("heading", "# [ Luma ] Rate=2 Cost=4 Range=near", []),
+            ("paragraph", "Luma provides a reusable entry.", ["Luma provides a reusable entry."]),
+        ]
+    )
+
+    plan = build_section_grounded_plan(result.ledger, result.document_structure)
+
+    keys = {item.topic_key for item in plan.page_targets}
+    assert "reference-catalog" in keys
+    assert "luma-rate-cost-range" not in keys
+
+
 def test_section_label_keeps_non_plural_suffix_terms() -> None:
     result = _build(
         [

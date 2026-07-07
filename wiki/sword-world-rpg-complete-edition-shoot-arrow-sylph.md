@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-shoot-arrow-sylph@40273ead4a114cb8e91c11a38dd43ca8
+projection_coverage: topic-sword-world-rpg-complete-edition-shoot-arrow-sylph@1cb4e7fc7bd94013e4bc456f14825d78
 ---
 
 # Shoot Arrow Sylph
@@ -18,20 +18,20 @@ What [[sword-world-rpg-complete-edition]] covers about shoot arrow sylph:
 
 ### 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ] / [ Shoot Arrow ] (Sylph/Wind Spirit)
 
-- Type=Counters (Negates): Missile Protection Expansion=Distance, targets Resist=None When you cast this spell, the caster's arrow will be carried by a sylph, ensuring that it hits the target. The strike power of the arrow is a uniform 20, the magic power of the caster is used as bonus damage. Also, if you roll 10 or greater on your damage check, a critical will occur. The target cannot resist this spell. However, armor protection is effective. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03049))_
+- Type=Counters (Negates): Missile Protection Expansion=Distance, targets Resist=None When you cast this spell, the caster's arrow will be carried by a sylph, ensuring that it hits the target. The strike power of the arrow is a uniform 20, the magic power of the caster is used as bonus damage. Also, if you roll 10 or greater on your damage check, a critical will occur. The target cannot resist this spell. However, armor protection is effective. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03016))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ] / [ Shoot Arrow ] (Sylph/Wind Spirit)
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03050))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03017))_
 
 > This magic is a counter spell to the spirit magic Missile Protection , so when the target of the arrow is under the influence of Missile Protection , the wind spirit powers of the same nature will interfere with each other, nullifying both.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03051))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03018))_
 
-<a id="atom-technical-atom-71f4ce406c87b980"></a>
+<a id="atom-technical-atom-a6dc05cd766f4c0b"></a>
 > Note that this spell cannot deal damage to monsters that can only be wounded by silver or magical weapons, such as werewolves, etc.
 
 

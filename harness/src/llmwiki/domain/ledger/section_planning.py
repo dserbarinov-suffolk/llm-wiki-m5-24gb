@@ -16,6 +16,7 @@ from llmwiki.domain.ledger.canonical import content_fingerprint, deterministic_i
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.section_page_atoms import atoms_for_section_entries
+from llmwiki.domain.ledger.source_structure_integrity import structure_node_can_drive_pages
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.ledger.topic_evidence import heading_topic_decision
 from llmwiki.domain.ledger.topic_terms import source_label_terms, topic_matcher, topic_term_role
@@ -133,6 +134,7 @@ def _section_nodes(structure: DocumentStructure) -> tuple[StructureNode, ...]:
         node
         for node in sorted(structure.structure_nodes, key=lambda item: item.source_order)
         if node.structure_node_kind in _SECTION_NODE_KINDS
+        and structure_node_can_drive_pages(node)
     )
 
 
@@ -281,6 +283,7 @@ def _child_branches_with_evidence(
     return sum(
         1
         for child in structure.children(node.structure_node_id)
+        if structure_node_can_drive_pages(child)
         if _entries_for_node(ledger, child.structure_node_id)
         or _atoms_for_node(ledger, structure, child)
     )

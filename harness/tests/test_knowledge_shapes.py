@@ -95,7 +95,7 @@ def test_recipe_shape_survives_renamed_domain_nouns() -> None:
 
 def test_catalog_like_child_sequence_is_container_not_procedure() -> None:
     structure = _structure(
-        StructureNode("unit", "chapter", "[ Vorn ]", "r1", "x.pdf", 1),
+        StructureNode("unit", "chapter", "Catalog Unit", "r1", "x.pdf", 1),
         StructureNode("alpha", "section", "[ Nara ]", "r2", "x.pdf", 2, 5, "unit"),
         StructureNode("beta", "section", "[ Veda ]", "r3", "x.pdf", 3, 5, "unit"),
         StructureNode("gamma", "section", "8.2.1 Sola", "r4", "x.pdf", 4, 5, "unit"),
