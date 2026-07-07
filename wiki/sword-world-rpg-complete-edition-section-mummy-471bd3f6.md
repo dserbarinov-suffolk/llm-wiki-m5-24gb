@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-mummy-471bd3f6
 page_kind: source
-summary: [ Mummy ]: 56 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Mummy ]: 51 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-mummy-471bd3f6@6e1ed38e214db37fc51077350cf1b2dc
+projection_coverage: section-sword-world-rpg-complete-edition-section-mummy-471bd3f6@df8db90eb74d8606816a0fc1e5c8760c
 ---
 
 # [ Mummy ]
@@ -42,7 +42,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > Also, mental magic doesn't work on a mummy. Since a mummy is dry, it's weak to fire, so fire attacks receive a +10 bonus to strike power.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07774, source-range-e5870dca-07775, source-range-e5870dca-07776, source-range-e5870dca-07777, source-range-e5870dca-07778, source-range-e5870dca-07779, source-range-e5870dca-07780, source-range-e5870dca-07781, source-range-e5870dca-07782, source-range-e5870dca-07783, source-range-e5870dca-07784, source-range-e5870dca-07785, source-range-e5870dca-07786, source-range-e5870dca-07787, source-range-e5870dca-07789))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07774, source-range-e5870dca-07775, source-range-e5870dca-07776, source-range-e5870dca-07777, source-range-e5870dca-07778, source-range-e5870dca-07779, source-range-e5870dca-07780, source-range-e5870dca-07781, source-range-e5870dca-07783, source-range-e5870dca-07785, source-range-e5870dca-07786, source-range-e5870dca-07787, source-range-e5870dca-07789))_
 
 <a id="atom-technical-atom-eb6bfb4e1b44dca4"></a>
 > Monster Level=9
@@ -68,14 +68,8 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-df52450575027b6a"></a>
 > Reaction=Adversarial
 
-<a id="atom-technical-atom-c4f51ac520aa32ca"></a>
-> Attack Points=Arms:17 (10)
-
 <a id="atom-technical-atom-0fe85c4ed413388c"></a>
 > Strike Points=16+curse
-
-<a id="atom-technical-atom-92df1a5f0d7a8d7c"></a>
-> Evasion Points=17 (10) Defense Points=11
 
 <a id="atom-technical-atom-4bcd69b8416c29be"></a>
 > Life Points/Resistance=21/18 (11)

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-frau-7fb7c898
 page_kind: source
-summary: [ Frau ]: 18 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Frau ]: 14 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-frau-7fb7c898@07e83396bf863f00a452c6dfda16994f
+projection_coverage: section-sword-world-rpg-complete-edition-section-frau-7fb7c898@a3b0030dbc1105b40b04d41a9e55dd08
 ---
 
 # [ Frau ]
@@ -35,22 +35,11 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: [ Frau ]
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06143, source-range-e5870dca-06144, source-range-e5870dca-06145, source-range-e5870dca-06146, source-range-e5870dca-06147, source-range-e5870dca-06148, source-range-e5870dca-06149, source-range-e5870dca-06150, source-range-e5870dca-06151))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06152))_
 
-<a id="atom-technical-atom-1a20386ebb61320a"></a>
-> Monster Level=4
+> 4th level spirit magic (Magic Intensity/Magic Power=13/6, frau only) Normal weapon immunity Mental attack immunity Cold immunity Not affected by poison and illness Habitat=Cold regions Languages=Silent spirit Perception=Magic
 
-<a id="atom-technical-atom-910931dd4b90b1b7"></a>
-> Rarity=12 (However, a shaman always knows)
-
-<a id="atom-technical-atom-eda33eaeba7aa4b1"></a>
-> Agility=10 Movement Speed=18 (air)
-
-<a id="atom-technical-atom-06e61c0c546761f2"></a>
-> Number=One to several Frequency=Rare
-
-<a id="atom-technical-atom-c4a94bfc9598ceaf"></a>
-> Intellect=Human Reaction=Violent
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06148, source-range-e5870dca-06149, source-range-e5870dca-06150, source-range-e5870dca-06151))_
 
 <a id="atom-technical-atom-76b9c8b58a1e1a64"></a>
 > Attack Points=Strike Points=-

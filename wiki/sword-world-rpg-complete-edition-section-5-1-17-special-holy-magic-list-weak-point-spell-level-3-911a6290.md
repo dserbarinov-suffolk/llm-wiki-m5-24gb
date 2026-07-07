@@ -1,10 +1,10 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-weak-point-spell-level-3-911a6290
 page_kind: source
-summary: 5.1.17 Special Holy Magic List / [ Weak Point ] (Spell Level=3): 15 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.17 Special Holy Magic List / [ Weak Point ] (Spell Level=3): 13 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf

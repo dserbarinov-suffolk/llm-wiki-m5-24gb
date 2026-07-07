@@ -4,7 +4,7 @@ page_kind: concept
 summary: Failure: 5 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-failure@1c723627a3d6ff1602a9daba655e8b5b

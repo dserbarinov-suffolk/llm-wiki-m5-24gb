@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-12-2-2-illnesses-4d76e464
 page_kind: source
-summary: 12.2.2 Illnesses: 170 source-backed entries and 7 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 12.2.2 Illnesses: 165 source-backed entries and 7 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-4d76e464@bf6eeeb59f6a9f9ce823cae166af0853
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-4d76e464@393e262824f8d8599e4af2f85079b8f7
 ---
 
 # 12.2.2 Illnesses
@@ -77,6 +77,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 12.2.2 Illnesses / [ Green Slime Rot ]
 
+- Symptoms=Green spots appear on the body, which eventually rots away from there Rarity=15 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05634))_
 - This is said to be an illness that occurs when the power of gnome in the body weakens and the power of undine becomes stronger. Immediately after infection, itchy green spots about 3 cm in diameter appear all over the body, but at depth 2, the spots emit a putrid odor and a dirty pus begins to flow out. In this state, it's almost impossible to take action. When the lethal depth of 3 is reached, the entire body rots, dissolves and washes away. The chance of being infected by a character before death is not particularly high, but if you touch the green goo left behind by a character after death, there's a very high chance of being infected. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05638))_
 - Immediately after infection, itchy green spots about 3 cm in diameter appear all over the body, but at depth 2, the spots emit a putrid odor and a dirty pus begins to flow out. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05638))_
 - The chance of being infected by a character before death is not particularly high, but if you touch the green goo left behind by a character after death, there's a very high chance of being infected. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05638))_
@@ -110,6 +111,7 @@ From [[sword-world-rpg-complete-edition]].
 - This illness causes difficulty breathing, along with body swelling, then you become unable to move, and eventually your body ruptures and you die. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05676))_
 - At depth 1, you suffer from severe breathing difficulties and will be unable to speak or cast spells. At depth 2, your body becomes abnormally swollen and round, and you'll be in severe pain and unable to move. If you reach the fatal depth of 3, your body will rupture and you will die. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05677))_
 - This illness is not seen in cold regions. Due to this, some argue that the spirit power of fire may also be involved in the onset of the illness. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05678))_
+- Symptoms=Shortness of breath, body swelling, inability to move, pain throughout the body _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05671))_
 - This illness causes difficulty breathing, along with body swelling, then you become unable to move, and eventually your body ruptures and you die. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05676))_
 
 ### 12.2.2 Illnesses / [ Vampire Skin ]
@@ -201,10 +203,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > When you're exposed to extremely strong fear, such as due to combat, etc. leprechaun, the mind spirit, manifests abnormally and causes this illness. When the illness is at depth 1, symptoms include being unable to move due to being seized by fear and having nightmares every night. When the depth is at 2 or greater, changes will appear in your body shape. You'll become hunched over, your hands abnormally long, your face contorted, and your eyes blazing red. This illness was given its name because
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05706, source-range-e5870dca-05707, source-range-e5870dca-05709, source-range-e5870dca-05710))_
-
-<a id="atom-technical-atom-303720d84df1f1b7"></a>
-> Symptoms=Going berserk, change in body shape
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05707, source-range-e5870dca-05709, source-range-e5870dca-05710))_
 
 <a id="atom-technical-atom-5edabdb363b71879"></a>
 > Rarity=12

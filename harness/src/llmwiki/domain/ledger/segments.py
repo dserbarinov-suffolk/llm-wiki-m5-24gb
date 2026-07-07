@@ -16,6 +16,7 @@ SEGMENT_KINDS = (
     "heading",
     "code-fence",
     "table-block",
+    "formula",
     "figure",
     "list",
     "paragraph",

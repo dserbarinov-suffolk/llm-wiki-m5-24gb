@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-bulkless-bag-32e3dfa3
 page_kind: source
-summary: Chapter 14: / 14.4 Magical Item List / [ Bulkless Bag ]: 14 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 14: / 14.4 Magical Item List / [ Bulkless Bag ]: 13 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-bulkless-bag-32e3dfa3@d3377e6cacc09f2a9a1d8475432781cd
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-bulkless-bag-32e3dfa3@e85b3f04a52937e2ec5bef5188e79da3
 ---
 
 # Chapter 14: / 14.4 Magical Item List / [ Bulkless Bag ]
@@ -42,7 +42,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > This is a backpack made of a mysterious material that repels water. You can put objects up to 5m square into the bag, regardless of size. However, the weight remains the same. When putting an object in, place it in contact with the bag's opening and it'll go in when you push it. To take it out, put your hand inside and think of the object itself (you can also take it out with a vague thought, but it's not reliable). If you turn it upside down and shake it, everything will come out. Also, it's on
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09822, source-range-e5870dca-09823, source-range-e5870dca-09824, source-range-e5870dca-09825, source-range-e5870dca-09826))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09822, source-range-e5870dca-09823, source-range-e5870dca-09824, source-range-e5870dca-09826))_
 
 <a id="atom-technical-atom-a46cf3593f2523a9"></a>
 > Rarity=14
@@ -52,9 +52,6 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-71abe8a9389a4e78"></a>
 > Form=Lightly colored backpack
-
-<a id="atom-technical-atom-b31aa550e92a3cc1"></a>
-> Base Trade Price=200,000 gamels
 
 <a id="atom-technical-atom-404837fd78efabf5"></a>
 > Powers=You can put objects in regardless of size

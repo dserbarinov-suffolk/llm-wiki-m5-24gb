@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-845ef596
 page_kind: source
-summary: 5.1.17 Special Holy Magic List: 132 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.17 Special Holy Magic List: 122 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-845ef596@0f6fd20fb6ca318e956cd0646aead7f4
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-845ef596@4b9899a8ebe361fc405be7a0d5e867ed
 ---
 
 # 5.1.17 Special Holy Magic List
@@ -60,8 +60,10 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.17 Special Holy Magic List / [ Inspiration ] (Spell Level=3)
 
+- Effect=You can turn a failed success roll related to knowledge into a success only once _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03761))_
 - If you cast this spell, you can turn a failure into a success only once on a success roll to see if you know something, such as appraise treasure or monster check . If a knowledge-related success roll fails , the player can optionally make it a success . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03765))_
 - This spell cannot be recast until the caster falls asleep. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03766))_
+- Effect=You can turn a failed success roll related to knowledge into a success only once _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03761))_
 
 ### 5.1.17 Special Holy Magic List / [ Weak Point ] (Spell Level=3)
 
@@ -73,6 +75,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.17 Special Holy Magic List / [ Legend ] (Spell Level=7)
 
+- Base Mental Power Cost=28 Distance=Touch Area=One Duration=Permanent Effect=Make the target memorize text Type=Non-removable Expansion=Text amount (see explanation) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03779))_
 - This is a spell for passing down oral instruction. The caster can make the target of the spell memorize specific text without error. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03781))_
 - The text must be limited to 10 sentences. Also, it must be pronounced and heard directly. This spell allows you to increase the amount of text your target memorizes by expanding its effect (for example, they can memorize up to 20 sentences of text if you consume double the mental power). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03782))_
 - For reference, this spell's description, including this last part, is 8 sentences long. In other words, text of this amount can be easily memorized. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03783))_
@@ -86,6 +89,11 @@ From [[sword-world-rpg-complete-edition]].
 - A defensive success roll should be judged by whether it means you luckily survived . If the game master is unsure, treat it as something where it can't be used. In particular, it can never be used on checks for hitting others with attacks or checks for casting magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03794))_
 - This spell cannot be recast until the caster falls asleep. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03795))_
 - Duration=Until the caster falls asleep Effect=You can turn a failed success roll into a success only once Type=Non-removable Expansion=- Resist=None Cha Za's power as the god of luck is said to bestow good fortune on the caster through the hand of an invisible god. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03789))_
+
+### 5.1.17 Special Holy Magic List / [ Guard Trading ] (Spell Level=5)
+
+- Effect=You can see who is trying to engage in illegal business transactions with the caster _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03797))_
+- Base Mental Power Cost=25 Distance=Caster Area=Within the caster's view Duration=1 day Type=Detection, target score Expansion=Final score, duration Resist=None _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03798))_
 
 ### 5.1.17 Special Holy Magic List / Marfa Special Holy Magic List
 

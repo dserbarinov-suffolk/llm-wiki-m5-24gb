@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-fire-breath
 page_kind: concept
-summary: [ Fire Breath ]: 5 statement(s) and 9 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Fire Breath ]: 5 statement(s) and 8 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-fire-breath@0da9c8e1927c1e765197a8ee5ec53a03
+projection_coverage: topic-sword-world-rpg-complete-edition-fire-breath@29723399e7858826871f1afa75a86ce6
 ---
 
 # [ Fire Breath ]
@@ -37,7 +37,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ fire breath ]:
 
 > The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and the caster's magic power equals bonus damage.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05148, source-range-e5870dca-05149, source-range-e5870dca-05150, source-range-e5870dca-05151, source-range-e5870dca-05152, source-range-e5870dca-05153, source-range-e5870dca-05154, source-range-e5870dca-05155))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05148, source-range-e5870dca-05149, source-range-e5870dca-05150, source-range-e5870dca-05151, source-range-e5870dca-05152, source-range-e5870dca-05153, source-range-e5870dca-05155))_
 
 <a id="atom-technical-atom-d433d1b6b0f7519c"></a>
 > Base Mental Power Cost=20
@@ -57,9 +57,6 @@ What [[sword-world-rpg-complete-edition]] covers about [ fire breath ]:
 <a id="atom-technical-atom-cfd89c67c79bac64"></a>
 > Type=Damage (Fire-type)
 
-<a id="atom-technical-atom-56c3afe43f9d3bdc"></a>
-> Expansion=Final score, area, damage certainty
-
 <a id="atom-technical-atom-8e8aa96f6efae73b"></a>
 > Resist=Reduced effect
 
@@ -68,7 +65,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ fire breath ]:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-fire-breath-1d38a5e3]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Fire Breath ] shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Fire Breath ]: The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and ... [truncated]; Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Fire Breath ] shares technical record from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Fire Breath ]: Base Mental Power Cost=20 (2 shared statement(s), 8 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-fire-breath-1d38a5e3]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Fire Breath ] shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Fire Breath ]: The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and ... [truncated]; Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Fire Breath ] shares technical record from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Fire Breath ]: Base Mental Power Cost=20 (2 shared statement(s), 7 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-13-6-handling-monster-special-abilities-fire-breath-e38f4440]] - source section: 13.6 Handling Monster Special Abilities / 《 Fire Breath 》 shares source evidence from 13.6 Handling Monster Special Abilities / 《 Fire Breath 》: Monsters with this ability can breathe fire. Characters exposed to the fire (the range of the fire varies by monster) will suffer damage. This damage cannot be preve ... [truncated]; 13.6 Handling Monster Special Abilities / 《 Fire Breath 》 shares technical record from 13.6 Handling Monster Special Abilities / 《 Fire Breath 》: You must also make a mental power resistance roll against the indicated target score, which if successful will result in a smaller amount of damage. (1 shared statement(s), 1 shared atom(s))
 
 ### Shared claims

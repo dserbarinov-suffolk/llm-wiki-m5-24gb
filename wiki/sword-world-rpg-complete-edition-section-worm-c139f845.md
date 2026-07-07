@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-worm-c139f845
 page_kind: source
-summary: [ Worm ]: 48 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Worm ]: 42 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-worm-c139f845@ae61867c9578b5c70de92fe6a5b0e27e
+projection_coverage: section-sword-world-rpg-complete-edition-section-worm-c139f845@6416946da27340a5dc9908c5f87d08fd
 ---
 
 # [ Worm ]
@@ -45,7 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > A sea worm will emerge from the water and directly attack whoever is holding the light. If the adventurers are quick-witted enough to turn off the light, the monster will return to the tide pool.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07208, source-range-e5870dca-07209, source-range-e5870dca-07210, source-range-e5870dca-07211, source-range-e5870dca-07212, source-range-e5870dca-07213, source-range-e5870dca-07215, source-range-e5870dca-07216, source-range-e5870dca-07217, source-range-e5870dca-07218, source-range-e5870dca-07219, source-range-e5870dca-07220, source-range-e5870dca-07222, source-range-e5870dca-07223, source-range-e5870dca-07224))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07208, source-range-e5870dca-07209, source-range-e5870dca-07210, source-range-e5870dca-07211))_
 
 <a id="atom-technical-atom-315c84bb9e48e82b"></a>
 > Monster Level=5
@@ -59,29 +59,13 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-61ef0e0de04ebec6"></a>
 > Movement Speed=12/10 (underground)
 
-<a id="atom-technical-atom-f6507cce05e1ef6e"></a>
-> Number=One to several Frequency=Rare Intellect=Animal
+### Technical frame 2: [ Worm ]
 
-<a id="atom-technical-atom-0acaaee56451b8be"></a>
-> Reaction=Neutral, becomes ferocious when
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07225))_
 
-<a id="atom-technical-atom-95cd0fb5fe7070b4"></a>
-> Attack Points=Acid:13 (6)
+> The rock worm is a member of the worm family that lives underground and looks like a giant earthworm, 5 meters long total. They feed on soil like normal earthworms, but they also eat rocks without hesitation. To do this, they secrete strong acidic digestive juices from their mouths. Similar to its relative, the sea worm, it has an extreme dislike of light. Therefore, if you come across one in an underground passage and are holding a torch or lantern, they will attack you. The attack is made usin
 
-<a id="atom-technical-atom-6dc35dc770ee83a3"></a>
-> Strike Points=See description
-
-<a id="atom-technical-atom-40d39fdea9621515"></a>
-> Evasion Points=10 (3) Defense Points=10
-
-<a id="atom-technical-atom-aff3243f8e0a20df"></a>
-> Life Points/Resistance=28/15 (8)
-
-<a id="atom-technical-atom-b2db35497a06d7cd"></a>
-> Mental Points/Resistance=9/13 (5)
-
-<a id="atom-technical-atom-a381b211eb4dcd29"></a>
-> Special Abilities=Acid (Strike power 10,
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07222, source-range-e5870dca-07223, source-range-e5870dca-07224))_
 
 <a id="atom-technical-atom-49d71ab7df68eecf"></a>
 > Habitat=Underground
@@ -92,7 +76,7 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-874ee276952ab22c"></a>
 > Perception=Five senses
 
-### Technical frame 2: [ Worm ]
+### Technical frame 3: [ Worm ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07231))_
 

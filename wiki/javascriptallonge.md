@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge
 page_kind: source
-summary: Claim-ledger projection (coding): 1993 usable entries, 613 technical atoms, 375 needs-review, 395 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (coding): 1990 usable entries, 608 technical atoms, 376 needs-review, 394 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources
 source_id: javascriptallonge.pdf
-projection_coverage: projection-coverage-7cee381bb788667b@5a1100bfe374983f
+projection_coverage: projection-coverage-3aebe597cedb3942@c07e5320e4da0799
 ---
 
 # Javascriptallonge
@@ -16,13 +16,13 @@ projection_coverage: projection-coverage-7cee381bb788667b@5a1100bfe374983f
 ## Source
 
 - Raw source: `raw/javascriptallonge.pdf`
-- Claim-ledger projection (coding): 1993 usable entries, 613 technical atoms, 375 needs-review, 395 linked page(s); write decision write-with-review-work.
+- Claim-ledger projection (coding): 1990 usable entries, 608 technical atoms, 376 needs-review, 394 linked page(s); write decision write-with-review-work.
 
 ## Page Families
 
 - broad-topic: 20 page(s) - broad concept overview pages
 - recipe-pattern: 130 page(s) - reusable example pattern pages
-- section-reference: 193 page(s) - source-order reference pages
+- section-reference: 192 page(s) - source-order reference pages
 - source-manifest: 1 page(s) - source entry point
 - topic-concept: 52 page(s) - focused concept pages
 
@@ -46,7 +46,7 @@ projection_coverage: projection-coverage-7cee381bb788667b@5a1100bfe374983f
 - [[javascriptallonge-decorator]] - concept: Decorator: 4 statement(s) and 7 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-default]] - concept: Default: 2 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-destructuring]] - concept: Destructuring: 1 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-doesn-t-work-because-parseint]] - concept: Doesn'T Work Because Parseint: 1 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-doesn-t-work-because-parseint]] - concept: Doesn'T Work Because Parseint: 1 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-ecmascript]] - concept: Ecmascript: 11 statement(s) and 6 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-edition]] - concept: Edition: 4 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-element]] - concept: Element: 21 statement(s) and 17 atom(s) from raw/javascriptallonge.pdf.
@@ -55,7 +55,7 @@ projection_coverage: projection-coverage-7cee381bb788667b@5a1100bfe374983f
 
 ## Source Section Index
 
-- [[javascriptallonge-section-reg-raganwald-braithwaite-87b94ba9]] - top-level-section: Reg 'raganwald' Braithwaite: 3 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-reg-raganwald-braithwaite-87b94ba9]] - top-level-section: Reg 'raganwald' Braithwaite: 2 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-about-javascript-allong-0f75b54f]] - top-level-section: About JavaScript Allongé: 7 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-why-the-six-edition-b7d1382b]] - top-level-section: why the 'six' edition?: 28 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-that-s-nice-is-that-the-only-reason-b79a9269]] - top-level-section: that's nice. is that the only reason?: 14 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
@@ -73,7 +73,7 @@ projection_coverage: projection-coverage-7cee381bb788667b@5a1100bfe374983f
 - [[javascriptallonge-section-a-rich-aroma-basic-numbers-7443c717]] - top-level-section: A Rich Aroma: Basic Numbers: 13 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-floating-3aa92e13]] - top-level-section: floating: 16 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-operations-on-numbers-efa25b73]] - top-level-section: operations on numbers: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-as-little-as-possible-about-functions-but-no-less-091e464e]] - top-level-section: As Little As Possible About Functions, But No Less: 12 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-as-little-as-possible-about-functions-but-no-less-091e464e]] - top-level-section: As Little As Possible About Functions, But No Less: 11 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-functions-and-identities-6c73c07b]] - top-level-section: functions and identities: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-applying-functions-09d5f96e]] - top-level-section: applying functions: 6 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-functions-that-return-values-and-evaluate-expressions-6ffa5875]] - top-level-section: functions that return values and evaluate expressions: 12 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
@@ -133,6 +133,7 @@ projection_coverage: projection-coverage-7cee381bb788667b@5a1100bfe374983f
 - Most programmers never encounter the limit on the magnitude of an integer. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00143))_
 - In a sense, they behave like little functions. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00156))_
 - There are lots and lots more operators that can be used with numbers, including bitwise operators like | and & that allow you to operate directly on a number's binary representation, and a number of other operators that perform assignment or logical comparison that we will look at later. — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00159))_
+- 16 The simplest possible function is () => {} , we'll see that later. — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00167))_
 - Which kind are functions? Let's try them out and see. For reasons of appeasing the JavaScript parser, we'll enclose our functions in parentheses: — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00171))_
 - Here's how we apply a function to some values in JavaScript: Let's say that fn_expr is an expression that when evaluated, produces a function. Let's call the arguments args . Here's how to apply a function to some arguments: — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00176))_
 - Since we aren't giving it any arguments, we'll simply write () after the expression. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00178))_
@@ -506,4 +507,4 @@ treat it as a tree and iterate over it, yielding each of its elements. If e is n
 
 ### Disposition counts
 
-- non-claim: 310
+- non-claim: 312

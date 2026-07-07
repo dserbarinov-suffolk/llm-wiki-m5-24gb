@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-guard-glove-41430deb
 page_kind: source
-summary: Chapter 14: / 14.4 Magical Item List / [ Guard Glove ]: 16 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 14: / 14.4 Magical Item List / [ Guard Glove ]: 14 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-guard-glove-41430deb@cb3d3768e1701a19da675da2f066bd33
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-guard-glove-41430deb@31d1de2dd813bfe7ec914e4914dde28c
 ---
 
 # Chapter 14: / 14.4 Magical Item List / [ Guard Glove ]
@@ -40,7 +40,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > Powers=Gives good luck to the one who lights the candle If you light a candle in this candlestick (any normal candle on the market is fine), whoever lights it will be blessed with great luck. Misfortunes that may befall you will be prevented in some way before they happen, and business or stock speculation will definitely yield a profit. If you light a candle, the fire will magically last for one week, but the candle's fire itself offers no protection and will easily go out with a slight breeze,
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09661, source-range-e5870dca-09662, source-range-e5870dca-09663, source-range-e5870dca-09664))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09661, source-range-e5870dca-09662, source-range-e5870dca-09663))_
 
 <a id="atom-technical-atom-1729334d675da42d"></a>
 > Rarity=15
@@ -50,6 +50,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-b48ec97e9f1d964e"></a>
 > Form=Silver candlestick densely engraved with high ancient runes
-
-<a id="atom-technical-atom-b910d109f921ad08"></a>
-> Base Trade Price=1,000,000 gamels (not for sale)

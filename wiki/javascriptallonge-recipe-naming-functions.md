@@ -4,7 +4,7 @@ page_kind: recipe
 summary: Naming Functions: reusable source-backed pattern with 1 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf

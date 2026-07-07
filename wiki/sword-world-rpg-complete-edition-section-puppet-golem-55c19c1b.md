@@ -4,11 +4,11 @@ page_kind: source
 summary: [ Puppet Golem ]: 27 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-puppet-golem-55c19c1b@133aa9d4053bb48eca4fd4d67bd03478
+projection_coverage: section-sword-world-rpg-complete-edition-section-puppet-golem-55c19c1b@b4ca3eb383a1d09bcb7af1baba13608b
 ---
 
 # [ Puppet Golem ]
@@ -26,6 +26,7 @@ From [[sword-world-rpg-complete-edition]].
 
 - A puppet golem is a small, simple version of a golem that is created by giving temporary life to a tree branch, stone, etc. using an ancient magic spell. Depending on the material, there are four different types of puppet golems that can be created. They are oak, stone servant, bone servant, and skeleton warrior. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07894))_
 - Monster Level=2 Rarity=13 (However, a sorcerer always knows) Agility=14 Movement Speed=14 Number=One to several Frequency=Rare Intellect=Obeys commands Reaction=Command-based Attack Points=Arms:10 (3) Strike Points=6 Evasion Points=10 (3) Defense Points=6 Life Points/Resistance=12/10 (3) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07896))_
+- Special Abilities=Mental attack immunity Not affected by poison and illness Habitat=Various Languages=None Perception=Pseudo _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07898))_
 - An oak is a puppet golem the size of a human child, made from oak wood. They have no talents other than fighting. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07899))_
 - Rarity=15 (However, a sorcerer always knows) Agility=12 Movement Speed=12 Number=One to several Frequency=Rare Intellect=Obeys commands Reaction=Command-based Attack Points=Arms:11 (4) Strike Points=13 Evasion Points=11 (4) Defense Points=8 Life Points/Resistance=16/11 (4) Mental Points/Resistance=-/11 (4) Special Abilities=Mental attack immunity Not affected by poison and illness Habitat=Various Languages=None Perception=Pseudo _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07902))_
 - A stone servant is a puppet golem about 1.5 meters tall, made from stone. They can perform simple tasks as well as fight. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07903))_
@@ -42,14 +43,11 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: [ Puppet Golem ]
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07899))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07898))_
 
-> An oak is a puppet golem the size of a human child, made from oak wood. They have no talents other than fighting.
+> Special Abilities=Mental attack immunity Not affected by poison and illness Habitat=Various Languages=None Perception=Pseudo
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07897, source-range-e5870dca-07898))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07897))_
 
 <a id="atom-technical-atom-47bd797f7aa100e8"></a>
 > Mental Points/Resistance=-/10 (3)
-
-<a id="atom-technical-atom-1948b53a157025a3"></a>
-> Special Abilities=Mental attack immunity Not affected by poison and illness Habitat=Various Languages=None Perception=Pseudo

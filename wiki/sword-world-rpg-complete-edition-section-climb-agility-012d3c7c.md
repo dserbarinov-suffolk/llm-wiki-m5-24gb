@@ -4,11 +4,11 @@ page_kind: source
 summary: [ ④ Climb [Agility] ]: 45 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-climb-agility-012d3c7c@5fdc648dbdb80ce69882acaa20fce4ed
+projection_coverage: section-sword-world-rpg-complete-edition-section-climb-agility-012d3c7c@e087b68a3c6dafe474462d99845b9ea8
 ---
 
 # [ ④ Climb [Agility] ]
@@ -37,6 +37,7 @@ From [[sword-world-rpg-complete-edition]].
 - First, fall height x 3 is the base damage. The adventurer will suffer this damage to their life force. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04168))_
 - However, an adventurer can reduce this damage depending on their adventurer level and armor. Just like when reducing damage in weapon combat, make a defense roll using the armor's defense power as the key number, and add your adventurer level to the result to determine the damage reduced. If the defense roll comes up double ones , all damage reduction is lost, including adventurer level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04169))_
 - The base damage minus this damage reduction is the actual damage the adventurer suffers. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04198))_
+- Falling damage = fall height x 3 (defense roll result + adventurer level) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04199))_
 - Base falling damage (fall height x 3) is for falling on normal ground. If you fall on soft grass or on the water surface, calculate by reducing factors, such as fall height x 2 , fall height x 1 , etc. On the other hand, if you have something like spikes sticking out, etc. increase the factor to increase the damage. This decision should be made by the game master. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04200))_
 - Owners of the thief skill can greatly reduce this damage with their tumble ability. If an owner of the thief skill falls, the height can be calculated by subtracting thief skill level + agility bonus meters from the height of the fall. If the result of this subtraction is 0 or less, even if the thief falls, they can land cleanly on their feet or stand up in one motion. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04201))_
 - A thief with thief skill level 3 and dexterity bonus +2 can fall from a height of 5 meters or less without suffering any damage. If you fall from a height of 6 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04203))_

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-00158bd7
 page_kind: source
-summary: Chapter 16: / 16.2 Weapon and Armor Modifiers: 32 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 16: / 16.2 Weapon and Armor Modifiers: 29 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-00158bd7@acdfcdc89d10ea289344e7e1941fa094
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-00158bd7@17390eec7a1a381d1969caf095d870e1
 ---
 
 # Chapter 16: / 16.2 Weapon and Armor Modifiers
@@ -24,7 +24,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-16-81f4f48b]] - broader source section: Chapter 16:
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-armor-modifiers-182f8d80]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Armor Modifiers
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-attack-power-modifier-5339b0a3]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Attack Power Modifier
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-cde1c863]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-evasion-modifier-7bbea1b4]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Evasion Modifier

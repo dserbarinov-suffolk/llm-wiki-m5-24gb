@@ -1,15 +1,15 @@
 ---
 page_id: sword-world-rpg-complete-edition-procedure-create-character
 page_kind: procedure
-summary: Create Character: 9 ordered step(s), 3 decision point(s), and 61 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Create Character: 9 ordered step(s), 3 decision point(s), and 47 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: create-character, character-creation
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-create-character@face8a9ef2f747d994a1bb5a554cedef
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-create-character@b83bd309fc9913b97aa8a3b759da5072
 ---
 
 # Create Character
@@ -28,8 +28,8 @@ From [[sword-world-rpg-complete-edition]].
    - Each race has their own characteristics and limitations. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00271))_
 2. **Determine Ability Scores** (`generate`) - evidence section [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-00781d01]].
    - First, you must roll the dice to determine subability scores A~H . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00287))_
+   - Table 1-3: Determining Sub-Ability Scores shows how to determine subability scores for each race. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00288))_
    - A character's six ability scores are each the totals of two of these eight subability scores. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00289))_
-   - Depending on whether a half-elf was raised by humans or elves, the skills they have from the start and the limitations on the skills they can acquire differ. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00290))_
 3. **Starting Skills and Starting Experience Points** (`generate`) - evidence section [[sword-world-rpg-complete-edition-section-1-4-character-creation-experience-points-8cfff0cc]].
    - As long as they've lived a certain number of years, they must have had some experience before entering the life of an adventurer. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00352))_
    - Once ability scores have been determined, the next step is to determine the adventurer's preadventure experience. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00352))_
@@ -65,18 +65,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Tables And Formulas
 
-- `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-6b1c74ee0bee4379 Table 1-3: Determining Sub-Ability Scores shows how to determine subability scores for each race. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00288))_
 - `table`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-599fd06284f5c146 Table 1-3: Determining Sub-Ability Scores _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00321))_
-- `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-4c252a84f946c2a6 Table 1-4: Average Ability Scores by Race _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00323))_
+- `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-09b6d02718f7aea0 If the player's background is ordinary citizen (roll 7), they must consult with the game master to determine one general _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00355))_
 - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-c73b3beacdb7d580 If the player's background is merchant/scholar (roll 8), they must choose either 3rd level in the merchant skill or 3rd _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00356))_
 - `table`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-db2a88eb0ad14c1b Table 1-6: Starting Experience by Race _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00357))_
 - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-6ce561ee73a7ccaa If you have enough experience points, you can acquire multiple skills. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00433))_
-- `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-d21c753a0bb9e91e Table 1-7: Experience Points by Skill (at Character Creation) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00439))_
-- `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-da9306340f9138f4 Please determine how much money you have by following the instructions on Table 1-5: Backgrounds or Table 1-6: Starting _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00476))_
 - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-2a1cac30cb5e4dc6 When buying weapons and armor, one must be aware of their required strength . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00612))_
 - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-d94a460c4e629505 Therefore, if the required strength of the weapon you're buying on Table 1-8: Weapons does not match your character's st _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00615))_
-- `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-59c4fd73c63b5bde 14 (required strength) x 20 + 40 = 320. Prices are in gamels ( G ). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00737))_
 - `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-755df8959122a461 If the equipment has both unrestricted and restricted skills, please understand that your equipment must conform to the _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00740))_
+- `table`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-614b35743663e492 Table 1-9: Armor _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00741))_
+- `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-91f6547a1527556e If you want to make use of your ranger skill, your armor must be light . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00786))_
+- `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-3cfe34a4cb8bec22 Therefore, it is a good idea to choose a projectile, if you have to choose a weapon. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00788))_
+- `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-8ccc45797215e016 If the character's strength is 10 or less, it is appropriate to buy one with the same required strength as the character _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00791))_
 
 ## Completion Check
 

@@ -4,7 +4,7 @@ page_kind: concept
 summary: Magic: 1 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-magic@860d6f511889a46d1687df0b11dbaf6c

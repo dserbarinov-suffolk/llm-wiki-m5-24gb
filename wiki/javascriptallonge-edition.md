@@ -4,7 +4,7 @@ page_kind: concept
 summary: Edition: 4 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-edition@7c09340fa40d0c9dbf044390040e2fc7

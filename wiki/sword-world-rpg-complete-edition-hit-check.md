@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-hit-check
 page_kind: concept
-summary: 4.5.1 Hit Checks: 31 statement(s) and 11 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.5.1 Hit Checks: 32 statement(s) and 9 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-hit-check@6c058aa39ba283b2fd7d2db41bc7833a
+projection_coverage: topic-sword-world-rpg-complete-edition-hit-check@a15de3e1c7b500f015b3beea79b5bef9
 ---
 
 # 4.5.1 Hit Checks
@@ -94,6 +94,7 @@ What [[sword-world-rpg-complete-edition]] covers about 4.5.1 hit checks:
 - 4+8= 12 , which is more than 10. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01231))_
 - His player rolls the dice to make a hit check. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01231))_
 - Ducard II rolls a 7 , and Bucky rolls a 6 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01337))_
+- Ducard II's final score is 4+7= 11 , while Bucky's final score is 5+6= 11 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01338))_
 - Ducard II 's attack was narrowly dodged. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01339))_
 - In combat between characters, a tie is considered an attack failure. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01339))_
 
@@ -122,17 +123,6 @@ What [[sword-world-rpg-complete-edition]] covers about 4.5.1 hit checks:
 > character's attack power + 2D ≥ monster's evasion points → attack hits
 
 ### Technical frame 3: 4.5.1 Hit Checks
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01231))_
-
-> His player rolls the dice to make a hit check. The roll is 8. 4+8= 12 , which is more than 10. The attack hit the target perfectly.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01232))_
-
-<a id="atom-technical-atom-d53affe68dcc15bb"></a>
-> Table 4-1: Rating Table
-
-### Technical frame 4: 4.5.1 Hit Checks
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01231))_
 
@@ -199,7 +189,7 @@ Key Number
 
 </details>
 
-### Technical frame 5: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
+### Technical frame 4: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01331))_
 
@@ -210,7 +200,7 @@ Key Number
 <a id="atom-technical-atom-f4c39f1df2ba9f3f"></a>
 > To make a hit check, both sides must roll the dice (2D).
 
-### Technical frame 6: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
+### Technical frame 5: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01331))_
 
@@ -224,7 +214,7 @@ Key Number
 <a id="atom-technical-atom-fddce00c40ceff31"></a>
 > defender's final score = evasion speed + 2D
 
-### Technical frame 7: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
+### Technical frame 6: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01336))_
 
@@ -235,18 +225,7 @@ Key Number
 <a id="atom-technical-atom-9934c64602d2758c"></a>
 > attacker's attack power + 2D ≤ defender's evasion speed +2D → attack fails
 
-### Technical frame 8: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01339))_
-
-> In combat between characters, a tie is considered an attack failure. Ducard II 's attack was narrowly dodged.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01338))_
-
-<a id="atom-technical-atom-53c451a5f5817e8e"></a>
-> Ducard II's final score is 4+7= 11 , while Bucky's final score is 5+6= 11 . It's a tie.
-
-### Technical atom 9
+### Technical atom 7
 
 <a id="atom-technical-atom-3676f9a26f7a8a49"></a>
 
@@ -263,8 +242,8 @@ Key Number
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-4-5-1-hit-checks-656ca032]] - source section: 4.5.1 Hit Checks shares source evidence from 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; 4.5.1 Hit Checks shares technical record from 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (8 shared statement(s), 5 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-257e72be]] - source section: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks shares source evidence from 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks: To make a hit check, both sides must roll the dice (2D). The attacker adds their roll to their attack power , and the defender adds their roll to their evasion speed .; 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks shares technical record from 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks: To make a hit check, both sides must roll the dice (2D). (7 shared statement(s), 5 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-4-5-1-hit-checks-656ca032]] - source section: 4.5.1 Hit Checks shares source evidence from 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; 4.5.1 Hit Checks shares technical record from 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (8 shared statement(s), 4 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-257e72be]] - source section: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks shares source evidence from 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks: To make a hit check, both sides must roll the dice (2D). The attacker adds their roll to their attack power , and the defender adds their roll to their evasion speed .; 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks shares technical record from 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks: To make a hit check, both sides must roll the dice (2D). (8 shared statement(s), 4 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-hit-checks-7f1d9463]] - source section: 10.5 Attacks Against the Sleeping / 《 Hit Checks 》 shares source evidence from 10.5 Attacks Against the Sleeping / 《 Hit Checks 》: The spirit magic Sleep is still an exception. Unless the magic itself is broken by Dispel Magic or other magic belonging to mind , they'll never wake up.; 10.5 Attacks Against the Sleeping / 《 Hit Checks 》 shares technical record from 10.5 Attacks Against the Sleeping / 《 Hit Checks 》: Unless the magic itself is broken by Dispel Magic or other magic belonging to mind , they'll never wake up. (1 shared statement(s), 1 shared atom(s))
 
 ### Shared claims

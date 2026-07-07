@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-spider-dcac8da6
 page_kind: source
-summary: [ Spider ]: 47 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Spider ]: 42 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spider-dcac8da6@773b31ae3e930863d9a9243d5e1ae7b0
+projection_coverage: section-sword-world-rpg-complete-edition-section-spider-dcac8da6@63433dd4b972ab062c34a8db3590733d
 ---
 
 # [ Spider ]
@@ -34,6 +34,7 @@ From [[sword-world-rpg-complete-edition]].
 - This is a huge spider, 3 meters long with legs that are 4 meters long. They build their nests in their habitat with sturdy webs several cm thick. They usually stay in one corner of the nest, but if an intruder gets caught in their web, they will attack. They will not attack anyone who has not touched their web. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07329))_
 - To safely pass through a giant webspinner's nest without touching the surrounding webs, you must succeed on a success roll against target score 13 using adventurer level + agility bonus as the baseline score. If you fail, you will get caught in the web and attract the attention of the giant webspinner. The web is highly sticky, so much that it entangles the body, and anyone caught in it will suffer a -4 penalty to their attack and evasion, and will be unable to use ancient magic. To shake free from the web, you must succeed on a success roll against target score 13 using adventurer level + strength bonus (for monsters, use monster level ). as the baseline score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07330))_
 - When a giant webspinner is hungry, it'll suddenly bite you with its fangs. When it's not, it'll emit a large amount of string from its abdomen and use its legs to try to entangle its prey. Those hit by a giant webspinner's string will not suffer any damage, but they will become more and more entangled in the string. Therefore, the target score of the success roll required to shake free from the web also increases by 2 points, to 15, 17…… etc. If the target score is 13 or more above than the baseline value, the prey will be completely enwrapped and unable to move. This allows a giant webspinner to hang its prey alive but deprived of freedom in its nest, then eat it whenever it wants. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07331))_
+- Habitat=Deep inside dark forests, large rooms in underground labyrinths _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07326))_
 - This allows a giant webspinner to hang its prey alive but deprived of freedom in its nest, then eat it whenever it wants. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07331))_
 
 ## Technical atoms
@@ -44,16 +45,13 @@ From [[sword-world-rpg-complete-edition]].
 
 > Alecrast is home to the following dangerous spiders.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07302, source-range-e5870dca-07303, source-range-e5870dca-07304, source-range-e5870dca-07305, source-range-e5870dca-07306, source-range-e5870dca-07307, source-range-e5870dca-07308, source-range-e5870dca-07309, source-range-e5870dca-07310, source-range-e5870dca-07311, source-range-e5870dca-07312, source-range-e5870dca-07313))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07302, source-range-e5870dca-07303, source-range-e5870dca-07305, source-range-e5870dca-07306, source-range-e5870dca-07307, source-range-e5870dca-07308, source-range-e5870dca-07310))_
 
 <a id="atom-technical-atom-4888c67edb9b1892"></a>
 > Monster Level=1
 
 <a id="atom-technical-atom-bcb9976332a8eb17"></a>
 > Rarity=6
-
-<a id="atom-technical-atom-1eaf6b02763707b9"></a>
-> Agility=12 Movement Speed=10
 
 <a id="atom-technical-atom-5f6fbe74698ccafe"></a>
 > Number=One to several
@@ -67,20 +65,8 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-0ae452276dae1b98"></a>
 > Reaction=Hunger-based
 
-<a id="atom-technical-atom-66bb8db293b4a1cc"></a>
-> Attack Points=Fangs:8 (1)
-
 <a id="atom-technical-atom-6d33b52ec883445e"></a>
 > Strike Points=6
-
-<a id="atom-technical-atom-101ca58aee85bf89"></a>
-> Attack Points=String:7 (0) Strike Points=Special Evasion Points=9 (2) Defense Points=3 Life Points/Resistance=10/8 (1) Mental Points/Resistance=1/7 (0) Special Abilities=Capture with string Mental attack immunity
-
-<a id="atom-technical-atom-e1bdb832d4198b85"></a>
-> Habitat=Forests, underground labyrinths Languages=None
-
-<a id="atom-technical-atom-67a37f5417002155"></a>
-> Perception=Five senses (Vibration sense)
 
 ### Technical frame 2: [ Spider ]
 

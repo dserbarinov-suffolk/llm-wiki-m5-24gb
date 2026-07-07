@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-2-12-humans-soldier-ebacce89
 page_kind: source
-summary: 13.2.12 Humans / [ Soldier ]: 72 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.2.12 Humans / [ Soldier ]: 57 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-12-humans-soldier-ebacce89@d631c644c90f8cea759fccdbdf24267f
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-12-humans-soldier-ebacce89@2cb14565ada5383f96db1e4745ed3a43
 ---
 
 # 13.2.12 Humans / [ Soldier ]
@@ -43,7 +43,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > The soldiers listed here are those who are responsible for maintaining public order in the city and protecting the royal castle. Therefore, you normally won't fight them.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08399, source-range-e5870dca-08400, source-range-e5870dca-08401, source-range-e5870dca-08402, source-range-e5870dca-08403, source-range-e5870dca-08404, source-range-e5870dca-08405, source-range-e5870dca-08406, source-range-e5870dca-08407, source-range-e5870dca-08408, source-range-e5870dca-08409, source-range-e5870dca-08410, source-range-e5870dca-08411, source-range-e5870dca-08412, source-range-e5870dca-08413, source-range-e5870dca-08414))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08399, source-range-e5870dca-08400, source-range-e5870dca-08401, source-range-e5870dca-08402, source-range-e5870dca-08403, source-range-e5870dca-08404))_
 
 <a id="atom-technical-atom-05dff9dc31345cc2"></a>
 > Monster Level=1
@@ -62,33 +62,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-3fd978757c2bf773"></a>
 > Frequency=Frequent
-
-<a id="atom-technical-atom-1b1da14f1b782582"></a>
-> Intellect=Human Reaction=Friendly
-
-<a id="atom-technical-atom-a5852d92756ab6de"></a>
-> Attack Points=Weapon: 8 (1)
-
-<a id="atom-technical-atom-f9703b38bfc52568"></a>
-> Strike Points=5
-
-<a id="atom-technical-atom-42e46c3539cc6265"></a>
-> Evasion Points=9 (2) Defense Points=5
-
-<a id="atom-technical-atom-30a0f0b7cc326588"></a>
-> Life Points/Resistance=12/9 (2)
-
-<a id="atom-technical-atom-a66d7b6f5bd41a0f"></a>
-> Mental Points/Resistance=2/9 (2)
-
-<a id="atom-technical-atom-1ef2b934a0adc168"></a>
-> Special Abilities=None in particular
-
-<a id="atom-technical-atom-359e1193460a673d"></a>
-> Habitat=Towns, villages
-
-<a id="atom-technical-atom-b6ed4628a131a04e"></a>
-> Languages=Regional
-
-<a id="atom-technical-atom-3637632e95e56a44"></a>
-> Perception=Five senses

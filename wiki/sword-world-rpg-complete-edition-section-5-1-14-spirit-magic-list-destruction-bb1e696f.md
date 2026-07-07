@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-destruction-bb1e696f
 page_kind: source
-summary: 5.1.14 Spirit Magic List / [ Destruction ]: 6 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.14 Spirit Magic List / [ Destruction ]: 5 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-destruction-bb1e696f@190d2726c48262226a9800b82fef7e1f
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-destruction-bb1e696f@275e42bc9a9e96d87612a39c62957f8f
 ---
 
 # 5.1.14 Spirit Magic List / [ Destruction ]
@@ -39,10 +39,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > Destruction has the effect of evoking distractions in the target's mind and disrupting their focus. As a result, the target is subject to the following constraints for the remainder of the round and for the entire next round:
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02764, source-range-e5870dca-02765))_
-
-<a id="atom-technical-atom-5cb94fa10f8f5d49"></a>
-> Base Mental Power Cost=3 Distance=10 meters Area=One Duration=1 round Effect=Disturb the opponent's focus Type=Mind Expansion=Final score, duration, distance, targets
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02765))_
 
 <a id="atom-technical-atom-a233f6d9927a85a9"></a>
 > Resist=Negated effect

@@ -675,6 +675,16 @@ def test_formula_extraction_requires_source_neutral_notation() -> None:
                 "Archive files may appear under https://example.invalid/1/2/3/item.",
                 [],
             ),
+            (
+                "paragraph",
+                "Table 1-7: Experience Points by Skill lists values for later lookup.",
+                [],
+            ),
+            (
+                "paragraph",
+                "The source cross-reference appears on pages 18-19 in the document.",
+                [],
+            ),
             ("paragraph", "Load = mass * acceleration", []),
         ]
     )
@@ -688,6 +698,19 @@ def test_formula_extraction_requires_source_neutral_notation() -> None:
     assert [payload.raw_formula_text for payload in formula_payloads] == [
         "Load = mass * acceleration"
     ]
+
+
+def test_formula_block_modality_preserves_formula_without_prose_claims() -> None:
+    result = _build([("formula", "total = base + modifier", [])])
+
+    formulas = [
+        atom for atom in result.ledger.technical_atoms if atom.technical_atom_kind == "formula"
+    ]
+
+    assert len(formulas) == 1
+    assert isinstance(formulas[0].payload, FormulaPayload)
+    assert formulas[0].payload.raw_formula_text == "total = base + modifier"
+    assert {entry.ledger_entry_kind for entry in result.ledger.entries} == {"technical-atom"}
 
 
 def test_inline_enumerated_table_recovers_logical_rows_without_source_terms() -> None:

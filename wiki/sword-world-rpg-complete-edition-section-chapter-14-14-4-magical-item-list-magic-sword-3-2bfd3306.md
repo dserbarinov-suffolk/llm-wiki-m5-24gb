@@ -4,11 +4,11 @@ page_kind: source
 summary: Chapter 14: / 14.4 Magical Item List / 《 Magic Sword (+3) 》: 4 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-sword-3-2bfd3306@19395027c28ab570d3846cc1eefe0a12
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-sword-3-2bfd3306@88be78fae476e406ccdeedab1f8dae10
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Magic Sword (+3) 》
@@ -32,6 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Statements
 
+- Rarity=16 Enchanter=Many Form=A dagger, a one-handed sword, or a two-handed sword Required Strength/Base Trade Price=See description bonus _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09009))_
 - Here's a list of prices of magical daggers, one-handed swords, and twohanded swords with +3 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09011))_
 
 ## Technical atoms

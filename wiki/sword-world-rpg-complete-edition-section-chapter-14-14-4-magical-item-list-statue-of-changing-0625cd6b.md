@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-statue-of-changing-0625cd6b
 page_kind: source
-summary: Chapter 14: / 14.4 Magical Item List / [ Statue of Changing ]: 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 14: / 14.4 Magical Item List / [ Statue of Changing ]: 8 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-statue-of-changing-0625cd6b@1ab4f05ae53d79877f55169f1e815789
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-statue-of-changing-0625cd6b@c4d98bf77755cf084671695819c80eb2
 ---
 
 # Chapter 14: / 14.4 Magical Item List / [ Statue of Changing ]
@@ -28,4 +28,5 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Statements
 
+- Powers=Anyone who touches the statue shapeshifts into the form of the same animal as the statue (other than the snake) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09719))_
 - Anyone who touches this statue will shapeshift into an animal of the same form as the statue. A shapeshifted form can return to his or her original state by either touching the snake statue or with a final score 15 Dispel Magic . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09720))_

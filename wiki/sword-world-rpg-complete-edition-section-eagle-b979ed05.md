@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-eagle-b979ed05
 page_kind: source
-summary: [ Eagle ]: 20 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Eagle ]: 18 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-eagle-b979ed05@3333c5eed468055224c82ed8bdc2beb1
+projection_coverage: section-sword-world-rpg-complete-edition-section-eagle-b979ed05@40e229fa64a53f0a38f04d84725d1f90
 ---
 
 # [ Eagle ]
@@ -32,7 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: [ Eagle ]
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06796, source-range-e5870dca-06797, source-range-e5870dca-06798, source-range-e5870dca-06799, source-range-e5870dca-06800, source-range-e5870dca-06801, source-range-e5870dca-06802, source-range-e5870dca-06803, source-range-e5870dca-06804, source-range-e5870dca-06805, source-range-e5870dca-06806, source-range-e5870dca-06807, source-range-e5870dca-06808, source-range-e5870dca-06809, source-range-e5870dca-06810))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06796, source-range-e5870dca-06797, source-range-e5870dca-06798, source-range-e5870dca-06800, source-range-e5870dca-06801, source-range-e5870dca-06802, source-range-e5870dca-06803, source-range-e5870dca-06805, source-range-e5870dca-06806, source-range-e5870dca-06807, source-range-e5870dca-06808, source-range-e5870dca-06809, source-range-e5870dca-06810))_
 
 <a id="atom-technical-atom-5eb4724bf31fdd18"></a>
 > Monster Level=2
@@ -42,9 +42,6 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-5382b39e67463114"></a>
 > Agility=18 Movement Speed=8/30 (air)
-
-<a id="atom-technical-atom-d29ab60cc36cb688"></a>
-> Number=One to several Frequency=Rare
 
 <a id="atom-technical-atom-a9d7a2a9927431d0"></a>
 > Intellect=Animal
@@ -57,9 +54,6 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-1ea89d4302eccd28"></a>
 > Strike Points=5/5
-
-<a id="atom-technical-atom-b7d5648461d86174"></a>
-> Evasion Points=11 (4) Defense Points=5
 
 <a id="atom-technical-atom-a8328999219d2612"></a>
 > Life Points/Resistance=16/10 (3)

@@ -1,10 +1,10 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-centauri-blood-touch-damage-5722839f
 page_kind: source
-summary: [Centauri Blood (Touch/Damage)]: 15 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [Centauri Blood (Touch/Damage)]: 13 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf

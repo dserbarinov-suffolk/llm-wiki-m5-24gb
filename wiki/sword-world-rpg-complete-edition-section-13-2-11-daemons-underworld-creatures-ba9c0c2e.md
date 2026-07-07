@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-ba9c0c2e
 page_kind: source
-summary: 13.2.11 Daemons/Underworld Creatures: 215 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.2.11 Daemons/Underworld Creatures: 183 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-ba9c0c2e@fa07359e889ed108610378cacfb1c02a
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-ba9c0c2e@b21c0c116b3e2a7275208684a70f5f27
 ---
 
 # 13.2.11 Daemons/Underworld Creatures
@@ -57,6 +57,7 @@ From [[sword-world-rpg-complete-edition]].
 - The zalbard is a lesser daemon that's said to be the model for the gargoyle. Its appearance is almost identical to that of a gargoyle, but its skin is fiery red. Its eyes are also bright red, and glow suspiciously. A zalbard's method of attack is the sharp claws on its hands, and it also has the power to breathe magical fire from its mouth. The fire breathed by a zalbard extends in a straight line, making one target within 5 meters its victim. Those attacked by the fire will suffer damage equal to a strike power 10 strike roll plus 5 points of bonus damage. If you succeed on a resistance roll, strike power becomes 0. In addition, fire and heat attacks cannot wound a zalbard. They have the ability to use dark magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08260))_
 - A doubleburg is almost the same size as a human, and its entire body is pitch black. It has a bright red open mouth straight across its face, but no other features. This daemon has the ability to completely copy any opponent's appearance after just one look, including their clothes. If it spends one minute to observe them, it can imitate their tone of speech and gestures exactly. Therefore, it's not possible to discern whether it's the real thing by appearance alone. To shapeshift or shapeshift back requires one full round. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08278))_
 - However, it cannot copy its opponent's abilities and memories. Even if it shapeshifts, a doubleburg's score data will not change at all. For example, even though it looks like it's wielding a weapon, it's actually a part of the doubleburg's own body that's been shapeshifted. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08279))_
+- Frequency=Very rare Intellect=Human Reaction=Adversarial, or command-based Attack Points=Fangs: 13 (6)/Claws: 14 (7) Strike Points=17+Poison/16 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08282))_
 - Poison (toxicity score 13, strike power 20, bonus damage 6) Habitat=Underground labyrinths, secluded ruins _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08287))_
 - A ragnakang is a lesser daemon that looks like an upright dragon. It has wings reminiscent of a giant bat, can reach over 3 meters in height with its neck extended, and uses its long neck to attack by biting. It also uses its strong tail as a weapon. They perform these two attacks at the same time every round. Its sharp fangs contain a powerful poison, and those who fail to resist will immediately suffer damage equal to a strike power 20 strike roll plus 6 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08290))_
 - The Maligdorai is a daemon whose upper body resembles an owl and lower body the hind legs of a goat, and its entire body is covered in feathers. As well as wings on its back, it has jointless tentacle-like viscera sprouting from the base of each wing. Its arms come to sharp gimlet-shaped points, and it performs physical attacks by stabbing with them. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08306))_

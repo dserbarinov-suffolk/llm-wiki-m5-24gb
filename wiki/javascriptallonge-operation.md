@@ -4,7 +4,7 @@ page_kind: concept
 summary: Operation: 4 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-operation@90d651393de0b2e39df694c1814078f3

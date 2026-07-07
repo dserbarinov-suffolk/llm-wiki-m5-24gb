@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-protective-circle-352d0f5f
 page_kind: source
-summary: [ Protective Circle ]: 16 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Protective Circle ]: 16 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-protective-circle-352d0f5f@faac9acf522806ac3d6a65aeaab9d4c1
+projection_coverage: section-sword-world-rpg-complete-edition-section-protective-circle-352d0f5f@f837795152a4955d8a617b8ad526f145
 ---
 
 # [ Protective Circle ]
@@ -25,6 +25,7 @@ From [[sword-world-rpg-complete-edition]].
 ## Statements
 
 - This spell has the effect of protecting the caster and anyone within 5 meters from abnormally high or low temperatures. There are two types of this spell: Heat Protective Circle and Cold Protective Circle . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03494))_
+- Type=Counters (Overpowers): Heat Protective Circle, Spirit Wall: Frau Countered (Overpowered) By: Heat Protective Circle, Spirit Wall: Frau Expansion=Duration, Area Resist=None _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03498))_
 - The effect of this spell is almost the same as Heat Protective Circle , but it protects against damage from ice and cold. Those within the area of effect can subtract 2 points from this kind of damage. Also, frau, an ice spirit, will not try to enter this range. If they are inside when the spell is cast, they will immediately try to escape, and if for some reason that is not possible, they will return to their own spirit world. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03499))_
 - This spell has the effect of protecting the caster and anyone within 5 meters from abnormally high or low temperatures. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03494))_
 - If they are inside when the spell is cast, they will immediately try to escape, and if for some reason that is not possible, they will return to their own spirit world. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03499))_
@@ -33,20 +34,9 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: [ Protective Circle ]
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03499))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03498))_
 
-> The effect of this spell is almost the same as Heat Protective Circle , but it protects against damage from ice and cold. Those within the area of effect can subtract 2 points from this kind of damage. Also, frau, an ice spirit, will not try to enter this range. If they are inside when the spell is cast, they will immediately try to escape, and if for some reason that is not possible, they will return to their own spirit world.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03498))_
-
-<a id="atom-technical-atom-7699f24f52f0d7f4"></a>
 > Type=Counters (Overpowers): Heat Protective Circle, Spirit Wall: Frau Countered (Overpowered) By: Heat Protective Circle, Spirit Wall: Frau Expansion=Duration, Area Resist=None
-
-### Technical frame 2: [ Protective Circle ]
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03494))_
-
-> This spell has the effect of protecting the caster and anyone within 5 meters from abnormally high or low temperatures. There are two types of this spell: Heat Protective Circle and Cold Protective Circle .
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03499))_
 

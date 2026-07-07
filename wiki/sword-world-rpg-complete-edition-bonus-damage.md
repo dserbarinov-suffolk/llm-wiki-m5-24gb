@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-bonus-damage
 page_kind: concept
-summary: 【 Bonus Damage 】: 56 statement(s) and 8 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 【 Bonus Damage 】: 59 statement(s) and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-bonus-damage@278478b401210f1ac34b692d2810a565
+projection_coverage: topic-sword-world-rpg-complete-edition-bonus-damage@da496f0f20788c57f57423ab3b313eff
 ---
 
 # 【 Bonus Damage 】
@@ -40,7 +40,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 - Ducard II's bonus damage is 4 (fighter skill level 2, strength bonus 2). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01264))_
 
-- When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 . No matter how much bonus damage you have, it means nothing. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01268))_
+- If base damage is 14, the total damage is 14+4= 18 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01267))_
 
 ### 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks
 
@@ -118,6 +118,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 - A humbaba can also spit fire from its large mouth, which takes up half of its face, once every 3 rounds. The fire is large enough to cover one person, and those hit by the fire will suffer damage resulting from a strike power 20 strike roll plus bonus damage 10. However, if you succeed on a mental power resistance roll against target score 17, the strike power becomes 10. This damage can only be reduced by adventurer level and magical defense. The humbaba's fire deals damage and at the same time causes a terrible disease. Anyone who suffers even 1 point of damage from the humbaba's fire has a chance of contracting a dreadful illness called humbaba curse . You must roll 2D and if you don't roll a 7 or greater, you will become infected. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06719))_
 
+- No matter how much bonus damage you have, it means nothing. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01268))_
 - If you fail, you'll suffer damage resulting from a strike power 20 strike roll plus 10 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06761))_
 - Elder-species' fire spreads in a 30-meter forward radius, and those who fail a mental power resistance roll against target score 22 will suffer damage resulting from a strike power 30 strike roll plus bonus damage 15. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06771))_
 - Those who are swallowed whole will continue to suffer strike power 10 damage plus bonus damage 4 each round spent inside the toad's belly. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07029))_
@@ -138,10 +139,12 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 - For strike points , apply strike power to Table 13-1: Key Number = Expected Equivalents , then add bonus damage to the result. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08561))_
 - Magic that deals damage with fire ( Fire Bolt and Fireball ) is completely useless, and the strike power bonus of Fire Weapon is also not added. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08767))_
 - Resistant to fire attacks, so for magic that deals damage with fire ( Fire Bolt and Fireball ), checks are made at -10 to strike power (the strike power bonus of Fire Weapon is completely ineffective). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08769))_
+- Powers=+2 to attack power and bonus damage Here's a list of prices of magical daggers, one-handed swords, and twohanded swords with +2 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08951))_
 - Rarity=18 Enchanter=Jagrilis, "The Master of Death" Form=Mage's staff engraved with ancient runes Required Strength=5 (Strike power 10) Base Trade Price=400,000 gamels (complete)/27,000 gamels (incomplete) Powers=+1 to attack power and bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09018))_
 - Rarity=10 Enchanter=Van Form=Greatsword with a shining white blade Required Strength=18 (Strike power 23) Base Trade Price=1,000,000 gamels (not for sale, estimated) Powers=+3 to attack power and bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09028))_
 - Rarity=17 Enchanter=Frodia, "The Liberator" Form=Heavy mace Required Strength=16 (Strike power 16, 21 with two hands) Base Trade Price=700,000 gamels Powers=+2 to attack power and bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09040))_
 - Rarity=15 Enchanter=Cyrus "The Uncertain" Form=A trident with a fish engraved on the handle Required Strength=15 (Strike power 15) Base Trade Price=235,000 gamels Powers=+1 to attack power and bonus damage only in water. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09048))_
+- Powers=Also deals damage to mental points of whoever's body was dealt damage (no bonus) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09107))_
 - As usual, bonus damage is fi ghter/thief/ranger skill level + strength bonus , and furthermore, your opponent can only reduce this damage with adventurer level (monster level). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09634))_
 - In the basic rules, any weapon's bonus damage equals fi ghter (or thief, ranger) skill level + strength bonus , but for projectiles , an adventurer's strength is not fully utilized as-is. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10205))_
 - Even so, the bonus damage will be shooter's skill level + (ballista's required strength ÷ 3) , so a ballista with a greater required strength will be more powerful. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10385))_
@@ -183,33 +186,16 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 ### Technical frame 4: 4.5.3 Bonus Damage
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01268))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01267))_
 
-> When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 . No matter how much bonus damage you have, it means nothing.
-
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01265, source-range-e5870dca-01266, source-range-e5870dca-01267))_
-
-<a id="atom-technical-atom-975461fd9f739b40"></a>
-> If base damage is 4, the total damage is 4+4= 8 ,
-
-<a id="atom-technical-atom-420e16ff58582bd7"></a>
-> If base damage is 18, the total damage is 18+4= 22 ,
-
-<a id="atom-technical-atom-c157fde970467ce7"></a>
 > If base damage is 14, the total damage is 14+4= 18 .
-
-### Technical frame 5: 4.5.3 Bonus Damage
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01264))_
-
-> Ducard II's bonus damage is 4 (fighter skill level 2, strength bonus 2).
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01268))_
 
 <a id="atom-technical-atom-6d6ad9540ce36559"></a>
 > When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 .
 
-### Technical frame 6: [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
+### Technical frame 5: [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07534))_
 
@@ -225,7 +211,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-4-5-3-bonus-damage-513462f0]] - source section: 4.5.3 Bonus Damage shares source evidence from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. This will be the total amount of damage the character deals the monster.; 4.5.3 Bonus Damage shares technical record from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. (3 shared statement(s), 5 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-4-5-3-bonus-damage-513462f0]] - source section: 4.5.3 Bonus Damage shares source evidence from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. This will be the total amount of damage the character deals the monster.; 4.5.3 Bonus Damage shares technical record from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. (4 shared statement(s), 2 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-3-4-4-actions-you-can-take-while-standing-still-bonus-damage-b601c028]] - source section: 3.4.4 Actions You Can Take While Standing Still / 【 Bonus Damage 】 shares source evidence from 3.4.4 Actions You Can Take While Standing Still / 【 Bonus Damage 】: Characters with deep experience in combat can handle weapons effectively. In addition, characters with high strength can wield weapons more powerfully. These charact ... [truncated]; 3.4.4 Actions You Can Take While Standing Still / 【 Bonus Damage 】 shares technical record from 3.4.4 Actions You Can Take While Standing Still / 【 Bonus Damage 】: These characters can deal more damage to their foes, even when using the same sized weapon. (3 shared statement(s), 2 shared atom(s))
 
 ### Shared technical atoms

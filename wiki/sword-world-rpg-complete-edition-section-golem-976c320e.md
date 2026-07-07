@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-golem-976c320e
 page_kind: source
-summary: [ Golem ]: 47 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Golem ]: 45 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-golem-976c320e@78f822c6bcdd75873851a8466247dfb4
+projection_coverage: section-sword-world-rpg-complete-edition-section-golem-976c320e@42742173d757f4ac0b695a317d40a588
 ---
 
 # [ Golem ]
@@ -50,7 +50,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > Against an iron golem, weapons cannot deal additional critical damage. Also, damage spells such as cold-type , electric-type , stone-type , poison gas-type , and wind cutter-type are completely useless. Fire-type damage magic is effective, but a critical cannot occur. Earthquake-type , explosion-type , and pure energy-type damage magic is effective, and a critical can occur.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08133, source-range-e5870dca-08134, source-range-e5870dca-08135, source-range-e5870dca-08136, source-range-e5870dca-08137, source-range-e5870dca-08138, source-range-e5870dca-08139, source-range-e5870dca-08140, source-range-e5870dca-08141, source-range-e5870dca-08142, source-range-e5870dca-08143, source-range-e5870dca-08144, source-range-e5870dca-08145, source-range-e5870dca-08146))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08133, source-range-e5870dca-08134, source-range-e5870dca-08135, source-range-e5870dca-08136, source-range-e5870dca-08137, source-range-e5870dca-08138, source-range-e5870dca-08139, source-range-e5870dca-08140, source-range-e5870dca-08142, source-range-e5870dca-08144, source-range-e5870dca-08145, source-range-e5870dca-08146))_
 
 <a id="atom-technical-atom-e3e58f49169840f2"></a>
 > Monster Level=13
@@ -76,14 +76,8 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-6aa1a309e5a730ee"></a>
 > Reaction=Command-based
 
-<a id="atom-technical-atom-f388f76972bc0ddd"></a>
-> Attack Points=Arms:21 (14)
-
 <a id="atom-technical-atom-5686facf3aa4019a"></a>
 > Strike Points=25
-
-<a id="atom-technical-atom-35b2325af5eedf7a"></a>
-> Evasion Points=19 (12) Defense Points=19
 
 <a id="atom-technical-atom-4d120661fd97bc84"></a>
 > Life Points/Resistance=75/31 (24)

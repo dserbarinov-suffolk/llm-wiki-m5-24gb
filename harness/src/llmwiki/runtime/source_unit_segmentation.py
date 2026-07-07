@@ -154,6 +154,8 @@ def _block_segment_kind(block: SourceUnitBlock) -> str:
         return "code-fence"
     if block.block_kind == "table":
         return "table-block"
+    if block.block_kind == "formula":
+        return "formula"
     if block.block_kind == "picture":
         return "figure"
     if block.block_kind == "list_item":

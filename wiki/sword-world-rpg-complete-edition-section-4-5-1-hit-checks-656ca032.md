@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-4-5-1-hit-checks-656ca032
 page_kind: source
-summary: 4.5.1 Hit Checks: 13 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.5.1 Hit Checks: 12 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-1-hit-checks-656ca032@c1a4ce92ea943591217b49b0f60acf9d
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-1-hit-checks-656ca032@ec2cc56b99541fee8aecb2e2572b10d7
 ---
 
 # 4.5.1 Hit Checks
@@ -38,17 +38,6 @@ From [[sword-world-rpg-complete-edition]].
 ## Technical atoms
 
 ### Technical frame 1: 4.5.1 Hit Checks
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01231))_
-
-> His player rolls the dice to make a hit check. The roll is 8. 4+8= 12 , which is more than 10. The attack hit the target perfectly.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01232))_
-
-<a id="atom-technical-atom-d53affe68dcc15bb"></a>
-> Table 4-1: Rating Table
-
-### Technical frame 2: 4.5.1 Hit Checks
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01231))_
 
@@ -115,7 +104,7 @@ Key Number
 
 </details>
 
-### Technical frame 3: Table 4-2: Rating Table, Key Number
+### Technical frame 2: Table 4-2: Rating Table, Key Number
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01234))_
 

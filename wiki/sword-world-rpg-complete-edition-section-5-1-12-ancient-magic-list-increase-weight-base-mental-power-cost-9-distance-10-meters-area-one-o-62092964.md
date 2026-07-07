@@ -1,10 +1,10 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-increase-weight-base-mental-power-cost-9-distance-10-meters-area-one-o-62092964
 page_kind: source
-summary: 5.1.12 Ancient Magic List / [ Increase Weight ] Base Mental Power Cost=9 Distance=10 meters Area=One object Duration=18 rounds Effect=Increase the weight of an object Type=Lost Counters (Negates): Decrease Weight Countered (Negated) By: Decrease Weight: 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.12 Ancient Magic List / [ Increase Weight ] Base Mental Power Cost=9 Distance=10 meters Area=One object Duration=18 rounds Effect=Increase the weight of an object Type=Lost Counters (Negates): Decrease Weight Countered (Negated) By: Decrease Weight: 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf

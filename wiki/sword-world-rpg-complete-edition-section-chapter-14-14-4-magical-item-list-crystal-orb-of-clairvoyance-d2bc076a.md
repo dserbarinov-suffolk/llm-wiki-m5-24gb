@@ -1,10 +1,10 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-crystal-orb-of-clairvoyance-d2bc076a
 page_kind: source
-summary: Chapter 14: / 14.4 Magical Item List / [Crystal Orb of Clairvoyance]: 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 14: / 14.4 Magical Item List / [Crystal Orb of Clairvoyance]: 8 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf

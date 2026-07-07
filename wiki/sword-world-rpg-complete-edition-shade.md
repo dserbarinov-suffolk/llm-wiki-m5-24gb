@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-shade
 page_kind: concept
-summary: Shade: 4 statement(s) and 7 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Shade: 4 statement(s) and 6 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-shade@e05d7c435c5a573552325ba20cce9b42
+projection_coverage: topic-sword-world-rpg-complete-edition-shade@cf93476f87c215b76dd9a6b78c8009cb
 ---
 
 # Shade
@@ -41,7 +41,7 @@ What [[sword-world-rpg-complete-edition]] covers about shade:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-shade-6f8c3aee]] - source section: [ Shade ] shares source evidence from [ Shade ]: Shade is a spirit of darkness, and also a mind spirit that controls fear. All natural light within 5 meters of its body is canceled out, leaving you in total darknes ... [truncated]; [ Shade ] shares technical record from [ Shade ]: Monster Level=2 (6 shared statement(s), 14 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-shade-6f8c3aee]] - source section: [ Shade ] shares source evidence from [ Shade ]: Shade is a spirit of darkness, and also a mind spirit that controls fear. All natural light within 5 meters of its body is canceled out, leaving you in total darknes ... [truncated]; [ Shade ] shares technical record from [ Shade ]: Monster Level=2 (6 shared statement(s), 9 shared atom(s))
 
 ### Shared claims
 

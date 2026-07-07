@@ -1,10 +1,10 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-water-breathing-undine-water-spirit-a199e3b7
 page_kind: source
-summary: 5.1.14 Spirit Magic List / [ Water Breathing ] (Undine/Water Spirit): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.14 Spirit Magic List / [ Water Breathing ] (Undine/Water Spirit): 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf

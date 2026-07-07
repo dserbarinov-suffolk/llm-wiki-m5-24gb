@@ -4,11 +4,11 @@ page_kind: source
 summary: Chapter 12: Various Checks: 87 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-b405ca1d@85f16f64184c24c6c0fed8ed20a3f786
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-b405ca1d@a6509c13fc83e3b7fed9776c034294e8
 ---
 
 # Chapter 12: Various Checks
@@ -135,6 +135,7 @@ From [[sword-world-rpg-complete-edition]].
 - Also, you cannot learn runes with these skills. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05355))_
 - When it comes to languages learned through the sage skill, priority is given to reading common and reading low ancient. An owner of the sorcerer skill can read low ancient, so acquiring the sage skill will quickly allow you to learn new languages (if you can read common). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05356))_
 - If an adventurer who has learned low ancient through the sage skill acquires the sorcerer skill, they will not be able to learn another language because it would just be low ancient again . When acquiring these two skills, it is better to acquire them in the order of sorcerer → sage, which gives you a one language advantage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05357))_
+- The languages that adventurers can learn are shown on Table 12-1: Languages. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05358))_
 - *Holy prayer and daemon scream are basically the same thing. However, there are slight differences depending on the god (wicked god) you believe in. **Now (believed to be) lost. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05406))_
 - Y ou can only learn to speak with the bard skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05354))_
 - If an adventurer who has learned low ancient through the sage skill acquires the sorcerer skill, they will not be able to learn another language because it would just be low ancient again . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05357))_
@@ -148,9 +149,9 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: Table 12-1: Languages table below lists the languages used by
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05357))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05358))_
 
-> If an adventurer who has learned low ancient through the sage skill acquires the sorcerer skill, they will not be able to learn another language because it would just be low ancient again . When acquiring these two skills, it is better to acquire them in the order of sorcerer → sage, which gives you a one language advantage.
+> The languages that adventurers can learn are shown on Table 12-1: Languages.
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05359))_
 

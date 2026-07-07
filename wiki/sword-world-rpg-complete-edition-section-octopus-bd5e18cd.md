@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-octopus-bd5e18cd
 page_kind: source
-summary: [ Octopus ]: 26 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Octopus ]: 24 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-octopus-bd5e18cd@38700da566478509c38e6e4cdc6e5a20
+projection_coverage: section-sword-world-rpg-complete-edition-section-octopus-bd5e18cd@f72a3c0b9a1c781918df8909f90f9b33
 ---
 
 # [ Octopus ]
@@ -39,7 +39,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > A killer octopus will use all of its tentacles to attack one target, constricting the opponent with its entire body. Please follow the rules for strangling (see p. 236).
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07341, source-range-e5870dca-07342, source-range-e5870dca-07343, source-range-e5870dca-07344, source-range-e5870dca-07345, source-range-e5870dca-07346, source-range-e5870dca-07347, source-range-e5870dca-07348, source-range-e5870dca-07349, source-range-e5870dca-07350, source-range-e5870dca-07351, source-range-e5870dca-07352, source-range-e5870dca-07353, source-range-e5870dca-07354, source-range-e5870dca-07355, source-range-e5870dca-07356, source-range-e5870dca-07357))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07341, source-range-e5870dca-07342, source-range-e5870dca-07343, source-range-e5870dca-07344, source-range-e5870dca-07345, source-range-e5870dca-07346, source-range-e5870dca-07347, source-range-e5870dca-07348, source-range-e5870dca-07350, source-range-e5870dca-07352, source-range-e5870dca-07353, source-range-e5870dca-07354, source-range-e5870dca-07355, source-range-e5870dca-07356, source-range-e5870dca-07357))_
 
 <a id="atom-technical-atom-e12694df7d958b5e"></a>
 > Monster Level=7
@@ -65,14 +65,8 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-af97e7d1a23734e5"></a>
 > Reaction=Hunger-based
 
-<a id="atom-technical-atom-d937eaddd16ed114"></a>
-> Attack Points=Strangle (8 times):16 (9)
-
 <a id="atom-technical-atom-285f00d2204d8a7c"></a>
 > Strike Points=16
-
-<a id="atom-technical-atom-5b949e758141e24e"></a>
-> Evasion Points=12 (5) Defense Points=9
 
 <a id="atom-technical-atom-bb3f15965d18794d"></a>
 > Life Points/Resistance=50/21 (14)

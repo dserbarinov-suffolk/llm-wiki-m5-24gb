@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-turn-undead-ce2d8529
 page_kind: source
-summary: [ Turn Undead ]: 16 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Turn Undead ]: 15 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-turn-undead-ce2d8529@58973a147b5ba12d2b76fc30fbd5f60a
+projection_coverage: section-sword-world-rpg-complete-edition-section-turn-undead-ce2d8529@e75ef0c1bdd29bec8db6310fcbdc84bc
 ---
 
 # [ Turn Undead ]
@@ -32,25 +32,11 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: [ Turn Undead ]
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03383, source-range-e5870dca-03384, source-range-e5870dca-03385, source-range-e5870dca-03386, source-range-e5870dca-03387, source-range-e5870dca-03389, source-range-e5870dca-03391))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03392))_
 
-<a id="atom-technical-atom-10527f5cd5fa174d"></a>
-> Base Mental Power Cost=5
+> This spell creates a space that acts as a negative force against undead, and has the effects as shown on Table 5-6: Turn Undead. However, a success roll check is required, and if you fail, there will be no effect. If successful, roll another 2D and an effect corresponding to the rolled score will be applied. If you have multiple targets, make success rolls to determine the effects for each one.
 
-<a id="atom-technical-atom-8ebf8542a47ab79d"></a>
-> Distance=10 meters
-
-<a id="atom-technical-atom-ef1f5a8c42e13ad0"></a>
-> Area=A space with a 5 meter radius
-
-<a id="atom-technical-atom-683eafdee1bd96d9"></a>
-> Duration=18 rounds
-
-<a id="atom-technical-atom-6e9609229b8a787f"></a>
-> Effect=Affects undead in various ways
-
-<a id="atom-technical-atom-69bb6598ff5c6e73"></a>
-> Expansion=Final score, duration, distance,
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03391))_
 
 <a id="atom-technical-atom-fa63b7d5cb7f9db7"></a>
 > Resist=Negated effect

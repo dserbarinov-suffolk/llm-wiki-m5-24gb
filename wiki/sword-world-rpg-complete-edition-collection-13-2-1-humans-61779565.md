@@ -4,11 +4,11 @@ page_kind: source
 summary: 13.2.1 《 Humans 》: 11 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: collection-page
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: collection-sword-world-rpg-complete-edition-collection-13-2-1-humans-61779565@994850f75698b5654644fb1e7bc94c87
+projection_coverage: collection-sword-world-rpg-complete-edition-collection-13-2-1-humans-61779565@7bb5df7fdba0b23c26c5c90dacdeb494
 ---
 
 # 13.2.1 《 Humans 》
@@ -36,4 +36,4 @@ Broader source section: [[sword-world-rpg-complete-edition-section-13-2-1-humans
 | 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》 | [[sword-world-rpg-complete-edition-section-13-2-1-humans-life-points-resistance-8fb0987b]] | 21 statement(s), 7 atom(s) |
 | 13.2.1 《 Humans 》 / 《 Perception 》 | [[sword-world-rpg-complete-edition-section-13-2-1-humans-perception-c905aeb7]] | 21 statement(s), 6 atom(s) |
 | 13.2.1 《 Humans 》 / 《 Languages 》 | [[sword-world-rpg-complete-edition-section-13-2-1-humans-languages-7b5205b7]] | 4 statement(s), 2 atom(s) |
-| 13.2.1 《 Humans 》 / [ Pixie ] | [[sword-world-rpg-complete-edition-section-13-2-1-humans-pixie-9f49758b]] | 8 statement(s), 32 atom(s) |
+| 13.2.1 《 Humans 》 / [ Pixie ] | [[sword-world-rpg-complete-edition-section-13-2-1-humans-pixie-9f49758b]] | 8 statement(s), 26 atom(s) |

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-dullahan-5ba5c818
 page_kind: source
-summary: [ Dullahan ]: 57 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Dullahan ]: 50 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-dullahan-5ba5c818@ed5312217f7d855192e33543e07bd922
+projection_coverage: section-sword-world-rpg-complete-edition-section-dullahan-5ba5c818@c535f923fcf2f7c507b177c0802312f5
 ---
 
 # [ Dullahan ]
@@ -48,7 +48,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > You can avoid a death prophesied by a dullahan by killing it the first or second time it appears. It's no use for those who have received the prophecy of death to move away. The dullahan will always appear at the place you moved to (or to one of the places moved to, if the residents have split up and moved to different places), even if it's on the sea, or in a room that's been walled off on all sides.......
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07697, source-range-e5870dca-07698, source-range-e5870dca-07699, source-range-e5870dca-07700, source-range-e5870dca-07701, source-range-e5870dca-07702, source-range-e5870dca-07703, source-range-e5870dca-07704, source-range-e5870dca-07705, source-range-e5870dca-07706, source-range-e5870dca-07707, source-range-e5870dca-07708))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07697, source-range-e5870dca-07698, source-range-e5870dca-07699, source-range-e5870dca-07700))_
 
 <a id="atom-technical-atom-83a06c3ff878b6b5"></a>
 > Monster Level=4
@@ -62,20 +62,16 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-dfb95994504d00f5"></a>
 > Movement Speed=30/30 (air)
 
-<a id="atom-technical-atom-a2d2ebbe628495f2"></a>
-> Number=One Frequency=Rare
+### Technical frame 2: [ Dullahan ]
 
-<a id="atom-technical-atom-8740f60bfe5f3c06"></a>
-> Intellect=None Reaction=Adversarial
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07710))_
 
-<a id="atom-technical-atom-7a2dc980f81bd27e"></a>
-> Attack Points=Ram:14 (7)
+> Certain magic immunity Not affected by poison and illness Habitat=Unknown, appears with (or summoned by) dullahan Languages=None Perception=None A chariot ridden by a dullahan, which has the ability to fly. The chariot can also attack while moving up to a maximum of 90 meters in one round. Also, it can hit-and-run different opposing characters again and again. A dullahan riding and controlling a chariot cannot attack on its own at the same time (because it's pulling the reins with one hand and h
+
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07704, source-range-e5870dca-07706, source-range-e5870dca-07707, source-range-e5870dca-07708))_
 
 <a id="atom-technical-atom-5b8b9c4fc70dcb55"></a>
 > Strike Points=15
-
-<a id="atom-technical-atom-4ea32420d03f8c8b"></a>
-> Evasion Points=13 (6) Defense Points=8
 
 <a id="atom-technical-atom-7af2b97dd246c978"></a>
 > Life Points/Resistance=30/15 (8)

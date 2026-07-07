@@ -1,10 +1,10 @@
 ---
 page_id: javascriptallonge-section-reg-raganwald-braithwaite-87b94ba9
 page_kind: source
-summary: Reg 'raganwald' Braithwaite: 3 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+summary: Reg 'raganwald' Braithwaite: 2 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf

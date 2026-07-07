@@ -1,15 +1,15 @@
 ---
 page_id: sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters
 page_kind: procedure
-summary: Complete Attacks From Characters Against Characters: 2 ordered step(s), 3 decision point(s), and 14 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Complete Attacks From Characters Against Characters: 2 ordered step(s), 3 decision point(s), and 11 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-attacks-from-characters-against-characters, attacks-from-characters-against-characters
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters@bc2331b8115295a9f4b9acb3fc754b41
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters@554bb2ad58c33364d52e3c83b13a10d8
 ---
 
 # Attacks From Characters Against Characters
@@ -44,13 +44,12 @@ From [[sword-world-rpg-complete-edition]].
 - `formula`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-fddce00c40ceff31 defender's final score = evasion speed + 2D _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01330))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-592f145783e223a8 The defender doesn't even have to roll the dice. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01342))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-bf5cf879cafdaf6d If the defender's roll is double sixes , the attack will always fail. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01345))_
-- `formula`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-166cdfb4ec02c00f Please refer to Table 4-4: Attack Checks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01346))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-17ab041c1577e2dc The attacker must make a strike roll to determine their base damage, then add their bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01349))_
-- `formula`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-53a17366d38a850e As a result, the damage that Ducard II suffers is 21-5= 16 points . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01356))_
 - `table`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-974438dff2cea6ae Table 4-4: Attack Checks _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01357))_
 - `rule`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-f4c39f1df2ba9f3f To make a hit check, both sides must roll the dice (2D). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01328))_
 - `formula`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-9934c64602d2758c attacker's attack power + 2D ≤ defender's evasion speed +2D → attack fails _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01334))_
-- `formula`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-53c451a5f5817e8e Ducard II's final score is 4+7= 11 , while Bucky's final score is 5+6= 11 . It's a tie. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01338))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-972f99e6c87327ef If your attack hits, you must then determine damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01348))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-c8e7911d]]#atom-technical-atom-e2b5f19ecee14cc0 The defender must make a defense roll, then add their damage reduction to the result to determine how much damage they r _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01350))_
 
 ## Completion Check
 

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-double-sixe
 page_kind: concept
-summary: Double Sixe: 4 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Double Sixe: 4 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-double-sixe@a451d09f011eb5af6fc4f9d65af5c428
+projection_coverage: topic-sword-world-rpg-complete-edition-double-sixe@dc181d57098abde7d72a0dd6ffc1ae98
 ---
 
 # Double Sixe
@@ -37,17 +37,6 @@ What [[sword-world-rpg-complete-edition]] covers about double sixe:
 
 <a id="atom-technical-atom-592f145783e223a8"></a>
 > The defender doesn't even have to roll the dice.
-
-### Technical frame 2: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01345))_
-
-> If the defender's roll is double sixes , the attack will always fail. It doesn't matter even if the attacker rolls double sixes.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01346))_
-
-<a id="atom-technical-atom-166cdfb4ec02c00f"></a>
-> Please refer to Table 4-4: Attack Checks.
 
 
 ## Related pages

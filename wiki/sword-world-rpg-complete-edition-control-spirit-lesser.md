@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-control-spirit-lesser
 page_kind: concept
-summary: [ Control Spirit ] (Various lesser spirits): 27 statement(s) and 11 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Control Spirit ] (Various lesser spirits): 27 statement(s) and 10 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-control-spirit-lesser@c124f9ac8d027f8423a9ae5b34b1e849
+projection_coverage: topic-sword-world-rpg-complete-edition-control-spirit-lesser@24580c8d3fcfd98d21c4812730f47d54
 ---
 
 # [ Control Spirit ] (Various lesser spirits)
@@ -88,10 +88,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ control spirit ] (vario
 
 > This is a spell that summons a spirit and lets you control it as your servant (you're free to call it your friend). The only spirits you can summon are those that belong to the lesser spirits (monster level 4 or lower). Of course, it can only be summoned in a place where spirit power is at work, and summoning also requires a three-hour magical ritual.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02904, source-range-e5870dca-02905))_
-
-<a id="atom-technical-atom-229b44c4904219fa"></a>
-> Expansion=Final score, distance
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02905))_
 
 <a id="atom-technical-atom-aa47c9de11118f80"></a>
 > Resist=None
@@ -118,7 +115,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ control spirit ] (vario
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-control-spirit-various-lesser-spirits-c4379056]] - source section: 5.1.14 Spirit Magic List / [ Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / [ Control Spirit ] (Various lesser spirits): This is a spell that summons a spirit and lets you control it as your servant (you're free to call it your friend). The only spirits you can summon are those that be ... [truncated]; 5.1.14 Spirit Magic List / [ Control Spirit ] (Various lesser spirits) shares technical record from 5.1.14 Spirit Magic List / [ Control Spirit ] (Various lesser spirits): Base Mental Power Cost=15 (11 shared statement(s), 8 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-control-spirit-various-lesser-spirits-c4379056]] - source section: 5.1.14 Spirit Magic List / [ Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / [ Control Spirit ] (Various lesser spirits): This is a spell that summons a spirit and lets you control it as your servant (you're free to call it your friend). The only spirits you can summon are those that be ... [truncated]; 5.1.14 Spirit Magic List / [ Control Spirit ] (Various lesser spirits) shares technical record from 5.1.14 Spirit Magic List / [ Control Spirit ] (Various lesser spirits): Base Mental Power Cost=15 (11 shared statement(s), 7 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-full-control-spirit-various-lesser-spirits-6337533f]] - source section: 5.1.14 Spirit Magic List / [ Full Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / [ Full Control Spirit ] (Various lesser spirits): Please note that it is not possible to use both the Control Spirit and Full Control Spirit spells to control different spirits. In this case, the effect of the previ ... [truncated]; 5.1.14 Spirit Magic List / [ Full Control Spirit ] (Various lesser spirits) shares technical record from 5.1.14 Spirit Magic List / [ Full Control Spirit ] (Various lesser spirits): Base Mental Power Cost=35 (2 shared statement(s), 3 shared atom(s))
 
 ### Shared claims

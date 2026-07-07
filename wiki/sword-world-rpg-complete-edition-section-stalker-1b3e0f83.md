@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-stalker-1b3e0f83
 page_kind: source
-summary: [ Stalker ]: 82 source-backed entries and 7 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Stalker ]: 71 source-backed entries and 6 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-stalker-1b3e0f83@69e154856eef01adae18be418922dff3
+projection_coverage: section-sword-world-rpg-complete-edition-section-stalker-1b3e0f83@e8808c3af5a35d88578a6e92197eeecd
 ---
 
 # [ Stalker ]
@@ -77,7 +77,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > A gas stalker is a Stalker created using a heavy, foul-smelling gas. Although it's usually invisible and doesn't make a sound, you can tell when it's approaching because the gas that makes up its body gives off a terrible odor. When it materializes, it appears as a naked devil with green skin and crazy bloodshot eyes.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08062, source-range-e5870dca-08063, source-range-e5870dca-08064))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08062, source-range-e5870dca-08063))_
 
 <a id="atom-technical-atom-c757461469c1dce7"></a>
 > Habitat=Ruins
@@ -85,16 +85,13 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-61ee976f35250259"></a>
 > Languages=None
 
-<a id="atom-technical-atom-352a920743c163cc"></a>
-> Perception=Pseudo, Magic while in ghostly form
-
 ### Technical frame 4: [ Stalker ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08065))_
 
 > A gas stalker is a Stalker created using a heavy, foul-smelling gas. Although it's usually invisible and doesn't make a sound, you can tell when it's approaching because the gas that makes up its body gives off a terrible odor. When it materializes, it appears as a naked devil with green skin and crazy bloodshot eyes.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08067, source-range-e5870dca-08068, source-range-e5870dca-08069, source-range-e5870dca-08070, source-range-e5870dca-08071, source-range-e5870dca-08072, source-range-e5870dca-08073, source-range-e5870dca-08074, source-range-e5870dca-08075, source-range-e5870dca-08076, source-range-e5870dca-08077, source-range-e5870dca-08078, source-range-e5870dca-08079, source-range-e5870dca-08080, source-range-e5870dca-08081))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08067, source-range-e5870dca-08068, source-range-e5870dca-08069, source-range-e5870dca-08070, source-range-e5870dca-08072, source-range-e5870dca-08073, source-range-e5870dca-08074, source-range-e5870dca-08076, source-range-e5870dca-08078, source-range-e5870dca-08079, source-range-e5870dca-08081))_
 
 <a id="atom-technical-atom-a0a1b92d282296eb"></a>
 > Monster Level=5
@@ -108,9 +105,6 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-dd5cc46a89a8c386"></a>
 > Movement Speed=15
 
-<a id="atom-technical-atom-9ca6f8bd1ce65e0e"></a>
-> Number=One, rarely multiple
-
 <a id="atom-technical-atom-5c34dfac5960af85"></a>
 > Frequency=Rare
 
@@ -120,23 +114,14 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-1b26a58035edc0f0"></a>
 > Reaction=Adversarial
 
-<a id="atom-technical-atom-051e4167aa768d2f"></a>
-> Attack Points=Garrote:10 (3)
-
 <a id="atom-technical-atom-6d23fe1a0ce7154d"></a>
 > Strike Points=Special
-
-<a id="atom-technical-atom-6c133f31b0929e0b"></a>
-> Evasion Points=13 (6) Defense Points=7
 
 <a id="atom-technical-atom-2ae124e024164e6e"></a>
 > Life Points/Resistance=16/13 (6)
 
 <a id="atom-technical-atom-507b53c1ba868d20"></a>
 > Mental Points/Resistance=20/14 (7)
-
-<a id="atom-technical-atom-33e91f7c0a474fb4"></a>
-> Special Abilities=Choke (Strike power 10, bonus damage 5)
 
 <a id="atom-technical-atom-140bae948aec1506"></a>
 > Surprise attack (Sense target score=16) Normal attack immunity

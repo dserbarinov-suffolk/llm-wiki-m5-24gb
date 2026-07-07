@@ -18,7 +18,7 @@ from llmwiki.domain.ledger.atoms import (
     RulePayload,
     WorkedExamplePayload,
 )
-from llmwiki.domain.ledger.notation import formula_candidate_line, is_symbolic_formula
+from llmwiki.domain.ledger.notation import is_symbolic_formula, standalone_formula_candidate_line
 from llmwiki.domain.ledger.rule_structure import materialize_rule_payload
 from llmwiki.domain.ledger.segments import SourceSegment
 from llmwiki.domain.ledger.table_materialize import materialize_table as materialize_table
@@ -69,7 +69,7 @@ def materialize_code_block(segment: SourceSegment) -> tuple[CodeBlockPayload, st
 
 def materialize_formula(segment: SourceSegment) -> FormulaPayload | None:
     raw_formula = segment.formula_text.strip()
-    line = raw_formula or formula_candidate_line(segment.text)
+    line = raw_formula or standalone_formula_candidate_line(segment.text)
     if line is None:
         return None
     has_equation = "=" in line

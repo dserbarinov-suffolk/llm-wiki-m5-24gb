@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-setting-target-scores-and-difficulties-02cb5064
 page_kind: source
-summary: Setting Target Scores and Difficulties: 30 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Setting Target Scores and Difficulties: 27 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-setting-target-scores-and-difficulties-02cb5064@38819f6470f126d1ed2701759d9c53b1
+projection_coverage: section-sword-world-rpg-complete-edition-section-setting-target-scores-and-difficulties-02cb5064@e3ef393d29a921871a629ed4fd4e3e36
 ---
 
 # Setting Target Scores and Difficulties
@@ -28,6 +28,7 @@ From [[sword-world-rpg-complete-edition]].
 - Almost guaranteed if you have the skill. Even amateurs have a greater chance of success. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04515))_
 - If you have the skill, there is a high probability of success. For amateurs, the risk of failure is greater. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04521))_
 - If you have the skill, you'll succeed 2 out of 3 times, but if you're an amateur, you'll fail 2 out of 3 times. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04524))_
+- It's 50-50 if you have the skill. Success is not guaranteed to amateurs. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04527))_
 - If you're a pro in that field, you'll most likely succeed, but if you only have the skill, there's a greater risk of failure. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04530))_
 - Amateurs should stay away from it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04531))_
 - It's possible with a little luck if you're someone who's only dabbled. Even pros can fail due to a little bad luck. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04537))_

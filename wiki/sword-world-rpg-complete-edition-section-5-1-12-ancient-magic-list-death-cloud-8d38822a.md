@@ -4,11 +4,11 @@ page_kind: source
 summary: 5.1.12 Ancient Magic List / [ Death Cloud ]: 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-death-cloud-8d38822a@e9b8e45f5109d803e795512914eba78a
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-death-cloud-8d38822a@33498c11fb74d2d2959a1b6bd7fdaf70
 ---
 
 # 5.1.12 Ancient Magic List / [ Death Cloud ]
@@ -28,5 +28,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Statements
 
+- Effect=Makes the air within the area of effect into a lethal substance, killing living things instantly _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02669))_
 - Death Cloud turns the air within its area of effect into a lethal poison gas. All creatures within range must attempt to resist this spell, and if they fail, they will die instantly. If successful, they will suffer no effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02673))_
+- Effect=Makes the air within the area of effect into a lethal substance, killing living things instantly _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02669))_
 - Death Cloud turns the air within its area of effect into a lethal poison gas. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02673))_

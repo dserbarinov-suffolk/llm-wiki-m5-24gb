@@ -4,7 +4,7 @@ page_kind: concept
 summary: the function keyword: 23 statement(s) and 17 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-function-keyword@4699746b4f83a1c7293e6329a9c84235

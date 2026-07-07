@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-full-potential-9e8a3fe8
 page_kind: source
-summary: 5.1.12 Ancient Magic List / [ Full Potential ]: 13 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.12 Ancient Magic List / [ Full Potential ]: 10 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-full-potential-9e8a3fe8@dda6d5b9fbb0afc8dcc4cb3a74814a91
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-full-potential-9e8a3fe8@44e9ae608ac7aaeb5486a4a4de421f88
 ---
 
 # 5.1.12 Ancient Magic List / [ Full Potential ]
@@ -38,28 +38,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > Full Potential is a spell that enhances the effects of Physical Enchantment and raises potential capabilities of the human body to maximum. The result is the same effect as casting the Sharpness , Quickness and Strength spells of Physical Enchantment all at the same time. In other words, dexterity , agility , and strength all increase by 6 at the same time. As a result, each ability bonus will be increased by +1, so for the duration, the baseline score of the abilities of each skill related to t
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02477, source-range-e5870dca-02478, source-range-e5870dca-02479, source-range-e5870dca-02480, source-range-e5870dca-02481, source-range-e5870dca-02482, source-range-e5870dca-02483, source-range-e5870dca-02484))_
-
-<a id="atom-technical-atom-bd4722fb49178adf"></a>
-> Base Mental Power Cost=28
-
-<a id="atom-technical-atom-6464776fd68055b3"></a>
-> Distance=10 meters
-
-<a id="atom-technical-atom-04b5149efc1a8080"></a>
-> Area=One
-
-<a id="atom-technical-atom-03a5e1e14105007e"></a>
-> Duration=18 rounds
-
-<a id="atom-technical-atom-b17e5b6e9232a20f"></a>
-> Effect=Increase the three ability scores of dexterity, agility, and strength by 6
-
-<a id="atom-technical-atom-25be2448b3302a49"></a>
-> Type=Target score, physical ability
-
-<a id="atom-technical-atom-ff2d30eb1883a74e"></a>
-> Expansion=Final score, duration, distance, targets
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02484))_
 
 <a id="atom-technical-atom-d93ca0bba0760231"></a>
 > Resist=None

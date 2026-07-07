@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-10-3-surprise-attacks-0022b2da
 page_kind: source
-summary: 10.3 Surprise Attacks: 16 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 10.3 Surprise Attacks: 15 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10-3-surprise-attacks-0022b2da@703556a02cd2d6229f6c887ce5d5b011
+projection_coverage: section-sword-world-rpg-complete-edition-section-10-3-surprise-attacks-0022b2da@d0a2d6856e3e4661512e71bef1eea101
 ---
 
 # 10.3 Surprise Attacks
@@ -70,14 +70,3 @@ Table 10-2: Surprise Attack Check
 | success roll using ranger skill level + | High | -3 |
 
 </details>
-
-### Technical frame 2: 10.3 Surprise Attacks
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04632))_
-
-> However, if alternative senses (smell, hearing, etc.) are developed to some extent
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04628))_
-
-<a id="atom-technical-atom-4f274d313acec432"></a>
-> Table 10-1: Attack Power and Evasion Speed Modifiers

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-weapon-critical
 page_kind: concept
-summary: 《 Weapons Cannot Critical 》: 15 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 《 Weapons Cannot Critical 》: 16 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-weapon-critical@d809296874cb8f957a0b858bafa94f91
+projection_coverage: topic-sword-world-rpg-complete-edition-weapon-critical@5fc369d89ca03ff633ecaecf4a250055
 ---
 
 # 《 Weapons Cannot Critical 》
@@ -33,6 +33,8 @@ What [[sword-world-rpg-complete-edition]] covers about 《 weapons cannot critic
 - Sharp claws grow on both hands of the caster. These claws have strike power 15 and critical target 10, and are furthermore treated the same as a weapon imbued with magical power. The attack power is the caster's dragon priest skill level + dexterity bonus , and if it hits, in addition to the damage from the claws, it can also deal bonus damage equal to dragon priest skill level + strength bonus . Claw attacks allow you to attack with both hands at the same time without penalty. However, while these claws are grown out, you cannot grasp or hold anything. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05092))_
 
 ### [ Homunculus ]
+
+- Special Abilities=All weapons cannot critical Iron corrosion Mental attack immunity Not affected by poison and illness Habitat=Decaying swamps, sewers Languages=None Perception=Magic _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07889))_
 
 - Also, attacks with any weapon cannot critical against the blob. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07892))_
 

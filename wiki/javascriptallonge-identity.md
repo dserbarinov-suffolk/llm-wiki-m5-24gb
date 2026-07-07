@@ -4,7 +4,7 @@ page_kind: concept
 summary: Identity: 2 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-identity@f5c390fff57238daf5569e4cb92c7aa4

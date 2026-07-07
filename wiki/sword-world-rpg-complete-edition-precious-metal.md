@@ -4,7 +4,7 @@ page_kind: concept
 summary: Precious Metal: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-precious-metal@07cc212f15ccb58fba020a4576b1a2aa

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-9708e5d4
 page_kind: source
-summary: 18.3 Rules for Destroying Structures: 511 source-backed entries and 25 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 18.3 Rules for Destroying Structures: 500 source-backed entries and 25 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-9708e5d4@8d9ad225dc3407ad7b4583ea8c5e7558
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-9708e5d4@2b7e2e5715ac1b8b83b8ef6e6e6e16dd
 ---
 
 # 18.3 Rules for Destroying Structures
@@ -40,6 +40,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 18.3 Rules for Destroying Structures / [ Paper ]
 
+- Normal = Swords, spears, axes, maces, flails, slings, rocks, war hammers, barehanded, stone-type, wind cuttertype, blade-type magic _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10496))_
 - Special = If you cast " Fire Weapon " magic, strike power will become +20, and even weapons that cannot cause criticals will now be able to cause criticals. Also, if exposed to fire, it'll ignite immediately, and its defense points will automatically decrease by 1 point every round. When its defense points reach 0, its destruction points begin to decrease, and on the next round when destruction points reach 1, the paper object will burn out. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10498))_
 
 ### 18.3 Rules for Destroying Structures / Defense Points
@@ -75,8 +76,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 18.3 Rules for Destroying Structures / [ Iron ]
 
+- Complete Immunity = Swords, axes, spears, clubs, staves, bows, crossbows, slings, rocks, barehanded, cold-type, electrictype, wind cutter-type, blade, poison gas-type magic _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10569))_
+- Special = When destroyed with fire-type or pure energy-type magic, its temperature becomes extremely high immediately after destruction. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10573))_
 - If your character accidentally touches it, he or she will suffer severe burns. If you try this in a closed room, there's a great possibility your character will succumb to the heat before the wall is destroyed. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10574))_
+- Special = When destroyed with fire-type or pure energy-type magic, its temperature becomes extremely high immediately after destruction. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10573))_
 - If you try this in a closed room, there's a great possibility your character will succumb to the heat before the wall is destroyed. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10574))_
+
+### 18.3 Rules for Destroying Structures / [ Ice ]
+
+- No Criticals = Swords, spears, clubs, staves, barehanded, electric-type, wind cuttertype, blade-type magic _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10579))_
+- Special = If destroyed with fire-type or pure energy-type magic, it'll melt and turn into water. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10582))_
+
+### 18.3 Rules for Destroying Structures / [ Vegetation ]
+
+- Special = If attacked with fire-type magic or a weapon with Fire Weapon cast on it, treat it the same as wood. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10590))_
 
 ### 18.3 Rules for Destroying Structures / 18.3.3 Handling Spirit Walls
 
@@ -377,6 +390,7 @@ From [[sword-world-rpg-complete-edition]].
 - Almost guaranteed if you have the skill. Even amateurs have a greater chance of success. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11124))_
 - If you have the skill, there is a high probability of success. For amateurs, the risk of failure is greater. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11130))_
 - If you have the skill, you'll succeed 2 out of 3 times, but if you're an amateur, you'll fail 2 out of 3 times. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11133))_
+- It's 50-50 if you have the skill. Success is not guaranteed to amateurs. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11136))_
 - If you're a pro in that field, you'll most likely succeed, but if you only have the skill, there's a greater risk of failure. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11139))_
 - Amateurs should stay away from it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11140))_
 - It's possible with a little luck if you're someone who's only dabbled. Even pros can fail due to a little bad luck. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11146))_

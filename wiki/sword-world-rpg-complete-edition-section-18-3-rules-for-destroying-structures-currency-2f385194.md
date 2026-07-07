@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-currency-2f385194
 page_kind: source
-summary: 18.3 Rules for Destroying Structures / Currency: 104 source-backed entries and 23 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 18.3 Rules for Destroying Structures / Currency: 98 source-backed entries and 23 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-currency-2f385194@e4574a8dda6629d55e40b6f3fb636016
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-currency-2f385194@e71d1098e9c6256884203d1f974dacb4
 ---
 
 # 18.3 Rules for Destroying Structures / Currency
@@ -52,6 +52,7 @@ From [[sword-world-rpg-complete-edition]].
 - Almost guaranteed if you have the skill. Even amateurs have a greater chance of success. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11124))_
 - If you have the skill, there is a high probability of success. For amateurs, the risk of failure is greater. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11130))_
 - If you have the skill, you'll succeed 2 out of 3 times, but if you're an amateur, you'll fail 2 out of 3 times. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11133))_
+- It's 50-50 if you have the skill. Success is not guaranteed to amateurs. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11136))_
 - If you're a pro in that field, you'll most likely succeed, but if you only have the skill, there's a greater risk of failure. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11139))_
 - Amateurs should stay away from it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11140))_
 - It's possible with a little luck if you're someone who's only dabbled. Even pros can fail due to a little bad luck. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-11146))_

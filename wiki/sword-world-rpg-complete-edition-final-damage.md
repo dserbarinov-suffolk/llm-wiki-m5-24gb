@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-final-damage
 page_kind: concept
-summary: 4.5.5 Final Damage: 11 statement(s) and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.5.5 Final Damage: 15 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-final-damage@0562f8614389ba26f3f9035b50b573c5
+projection_coverage: topic-sword-world-rpg-complete-edition-final-damage@3b2760fec2697f898171b300b594af77
 ---
 
 # 4.5.5 Final Damage
@@ -20,9 +20,9 @@ What [[sword-world-rpg-complete-edition]] covers about 4.5.5 final damage:
 
 - The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01315))_
 
-- If the result of Ducard II's defense roll is 0 (roll 3) or 6 (roll 12), respectively, the final damage he will suffer is calculated to be: _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01318))_
+- Final damage = monster's strike points - (defense roll result + damage reduction) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01316))_
 
-- If the defense roll came up double ones , no such calculation would be made, and the goblin's 7 strike points would be the damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01320))_
+- If the result of Ducard II's defense roll is 0 (roll 3) or 6 (roll 12), respectively, the final damage he will suffer is calculated to be: _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01318))_
 
 ### 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks
 
@@ -40,34 +40,36 @@ What [[sword-world-rpg-complete-edition]] covers about 4.5.5 final damage:
 
 - Expansion=Final score, distance, area, damage certainty Resist=Reduced effect This spell creates a sudden storm containing countless pieces of ice the size of pebbles, in a space within a 5 meter radius centered on a point, dealing cold damage to everything within range. Its strike power is 20. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02308))_
 
+### 5.1.12 Ancient Magic List / [ Lightning Bind ]
+
+- Type=Target score, damage (Electric-type) Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02573))_
+
 ### 5.1.14 Spirit Magic List / [ Shade ] (Shade/Dark Spirit)
 
 - Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the spirit that controls fear. It is said to have a spherical shape like the will-o-wisp, but this is not certain (because like a crow in the pitch-black night, it cannot be seen). All natural light within a 5 meter radius of this spirit is negated, closing it in complete darkness. The darkness created by a shade has no effect in a space where the ancient magic Light is at work. In addition, if the light emitted by a will-owisp and the darkness produced by a shade overlap, the powers of both will be negated. The shade will fly freely in the air according to the caster's commands, but can no longer be controlled if it moves more than 20 meters away from the caster. The shade is also very fragile and will easily disintegrate with the slightest force. At this time, it emits an energy completely different from a willo-wisp. This has no physical effect, but it impairs mental activity and has the effect of reducing mental power (points). Make a strike power 10 damage check, and subtract the result from mental power (points). The damage is only dealt to mental power (points), the rest of the check is the same as for magic that deals normal damage. If mental power (points) becomes 0 or negative, the target loses consciousness. Furthermore, if an opponent destroys a shade with a weapon they're holding, the one who took that action will also suffer the same damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02835))_
+
+### 5.1.14 Spirit Magic List / [ Spirit Wall ]
+
+- Expansion=Final score, duration, distance, target volume, damage certainty Resist=Reduced effect _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03100))_
 
 ### 5.1.14 Spirit Magic List / [ Ice Storm ] (Fenrir/Greater Ice Spirit)
 
 - Base Mental Power Cost=40 Distance=30 meters Area=A space with a 10 meter radius Duration=Instant Effect=Creates an ice storm, dealing strike power 30 damage to targets within range Type=Damage (Cold-type) Expansion=Final score, distance, area, damage certainty Resist=Reduced effect _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03216))_
 
+### 5.1.14 Spirit Magic List / [ Firestorm ] (Efreet/Greater Fire Spirit)
+
+- Expansion=Final score, distance, damage certainty Resist=Reduced effect area, _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03255))_
+
 ### Chapter 11: Notes on Magic / 11.2 Dark Magic / 3rd Level Basic Dark Magic List [ Poison ]
 
 - Deals damage to the opponent's life force (points). First, make a strike roll with a strike power of 20. Magic power should be added to damage as usual. Also, your opponent cannot reduce this damage using adventurer level. This poison's damage is not applied immediately, but in the form of 1 point at the end of each round, starting on the round in which the spell is used. The poison then lasts until the final determined damage is dealt. In this case, if the poison is removed by a spell such as Cure Poison , etc. midway, the damage will stop accumulating at that point. However, the damage suffered up to that point will not be recovered. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04775))_
 
+- If the defense roll came up double ones , no such calculation would be made, and the goblin's 7 strike points would be the damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01320))_
 - If final damage is 0 or negative , that means you took no damage at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01321))_
 
 ## Technical atoms
 
 ### Technical frame 1: 4.6.5 Final Damage
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01318))_
-
-> If the result of Ducard II's defense roll is 0 (roll 3) or 6 (roll 12), respectively, the final damage he will suffer is calculated to be:
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01316))_
-
-<a id="atom-technical-atom-d9d947cc8a708a81"></a>
-> Final damage = monster's strike points - (defense roll result + damage reduction)
-
-### Technical frame 2: 4.6.5 Final Damage
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01320))_
 
@@ -91,7 +93,7 @@ What [[sword-world-rpg-complete-edition]] covers about 4.5.5 final damage:
 
 </details>
 
-### Technical atom 3
+### Technical atom 2
 
 <a id="atom-technical-atom-1b86ceef81c1f61b"></a>
 
@@ -128,16 +130,13 @@ If  final  damage  is 0  or  negative ,  it means  that no  damage was  dealt.  
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-4-6-5-final-damage-25c7efa1]] - source section: 4.6.5 Final Damage shares source evidence from 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction .; 4.6.5 Final Damage shares technical record from 4.6.5 Final Damage: Final damage = monster's strike points - (defense roll result + damage reduction) (4 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-4-6-5-final-damage-25c7efa1]] - source section: 4.6.5 Final Damage shares source evidence from 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction .; 4.6.5 Final Damage shares technical record from 4.6.5 Final Damage: 7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5 7 (goblin's strike points) - {6 (defense roll) +2 (damage reduction)} = -1 (5 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-4-5-5-final-damage-b3dd9b50]] - source section: 4.5.5 Final Damage shares technical record from 4.5.5 Final Damage: final damage = base damage + bonus damage - monster's defense points (2 shared atom(s))
-
-### Shared technical atoms
-
-- [[sword-world-rpg-complete-edition-damage-reduction]] - shared statements and technical atoms: 【 Damage Reduction 】 shares source evidence from 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction .; 【 Damage Reduction 】 shares technical record from 4.6.5 Final Damage: Final damage = monster's strike points - (defense roll result + damage reduction) (2 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 
-- [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from 5.1.14 Spirit Magic List / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from 5.1.12 Ancient Magic List / [ Lightning Bind ]: Type=Target score, damage (Electric-type) Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect (4 shared statement(s))
+- [[sword-world-rpg-complete-edition-damage-reduction]] - shared statements: 【 Damage Reduction 】 shares source evidence from 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction . (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-control-spirit-lesser]] - shared statements: [ Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-shade]] - shared statements: Shade shares source evidence from 5.1.14 Spirit Magic List / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
 

@@ -4,11 +4,11 @@ page_kind: source
 summary: 18.3 Rules for Destroying Structures / [ Ice ]: 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-ice-db494e09@20035dafba6ec28c9098eda39c747f4d
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-ice-db494e09@237f74d9ea06b4a07fb9720653d2ca16
 ---
 
 # 18.3 Rules for Destroying Structures / [ Ice ]
@@ -25,3 +25,8 @@ From [[sword-world-rpg-complete-edition]].
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-9708e5d4]] - broader source section: 18.3 Rules for Destroying Structures
+
+## Statements
+
+- No Criticals = Swords, spears, clubs, staves, barehanded, electric-type, wind cuttertype, blade-type magic _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10579))_
+- Special = If destroyed with fire-type or pure energy-type magic, it'll melt and turn into water. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10582))_

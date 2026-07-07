@@ -4,11 +4,11 @@ page_kind: source
 summary: images: 4 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-images-74c2c9f0@f2bf13d7f582a2de0e2ae120b2c9a215
+projection_coverage: section-javascriptallonge-section-images-74c2c9f0@25e535f1f52a13fd791d5d2edbbf8af6
 ---
 
 # images
@@ -19,7 +19,6 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-copyright-notice-8d7c0f0c]] - previous source section: Copyright Notice
 - [[javascriptallonge-section-about-the-author-c9873379]] - next source section: About The Author
 
 ## Technical atoms

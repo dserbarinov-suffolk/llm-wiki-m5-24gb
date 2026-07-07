@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-2-3-youma-91b8d74e
 page_kind: source
-summary: 13.2.3 Youma: 117 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.2.3 Youma: 108 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-91b8d74e@03ccecfda84f9e65745adb64accabde8
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-91b8d74e@39bbf6f40d0bfbebb6bcef7c35fedbdb
 ---
 
 # 13.2.3 Youma
@@ -67,6 +67,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 13.2.3 Youma / [ Dark Elf ]
 
+- Rarity=11 Agility=19 Movement Speed=19 Number=One to several Frequency=Rare Intellect=High Reaction=Adversarial Attack Points=Weapon: 9 (2) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06023))_
 - In the ancient battle of the gods, the elves fought on the side of the gods of light. However, there were some who sided with the dark gods. These elves with jet-black skin are called dark elves. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06025))_
 - They are apostles of the dark gods, and love to be despicable. Assassination using Invisibility is said to be their most special technique. The weapons they use are often coated with poison. A character who is attacked by a poisoned weapon and suffers damage must immediately make a life force resistance roll against target score 10. If you fail, you will suffer damage resulting from a strike power 10 strike roll plus +3 bonus damage. This damage is separate from the damage of the weapon itself and can be reduced by adventurer level. If you successfully resist, you will not suffer any poison damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06026))_
 - Rarity=11 Agility=19 Movement Speed=19 Number=One Frequency=Very Rare Intellect=High Reaction=Adversarial Attack Points=Weapon: 12 (5) Strike Points=9+poison Evasion Points=15 (8) Defense Points=9 Life Points/Resistance=10/13 (6) Mental Points/Resistance=17/18 (11) Special Abilities=6th level spirit magic (Magic Intensity/Magic Power=16/9 5th level dark magic (Magic Intensity/Magic Power=15/8) Poison (Toxicity score 13, paralysis, lasts 12 hours) Habitat=Forests far from human villages Languages=Elven, silent spirit, regional Perception=Five senses (darkvision, _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06030))_
@@ -89,7 +90,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > Goblins are a type of youma that live near human villages, and are extremely common monsters in Alecrast. Their height is slightly smaller than that of a human, and their skin is reddish-brown. They usually live in groups of several to several dozen in forests and hills, but they sometimes appear at people's homes and attack livestock or steal. They often use weapons (mostly small ones such as shortswords, daggers etc.) stolen from humans. In their villages, they may use kobolds and human childr
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05978, source-range-e5870dca-05979, source-range-e5870dca-05980, source-range-e5870dca-05981, source-range-e5870dca-05982, source-range-e5870dca-05983, source-range-e5870dca-05984, source-range-e5870dca-05985, source-range-e5870dca-05986, source-range-e5870dca-05987, source-range-e5870dca-05988, source-range-e5870dca-05990, source-range-e5870dca-05991, source-range-e5870dca-05992, source-range-e5870dca-05993))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05978, source-range-e5870dca-05979, source-range-e5870dca-05980, source-range-e5870dca-05982))_
 
 <a id="atom-technical-atom-0fb724f134382e04"></a>
 > Monster Level=3
@@ -100,41 +101,8 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-e5567eac119a5179"></a>
 > Agility=13
 
-<a id="atom-technical-atom-f518c67984ea94fb"></a>
-> Number=One Movement Speed=8
-
 <a id="atom-technical-atom-013cefa042aea58e"></a>
 > Frequency=Rare
-
-<a id="atom-technical-atom-f766c1d6f9bac10f"></a>
-> Intellect=Human Reaction=Adversarial
-
-<a id="atom-technical-atom-72a9c835a1558e78"></a>
-> Attack Points=Weapon or fang: 10 (3) Strike Points=8
-
-<a id="atom-technical-atom-97260991f04a5b50"></a>
-> Evasion Points=11 (4) Defense Points=6
-
-<a id="atom-technical-atom-4e14caa61effa91d"></a>
-> Life Points/Resistance=12/11 (4)
-
-<a id="atom-technical-atom-95682c160146113e"></a>
-> Mental Points/Resistance=15/11 (4)
-
-<a id="atom-technical-atom-8df29259153fdb99"></a>
-> Special Abilities=3rd level spirit magic (Magic Intensity/Magic Power=12/5)
-
-<a id="atom-technical-atom-32fd542182ba54c7"></a>
-> Intensity/Magic Power=10/3)
-
-<a id="atom-technical-atom-b274621149a754bb"></a>
-> Habitat=Mountains, forests, caves
-
-<a id="atom-technical-atom-4890328f4b84038a"></a>
-> Languages=Goblin, silent spirit, regional
-
-<a id="atom-technical-atom-06a29c6ed5e9943b"></a>
-> Perception=Five senses (darkvision, infravision)
 
 ### Technical frame 2: 13.2.3 Youma / [ Marshman ]
 

@@ -1,10 +1,10 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-sage-skill-6b692cd4
 page_kind: source
-summary: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill: 24 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill: 23 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf

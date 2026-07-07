@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-shape-change
 page_kind: concept
-summary: [ Shape Change: 16 statement(s) and 17 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Shape Change: 16 statement(s) and 14 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-shape-change@9d2ecfb10558707db792cdff8456ddb8
+projection_coverage: topic-sword-world-rpg-complete-edition-shape-change@4a0b313568c9f745697cb7e434220dd7
 ---
 
 # [ Shape Change
@@ -55,7 +55,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 
 > This is a spell that allows the caster to change their form into another living creature at will. However, the creatures they can change into are limited to about 10 times or 1/10th of the caster's weight. You can think of the maximum as a 6meter tall titan and the minimum as a medium-sized cat. The caster can cancel the spell's effect at any time, but once it's canceled, you cannot take on that form again unless you cast the spell again. You can only change into humans, fae, youma, titans, and 
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02162, source-range-e5870dca-02163, source-range-e5870dca-02164, source-range-e5870dca-02165, source-range-e5870dca-02166, source-range-e5870dca-02167, source-range-e5870dca-02168, source-range-e5870dca-02169))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02162, source-range-e5870dca-02163, source-range-e5870dca-02164))_
 
 <a id="atom-technical-atom-b5948fb01f30e32f"></a>
 > Base Mental Power Cost=20
@@ -66,11 +66,13 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 <a id="atom-technical-atom-6cac94758765b0d6"></a>
 > Area=Caster
 
-<a id="atom-technical-atom-31cb872e391ad61d"></a>
-> Duration=Depends on caster's intention
+### Technical frame 2: 5.1.12 Ancient Magic List / [ Shape Change
 
-<a id="atom-technical-atom-f739de16a2e1881f"></a>
-> Effect=Change the caster's appearance
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02170))_
+
+> This is a spell that allows the caster to change their form into another living creature at will. However, the creatures they can change into are limited to about 10 times or 1/10th of the caster's weight. You can think of the maximum as a 6meter tall titan and the minimum as a medium-sized cat. The caster can cancel the spell's effect at any time, but once it's canceled, you cannot take on that form again unless you cast the spell again. You can only change into humans, fae, youma, titans, and 
+
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02167, source-range-e5870dca-02168, source-range-e5870dca-02169))_
 
 <a id="atom-technical-atom-d574badf00cedba0"></a>
 > Type=Target score
@@ -81,7 +83,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 <a id="atom-technical-atom-6aa3f85618c3a1c1"></a>
 > Resist=None
 
-### Technical frame 2: 5.1.12 Ancient Magic List / [ Shape Change
+### Technical frame 3: 5.1.12 Ancient Magic List / [ Shape Change
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02171))_
 
@@ -92,13 +94,13 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 <a id="atom-technical-atom-022fb62387d5c2ec"></a>
 > The caster can cancel the spell's effect at any time, but once it's canceled, you cannot take on that form again unless you cast the spell again.
 
-### Technical frame 3: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change
+### Technical frame 4: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05215))_
 
 > Transform into a lesser dragon. Life force and mental power will be taken from the caster's current scores ( not their maximum scores), but other details such as attack power and defense power will be the same as a lesser dragon. Even if you suffer damage from magic while
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05207, source-range-e5870dca-05208, source-range-e5870dca-05209, source-range-e5870dca-05210, source-range-e5870dca-05211, source-range-e5870dca-05212, source-range-e5870dca-05213, source-range-e5870dca-05214))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05207, source-range-e5870dca-05208, source-range-e5870dca-05209, source-range-e5870dca-05210, source-range-e5870dca-05211, source-range-e5870dca-05212, source-range-e5870dca-05214))_
 
 <a id="atom-technical-atom-7c4d238a8cdea117"></a>
 > Base Mental Power Cost=35
@@ -118,9 +120,6 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 <a id="atom-technical-atom-7fd12ad7151dc7e4"></a>
 > Type=Target score
 
-<a id="atom-technical-atom-87f0f2312c21fd45"></a>
-> Expansion=Final score, duration
-
 <a id="atom-technical-atom-6174866b581dd279"></a>
 > Resist=None
 
@@ -129,8 +128,8 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-shape-change-0e6207bd]] - source section: 5.1.12 Ancient Magic List / [ Shape Change shares source evidence from 5.1.12 Ancient Magic List / [ Shape Change: This is a spell that allows the caster to change their form into another living creature at will. However, the creatures they can change into are limited to about 10 ... [truncated]; 5.1.12 Ancient Magic List / [ Shape Change shares technical record from 5.1.12 Ancient Magic List / [ Shape Change: Base Mental Power Cost=20 (10 shared statement(s), 9 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-shape-change-d24921a8]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change: Transform into a lesser dragon. Life force and mental power will be taken from the caster's current scores ( not their maximum scores), but other details such as att ... [truncated]; Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change shares technical record from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change: Base Mental Power Cost=35 (2 shared statement(s), 8 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-shape-change-0e6207bd]] - source section: 5.1.12 Ancient Magic List / [ Shape Change shares source evidence from 5.1.12 Ancient Magic List / [ Shape Change: This is a spell that allows the caster to change their form into another living creature at will. However, the creatures they can change into are limited to about 10 ... [truncated]; 5.1.12 Ancient Magic List / [ Shape Change shares technical record from 5.1.12 Ancient Magic List / [ Shape Change: Base Mental Power Cost=20 (10 shared statement(s), 7 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-shape-change-d24921a8]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change: Transform into a lesser dragon. Life force and mental power will be taken from the caster's current scores ( not their maximum scores), but other details such as att ... [truncated]; Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change shares technical record from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change: Base Mental Power Cost=35 (2 shared statement(s), 7 shared atom(s))
 
 ### Shared claims
 

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-5b43aa54
 page_kind: source
-summary: 13.2.6 Mythical Beasts and Magical Beasts: 609 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.2.6 Mythical Beasts and Magical Beasts: 538 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-5b43aa54@b32f686898722d96e80d4cab00951851
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-5b43aa54@40a066e964d1ca662fe26e5f730479aa
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts
@@ -225,6 +225,7 @@ From [[sword-world-rpg-complete-edition]].
 - Its gaze can only be used once every two rounds, cannot be used at the same time as its fangs, and can only aim at one target. Those gazed at by the basilisk must succeed on a mental power resistance roll against target score 15, or they will instantly turn to stone. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06638))_
 - You can attempt to use a large mirror (at least the size of a small shield) to catch the basilisk's gaze and reflect it back to turn the basilisk into stone. In that case, if a character attains a final score of 19 or greater on a resistance roll against petrification, they will be able to reflect it back at the basilisk. If this happens, the basilisk will automatically be petrified. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06639))_
 - Basilisks also have a powerful poison in their blood. Weapons that deal damage to a basilisk will be soaked with the blood and become highly poisonous. Anyone holding a weapon with basilisk blood on it must make a life force resistance roll against target score 15 each round, and if they fail, they will suffer damage resulting from a strike power 10 strike roll plus bonus damage 8. If the resistance roll is successful, the strike force becomes 0. This damage can only be reduced by adventurer level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06640))_
+- Monster Level=5 Rarity=10 Agility=12 Movement Speed=7 Number=One Frequency=Very Rare Intellect=Animal Reaction=Adversarial Attack Points=Fangs:12 (5) Strike Points=13 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06642))_
 - This is a small species of basilisk. Although they're small, their petrifying gaze and poisonous blood are just as powerful as those of the larger species. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06652))_
 - Its gaze can only be used once every two rounds, cannot be used at the same time as its fangs, and can only aim at one target. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06638))_
 

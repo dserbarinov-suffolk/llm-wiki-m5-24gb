@@ -4,10 +4,10 @@ page_kind: concept
 summary: Full Movement: 1 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-full-movement@d9c16181ef9dc20d52b4d7216380e415
+projection_coverage: topic-sword-world-rpg-complete-edition-full-movement@16b19f7e73ba37da8eaecedc9f52a2ab
 ---
 
 # Full Movement
@@ -50,9 +50,9 @@ Movement and Actions
 
 ### Technical frame 2: 10.1 NPC and Monster Action Announcement / Combat in Special Situations
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04618))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04621))_
 
-> Combat often occurs in unusual locations, such as in the dark, on poor footing, etc. In such cases, a penalty (sometimes a bonus) is given to an adventurer's attack power or evasion speed, depending on the situation. If the same conditions apply to monsters, the same penalty (bonus) will be given to the monster's attack and evasion points.
+> An example is shown in Table 10-1: Attack Power and Evasion Speed Modifiers.
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04619))_
 

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-spirit-sealing-stone-94c624b2
 page_kind: source
-summary: Chapter 14: / 14.4 Magical Item List / [ Spirit Sealing Stone ]: 10 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 14: / 14.4 Magical Item List / [ Spirit Sealing Stone ]: 8 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-spirit-sealing-stone-94c624b2@9b71f1c90dfc97c0847b39b7b127354c
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-spirit-sealing-stone-94c624b2@56e40a3f8ed7faf3467eef1c652602af
 ---
 
 # Chapter 14: / 14.4 Magical Item List / [ Spirit Sealing Stone ]
@@ -41,13 +41,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > If spirit magic is used around the wearer (used towards the wearer, or the wearer him or herself attempts to use spirit magic), this stone will seal the spirit, and the spirit magic is nullified as a result.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09726, source-range-e5870dca-09727, source-range-e5870dca-09728))_
-
-<a id="atom-technical-atom-9b675caf82f96d87"></a>
-> Rarity=16 Enchanter=Unknown Form=White gem
-
-<a id="atom-technical-atom-13765fa257d966fa"></a>
-> Base Trade Price=45,000 gamels
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09728))_
 
 <a id="atom-technical-atom-01537a8bbc69b7a3"></a>
 > Powers=Seals a spirit

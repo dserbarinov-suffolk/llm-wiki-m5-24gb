@@ -4,11 +4,11 @@ page_kind: source
 summary: 2.5 Difficulty Checks: 66 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-315d8578@8c595513165bddcf609ce16caacb9d89
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-315d8578@e4d59eb4dba846c887aa78d756b825d4
 ---
 
 # 2.5 Difficulty Checks
@@ -37,6 +37,7 @@ From [[sword-world-rpg-complete-edition]].
 - You (your character) are now at a door. The owner of the mansion is known to be paranoid and is rumored to have set numerous traps. So you decide to check for traps, thinking that carelessly opening this door might activate a trap....... _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00954))_
 - The fi nd trap ability of the thief skill will be used to see if this will work. That means your success roll will use thief skill level + intelligence bonus as the baseline score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00955))_
 - Let's assume that this baseline score is 4 . The game master then declares the target score to be 12 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00956))_
+- You (the player) roll the dice. The roll is 8 . 4+8= 12 , so it's a success, although just barely. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00957))_
 - So, confident that there are no traps, you open the door and move forward....... _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00959))_
 - You examined the door. You followed the door with your eyes for any odd nicks, tapped lightly on the door to hear the echo, and carefully twisted the knob slightly to see if it felt right. As a result, you did not discover any traps. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00961))_
 - Really? The owner of this place is the kind of guy who'd think you're a thief when he sees you . You just couldn't find a trap, could you? Maybe the traps are so Some games treat extreme stakes during an action check as a definitive success or failure, and Sword World RPG may do so as well. However, if such a process is not specified, it is not treated as a definitive success/failure. Do be careful. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00964))_

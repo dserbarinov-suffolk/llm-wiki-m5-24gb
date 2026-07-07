@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-ant-40711a48
 page_kind: source
-summary: [ Ant ]: 87 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Ant ]: 67 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-ant-40711a48@fb317b4cfedf5045ae2c13f4cf50d938
+projection_coverage: section-sword-world-rpg-complete-edition-section-ant-40711a48@c5cc80152caa11c2a4562b377e3c68d2
 ---
 
 # [ Ant ]
@@ -42,16 +42,13 @@ From [[sword-world-rpg-complete-edition]].
 
 > Giant ant soldiers are soldier ants that are raised on a special diet to protect the giant ant queen. It doesn't look much different from a regular giant ant, but its jaws are even more massive and strong. In addition, a soldier's fangs secrete a highly toxic acid. Anyone hit by a giant ant soldier will have their wound burned by the acid and, in addition to normal damage, must make a life force resistance roll, which if they fail, they will suffer damage resulting from a strike power 10 strike 
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07088, source-range-e5870dca-07089, source-range-e5870dca-07090, source-range-e5870dca-07091, source-range-e5870dca-07092, source-range-e5870dca-07093, source-range-e5870dca-07094, source-range-e5870dca-07095, source-range-e5870dca-07096, source-range-e5870dca-07097, source-range-e5870dca-07098, source-range-e5870dca-07099, source-range-e5870dca-07100, source-range-e5870dca-07102, source-range-e5870dca-07103, source-range-e5870dca-07104))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07088, source-range-e5870dca-07089, source-range-e5870dca-07091, source-range-e5870dca-07092, source-range-e5870dca-07093, source-range-e5870dca-07094, source-range-e5870dca-07096, source-range-e5870dca-07098, source-range-e5870dca-07099, source-range-e5870dca-07100))_
 
 <a id="atom-technical-atom-38fdcfbdfafdceb9"></a>
 > Monster Level=5
 
 <a id="atom-technical-atom-0bdead011b2cbbb7"></a>
 > Rarity=10
-
-<a id="atom-technical-atom-deb2c1c49c2a4202"></a>
-> Agility=16 Movement Speed=5
 
 <a id="atom-technical-atom-8515d83b9f2ad82f"></a>
 > Number=One
@@ -65,14 +62,8 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-61460fdad408fd58"></a>
 > Reaction=Adversarial
 
-<a id="atom-technical-atom-ddc34a83ccce2399"></a>
-> Attack Points=Fangs:12 (5)
-
 <a id="atom-technical-atom-4af09a03c5655ac4"></a>
 > Strike Points=16
-
-<a id="atom-technical-atom-6ccbf9c4f56967f9"></a>
-> Evasion Points=12 (5) Defense Points=8
 
 <a id="atom-technical-atom-05e582aabf0989f3"></a>
 > Life Points/Resistance=35/16 (9)
@@ -83,8 +74,13 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-2b26ce2aab1979f9"></a>
 > Special Abilities=Entangling
 
-<a id="atom-technical-atom-04e3c1daf23d540e"></a>
-> Habitat=Caves, ruins
+### Technical frame 2: [ Ant ]
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07105))_
+
+> The giant ant queen is the queen of all giant ants. Her head and chest are almost the same as those of a normal giant ant, but her white abdomen is full of eggs and bloated. Therefore, her body length can reach over 10 meters.
+
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07103, source-range-e5870dca-07104))_
 
 <a id="atom-technical-atom-0e2b8ea7294fa385"></a>
 > Languages=None

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-underworld-creature
 page_kind: concept
-summary: Underworld Creature: 71 statement(s) and 143 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Underworld Creature: 72 statement(s) and 110 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-underworld-creature@181152156f43bef9eedfc402adcc0b92
+projection_coverage: topic-sword-world-rpg-complete-edition-underworld-creature@2e06d39ac0108063b72e5e71bb0d75d9
 ---
 
 # Underworld Creature
@@ -62,6 +62,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 - However, it cannot copy its opponent's abilities and memories. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08279))_
 - For example, even though it looks like it's wielding a weapon, it's actually a part of the doubleburg's own body that's been shapeshifted. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08279))_
 - Even if it shapeshifts, a doubleburg's score data will not change at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08279))_
+- Frequency=Very rare Intellect=Human Reaction=Adversarial, or command-based Attack Points=Fangs: 13 (6)/Claws: 14 (7) Strike Points=17+Poison/16 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08282))_
 - Poison (toxicity score 13, strike power 20, bonus damage 6) Habitat=Underground labyrinths, secluded ruins _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08287))_
 - It also uses its strong tail as a weapon. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08290))_
 - It has wings reminiscent of a giant bat, can reach over 3 meters in height with its neck extended, and uses its long neck to attack by biting. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08290))_
@@ -116,13 +117,55 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-7070a99d69001ed4"></a>
 > If the game master wishes, they may create special aetherbeasts.
 
-### Technical frame 3: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 3: 13.2.11 Daemons/Underworld Creatures / [ Hellhound ]
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08198))_
+
+> At first glance, the hellhound looks like a large black dog. However, in reality, it' s a terrifying beast from the underworld, also known as the watchdog of Hell. Hellhounds have a 1 in 6 chance (if you roll 1 on 1D) of breathing fire from their mouths. Everyone within a 5 meter radius semicircle in front of the hellhound will suffer damage equal to a strike power 10 strike roll plus 5 points of bonus damage. Armor cannot protect against this fire; only adventurer level and magical defense can 
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08197))_
+
+<a id="atom-technical-atom-e4e8dfaa202b7e34"></a>
+> Perception=Five senses (Darkvision)
+
+### Technical frame 4: 13.2.11 Daemons/Underworld Creatures / [ Cerberus ]
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08216))_
+
+> A cerberus is a large black dog with three heads, and is thought to be a variant of the hellhound. It's slightly larger than a hellhound, about as big as a medium-sized horse. When attacking, it uses all three of its heads to bite the same target at the same time.
+
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08212, source-range-e5870dca-08214, source-range-e5870dca-08215))_
+
+<a id="atom-technical-atom-635cd32f75ea0b85"></a>
+> Habitat=Deep
+
+<a id="atom-technical-atom-00387348de336733"></a>
+> Languages=None
+
+<a id="atom-technical-atom-7f3ae70365cfb73e"></a>
+> Perception=Five senses (Darkvision)
+
+### Technical frame 5: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08238))_
 
 > A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enemies. If it uses its tail to entangle, treat this as a strangling attack (see p. 236). The target will be unable to move, and the grunel can attack with the weapon in its right hand. They have the ability to use ancient magic. They seem to have been especially proficient at enchanting, and often carry a magical sword. If a grunel has 
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08240, source-range-e5870dca-08241, source-range-e5870dca-08242, source-range-e5870dca-08243, source-range-e5870dca-08244, source-range-e5870dca-08245, source-range-e5870dca-08246, source-range-e5870dca-08247, source-range-e5870dca-08248, source-range-e5870dca-08249, source-range-e5870dca-08250, source-range-e5870dca-08251, source-range-e5870dca-08252, source-range-e5870dca-08253, source-range-e5870dca-08255, source-range-e5870dca-08257, source-range-e5870dca-08258, source-range-e5870dca-08259))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08236, source-range-e5870dca-08237))_
+
+<a id="atom-technical-atom-cb2f0340a99c9c54"></a>
+> Languages=Low ancient
+
+<a id="atom-technical-atom-7aea0340211e1c5f"></a>
+> Perception=Five senses (Darkvision)
+
+### Technical frame 6: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08238))_
+
+> A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enemies. If it uses its tail to entangle, treat this as a strangling attack (see p. 236). The target will be unable to move, and the grunel can attack with the weapon in its right hand. They have the ability to use ancient magic. They seem to have been especially proficient at enchanting, and often carry a magical sword. If a grunel has 
+
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08240, source-range-e5870dca-08241, source-range-e5870dca-08242, source-range-e5870dca-08243, source-range-e5870dca-08244, source-range-e5870dca-08245, source-range-e5870dca-08246, source-range-e5870dca-08247, source-range-e5870dca-08249, source-range-e5870dca-08251, source-range-e5870dca-08252, source-range-e5870dca-08253))_
 
 <a id="atom-technical-atom-5aeab48df8db2e76"></a>
 > Monster Level=5
@@ -148,14 +191,8 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-787bbdcab830364c"></a>
 > Reaction=Adversarial, or command-based
 
-<a id="atom-technical-atom-402e87462d356136"></a>
-> Attack Points=Claws: 13 (6)
-
 <a id="atom-technical-atom-39a2b693e842b1e7"></a>
 > Strike Points=14
-
-<a id="atom-technical-atom-b8f8ddd95bf87d9b"></a>
-> Evasion Points=12 (5) Defense Points=9
 
 <a id="atom-technical-atom-d1b646b214e89a1d"></a>
 > Life Points/Resistance=25/15 (8)
@@ -166,11 +203,13 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-63987c621efd2329"></a>
 > Special Abilities=3rd level dark magic (magic intensity/magic power=12/5)
 
-<a id="atom-technical-atom-bdeb82a949577058"></a>
-> one person (Resist target score=12, strike power 10, bonus damage 5)
+### Technical frame 7: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
-<a id="atom-technical-atom-28de5d0aa6684f88"></a>
-> Habitat=Underground labyrinths, secluded ruins
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08260))_
+
+> The zalbard is a lesser daemon that's said to be the model for the gargoyle. Its appearance is almost identical to that of a gargoyle, but its skin is fiery red. Its eyes are also bright red, and glow suspiciously. A zalbard's method of attack is the sharp claws on its hands, and it also has the power to breathe magical fire from its mouth. The fire breathed by a zalbard extends in a straight line, making one target within 5 meters its victim. Those attacked by the fire will suffer damage equal 
+
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08258, source-range-e5870dca-08259))_
 
 <a id="atom-technical-atom-838b75264cd2d81e"></a>
 > Languages=Low ancient
@@ -178,22 +217,19 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-16151ba9363bfb8d"></a>
 > Perception=Five senses (Darkvision)
 
-### Technical frame 4: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 8: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08260))_
 
 > The zalbard is a lesser daemon that's said to be the model for the gargoyle. Its appearance is almost identical to that of a gargoyle, but its skin is fiery red. Its eyes are also bright red, and glow suspiciously. A zalbard's method of attack is the sharp claws on its hands, and it also has the power to breathe magical fire from its mouth. The fire breathed by a zalbard extends in a straight line, making one target within 5 meters its victim. Those attacked by the fire will suffer damage equal 
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08262, source-range-e5870dca-08263, source-range-e5870dca-08264, source-range-e5870dca-08265, source-range-e5870dca-08266, source-range-e5870dca-08267, source-range-e5870dca-08268, source-range-e5870dca-08269, source-range-e5870dca-08270, source-range-e5870dca-08271, source-range-e5870dca-08272, source-range-e5870dca-08273, source-range-e5870dca-08274, source-range-e5870dca-08275, source-range-e5870dca-08276, source-range-e5870dca-08277))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08262, source-range-e5870dca-08263, source-range-e5870dca-08265, source-range-e5870dca-08266, source-range-e5870dca-08267, source-range-e5870dca-08268, source-range-e5870dca-08270, source-range-e5870dca-08272, source-range-e5870dca-08273, source-range-e5870dca-08274))_
 
 <a id="atom-technical-atom-cf280f957090096e"></a>
 > Monster Level=5
 
 <a id="atom-technical-atom-143d47fea4b4cf7b"></a>
 > Rarity=14
-
-<a id="atom-technical-atom-b2ccbae6a7091d43"></a>
-> Agility=15 Movement Speed=12
 
 <a id="atom-technical-atom-186b106be6a65718"></a>
 > Number=One to several
@@ -207,14 +243,8 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-45636166774d52f5"></a>
 > Reaction=Adversarial, or command-based
 
-<a id="atom-technical-atom-861c8a70eb71206d"></a>
-> Attack Points=Claws:13 (6)
-
 <a id="atom-technical-atom-571690ff6504b406"></a>
 > Strike Points=12
-
-<a id="atom-technical-atom-2f65612c72ab7035"></a>
-> Evasion Points=12 (5) Defense Points=9
 
 <a id="atom-technical-atom-57ce9d846d647a87"></a>
 > Life Points/Resistance=20/14 (7)
@@ -225,16 +255,18 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-5d72aabf1076d8e7"></a>
 > Special Abilities=Shapeshift
 
-<a id="atom-technical-atom-c07abb35339097e5"></a>
-> Habitat=Underground labyrinths, secluded ruins
+### Technical frame 9: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
-<a id="atom-technical-atom-87043e7348d779d9"></a>
-> Languages=Low ancient, languages of the person it shapeshifts into
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08278))_
+
+> A doubleburg is almost the same size as a human, and its entire body is pitch black. It has a bright red open mouth straight across its face, but no other features. This daemon has the ability to completely copy any opponent's appearance after just one look, including their clothes. If it spends one minute to observe them, it can imitate their tone of speech and gestures exactly. Therefore, it's not possible to discern whether it's the real thing by appearance alone. To shapeshift or shapeshift 
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08277))_
 
 <a id="atom-technical-atom-838de3680013f42d"></a>
 > Perception=Five senses (Darkvision)
 
-### Technical frame 5: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 10: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08279))_
 
@@ -245,19 +277,16 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-0fd0a74b46179df5"></a>
 > If it spends one minute to observe them, it can imitate their tone of speech and gestures exactly.
 
-### Technical frame 6: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 11: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08287))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08282))_
 
-> Poison (toxicity score 13, strike power 20, bonus damage 6) Habitat=Underground labyrinths, secluded ruins
+> Frequency=Very rare Intellect=Human Reaction=Adversarial, or command-based Attack Points=Fangs: 13 (6)/Claws: 14 (7) Strike Points=17+Poison/16
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08281, source-range-e5870dca-08282, source-range-e5870dca-08283, source-range-e5870dca-08284, source-range-e5870dca-08285, source-range-e5870dca-08286, source-range-e5870dca-08288, source-range-e5870dca-08289))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08281, source-range-e5870dca-08283, source-range-e5870dca-08284, source-range-e5870dca-08285, source-range-e5870dca-08286, source-range-e5870dca-08288, source-range-e5870dca-08289))_
 
 <a id="atom-technical-atom-f63a177c732ccd0a"></a>
 > Monster Level=6 Rarity=13 Agility=10 Movement Speed=12/20 (air) Number=One
-
-<a id="atom-technical-atom-e020ad70b50de081"></a>
-> Frequency=Very rare Intellect=Human Reaction=Adversarial, or command-based Attack Points=Fangs: 13 (6)/Claws: 14 (7) Strike Points=17+Poison/16
 
 <a id="atom-technical-atom-d37ca4df748be18a"></a>
 > Evasion Points=12 (5) Defense Points=10 Life Points/Resistance=30/17 (10)
@@ -277,13 +306,13 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-2bf9d3f403803bd6"></a>
 > Perception=Five senses (Darkvision)
 
-### Technical frame 7: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 12: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08290))_
 
 > A ragnakang is a lesser daemon that looks like an upright dragon. It has wings reminiscent of a giant bat, can reach over 3 meters in height with its neck extended, and uses its long neck to attack by biting. It also uses its strong tail as a weapon. They perform these two attacks at the same time every round. Its sharp fangs contain a powerful poison, and those who fail to resist will immediately suffer damage equal to a strike power 20 strike roll plus 6 points of bonus damage.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08292, source-range-e5870dca-08293, source-range-e5870dca-08294, source-range-e5870dca-08295, source-range-e5870dca-08296, source-range-e5870dca-08297, source-range-e5870dca-08298, source-range-e5870dca-08299, source-range-e5870dca-08300, source-range-e5870dca-08301, source-range-e5870dca-08302, source-range-e5870dca-08303, source-range-e5870dca-08304, source-range-e5870dca-08305))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08292, source-range-e5870dca-08293, source-range-e5870dca-08294, source-range-e5870dca-08296, source-range-e5870dca-08297, source-range-e5870dca-08298, source-range-e5870dca-08300, source-range-e5870dca-08301))_
 
 <a id="atom-technical-atom-eb3e705939482877"></a>
 > Monster Level=7
@@ -294,9 +323,6 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-56582e41e60434c6"></a>
 > Agility=14 Movement Speed=15/20 (air)
 
-<a id="atom-technical-atom-14167fb6a36f5b0e"></a>
-> Number=One Frequency=Very rare
-
 <a id="atom-technical-atom-1ab69498e8b72f5c"></a>
 > Intellect=High
 
@@ -306,20 +332,19 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-05d6baa84d0c5754"></a>
 > Strike Points=16x2
 
-<a id="atom-technical-atom-a5c81d7a26cdf60c"></a>
-> Evasion Points=14 (7) Defense Points=9
-
 <a id="atom-technical-atom-b389fad23955c525"></a>
 > Life Points/Resistance=20/16 (9)
 
 <a id="atom-technical-atom-32d8ecfe704d1a84"></a>
 > Mental Points/Resistance=25/17 (10)
 
-<a id="atom-technical-atom-a5f3d12dee4058b4"></a>
-> Special Abilities=Illusion (Resist target score=17, mental damage=strike power 10, bonus damage 7)
+### Technical frame 13: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
-<a id="atom-technical-atom-1b05c708a237c2ea"></a>
-> Habitat=Underground labyrinths, secluded ruins
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08306))_
+
+> The Maligdorai is a daemon whose upper body resembles an owl and lower body the hind legs of a goat, and its entire body is covered in feathers. As well as wings on its back, it has jointless tentacle-like viscera sprouting from the base of each wing. Its arms come to sharp gimlet-shaped points, and it performs physical attacks by stabbing with them.
+
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08304, source-range-e5870dca-08305))_
 
 <a id="atom-technical-atom-e9083aaaa438f700"></a>
 > Languages=Low ancient
@@ -327,7 +352,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-631a76a01b94b43d"></a>
 > Perception=Five senses (Darkvision)
 
-### Technical frame 8: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 14: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08308))_
 
@@ -338,7 +363,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-0ab2543dd252f417"></a>
 > When a maligdorai uses this illusion ability, those being targeted must make a mental power resistance roll against target score 17 at the beginning of the round.
 
-### Technical frame 9: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 15: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08309))_
 
@@ -349,7 +374,18 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-502d682067a34a4d"></a>
 > Conversely, while the maligdorai is performing an illusion, the target must make a resistance roll against the illusion each round.
 
-### Technical frame 10: 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
+### Technical frame 16: 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08329))_
+
+> The doppleganger, which is in the same family as the doubleburg, albeit a greater species, has the appearance of a 3 meter tall giant with an entirely black body. Its has a bright red straight open mouth, but no other features besides that. A doppelganger can copy the appearance, abilities, memories, etc. of an opponent by observing them. At a glance, all they can capture is their appearance (including their belongings). If they observe them for one minute, they can imitate their tone of speech 
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08328))_
+
+<a id="atom-technical-atom-5c2c4ae96c165150"></a>
+> Perception=Five senses (Darkvision)
+
+### Technical frame 17: 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08330))_
 
@@ -360,7 +396,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 <a id="atom-technical-atom-7561d77529cf1f9b"></a>
 > If they observe them for one minute, they can imitate their tone of speech and gestures exactly.
 
-### Technical frame 11: 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
+### Technical frame 18: 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08331))_
 
@@ -376,7 +412,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-13-11-daemon]] - shared statements and technical atoms: 13 11 Daemon shares source evidence from 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enem ... [truncated]; 13 11 Daemon shares technical record from 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: Monster Level=5 (4 shared statement(s), 8 shared atom(s))
+- [[sword-world-rpg-complete-edition-13-11-daemon]] - shared statements and technical atoms: 13 11 Daemon shares source evidence from 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enem ... [truncated]; 13 11 Daemon shares technical record from 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: Monster Level=5 (4 shared statement(s), 7 shared atom(s))
 - [[sword-world-rpg-complete-edition-daemon]] - shared statements and technical atoms: Daemon shares source evidence from 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》: Daemons are underworld monsters that live in a material world different from ours. In the age of the gods, they were known as terrifying slaughterers who followed th ... [truncated]; Daemon shares technical record from 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》: 13.2 13.2 Monster Catalog (7 shared statement(s), 1 shared atom(s))
 
 ### Shared claims

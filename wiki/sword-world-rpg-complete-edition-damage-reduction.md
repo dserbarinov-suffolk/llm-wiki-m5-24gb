@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-damage-reduction
 page_kind: concept
-summary: 【 Damage Reduction 】: 23 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 【 Damage Reduction 】: 30 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-damage-reduction@0240b7f5cd8103f79ce530d2f31009ba
+projection_coverage: topic-sword-world-rpg-complete-edition-damage-reduction@33bbb26044a52893f3f05c1bc5869e1c
 ---
 
 # 【 Damage Reduction 】
@@ -39,6 +39,8 @@ What [[sword-world-rpg-complete-edition]] covers about 【 damage reduction 】:
 ### 4.6.5 Final Damage
 
 - The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01315))_
+
+- Final damage = monster's strike points - (defense roll result + damage reduction) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01316))_
 
 ### 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks
 
@@ -76,9 +78,31 @@ What [[sword-world-rpg-complete-edition]] covers about 【 damage reduction 】:
 
 - Those thrown into the pouch will suffer strike power 10 damage plus bonus damage 3 each round, starting on the next round. Against this acid damage, only adventurer level helps damage reduction, and armor defense power is completely ineffective. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07405))_
 
+### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
+
+- Rarity=12 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+1 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09174))_
+
+### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》 Non-metal or ring mail
+
+- Rarity=14 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09178))_
+
+### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》
+
+- Rarity=14 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09216))_
+
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
 
+- Rarity=16 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion speed damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09258))_
+
 - Chain mail, splint, lamellar, plate armor Rarity=16 Enchanter=Many Form=Metal Armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09295))_
+
+### Chapter 14: / 14.4 Magical Item List / 《 Amber Robe 》
+
+- Rarity=18 Enchanter=Many Form=Robe Required Strength=1 (Defense power 1) Base Trade Price=200,000 gamels Powers=+3 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09364))_
+
+### Chapter 14: / 14.4 Magical Item List / 《 Cold Cloak 》
+
+- Powers=+3 to evasion speed and damage reduction. Also gives +3 to resistance to firetype attacks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09382))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Acceptor 》
 
@@ -102,17 +126,6 @@ What [[sword-world-rpg-complete-edition]] covers about 【 damage reduction 】:
 <a id="atom-technical-atom-06bfaa1ff236e18c"></a>
 > damage reduction = adventurer level
 
-### Technical frame 2: 4.6.5 Final Damage
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01318))_
-
-> If the result of Ducard II's defense roll is 0 (roll 3) or 6 (roll 12), respectively, the final damage he will suffer is calculated to be:
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01316))_
-
-<a id="atom-technical-atom-d9d947cc8a708a81"></a>
-> Final damage = monster's strike points - (defense roll result + damage reduction)
-
 
 ## Related pages
 
@@ -124,16 +137,17 @@ What [[sword-world-rpg-complete-edition]] covers about 【 damage reduction 】:
 ### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements and technical atoms: 1.3.3 Adventurer Level shares source evidence from 3.4.4 Actions You Can Take While Standing Still / 【 Damage Reduction 】: Those who are called heroes do not die from just a few injuries. In Sword World RPG , a character with a high adventurer level, that is, a character who has a high l ... [truncated]; 1.3.3 Adventurer Level shares technical record from 3.4.4 Actions You Can Take While Standing Still / 【 Damage Reduction 】: damage reduction = adventurer level (7 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-final-damage]] - shared statements and technical atoms: 4.5.5 Final Damage shares source evidence from 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction .; 4.5.5 Final Damage shares technical record from 4.6.5 Final Damage: Final damage = monster's strike points - (defense roll result + damage reduction) (2 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 
 - [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat: Attack power , strike power , bonus damage , critical target , evasion speed , defense power , and damage reduction . (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-final-damage]] - shared statements: 4.5.5 Final Damage shares source evidence from 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction . (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-magic-armor]] - shared statements: 《 Magic Armor (+1) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1): Rarity=12 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+1 to evasion speed and damage reduction (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements: Critical Target Variation shares source evidence from 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat: Attack power , strike power , bonus damage , critical target , evasion speed , defense power , and damage reduction . (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-armor]] - shared statements: Armor shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Armor 】: Magical armor increases evasion speed and damage reduction . If you wear +1 magical armor, you gain +1 to evasion speed and damage reduction. +2 means +2, and +3 mea ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: 1.4.9 Filling Out the Character Sheet shares source evidence from 3.4.4 Actions You Can Take While Standing Still / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-magic-armor]] - shared statements: 《 Magic Armor (+1) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》: Chain mail, splint, lamellar, plate armor Rarity=16 Enchanter=Many Form=Metal Armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion spee ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-weapon-critical]] - shared statements: 《 Weapons Cannot Critical 》 shares source evidence from 3.4.4 Actions You Can Take While Standing Still / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-magic-armor-non-metal]] - shared statements: Magic Armor Non Metal shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》 Non-metal or ring mail: Rarity=14 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-ring-mail]] - shared statements: Ring Mail shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》 Non-metal or ring mail: Rarity=14 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction (1 shared statement(s))
 
 ## Source
 

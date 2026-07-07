@@ -4,11 +4,11 @@ page_kind: source
 summary: Chapter 14: / 14.4 Magical Item List / 《 Magic Sword (+2) 》: 5 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-sword-2-eb77920e@13712af91b6a8a08ce3b613370395009
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-sword-2-eb77920e@a60fc7929cc3964bb72e9ab2b02328f8
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Magic Sword (+2) 》
@@ -29,3 +29,7 @@ From [[sword-world-rpg-complete-edition]].
 ### Topics
 
 - [[sword-world-rpg-complete-edition-magic-sword]] - topic hub: opens the topic page for Magic Sword
+
+## Statements
+
+- Powers=+2 to attack power and bonus damage Here's a list of prices of magical daggers, one-handed swords, and twohanded swords with +2 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08951))_

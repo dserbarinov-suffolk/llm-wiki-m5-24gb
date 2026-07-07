@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-adventurer-level
 page_kind: concept
-summary: 1.3.3 Adventurer Level: 84 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.3.3 Adventurer Level: 85 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-level@4f02366b78a4d7fb698337f429c3896b
+projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-level@b4914b183e0ea76b6811526f3523d9b9
 ---
 
 # 1.3.3 Adventurer Level
@@ -135,6 +135,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.3.3 adventurer level:
 - Basically, you can expect to meet any rune master up to 2 levels higher than the adventurers' adventurer level. If you want to meet someone at a higher level, you'll need some connections on the side. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05269))_
 
 - When a character with adventurer level 0 (a character with no adventurer skills) makes these checks, the baseline score is 0 regardless of their ability scores. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01017))_
+- Falling damage = fall height x 3 (defense roll result + adventurer level) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04199))_
 - Some adventurers, other than dwarves, have extremely low tolerance for alcohol, and such characters cannot resist this poison (?) no matter how high their adventurer level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05462))_
 - For characters, the score is adventurer level, and for monsters, it's monster level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05474))_
 - Adventurer level may also be hero level, but even if you're a hero, you cannot win against illness . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05620))_

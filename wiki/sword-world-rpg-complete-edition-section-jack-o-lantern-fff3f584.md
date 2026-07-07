@@ -1,10 +1,10 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-jack-o-lantern-fff3f584
 page_kind: source
-summary: [ Jack-O-Lantern ]: 18 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Jack-O-Lantern ]: 13 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf

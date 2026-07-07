@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-imitator-a6613629
 page_kind: source
-summary: [ Imitator ]: 105 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Imitator ]: 88 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-imitator-a6613629@dc20d0a59e6901b4e43b4fa55ded45de
+projection_coverage: section-sword-world-rpg-complete-edition-section-imitator-a6613629@229e809a5b01ec6a9b971717d3188f14
 ---
 
 # [ Imitator ]
@@ -55,7 +55,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > If you're caught by surprise, the imitator or thing will be given the first attack. At this time, a -4 penalty will be imposed on the character's evasion speed. Normal combat is possible from the 2nd round onwards.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07925, source-range-e5870dca-07926, source-range-e5870dca-07927, source-range-e5870dca-07928, source-range-e5870dca-07929, source-range-e5870dca-07930, source-range-e5870dca-07931, source-range-e5870dca-07932, source-range-e5870dca-07933, source-range-e5870dca-07934, source-range-e5870dca-07935, source-range-e5870dca-07936, source-range-e5870dca-07937))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07925, source-range-e5870dca-07926, source-range-e5870dca-07927, source-range-e5870dca-07929))_
 
 <a id="atom-technical-atom-c92817256e2f4757"></a>
 > Monster Level=2
@@ -66,35 +66,8 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-f0510068811ca979"></a>
 > Agility=10
 
-<a id="atom-technical-atom-2dbbb6bb4fb11e47"></a>
-> Number=One Movement Speed=10
-
 <a id="atom-technical-atom-7d8b65e4b3215783"></a>
 > Frequency=Moderate
-
-<a id="atom-technical-atom-0e58da250a1ffc80"></a>
-> Intellect= Almost none Reaction=Violent
-
-<a id="atom-technical-atom-bfeee3007d3ed91a"></a>
-> Attack Points=Arms:10 (3)
-
-<a id="atom-technical-atom-9a8c54791c63bcbc"></a>
-> Strike Points=4
-
-<a id="atom-technical-atom-f0a7277133864686"></a>
-> Evasion Points=10 (3) Defense Points=6
-
-<a id="atom-technical-atom-df85dc5aba9e57d8"></a>
-> Life Points/Resistance=8/9 (2)
-
-<a id="atom-technical-atom-79abe8bde3dbd98d"></a>
-> Mental Points/Resistance=-/10 (3)
-
-<a id="atom-technical-atom-aa8020c4f74eac8e"></a>
-> Special Abilities=Camouflage (Sense target
-
-<a id="atom-technical-atom-96b09b0ee192b596"></a>
-> score=16)
 
 ### Technical frame 2: [ Imitator ]
 
@@ -102,7 +75,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > This is an imitator in the shape of a door. As soon as you touch the knob, it'll attack. Anyone hit by a door imitator's attack on the first round will have one arm grabbed and will suffer a -4 penalty to evasion on subsequent rounds. Y ou can only use your other arm in combat, and your movement is restricted, so you cannot use ancient magic. The method of shaking your arm free is the same as strangling (see p. 236), but you will not suffer any damage from being grabbed, and you'll still be able
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07965, source-range-e5870dca-07966, source-range-e5870dca-07967, source-range-e5870dca-07968, source-range-e5870dca-07969, source-range-e5870dca-07970, source-range-e5870dca-07971, source-range-e5870dca-07972, source-range-e5870dca-07973, source-range-e5870dca-07974, source-range-e5870dca-07975, source-range-e5870dca-07976, source-range-e5870dca-07977))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07965, source-range-e5870dca-07966, source-range-e5870dca-07967, source-range-e5870dca-07968, source-range-e5870dca-07969, source-range-e5870dca-07970))_
 
 <a id="atom-technical-atom-2649b5fefa0e5a86"></a>
 > Monster Level=5
@@ -121,24 +94,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-cc1d6f0e16025bbe"></a>
 > Frequency=Rare
-
-<a id="atom-technical-atom-83f56041507f025a"></a>
-> Intellect=Almost none Reaction=Violent
-
-<a id="atom-technical-atom-854d342187f21fe2"></a>
-> Attack Points=Arms:13 (6)
-
-<a id="atom-technical-atom-ad50c8e9f6b7ca15"></a>
-> Strike Points=13
-
-<a id="atom-technical-atom-6569b7935c0302ac"></a>
-> Strike Points=11 (4) Defense Points=9
-
-<a id="atom-technical-atom-cc7f499a79658ae6"></a>
-> Life Points/Resistance=24/15 (8)
-
-<a id="atom-technical-atom-e624a6e0448faa77"></a>
-> Mental Points/Resistance=-/13 (6)
-
-<a id="atom-technical-atom-82943bcac3ab2dfa"></a>
-> Special Abilities=Camouflage (Sense target score=16)

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-critical-target-variation
 page_kind: concept
-summary: Critical Target Variation: 36 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Critical Target Variation: 36 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-critical-target-variation@fff2f85a74d79495c37a13c2895da0ef
+projection_coverage: topic-sword-world-rpg-complete-edition-critical-target-variation@f2a8dc07ea028e0d723504fed254a207
 ---
 
 # Critical Target Variation
@@ -156,23 +156,12 @@ Table 16-1 Weapon Optional Rules
 
 </details>
 
-### Technical frame 3: Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10105))_
-
-> ***The lance itself has a +5 strike power modifier, +10 during a charge, and +2 damage itself
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10104))_
-
-<a id="atom-technical-atom-fdf9a7d76cfcbe72"></a>
-> △△ Calculate using required strength x 2 + 10
-
 
 ## Related pages
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-cde1c863]] - source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated]; Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation shares technical record from Table 16-1 Weapon Optional Rules: Table 16-1 Weapon Optional Rules | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* | | --- | --- | --- | --- | --- | --- | --- ... [truncated] (5 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-cde1c863]] - source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated]; Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation shares technical record from Table 16-1 Weapon Optional Rules: Table 16-1 Weapon Optional Rules | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* | | --- | --- | --- | --- | --- | --- | --- ... [truncated] (5 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-critical-target-variation-dcd212d8]] - source section: Critical Target Variation shares source evidence from Critical Target Variation: Critical target variation indicates that the armor reduces the chance of being dealt a strong blow from some weapons while wearing it. If this field says yes , the o ... [truncated] (2 shared statement(s))
 
 ### Shared technical atoms

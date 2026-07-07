@@ -4,11 +4,11 @@ page_kind: source
 summary: Richard Feynman: 2 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-richard-feynman-3c471d9c@a18796e53f3d7450fade81a59326958d
+projection_coverage: section-javascriptallonge-section-richard-feynman-3c471d9c@3cd1644b2e44c2d2725c65eff89c8bbe
 ---
 
 # Richard Feynman
@@ -20,7 +20,6 @@ From [[javascriptallonge]].
 ### Source order
 
 - [[javascriptallonge-section-daniel-friedman-and-matthias-felleisen-2c307504]] - previous source section: Daniel Friedman and Matthias Felleisen
-- [[javascriptallonge-section-copyright-notice-8d7c0f0c]] - next source section: Copyright Notice
 
 ## Statements
 

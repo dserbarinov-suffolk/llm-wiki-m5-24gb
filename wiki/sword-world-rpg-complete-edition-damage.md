@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-damage
 page_kind: concept
-summary: Damage: 3 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Damage: 3 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-damage@bcb6f9095c947dd113c16051b9dff60f
+projection_coverage: topic-sword-world-rpg-complete-edition-damage@604ef977b60fa673eeed8f337a2a0fad
 ---
 
 # Damage
@@ -29,13 +29,7 @@ What [[sword-world-rpg-complete-edition]] covers about damage:
 
 > A poison said to have been invented by a wise centaur. There is a myth that it's made from the blood of centaurs, but it's actually made from the fruit of certain plants. It' s used in assassinations by soaking it into items that are close to the body, such as underwear, etc. It's naturally a red liquid, but if you soak it in a cloth and then wash it, it becomes colorless. Even if you wash it, only the color will come off, and the poisonous ingredients will remain on the cloth.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05509, source-range-e5870dca-05510, source-range-e5870dca-05511))_
-
-<a id="atom-technical-atom-dd7de88f91ce6b75"></a>
-> Effect=Deals strike power 30 damage plus 12 bonus damage every hour. Resist reduces effect
-
-<a id="atom-technical-atom-cbce7fd648382242"></a>
-> Toxicity Score=14 Rarity=14 Effect Start Time=1 hour later
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05511))_
 
 <a id="atom-technical-atom-057fb3009f778ddc"></a>
 > Effect Duration=Permanent

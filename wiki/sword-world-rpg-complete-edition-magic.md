@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-magic
 page_kind: concept
-summary: Magic: 13 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Magic: 10 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magic@aa1acc5b500e754dc8d03a18ada31fbe
+projection_coverage: topic-sword-world-rpg-complete-edition-magic@17b1742b1796f719f19189a115e851e7
 ---
 
 # Magic
@@ -21,14 +21,6 @@ What [[sword-world-rpg-complete-edition]] covers about magic:
 - Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01140))_
 
 - If you want to attack with a projectile, please follow the process of actions you can take during normal movement . If you chose stand still , then attack with that weapon can be read as attack with that projectile . However, when you're engaged (being attacked by a melee weapon), you cannot use projectiles. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01141))_
-
-### [Beast Maker (Dose/Magic)]
-
-- This is a liquid with a slight odor, used by mixing into cooking, etc. It has an effect similar to the ancient magic Shape Change , and those who drink it and fail to resist will be transformed into an animal. There are several types of Beast Maker , including ones that turn you into a pig, ones that turn you into a dog and ones that turn you into a horse. Particularly powerful ones can turn you into a mythical beast such as a scylla, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05553))_
-
-### [White Marble (Inhaled/Magic)]
-
-- It's a white gas. Those who inhale this and fail to resist will have their entire body stiffen and become like a statue. Victims retain their will and senses, but are unable to move a single finger. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05567))_
 
 ### [Moonlight Drone (Dose/Magic)]
 
@@ -63,16 +55,12 @@ What [[sword-world-rpg-complete-edition]] covers about magic:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-magic-f4349db3]] - source section: 5.1.12 Ancient Magic List / [ Sense Magic ] shares source evidence from 5.1.12 Ancient Magic List / [ Sense Magic ]: By casting this spell, a normally invisible magical aura becomes visible to the caster. This lets you know if there are magical items, magical traps, etc. within you ... [truncated]; 5.1.12 Ancient Magic List / [ Sense Magic ] shares technical record from 5.1.12 Ancient Magic List / [ Sense Magic ]: Base Mental Power Cost=3 (4 shared statement(s), 8 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-magic-f4349db3]] - source section: 5.1.12 Ancient Magic List / [ Sense Magic ] shares source evidence from 5.1.12 Ancient Magic List / [ Sense Magic ]: By casting this spell, a normally invisible magical aura becomes visible to the caster. This lets you know if there are magical items, magical traps, etc. within you ... [truncated]; 5.1.12 Ancient Magic List / [ Sense Magic ] shares technical record from 5.1.12 Ancient Magic List / [ Sense Magic ]: Base Mental Power Cost=3 (4 shared statement(s), 7 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-13-6-handling-monster-special-abilities-magic-bf28bed0]] - source section: 13.6 Handling Monster Special Abilities / 《 Magic 》 shares source evidence from 13.6 Handling Monster Special Abilities / 《 Magic 》: Monsters with this ability can use magic at the indicated level and magic intensity (magic power). Those with this ability often have an intellect equal to or greate ... [truncated] (2 shared statement(s))
 
 ### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-projectile]] - shared statements and technical atoms: Projectile shares source evidence from 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles.; Projectile shares technical record from 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: If you want to attack with a projectile, please follow the process of actions you can take during normal movement . (2 shared statement(s), 1 shared atom(s))
-
-### Shared claims
-
-- [[sword-world-rpg-complete-edition-beast-maker-dose]] - shared statements: Beast Maker Dose shares source evidence from [Beast Maker (Dose/Magic)]: This is a liquid with a slight odor, used by mixing into cooking, etc. It has an effect similar to the ancient magic Shape Change , and those who drink it and fail t ... [truncated] (2 shared statement(s))
 
 ## Source
 

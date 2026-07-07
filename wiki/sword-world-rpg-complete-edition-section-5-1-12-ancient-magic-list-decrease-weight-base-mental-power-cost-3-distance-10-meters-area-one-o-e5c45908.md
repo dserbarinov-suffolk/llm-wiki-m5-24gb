@@ -4,7 +4,7 @@ page_kind: source
 summary: 5.1.12 Ancient Magic List / [ Decrease Weight ] Base Mental Power Cost=3 Distance=10 meters Area=One object Duration=18 rounds Effect=Reduce the weight of an object Type=Lost Counters (Negates): Increase Weight Countered (Negated) By: Increase Weight Expansion=Duration, distance, targets, effect (see description): 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf

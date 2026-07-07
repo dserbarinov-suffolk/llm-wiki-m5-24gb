@@ -4,7 +4,7 @@ page_kind: concept
 summary: Argument: 15 statement(s) and 31 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-argument@c60eaef9f9f0037c7fb2917c9b144aac

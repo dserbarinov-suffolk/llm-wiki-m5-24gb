@@ -4,7 +4,7 @@ page_kind: concept
 summary: Type: 9 statement(s) and 6 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-type@5fb5bcfea80f8ab42e79c1b628074dee

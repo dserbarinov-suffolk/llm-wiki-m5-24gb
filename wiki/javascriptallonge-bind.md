@@ -4,7 +4,7 @@ page_kind: concept
 summary: Bind: 10 statement(s) and 20 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-bind@a7177b38c6b0eaa8a00011a1d217c284

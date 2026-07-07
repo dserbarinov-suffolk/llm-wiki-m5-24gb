@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-giant-a9b1393b
 page_kind: source
-summary: [ Giant ]: 46 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Giant ]: 38 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-giant-a9b1393b@40292edce2cacae072de29e4c0997517
+projection_coverage: section-sword-world-rpg-complete-edition-section-giant-a9b1393b@e505a3e92115ddb0708e0b0539c644d9
 ---
 
 # [ Giant ]
@@ -58,10 +58,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > Frost giants are giants that live in cold regions and are covered in white hair all over their bodies. They are among the largest of the giants, reaching over 10 meters tall. Yet, they have relatively gentle personalities and will not attack humans unless they do something particularly unjust. However, they live a closed life and do not like when their territory is invaded. If you're open to communication, they'll simply give you a warning and ask you to leave their territory. If you can't commu
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06302, source-range-e5870dca-06303))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06302))_
 
 <a id="atom-technical-atom-3a13ee496a6115b2"></a>
 > Special Abilities=8th level spirit (Magic Intensity/Magic Power=17/10, spirits only)
-
-<a id="atom-technical-atom-3c9a938e1b72495a"></a>
-> Cold immunity Snow adaptation Habitat=Cold regions Languages=Giant, silent spirit Perception=Five senses (infravision)

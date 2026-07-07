@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21
 page_kind: source
-summary: 1.4 Character Creation: 330 source-backed entries and 15 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4 Character Creation: 320 source-backed entries and 15 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21@1cfa7bd13e2bda250947fa5f42c39fdb
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21@53db876f0966a5f920bc2c35fdea74ea
 ---
 
 # 1.4 Character Creation
@@ -72,6 +72,7 @@ From [[sword-world-rpg-complete-edition]].
 ### 1.4 Character Creation / 1.4.2 Determine Ability Scores
 
 - Once you've chosen a race, you can determine your ability scores. First, you must roll the dice to determine subability scores A~H . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00287))_
+- Table 1-3: Determining Sub-Ability Scores shows how to determine subability scores for each race. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00288))_
 - A character's six ability scores are each the totals of two of these eight subability scores. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00289))_
 - Depending on whether a half-elf was raised by humans or elves, the skills they have from the start and the limitations on the skills they can acquire differ. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00290))_
 - On the table, "D" stands for dice . 1D stands for one die , 2D stands for two dice , and 1/2D stands for half the result of one dice (rounded up) . In addition, a notation such as 1D+6 means to roll one dice and add 6 to the result . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00322))_
@@ -249,6 +250,7 @@ From [[sword-world-rpg-complete-edition]].
 - So, when choosing a weapon, we'll choose one that has a required strength equal to the character's strength (14). Here we have chosen the most typical weapon, a broadsword . The required strength of a broadsword is 8~16, so a broadsword with a required strength of 14 certainly exists. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00799))_
 - When choosing armor, the ranger skill's limitations come into play (required strength can only be up to half one's own strength, armor can only be non-metal or ring mail ). Our character's strength is 14, so we can buy armor with a required strength of 7. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00801))_
 - Since a broadsword is a one-handed weapon, this character can also hold a shield. If we have a large shield, the ranger skill will be limited, so our choice here is limited to a small shield . The price is 60 gamels. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00804))_
+- Since our starting amount was 1200 gamels, our character now has 1200 - 320 - 240 - 60 = 580 gamels remaining. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00805))_
 - Ranger has an advantage in projectiles, but this is consequently irrelevant because of the higher level of the can use any weapon fighter. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00798))_
 - If we have a large shield, the ranger skill will be limited, so our choice here is limited to a small shield . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00804))_
 
@@ -293,10 +295,15 @@ From [[sword-world-rpg-complete-edition]].
 ### 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑥ Origin ]
 
 - If the character is a human or a halfelf raised by a human, Table 1-5: Backgrounds must be used to determine their origin. Once it's been decided, write it in the origin field. If the character was not raised in a human society, there is no need to write anything in this field. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00874))_
+- Please write down starting experience points as determined by Table 1-5: Backgrounds or Table 1-6: Starting Experience by Race in the experience points field. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00876))_
 
 ### 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑩ Gender ]
 
 - Once the process has been completed up to this point, you should have developed an image of the character. It should now be easier to decide on gender and age, plus the character's name. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00883))_
+
+### 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑬ Increase Skills ]
+
+- Starting experience points can be used to acquire new adventurer skills or to increase any skills already acquired (Table 1-7: Experience Points by Skill). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00890))_
 
 ### 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ]
 

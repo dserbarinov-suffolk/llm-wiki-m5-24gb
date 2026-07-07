@@ -4,7 +4,7 @@ page_kind: concept
 summary: Recipe: 5 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-recipe@0cababee409551a2ead94999e48bc286

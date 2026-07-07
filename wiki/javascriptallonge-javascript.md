@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-javascript
 page_kind: concept
-summary: Javascript: 75 statement(s) and 63 atom(s) from raw/javascriptallonge.pdf.
+summary: Javascript: 75 statement(s) and 62 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-javascript@1dff56f4f054fd1fad782435dc8ebbeb
+projection_coverage: topic-javascriptallonge-javascript@c46babee7874f19cb8826be4a8be6101
 ---
 
 # Javascript
@@ -448,18 +448,7 @@ true === false
 //=> [Function]
 ```
 
-### Technical frame 16: As Little As Possible About Functions, But No Less
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00168))_
-
-> I'd prefer something else, but I must accept that what gets typed back to us on the screen is arbitrary, and all that really counts is that it is somewhat useful for a human to read. But we must understand that whether we see [Function] or () => 0 , internally JavaScript has a full and proper function.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00167))_
-
-<a id="atom-technical-atom-bb4267a62ff12466"></a>
-> 16 The simplest possible function is () => {} , we'll see that later.
-
-### Technical frame 17: commas
+### Technical frame 16: commas
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00195))_
 
@@ -473,7 +462,7 @@ true === false
 (1 + 1, 2 + 2)
 ```
 
-### Technical frame 18: commas
+### Technical frame 17: commas
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00195))_
 
@@ -487,7 +476,7 @@ true === false
 (1 + 1, 2 + 2)
 ```
 
-### Technical frame 19: undefined
+### Technical frame 18: undefined
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00214))_
 
@@ -500,7 +489,7 @@ true === false
 undefined
 ```
 
-### Technical frame 20: undefined
+### Technical frame 19: undefined
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00214))_
 
@@ -513,7 +502,7 @@ undefined
 //=> undefined
 ```
 
-### Technical frame 21: back on the block
+### Technical frame 20: back on the block
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00237))_
 
@@ -638,7 +627,7 @@ Ah. I’d Like to Have an Argument, Please.22
 
 </details>
 
-### Technical frame 22: shadowy variables from a shadowy planet
+### Technical frame 21: shadowy variables from a shadowy planet
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00358))_
 
@@ -652,7 +641,7 @@ Ah. I’d Like to Have an Argument, Please.22
 (x, y) => x + y
 ```
 
-### Technical frame 23: shadowy variables from a shadowy planet
+### Technical frame 22: shadowy variables from a shadowy planet
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00360))_
 
@@ -669,7 +658,7 @@ Ah. I’d Like to Have an Argument, Please.22
 x + y + z
 ```
 
-### Technical frame 24: which came first, the chicken or the egg?
+### Technical frame 23: which came first, the chicken or the egg?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00365))_
 
@@ -680,7 +669,7 @@ x + y + z
 <a id="atom-technical-atom-6cb62b7189b018dc"></a>
 > If you don't want your code to operate directly within the global environment, what can you do?
 
-### Technical frame 25: which came first, the chicken or the egg?
+### Technical frame 24: which came first, the chicken or the egg?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00365))_
 
@@ -697,7 +686,7 @@ x + y + z
 // bottom of the file
 ```
 
-### Technical frame 26: inside-out
+### Technical frame 25: inside-out
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00391))_
 
@@ -711,7 +700,7 @@ x + y + z
 // ...
 ```
 
-### Technical frame 27: const
+### Technical frame 26: const
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00407))_
 
@@ -727,7 +716,7 @@ return diameter * PI
 }
 ```
 
-### Technical frame 28: rebinding
+### Technical frame 27: rebinding
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00481))_
 
@@ -753,7 +742,7 @@ evenStevens(42)
 //=> true
 ```
 
-### Technical frame 29: the function keyword
+### Technical frame 28: the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00514))_
 
@@ -768,7 +757,7 @@ someBackboneView.on('click', function clickHandler () {
 });
 ```
 
-### Technical frame 30: function decorators
+### Technical frame 29: function decorators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00563))_
 
@@ -794,7 +783,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 </details>
 
-### Technical frame 31: partial application
+### Technical frame 30: partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00588))_
 
@@ -820,7 +809,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 </details>
 
-### Technical frame 32: the function keyword
+### Technical frame 31: the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
 
@@ -844,7 +833,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 </details>
 
-### Technical frame 33: Partial Application
+### Technical frame 32: Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00643))_
 
@@ -869,7 +858,7 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 
 </details>
 
-### Technical frame 34: Partial Application
+### Technical frame 33: Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00648))_
 
@@ -893,7 +882,7 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 
 </details>
 
-### Technical frame 35: Unary
+### Technical frame 34: Unary
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00657))_
 
@@ -907,7 +896,7 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 //=> [1, 2, 3]
 ```
 
-### Technical frame 36: a history lesson
+### Technical frame 35: a history lesson
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00714))_
 
@@ -936,7 +925,7 @@ firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
 //=> ["why",["hello","there","little","droid"]]
 ```
 
-### Technical frame 37: truthiness and operators
+### Technical frame 36: truthiness and operators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00760))_
 
@@ -952,7 +941,7 @@ firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
 //=> true
 ```
 
-### Technical frame 38: array literals
+### Technical frame 37: array literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00808))_
 
@@ -966,7 +955,7 @@ firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
 //=> []
 ```
 
-### Technical frame 39: destructuring is not pattern matching
+### Technical frame 38: destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00845))_
 
@@ -979,7 +968,7 @@ firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
 const [what] = [];
 ```
 
-### Technical frame 40: destructuring is not pattern matching
+### Technical frame 39: destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00849))_
 
@@ -997,7 +986,7 @@ who
 //=> undefined
 ```
 
-### Technical frame 41: destructuring is not pattern matching
+### Technical frame 40: destructuring is not pattern matching
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00849))_
 
@@ -1015,7 +1004,7 @@ they
 //=> []
 ```
 
-### Technical frame 42: Tail Calls (and Default Arguments)
+### Technical frame 41: Tail Calls (and Default Arguments)
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00940))_
 
@@ -1038,7 +1027,7 @@ return _temp3;
 }
 ```
 
-### Technical frame 43: some history
+### Technical frame 42: some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01021))_
 
@@ -1055,7 +1044,7 @@ cdr
 = ([a, d]) => d;
 ```
 
-### Technical frame 44: some history
+### Technical frame 43: some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01021))_
 
@@ -1073,7 +1062,7 @@ node1 = [1, node2];
 const oneToFive = node1;
 ```
 
-### Technical frame 45: some history
+### Technical frame 44: some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01026))_
 
@@ -1087,7 +1076,7 @@ cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
 ```
 
-### Technical frame 46: literal object syntax
+### Technical frame 45: literal object syntax
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01054))_
 
@@ -1100,7 +1089,7 @@ cdr(oneToFive)
 { year: 2012, month: 6, day: 14 }
 ```
 
-### Technical frame 47: Mutation
+### Technical frame 46: Mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01105))_
 
@@ -1116,7 +1105,7 @@ oneTwoThree
 //=> [ 'one', 2, 3 ]
 ```
 
-### Technical frame 48: Mutation
+### Technical frame 47: Mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01107))_
 
@@ -1130,7 +1119,7 @@ const allHallowsEve = [2012, 10, 31]
 const halloween = allHallowsEve;
 ```
 
-### Technical frame 49: Reassignment
+### Technical frame 48: Reassignment
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01143))_
 
@@ -1156,7 +1145,7 @@ evenStevens(42)
 //=> true
 ```
 
-### Technical frame 50: Reassignment
+### Technical frame 49: Reassignment
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01146))_
 
@@ -1172,7 +1161,7 @@ age
 //=> 53
 ```
 
-### Technical frame 51: var
+### Technical frame 50: var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01167))_
 
@@ -1203,7 +1192,7 @@ else {
 --x;
 ```
 
-### Technical frame 52: var
+### Technical frame 51: var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01167))_
 
@@ -1220,7 +1209,7 @@ factorial2(5)
 //=> 120
 ```
 
-### Technical frame 53: var
+### Technical frame 52: var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01176))_
 
@@ -1245,7 +1234,7 @@ factorial(4)
 //=> 24
 ```
 
-### Technical frame 54: var
+### Technical frame 53: var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01176))_
 
@@ -1282,7 +1271,7 @@ factorial(4)
 //=> undefined is not a function (evaluating 'innerFactorial(n, 1)')
 ```
 
-### Technical frame 55: var
+### Technical frame 54: var
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01176))_
 
@@ -1308,7 +1297,7 @@ factorial(4)
 //=> undefined is not a function (evaluating 'innerFactorial(n, 1)')
 ```
 
-### Technical frame 56: iterating
+### Technical frame 55: iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01263))_
 
@@ -1329,7 +1318,7 @@ arraySum([1, 4, 9, 16, 25])
 //=> 55
 ```
 
-### Technical frame 57: iterating
+### Technical frame 56: iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01269))_
 
@@ -1375,7 +1364,7 @@ sum = 0;
 while ((eachIteration = iterator(), !eachIteration.done)) {
 ```
 
-### Technical frame 58: iterating
+### Technical frame 57: iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01269))_
 
@@ -1393,7 +1382,7 @@ iteratorSum(arrayIterator([1, 4, 9, 16, 25]))
 //=> 55
 ```
 
-### Technical frame 59: bonus
+### Technical frame 58: bonus
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01294))_
 
@@ -1407,7 +1396,7 @@ const firstInIteration = (fn, iterator) =>
 take(filterIteratorWith(fn, iterator), 1);
 ```
 
-### Technical frame 60: generators and iterables
+### Technical frame 59: generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
 
@@ -1418,7 +1407,7 @@ take(filterIteratorWith(fn, iterator), 1);
 <a id="atom-technical-atom-7ca2d5da0f09f056"></a>
 > If we call our generator function more than once, we get new iterators.
 
-### Technical frame 61: generators and iterables
+### Technical frame 60: generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01684))_
 
@@ -1437,7 +1426,7 @@ yield 3
 }
 ```
 
-### Technical atom 62
+### Technical atom 61
 
 <a id="atom-technical-atom-83f43abc1781eefe"></a>
 

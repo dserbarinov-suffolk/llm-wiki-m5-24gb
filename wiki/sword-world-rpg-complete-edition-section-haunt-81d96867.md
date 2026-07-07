@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-haunt-81d96867
 page_kind: source
-summary: [ Haunt ]: 103 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Haunt ]: 87 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-haunt-81d96867@4f7e937b36ff5ab48b8a5dd80e152634
+projection_coverage: section-sword-world-rpg-complete-edition-section-haunt-81d96867@e218a893625024688326a03243c48a7b
 ---
 
 # [ Haunt ]
@@ -59,40 +59,10 @@ From [[sword-world-rpg-complete-edition]].
 
 > A special ability common to all haunts is possess . This is the act of taking over the body of a living being and using it for one's own purposes. If a haunt finds that a creature it comes into contact with does not sympathize with its feelings, it may attempt to possess them. The target of the possession must attempt a mental power resistance roll. If you fail, your body will be taken over. When a haunt takes over your body, it can use your character's abilities in addition to its own previous 
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07584, source-range-e5870dca-07585, source-range-e5870dca-07586, source-range-e5870dca-07587, source-range-e5870dca-07588, source-range-e5870dca-07589, source-range-e5870dca-07590, source-range-e5870dca-07591, source-range-e5870dca-07592, source-range-e5870dca-07593, source-range-e5870dca-07594, source-range-e5870dca-07595))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07584, source-range-e5870dca-07585))_
 
 <a id="atom-technical-atom-e27fae0e2e417ce7"></a>
 > Monster Level=5
 
 <a id="atom-technical-atom-1e02ac265edb1a77"></a>
 > Rarity=14
-
-<a id="atom-technical-atom-1645b314dde34213"></a>
-> Agility=14 Movement Speed=14
-
-<a id="atom-technical-atom-37defd8039b64350"></a>
-> Number=One, rarely multiple depending on the situation
-
-<a id="atom-technical-atom-34c4064fa8516f7b"></a>
-> Frequency=Rare Intellect=Human
-
-<a id="atom-technical-atom-7c905ac14d0ee58c"></a>
-> Reaction=Friendly, however, some are extremely adversarial
-
-<a id="atom-technical-atom-77f067fa532faab8"></a>
-> Attack Points=Weapon:12 (5)
-
-<a id="atom-technical-atom-a37712c44f57cf0a"></a>
-> Strike Points=10
-
-<a id="atom-technical-atom-4c9930bc8cfd1e00"></a>
-> Evasion Points=13 (6) Defense Points=7
-
-<a id="atom-technical-atom-af331e7a92c30ed9"></a>
-> Life Points/Resistance=14/13 (6)
-
-<a id="atom-technical-atom-c369674abbd2a084"></a>
-> Mental Points/Resistance=20/14 (7)
-
-<a id="atom-technical-atom-114a1aa43f698797"></a>
-> Special Abilities=Possess (Resist target score=12)

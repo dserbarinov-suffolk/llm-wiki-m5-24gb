@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-spirit-wall-cb9035f9
 page_kind: source
-summary: 5.1.14 Spirit Magic List / [ Spirit Wall ]: 85 source-backed entries and 6 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.14 Spirit Magic List / [ Spirit Wall ]: 78 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-spirit-wall-cb9035f9@815ae9efdd769a10ef5fb1611782887e
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-spirit-wall-cb9035f9@8d439dba840aa3434c0a0231d97a0c2c
 ---
 
 # 5.1.14 Spirit Magic List / [ Spirit Wall ]
@@ -31,6 +31,7 @@ From [[sword-world-rpg-complete-edition]].
 - This spell has the effect of creating a wall in a specified area using certain spirit power. Some walls may block your gaze, preventing attacks from spells and projectiles. There are also walls that you cannot pass through, walls that deal damage even if you force your way through, etc. Walls can be negated by Dispel Magic or Suppress Elemental , or countered by the opposing Spirit Wall . The wall is normally 0.5 meters thick, but you can consume extra mental power to expand the target size and make it thicker (as long as you do not change the length or height of the wall, the thickness will increase as the expansion rate increases). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03093))_
 - You cannot build a wall where other materials such as rocks, trees, or living things already exist. Furthermore, once a wall is put up, it cannot be moved or removed by the caster's will. The types of spells are divided by the lesser spirits that control them, and the walls created by each spell each have different characteristics depending on their spirit power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03094))_
 - Counters (Negates): Shade , Spirit Wall: Shade Countered (Negated) By: Shade , Spirit Wall: Shade _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03098))_
+- Expansion=Final score, duration, distance, target volume, damage certainty Resist=Reduced effect _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03100))_
 - With the help of the spirit of light, you can build a dazzling wall of light. The wall of light is not a solid entity, but a collection of will-o-wisps themselves. Therefore, the space on either side of the wall of light is illuminated with a brightness like midday. The glow from the wall is so intense that you can't look directly at it (so your gaze won't pass through it). The wall of light has no way to prevent objects from passing through it, so you can pass through it without any resistance. However, if you touch the wall or try to pass through it, you will destroy the will-o-wisps forming the wall. At this time, make a resistance roll, and if you fail, you will suffer strike power 10 damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03101))_
 - The wall of light cannot be destroyed by physical methods or damage magic, but when the dark spirit shade collides with the wall, a round hole about 50 cm in diameter will be created. At this time, the shade will also vanish. If Spirit Wall: Shade is used in the same place, their effects will negate each other, and both walls will vanish. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03102))_
 - A wall of light cannot be put up within the area of effect of the ancient magic Darkness . Also, if the magical darkness created by Darkness and the wall of light overlap, the wall will end there. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03103))_
@@ -44,6 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 - By borrowing the power of the wind spirit, you can create a wall of surging storms. When you chant the spell, a wild gust of wind comes out of nowhere and begins swirling in the same place. The storm wall is transparent, so it won't block your gaze, but all projectile attacks, including those from Shoot Arrow , will be deflected in front of you by the sylphs lurking in the wind. Those that touch the wall or try to pass through it must attempt to resist. If you succeed, you will be able to pass through the wall without incident, but if you fail, you will be blown away in the opposite direction from the wall. The storm wall cannot be destroyed by physical methods or magic that deals damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03134))_
 - By borrowing the power of plant spirits, creates a wall of living vegetation consisting of vines and thorn bushes. When you chant the spell, vines will sprout from the ground and entangle each other, filling the gaps with thorn bushes. You can't see through it, and you can't pass through it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03138))_
 - This wall can be destroyed by weapons or magic. For more information, please refer to 18.3: Rules for Destroying Structures (see p. 277). However, this wall regenerates by growing new trees one after the other. Even if the wall is completely destroyed, it will continue to regenerate for the duration of the spell. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03139))_
+- Type=Target score Countered (Overpowered) By: Tunnel Expansion=Final score, duration, distance, target volume Resist=None _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03142))_
 - By borrowing the power of the earth spirit, you can build a smooth wall made of solid rock. When you chant this spell, a number of stone slabs break through the ground and rise up in a flash, creating a seamless wall. A rock wall blocks your gaze and cannot be passed through without making a hole in the wall. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03143))_
 - For details on the destruction of this wall, please refer to 18.3: Rules for Destroying Structures (see p. 277). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03144))_
 - By borrowing the power of the ice spirits, you can build a freezing wall of ice. When you chant the spell, cold mist gathers and becomes frost, then the frost rises in bands of ice. Your gaze can see through the ice wall, but you cannot pass through it. It's made of magical ice, so if you touch this wall, you will be exposed to the cold air radiated from the ice and take strike power 10 damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03153))_
@@ -73,28 +75,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 2: 5.1.14 Spirit Magic List / [ Spirit Wall ]
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03098))_
-
-> Counters (Negates): Shade , Spirit Wall: Shade Countered (Negated) By: Shade , Spirit Wall: Shade
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03097))_
-
-<a id="atom-technical-atom-3e8d718fe4e1d5a2"></a>
-> Type=Target score, damage (Pure energytype)
-
-### Technical frame 3: 5.1.14 Spirit Magic List / [ Spirit Wall ]
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03101))_
-
-> With the help of the spirit of light, you can build a dazzling wall of light. The wall of light is not a solid entity, but a collection of will-o-wisps themselves. Therefore, the space on either side of the wall of light is illuminated with a brightness like midday. The glow from the wall is so intense that you can't look directly at it (so your gaze won't pass through it). The wall of light has no way to prevent objects from passing through it, so you can pass through it without any resistance.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03100))_
-
-<a id="atom-technical-atom-1ff899e8f876e877"></a>
-> Expansion=Final score, duration, distance, target volume, damage certainty Resist=Reduced effect
-
-### Technical frame 4: 5.1.14 Spirit Magic List / [ Spirit Wall ]
-
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03103))_
 
 > A wall of light cannot be put up within the area of effect of the ancient magic Darkness . Also, if the magical darkness created by Darkness and the wall of light overlap, the wall will end there.
@@ -104,7 +84,7 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-1d6db04f151b8cf2"></a>
 > The wall of light cannot be destroyed by physical methods or damage magic, but when the dark spirit shade collides with the wall, a round hole about 50 cm in diameter will be created.
 
-### Technical frame 5: 5.1.14 Spirit Magic List / [ Spirit Wall ]
+### Technical frame 3: 5.1.14 Spirit Magic List / [ Spirit Wall ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03130))_
 
@@ -114,14 +94,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-d956f31e8b3ddbbc"></a>
 > The wall of darkness cannot be destroyed by physical methods or damage magic, but when the spirit of light will-o-wisp collides with the wall, a round hole 50 cm in diameter will be created.
-
-### Technical frame 6: 5.1.14 Spirit Magic List / [ Spirit Wall ]
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03138))_
-
-> By borrowing the power of plant spirits, creates a wall of living vegetation consisting of vines and thorn bushes. When you chant the spell, vines will sprout from the ground and entangle each other, filling the gaps with thorn bushes. You can't see through it, and you can't pass through it.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03137))_
-
-<a id="atom-technical-atom-8453ccdb02c9e5c1"></a>
-> Type=Target score Expansion=Final score, duration, distance, target volume Resist=None

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-double-sixes-and-double-ones-ec0643e2
 page_kind: source
-summary: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones: 10 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones: 10 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-double-sixes-and-double-ones-ec0643e2@87a3376a63d7618244b9a644b09a842e
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-double-sixes-and-double-ones-ec0643e2@f2251422ecd260d73766f2d633e503d8
 ---
 
 # 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
@@ -33,6 +33,7 @@ From [[sword-world-rpg-complete-edition]].
 - If the attacker's roll is double sixes , it' s basically an automatic hit. However, if the defender's roll is also double sixes, the attack fails . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01343))_
 - If the defender's roll is double ones , it' s basically an automatic hit. However, if the attacker's roll is also double ones, the attack fails . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01344))_
 - If the defender's roll is double sixes , the attack will always fail. It doesn't matter even if the attacker rolls double sixes. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01345))_
+- Please refer to Table 4-4: Attack Checks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01346))_
 
 ## Technical atoms
 
@@ -49,22 +50,11 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 2: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01344))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01346))_
 
-> If the defender's roll is double ones , it' s basically an automatic hit. However, if the attacker's roll is also double ones, the attack fails .
+> Please refer to Table 4-4: Attack Checks.
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01345))_
 
 <a id="atom-technical-atom-bf5cf879cafdaf6d"></a>
 > If the defender's roll is double sixes , the attack will always fail.
-
-### Technical frame 3: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01345))_
-
-> If the defender's roll is double sixes , the attack will always fail. It doesn't matter even if the attacker rolls double sixes.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01346))_
-
-<a id="atom-technical-atom-166cdfb4ec02c00f"></a>
-> Please refer to Table 4-4: Attack Checks.

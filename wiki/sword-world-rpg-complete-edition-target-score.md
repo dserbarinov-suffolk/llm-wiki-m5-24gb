@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-target-score
 page_kind: concept
-summary: Target Scores: 164 statement(s) and 16 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Target Scores: 171 statement(s) and 14 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-target-score@86e1b38e9660ded1424efe33abb9dcc5
+projection_coverage: topic-sword-world-rpg-complete-edition-target-score@c12a0a8d0780989925e30f582df726f4
 ---
 
 # Target Scores
@@ -136,27 +136,34 @@ What [[sword-world-rpg-complete-edition]] covers about target scores:
 
 - Base Mental Power Cost=9 Distance=30 meters Area=A space with a 5 meter radius Duration=1 hour Effect=Can create visual illusions Type=Illusion Expansion=Final score, duration, distance, target volume _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02038))_
 
-### 5.1.12 Ancient Magic List / [ Paralyze ]
+### 5.1.12 Ancient Magic List / [ Familiar ]
 
-- Type=Focus, target score the target's Expansion=Final score, distance Resist=Negated effect This is a spell that completely seals your opponent's movements. Those who fail to resist will lose their freedom and immediately become rigid on the spot. A target caught by this magic in an unstable state will likely fall down. If it were a bird, it would fall out of the sky. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02200))_
+- Base Mental Power Cost=15 Distance=1 kilometer Area=1 specific animal Duration=Permanent Effect=You can turn a small animal into your familiar Type=Target score, Non-removable Expansion=Final score _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02059))_
 
 - If this final score is greater than or equal to the target score originally set for that first magic that was cast, then that first magic can be nullified. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01708))_
 - Therefore, when an adventurer uses magic that has a target score , that player should note down that score and remember it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01709))_
 - This target score equals the final score of the first magic that was cast (in other words, the magic you're about to nullify). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01709))_
 - ④ If fi nal score in ② is greater than or equal to target score in ① , the target may attempt to resist . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01727))_
+- Type=Focus, target score the target's Expansion=Final score, distance Resist=Negated effect This is a spell that completely seals your opponent's movements. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02200))_
 - When you use this spell on an object that had Seal Enchantment cast on it, its effect cannot be inferred if your final score does not exceed the target score determined by Seal Enchantment . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02323))_
 - This is a spell that reduces the target's agility to half its original score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02409))_
 - This is a spell that doubles the target's agility from its original score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02422))_
 - Area=One Duration=18 rounds Effect=Binds the target with invisible rope Type=Target score Expansion=Final score, duration, distance, targets Resist=Negated effect This spell creates an invisible magical rope, with the effect of binding the target. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02440))_
 - Its target score is 16. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02543))_
+- Type=Target score, damage (Electric-type) Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02573))_
 - However, to remove a spell with a target score, you'll need a final score accordingly. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02686))_
 - In the case of poison, its toxicity score is the target score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02780))_
 - Unless otherwise specified, the target score for this type of potion is 15 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02780))_
 - Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the spirit that controls fear. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02835))_
 - The target score equals the magic intensity or final score from when the magic was cast. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02942))_
+- Base Mental Power Cost=20 Distance=10 meters Area=1 plant Duration=Until focus ends Effect=Can control plants as one Type=Focus, target score Expansion=Final score, distance Resist=None _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03036))_
+- Expansion=Final score, duration, distance, target volume, damage certainty Resist=Reduced effect _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03100))_
+- Type=Target score Countered (Overpowered) By: Tunnel Expansion=Final score, duration, distance, target volume Resist=None _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03142))_
 - Base Mental Power Cost=40 Distance=30 meters Area=A space with a 10 meter radius Duration=Instant Effect=Creates an ice storm, dealing strike power 30 damage to targets within range Type=Damage (Cold-type) Expansion=Final score, distance, area, damage certainty Resist=Reduced effect _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03216))_
 - The target score is the final score from when the spell was cast. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03304))_
 - Base Mental Power Cost=50 Distance=Caster Area=A space within a 100 meter radius from the caster Duration=18 rounds Effect=Appeal to the greater spirits to neutralize spirit power Type=Target score Counters (Overpowers): All magic that uses related spirit power Expansion=Final score, duration, area _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03308))_
+- Duration=Until the mission is accomplished Effect=Force one mission on the target Type=Curse, target score, ritual Expansion=Final score _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03504))_
+- Base Mental Power Cost=24 Distance=Touch Area=One object Duration=Permanent Effect=Protect objects from decay Type=Target score, Non-removable Counters (Overpowers): Rot Countered (Overpowered) By: Rot Expansion=Final score _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03535))_
 - Base Mental Power Cost=24 Distance=Caster Area=A space within a 10 meter radius from the caster Duration=Until focus ends Effect=Create an accumulation field for mental power Type=Focus, target score Expansion=Final score, area _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03595))_
 - Duration=As long as you keep singing Effect=+2 attack power to those who listen to the song Type=Mind, target score Expansion=Final score Resist=None As the god of war, Myrii is said to lend his power to those who fight justly. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03733))_
 - Base Mental Power Cost=25 Distance=30 centimeters Area=One piece of metal up to 10 kilograms Duration=Until focus ends Effect=Makes metal red hot so it can be processed Type=Focus Expansion=Final score, distance, target's weight (See description) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03828))_
@@ -353,18 +360,7 @@ The baseline score is  a number that represents a character's ability. However, 
 <a id="atom-technical-atom-228db78b59cf140c"></a>
 > Conversely, if the dice roll double sixes when determining the target score (the success score of the first magic), you must roll another double sixes in order to nullify that magic.
 
-### Technical frame 8: 《 Counters (Overpowers) 》
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01725))_
-
-> ② Next, the one casting the magic must roll 2D to find their final score (by adding their magic power).
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01724))_
-
-<a id="atom-technical-atom-c4c143965cd1c057"></a>
-> ① First, confirm the target score (= final score) of the magic cast prior (if you forgot, determine it now).
-
-### Technical frame 9: [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
+### Technical frame 8: [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04107))_
 
@@ -375,7 +371,7 @@ The baseline score is  a number that represents a character's ability. However, 
 <a id="atom-technical-atom-f4dc7e0a26835b52"></a>
 > When appraising medicines or poisons, a success roll must be made using their rarity as the target score.
 
-### Technical frame 10: [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
+### Technical frame 9: [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04108))_
 
@@ -386,7 +382,7 @@ The baseline score is  a number that represents a character's ability. However, 
 <a id="atom-technical-atom-05c488f8e08adc44"></a>
 > To create medicines or poisons, the game master should set a target score depending on the type, and ask for a success roll check.
 
-### Technical frame 11: Table 6-3: Determining Long Jump Target Scores
+### Technical frame 10: Table 6-3: Determining Long Jump Target Scores
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04212))_
 
@@ -402,7 +398,7 @@ Table 6-3: Determining Long Jump Target Scores
  following conditions: 7 meter width,
 ```
 
-### Technical frame 12: Should You Use a Target Score Check or a Difficulty Check?
+### Technical frame 11: Should You Use a Target Score Check or a Difficulty Check?
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04570))_
 
@@ -413,7 +409,7 @@ Table 6-3: Determining Long Jump Target Scores
 <a id="atom-technical-atom-7b777b7ebab5891c"></a>
 > The standard for deciding is whether the character can tell if the action succeeded or failed .
 
-### Technical frame 13: 13.2.6 Mythical Beasts and Magical Beasts / [ Dragon ]
+### Technical frame 12: 13.2.6 Mythical Beasts and Magical Beasts / [ Dragon ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06765))_
 
@@ -424,7 +420,7 @@ Table 6-3: Determining Long Jump Target Scores
 <a id="atom-technical-atom-04b32177cc123aa9"></a>
 > Anyone who hears the dragon's roar must make a mental power resistance roll against target score 17.
 
-### Technical frame 14: [ Mandrake ]
+### Technical frame 13: [ Mandrake ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07432))_
 
@@ -435,7 +431,7 @@ Table 6-3: Determining Long Jump Target Scores
 <a id="atom-technical-atom-69ded4ed13ebe5db"></a>
 > Additionally, those who fail the resistance roll must make another one, this time a life force resistance roll against target score 12.
 
-### Technical frame 15: [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
+### Technical frame 14: [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07534))_
 
@@ -445,18 +441,6 @@ Table 6-3: Determining Long Jump Target Scores
 
 <a id="atom-technical-atom-e95b086762d791d4"></a>
 > If you cast the spirit magic Missile Protection , you can protect yourself from being enwrapped by the ash.
-
-### Technical atom 16
-
-<a id="atom-technical-atom-11c5d4a56da1ee14"></a>
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06346))_
-
-> Ceiling hangers primarily attack sleeping prey, but when hungry they may attack active prey as well. In addition to its protective color, it also stretches its body out from the ceiling in an instant to attack, so it has a high potential for surprise attacks. Rangers have a chance to notice this surprise attack with their sense danger ability. To do so, you must succeed on a success toll against target score 12 using ranger skill level + intelligence bonus as the baseline score. Failure will res
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06344))_
-
-> Special Abilities=Surprise attack (Sense target score=12)
 
 
 ## Related pages
@@ -476,9 +460,9 @@ Table 6-3: Determining Long Jump Target Scores
 
 - [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks: This check is made using a life force resistance roll . The baseline score is life force resistance (adventurer level + life force bonus) and the target score is 7 . ... [truncated] (10 shared statement(s))
 - [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements: 【 Ranger Skill 】 shares source evidence from 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (9 shared statement(s))
+- [[sword-world-rpg-complete-edition-final-damage]] - shared statements: 4.5.5 Final Damage shares source evidence from 5.1.12 Ancient Magic List / [ Lightning Bind ]: Type=Target score, damage (Electric-type) Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect (4 shared statement(s))
 - [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction): Each monster has a score called rarity . Using sage skill level + intelligence bonus as the baseline score, make a success roll with this rarity as the target score, ... [truncated] (4 shared statement(s))
 - [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: 1.4.9 Filling Out the Character Sheet shares source evidence from Filling out the Character Sheet: When attempting to cast resistible magic on a monster, the caster must determine whether their opponent can resist it. Y ou must make a success roll using caster's m ... [truncated] (3 shared statement(s))
-- [[sword-world-rpg-complete-edition-final-damage]] - shared statements: 4.5.5 Final Damage shares source evidence from 5.1.14 Spirit Magic List / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-hit-check]] - shared statements: 4.5.1 Hit Checks shares source evidence from 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-control-spirit-lesser]] - shared statements: [ Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements: Critical Target Variation shares source evidence from 3.4.4 Actions You Can Take While Standing Still / 【 Critical Target 】: The critical target is a lower is better score, which is rare in Sword World RPG . Therefore, an attack using the thief skill is more likely to result in a critical ... [truncated] (1 shared statement(s))

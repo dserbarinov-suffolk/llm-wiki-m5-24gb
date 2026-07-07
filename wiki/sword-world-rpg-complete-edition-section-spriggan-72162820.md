@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-spriggan-72162820
 page_kind: source
-summary: [ Spriggan ]: 19 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Spriggan ]: 18 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spriggan-72162820@8d83db27dd51c286206bfd611103a3a6
+projection_coverage: section-sword-world-rpg-complete-edition-section-spriggan-72162820@5937d7de79bc5d88fe493ec87d9b7a79
 ---
 
 # [ Spriggan ]
@@ -41,10 +41,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > Spriggans are evil titans who enjoy eating raw meat. They usually live in mountains, hills, forests, etc. but sometimes they come to human villages in search of their favorite food, human flesh. When entering a human village, spriggan transforms into a human child between the ages of 4 and 10. The transformation is so ingenious that there's nothing that hints at the spriggan's true identity, nor can it be detected by Sense Magic or Sense Aura . The form that a Spriggan can take after transformin
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06255, source-range-e5870dca-06256, source-range-e5870dca-06257))_
-
-<a id="atom-technical-atom-2eb3a5c6bf12c12f"></a>
-> Evasion Points=13 (6) Defense Points=8
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06256, source-range-e5870dca-06257))_
 
 <a id="atom-technical-atom-fdb9f447583c11af"></a>
 > Life Points/Resistance=22/14 (7) Mental Points/Resistance=18/14 (7)

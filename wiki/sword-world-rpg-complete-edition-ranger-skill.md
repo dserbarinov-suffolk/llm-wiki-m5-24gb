@@ -4,7 +4,7 @@ page_kind: concept
 summary: 【 Ranger Skill 】: 78 statement(s) and 13 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-ranger-skill@d1762853993dd7a6ceb706ba9ec8c5c3

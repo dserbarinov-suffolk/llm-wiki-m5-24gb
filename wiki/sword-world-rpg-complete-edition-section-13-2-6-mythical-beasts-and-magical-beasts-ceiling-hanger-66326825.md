@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-ceiling-hanger-66326825
 page_kind: source
-summary: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]: 29 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]: 25 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-ceiling-hanger-66326825@b6463d0e0a2a29298d2f4fdbf732d35b
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-ceiling-hanger-66326825@4fb897fed4abe38dca444914c9de505a
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
@@ -38,46 +38,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06332, source-range-e5870dca-06333, source-range-e5870dca-06334, source-range-e5870dca-06335, source-range-e5870dca-06336, source-range-e5870dca-06337, source-range-e5870dca-06338, source-range-e5870dca-06340, source-range-e5870dca-06341, source-range-e5870dca-06342, source-range-e5870dca-06343, source-range-e5870dca-06344))_
-
-<a id="atom-technical-atom-0ad2ddded5647860"></a>
-> Monster Level=3
-
-<a id="atom-technical-atom-49268a7e627a2f7b"></a>
-> Rarity=14
-
-<a id="atom-technical-atom-92d1f8980db6bdc7"></a>
-> Agility=12 Movement Speed=6
-
-<a id="atom-technical-atom-9b90b52435fdcaf5"></a>
-> Frequency=Rare
-
-<a id="atom-technical-atom-07383c28fe551e9a"></a>
-> Number=One
-
-<a id="atom-technical-atom-ff7083a1ffeb00c8"></a>
-> Intellect=Low Reaction=Adversarial
-
-<a id="atom-technical-atom-d18372ab39e81c91"></a>
-> Attack Points=Right arm:11 (4)/Left arm:10
-
-<a id="atom-technical-atom-d5637306704349ac"></a>
-> Strike Points=Special/5
-
-<a id="atom-technical-atom-3a801cd390cfe37e"></a>
-> Evasion Points=10 (3) Defense Points=5
-
-<a id="atom-technical-atom-6c561367b7d647d2"></a>
-> Life Points/Resistance=14 /11(4)
-
-<a id="atom-technical-atom-996584ef6e5a0916"></a>
-> Mental Points/Resistance=11/10(3)
-
-<a id="atom-technical-atom-11c5d4a56da1ee14"></a>
-> Special Abilities=Surprise attack (Sense target score=12)
-
-### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
-
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06346))_
 
 > Ceiling hangers primarily attack sleeping prey, but when hungry they may attack active prey as well. In addition to its protective color, it also stretches its body out from the ceiling in an instant to attack, so it has a high potential for surprise attacks. Rangers have a chance to notice this surprise attack with their sense danger ability. To do so, you must succeed on a success toll against target score 12 using ranger skill level + intelligence bonus as the baseline score. Failure will res
@@ -87,7 +47,7 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-357a56db6bafc378"></a>
 > By sticking with this lower body, a ceiling hanger can also move along walls and ceilings.
 
-### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
+### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06349))_
 

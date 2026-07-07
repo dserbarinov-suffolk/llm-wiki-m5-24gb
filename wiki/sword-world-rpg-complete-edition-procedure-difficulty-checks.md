@@ -1,15 +1,15 @@
 ---
 page_id: sword-world-rpg-complete-edition-procedure-difficulty-checks
 page_kind: procedure
-summary: Complete Difficulty Checks: 3 ordered step(s), 4 decision point(s), and 7 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Complete Difficulty Checks: 3 ordered step(s), 4 decision point(s), and 6 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-difficulty-checks, difficulty-checks
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-difficulty-checks@63abe73203ca9d432bdf4a5e10a4e1cf
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-difficulty-checks@41f16fa036f6bb6e9bcfcee04e1ca09f
 ---
 
 # Difficulty Checks
@@ -42,7 +42,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Tables And Formulas
 
-- `formula`: [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-315d8578]]#atom-technical-atom-7fdb0a6c7d6fd4c5 You (the player) roll the dice. The roll is 8 . 4+8= 12 , so it's a success, although just barely. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00957))_
 - `rule`: [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-315d8578]]#atom-technical-atom-58076ebe6d02fbbd Even if a bonus or penalty is applied, the roll is still an automatic success if the roll comes up double sixes , and an _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00967))_
 - `formula`: [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-315d8578]]#atom-technical-atom-087a99a2750a65dc final score ≥ target score (difficulty + 2D) → action succeeds _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00979))_
 - `table`: [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-315d8578]]#atom-technical-atom-4d66466757a70fa8 1. There is a  trap, the find trap check is successful → There is a trap at the door 2. There is a trap, the find trap c _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00982))_

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-crystal-66aea087
 page_kind: source
-summary: Chapter 14: / 14.4 Magical Item List / [ Crystal ]: 59 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 14: / 14.4 Magical Item List / [ Crystal ]: 57 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-crystal-66aea087@9b58b5a507ccd826b79407655cad51a5
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-crystal-66aea087@0f3f38a985b6fb848cfb165288511517
 ---
 
 # Chapter 14: / 14.4 Magical Item List / [ Crystal ]
@@ -33,12 +33,15 @@ From [[sword-world-rpg-complete-edition]].
 - When the stored mental points are depleted, the magic crystal shatters. The method of creating magic crystals has been lost, and it is impossible to replenish mental points in magic crystals. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09459))_
 - It is believed that these treasures were used as currency during the Ancient Kingdom period, and they are frequently discovered in the ruins of the Ancient Kingdom. The game master may decide that these are widely traded at the academy of sages. In this case, adventurers can purchase these stones if they have enough money. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09460))_
 - However, in most cases, the crystals being sold have few remaining mental points (meaning they have been partially used by others). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09461))_
+- Rarity=13 Enchanter=Many Form=Spherical polished amber crystal Base Trade Price=2,600 gamels Powers=Makes 10 square meters of ground underfoot (sand or mud) more stable _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09463))_
 - An earth crystal will break after one use. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09464))_
+- Rarity=13 Enchanter=Many Form=Spherical polished white crystal Base Trade Price=5,000 gamels Powers=Has the same effect as Blizzard when thrown _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09466))_
 - When thrown it deals strike power 20 damage within its area of effect, equivalent to Blizzard . Its magic power is 5. Crystal breaks after one use. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09467))_
 - By chanting a password, it'll blow winds up to a speed of 10m within a 100m radius. It'll break after 10 uses. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09481))_
 - Base Trade Price=Remaining number of uses x 120 gamels Powers=Casts a Darkness spell When you chant the password, a darkness equivalent to Darkness will appear. It'll break after 10 uses. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09484))_
 - When thrown it deals strike power 20 damage within its area of effect, equivalent to Fireball . Its magic power is 4 and breaks after one use. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09491))_
 - When you chant the password, a light effect equivalent to Light will appear. It'll break after 10 uses. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09498))_
+- Rarity=13 Enchanter=Many Form=Spherical polished yellow crystal Base Trade Price=1800 gamels Powers=Has the same effect as Lightning when thrown _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09500))_
 - When thrown, a 20 meter bolt of lightning, equivalent to Lightning , runs in that direction, dealing strike power 20 damage to those in its path. Its magic power is 3 and breaks after one use. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09501))_
 - However, only one stone can be used at a time, and it cannot be used simultaneously with the caster's own mental power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09458))_
 - When referring to a magic crystal, it means a stone that concentrates magic power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09458))_
@@ -66,17 +69,6 @@ From [[sword-world-rpg-complete-edition]].
 > In this case, adventurers can purchase these stones if they have enough money.
 
 ### Technical frame 2: Chapter 14: / 14.4 Magical Item List / [ Crystal ]
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09467))_
-
-> When thrown it deals strike power 20 damage within its area of effect, equivalent to Blizzard . Its magic power is 5. Crystal breaks after one use.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09466))_
-
-<a id="atom-technical-atom-5e83204709ad077d"></a>
-> Rarity=13 Enchanter=Many Form=Spherical polished white crystal Base Trade Price=5,000 gamels Powers=Has the same effect as Blizzard when thrown
-
-### Technical frame 3: Chapter 14: / 14.4 Magical Item List / [ Crystal ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09467))_
 

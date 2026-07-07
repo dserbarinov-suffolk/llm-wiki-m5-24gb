@@ -1,15 +1,15 @@
 ---
 page_id: javascriptallonge-recipe-unary
 page_kind: recipe
-summary: Unary: reusable source-backed pattern with 6 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: Unary: reusable source-backed pattern with 7 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: unary
-projection_coverage: recipe-javascriptallonge-recipe-unary@4d968321729b2379ea427a92d602b1b9
+projection_coverage: recipe-javascriptallonge-recipe-unary@6d8e31cd9a9afc540ba2dd48b2a94095
 ---
 
 # Unary
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 ## Pattern
 
 - Use the source-backed pattern described in [[javascriptallonge-section-unary-fd792bf9]].
-- Evidence roles: decision, explanation, definition, example, structured-state.
+- Evidence roles: decision, explanation, definition, constraint, example, structured-state.
 
 ## Applicability And Rationale
 

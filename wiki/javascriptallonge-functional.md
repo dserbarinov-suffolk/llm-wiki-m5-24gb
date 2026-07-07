@@ -4,7 +4,7 @@ page_kind: concept
 summary: Functional: 4 statement(s) and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-functional@43ca3be48a71cf30981b6a16d41537e6

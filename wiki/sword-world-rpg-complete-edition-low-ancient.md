@@ -4,7 +4,7 @@ page_kind: concept
 summary: 《 Low Ancient 》: 19 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-low-ancient@1f08c15ee710bd352502376bdf5013b3

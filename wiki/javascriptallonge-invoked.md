@@ -4,7 +4,7 @@ page_kind: concept
 summary: Invoked: 1 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-invoked@657fb2e8fc1833728dd910991fdc204b

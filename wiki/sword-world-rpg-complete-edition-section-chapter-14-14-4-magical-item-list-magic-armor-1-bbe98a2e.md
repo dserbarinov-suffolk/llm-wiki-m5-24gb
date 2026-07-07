@@ -4,11 +4,11 @@ page_kind: source
 summary: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1): 4 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-bbe98a2e@3e512c4cb071bdd886e0824e6b8b4f77
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-bbe98a2e@e9a05b58d628cac0d126a13d7f425334
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
@@ -32,6 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Statements
 
+- Rarity=12 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+1 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09174))_
 - This is a price list for magic metal armor with +1 power. While armor with high required strength tends to be unpopular, when it becomes exceptionally high-end, it suddenly becomes an object of interest for enthusiasts, causing prices to spike dramatically. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09175))_
 
 ## Technical atoms

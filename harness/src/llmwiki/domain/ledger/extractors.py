@@ -11,6 +11,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
+from llmwiki.domain.ledger.atom_modality import allowed_capability_ids, capability_allowed
 from llmwiki.domain.ledger.atoms import AtomCandidate, AtomPayload, payload_fingerprint
 from llmwiki.domain.ledger.canonical import deterministic_id
 from llmwiki.domain.ledger.common import ReviewReason
@@ -46,22 +47,6 @@ _CAPABILITY_SIGNAL = {
     "worked-example-extractor": "relationship-density",
 }
 _TABLE_GATE = 0.15
-# A segment's modality decides which extractors may materialize: a code fence
-# yields only a code atom, a tabular block only a table, prose only the prose
-# atom kinds. Other capabilities abstain (unsupported modality), so each
-# capability still records exactly one decision per segment.
-_PROSE_CAPABILITIES = frozenset(
-    {"formula-extractor", "rule-extractor", "procedure-extractor", "worked-example-extractor"}
-)
-_KIND_CAPABILITIES: dict[str, frozenset[str]] = {
-    "code-fence": frozenset({"code-block-extractor"}),
-    "table-block": frozenset({"table-extractor"}),
-    "figure": frozenset({"figure-extractor"}),
-    "paragraph": _PROSE_CAPABILITIES,
-    "list": _PROSE_CAPABILITIES,
-    "heading": frozenset(),
-    "blank": frozenset(),
-}
 
 
 @dataclass(frozen=True)
@@ -142,8 +127,7 @@ def extract_segment(
 def _materialize(
     capability_id: str, segment: SourceSegment, profile: ExtractedUnitProfile
 ) -> tuple[AtomPayload | None, ReviewReason | None]:
-    allowed = _KIND_CAPABILITIES.get(segment.segment_kind, _PROSE_CAPABILITIES)
-    if capability_id not in allowed:
+    if not capability_allowed(segment, capability_id):
         return None, None
     if capability_id == "code-block-extractor":
         result = materialize_code_block(segment)
@@ -181,6 +165,8 @@ def _passes_score_gate(
         if segment.segment_kind == "table-block":
             return True
         return score >= _TABLE_GATE
+    if capability_id == "formula-extractor" and segment.formula_text.strip():
+        return True
     if capability_id == "figure-extractor":
         return score >= 1.0
     threshold = calibration.threshold(capability_id)
@@ -233,11 +219,10 @@ def _candidate(
 def _abstain_reason(
     segment: SourceSegment, score: float, calibration: CalibrationPolicy, capability_id: str
 ) -> AbstainReason:
-    allowed = _KIND_CAPABILITIES.get(segment.segment_kind, _PROSE_CAPABILITIES)
-    if capability_id not in allowed:
+    if capability_id not in allowed_capability_ids(segment):
         return AbstainReason(
             "unsupported-modality",
-            unsupported_modality=UnsupportedModality(f"segment modality {segment.segment_kind!r}"),
+            unsupported_modality=UnsupportedModality(_modality_detail(segment)),
         )
     if not segment.text.strip():
         return AbstainReason(
@@ -266,3 +251,12 @@ def _atom_kind(capability_id: str) -> str:
     from llmwiki.domain.ledger.vocab import CAPABILITY_ATOM_KIND
 
     return CAPABILITY_ATOM_KIND[capability_id]
+
+
+def _modality_detail(segment: SourceSegment) -> str:
+    parts = [f"segment modality {segment.segment_kind!r}"]
+    if segment.block_kind:
+        parts.append(f"block kind {segment.block_kind!r}")
+    if segment.source_block_ids:
+        parts.append("structured source block")
+    return ", ".join(parts)

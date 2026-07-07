@@ -4,7 +4,7 @@ page_kind: concept
 summary: Preserve Sound Sylph: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-preserve-sound-sylph@e7f6bdb0567417c18088be00addd3bab

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-inspiration-spell-level-3-01019b5c
 page_kind: source
-summary: 5.1.17 Special Holy Magic List / [ Inspiration ] (Spell Level=3): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.17 Special Holy Magic List / [ Inspiration ] (Spell Level=3): 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-inspiration-spell-level-3-01019b5c@72f34e3913601e6a692773db17a2961b
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-inspiration-spell-level-3-01019b5c@8f64aa975890559b3e052e4f4bef275e
 ---
 
 # 5.1.17 Special Holy Magic List / [ Inspiration ] (Spell Level=3)
@@ -27,5 +27,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Statements
 
+- Effect=You can turn a failed success roll related to knowledge into a success only once _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03761))_
 - If you cast this spell, you can turn a failure into a success only once on a success roll to see if you know something, such as appraise treasure or monster check . If a knowledge-related success roll fails , the player can optionally make it a success . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03765))_
 - This spell cannot be recast until the caster falls asleep. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03766))_
+- Effect=You can turn a failed success roll related to knowledge into a success only once _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03761))_

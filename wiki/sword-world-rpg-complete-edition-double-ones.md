@@ -4,10 +4,10 @@ page_kind: concept
 summary: Double Ones: 4 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-double-ones@57a8c40e35c8b4e5cb17b49a5775a625
+projection_coverage: topic-sword-world-rpg-complete-edition-double-ones@43504e1ecb5d666cb2bd529d1fe616eb
 ---
 
 # Double Ones
@@ -40,9 +40,9 @@ What [[sword-world-rpg-complete-edition]] covers about double ones:
 
 ### Technical frame 2: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01344))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01346))_
 
-> If the defender's roll is double ones , it' s basically an automatic hit. However, if the attacker's roll is also double ones, the attack fails .
+> Please refer to Table 4-4: Attack Checks.
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01345))_
 

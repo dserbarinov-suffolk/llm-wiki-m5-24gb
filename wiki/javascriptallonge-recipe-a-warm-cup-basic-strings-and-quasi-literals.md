@@ -4,7 +4,7 @@ page_kind: recipe
 summary: A Warm Cup: Basic Strings and Quasi-Literals: reusable source-backed pattern with 5 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf

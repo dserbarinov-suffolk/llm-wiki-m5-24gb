@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-vampire-f50f351c
 page_kind: source
-summary: [ Vampire ]: 76 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Vampire ]: 71 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-vampire-f50f351c@85ef8ae970b030ec334c8b0a9037bf64
+projection_coverage: section-sword-world-rpg-complete-edition-section-vampire-f50f351c@941711d77dae0b373441d85d4593ecfd
 ---
 
 # [ Vampire ]
@@ -33,6 +33,7 @@ From [[sword-world-rpg-complete-edition]].
 - Monster Level=3 Rarity=13 Agility=14 Movement Speed=14 Number=Several to dozens Frequency=Rare Intellect=Human Reaction=Adversarial Attack Points=Barehanded:10 (3) Strike Points=5+mental damage Evasion Points=11 (4) Defense Points=5 Life Points/Resistance=14/11 (4) Mental Points/Resistance=14/11 (4) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07810))_
 - A lesser vampire is a monster created by the transformation of a victim whose blood has been sucked by another vampire. They will always follow the commands of the vampire that transformed them (their parents, so to speak). They have emaciated, unhealthy pale skin, and their glowing red eyes cause intense fear in those who see them. A character who makes eye contact with a lesser vampire must first resist the gaze against target score 10. If you fail, you'll be paralyzed by fear and unable to act. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07820))_
 - A lesser vampire cannot be wounded by normal weapons. You will need a silver or magic weapon to defeat them. In addition to normal damage, a character hit by a lesser vampire's attack will also suffer damage to their mental power _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07821))_
+- Monster Level=10 Rarity=13 Agility=20 Movement Speed=20/20 (air) Number=One to several Frequency=Very rare Intellect=High Reaction=Adversarial Attack Points=Barehanded:17 (10) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07823))_
 - Vampires are servants of the dark gods or those who seem to be particularly favored by the dark gods, and are resurrected as undead after death. Most abilities they had previously are retained. Additionally, they gain the power to use dark magic up to 8th level. They'll no longer be able to use holy magic, but if they had a holy magic skill of 9th level or greater, they'll be able to use dark magic at the same skill level. The scores given here are for an average vampire and will vary depending on the ability scores it had previously. If you take that into account, its dexterity, agility, intelligence, and strength will be previous +6 , and its life force and mental power will be previous +12 . Vampires have the ability to move while floating in the air. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07838))_
 - A vampire's negative power is strongly connected to the soil called unholy soil . If the vampire's life points become 0, or if its body crumbles away as a result of a "Turn Undead" spell being cast on it, the vampire's form will vanish into mist, but in one day it'll completely regenerate in its soil location. Vampires can also turn into mist at their own will before their life points reach 0, and regenerate in a place with soil . Even if their movement is blocked by magic such as Paralyze , etc. they can still turn into a mist. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07840))_
 - If discovered by an adventurer, etc. while regenerating in a location with soil , a vampire will not be able to take its physical form. It'll remain a mist. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07841))_
@@ -40,6 +41,7 @@ From [[sword-world-rpg-complete-edition]].
 - Many vampires preserve this "soil" by preparing a coffin and lining it inside, while others simply keep it in a mound inside their room. A sage who has knowledge of vampires can look at the soil and completely find out its true identity through their knowledge ability. To do so, you must know about vampires and must also make a success roll against target score 16. You cannot attempt this success roll if you do not know about vampires. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07843))_
 - If someone with the shaman skill looks at the soil , they can immediately tell that it's something out of the ordinary. If you're accompanied by a sage who knows about vampires, and further find out that the soil is not normal soil, you'll be able to deduce its true identity. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07844))_
 - You can defeat a vampire by reducing its mental points to 0, or by removing the soil from its original location and reducing its life points to 0. However, cautious vampires usually keep soil in several locations. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07845))_
+- Monster Level=15 Rarity=13 Agility=20 Movement Speed=20/20 (air) Number=One Frequency=Very rare Intellect=Very high Reaction=Adversarial Attack Points=Barehanded:22 (15) Strike Points=19+mental damage Evasion Points=24 (17) Defense Points=17 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07847))_
 - The Undead King , is the name of the ultimate undead, the king of all without life, a powerful necromancer from the ancient kingdom that gained eternal negative power through a lost spell. They are usually dressed in black robes and a hood. The scores given here are for an average undead king, and will vary depending on the abilities they had previously. If you take that into account, its dexterity and agility will be previous +6 , its strength, intelligence, and life will be previous +12 , and its mental power will be previous +18 . That said, there aren't exactly enough undead kings in Forcelia to go taking averages... _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07861))_
 - Above all, the most frightening thing about the undead king is that it has great magical power. An undead king uses both ancient magic and dark magic up to at least 10th level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07862))_
 - Only adventurer level and magical defense power are effective. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07804))_

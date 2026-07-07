@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-2-3-youma-goblin-87c88b5e
 page_kind: source
-summary: 13.2.3 Youma / [ Goblin ]: 38 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.2.3 Youma / [ Goblin ]: 31 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-goblin-87c88b5e@cdb79eca0bd1bc22238a1c33dccf4d94
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-goblin-87c88b5e@93633c0cc306988c371d6e621b5e134b
 ---
 
 # 13.2.3 Youma / [ Goblin ]
@@ -45,7 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > Goblins are a type of youma that live near human villages, and are extremely common monsters in Alecrast. Their height is slightly smaller than that of a human, and their skin is reddish-brown. They usually live in groups of several to several dozen in forests and hills, but they sometimes appear at people's homes and attack livestock or steal. They often use weapons (mostly small ones such as shortswords, daggers etc.) stolen from humans. In their villages, they may use kobolds and human childr
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05978, source-range-e5870dca-05979, source-range-e5870dca-05980, source-range-e5870dca-05981, source-range-e5870dca-05982, source-range-e5870dca-05983, source-range-e5870dca-05984, source-range-e5870dca-05985, source-range-e5870dca-05986, source-range-e5870dca-05987, source-range-e5870dca-05988, source-range-e5870dca-05990, source-range-e5870dca-05991, source-range-e5870dca-05992, source-range-e5870dca-05993))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05978, source-range-e5870dca-05979, source-range-e5870dca-05980, source-range-e5870dca-05982))_
 
 <a id="atom-technical-atom-0fb724f134382e04"></a>
 > Monster Level=3
@@ -56,41 +56,8 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-e5567eac119a5179"></a>
 > Agility=13
 
-<a id="atom-technical-atom-f518c67984ea94fb"></a>
-> Number=One Movement Speed=8
-
 <a id="atom-technical-atom-013cefa042aea58e"></a>
 > Frequency=Rare
-
-<a id="atom-technical-atom-f766c1d6f9bac10f"></a>
-> Intellect=Human Reaction=Adversarial
-
-<a id="atom-technical-atom-72a9c835a1558e78"></a>
-> Attack Points=Weapon or fang: 10 (3) Strike Points=8
-
-<a id="atom-technical-atom-97260991f04a5b50"></a>
-> Evasion Points=11 (4) Defense Points=6
-
-<a id="atom-technical-atom-4e14caa61effa91d"></a>
-> Life Points/Resistance=12/11 (4)
-
-<a id="atom-technical-atom-95682c160146113e"></a>
-> Mental Points/Resistance=15/11 (4)
-
-<a id="atom-technical-atom-8df29259153fdb99"></a>
-> Special Abilities=3rd level spirit magic (Magic Intensity/Magic Power=12/5)
-
-<a id="atom-technical-atom-32fd542182ba54c7"></a>
-> Intensity/Magic Power=10/3)
-
-<a id="atom-technical-atom-b274621149a754bb"></a>
-> Habitat=Mountains, forests, caves
-
-<a id="atom-technical-atom-4890328f4b84038a"></a>
-> Languages=Goblin, silent spirit, regional
-
-<a id="atom-technical-atom-06a29c6ed5e9943b"></a>
-> Perception=Five senses (darkvision, infravision)
 
 ### Technical frame 2: 13.2.3 Youma / [ Goblin ]
 

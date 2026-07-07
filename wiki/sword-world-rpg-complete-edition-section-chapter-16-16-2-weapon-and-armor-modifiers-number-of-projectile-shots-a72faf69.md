@@ -4,11 +4,11 @@ page_kind: source
 summary: Chapter 16: / 16.2 Weapon and Armor Modifiers / Number of Projectile Shots: 14 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-number-of-projectile-shots-a72faf69@dd9d6e4080b85c146936340e0ff6fb19
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-number-of-projectile-shots-a72faf69@b42fbc987c4fb69db4d0f61379099ea8
 ---
 
 # Chapter 16: / 16.2 Weapon and Armor Modifiers / Number of Projectile Shots
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-cde1c863]] - previous source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-armor-modifiers-182f8d80]] - next source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Armor Modifiers
 
 ### Source structure
 

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-a53ab7f2
 page_kind: source
-summary: 5.1.12 Ancient Magic List: 1014 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.12 Ancient Magic List: 930 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-a53ab7f2@8a2aba5182d2007dee3ebf2cc3e4198a
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-a53ab7f2@9cff5d86cf1ed4f3783294a4a92da8df
 ---
 
 # 5.1.12 Ancient Magic List
@@ -49,6 +49,7 @@ From [[sword-world-rpg-complete-edition]].
 
 - Resist=Negated effect This spell alters the air in a space within a 5 meter radius from the target, creating a gas with the effect of instantly putting any creatures inside to sleep. Anything within the area is affected, friend or foe, but targets that make a successful resistance roll will be completely unaffected by the spell. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01898))_
 - Those that fail to resist fall asleep, but since it's a natural sleep, they will wake up immediately if there's any noise, etc. in their surroundings. If there's combat, etc. happening in their surroundings, they can make a resistance roll each round, and wake up if successful. Also, if they're dealt physical or mental damage, if they receive a shock such as being hit or kicked even if it does not deal damage, or if an extremely loud noise is made, they will automatically wake up without the need for a resistance roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01899))_
+- Effect=Alters the air within the area of effect, putting anything inside it to sleep _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01895))_
 - Resist=Negated effect This spell alters the air in a space within a 5 meter radius from the target, creating a gas with the effect of instantly putting any creatures inside to sleep. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01898))_
 - Anything within the area is affected, friend or foe, but targets that make a successful resistance roll will be completely unaffected by the spell. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01898))_
 - Also, if they're dealt physical or mental damage, if they receive a shock such as being hit or kicked even if it does not deal damage, or if an extremely loud noise is made, they will automatically wake up without the need for a resistance roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01899))_
@@ -115,7 +116,9 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.12 Ancient Magic List / [ Sense Enemy ]
 
+- Base Mental Power Cost=6 Distance=Caster Area=Within the caster's view Duration=18 round Effect=Makes the presence of hostility clear to the caster Type=Detection Expansion=Duration Resist=None _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01997))_
 - By casting this spell, the caster can learn of the presence of anything that has aggressive intentions towards them. Aggressive intentions in this case refers to a desire to deal physical or mental damage to the caster, so cases such as simply wanting to steal the caster's money will not be detected. However, if the theft is committed in order to cause problems for someone, you will be able to sense that intention. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01998))_
+- Base Mental Power Cost=6 Distance=Caster Area=Within the caster's view Duration=18 round Effect=Makes the presence of hostility clear to the caster Type=Detection Expansion=Duration Resist=None _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01997))_
 - Aggressive intentions in this case refers to a desire to deal physical or mental damage to the caster, so cases such as simply wanting to steal the caster's money will not be detected. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01998))_
 
 ### 5.1.12 Ancient Magic List / [ Disguise ]
@@ -170,6 +173,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.12 Ancient Magic List / [ Familiar ]
 
+- Base Mental Power Cost=15 Distance=1 kilometer Area=1 specific animal Duration=Permanent Effect=You can turn a small animal into your familiar Type=Target score, Non-removable Expansion=Final score _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02059))_
 - This spell has the effect of allowing a sorcerer to summon and control an animal to become their familiar. The animals that can become familiars are somewhat limited. For example, frogs or crows. Cats and owls are also famous familiars, and these animals will appear in response to the caster's summons and serve the caster. A sorcerer can have only one familiar. If a sorcerer who already has a familiar tries to summon a second one, it'll show no effect whatsoever. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02061))_
 - This spell must always be performed as a ritual. The caster requires 3 full days of preparation, followed by 12 hours of spell chanting. Please refer to Table 5-2: Familiars to see what kind of animal will appear as a familiar in response to a summon. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02062))_
 - The summoned familiar and the sorcerer are always in mental contact, so they can communicate in a way similar to telepathy and can also share sensory organs. The caster can use their familiar's sensory organs to see and hear, and vice versa. Also, when you give a command to your familiar, the familiar will try to execute it, but there are natural limits to what it can actually do depending on the familiar's physical abilities. Abilities of each familiar are listed on the table, but you can find out more details by referring to an animal encyclopedia. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02063))_
@@ -253,6 +257,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.12 Ancient Magic List / [ Fireball ]
 
+- Effect=Causes an explosion centered on a point in space, dealing strike power 20 damage _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02207))_
 - This is a spell of destruction that is forbidden by wise sorcerers. It creates an explosion centered on a point in space within a 3 meter radius, dealing fire and shock damage to everything within. Its strike power is 20 (10 with no criticals on a successful resist). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02212))_
 - It creates an explosion centered on a point in space within a 3 meter radius, dealing fire and shock damage to everything within. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02212))_
 
@@ -297,6 +302,7 @@ From [[sword-world-rpg-complete-edition]].
 ### 5.1.12 Ancient Magic List / Blizzard ]
 
 - Expansion=Final score, distance, area, damage certainty Resist=Reduced effect This spell creates a sudden storm containing countless pieces of ice the size of pebbles, in a space within a 5 meter radius centered on a point, dealing cold damage to everything within range. Its strike power is 20. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02308))_
+- Effect=Creates an ice storm, dealing strike power 20 damage to those within range _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02306))_
 - Expansion=Final score, distance, area, damage certainty Resist=Reduced effect This spell creates a sudden storm containing countless pieces of ice the size of pebbles, in a space within a 5 meter radius centered on a point, dealing cold damage to everything within range. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02308))_
 
 ### 5.1.12 Ancient Magic List / 6th Level Ancient Magic List [ Acid Cloud ]
@@ -345,6 +351,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.12 Ancient Magic List / [ Steal Mind ]
 
+- Effect=Steals strike power 20 mental power from the target and gives it to the caster _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02394))_
 - This spell allows you to steal mental power (points) from the target and make it your own. First make a strike power 20 check to deal damage to the target, then the target's mental power (points) will be reduced while at the same time the caster's mental power (points) will be recovered by the same amount. If you expand the effect and steal mental power (points) from multiple targets, you can recover the total mental power (points) you stole. However, you cannot make your mental power (points) higher than your original score. Also, it has no effect at all if your opponent successfully resists. This also has no effect on opponents that do not have mental power (points), such as golems and skeletons. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02398))_
 - First make a strike power 20 check to deal damage to the target, then the target's mental power (points) will be reduced while at the same time the caster's mental power (points) will be recovered by the same amount. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02398))_
 - This also has no effect on opponents that do not have mental power (points), such as golems and skeletons. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02398))_
@@ -399,6 +406,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.12 Ancient Magic List / [ Bend Bar ]
 
+- Base Mental Power Cost=21 Distance=10 meters Area=A bar-shaped object Duration=Instant Effect=Bend a bar-shaped object Type=Expansion=Distance, targets, target's cross- _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02502))_
 - This is a spell that bends bars. The target bar will bend in the direction desired by the caster, regardless of the elasticity of the material. Since it only targets bar-shaped objects, shields and armor cannot be bent. Most weapons have a bar-like part that can be bent to make them useless. A bar-shaped object is one that's up to 10 cm thick and has a length to thickness ratio of 3 to 1 or greater. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02505))_
 - This magic's effect cannot work on things that have already had magic cast on them or have life (or have undead life force). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02506))_
 - Since it only targets bar-shaped objects, shields and armor cannot be bent. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02505))_
@@ -413,6 +421,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.12 Ancient Magic List / [ Magic Reflection ]
 
+- Duration=Until the caster falls asleep, or until magic is cast on them _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02522))_
 - Resist=None This spell reflects magic cast on the caster directly back onto their opponent. If magic is cast on the person who casts this spell, that magic will rebound back to the opponent who cast it. At the same time, the effect of Magic Reflection will disappear. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02527))_
 - However, this can only reflect magic which has an area of effect of one . In the case of magic that affects a space, Magic Reflection has no effect. Also, since the reflection is indiscriminate, even magic that's favorable towards the caster will be reflected. In addition, spells that nullify magic, such as Dispel Magic , cannot be reflected. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02529))_
 - If a caster using Magic Reflection casts other magic on his or herself, the effect of Magic Reflection will be lost at the same time the new magic is cast. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02530))_
@@ -426,7 +435,9 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.12 Ancient Magic List / [ Stun Cloud ]
 
+- Effect=Paralyzes the target's body within the area of effect, causing them to lose consciousness _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02552))_
 - Stun Cloud turns the air within the area of effect into poison gas. All creatures within the area of effect must attempt to resist this spell. If you fail, your body will become paralyzed and you will lose consciousness at the same time. Those who successfully resist won't receive these effects. Unlike Sleep Cloud , a creature who loses consciousness from this spell cannot be woken up by damage, kicking them or shaking them, they will remain unconscious for one hour. However, if you remove it with Dispel Magic , they will regain their consciousness. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02556))_
+- Effect=Paralyzes the target's body within the area of effect, causing them to lose consciousness _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02552))_
 - Stun Cloud turns the air within the area of effect into poison gas. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02556))_
 - Unlike Sleep Cloud , a creature who loses consciousness from this spell cannot be woken up by damage, kicking them or shaking them, they will remain unconscious for one hour. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02556))_
 - All creatures within the area of effect must attempt to resist this spell. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02556))_
@@ -439,6 +450,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.12 Ancient Magic List / [ Lightning Bind ]
 
+- Type=Target score, damage (Electric-type) Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02573))_
 - Lightning Bind is a spell that entangles the target in a net of electricity, completely sealing their movement. Furthermore, you can deal electric shock damage to the target every round. Its strike power is 20. If the target successfully resists, the damage is _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02574))_
 - reduced (following the rules for damage magic) and the target can move. However, in this case, they will take a -4 penalty to the final score of all success rolls, because they must fight against the pain and binding they receive from the electric net. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02575))_
 - This spell works on targets slightly larger than a human (such as an ogre or a manticore), but has no effect on targets of a larger size than that (such as a dragon or a roc). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02577))_
@@ -454,6 +466,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.12 Ancient Magic List / 9th Level Ancient Magic List [ Command Golem ]
 
+- Effect=You can control and give commands to golems that have not received commands yet _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02595))_
 - This spell is not a spell that creates golems. It's only a spell that gives commands to a golem. Moreover, the target golem must be in a state where no commands have been given. This spell is ineffective on a golem that's already following a command. Golems in a state without commands are extremely rarely found, but may be found in the ruins of the ancient kingdom. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02599))_
 - It's only a spell that gives commands to a golem. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02599))_
 
@@ -499,7 +512,9 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.12 Ancient Magic List / [ Death Cloud ]
 
+- Effect=Makes the air within the area of effect into a lethal substance, killing living things instantly _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02669))_
 - Death Cloud turns the air within its area of effect into a lethal poison gas. All creatures within range must attempt to resist this spell, and if they fail, they will die instantly. If successful, they will suffer no effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02673))_
+- Effect=Makes the air within the area of effect into a lethal substance, killing living things instantly _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02669))_
 - Death Cloud turns the air within its area of effect into a lethal poison gas. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02673))_
 
 ### 5.1.12 Ancient Magic List / [ Perfect Cancellation ]

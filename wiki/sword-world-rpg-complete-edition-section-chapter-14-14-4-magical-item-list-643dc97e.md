@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-643dc97e
 page_kind: source
-summary: Chapter 14: / 14.4 Magical Item List: 789 source-backed entries and 6 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 14: / 14.4 Magical Item List: 691 source-backed entries and 6 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-643dc97e@2b3ae8ec4417721e432ebd21e80c9a6d
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-643dc97e@d4ac657d83384b3048e51a7e56c52317
 ---
 
 # Chapter 14: / 14.4 Magical Item List
@@ -50,6 +50,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / Sword World RPG: Complete Edition Rulebook
 
+- Powers=Those who read it can know the rules of Sword World RPG: Complete Edition . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08858))_
 - This is the rulebook for Sword World RPG: Complete Edition . If you read this, you can understand the rules of Sword World RPG: Complete Edition , and you'll be able to enjoy adventures in Alecrast. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08859))_
 - First, the name of the item will be introduced in large print. Next, there are several game data entries, and a description at the end. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08860))_
 
@@ -85,9 +86,18 @@ From [[sword-world-rpg-complete-edition]].
 
 - Rather than having these appear as +1 swords , it might be better to refer to the descriptions of some of the following magical weapons and give each one a name and a history, as a way to enjoy the atmosphere of Alecrast. Here, as a guideline for rewards the game master should give to characters, is a list of prices of magical daggers, one-handed swords, and two-handed swords with +1 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08889))_
 
+### Chapter 14: / 14.4 Magical Item List / 《 Magic Sword (+2) 》
+
+- Powers=+2 to attack power and bonus damage Here's a list of prices of magical daggers, one-handed swords, and twohanded swords with +2 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08951))_
+
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Sword (+3) 》
 
+- Rarity=16 Enchanter=Many Form=A dagger, a one-handed sword, or a two-handed sword Required Strength/Base Trade Price=See description bonus _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09009))_
 - Here's a list of prices of magical daggers, one-handed swords, and twohanded swords with +3 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09011))_
+
+### Chapter 14: / 14.4 Magical Item List / 《 Assassin's Flute 》
+
+- Rarity=12 Enchanter=Required Strength=4 Form=A flute about 80 cm long Base Trade Price=300 gamels (not for sale) Powers=- _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09014))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Undead Ruler 》
 
@@ -96,6 +106,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Impulse 》
 
+- Rarity=12 Enchanter=Unknown Form=A mithril silver broadsword that emits a pale light _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09023))_
 - (Supplement) This is an heirloom sword passed down through the family of Güzelbahn, a noble family of Verdain. The Güzelbahn family has served the royal family as knights for generations, and those who hold the rank of knight are supposed to own this sword. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09026))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Van Blade 》
@@ -112,6 +123,10 @@ From [[sword-world-rpg-complete-edition]].
 
 - Rarity=17 Enchanter=Frodia, "The Liberator" Form=Heavy mace Required Strength=16 (Strike power 16, 21 with two hands) Base Trade Price=700,000 gamels Powers=+2 to attack power and bonus damage. +12 to the user's strength (strength bonus +2), furthermore, the user is no longer affected by magic that belongs to physical ability _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09040))_
 
+### Chapter 14: / 14.4 Magical Item List / 《 Green Light 》
+
+- Enchanter=Somska, 'The Forger of Colors' Form=A mithril silver broadsword with a green blade _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09043))_
+
 ### Chapter 14: / 14.4 Magical Item List / 《 Sea Slayer 》
 
 - Rarity=15 Enchanter=Cyrus "The Uncertain" Form=A trident with a fish engraved on the handle Required Strength=15 (Strike power 15) Base Trade Price=235,000 gamels Powers=+1 to attack power and bonus damage only in water. Gives the user the ability to act underwater _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09048))_
@@ -119,16 +134,25 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Shy Blade 》
 
+- Enchanter=Yulandia, "The Wanderer" Form=Shortsword Base Trade Price=24,000 gamels Required Strength=7 (Strike power 7) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09052))_
 - When you chant the specified password, this sword becomes completely invisible for 18 rounds. To someone you don't know, it'll just look like you're lightly clenching your fist. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09054))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Stone Statue 》
 
 - Anyone dealt damage by an attack from this sword must make a mental power resistance roll against target score 18. If you fail, you will be instantly petrified. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09060))_
 
+### Chapter 14: / 14.4 Magical Item List / 《 Slice Slider 》
+
+- Rarity=14 Enchanter=Unknown Form=Scimitar Required Strength=14 (Strike power 14) Base Trade Price=83,000 gamels Powers=+2 to attack power and bonus _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09062))_
+
 ### Chapter 14: / 14.4 Magical Item List / 《 Twisted Sling 》
 
 - Rarity=15 Enchanter=Dean "The Contrarian" Form=An old, slightly dirty sling Required Strength=4 (Strike power 4) Base Trade Price=80,000 gamels Powers=-1 to hit checks and damage under normal use, fires an Energy Bolt with a password _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09065))_
 - This looks like a worn-out sling with strings coming loose all over. Moreover, when used normally, both hit checks and damage will suffer a -1 modifier. However, when used without a bullet and with a low ancient password, it can fire a strike power 10, magic power 8 Energy Bolt . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09066))_
+
+### Chapter 14: / 14.4 Magical Item List / 《 Fame Face 》
+
+- Enchanter=Rafiness "The Colorful" Form=Mithril silver broadsword with high ancient runes engraved in bright red on the back of the blade _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09069))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Blade of Bravery 》
 
@@ -141,15 +165,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Blaster 》
 
+- Enchanter=Nimserias, "The Forger of Enlightenment" Form=Greatsword Required Strength=20 (Strike power 25) Base Trade Price=370,000 gamels Powers=+1 to attack power and bonus _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09090))_
 - This magic sword can use unlimited shockwaves (strike power 10, magic power 10), equivalent to the holy magic Force (however, magic expansion is not possible). It can also be used as a magical catalyst. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09092))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Brain Blade 》
 
+- Enchanter=Rye Elk, "The Hundred Brained" Form=Broadsword with a face-like engraving from the handle to the blade _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09095))_
 - This sword has knowledge about enemies and speaks to the user's mind, telling him or her the enemy's name and strength in concrete scores. The contents of this knowledge are limited to only what concerns the enemy. Also, the sword's language is low ancient, so a character who cannot speak low ancient cannot obtain this knowledge. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09099))_
 - The contents of this knowledge are limited to only what concerns the enemy. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09099))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Mind Eater 》
 
+- Powers=Also deals damage to mental points of whoever's body was dealt damage (no bonus) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09107))_
 - Anyone whose life force has been dealt damage by this sword will suffer 2 points of damage to their mental points unless they succeed on a mental power resistance roll against target score 11. This damage cannot be reduced by adventurer level, similar to that of Mental Attack . Also, even if the sword does hit, this effect does not apply if damage is not dealt to life force. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09108))_
 - Anyone whose life force has been dealt damage by this sword will suffer 2 points of damage to their mental points unless they succeed on a mental power resistance roll against target score 11. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09108))_
 
@@ -168,18 +195,22 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
 
+- Rarity=12 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+1 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09174))_
 - This is a price list for magic metal armor with +1 power. While armor with high required strength tends to be unpopular, when it becomes exceptionally high-end, it suddenly becomes an object of interest for enthusiasts, causing prices to spike dramatically. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09175))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》 Non-metal or ring mail
 
+- Rarity=14 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09178))_
 - Here is a list of prices of magical nonmetal or ring mail armor with +2 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09179))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》
 
+- Rarity=14 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09216))_
 - Here is a list of prices of magical metal armor with +2 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09217))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
 
+- Rarity=16 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion speed damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09258))_
 - Here is a list of prices of magical nonmetal or ring mail armor with +3 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09259))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
@@ -191,9 +222,22 @@ From [[sword-world-rpg-complete-edition]].
 
 - This is a price list for magical shields with enchantments. For shields with +2 or higher enchantment, small shields tend to be more expensive than large shields due to differences in demand. For the same reason, high-quality large shields +1/+2 are more expensive than large shields +2/+3. Shields requiring strength of 13 cannot be used by most adventurers. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09338))_
 
+### Chapter 14: / 14.4 Magical Item List / 《 Amber Robe 》
+
+- Rarity=18 Enchanter=Many Form=Robe Required Strength=1 (Defense power 1) Base Trade Price=200,000 gamels Powers=+3 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09364))_
+
+### Chapter 14: / 14.4 Magical Item List / 《 Air Cloak 》
+
+- Rarity=12 Enchanter=Many Form=Transparent blue cloak Required Strength=1 (Defense power 1) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09366))_
+
 ### Chapter 14: / 14.4 Magical Item List / 《 Grey Suit 》
 
+- Enchanter=Somska, "The Forger of Colors" Form=Mithril silver chain mail armor that glows dull grey _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09371))_
 - This mithril chain mail is highquality. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09375))_
+
+### Chapter 14: / 14.4 Magical Item List / 《 Cold Cloak 》
+
+- Powers=+3 to evasion speed and damage reduction. Also gives +3 to resistance to firetype attacks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09382))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Acceptor 》
 
@@ -203,6 +247,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Mithril Mesh 》
 
+- Enchanter=Somska, "The Forger of Colors" Form=Cloth armor woven with fibrous mithril silver _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09388))_
 - There is no bonus to evasion speed. When facing monsters with fixed strike points, there is 1 point of damage reduction . When facing opponents who use weapons like adventurers and determine damage through strike rolls, there is an effect that increases their critical target by +1 , but there is no direct damage reduction. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09391))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Shield of the Brave 》
@@ -223,11 +268,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / [ Container Bracelet ]
 
+- Rarity=15 Form=A bracelet with a large gem Enchanter=Many Base Trade Price=120,000 gamels _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09418))_
 - When you bring an object close to the jewel attached to the bracelet and speak the password in low ancient, the object will be absorbed into the jewel. While the object is absorbed, if you speak the password again, you can retrieve the object. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09420))_
 - This bracelet cannot absorb more than one object at a time, and it cannot absorb anything that exceeds 50 centimeters in length in any dimension. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09421))_
 
 ### Chapter 14: / 14.4 Magical Item List / [ Sleepless Pendant ]
 
+- Rarity=13 Enchanter=Cyrus, "The Uncertain" Form=Small silver pendant Base Trade Price=80,000 gamels Powers=Wearer never falls asleep. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09423))_
 - This was created to allow working for long periods without sleep. Those who wear this pendant will never fall asleep. Neither the Sleep Cloud of ancient magic nor the Sleep of spirit magic will have any effect. However, it cannot reduce the fatigue and other effects that come with staying awake for long periods. If worn for too long, one might die from sleep deprivation. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09424))_
 
 ### Chapter 14: / 14.4 Magical Item List / [ Necklace of Faith ]
@@ -238,6 +285,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / [ Amulet of Countersense ]
 
+- Enchanter=Many Form=Amulet Base Trade Price=190,000 gamels Powers=Know who is detecting _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09436))_
 - If the owner of this amulet has a Detection spell cast on him or her, the amulet will glitter and project the opponent who cast the spell. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09437))_
 
 ### Chapter 14: / 14.4 Magical Item List / [ Telecall Amulet ]
@@ -252,12 +300,15 @@ From [[sword-world-rpg-complete-edition]].
 - When the stored mental points are depleted, the magic crystal shatters. The method of creating magic crystals has been lost, and it is impossible to replenish mental points in magic crystals. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09459))_
 - It is believed that these treasures were used as currency during the Ancient Kingdom period, and they are frequently discovered in the ruins of the Ancient Kingdom. The game master may decide that these are widely traded at the academy of sages. In this case, adventurers can purchase these stones if they have enough money. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09460))_
 - However, in most cases, the crystals being sold have few remaining mental points (meaning they have been partially used by others). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09461))_
+- Rarity=13 Enchanter=Many Form=Spherical polished amber crystal Base Trade Price=2,600 gamels Powers=Makes 10 square meters of ground underfoot (sand or mud) more stable _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09463))_
 - An earth crystal will break after one use. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09464))_
+- Rarity=13 Enchanter=Many Form=Spherical polished white crystal Base Trade Price=5,000 gamels Powers=Has the same effect as Blizzard when thrown _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09466))_
 - When thrown it deals strike power 20 damage within its area of effect, equivalent to Blizzard . Its magic power is 5. Crystal breaks after one use. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09467))_
 - By chanting a password, it'll blow winds up to a speed of 10m within a 100m radius. It'll break after 10 uses. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09481))_
 - Base Trade Price=Remaining number of uses x 120 gamels Powers=Casts a Darkness spell When you chant the password, a darkness equivalent to Darkness will appear. It'll break after 10 uses. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09484))_
 - When thrown it deals strike power 20 damage within its area of effect, equivalent to Fireball . Its magic power is 4 and breaks after one use. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09491))_
 - When you chant the password, a light effect equivalent to Light will appear. It'll break after 10 uses. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09498))_
+- Rarity=13 Enchanter=Many Form=Spherical polished yellow crystal Base Trade Price=1800 gamels Powers=Has the same effect as Lightning when thrown _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09500))_
 - When thrown, a 20 meter bolt of lightning, equivalent to Lightning , runs in that direction, dealing strike power 20 damage to those in its path. Its magic power is 3 and breaks after one use. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09501))_
 - However, only one stone can be used at a time, and it cannot be used simultaneously with the caster's own mental power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09458))_
 - When referring to a magic crystal, it means a stone that concentrates magic power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09458))_
@@ -278,6 +329,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / [ Staff of Sorcery ]
 
+- Powers=Can use ancient magic up to 7th level. However, you'll be controlled and manipulated by the staff _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09515))_
 - However, for each spell cast, they must make a mental power resistance roll with a target score of 16. If they fail, they become controlled by the staff. Even with a successful resist, the target score increases by +1 with each spell cast. If the staff is released for more than 1 day, the target score returns to its original value. When the staff controls its user, it will attempt to cunningly and ruthlessly slaughter people, targeting magic users first. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09517))_
 
 ### Chapter 14: / 14.4 Magical Item List / [ Staff of Fire ]
@@ -304,6 +356,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / [ Plant Command Wand ]
 
+- Enchanter=Unknown Form=A wand about 15cm long Powers=Can use plant spirit magic _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09553))_
 - Those with this wand will be able to cast spirit magic sourced from the power of plant spirits up to 8th level, such as Binding and Charm . The wand stores 100 mental points, and each time you use magic, the base mental power cost of the magic is consumed. When using this wand to cast magic, magic power is treated as 8 regardless of the user's magic power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09555))_
 - Those with this wand will be able to cast spirit magic sourced from the power of plant spirits up to 8th level, such as Binding and Charm . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09555))_
 
@@ -332,6 +385,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / [ Linkage Ring ]
 
+- Powers=Two people who wear these can freely use each other's mental points between them _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09610))_
 - When characters of the same race and opposite gender wear these rings, they can freely use each other's mental points. However, if one person has a spell, etc., that affects the mind cast on him or her, it'll affect both people. These rings will not work unless both people are within 1 km. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09611))_
 - These rings will not work unless both people are within 1 km. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09611))_
 
@@ -385,6 +439,10 @@ From [[sword-world-rpg-complete-edition]].
 - If you hold the stone and chant the password of release, or if you destroy the stone, the sealed soul will be released and return to its body. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09696))_
 - Only one person's soul can be sealed in at a time. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09695))_
 
+### Chapter 14: / 14.4 Magical Item List / [ Jumping Boots ]
+
+- Powers=The equipped person will be able to jump 3m high and 10m far. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09703))_
+
 ### Chapter 14: / 14.4 Magical Item List / [ Scape Doll ]
 
 - If a character ties his or her hair to it and etches his or her name into it, then when he or she suffers physical damage, the scape doll's life force will be reduced instead of that character's life force. The scape doll's life force will be the same as the life force of the character who etched his or her name into it. A scape doll will break when its life force reaches 0. At this time, if there is surplus damage, reduce the character's own life force. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09711))_
@@ -394,6 +452,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / [ Statue of Changing ]
 
+- Powers=Anyone who touches the statue shapeshifts into the form of the same animal as the statue (other than the snake) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09719))_
 - Anyone who touches this statue will shapeshift into an animal of the same form as the statue. A shapeshifted form can return to his or her original state by either touching the snake statue or with a final score 15 Dispel Magic . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09720))_
 
 ### Chapter 14: / 14.4 Magical Item List / [ Spirit Sealing Stone ]
@@ -410,6 +469,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Chapter 14: / 14.4 Magical Item List / [ Zero Gravity Disc ]
 
+- Rarity=18 Enchanter=Kaiber, "The Sorcerer of Gravity" Form=A 1.5m diameter golden plate Base Trade Price=160,000 gamels Powers=Negates gravity _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09742))_
 - This plate is made of a magical metal that completely negates gravity. All objects placed on the plate lose their weight, and the plate itself is always floating. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09743))_
 - If you push it up towards the sky, it'll fly anywhere as-is. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09744))_
 
@@ -424,6 +484,10 @@ From [[sword-world-rpg-complete-edition]].
 - An Archdaemon appears and drags the summoner into the jar! _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09762))_
 - The summoned daemon will obey the summoner's commands. Please use Table 14-1: Daemon Jar Summon to determine which daemon will appear. If the summoner is gone, the daemon, according to its intrinsic nature, will begin to act violently. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09781))_
 
+### Chapter 14: / 14.4 Magical Item List / [ Daemon Hand ]
+
+- Powers=With freely-moving fingertips, gain a +2 to the thief skill's lockpicking , remove/set trap , climb , and pickpocket checks _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09788))_
+
 ### Chapter 14: / 14.4 Magical Item List / [ Dragon Tooth ]
 
 - By casting the 5th level ancient magic Skeleton Warrior on this tooth, you can create a puppet golem, a skeleton warrior (dragontooth warrior). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09795))_
@@ -431,6 +495,10 @@ From [[sword-world-rpg-complete-edition]].
 ### Chapter 14: / 14.4 Magical Item List / [ Tracer Doll ]
 
 - This doll, which looks like a woman with one arm raised, was made to prevent the loss of important things, so it's endowed with the magical power to remember specific objects or people, and always points in the direction they're located (are). In a state where it does not have anything to remember , or if the thing it remembers has been lost, the doll cannot point anywhere and will just spin around. To make it remember something, you must touch the doll to the object and chant a password. What the doll remembers is displayed on its pedestal, so you can know this if you read low ancient. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09802))_
+
+### Chapter 14: / 14.4 Magical Item List / [ Night Goggles ]
+
+- Rarity=18 Enchanter=Unknown Form=Glasses with red lenses Base Trade Price=130,000 gamels _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09804))_
 
 ### Chapter 14: / 14.4 Magical Item List / [ Bag of Protection ]
 
@@ -471,6 +539,10 @@ From [[sword-world-rpg-complete-edition]].
 
 - A magic spell is written on this (in high ancient). If a sorcerer reads it, he or she can use the magic written on it only once . It doesn't matter if the sorcerer skill level has not reached the magic level, nor does it consume mental power. However, the magic cannot be expanded. When you need magic power (baseline score for a success roll), use the sorcerer's. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09862))_
 - Some of these scrolls have lost spells written on them. In this case, the Base Trade Price will be x 1.5. If you bring it back without using it, perhaps the lost magic may spread throughout the world through the research of an academy of sages . Scrolls with lost spells written on them are almost certainly not sold on the market. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09863))_
+
+### Chapter 14: / 14.4 Magical Item List / [ Mask of Scale
+
+- Enchanter=Ladios, "The Sage of the Seabed" Form=A jade-colored mask imitating a human face _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09867))_
 
 ### Chapter 14: / 14.4 Magical Item List / [ Mask of Lady ]
 
@@ -664,9 +736,9 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 5: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09259))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09258))_
 
-> Here is a list of prices of magical nonmetal or ring mail armor with +3 power.
+> Rarity=16 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion speed damage reduction
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09257))_
 

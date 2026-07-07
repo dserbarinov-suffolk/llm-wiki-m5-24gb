@@ -4,11 +4,11 @@ page_kind: source
 summary: 13.2.3 Youma / [ Dark Elf ]: 18 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-dark-elf-f7f77780@b456ea35adaf19834fa62bfa4f15ac50
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-dark-elf-f7f77780@b920157038d71447a810e03fa0a0e42b
 ---
 
 # 13.2.3 Youma / [ Dark Elf ]
@@ -28,6 +28,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Statements
 
+- Rarity=11 Agility=19 Movement Speed=19 Number=One to several Frequency=Rare Intellect=High Reaction=Adversarial Attack Points=Weapon: 9 (2) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06023))_
 - In the ancient battle of the gods, the elves fought on the side of the gods of light. However, there were some who sided with the dark gods. These elves with jet-black skin are called dark elves. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06025))_
 - They are apostles of the dark gods, and love to be despicable. Assassination using Invisibility is said to be their most special technique. The weapons they use are often coated with poison. A character who is attacked by a poisoned weapon and suffers damage must immediately make a life force resistance roll against target score 10. If you fail, you will suffer damage resulting from a strike power 10 strike roll plus +3 bonus damage. This damage is separate from the damage of the weapon itself and can be reduced by adventurer level. If you successfully resist, you will not suffer any poison damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06026))_
 - Rarity=11 Agility=19 Movement Speed=19 Number=One Frequency=Very Rare Intellect=High Reaction=Adversarial Attack Points=Weapon: 12 (5) Strike Points=9+poison Evasion Points=15 (8) Defense Points=9 Life Points/Resistance=10/13 (6) Mental Points/Resistance=17/18 (11) Special Abilities=6th level spirit magic (Magic Intensity/Magic Power=16/9 5th level dark magic (Magic Intensity/Magic Power=15/8) Poison (Toxicity score 13, paralysis, lasts 12 hours) Habitat=Forests far from human villages Languages=Elven, silent spirit, regional Perception=Five senses (darkvision, _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06030))_

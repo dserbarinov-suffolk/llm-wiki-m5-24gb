@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-13-monster-level
 page_kind: concept
-summary: 13 Monster Level: 4 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13 Monster Level: 4 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-13-monster-level@0642f622f357764bdd6c2cd0d515eb7a
+projection_coverage: topic-sword-world-rpg-complete-edition-13-monster-level@cda1989ba7c0942c6de2e834d1dc4884
 ---
 
 # 13 Monster Level
@@ -61,20 +61,6 @@ Monster Level and Adventurer Level
 ```
 
 </details>
-
-### Technical frame 2: 13.5 Monster Level and Adventurer Level
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08602))_
-
-> Of course, combat balance will vary depending on the special abilities of the monsters and the composition of the Note: A dark elf can add +4 to mental power resistance due to the blessings of the dark gods. A noble lizardman's entire body is covered in scales which adds +5 to defense power.
-
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08603, source-range-e5870dca-08604))_
-
-<a id="atom-technical-atom-32014280382b68c5"></a>
-> Table 13-3: Monster Level/Event Scale Comparisons
-
-<a id="atom-technical-atom-66cba605a5f5ddfa"></a>
-> Table 13-2: Determining Monster Sub-Ability Scores
 
 
 ## Related pages

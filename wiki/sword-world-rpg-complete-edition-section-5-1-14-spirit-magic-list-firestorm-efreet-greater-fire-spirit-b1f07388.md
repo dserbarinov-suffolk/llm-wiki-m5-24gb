@@ -4,11 +4,11 @@ page_kind: source
 summary: 5.1.14 Spirit Magic List / [ Firestorm ] (Efreet/Greater Fire Spirit): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-firestorm-efreet-greater-fire-spirit-b1f07388@77ebbdf75ba365e4dd974f8dda22d03e
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-firestorm-efreet-greater-fire-spirit-b1f07388@9923c8993be9b1148924921abbdffb0b
 ---
 
 # 5.1.14 Spirit Magic List / [ Firestorm ] (Efreet/Greater Fire Spirit)
@@ -28,5 +28,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Statements
 
+- Expansion=Final score, distance, damage certainty Resist=Reduced effect area, _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03255))_
 - This spell creates a storm of scorching flame in a 10 meter radius centered on a point in space. The firestorm deals fire and heat damage to everything within its radius. Its strike power is 30. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03256))_
 - The firestorm deals fire and heat damage to everything within its radius. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03256))_

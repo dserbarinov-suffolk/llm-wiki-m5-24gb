@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-ape-b16bc58a
 page_kind: source
-summary: [ Ape ]: 58 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Ape ]: 46 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-ape-b16bc58a@3cf4663c4df59446d4c81c48c7590f76
+projection_coverage: section-sword-world-rpg-complete-edition-section-ape-b16bc58a@218e225f7ec497ea15742dd78d17d32b
 ---
 
 # [ Ape ]
@@ -30,5 +30,6 @@ From [[sword-world-rpg-complete-edition]].
 - This is the boss ape that leads a group of small apes, and only males can become one. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07144))_
 - Gorillas are apes larger than humans, are omnivorous, and do not form large groups. Those in Alecrast have ferocious personalities and prefer to attack creatures smaller than themselves. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07151))_
 - Gorillas attack by swinging their brawny arms around, but if an opponent is smaller than itself, it will grab it with both arms and try to strangle it to death. This attack method is resolved using the rules for strangling (see p. 236). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07152))_
+- Monster Level=5 Rarity=11 Agility=12 Movement Speed=20 Number=One Frequency=Very Rare Intellect=Low Reaction=Adversarial Attack Points=Arm:13 (6)/Arm:13 (6) Strike Points=13/13 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07154))_
 - The mutant big ape is a mutant species of gorilla, a ferocious giant ape that can in fact reach up to 5 meters in height. They have a ferocious personality similar to that of a gorilla, and will attack anything they see. Like gorillas, they fight by flailing their arms and, in some cases, trying to strangle their opponent to death. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07164))_
 - This is the boss ape that leads a group of small apes, and only males can become one. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07144))_

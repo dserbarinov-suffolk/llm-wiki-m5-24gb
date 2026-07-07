@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-03a359ee
 page_kind: source
-summary: 5.1.14 Spirit Magic List: 725 source-backed entries and 6 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.14 Spirit Magic List: 664 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-06
+updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-03a359ee@b9262ca2433f7c7f8331ee61d3b8570e
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-03a359ee@8baff27dc770c21ab70d45c65caec4b1
 ---
 
 # 5.1.14 Spirit Magic List
@@ -63,7 +63,9 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.14 Spirit Magic List / [ Brownie ] (Brownie/Building Spirit)
 
+- Base Mental Power Cost=3 Distance=Inside a building Area=Inside a building Duration=While the caster is asleep Effect=Do chores around the house Type=Expansion=- _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02790))_
 - Brownies are spirits that live in old houses and castles that were built over 50 years ago. They may clean the house while the family members are sleeping. This spell has the effect of giving a command to a brownie, specifying a chore the caster would like them to do while they're asleep. However, the requested job must be a simple one. If you request something too complicated, it's too much for them and you can't expect a good result. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02792))_
+- Base Mental Power Cost=3 Distance=Inside a building Area=Inside a building Duration=While the caster is asleep Effect=Do chores around the house Type=Expansion=- _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02790))_
 
 ### 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit)
 
@@ -87,6 +89,7 @@ From [[sword-world-rpg-complete-edition]].
 
 - Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the spirit that controls fear. It is said to have a spherical shape like the will-o-wisp, but this is not certain (because like a crow in the pitch-black night, it cannot be seen). All natural light within a 5 meter radius of this spirit is negated, closing it in complete darkness. The darkness created by a shade has no effect in a space where the ancient magic Light is at work. In addition, if the light emitted by a will-owisp and the darkness produced by a shade overlap, the powers of both will be negated. The shade will fly freely in the air according to the caster's commands, but can no longer be controlled if it moves more than 20 meters away from the caster. The shade is also very fragile and will easily disintegrate with the slightest force. At this time, it emits an energy completely different from a willo-wisp. This has no physical effect, but it impairs mental activity and has the effect of reducing mental power (points). Make a strike power 10 damage check, and subtract the result from mental power (points). The damage is only dealt to mental power (points), the rest of the check is the same as for magic that deals normal damage. If mental power (points) becomes 0 or negative, the target loses consciousness. Furthermore, if an opponent destroys a shade with a weapon they're holding, the one who took that action will also suffer the same damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02835))_
 - If a shade itself comes into contact with a will-o-wisp's body or enters the area of effect of the ancient magic Light , it'll vanish without emitting any energy. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02836))_
+- Effect=Negates natural light within the area of effect, closing it in darkness _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02830))_
 - The damage is only dealt to mental power (points), the rest of the check is the same as for magic that deals normal damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02835))_
 - All natural light within a 5 meter radius of this spirit is negated, closing it in complete darkness. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02835))_
 
@@ -110,6 +113,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit)
 
+- Base Mental Power Cost=12 Distance=Caster Area=Caster Duration=Until focus ends Effect=Makes the caster invisible Type=Focus, Illusion Expansion=- _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02876))_
 - By casting this spell, the caster can turn invisible. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02878))_
 - However, Grax's end was a pitiful one. After emerging victorious from a battle, he was on his way back to report to the kingdom ahead of the others, when he encountered a lone gremlin. Grax paid no heed to this little youma, but quite unexpectedly, the gremlin cast a "Forget" spell on the pegasus he was riding and fled. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02880))_
 - Caught off-guard, the pegasus was struck by the spell, and without realizing what it was doing, it flung its master off its back, and flew off. The hero Grax slammed into the ground far below, and perished. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02881))_
@@ -192,7 +196,9 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ]
 
+- Base Mental Power Cost=20 Distance=10 meters Area=1 plant Duration=Until focus ends Effect=Can control plants as one Type=Focus, target score Expansion=Final score, distance Resist=None _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03036))_
 - This is a spell that allows you to control plants by borrowing the power of ent, which is the greater spirit of plants. This allows you to control all plants at will. It is also effective against plant-type monsters, but if the opponent has a mental point resistance score, you must make a success roll using magic power as the baseline score and attain a final score greater than or equal that resistance score. This spell can also move plants that normally wouldn't move, allowing them to directly participate in attacks. In this case, the ent will directly possess the plant and exert physical power, so its attack points, evasion points, etc. will always be the following scores. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03037))_
+- Monster Level =5 Rarity=15 Agility=6 Movement Speed=6 Attack Points=12 (5) Evasion Points=12 (5) Mental Points/Resistance=-/12(5) Special Abilities=Mental attack immunity, Weak to fire _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03038))_
 - The scores for strike points, defense points, and life points/resistance will depend on the size of the plant being controlled, but for a normal tree they will be about as follows. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03039))_
 - The game master should modify these scores according to the size of the plant being controlled. Additionally, if the spell is removed by Dispel Magic , etc. the controlled plants will immediately return to their original tree state. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03042))_
 
@@ -215,6 +221,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.14 Spirit Magic List / [ Missile Protection ] (Sylph/Wind Spirit)
 
+- Type=Countered (Negated) By: Shoot Arrow Expansion=Duration, distance, area _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03081))_
 - This spell specifies a point in space and affects the space within a 5 meter radius from it. Its effect is to protect those within range from projectile attacks. However, projectiles with a strike power that exceeds 30 are beyond the limits of sylph's abilities, and therefore cannot be the target of the effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03083))_
 - However, projectiles with a strike power that exceeds 30 are beyond the limits of sylph's abilities, and therefore cannot be the target of the effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03083))_
 - Its effect is to protect those within range from projectile attacks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03083))_
@@ -230,6 +237,7 @@ From [[sword-world-rpg-complete-edition]].
 - This spell has the effect of creating a wall in a specified area using certain spirit power. Some walls may block your gaze, preventing attacks from spells and projectiles. There are also walls that you cannot pass through, walls that deal damage even if you force your way through, etc. Walls can be negated by Dispel Magic or Suppress Elemental , or countered by the opposing Spirit Wall . The wall is normally 0.5 meters thick, but you can consume extra mental power to expand the target size and make it thicker (as long as you do not change the length or height of the wall, the thickness will increase as the expansion rate increases). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03093))_
 - You cannot build a wall where other materials such as rocks, trees, or living things already exist. Furthermore, once a wall is put up, it cannot be moved or removed by the caster's will. The types of spells are divided by the lesser spirits that control them, and the walls created by each spell each have different characteristics depending on their spirit power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03094))_
 - Counters (Negates): Shade , Spirit Wall: Shade Countered (Negated) By: Shade , Spirit Wall: Shade _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03098))_
+- Expansion=Final score, duration, distance, target volume, damage certainty Resist=Reduced effect _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03100))_
 - With the help of the spirit of light, you can build a dazzling wall of light. The wall of light is not a solid entity, but a collection of will-o-wisps themselves. Therefore, the space on either side of the wall of light is illuminated with a brightness like midday. The glow from the wall is so intense that you can't look directly at it (so your gaze won't pass through it). The wall of light has no way to prevent objects from passing through it, so you can pass through it without any resistance. However, if you touch the wall or try to pass through it, you will destroy the will-o-wisps forming the wall. At this time, make a resistance roll, and if you fail, you will suffer strike power 10 damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03101))_
 - The wall of light cannot be destroyed by physical methods or damage magic, but when the dark spirit shade collides with the wall, a round hole about 50 cm in diameter will be created. At this time, the shade will also vanish. If Spirit Wall: Shade is used in the same place, their effects will negate each other, and both walls will vanish. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03102))_
 - A wall of light cannot be put up within the area of effect of the ancient magic Darkness . Also, if the magical darkness created by Darkness and the wall of light overlap, the wall will end there. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03103))_
@@ -243,6 +251,7 @@ From [[sword-world-rpg-complete-edition]].
 - By borrowing the power of the wind spirit, you can create a wall of surging storms. When you chant the spell, a wild gust of wind comes out of nowhere and begins swirling in the same place. The storm wall is transparent, so it won't block your gaze, but all projectile attacks, including those from Shoot Arrow , will be deflected in front of you by the sylphs lurking in the wind. Those that touch the wall or try to pass through it must attempt to resist. If you succeed, you will be able to pass through the wall without incident, but if you fail, you will be blown away in the opposite direction from the wall. The storm wall cannot be destroyed by physical methods or magic that deals damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03134))_
 - By borrowing the power of plant spirits, creates a wall of living vegetation consisting of vines and thorn bushes. When you chant the spell, vines will sprout from the ground and entangle each other, filling the gaps with thorn bushes. You can't see through it, and you can't pass through it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03138))_
 - This wall can be destroyed by weapons or magic. For more information, please refer to 18.3: Rules for Destroying Structures (see p. 277). However, this wall regenerates by growing new trees one after the other. Even if the wall is completely destroyed, it will continue to regenerate for the duration of the spell. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03139))_
+- Type=Target score Countered (Overpowered) By: Tunnel Expansion=Final score, duration, distance, target volume Resist=None _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03142))_
 - By borrowing the power of the earth spirit, you can build a smooth wall made of solid rock. When you chant this spell, a number of stone slabs break through the ground and rise up in a flash, creating a seamless wall. A rock wall blocks your gaze and cannot be passed through without making a hole in the wall. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03143))_
 - For details on the destruction of this wall, please refer to 18.3: Rules for Destroying Structures (see p. 277). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03144))_
 - By borrowing the power of the ice spirits, you can build a freezing wall of ice. When you chant the spell, cold mist gathers and becomes frost, then the frost rises in bands of ice. Your gaze can see through the ice wall, but you cannot pass through it. It's made of magical ice, so if you touch this wall, you will be exposed to the cold air radiated from the ice and take strike power 10 damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03153))_
@@ -273,6 +282,7 @@ From [[sword-world-rpg-complete-edition]].
 
 - This spell creates a tornado in a 10 meter radius around a point in space. Anyone except the caster within the spell's area of effect, or who attempts to enter the tornado during the spell's duration must attempt to resist. Those who successfully resist will move at half their normal movement speed (there is no change in their action order) and can take actions with a -2 penalty on success rolls such as attack, evasion, etc. However, those who fail to resist are slammed to the ground and can only move 3 meters per round while crawling on the ground for the duration of the spell. When attacking, evading, etc. in this state, all will suffer a -4 penalty. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03174))_
 - Additionally, the tornado creates a vacuum that cuts the skin and flesh of those within its area of effect, dealing strike power 10 damage. The cutting damage continues to have an effect until the target leaves the area of effect. Damage is determined by making a strike roll each round. Only the first attempt to resist this spell counts. Objects weighing less than 10 kilograms or equipment held in the hand or not securely attached to the body will be blown out of the area of effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03175))_
+- Effect=Create a tornado, knocking targets prone within range and dealing strike power 10 damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03170))_
 - Those who successfully resist will move at half their normal movement speed (there is no change in their action order) and can take actions with a -2 penalty on success rolls such as attack, evasion, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03174))_
 - However, those who fail to resist are slammed to the ground and can only move 3 meters per round while crawling on the ground for the duration of the spell. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03174))_
 - Anyone except the caster within the spell's area of effect, or who attempts to enter the tornado during the spell's duration must attempt to resist. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03174))_
@@ -338,6 +348,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.14 Spirit Magic List / [ Firestorm ] (Efreet/Greater Fire Spirit)
 
+- Expansion=Final score, distance, damage certainty Resist=Reduced effect area, _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03255))_
 - This spell creates a storm of scorching flame in a 10 meter radius centered on a point in space. The firestorm deals fire and heat damage to everything within its radius. Its strike power is 30. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03256))_
 - The firestorm deals fire and heat damage to everything within its radius. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03256))_
 
@@ -351,8 +362,10 @@ From [[sword-world-rpg-complete-edition]].
 
 ### 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit)
 
+- Effect=Causes an earthquake, knocking targets prone within range and dealing strike power 20 damage _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03274))_
 - This spell causes a localized earthquake only within a 10 meter radius. With the exception of the caster, anyone within the spell's area of effect or who attempts to enter the earthquake during the spell's duration will be knocked off their feet and fall prone, regardless of whether or not they successfully resist. For the duration of the spell, you can only move 3 meters per round while crawling on the ground, taking a -4 penalty on success rolls such as attacks, evasion, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03278))_
 - Additionally, as long as you remain within the area of effect, you will be slammed to the ground by the earthquake every round, suffering strike power 20 damage. However, those who successfully resist will only suffer strike power 10 and no criticals. This earthquake causes all normal houses within the spell's area of effect to collapse (with the exception of strong buildings such as castles and forts, or those with magical protection), and trees to fall down. Depending on the situation, falling rocks and avalanches are quite possible. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03279))_
+- Effect=Causes an earthquake, knocking targets prone within range and dealing strike power 20 damage _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03274))_
 - With the exception of the caster, anyone within the spell's area of effect or who attempts to enter the earthquake during the spell's duration will be knocked off their feet and fall prone, regardless of whether or not they successfully resist. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03278))_
 - This spell causes a localized earthquake only within a 10 meter radius. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03278))_
 - For the duration of the spell, you can only move 3 meters per round while crawling on the ground, taking a -4 penalty on success rolls such as attacks, evasion, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03278))_
@@ -391,7 +404,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: 5.1.14 Spirit Magic List
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02741, source-range-e5870dca-02742, source-range-e5870dca-02743, source-range-e5870dca-02744, source-range-e5870dca-02745, source-range-e5870dca-02747, source-range-e5870dca-02748, source-range-e5870dca-02749))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02741, source-range-e5870dca-02742, source-range-e5870dca-02743, source-range-e5870dca-02744, source-range-e5870dca-02745, source-range-e5870dca-02747, source-range-e5870dca-02749))_
 
 <a id="atom-technical-atom-54c145f8be61c055"></a>
 > Base Mental Power Cost=3
@@ -410,9 +423,6 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-da05a86f6e207eb7"></a>
 > Type=Detection
-
-<a id="atom-technical-atom-c2dff181a3ff3d37"></a>
-> Expansion=Duration, distance, area
 
 <a id="atom-technical-atom-e9a04e34a8d8aaf3"></a>
 > Resist=None
@@ -483,31 +493,3 @@ Same as above
 | 12 | Target loses consciousness from fear. It takes 1 hour to regain consciousness naturally |
 
 </details>
-
-### Technical frame 4: 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ]
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03039))_
-
-> The scores for strike points, defense points, and life points/resistance will depend on the size of the plant being controlled, but for a normal tree they will be about as follows.
-
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03038, source-range-e5870dca-03040, source-range-e5870dca-03041))_
-
-<a id="atom-technical-atom-c2f053f52935984a"></a>
-> Monster Level =5 Rarity=15 Agility=6 Movement Speed=6 Attack Points=12 (5) Evasion Points=12 (5) Mental Points/Resistance=-/12(5) Special Abilities=Mental attack immunity, Weak to fire
-
-<a id="atom-technical-atom-11c88a9b3c2cc68d"></a>
-> Strike Points=10 Defense Points=7
-
-<a id="atom-technical-atom-d9c54170880662f1"></a>
-> Life Points/Resistance=30/15(8)
-
-### Technical frame 5: 5.1.14 Spirit Magic List / [ Spirit Wall ]
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03138))_
-
-> By borrowing the power of plant spirits, creates a wall of living vegetation consisting of vines and thorn bushes. When you chant the spell, vines will sprout from the ground and entangle each other, filling the gaps with thorn bushes. You can't see through it, and you can't pass through it.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03137))_
-
-<a id="atom-technical-atom-8453ccdb02c9e5c1"></a>
-> Type=Target score Expansion=Final score, duration, distance, target volume Resist=None
