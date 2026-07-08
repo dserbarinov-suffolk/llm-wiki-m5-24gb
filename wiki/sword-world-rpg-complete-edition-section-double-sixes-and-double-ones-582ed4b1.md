@@ -4,11 +4,11 @@ page_kind: source
 summary: Double Sixes and Double Ones: 9 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-double-sixes-and-double-ones-582ed4b1@fddc69508b6962c979b068645f613211
+projection_coverage: section-sword-world-rpg-complete-edition-section-double-sixes-and-double-ones-582ed4b1@db7c48e278ca86e1e37f025a975fd5b1
 ---
 
 # Double Sixes and Double Ones
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-112572a5]] - previous source section: 4.7 Attacks From Characters Against Characters
-- [[sword-world-rpg-complete-edition-section-4-7-2-damage-checks-dcc87885]] - next source section: 4.7.2 Damage Checks
 
 ## Statements
 

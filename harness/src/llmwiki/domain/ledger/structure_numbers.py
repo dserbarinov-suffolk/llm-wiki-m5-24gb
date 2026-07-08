@@ -40,6 +40,26 @@ def is_number_marker(label: str, number_path: tuple[int, ...]) -> bool:
     return label == marker
 
 
+def structural_path_labels(labels: tuple[str, ...]) -> tuple[str, ...]:
+    merged: list[str] = []
+    index = 0
+    while index < len(labels):
+        label = labels[index]
+        number_path = heading_number_path(label)
+        if (
+            number_path
+            and is_number_marker(label, number_path)
+            and index + 1 < len(labels)
+            and not heading_number_path(labels[index + 1])
+        ):
+            merged.append(canonical_heading_label(numbered_title(number_path, labels[index + 1])))
+            index += 2
+            continue
+        merged.append(label)
+        index += 1
+    return tuple(merged)
+
+
 def number_conflicts(parent: tuple[int, ...], child: tuple[int, ...]) -> bool:
     if not parent or not child or parent == child:
         return False
@@ -51,7 +71,15 @@ def number_parent(parent: tuple[int, ...], child: tuple[int, ...]) -> bool:
 
 
 def same_heading(parent_label: str, child_label: str) -> bool:
-    return parent_label == child_label or without_leading_number(parent_label) == child_label
+    if parent_label == child_label or without_leading_number(parent_label) == child_label:
+        return True
+    parent_path = heading_number_path(parent_label)
+    child_path = heading_number_path(child_label)
+    return bool(
+        parent_path
+        and parent_path == child_path
+        and without_leading_number(parent_label) == without_leading_number(child_label)
+    )
 
 
 def without_leading_number(label: str) -> str:

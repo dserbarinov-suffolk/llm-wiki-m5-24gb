@@ -4,11 +4,11 @@ page_kind: source
 summary: 2.3.1 Automatic Success and Automatic Failure: 5 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-3-1-automatic-success-and-automatic-failure-9351b854@1f81c460f1c7a7e30c4207c6c7f40e70
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-3-1-automatic-success-and-automatic-failure-9351b854@95d7d3a86fe0b5c47f139a0826700f46
 ---
 
 # 2.3.1 Automatic Success and Automatic Failure
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-checks-00dfa735]] - previous source section: Checks
+- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-002f7779]] - previous source section: 2.1 Baseline Scores
 - [[sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-e2265fd4]] - next source section: 2.4 Bonuses and Penalties
 
 ## Statements

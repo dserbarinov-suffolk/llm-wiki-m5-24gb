@@ -4,11 +4,11 @@ page_kind: source
 summary: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks: 12 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-9c205d1f@7a15170808342d3e07ed980708b76387
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-9c205d1f@407ebe2f2dac980a0c450f8fb9da71bc
 ---
 
 # 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
@@ -16,6 +16,10 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attack
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-dcc87885]] - next source section: 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks
 
 ### Source structure
 

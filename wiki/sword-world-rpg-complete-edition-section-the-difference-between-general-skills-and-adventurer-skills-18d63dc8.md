@@ -1,25 +1,19 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-the-difference-between-general-skills-and-adventurer-skills-18d63dc8
 page_kind: source
-summary: The Difference Between General Skills and Adventurer Skills: 32 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: The Difference Between General Skills and Adventurer Skills: 23 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-the-difference-between-general-skills-and-adventurer-skills-18d63dc8@650d53804d3098e1127fb57c23922261
+projection_coverage: section-sword-world-rpg-complete-edition-section-the-difference-between-general-skills-and-adventurer-skills-18d63dc8@2995ab08c1e9ac5fba2f5b4bb897d5e5
 ---
 
 # The Difference Between General Skills and Adventurer Skills
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-how-to-create-general-skills-8f91ae1c]] - next source section: How to Create General Skills
 
 ## Statements
 
@@ -35,12 +29,3 @@ From [[sword-world-rpg-complete-edition]].
 - For example, the famous playwright William Tell, who was just a hunter, was considered a hero for shooting an apple off his child's head. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04223))_
 - If you understand this mentality, then on the other hand, it would be acceptable to recognize adventurer skills for skills that would be called heroes. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04223))_
 - However, basically in Sword World RPG , only those who are masters of adventurer skills are worthy of being called heroes. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04223))_
-
-## Statements by subsection
-
-### The Difference Between General Skills and Adventurer Skills / 7.2 Merchant Skill
-
-- This is a skill related to trade. Merchants are a class with a lot of freedom in Sword World , and often travel for trade purposes. Among them are peddlers who are always traveling and doing business. Merchants are usually issued a merchant's pass by the king as proof of their status. A person holding this is given the right to open a shop in public. Therefore, if some of the adventurers have this skill, they can also sell the items they obtain from their adventures in shops or on the street. A _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04226))_
-- person without this certificate cannot conduct transactions in public. However, you are free to buy, sell, or transfer personal items. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04227))_
-- Even though they're all called merchants, there are many different types of merchants _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04228))_
-- Therefore, if some of the adventurers have this skill, they can also sell the items they obtain from their adventures in shops or on the street. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04226))_

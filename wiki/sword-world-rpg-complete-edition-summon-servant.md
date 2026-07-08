@@ -4,7 +4,7 @@ page_kind: concept
 summary: Summon Servant: 8 statement(s) and 15 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-summon-servant@e8d8cc196c4acdf64e624ec2e538dcef

@@ -4,11 +4,11 @@ page_kind: source
 summary: Equipment: 29 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-equipment-fa988ff9@7ba95bfe32636941a6257ade07338c9f
+projection_coverage: section-sword-world-rpg-complete-edition-section-equipment-fa988ff9@360526a8631810615ecd0c375c883666
 ---
 
 # Equipment
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-1-4-9-filling-out-the-character-sheet-3ba78d4e]] - next source section: 1.4.9 Filling Out the Character Sheet
+- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-002f7779]] - next source section: 2.1 Baseline Scores
 
 ## Statements
 

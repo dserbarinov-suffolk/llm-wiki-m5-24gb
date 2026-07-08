@@ -4,11 +4,11 @@ page_kind: source
 summary: Details: 0 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-details-f50e8a73@0a28a22a1da72bd046c235d9302df2d5
+projection_coverage: section-sword-world-rpg-complete-edition-section-details-f50e8a73@4f8da1c6a8aeb168f8b51ceb6e37861c
 ---
 
 # Details
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-14-4-2-list-of-magical-items-81eb966f]] - next source section: 14.4.2 List of Magical Items
+- [[sword-world-rpg-complete-edition-section-magic-armor-2-non-metal-or-ring-mail-9414896b]] - next source section: 《 Magic Armor (+2) 》 Non-metal or ring mail
 
 ### Source structure
 

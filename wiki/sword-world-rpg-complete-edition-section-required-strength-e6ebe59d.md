@@ -4,11 +4,11 @@ page_kind: source
 summary: Required Strength: 11 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-required-strength-e6ebe59d@452e4d65d38b5d6f7a26451ad63a781f
+projection_coverage: section-sword-world-rpg-complete-edition-section-required-strength-e6ebe59d@a7a24ae06e3d4cdc95a44a4be5e0cde9
 ---
 
 # Required Strength
@@ -19,6 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]] - previous source section: 1.4 Character Creation
 - [[sword-world-rpg-complete-edition-section-one-handed-and-twohanded-weapons-06cd107c]] - next source section: One-Handed and TwoHanded Weapons
 
 ## Statements

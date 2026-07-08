@@ -4,11 +4,11 @@ page_kind: source
 summary: Forger of Colors: 35 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-forger-of-colors-195153f4@a1aecd9c3b44700562c180acc3b2ba6b
+projection_coverage: section-sword-world-rpg-complete-edition-section-forger-of-colors-195153f4@1100dd0d52e442593ee84670069ef4c2
 ---
 
 # Forger of Colors
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-4-10-4-mithril-silver-weapons-and-armor-8c9ba243]] - previous source section: 4.10.4 Mithril Silver Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-and-armor-ef848d39]] - previous source section: and Armor
 - [[sword-world-rpg-complete-edition-section-damage-recovery-da6a92a3]] - next source section: Damage Recovery
 
 ## Statements

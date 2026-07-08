@@ -4,11 +4,11 @@ page_kind: source
 summary: Chapter 11: Notes on Magic / 11.2 Dark Magic: 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-465be009@589a169aff8e1705fa4d1df084945957
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-465be009@6579a4e879cdefea49bab5ffd4323ecf
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic
@@ -20,6 +20,13 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-1-rune-masters-status-265b73e9]] - previous source section: Chapter 11: Notes on Magic / 11.1 Rune Masters' Status
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-5e8d6eb6]] - next source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-e69f4059]] - broader source section: Chapter 11: Notes on Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-2-basic-dark-magic-list-a0496b34]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.2 Basic Dark Magic List
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-48d86015]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List
 
 ## Statements
 

@@ -4,7 +4,7 @@ page_kind: concept
 summary: Wind Spirit: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-wind-spirit@04f8d2425e5ea126b5fd6db5465e8758

@@ -4,7 +4,7 @@ page_kind: concept
 summary: Not affected by poison and illness: 16 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-not-affected-poison-illness@2f864c921f0d8482f2c30904af5a3aca

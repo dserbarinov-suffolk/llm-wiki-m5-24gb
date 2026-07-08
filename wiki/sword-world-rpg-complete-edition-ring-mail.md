@@ -4,7 +4,7 @@ page_kind: concept
 summary: Ring Mail: 4 statement(s) and 19 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-ring-mail@fd33fc8e26fac4bba0c17d36631a7d5b

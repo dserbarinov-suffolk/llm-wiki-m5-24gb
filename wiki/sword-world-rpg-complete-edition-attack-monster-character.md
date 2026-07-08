@@ -4,10 +4,10 @@ page_kind: concept
 summary: Attacks From Monsters Against Characters: 33 statement(s) and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-attack-monster-character@f8b490cd985f80ede105c937594c45b8
+projection_coverage: topic-sword-world-rpg-complete-edition-attack-monster-character@2b0454a7eeacf874fd0589a5186b13b7
 ---
 
 # Attacks From Monsters Against Characters
@@ -52,7 +52,7 @@ What [[sword-world-rpg-complete-edition]] covers about attacks from monsters aga
 
 - If the result of Ducard II's defense roll is 0 (roll 3) or 6 (roll 12), respectively, the final damage he will suffer is calculated to be: _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01301))_
 
-### Attacks From Monsters Against Characters
+### Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters
 
 - A score equal to a monster's attack points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in parenthesis. This is the target score for a character to evade the monster's attack. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09895))_
 
@@ -113,13 +113,13 @@ What [[sword-world-rpg-complete-edition]] covers about attacks from monsters aga
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-36abcdc4]] - source section: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks: This check is also made with a success roll.; Attacks From Monsters Against Characters shares technical record from Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks: evasion speed + 2D ≥ monster's attack points → evasion success (monster's attack fails) (27 shared statement(s), 4 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-83ff6716]] - source section: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters: A score equal to a monster's attack points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in pa ... [truncated] (6 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-0da0781a]] - source section: Attacks From Characters Against Monsters
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-attacks-from-monsters-against-characters-83ff6716]] - source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters shares source evidence from Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters: A score equal to a monster's attack points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in pa ... [truncated] (6 shared statement(s))
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-2a2d8681]] - source section: Attacks From Characters Against Monsters
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-1-hit-checks-40e2447c]] - source section: Attacks From Characters Against Monsters / 4.5.1 Hit Checks
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-2-determining-base-damage-strike-roll-08758977]] - source section: Attacks From Characters Against Monsters / 4.5.2 Determining Base Damage (Strike Roll)
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-3-bonus-damage-66d7239b]] - source section: Attacks From Characters Against Monsters / 4.5.3 Bonus Damage
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-4-monster-defense-points-c48dcc4c]] - source section: Attacks From Characters Against Monsters / 4.5.4 Monster Defense Points
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-5-final-damage-3ad5f07b]] - source section: Attacks From Characters Against Monsters / 4.5.5 Final Damage
 
 ### Shared claims
 

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Centauri Blood Touch: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-centauri-blood-touch@cf881ffe71ad96eef91fca9d5e2f397c
+projection_coverage: topic-sword-world-rpg-complete-edition-centauri-blood-touch@fa9b5315084b86f91b43ce1916a8d3da
 ---
 
 # Centauri Blood Touch
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about centauri blood touch:
 
 ## Statements
 
-### 12.2.1 Poisons / Centauri Blood (Touch/Damage)
+### Chapter 12: Various Checks / 12.2.1 Poisons / Centauri Blood (Touch/Damage)
 
 - What's more, this poison is completely harmless at room temperature, and only becomes toxic when warmed by body heat. Those wearing cloth soaked with centauri blood will experience intense pain and heat after one hour. Once that happens, you can no longer strip it from your body or wash it off, and it will continue to deal damage every hour from then on. The damage is a terrifying strike power 30 plus bonus damage 12. A successful resistance roll will reduce the damage. This poison is said to have killed a famous hero. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05475))_
 
@@ -25,7 +25,7 @@ What [[sword-world-rpg-complete-edition]] covers about centauri blood touch:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-12-2-1-poisons-centauri-blood-touch-damage-9982bd6b]] - source section: 12.2.1 Poisons / Centauri Blood (Touch/Damage)
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-1-poisons-centauri-blood-touch-damage-9982bd6b]] - source section: Chapter 12: Various Checks / 12.2.1 Poisons / Centauri Blood (Touch/Damage)
 
 ## Source
 

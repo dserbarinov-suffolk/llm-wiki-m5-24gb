@@ -4,11 +4,11 @@ page_kind: source
 summary: [ Create Ghost Ship ] (Spell Level=6): 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-create-ghost-ship-spell-level-6-faa8c446@220ba92ed346c5024ceb0bc72ab04a5d
+projection_coverage: section-sword-world-rpg-complete-edition-section-create-ghost-ship-spell-level-6-faa8c446@af48a3e88793fd8e52025674d99971f1
 ---
 
 # [ Create Ghost Ship ] (Spell Level=6)
@@ -17,9 +17,9 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-### Source structure
+### Source order
 
-- [[sword-world-rpg-complete-edition-section-create-ghost-ship-spell-level-6-11-3-dragon-roar-magic-5e8d6eb6]] - narrower source section: [ Create Ghost Ship ] (Spell Level=6) / 11.3 Dragon Roar Magic
+- [[sword-world-rpg-complete-edition-section-dragon-priest-skill-2f42e1b2]] - next source section: Dragon Priest Skill
 
 ## Statements
 

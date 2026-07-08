@@ -4,16 +4,23 @@ page_kind: source
 summary: Languages: 16 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-languages-af56b1cc@3b623c71295a42ea142e461869bcf1da
+projection_coverage: section-sword-world-rpg-complete-edition-section-languages-af56b1cc@0bb7c2dbcf26a4578c24471171d29b5b
 ---
 
 # Languages
 
 From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-forcelia-dd042416]] - previous source section: Forcelia
+- [[sword-world-rpg-complete-edition-section-ability-92cce951]] - next source section: Ability
 
 ## Statements
 

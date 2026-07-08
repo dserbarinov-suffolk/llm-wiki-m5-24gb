@@ -4,11 +4,11 @@ page_kind: source
 summary: Sage Skill: 21 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sage-skill-bfccee97@6be5a2e3cc8072bfbdbf64121f1deea2
+projection_coverage: section-sword-world-rpg-complete-edition-section-sage-skill-bfccee97@3f031a27ec2f887dccebe237c7d94a57
 ---
 
 # Sage Skill
@@ -16,6 +16,10 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-sage-skill
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-climb-agility-equipment-restriction-37bcfb0a]] - previous source section: [ ⑥ Climb [Agility] ] (Equipment restriction)
 
 ### Source structure
 

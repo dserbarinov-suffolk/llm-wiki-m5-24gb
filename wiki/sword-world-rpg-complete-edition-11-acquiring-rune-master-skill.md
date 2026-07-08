@@ -4,10 +4,10 @@ page_kind: concept
 summary: 11 Acquiring Rune Master Skill: 22 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-11-acquiring-rune-master-skill@3e5d586c92432e7fc172934d651c978c
+projection_coverage: topic-sword-world-rpg-complete-edition-11-acquiring-rune-master-skill@9980eaa42d878b1446860ddd64083768
 ---
 
 # 11 Acquiring Rune Master Skill
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 11 acquiring rune master 
 
 ## Statements
 
-### 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels
+### Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels
 
 - Here is a summary of how to acquire and increase the level of each rune master skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05207))_
 
@@ -41,7 +41,7 @@ What [[sword-world-rpg-complete-edition]] covers about 11 acquiring rune master 
 
 ## Technical atoms
 
-### Technical frame 1: 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels
+### Technical frame 1: Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05216))_
 
@@ -57,7 +57,7 @@ What [[sword-world-rpg-complete-edition]] covers about 11 acquiring rune master 
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-9th-level-dragon-roar-magic-list-summon-lesser-dragon-11-4-acquiring-rune-master-skills-and-incr-1f76bc3d]] - source section: 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-4-acquiring-rune-master-skills-and-increasing-levels-1f76bc3d]] - source section: Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels
 
 ## Source
 

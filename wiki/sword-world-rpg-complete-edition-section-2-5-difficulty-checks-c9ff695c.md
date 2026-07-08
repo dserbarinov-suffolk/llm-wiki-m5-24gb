@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-2-5-difficulty-checks-c9ff695c
 page_kind: source
-summary: 2.5 Difficulty Checks: 25 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 2.5 Difficulty Checks: 26 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-c9ff695c@43085a9464f80f52b8bbcfdccea6f5e9
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-c9ff695c@852bf8dd24170c383cff9e55045a15cb
 ---
 
 # 2.5 Difficulty Checks
@@ -20,6 +20,16 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-e2265fd4]] - previous source section: 2.4 Bonuses and Penalties
+- [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-5e467870]] - next source section: 2.6 Success Rolls Using Adventurer Level
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-f138ab4d]] - narrower source section: 2.5 Difficulty Checks / 2.5.2 How to Make a Difficulty Check
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-3-analogy-of-success-and-failure-3a19226a]] - narrower source section: 2.5 Difficulty Checks / 2.5.3 Analogy of Success and Failure
+
+### Procedures
+
+- [[sword-world-rpg-complete-edition-procedure-difficulty-checks]] - procedure guide: Difficulty Checks
 
 ### Topics
 
@@ -42,3 +52,9 @@ From [[sword-world-rpg-complete-edition]].
 - The game master then declares the target score to be 12 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00954))_
 - This is because it's the game master who determines these things, not the players. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00964))_
 - Within the setting, there are actions that we attempt on our own but do not know (or cannot tell ) whether they are successful or unsuccessful. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00968))_
+
+## Statements by subsection
+
+### 2.5 Difficulty Checks / 2.5.1 Difficulty
+
+- Difficulty is a score determined by the game master based on the difficulty of the actions the character attempts. What makes this different from a target score is that this is not the direct number the player is aiming for. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00972))_

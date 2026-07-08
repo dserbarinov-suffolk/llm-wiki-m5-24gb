@@ -4,10 +4,10 @@ page_kind: concept
 summary: Difficulty: 10 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-difficulty@561083094824d62b3790fa0da51d3038
+projection_coverage: topic-sword-world-rpg-complete-edition-difficulty@fe50f6684bc149682f87d6091855f573
 ---
 
 # Difficulty
@@ -51,10 +51,10 @@ What [[sword-world-rpg-complete-edition]] covers about difficulty:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-2-5-2-how-to-make-a-difficulty-check-f138ab4d]] - source section: 2.5.2 How to Make a Difficulty Check
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-f138ab4d]] - source section: 2.5 Difficulty Checks / 2.5.2 How to Make a Difficulty Check
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-3-analogy-of-success-and-failure-3a19226a]] - source section: 2.5 Difficulty Checks / 2.5.3 Analogy of Success and Failure
 - [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-c9ff695c]] - source section: 2.5 Difficulty Checks
 - [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-f6da6ec7]] - source section: Chapter 9: / Setting Target Scores and Difficulties
-- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-7b387750]] - source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.3 General Modifiers
 - [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b]] - source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
 
 ### Shared technical atoms

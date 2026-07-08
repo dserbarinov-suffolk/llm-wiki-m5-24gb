@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-spellsongs-d7b4c455
 page_kind: source
-summary: Spellsongs: 20 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Spellsongs: 19 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-d7b4c455@3719f18cc269628a0a0ddc6f328c77f5
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-d7b4c455@cfd1b3de3c23eadf9c5e1b0719fe8e44
 ---
 
 # Spellsongs
@@ -17,10 +17,9 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-### Source structure
+### Source order
 
-- [[sword-world-rpg-complete-edition-section-spellsongs-5-3-1-spellsong-list-02fee5a8]] - narrower source section: Spellsongs / 5.3.1 Spellsong List
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-f222832c]] - narrower source section: Spellsongs / Filling out the Character Sheet
+- [[sword-world-rpg-complete-edition-section-5-3-1-spellsong-list-02fee5a8]] - next source section: 5.3.1 Spellsong List
 
 ## Statements
 
@@ -32,12 +31,6 @@ From [[sword-world-rpg-complete-edition]].
 - A spellsong remains in effect as long as the bard sings it. However, once the song is interrupted, the effect disappears. As long as a bard is singing a spellsong, they cannot take any other actions and cannot move more than 3 meters in one round. However, unlike focus , it' s not interrupted by damage dealt to life force or mental power (unless, of course, you fall unconscious as a result of the damage). Resistance rolls against spellsongs are generally made only once at the beginning of the song (depending on the spellsong, they may be on the fourth round). Once you successfully resist, you do not need to make any further resistance rolls and will not suffer from the effect, even if the spellsong continues. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03814))_
 - Resistance rolls against spellsongs are generally made only once at the beginning of the song (depending on the spellsong, they may be on the fourth round). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03814))_
 - However, unlike focus , it' s not interrupted by damage dealt to life force or mental power (unless, of course, you fall unconscious as a result of the damage). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03814))_
-
-## Statements by subsection
-
-### Spellsongs / Filling out the Character Sheet
-
-- Characters with the bard skill write the names of the spellsongs they have learned in the designated field ( Spellsongs ) on their character sheet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03871))_
 
 ## Technical atoms
 

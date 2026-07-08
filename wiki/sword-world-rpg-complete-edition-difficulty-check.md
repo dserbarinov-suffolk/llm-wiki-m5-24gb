@@ -4,10 +4,10 @@ page_kind: concept
 summary: Difficulty Check: 3 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-difficulty-check@a3c7c80a2508c206e065e62618fa34e0
+projection_coverage: topic-sword-world-rpg-complete-edition-difficulty-check@8aa93cc4ee390655ffd09c31e9e02105
 ---
 
 # Difficulty Check
@@ -43,9 +43,9 @@ What [[sword-world-rpg-complete-edition]] covers about difficulty check:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-c9ff695c]] - source section: 2.5 Difficulty Checks shares source evidence from 2.5 Difficulty Checks: You (your character) are now at a door. The owner of the mansion is known to be paranoid and is rumored to have set numerous traps. So you decide to check for traps, ... [truncated]; 2.5 Difficulty Checks shares technical record from 2.5 Difficulty Checks: Even if a bonus or penalty is applied, the roll is still an automatic success if the roll comes up double sixes , and an automatic failure if the roll if it's double ones . (20 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-2-5-2-how-to-make-a-difficulty-check-f138ab4d]] - source section: 2.5.2 How to Make a Difficulty Check
-- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-7b387750]] - source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.3 General Modifiers
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-c9ff695c]] - source section: 2.5 Difficulty Checks shares source evidence from 2.5 Difficulty Checks: You (your character) are now at a door. The owner of the mansion is known to be paranoid and is rumored to have set numerous traps. So you decide to check for traps, ... [truncated]; 2.5 Difficulty Checks shares technical record from 2.5 Difficulty Checks: Even if a bonus or penalty is applied, the roll is still an automatic success if the roll comes up double sixes , and an automatic failure if the roll if it's double ones . (47 shared statement(s), 4 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-f138ab4d]] - source section: 2.5 Difficulty Checks / 2.5.2 How to Make a Difficulty Check
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-3-analogy-of-success-and-failure-3a19226a]] - source section: 2.5 Difficulty Checks / 2.5.3 Analogy of Success and Failure
 - [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b]] - source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
 
 ### Shared technical atoms

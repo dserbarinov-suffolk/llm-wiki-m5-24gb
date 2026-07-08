@@ -4,11 +4,11 @@ page_kind: source
 summary: Ability: 20 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-ability-92cce951@fd4c935bac00db7be6fec0c1cb623cf2
+projection_coverage: section-sword-world-rpg-complete-edition-section-ability-92cce951@3a7dc516a432b966c5075a39095b8355
 ---
 
 # Ability
@@ -19,7 +19,8 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-12-2-1-poisons-f9b71416]] - next source section: 12.2.1 Poisons
+- [[sword-world-rpg-complete-edition-section-languages-af56b1cc]] - previous source section: Languages
+- [[sword-world-rpg-complete-edition-section-work-requests-to-npcs-228d9b56]] - next source section: Work Requests to NPCs
 
 ## Statements
 

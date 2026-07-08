@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-2-races-7e38ee04
 page_kind: source
-summary: 1.2 Races: 32 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.2 Races: 34 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-7e38ee04@3fb7ee9b78f7f8ca83d449434e787d10
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-7e38ee04@b1e2db925e617635614f90783bf2092c
 ---
 
 # 1.2 Races
@@ -36,3 +36,9 @@ From [[sword-world-rpg-complete-edition]].
 - They only stay in one place for a while only to raise a few children, and once the children are grown, they travel again. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00181))_
 - Therefore, they have no custom of believing in gods at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00181))_
 - Elves are members of the fae tribe who live in the forests, and are the envy of humans because of their beautiful appearance and immortality (no life span). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00189))_
+
+## Statements by subsection
+
+### 1.2 Races / Skills
+
+- In addition to ability scores, Sword World RPG also uses numeric values called skills to describe the characteristics of characters. Skills have a greater impact on a character's actions than ability scores. This chapter explains the basics of skills. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00202))_

@@ -104,6 +104,86 @@ def test_structure_build_uses_source_numbering_when_heading_depth_is_flat() -> N
     assert other.parent_structure_node_id != parent.structure_node_id
 
 
+def test_structure_build_reconciles_split_numbered_heading_path() -> None:
+    plan = build_structure(
+        "abc",
+        "synthetic.pdf",
+        (
+            _structured_heading(
+                1,
+                "1.4 Character Creation",
+                1,
+                heading_path="1.4 > Character Creation",
+            ),
+            _structured_heading(
+                2,
+                "1.4.1 Choose a Race",
+                3,
+                heading_path="1.4 > Character Creation > 1.4.1 Choose a Race",
+            ),
+            _structured_heading(
+                3,
+                "1.4.2 Determine Ability Scores",
+                3,
+                heading_path="1.4 > Character Creation > 1.4.2 Determine Ability Scores",
+            ),
+            _structured_heading(
+                4,
+                "1.4.9 Filling Out the Character Sheet",
+                1,
+                heading_path="1.4 > Character Creation > 1.4.9 Filling Out the Character Sheet",
+            ),
+            _structured_heading(5, "1.5 Next Procedure", 1),
+        ),
+    )
+
+    parent = next(node for node in plan.nodes if node.heading_text == "1.4 Character Creation")
+    race = next(node for node in plan.nodes if node.heading_text == "1.4.1 Choose a Race")
+    scores = next(
+        node for node in plan.nodes if node.heading_text == "1.4.2 Determine Ability Scores"
+    )
+    sheet = next(
+        node for node in plan.nodes if node.heading_text == "1.4.9 Filling Out the Character Sheet"
+    )
+    next_procedure = next(node for node in plan.nodes if node.heading_text == "1.5 Next Procedure")
+
+    assert race.parent_structure_node_id == parent.structure_node_id
+    assert scores.parent_structure_node_id == parent.structure_node_id
+    assert sheet.parent_structure_node_id == parent.structure_node_id
+    assert next_procedure.parent_structure_node_id != parent.structure_node_id
+    assert any(
+        relation.source_structure_node_id == race.structure_node_id
+        and relation.target_structure_node_id == scores.structure_node_id
+        and relation.relation_kind == "next-sibling"
+        for relation in plan.relations
+    )
+
+
+def test_structure_build_reconciles_generic_numbered_descendants() -> None:
+    plan = build_structure(
+        "abc",
+        "synthetic.pdf",
+        (
+            _structured_heading(1, "2.7 Primary Operation", 1),
+            _structured_heading(2, "2.7.1 Prepare Input", 1),
+            _structured_heading(3, "2.7.2 Produce Output", 3),
+            _structured_heading(4, "2.8 Adjacent Operation", 3),
+            _structured_heading(5, "3 Different Operation", 1),
+        ),
+    )
+
+    parent = next(node for node in plan.nodes if node.heading_text == "2.7 Primary Operation")
+    prepare = next(node for node in plan.nodes if node.heading_text == "2.7.1 Prepare Input")
+    produce = next(node for node in plan.nodes if node.heading_text == "2.7.2 Produce Output")
+    adjacent = next(node for node in plan.nodes if node.heading_text == "2.8 Adjacent Operation")
+    different = next(node for node in plan.nodes if node.heading_text == "3 Different Operation")
+
+    assert prepare.parent_structure_node_id == parent.structure_node_id
+    assert produce.parent_structure_node_id == parent.structure_node_id
+    assert adjacent.parent_structure_node_id != parent.structure_node_id
+    assert different.parent_structure_node_id != parent.structure_node_id
+
+
 def test_structure_build_closes_unnumbered_container_from_numbered_child_prefix() -> None:
     plan = build_structure(
         "abc",

@@ -4,26 +4,16 @@ page_kind: source
 summary: How to Create General Skills / Sailor Skill: 4 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-how-to-create-general-skills-sailor-skill-4a7ee778@b4adb34bd64d3c2deebd4c80900b91c3
+projection_coverage: section-sword-world-rpg-complete-edition-section-how-to-create-general-skills-sailor-skill-4a7ee778@24d563b09a636ec6aad8b03cbf5a9c6b
 ---
 
 # How to Create General Skills / Sailor Skill
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-how-to-create-general-skills-7-5-hunter-skill-7e766530]] - previous source section: How to Create General Skills / 7.5 Hunter Skill
-
-### Source structure
-
-- [[sword-world-rpg-complete-edition-section-how-to-create-general-skills-8f91ae1c]] - broader source section: How to Create General Skills
 
 ## Statements
 

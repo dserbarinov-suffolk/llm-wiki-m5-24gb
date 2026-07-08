@@ -4,11 +4,11 @@ page_kind: source
 summary: 《 Magic Armor (+2) 》 Non-metal or ring mail: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-magic-armor-2-non-metal-or-ring-mail-9414896b@e391ecdb47c3ab5d07fb493291efcd3e
+projection_coverage: section-sword-world-rpg-complete-edition-section-magic-armor-2-non-metal-or-ring-mail-9414896b@8e89a42a62cd7c12bf84eb104642c95a
 ---
 
 # 《 Magic Armor (+2) 》 Non-metal or ring mail
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-14-4-2-list-of-magical-items-81eb966f]] - previous source section: 14.4.2 List of Magical Items
+- [[sword-world-rpg-complete-edition-section-details-f50e8a73]] - previous source section: Details
 - [[sword-world-rpg-complete-edition-section-accessories-earrings-of-interpretation-3d23dd61]] - next source section: 《 Accessories 》 [ Earrings of Interpretation ]
 
 ### Source structure

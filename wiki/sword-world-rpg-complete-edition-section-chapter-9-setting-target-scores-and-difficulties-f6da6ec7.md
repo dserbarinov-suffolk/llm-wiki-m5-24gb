@@ -4,11 +4,11 @@ page_kind: source
 summary: Chapter 9: / Setting Target Scores and Difficulties: 26 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-f6da6ec7@80742582d6043284d0d76fbedd876ae5
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-f6da6ec7@3a96ca9704493a0897ace55d81a9bafa
 ---
 
 # Chapter 9: / Setting Target Scores and Difficulties
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-9-9-4-automatic-success-restrictions-8fa86b29]] - next source section: Chapter 9: / 9.4 Automatic Success Restrictions
+- [[sword-world-rpg-complete-edition-section-chapter-9-9-3-general-modifiers-7b387750]] - next source section: Chapter 9: / 9.3 General Modifiers
 
 ### Source structure
 

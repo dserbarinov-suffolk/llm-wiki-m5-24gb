@@ -4,10 +4,10 @@ page_kind: concept
 summary: Adventurer Level: 3 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-level@9bddc46d8d63a1920a3fbe842560d5a3
+projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-level@60663453006c03030a049fce539f3742
 ---
 
 # Adventurer Level
@@ -94,6 +94,7 @@ Monster Level and Adventurer Level
 
 - [[sword-world-rpg-complete-edition-section-13-5-monster-level-and-adventurer-level-94be122a]] - source section: 13.5 Monster Level and Adventurer Level
 - [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-5e467870]] - source section: 2.6 Success Rolls Using Adventurer Level
+- [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-06071a87]] - source section: 2.6 Success Rolls Using Adventurer Level / Resistance Rolls
 
 ### Shared technical atoms
 

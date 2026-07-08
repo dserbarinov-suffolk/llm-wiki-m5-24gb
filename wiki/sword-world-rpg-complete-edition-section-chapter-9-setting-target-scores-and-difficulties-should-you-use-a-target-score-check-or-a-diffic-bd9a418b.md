@@ -4,11 +4,11 @@ page_kind: source
 summary: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: 27 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b@dcf550c0a49732693717d37f4d492475
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b@4fbb6817124a2e8ce40e9a7aee907c54
 ---
 
 # Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-f6da6ec7]] - broader source section: Chapter 9: / Setting Target Scores and Difficulties
-- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-7b387750]] - narrower source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.3 General Modifiers
 
 ## Statements
 

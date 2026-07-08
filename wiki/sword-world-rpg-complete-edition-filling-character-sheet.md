@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-filling-character-sheet
 page_kind: concept
-summary: 1.4.9 Filling Out the Character Sheet: 154 statement(s) and 30 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4.9 Filling Out the Character Sheet: 93 statement(s) and 25 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-filling-character-sheet@977d26c8c73b26a8238c99a16f37521b
+projection_coverage: topic-sword-world-rpg-complete-edition-filling-character-sheet@cbe0430054b3b5f2a7c696a40fd8f0de
 ---
 
 # 1.4.9 Filling Out the Character Sheet
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 
 ## Statements
 
-### 1.4.9 Filling Out the Character Sheet
+### 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
 
 - The Character Sheet that accompanies this book is designed to record and list various character details. This will help keep the game running smoothly. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00859))_
 
@@ -82,81 +82,9 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 
 - A character with shaman skill level 2 uses the Fire Bolt spell. The base mental power cost for Fire Bolt is 5 . The character must consume 5 ÷ 2 = 2.5, rounding up to 3 points of mental power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01601))_
 
-### Spellsongs / Filling out the Character Sheet
-
-- belongs to mind explained under 5.1.9: Magic Types (see p. 63). In other words, each one counters (overpowers): and cannot take an effect at the same time as magic or other spellsongs that also belong to mind . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03820))_
+### Filling out the Character Sheet
 
 - Characters with the bard skill write the names of the spellsongs they have learned in the designated field ( Spellsongs ) on their character sheet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03871))_
-
-### Spellsongs / Filling out the Character Sheet / Early Bird (Mind)
-
-- This spellsong has the effect of waking up sleeping creatures. At the same time, as long as this song continues, listening creatures will not be able to sleep. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03822))_
-
-### Spellsongs / Filling out the Character Sheet / Curiosity (Mind)
-
-- This spellsong has the effect of arousing the curiosity of those who hear it. The resistance roll is made on the fourth round after the song begins (count the beginning of the song as the first round, and make the roll when the bard's action order occurs on the fourth round). Those who fail to resist will be tempted to catch a glimpse of the performer. The result is that they'll come out of their hiding place and reveal themselves to the performer. It has no effect on those who can already see the performer. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03824))_
-
-- This spell has the effect of summoning specific small animals nearby. You can summon any hand-sized mammals or birds (mice, squirrels, small cats, small birds, etc.). When this spellsong begins, all small animals within earshot of the song will gather around the bard. It takes about 18 rounds to gather. If the summoned small animals are attacked, the effect of the spellsong will be broken and they will all run away. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03826))_
-
-### Spellsongs / Filling out the Character Sheet / Sing (Mind)
-
-- Anyone who hears this spellsong will start singing the same lyrics along with the bard's song. There's no need to remember the lyrics. However, it has no effect on creatures that do not sing. Those affected will not be restricted in their actions, but as long as the spellsong continues, they will also be singing and will not be able to cast magic. Of course, they can't even converse, and they cannot use spellsongs or common runes. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03828))_
-
-### Spellsongs / Filling out the Character Sheet / Dance (Mind)
-
-- Those who hear this spellsong will begin to move their limbs and dance according to the melody on their own. Those affected suffer a -4 penalty to attack power and evasion speed. Ancient magic and spirit magic cannot be cast. Since you can't use your musical instrument, you can't use spellsongs either. Y ou will also be unable to use most skills' abilities. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03830))_
-
-### Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-- This spellsong has the effect of charming those who hear it. Those who are, are not charmed by the bard him or herself, but rather charmed by their singing voice and performance. As long as the spellsong continues, those who are charmed will listen to the song in ecstasy. However, if you suffer physical or mental damage, you can make another resistance roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03832))_
-
-- With this spellsong, a bard can make those they charm take specific actions. What you want them to do must be carefully woven into the lyrics. This weaving of lyrics must be in a language that is understandable to those who hear it (conversely, it does not have to be in high ancient). If forced to perform such an action, the charmed one can attempt _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03833))_
-
-- Run away. If this is not possible, -3 to attack points and evasion points while the song continues. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
-
-### Spellsongs / Filling out the Character Sheet / Nostalgia (Mind)
-
-- This is a spellsong that evokes feelings of nostalgia in the hearts of those who hear it. The effect begins on the fourth round after starting. Those who fail to resist will feel the urge to return to their roost and leave. However, it has no effect on those who do not have a roost. The same applies if the place where the person is listening to the spellsong is their roost. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03847))_
-
-- The effect of this song lasts for one hour even after the spellsong is no longer heard. However, if the person returns to their roost within one hour, the effect will vanish at that point. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03848))_
-
-### Spellsongs / Filling out the Character Sheet / Peace (Mind)
-
-- This spellsong has the opposite effect of Morale , causing those who hear it to lose their will to fight. Those affected suffer a -1 penalty to attack power (points). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03850))_
-
-### Spellsongs / Filling out the Character Sheet / Healing
-
-- Every time you listen to this spellsong for one hour, you can recover 1 point of life force (points). If you interrupt the spellsong midway through, there will be no effect. Those who wish to take part in the effect of this spellsong must remain completely relaxed for the duration of the performance. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03852))_
-
-- The bard singing the spellsong cannot recover their own life force. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03853))_
-
-### Spellsongs / Filling out the Character Sheet / March (Mind)
-
-- This spellsong has the effect of making the listener act in accordance with the rhythm. All those who fail to resist will act simultaneously as long as the song continues. Regardless of their original agility, everyone's action order will be the same. You cannot intentionally delay your action. The bard can freely decide the action order (in the range of 0-24). However, only the action order changes, not the agility. Therefore, evasion speed (points), etc. are not affected. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03855))_
-
-### Spellsongs / Filling out the Character Sheet / Morale (Mind)
-
-- Those who hear this spell will be able to muster up the courage within their own hearts and fight bravely against the enemy. The resulting check score will be attack power (points) plus 1. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03857))_
-
-### Spellsongs / Filling out the Character Sheet / Lullaby (Mind)
-
-- This is a spellsong that puts the listener to sleep. Once it starts, the effect begins on the fourth round (resistance rolls are made at this point), and the spell is complete after 12 rounds. If the performance is interrupted before it is completed, the effect of the spellsong will disappear at that point, but once the spellsong is completed, you will enter a natural state of sleep, so there is no need to play it any further. Of course, if someone wakes you up, such as by shaking your body, etc. you will wake up immediately. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03859))_
-
-### Spellsongs / Filling out the Character Sheet / Requiem
-
-- With a song that mourns the souls of the dead, it has the effect of weakening the undead. The effect begins on the fourth round after starting the spellsong. For undead that fail to resist, roll 2D and look at Table 5-10: Requiem to determine the effect it has on them. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03861))_
-
-### Spellsongs / Filling out the Character Sheet / Resistance
-
-- This spellsong activates the listener's physical and mental functions, giving them +1 to life force and mental power, as well as the resistance rolls of each. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03864))_
-
-- Every time you listen to this spell for one hour, you can recover 1 point of mental power. If you interrupt the spellsong midway through, there will be no effect. Those who wish to take part in the effect of this spellsong must remain completely relaxed for the duration of the performance. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03866))_
-
-- The bard singing the spellsong cannot recover their own mental power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03867))_
-
-### Spellsongs / Filling out the Character Sheet / Vibrato
-
-- This spell is effective on objects that break due to vibrations, such as thin glass, ceramics, etc. These objects will shatter on the fourth round after the spellsong begins. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03869))_
 
 
 ## Technical atoms
@@ -249,74 +177,19 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-cc808ac25ff6f5d4"></a>
 > Adventurers cannot use magic endlessly.
 
-### Technical frame 9: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03833))_
-
-> With this spellsong, a bard can make those they charm take specific actions. What you want them to do must be carefully woven into the lyrics. This weaving of lyrics must be in a language that is understandable to those who hear it (conversely, it does not have to be in high ancient). If forced to perform such an action, the charmed one can attempt
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03832))_
-
-<a id="atom-technical-atom-98f8819486ddbca0"></a>
-> However, if you suffer physical or mental damage, you can make another resistance roll.
-
-### Technical frame 10: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
-
-> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03833))_
-
-<a id="atom-technical-atom-573f0688cb51650b"></a>
-> With this spellsong, a bard can make those they charm take specific actions.
-
-### Technical frame 11: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
-
-> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03836))_
-
-<a id="atom-technical-atom-dc11226bbbb8bb8a"></a>
-> 7-8
-
-### Technical frame 12: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
-
-> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03839))_
-
-<a id="atom-technical-atom-597c30992b7d4904"></a>
-> If this is not possible, cannot act while the song continues.
-
-### Technical frame 13: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
-
-> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03840))_
-
-<a id="atom-technical-atom-625fa6d221ab8659"></a>
-> 10-11
-
 
 ## Related pages
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-f0d81142]] - source section: Basic Rules of Magic / Filling out the Character Sheet shares source evidence from Basic Rules of Magic / Filling out the Character Sheet: On the Character Sheet, there is a magic field. Characters with rune master skills must write their runes , skill level , and magic power in this field.; Basic Rules of Magic / Filling out the Character Sheet shares technical record from Basic Rules of Magic / Filling out the Character Sheet: Magic that is resistible can be rendered ineffective or less effective if the target chooses to resist . (60 shared statement(s), 24 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-f222832c]] - source section: Spellsongs / Filling out the Character Sheet shares source evidence from Spellsongs / Filling out the Character Sheet: belongs to mind explained under 5.1.9: Magic Types (see p. 63). In other words, each one counters (overpowers): and cannot take an effect at the same time as magic o ... [truncated]; Spellsongs / Filling out the Character Sheet shares technical record from Spellsongs / Filling out the Character Sheet / Charm (Mind): However, if you suffer physical or mental damage, you can make another resistance roll. (61 shared statement(s), 5 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-1-4-9-filling-out-the-character-sheet-3ba78d4e]] - source section: 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4.9 Filling Out the Character Sheet: The Character Sheet that accompanies this book is designed to record and list various character details. This will help keep the game running smoothly.; 1.4.9 Filling Out the Character Sheet shares technical record from 1.4.9 Filling Out the Character Sheet: If the character is a human or a halfelf raised by a human, Table 1-5: Backgrounds must be used to determine their origin. (20 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-3ba78d4e]] - source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet: The Character Sheet that accompanies this book is designed to record and list various character details. This will help keep the game running smoothly.; 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares technical record from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet: If the character is a human or a halfelf raised by a human, Table 1-5: Backgrounds must be used to determine their origin. (20 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-scores-used-in-weapon-combat-filling-out-the-character-sheet-005e1b87]] - source section: Scores Used in Weapon Combat / Filling out the Character Sheet shares source evidence from Scores Used in Weapon Combat / Filling out the Character Sheet: Please write these scores in the designated fields on the Character Sheet. This will make the game run more smoothly. (7 shared statement(s))
 - [[sword-world-rpg-complete-edition-section-filling-out-the-character-sheet-e7410e27]] - source section: Filling Out the Character Sheet shares source evidence from Filling Out the Character Sheet: The two resistance rolls are frequently performed. Therefore, it' s advisable to make a note of the baseline score ( resistance ) so that it is readily available. Th ... [truncated] (5 shared statement(s))
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-5-1-5-consuming-mental-power-03cd6d53]] - source section: Basic Rules of Magic / Filling out the Character Sheet / 5.1.5 Consuming Mental Power
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-when-a-monster-casts-magic-on-adventurers-3c3162dd]] - source section: Basic Rules of Magic / Filling out the Character Sheet / When a Monster Casts Magic on Adventurers
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-when-an-adventurer-casts-magic-on-a-mix-of-05c26dbc]] - source section: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+- [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-when-an-adventurer-casts-magic-on-adventure-ba6bf7a3]] - source section: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Adventurers
 
 ### Shared technical atoms
 

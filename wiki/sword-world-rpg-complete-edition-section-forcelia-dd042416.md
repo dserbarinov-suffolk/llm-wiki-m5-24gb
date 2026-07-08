@@ -4,11 +4,11 @@ page_kind: source
 summary: Forcelia: 40 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-forcelia-dd042416@d6a065b69b20008b5b328b0f94538946
+projection_coverage: section-sword-world-rpg-complete-edition-section-forcelia-dd042416@198554a540231f65ab7958203a1dcbec
 ---
 
 # Forcelia
@@ -19,7 +19,8 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-12-1-3-adventurer-languages-bfe6707b]] - next source section: 12.1.3 Adventurer Languages
+- [[sword-world-rpg-complete-edition-section-and-runes-7d0ca594]] - previous source section: and Runes
+- [[sword-world-rpg-complete-edition-section-languages-af56b1cc]] - next source section: Languages
 
 ## Statements
 

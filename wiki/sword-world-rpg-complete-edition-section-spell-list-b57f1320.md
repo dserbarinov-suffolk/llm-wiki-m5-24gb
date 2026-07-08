@@ -4,11 +4,11 @@ page_kind: source
 summary: Spell List: 14 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spell-list-b57f1320@362f30a2047264c85f765dd7acbfe1bc
+projection_coverage: section-sword-world-rpg-complete-edition-section-spell-list-b57f1320@d3d060058f99b6ee0b88173785f95fc5
 ---
 
 # Spell List
@@ -19,6 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
+- [[sword-world-rpg-complete-edition-section-reptile-check-intelligence-fe3f4790]] - previous source section: Reptile Check [Intelligence]
 - [[sword-world-rpg-complete-edition-section-1st-level-dragon-roar-magic-list-iron-stomach-385b53a7]] - next source section: 1st Level Dragon Roar Magic List [ Iron Stomach ]
 
 ## Statements

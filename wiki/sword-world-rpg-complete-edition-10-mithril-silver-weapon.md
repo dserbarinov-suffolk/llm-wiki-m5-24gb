@@ -4,10 +4,10 @@ page_kind: concept
 summary: 10 Mithril Silver Weapon: 11 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-10-mithril-silver-weapon@6b8edb9d4e30817140bb25d8dde3373f
+projection_coverage: topic-sword-world-rpg-complete-edition-10-mithril-silver-weapon@29abab09005fe1d8bd34f9cd64201df9
 ---
 
 # 10 Mithril Silver Weapon
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 mithril silver weapon:
 
 ## Statements
 
-### 4.10.4 Mithril Silver Weapons and Armor
+### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 - Mithril silver , also known as true silver , is produced in very few places in the world. Mithril silver is itself a mineral imbued with magic, and when processed, it gains power. However, the art of forging mithril silver was lost with the fall of the magical kingdom , so it has not been handed down to the present day. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01444))_
 
@@ -37,7 +37,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 mithril silver weapon:
 
 ## Technical atoms
 
-### Technical frame 1: 4.10.4 Mithril Silver Weapons and Armor
+### Technical frame 1: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01451))_
 
@@ -53,11 +53,11 @@ What [[sword-world-rpg-complete-edition]] covers about 10 mithril silver weapon:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-4-10-4-mithril-silver-weapons-and-armor-8c9ba243]] - source section: 4.10.4 Mithril Silver Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-8c9ba243]] - source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-armor]] - shared statements and technical atoms: Armor shares source evidence from 4.10.4 Mithril Silver Weapons and Armor: If a character ever sees them, mithril silver weapons and armor are definitely a legacy from the era of the magical kingdom.; Armor shares technical record from 4.10.4 Mithril Silver Weapons and Armor: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. (4 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-armor]] - shared statements and technical atoms: Armor shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor: If a character ever sees them, mithril silver weapons and armor are definitely a legacy from the era of the magical kingdom.; Armor shares technical record from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. (4 shared statement(s), 1 shared atom(s))
 
 ## Source
 

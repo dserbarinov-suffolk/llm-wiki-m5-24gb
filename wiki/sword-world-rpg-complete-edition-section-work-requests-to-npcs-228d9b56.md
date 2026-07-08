@@ -4,11 +4,11 @@ page_kind: source
 summary: Work Requests to NPCs: 19 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-work-requests-to-npcs-228d9b56@91224a1fab5fd9a7688dd1fe89e71ccb
+projection_coverage: section-sword-world-rpg-complete-edition-section-work-requests-to-npcs-228d9b56@3221308abb90926f63711c8e5933c177
 ---
 
 # Work Requests to NPCs
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-12-2-3-herbs-47b2af1e]] - previous source section: 12.2.3 Herbs
+- [[sword-world-rpg-complete-edition-section-ability-92cce951]] - previous source section: Ability
 
 ### Source structure
 

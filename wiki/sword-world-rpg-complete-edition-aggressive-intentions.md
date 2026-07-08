@@ -4,7 +4,7 @@ page_kind: concept
 summary: Aggressive Intentions: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-aggressive-intentions@82c5c7fd44ec73dac9c7841324f51483

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Death Check: 4 statement(s) and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-death-check@728bcc9e3efe51b321bbcf0fad48bce9
+projection_coverage: topic-sword-world-rpg-complete-edition-death-check@9747e7022e169462f149d280a6ee41b4
 ---
 
 # Death Check
@@ -89,6 +89,7 @@ What [[sword-world-rpg-complete-edition]] covers about death check:
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-2-death-checks-every-hour-523e5511]] - source section: 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-3-monster-death-check-3690271a]] - source section: 4.9 Unconscious and Death Checks / 4.9.3 Monster Death Check
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-f2205b71]] - source section: 4.9 Unconscious and Death Checks / 4.9.4 Mercy
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-1-poisons-black-death-touch-injected-or-inhaled-magic-damage-ef3636a7]] - source section: Chapter 12: Various Checks / 12.2.1 Poisons / Black Death (Touch, Injected, or Inhaled/Magic, Damage)
 
 ### Shared technical atoms
 

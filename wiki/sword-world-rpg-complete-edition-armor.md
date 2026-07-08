@@ -4,10 +4,10 @@ page_kind: concept
 summary: Armor: 17 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-armor@350182a1fbf6647012670c838a904b8b
+projection_coverage: topic-sword-world-rpg-complete-edition-armor@35eca327a8fc50e2bf518693ece77d91
 ---
 
 # Armor
@@ -22,7 +22,7 @@ What [[sword-world-rpg-complete-edition]] covers about armor:
 
 - When a character obtains and uses these weapons and armor, their various scores are modified as follows. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01408))_
 
-### 4.10.2 Silver Weapons and Armor
+### 4.10 Excellent Weapons and Armor / 4.10.2 Silver Weapons and Armor
 
 - Even silver weapons and armor have no differences in their strike power, defense power, attack power, or evasion speed at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01423))_
 
@@ -30,7 +30,7 @@ What [[sword-world-rpg-complete-edition]] covers about armor:
 
 - To buy silver weapons and armor in a store, you must be in a town about the size of the royal city level in a small country. Silver weapons and armor will also cost 5 times the original price. Y ou can also ask for a high-quality item of silver, but the price will be even higher . Just think in terms of multiplication. For example, the price of a silver item with a required strength 2 times lower than the original would be 5 x 2 = 10 times the price of the original. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01426))_
 
-### 4.10.3 Magical Weapons and Armor
+### 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor
 
 - In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). These magical weapons and armor are seldom found, and are usually rarely traded. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01429))_
 
@@ -42,7 +42,7 @@ What [[sword-world-rpg-complete-edition]] covers about armor:
 
 - Magical weapons and armor are not usually traded, but if you are very lucky you may be able to buy them if they're +1. A guide to prices can be found in Chapter 14: Treasure (see p. 240). Also, they offer basically no bonus to strike power or defense power, same as required strength. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01440))_
 
-### 4.10.4 Mithril Silver Weapons and Armor
+### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 - If a character ever sees them, mithril silver weapons and armor are definitely a legacy from the era of the magical kingdom. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01445))_
 
@@ -57,7 +57,7 @@ What [[sword-world-rpg-complete-edition]] covers about armor:
 
 ## Technical atoms
 
-### Technical frame 1: 4.10.4 Mithril Silver Weapons and Armor
+### Technical frame 1: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01451))_
 
@@ -74,22 +74,22 @@ What [[sword-world-rpg-complete-edition]] covers about armor:
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-and-armor-ef848d39]] - source section: and Armor shares source evidence from and Armor: There are people in the world who are called master craftsmen, and they sometimes create weapons and armor that are better than normal. These highquality weapons and ... [truncated]; and Armor shares technical record from and Armor: Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than usual . (14 shared statement(s), 2 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]] - source section: 1.4.7 Restrictions on Weapons and Armor Based on Skill
-- [[sword-world-rpg-complete-edition-section-16-6-2-two-handed-attacks-weapons-and-armor-that-are-too-heavy-108e1234]] - source section: 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy
-- [[sword-world-rpg-complete-edition-section-4-10-2-silver-weapons-and-armor-f42bd7c9]] - source section: 4.10.2 Silver Weapons and Armor
-- [[sword-world-rpg-complete-edition-section-4-10-3-magical-weapons-and-armor-73e21f02]] - source section: 4.10.3 Magical Weapons and Armor
-- [[sword-world-rpg-complete-edition-section-4-10-4-mithril-silver-weapons-and-armor-8c9ba243]] - source section: 4.10.4 Mithril Silver Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]] - source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-2-silver-weapons-and-armor-f42bd7c9]] - source section: 4.10 Excellent Weapons and Armor / 4.10.2 Silver Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-73e21f02]] - source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-8c9ba243]] - source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-6f861318]] - source section: 4.10 Excellent Weapons and Armor
-- [[sword-world-rpg-complete-edition-section-divine-armor-spell-level-7-6443d355]] - source section: [ Divine Armor ] (Spell Level=7)
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-b7c6a3fe]] - source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-f247c593]] - source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-10-mithril-silver-weapon]] - shared statements and technical atoms: 10 Mithril Silver Weapon shares source evidence from 4.10.4 Mithril Silver Weapons and Armor: If a character ever sees them, mithril silver weapons and armor are definitely a legacy from the era of the magical kingdom.; 10 Mithril Silver Weapon shares technical record from 4.10.4 Mithril Silver Weapons and Armor: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. (4 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-10-mithril-silver-weapon]] - shared statements and technical atoms: 10 Mithril Silver Weapon shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor: If a character ever sees them, mithril silver weapons and armor are definitely a legacy from the era of the magical kingdom.; 10 Mithril Silver Weapon shares technical record from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. (4 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 
-- [[sword-world-rpg-complete-edition-10-magical-weapon]] - shared statements: 10 Magical Weapon shares source evidence from 4.10.3 Magical Weapons and Armor: In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). These magical weapons and armor are seldom f ... [truncated] (4 shared statement(s))
-- [[sword-world-rpg-complete-edition-10-silver-weapon]] - shared statements: 10 Silver Weapon shares source evidence from 4.10.2 Silver Weapons and Armor: Even silver weapons and armor have no differences in their strike power, defense power, attack power, or evasion speed at all. (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-10-magical-weapon]] - shared statements: 10 Magical Weapon shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor: In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). These magical weapons and armor are seldom f ... [truncated] (4 shared statement(s))
+- [[sword-world-rpg-complete-edition-10-silver-weapon]] - shared statements: 10 Silver Weapon shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.2 Silver Weapons and Armor: Even silver weapons and armor have no differences in their strike power, defense power, attack power, or evasion speed at all. (3 shared statement(s))
 
 ## Source
 

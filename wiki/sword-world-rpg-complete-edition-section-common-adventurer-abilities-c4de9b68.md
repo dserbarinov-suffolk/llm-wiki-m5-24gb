@@ -4,22 +4,16 @@ page_kind: source
 summary: Common Adventurer Abilities: 105 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-common-adventurer-abilities-c4de9b68@4a7721f6558d8306b20ee2cd88346bdb
+projection_coverage: section-sword-world-rpg-complete-edition-section-common-adventurer-abilities-c4de9b68@6c768a79f15f5e9b907d6f835becafc8
 ---
 
 # Common Adventurer Abilities
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-bard-skill-adfb53cc]] - previous source section: Bard Skill
 
 ## Statements
 

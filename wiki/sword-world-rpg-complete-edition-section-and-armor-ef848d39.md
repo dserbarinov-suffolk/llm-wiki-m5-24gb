@@ -4,11 +4,11 @@ page_kind: source
 summary: and Armor: 22 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-and-armor-ef848d39@bad9833128fa47b6a4bfc4dc420eec39
+projection_coverage: section-sword-world-rpg-complete-edition-section-and-armor-ef848d39@281ae1d0428f77acf82fbe1711b5c888
 ---
 
 # and Armor
@@ -20,7 +20,7 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-6f861318]] - previous source section: 4.10 Excellent Weapons and Armor
-- [[sword-world-rpg-complete-edition-section-4-10-2-silver-weapons-and-armor-f42bd7c9]] - next source section: 4.10.2 Silver Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-forger-of-colors-195153f4]] - next source section: Forger of Colors
 
 ### Topics
 

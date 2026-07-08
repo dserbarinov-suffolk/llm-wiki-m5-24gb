@@ -4,11 +4,11 @@ page_kind: source
 summary: Chapter 9: / 9.4 Automatic Success Restrictions: 23 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-9-4-automatic-success-restrictions-8fa86b29@4e2a9f5422ad2450536a05a0c478d9d6
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-9-4-automatic-success-restrictions-8fa86b29@4b9407a3c4603017cdfc1340e808b6a1
 ---
 
 # Chapter 9: / 9.4 Automatic Success Restrictions
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-f6da6ec7]] - previous source section: Chapter 9: / Setting Target Scores and Difficulties
+- [[sword-world-rpg-complete-edition-section-chapter-9-9-3-general-modifiers-7b387750]] - previous source section: Chapter 9: / 9.3 General Modifiers
 
 ## Statements
 

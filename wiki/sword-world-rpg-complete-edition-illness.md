@@ -4,10 +4,10 @@ page_kind: concept
 summary: Illness: 3 statement(s) and 7 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-illness@7727729400e6b537359f708d0245ab9b
+projection_coverage: topic-sword-world-rpg-complete-edition-illness@cb624fb6d52b8fc215f7927adcf7ff23
 ---
 
 # Illness
@@ -113,14 +113,14 @@ What [[sword-world-rpg-complete-edition]] covers about illness:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-balloon-burst-560e8ab2]] - source section: 12.2.2 Illnesses / Balloon Burst
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-b931a39b]] - source section: 12.2.2 Illnesses / Bat Fever
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-common-cold-74096a80]] - source section: 12.2.2 Illnesses / Common Cold
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-cotton-weaver-a374994b]] - source section: 12.2.2 Illnesses / Cotton Weaver
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-dance-macabre-3a004507]] - source section: 12.2.2 Illnesses / Dance Macabre
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-deep-sleep-bd7d8133]] - source section: 12.2.2 Illnesses / Deep Sleep
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-f56f6d8a]] - source section: 12.2.2 Illnesses
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-green-slime-rot-ca7d84d2]] - source section: 12.2.2 Illnesses / Green Slime Rot
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-balloon-burst-560e8ab2]] - source section: Chapter 12: Various Checks / 12.2.2 Illnesses / Balloon Burst
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-bat-fever-b931a39b]] - source section: Chapter 12: Various Checks / 12.2.2 Illnesses / Bat Fever
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-common-cold-74096a80]] - source section: Chapter 12: Various Checks / 12.2.2 Illnesses / Common Cold
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-cotton-weaver-a374994b]] - source section: Chapter 12: Various Checks / 12.2.2 Illnesses / Cotton Weaver
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-dance-macabre-3a004507]] - source section: Chapter 12: Various Checks / 12.2.2 Illnesses / Dance Macabre
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-deep-sleep-bd7d8133]] - source section: Chapter 12: Various Checks / 12.2.2 Illnesses / Deep Sleep
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-f56f6d8a]] - source section: Chapter 12: Various Checks / 12.2.2 Illnesses
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-green-slime-rot-ca7d84d2]] - source section: Chapter 12: Various Checks / 12.2.2 Illnesses / Green Slime Rot
 
 ### Shared claims
 

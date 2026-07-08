@@ -4,16 +4,23 @@ page_kind: source
 summary: and Runes: 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-and-runes-7d0ca594@d5ad21475e1ed666715ef1056ea4c90d
+projection_coverage: section-sword-world-rpg-complete-edition-section-and-runes-7d0ca594@77a5ee5c805fdeec1210456f052ba4a1
 ---
 
 # and Runes
 
 From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-4c2e49b6]] - previous source section: Chapter 12: Various Checks
+- [[sword-world-rpg-complete-edition-section-forcelia-dd042416]] - next source section: Forcelia
 
 ## Statements
 

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Progression: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-progression@0f93f27d46e5943af603524bbce334bb
+projection_coverage: topic-sword-world-rpg-complete-edition-progression@dcc7364508eeb6e935c9ef0d8b1e46e5
 ---
 
 # Progression
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about progression:
 
 ## Statements
 
-### 12.2.2 Illnesses / Progression Speed/Progression
+### Chapter 12: Various Checks / 12.2.2 Illnesses / Progression Speed/Progression
 
 - Progression Speed/Progression Intensity/ Healing Score=1 week/5/10 (20) Fatal Depth=3 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05604))_
 
@@ -25,7 +25,7 @@ What [[sword-world-rpg-complete-edition]] covers about progression:
 
 ## Technical atoms
 
-### Technical frame 1: 12.2.2 Illnesses / Progression Speed/Progression
+### Technical frame 1: Chapter 12: Various Checks / 12.2.2 Illnesses / Progression Speed/Progression
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05606))_
 
@@ -41,9 +41,9 @@ What [[sword-world-rpg-complete-edition]] covers about progression:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-progression-9613e6ae]] - source section: 12.2.2 Illnesses / Progression shares source evidence from 12.2.2 Illnesses / Progression: Progression Speed/Progression Healing Score=Special/7/- (16) Fatal Depth=None; 12.2.2 Illnesses / Progression shares technical record from 12.2.2 Illnesses / Progression: Infection Power=Very weak (8 shared statement(s), 2 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-progression-fb8e8bed]] - source section: 12.2.2 Illnesses / Progression shares source evidence from 12.2.2 Illnesses / Progression: Characters affected by this illness brought on by the fire of the magical beast humbaba will suffer from severe fever and vomiting, making almost no activity possibl ... [truncated]; 12.2.2 Illnesses / Progression shares technical record from 12.2.2 Illnesses / Progression: Infection Power=Very strong (2 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-progression-speed-progression-70bb66ec]] - source section: 12.2.2 Illnesses / Progression Speed/Progression
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-progression-9613e6ae]] - source section: Chapter 12: Various Checks / 12.2.2 Illnesses / Progression shares source evidence from Chapter 12: Various Checks / 12.2.2 Illnesses / Progression: Progression Speed/Progression Healing Score=Special/7/- (16) Fatal Depth=None; Chapter 12: Various Checks / 12.2.2 Illnesses / Progression shares technical record from Chapter 12: Various Checks / 12.2.2 Illnesses / Progression: Infection Power=Very weak (8 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-progression-fb8e8bed]] - source section: Chapter 12: Various Checks / 12.2.2 Illnesses / Progression shares source evidence from Chapter 12: Various Checks / 12.2.2 Illnesses / Progression: Characters affected by this illness brought on by the fire of the magical beast humbaba will suffer from severe fever and vomiting, making almost no activity possibl ... [truncated]; Chapter 12: Various Checks / 12.2.2 Illnesses / Progression shares technical record from Chapter 12: Various Checks / 12.2.2 Illnesses / Progression: Infection Power=Very strong (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-progression-speed-progression-70bb66ec]] - source section: Chapter 12: Various Checks / 12.2.2 Illnesses / Progression Speed/Progression
 
 ## Source
 

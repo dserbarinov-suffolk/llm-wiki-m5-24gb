@@ -4,11 +4,11 @@ page_kind: source
 summary: [ Divine Armor ] (Spell Level=7): 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-divine-armor-spell-level-7-6443d355@df76e7a9992a771d510993873c588543
+projection_coverage: section-sword-world-rpg-complete-edition-section-divine-armor-spell-level-7-6443d355@2f5b072d7153fc75117ffccf9d27968c
 ---
 
 # [ Divine Armor ] (Spell Level=7)
@@ -19,6 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-3abf6557]] - previous source section: 5.1.17 Special Holy Magic List
 - [[sword-world-rpg-complete-edition-section-divine-weapon-spell-level-7-f910fafd]] - next source section: [ Divine Weapon ] (Spell Level=7)
 
 ## Statements

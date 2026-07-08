@@ -4,10 +4,10 @@ page_kind: concept
 summary: Critical Target Variation: 7 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-critical-target-variation@c8bbea6a1a8d3dfc9d3e975c927d14c5
+projection_coverage: topic-sword-world-rpg-complete-edition-critical-target-variation@50bb385bf42b7644bfb8adc751ed0421
 ---
 
 # Critical Target Variation
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about critical target variation
 
 ## Statements
 
-### Critical Target Variation
+### Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation
 
 - Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is different for each weapon . This is indicated by the critical target . Axes, maces, etc. do not critical even if you roll a 10, but rather require an 11 or 12 . One can say that the lower this score, the more _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09914))_
 
@@ -26,6 +26,8 @@ What [[sword-world-rpg-complete-edition]] covers about critical target variation
 
 - In other words, these sharp weapons are less likely to deliver a powerful strike due to the armor's metal. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10067))_
 
+### Chapter 16: / Critical Target Variation
+
 - Critical target variation indicates that the armor reduces the chance of being dealt a strong blow from some weapons while wearing it. If this field says yes , the opponent's critical target will be +1 when they attack you with a sword, spear, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10084))_
 
 
@@ -33,7 +35,11 @@ What [[sword-world-rpg-complete-edition]] covers about critical target variation
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-critical-target-variation-b7c6a3fe]] - source section: Critical Target Variation shares source evidence from Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated] (5 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-b7c6a3fe]] - source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated] (5 shared statement(s))
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-16-weapon]] - shared statements: 16 Weapon shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated] (3 shared statement(s))
 
 ## Source
 

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Attacks From Characters Against Monsters: 45 statement(s) and 11 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-attack-character-monster@a6ca2f59ba60bbea3099eb2e989b3416
+projection_coverage: topic-sword-world-rpg-complete-edition-attack-character-monster@8b80aac44872203b2c899ac0bdc8b313
 ---
 
 # Attacks From Characters Against Monsters
@@ -46,7 +46,7 @@ What [[sword-world-rpg-complete-edition]] covers about attacks from characters a
 
 - A goblin has 4 defense points. The goblin can prevent 4 points of damage with its skin. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01256))_
 
-### Attacks From Characters Against Monsters
+### Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Characters Against Monsters
 
 - A score equal to a monster's evasion points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in parenthesis. This is the target score for a character to hit the monster with an attack. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09899))_
 
@@ -107,7 +107,7 @@ What [[sword-world-rpg-complete-edition]] covers about attacks from characters a
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-2a2d8681]] - source section: Attacks From Characters Against Monsters shares source evidence from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Attacks From Characters Against Monsters shares technical record from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (39 shared statement(s), 11 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-0da0781a]] - source section: Attacks From Characters Against Monsters shares source evidence from Attacks From Characters Against Monsters: A score equal to a monster's evasion points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in p ... [truncated] (6 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-attacks-from-characters-against-monsters-0da0781a]] - source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Characters Against Monsters shares source evidence from Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Characters Against Monsters: A score equal to a monster's evasion points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in p ... [truncated] (6 shared statement(s))
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-1-hit-checks-40e2447c]] - source section: Attacks From Characters Against Monsters / 4.5.1 Hit Checks
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-2-determining-base-damage-strike-roll-08758977]] - source section: Attacks From Characters Against Monsters / 4.5.2 Determining Base Damage (Strike Roll)
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-3-bonus-damage-66d7239b]] - source section: Attacks From Characters Against Monsters / 4.5.3 Bonus Damage

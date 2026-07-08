@@ -4,10 +4,10 @@ page_kind: concept
 summary: Should You Target Score Check: 3 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-should-you-target-score-check@fc3743e5b776c3b61d469a657aa7cc8d
+projection_coverage: topic-sword-world-rpg-complete-edition-should-you-target-score-check@4a786c64073f0c0e90ae7339dde6533f
 ---
 
 # Should You Target Score Check
@@ -43,7 +43,6 @@ What [[sword-world-rpg-complete-edition]] covers about should you target score c
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-7b387750]] - source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.3 General Modifiers
 - [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b]] - source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
 
 ### Shared technical atoms

@@ -4,11 +4,11 @@ page_kind: source
 summary: Filling Out the Character Sheet: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-filling-out-the-character-sheet-e7410e27@db64765c51c9869c76a3c5946ce1db2c
+projection_coverage: section-sword-world-rpg-complete-edition-section-filling-out-the-character-sheet-e7410e27@54d73201d9d0528a0ba155284586483b
 ---
 
 # Filling Out the Character Sheet
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-resistance-rolls-06071a87]] - previous source section: Resistance Rolls
+- [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-5e467870]] - previous source section: 2.6 Success Rolls Using Adventurer Level
 
 ### Topics
 

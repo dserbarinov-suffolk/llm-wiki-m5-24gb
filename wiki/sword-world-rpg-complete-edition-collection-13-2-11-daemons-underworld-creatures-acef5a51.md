@@ -4,7 +4,7 @@ page_kind: source
 summary: 13.2.11 Daemons/Underworld Creatures: 5 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: collection-page
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf

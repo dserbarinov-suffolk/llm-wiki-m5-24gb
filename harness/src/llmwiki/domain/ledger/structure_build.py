@@ -14,6 +14,7 @@ from llmwiki.domain.ledger import structure_numbers, structure_relations
 from llmwiki.domain.ledger.canonical import deterministic_id, short_digest
 from llmwiki.domain.ledger.segments import SourceSegment
 from llmwiki.domain.ledger.structure import StructureNode, StructureRelation
+from llmwiki.domain.ledger.structure_hierarchy import reconcile_numbered_hierarchy
 
 _DEPTH_KIND = {1: "chapter", 2: "section"}
 _PENDING_NUMBER_MARKER_WINDOW = 24
@@ -80,7 +81,7 @@ def build_structure(
         node_for_segment[segment.segment_id] = _node_for_non_heading(
             open_headings, pending_markers, segment, root_id
         )
-    structure_nodes = tuple(nodes)
+    structure_nodes = reconcile_numbered_hierarchy(tuple(nodes), root_node_id=root_id)
     return StructurePlan(
         root_id,
         structure_nodes,
@@ -306,6 +307,7 @@ def _clean_heading_path(heading_path: str) -> tuple[str, ...]:
         for part in heading_path.split(">")
         if part.strip()
     )
+    parts = structure_numbers.structural_path_labels(parts)
     if parts == ("document",):
         return ()
     if any(not part for part in parts):

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Handed: 4 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-handed@411a94e1a2af498ba313ae663060e11a
+projection_coverage: topic-sword-world-rpg-complete-edition-handed@58a5b67ad7bf516ad3329fa01854ea45
 ---
 
 # Handed
@@ -27,8 +27,8 @@ What [[sword-world-rpg-complete-edition]] covers about handed:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-16-6-2-two-handed-attacks-23c3054f]] - source section: 16.6.2 Two-Handed Attacks
-- [[sword-world-rpg-complete-edition-section-16-6-2-two-handed-attacks-weapons-and-armor-that-are-too-heavy-108e1234]] - source section: 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-23c3054f]] - source section: Chapter 16: / 16.6.2 Two-Handed Attacks
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-weapons-and-armor-that-are-too-heavy-108e1234]] - source section: Chapter 16: / 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy
 - [[sword-world-rpg-complete-edition-section-one-handed-and-twohanded-weapons-06cd107c]] - source section: One-Handed and TwoHanded Weapons
 
 ## Source

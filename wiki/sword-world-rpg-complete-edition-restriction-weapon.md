@@ -4,10 +4,10 @@ page_kind: concept
 summary: Restriction Weapon: 3 statement(s) and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-07
+updated: 2026-07-08
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-restriction-weapon@c8f28b758e7071b50238601069353ee2
+projection_coverage: topic-sword-world-rpg-complete-edition-restriction-weapon@fc68c397a0bb46498dade9b57a34e288
 ---
 
 # Restriction Weapon
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 ## Statements
 
-### 1.4.7 Restrictions on Weapons and Armor Based on Skill
+### 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 - For weapons, there are no restrictions. Y ou should buy a weapon whose required strength is the same as your own strength. Ranger does not include the ability to fight with melee weapons, but it does include the ability to handle projectiles . Therefore, it is a good idea to choose a projectile, if you have to choose a weapon. On Table 1-8: Weapons, they are indicated as throwable made for throwing , and shooting . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00788))_
 
@@ -27,7 +27,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 ## Technical atoms
 
-### Technical frame 1: 1.4.7 Restrictions on Weapons and Armor Based on Skill
+### Technical frame 1: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00786))_
 
@@ -38,7 +38,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 <a id="atom-technical-atom-216893ab0da30ac5"></a>
 > If you want to take advantage of your thief skill, your weapons and armor must be light .
 
-### Technical frame 2: 1.4.7 Restrictions on Weapons and Armor Based on Skill
+### Technical frame 2: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00788))_
 
@@ -49,7 +49,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 <a id="atom-technical-atom-91f6547a1527556e"></a>
 > If you want to make use of your ranger skill, your armor must be light .
 
-### Technical frame 3: 1.4.7 Restrictions on Weapons and Armor Based on Skill
+### Technical frame 3: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00791))_
 
@@ -60,7 +60,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 <a id="atom-technical-atom-dac98e3f2e1342dc"></a>
 > If you want to make use of your sorcerer skill, your armor must be cloth or soft leather .
 
-### Technical frame 4: 1.4.7 Restrictions on Weapons and Armor Based on Skill
+### Technical frame 4: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00798))_
 
@@ -71,7 +71,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 <a id="atom-technical-atom-88ed5c23e511ff9c"></a>
 > If a character has acquired only these skills, the basic idea is to choose weapons and armor whose required strength is the same as their own strength.
 
-### Technical frame 5: 1.4.7 Restrictions on Weapons and Armor Based on Skill
+### Technical frame 5: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00801))_
 
@@ -87,11 +87,11 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]] - source section: 1.4.7 Restrictions on Weapons and Armor Based on Skill
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]] - source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-armor-based-skill]] - shared statements and technical atoms: Armor Based Skill shares source evidence from 1.4.7 Restrictions on Weapons and Armor Based on Skill: These skills have no weapon or armor restrictions. Refer to restrictions on other skills acquired at the same time. If a character has acquired only these skills, th ... [truncated]; Armor Based Skill shares technical record from 1.4.7 Restrictions on Weapons and Armor Based on Skill: If you want to make use of your ranger skill, your armor must be light . (1 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-armor-based-skill]] - shared statements and technical atoms: Armor Based Skill shares source evidence from 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill: These skills have no weapon or armor restrictions. Refer to restrictions on other skills acquired at the same time. If a character has acquired only these skills, th ... [truncated]; Armor Based Skill shares technical record from 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill: If you want to make use of your ranger skill, your armor must be light . (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 
