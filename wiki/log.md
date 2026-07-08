@@ -875,3 +875,17 @@ Source page: [[sword-world-rpg-complete-edition]]; linked pages: 832. Ledger art
 Provenance audit: 3583 finding(s), 994 outside source manifests.
 Graph export: current; nodes=1213; edges=6395; unresolved=0.
 Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-08] lint | wiki health
+Fixed 2 orphan pages: [[antikythera-mechanism-section-the-antikythera-mechanism-759d40e0]] (linked from [[antikythera-mechanism]]) and [[wiki-ingest-confidence]] (linked from [[wiki-health]]). Remaining issues: 163 orphan pages (repair loop skipped due to 50-issue budget limit), salience gaps in JavaScriptAllonge concepts (high links but 0 writes). Next steps: prioritize salience gaps, request higher repair budget for orphans, and verify all source-derived pages have proper cross-references.
+
+## [2026-07-08] ingest | antikythera-mechanism.md
+Claim-ledger ingest of raw/antikythera-mechanism.md (1 source unit(s)).
+Claim-ledger projection (history): 10 usable entries, 0 technical atoms, 0 needs-review, 1 linked page(s); write decision write-authoritative-page.
+Source page: [[antikythera-mechanism]]; linked pages: 1. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/antikythera-mechanism-6b8d9991ac96/ledger.
+Provenance audit: 0 finding(s), 0 outside source manifests.
+Graph export: current; nodes=1213; edges=6396; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-08] lint | wiki health
+No deterministic issues found (links, orphans, and index are consistent).

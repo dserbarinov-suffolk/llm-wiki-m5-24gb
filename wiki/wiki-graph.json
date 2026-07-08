@@ -2,6 +2,11 @@
   "edges": [
     {
       "resolved": true,
+      "source": "antikythera-mechanism",
+      "target": "antikythera-mechanism-section-the-antikythera-mechanism-759d40e0"
+    },
+    {
+      "resolved": true,
       "source": "antikythera-mechanism-section-the-antikythera-mechanism-759d40e0",
       "target": "antikythera-mechanism"
     },
@@ -31977,7 +31982,7 @@
     }
   ],
   "metadata": {
-    "generated_date": "2026-07-07",
+    "generated_date": "2026-07-08",
     "generator": "llmwiki.graph.v1",
     "schema_version": 1,
     "system_pages": "excluded"
@@ -31986,7 +31991,9 @@
     {
       "category": "source",
       "name": "antikythera-mechanism",
-      "outbound_links": [],
+      "outbound_links": [
+        "antikythera-mechanism-section-the-antikythera-mechanism-759d40e0"
+      ],
       "sources": [
         "raw/antikythera-mechanism.md"
       ],

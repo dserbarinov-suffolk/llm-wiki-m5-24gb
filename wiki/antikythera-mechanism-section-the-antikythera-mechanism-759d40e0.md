@@ -4,7 +4,7 @@ page_kind: source
 summary: The Antikythera Mechanism: 10 source-backed entries and 0 atom(s) from raw/antikythera-mechanism.md.
 page_family: section-reference
 sources: raw/antikythera-mechanism.md
-updated: 2026-07-02
+updated: 2026-07-08
 domain: antikythera-mechanism
 category_path: sources/antikythera-mechanism/sections
 source_id: antikythera-mechanism.md

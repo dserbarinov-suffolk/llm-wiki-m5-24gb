@@ -77,8 +77,11 @@ Entry prefix: `## [YYYY-MM-DD] <op> | <subject>`.
 
 1. The harness reports deterministic LintFindings first: broken `[[links]]`, orphan pages, and index drift.
 2. Review flagged WikiPages.
-3. Resolve or document contradictions, add missing cross-references, and propose pages for concepts mentioned often but never given a page.
-4. Call `finish_lint` with the health report.
-5. The harness files the health report as the `wiki-health` synthesis page.
-6. `wiki-health` is rewritten each lint pass, with history in log.md.
-7. `wiki-health` is exempt from orphan checks.
+3. Lint does not expose `write_page`; it can only use constrained repair tools.
+4. Fix orphan pages with `add_related_link` from a related existing page to the orphan.
+5. Fix broken links on manual pages with `replace_link_target` or `remove_broken_link`.
+6. Do not patch generated projection pages for semantic or structural problems during lint; request source regeneration instead.
+7. Call `finish_lint` with the health report.
+8. The harness files the health report as the `wiki-health` synthesis page.
+9. `wiki-health` is rewritten each lint pass, with history in log.md.
+10. `wiki-health` is exempt from orphan checks.

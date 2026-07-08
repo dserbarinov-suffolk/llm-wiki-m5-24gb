@@ -23,6 +23,12 @@ from llmwiki.store import WikiStore
 from llmwiki.workflows import prompts
 from llmwiki.workflows.chat_response_tools import grounded_chat_respond_tool
 from llmwiki.workflows.claim_support_tools import record_claim_support_verdict_tool
+from llmwiki.workflows.lint_repair_tools import (
+    add_related_link_tool,
+    remove_broken_link_tool,
+    replace_link_target_tool,
+    request_source_regeneration_tool,
+)
 from llmwiki.workflows.procedure_execution_tools import (
     ProcedureExecutionState,
     submit_procedure_execution_tool,
@@ -148,7 +154,10 @@ def build_lint_workflow(store: WikiStore, today: str) -> Workflow:
     tools = [
         search_wiki_tool(store),
         read_page_tool(store, read_tracker=seen),
-        write_page_tool(store, today, read_tracker=seen),
+        add_related_link_tool(store, today),
+        replace_link_target_tool(store, today),
+        remove_broken_link_tool(store, today),
+        request_source_regeneration_tool(),
         finish_tool(
             "finish_lint",
             "Finish the lint pass with a concise wiki health report: issues "
@@ -157,7 +166,7 @@ def build_lint_workflow(store: WikiStore, today: str) -> Workflow:
     ]
     return Workflow(
         name="lint",
-        description="Health-check the wiki and repair what page edits can repair.",
+        description="Health-check the wiki and apply constrained link repairs.",
         tools={t.name: t for t in tools},
         required_steps=["read_page"],
         terminal_tool="finish_lint",
