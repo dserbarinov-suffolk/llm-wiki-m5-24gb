@@ -289,6 +289,7 @@ QUALITY_FINDING_SUBJECT_KINDS: Final = (
     "source-family-assignment",
     "proposed-change",
     "proposed-change-review-artifact",
+    "assertion-graph-artifact",
 )
 
 # -- portable artifacts ----------------------------------------------------
@@ -304,6 +305,7 @@ PORTABLE_ARTIFACT_KINDS: Final = (
     "quality-check-catalog-artifact",
     "blocked-write-diagnostic-artifact",
     "proposed-change-review-artifact",
+    "assertion-graph-artifact",
 )
 
 

@@ -4,6 +4,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
+from llmwiki.application.assertion_graph_artifacts import (
+    AssertionGraphArtifact,
+    assertion_graph_artifact_to_json,
+)
 from llmwiki.application.source_artifacts import (
     CanonicalSourceArtifact,
     canonical_source_artifact_to_json,
@@ -65,6 +69,7 @@ def build_serialized_artifact_bundle(
     publish_run: PublishRun,
     source_artifact: CanonicalSourceArtifact | None,
     proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
+    assertion_graph_artifact: AssertionGraphArtifact | None,
 ) -> SerializedLedgerArtifacts:
     members = _artifact_members(
         ds_artifact,
@@ -85,6 +90,7 @@ def build_serialized_artifact_bundle(
         publish_run,
         source_artifact,
         proposed_change_review_artifact,
+        assertion_graph_artifact,
     )
     artifact_files = _artifact_files(
         ds_artifact,
@@ -106,6 +112,7 @@ def build_serialized_artifact_bundle(
         publish_run,
         source_artifact,
         proposed_change_review_artifact,
+        assertion_graph_artifact,
     )
     manifest = build_portable_artifact_set(tuple(members))
     artifact_files["portable-artifact-set.json"] = canonical_json(manifest, indent=2)
@@ -131,6 +138,7 @@ def _artifact_members(
     publish_run: PublishRun,
     source_artifact: CanonicalSourceArtifact | None,
     proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
+    assertion_graph_artifact: AssertionGraphArtifact | None,
 ) -> list[PortableArtifactMember]:
     members = [
         _member(
@@ -220,6 +228,14 @@ def _artifact_members(
                 proposed_change_review_artifact.proposed_change_review_fingerprint,
             )
         )
+    if assertion_graph_artifact is not None:
+        members.append(
+            _member(
+                "assertion-graph-artifact",
+                assertion_graph_artifact.assertion_graph_artifact_id,
+                assertion_graph_artifact.assertion_graph_fingerprint,
+            )
+        )
     if source_coverage_artifact is not None:
         members.append(
             _member(
@@ -259,6 +275,7 @@ def _artifact_files(
     publish_run: PublishRun,
     source_artifact: CanonicalSourceArtifact | None,
     proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
+    assertion_graph_artifact: AssertionGraphArtifact | None,
 ) -> dict[str, str]:
     artifact_files = {
         "document-structure.json": canonical_json(ds_artifact, indent=2),
@@ -284,6 +301,10 @@ def _artifact_files(
     if proposed_change_review_artifact is not None:
         artifact_files["proposed-change-review.json"] = proposed_change_review_artifact_to_json(
             proposed_change_review_artifact
+        )
+    if assertion_graph_artifact is not None:
+        artifact_files["assertion-graph.json"] = assertion_graph_artifact_to_json(
+            assertion_graph_artifact
         )
     if source_coverage_artifact is not None:
         artifact_files["source-coverage.json"] = canonical_json(source_coverage_artifact, indent=2)

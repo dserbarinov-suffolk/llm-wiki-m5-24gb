@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from llmwiki.application.assertion_graph_artifacts import build_assertion_graph_artifact
 from llmwiki.application.source_artifacts import CanonicalLedgerSource
 from llmwiki.domain.ledger.artifacts import (
     build_blocked_write_diagnostic_artifact,
@@ -124,6 +125,10 @@ def build_source_ledger(
         structure=structure,
         document_structure_artifact_id=ds_artifact.document_structure_artifact_id,
         claim_ledger_id=ledger_artifact.claim_ledger_id,
+    )
+    assertion_graph_artifact = build_assertion_graph_artifact(
+        source_artifact=canonical_source.artifact,
+        ledger=ledger,
     )
     source_coverage_artifact = None
     if document_model is not None:
@@ -260,6 +265,7 @@ def build_source_ledger(
         publish_run=publish_run,
         source_artifact=canonical_source.artifact,
         proposed_change_review_artifact=ledger.proposed_change_review,
+        assertion_graph_artifact=assertion_graph_artifact,
     )
 
     return SourceLedgerResult(

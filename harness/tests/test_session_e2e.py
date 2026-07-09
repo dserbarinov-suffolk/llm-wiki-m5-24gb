@@ -163,6 +163,7 @@ class TestIngest:
             "quality-check-catalog.json",
             "portable-artifact-set.json",
             "proposed-change-review.json",
+            "assertion-graph.json",
         ):
             assert (ledger_dir / name).is_file(), name
         # The evidence registry remains the prior link in the authority chain.
@@ -172,6 +173,7 @@ class TestIngest:
         assert "claim-ledger-artifact" in kinds
         assert "document-structure-artifact" in kinds
         assert "proposed-change-review-artifact" in kinds
+        assert "assertion-graph-artifact" in kinds
         assert "portable-artifact-set" not in kinds
 
     async def test_claim_ledger_references_document_structure_and_has_entries(

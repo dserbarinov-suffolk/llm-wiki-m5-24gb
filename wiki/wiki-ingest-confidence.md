@@ -9,7 +9,7 @@ updated: 2026-07-09
 
 ## Summary
 
-Run id: 2026-07-09-085554
+Run id: 2026-07-09-091621
 Source: raw/Sword World RPG - Complete Edition.pdf
 Confidence status: passed
 Blockers: 0

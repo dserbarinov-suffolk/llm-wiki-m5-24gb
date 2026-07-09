@@ -929,3 +929,19 @@ Source page: [[sword-world-rpg-complete-edition]]; linked pages: 840. Ledger art
 Provenance audit: 3608 finding(s), 1019 outside source manifests.
 Graph export: current; nodes=1221; edges=6499; unresolved=0.
 Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-09] ingest | javascriptallonge.pdf
+Claim-ledger ingest of raw/javascriptallonge.pdf (2010 canonical source segment(s)).
+Claim-ledger projection (coding): 1901 usable entries, 608 technical atoms, 466 needs-review, 377 linked page(s); write decision write-with-review-work.
+Source page: [[javascriptallonge]]; linked pages: 377. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/ledger.
+Provenance audit: 2035 finding(s), 1434 outside source manifests.
+Graph export: current; nodes=1221; edges=6499; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-09] ingest | Sword World RPG - Complete Edition.pdf
+Claim-ledger ingest of raw/Sword World RPG - Complete Edition.pdf (11213 canonical source segment(s)).
+Claim-ledger projection (rules-reference): 10818 usable entries, 3642 technical atoms, 1436 needs-review, 840 linked page(s); write decision write-with-review-work.
+Source page: [[sword-world-rpg-complete-edition]]; linked pages: 840. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/sword-world-rpg-complete-edition-8e67d04d99d8/ledger.
+Provenance audit: 3608 finding(s), 1019 outside source manifests.
+Graph export: current; nodes=1221; edges=6499; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
