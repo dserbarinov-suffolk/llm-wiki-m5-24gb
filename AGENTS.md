@@ -88,6 +88,100 @@ three operations (ingest, query, lint) plus index.md and log.md for navigation.
   index.md and log.md stay current). If a task can't be justified against
   the document, stop and raise it rather than completing it.
 
+### KoteKomi TDD — assertion graph topic state migration
+`docs/2026-07-09-assertion-graph-topic-state.md` is the KoteKomi TDD.
+It governs the migration from the old page-first flow to:
+
+`SourceUnit -> EvidenceSpan -> Assertion -> Relationship / ArgumentEdge -> TopicState -> PageProjection`
+
+Deliverables 0 through 8 are the implementation units for this migration:
+
+- Deliverable 0: agent guidance and check plan
+- Deliverable 1: pure Domain Core
+- Deliverable 2: SourceUnit to EvidenceSpan
+- Deliverable 3: ProposedChange review boundary
+- Deliverable 4: Assertion graph
+- Deliverable 5: TopicState builder
+- Deliverable 6: PageProjection from TopicState
+- Deliverable 7: query, lint, graph, and index/log on new state
+- Deliverable 8: delete the old flow and regenerate disposable wiki data
+
+During these deliverables, do not extend the old page-first projection flow.
+Do not run old and new production ingest flows side by side.
+Do not add compatibility branches, fallback reads, dual writes, or migration
+paths for disposable generated wiki data.
+Delete superseded code in the deliverable that replaces it.
+
+### Task routing
+Before changing files, read the route-specific material below.
+When routes overlap, read all matching rows.
+
+| Task | Read first |
+|---|---|
+| planning or design documents | `docs/llm-wiki.md`, `docs/writing-tdds.md`, KoteKomi TDD |
+| Deliverable 0 work | `AGENTS.md`, KoteKomi TDD, `docs/CHECK_PLAN.md` |
+| Domain Core changes | KoteKomi TDD, `docs/CHECK_PLAN.md`, existing domain modules |
+| Application Layer changes | KoteKomi TDD, `docs/CHECK_PLAN.md`, Domain Core records, relevant ports |
+| Adapter changes | KoteKomi TDD, `docs/CHECK_PLAN.md`, Application Layer ports |
+| Pipeline or CLI changes | KoteKomi TDD, `docs/CHECK_PLAN.md`, Application Layer use cases |
+| model behavior changes | KoteKomi TDD, forge docs, `docs/CHECK_PLAN.md`, relevant prompts |
+| generated wiki quality work | `docs/llm-wiki.md`, KoteKomi TDD, `docs/CHECK_PLAN.md` |
+| query, chat, graph, or lint work | `docs/llm-wiki.md`, KoteKomi TDD, `docs/CHECK_PLAN.md` |
+| tests or fixtures | KoteKomi TDD, `docs/CHECK_PLAN.md`, the tested domain or adapter |
+
+### Authority order
+When artifacts conflict, use this order:
+
+1. `docs/llm-wiki.md`
+2. accepted design documents, with the KoteKomi TDD governing this migration
+3. `AGENTS.md`
+4. Domain Core records and rules
+5. Application Layer use cases and ports
+6. Adapters
+7. Pipelines and CLI
+8. prompts
+9. tests and fixtures
+10. generated wiki data
+
+Update the higher-authority artifact first.
+Then update dependent files.
+Generated wiki data is disposable and never constrains code.
+
+### Architecture role
+Dependencies point inward.
+
+```text
+Pipelines -> Application Layer -> Domain Core
+Adapters  -> Application Layer -> Domain Core
+Domain Core -> no external package
+```
+
+Domain Core owns domain records, value objects, validation rules, and ontology
+semantics.
+Application Layer owns use cases, ports, status transitions, and transaction
+intent.
+Adapters translate, validate, persist, load, and call tools.
+Pipelines compose Application Layer use cases.
+
+Domain Core must not import adapter code, database code, model runtime code,
+network code, graph libraries, filesystem code, or markdown rendering code.
+Adapters must not decide domain meaning, review outcomes, status transitions,
+or repair policy.
+
+### Boundary validation rule
+Domain Core records and Application Layer DTOs define boundary shape.
+Every deterministic boundary parses inbound structured values through declared
+Domain Core records or Application Layer DTOs.
+Every deterministic boundary serializes outbound structured values from
+declared records or DTOs.
+Deterministic invalid values fail fast on invalid shape, missing required
+references, or impossible state.
+
+Only non-deterministic output, such as local model output, can enter recovery.
+Recovery must be visible as rejection, quarantine, validation error, or
+reviewable `ProposedChange`.
+Invalid model output must not become accepted state.
+
 ### forge — reliability layer for small-model tool calling
 Cloned locally from https://github.com/antoinezambelli/forge (MIT).
 A Python framework for reliable tool-calling and multi-step agentic
@@ -216,4 +310,3 @@ teammate tone. Mirror the user's style.
   directory, use `git -C $DIR <command>` instead of `cd $DIR` followed by
   `git <command>`. This avoids changing the working directory and keeps
   all operations rooted in the worktree.
-
