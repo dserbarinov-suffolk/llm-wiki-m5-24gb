@@ -1341,4 +1341,4 @@ http://creativecommons.org/licenses/by/2.0/deed.en
 
 ## Lint-maintained links
 
-- [[wiki-ingest-confidence]] - Ingest confidence is a key concept in the JavaScript Allongé source analysis.
+- [[wiki-ingest-confidence]] - Ingest confidence report is related to the JavaScriptAllonge source hub.
