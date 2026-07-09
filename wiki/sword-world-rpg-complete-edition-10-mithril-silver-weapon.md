@@ -4,7 +4,7 @@ page_kind: concept
 summary: 10 Mithril Silver Weapon: 11 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-10-mithril-silver-weapon@29abab09005fe1d8bd34f9cd64201df9

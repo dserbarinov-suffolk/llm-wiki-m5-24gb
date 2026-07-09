@@ -4,7 +4,7 @@ page_kind: concept
 summary: Decorator: 4 statement(s) and 6 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-decorator@3e7bb1c75415c050c27b2a06a01c338d

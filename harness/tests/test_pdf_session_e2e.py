@@ -174,6 +174,19 @@ class TestLedgerPdfIngest:
         ledger = json.loads(store.read_claim_ledger_artifact(source))["ledger"]
         atom_kinds = {atom["technical_atom_kind"] for atom in ledger["technical_atoms"]}
         assert {"code-block", "rule"} <= atom_kinds
+        source_artifact = json.loads(
+            (
+                store.page_plan_artifact_dir(source)
+                / "ledger"
+                / "assertion-graph-source-artifact.json"
+            ).read_text(encoding="utf-8")
+        )
+        canonical_atom_kinds = {atom["atom_kind"] for atom in source_artifact["technical_atoms"]}
+        assert "code_block" in canonical_atom_kinds
+        assert any(
+            atom["exact_payload"] == "const f = () => 1;"
+            for atom in source_artifact["technical_atoms"]
+        )
 
     async def test_ledger_artifacts_and_manifest_written(
         self, store: WikiStore, paths: WikiPaths
@@ -182,8 +195,16 @@ class TestLedgerPdfIngest:
         extraction = _fake_extraction(paths)
         await _session(store, paths, extraction).ingest(source)
         ledger_dir = store.page_plan_artifact_dir(source) / "ledger"
-        for name in ("claim-ledger.json", "document-structure.json", "portable-artifact-set.json"):
+        for name in (
+            "claim-ledger.json",
+            "document-structure.json",
+            "portable-artifact-set.json",
+            "assertion-graph-source-artifact.json",
+        ):
             assert (ledger_dir / name).is_file(), name
+        portable = json.loads((ledger_dir / "portable-artifact-set.json").read_text())
+        member_kinds = {member["portable_artifact_kind"] for member in portable["members"]}
+        assert "assertion-graph-source-artifact" in member_kinds
         # The manifest is persisted and marked integrated after ingest.
         manifest = from_json((extraction.cache_dir / "manifest.json").read_text(encoding="utf-8"))
         assert manifest.integrated

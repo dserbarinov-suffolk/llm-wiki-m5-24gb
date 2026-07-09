@@ -4,7 +4,7 @@ page_kind: concept
 summary: Cross Stateless Function: 1 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-cross-stateless-function@1b92ce325eda387444dbafaa690e9f8f

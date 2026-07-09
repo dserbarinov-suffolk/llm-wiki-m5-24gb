@@ -4,7 +4,7 @@ page_kind: concept
 summary: Starting: 2 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-starting@2153a04f59f3e52cdfef1b453a7cad4f

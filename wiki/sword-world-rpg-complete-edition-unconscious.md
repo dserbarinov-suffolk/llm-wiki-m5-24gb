@@ -4,7 +4,7 @@ page_kind: concept
 summary: Unconscious: 3 statement(s) and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-unconscious@75846ccacbde367861d6d75f296c61c1

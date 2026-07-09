@@ -4,7 +4,7 @@ page_kind: concept
 summary: Function Decorator: 2 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-function-decorator@e6f16ee5c30e1ebd9ae755b2ee3cf574

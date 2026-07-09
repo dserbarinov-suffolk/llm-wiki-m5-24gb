@@ -4,7 +4,7 @@ page_kind: concept
 summary: [ Control Spirit ] (Various lesser spirits): 13 statement(s) and 9 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-control-spirit-lesser@74a63837a6c6f3493ea9418ffdcc05bd

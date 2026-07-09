@@ -4,7 +4,7 @@ page_kind: concept
 summary: Iterator: 27 statement(s) and 26 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-iterator@23c2b286cde761328007337f64765ab7

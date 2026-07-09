@@ -2,14 +2,14 @@
 page_id: wiki-ingest-confidence
 page_kind: synthesis
 summary: Latest bounded post-ingest confidence report.
-updated: 2026-07-08
+updated: 2026-07-09
 ---
 
 # Ingest Confidence Report
 
 ## Summary
 
-Run id: 2026-07-08-074309
+Run id: 2026-07-09-083410
 Source: raw/Sword World RPG - Complete Edition.pdf
 Confidence status: passed
 Blockers: 0
@@ -46,7 +46,7 @@ MissingUnitCoverage: 0
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 384
+Source ranges: 405
 Evidence records: 12346
 
 ### evidence-locators
@@ -54,7 +54,7 @@ Evidence records: 12346
 - Scope: raw/Sword World RPG - Complete Edition.pdf
 - Status: pass
 - Findings: none
-Locators: 11883
+Locators: 11884
 Invalid locators: 0
 
 ### claim-support

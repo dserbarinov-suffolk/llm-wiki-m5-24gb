@@ -4,7 +4,7 @@ page_kind: concept
 summary: Quasi Literal: 6 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-quasi-literal@fc8c5332ea63ba9074a8111911020c81

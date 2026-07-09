@@ -4,7 +4,7 @@ page_kind: concept
 summary: Magic Armor Non Metal: 3 statement(s) and 19 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-magic-armor-non-metal@2a5c796609badee5574f4e24148a159b

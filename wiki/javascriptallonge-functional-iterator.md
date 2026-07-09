@@ -4,7 +4,7 @@ page_kind: concept
 summary: Functional Iterators: 10 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-functional-iterator@5cbb4455904f1cc5b57ccddc631e4bd9

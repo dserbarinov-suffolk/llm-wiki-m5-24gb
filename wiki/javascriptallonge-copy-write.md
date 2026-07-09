@@ -4,7 +4,7 @@ page_kind: concept
 summary: Copy on Write: 34 statement(s) and 16 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-copy-write@05c457412d47ca9df2e93419660126c7

@@ -4,11 +4,11 @@ page_kind: source
 summary: Claim-ledger projection (coding): 1901 usable entries, 608 technical atoms, 466 needs-review, 377 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: sources
 source_id: javascriptallonge.pdf
-projection_coverage: projection-coverage-e2eedcc6eaa824c5@bcc07cd5d8250e78
+projection_coverage: projection-coverage-e2eedcc6eaa824c5@c0503664ecfa75b8
 ---
 
 # Javascriptallonge

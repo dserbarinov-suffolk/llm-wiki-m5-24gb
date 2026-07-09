@@ -4,7 +4,7 @@ page_kind: concept
 summary: Iteration: 2 statement(s) and 27 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-iteration@3f3a30d5b3d444593bf561188e3c6499

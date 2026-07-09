@@ -4,7 +4,7 @@ page_kind: source
 summary: 《 Accessories 》 [ Earrings of Interpretation ]: 8 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: collection-page
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf

@@ -4,7 +4,7 @@ page_kind: procedure
 summary: Create Character: 8 ordered step(s), 3 decision point(s), 29 authoritative dependency reference(s), 8 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf

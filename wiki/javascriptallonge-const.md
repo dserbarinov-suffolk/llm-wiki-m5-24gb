@@ -4,7 +4,7 @@ page_kind: concept
 summary: Const: 6 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-const@1d721a22c2203a1291d984e7defa0979

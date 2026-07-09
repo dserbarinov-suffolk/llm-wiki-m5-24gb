@@ -4,7 +4,7 @@ page_kind: recipe
 summary: the function keyword: reusable source-backed pattern with 16 statement(s) and 13 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf

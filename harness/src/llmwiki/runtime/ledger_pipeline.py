@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from llmwiki.application.source_artifacts import CanonicalLedgerSource
 from llmwiki.domain.ledger.artifacts import (
     build_blocked_write_diagnostic_artifact,
     build_claim_ledger_artifact,
@@ -45,9 +46,8 @@ from llmwiki.domain.ledger.staged_flow import (
     build_staged_page_set,
 )
 from llmwiki.domain.ledger.topics import build_topic_index, plan_source_topic_result
-from llmwiki.domain.objects import Schema
 from llmwiki.domain.pages import WikiPage, slugify
-from llmwiki.pdf.document import DocumentModel, SourceUnit
+from llmwiki.pdf.document import DocumentModel
 from llmwiki.runtime.ledger_artifact_bundle import build_serialized_artifact_bundle
 from llmwiki.runtime.ledger_linked_pages import build_linked_page_projection
 from llmwiki.runtime.ledger_pages import (
@@ -56,8 +56,6 @@ from llmwiki.runtime.ledger_pages import (
     source_title,
 )
 from llmwiki.runtime.ledger_result import SourceLedgerResult
-from llmwiki.runtime.ledger_segmentation import ChunkText, segment_chunks
-from llmwiki.runtime.source_unit_segmentation import segment_source_units
 
 
 def build_source_ledger(
@@ -65,25 +63,19 @@ def build_source_ledger(
     source_locator: str,
     source_hash: str,
     evidence_registry_hash: str,
-    chunks: tuple[ChunkText, ...],
-    source_units: tuple[SourceUnit, ...] = (),
+    canonical_source: CanonicalLedgerSource,
     document_model: DocumentModel | None = None,
     today: str,
-    schema: Schema | None = None,
 ) -> SourceLedgerResult:
-    resolved_schema = schema or Schema()
+    if canonical_source.artifact.source_hash != source_hash:
+        raise ValueError("canonical source hash must match ledger source hash")
+    if canonical_source.artifact.source_locator != source_locator:
+        raise ValueError("canonical source locator must match ledger source locator")
+    if not canonical_source.segment_inputs:
+        raise ValueError("source ledger requires canonical source segments")
     bundle = default_schema_bundle()
-    if source_units:
-        inputs, profiles = segment_source_units(
-            source_units,
-            source_locator=source_locator,
-            source_hash=source_hash,
-            schema=resolved_schema,
-        )
-    else:
-        inputs, profiles = segment_chunks(
-            chunks, source_locator=source_locator, source_hash=source_hash, schema=resolved_schema
-        )
+    inputs = canonical_source.segment_inputs
+    profiles = canonical_source.profiles
     built = build_claim_ledger(
         source_locator=source_locator,
         source_hash=source_hash,
@@ -266,6 +258,7 @@ def build_source_ledger(
         staged_page_set=staged_page_set,
         lint_run=lint_run,
         publish_run=publish_run,
+        source_artifact=canonical_source.artifact,
     )
 
     return SourceLedgerResult(

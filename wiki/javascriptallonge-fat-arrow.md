@@ -4,7 +4,7 @@ page_kind: concept
 summary: Fat Arrow: 3 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-fat-arrow@e7707ce5817c5c1eac5b070e3eebd34d

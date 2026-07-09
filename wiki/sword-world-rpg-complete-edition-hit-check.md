@@ -4,7 +4,7 @@ page_kind: concept
 summary: 4.5.1 Hit Checks: 16 statement(s) and 7 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-hit-check@37ff799fa55619ca55f18718bab2519f

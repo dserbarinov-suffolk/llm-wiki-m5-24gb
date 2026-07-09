@@ -4,7 +4,7 @@ page_kind: concept
 summary: Magic: 14 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-magic@dc13ed8a2b856cb8a5ffab1540524660

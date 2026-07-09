@@ -4,7 +4,7 @@ page_kind: concept
 summary: Reason: 4 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-reason@ccf474a62c8242a5cfc70000f08b20bf

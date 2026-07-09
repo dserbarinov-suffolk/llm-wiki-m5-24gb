@@ -1,5 +1,6 @@
 from dataclasses import replace
 
+from llmwiki.application.source_artifacts import build_canonical_ledger_source
 from llmwiki.domain.ledger.staged_flow import (
     accepted_pages,
     build_lint_run,
@@ -7,11 +8,12 @@ from llmwiki.domain.ledger.staged_flow import (
     build_source_plan,
     build_staged_page_set,
 )
+from llmwiki.domain.objects import Schema
 from llmwiki.domain.pages import PageMetadata, WikiPage
 from llmwiki.runtime.ledger_pipeline import build_source_ledger
-from llmwiki.runtime.ledger_segmentation import ChunkText
+from llmwiki.runtime.ledger_segmentation import ChunkText, segment_chunks
 
-_HASH = "a" * 16
+_HASH = "a" * 64
 
 
 def test_staged_pages_publish_only_after_lint_accepts_them() -> None:
@@ -105,18 +107,28 @@ def test_staged_pages_accept_generated_page_with_inbound_route() -> None:
 
 
 def test_source_ledger_persists_stage_artifacts_from_real_pipeline() -> None:
+    chunks = (
+        ChunkText(
+            "unit-1",
+            "p.1",
+            "Root",
+            "# Root\n\nA meter has a dial.",
+        ),
+    )
+    segment_inputs, profiles = segment_chunks(
+        chunks, source_locator="src.pdf", source_hash=_HASH, schema=Schema()
+    )
+    canonical_source = build_canonical_ledger_source(
+        source_locator="src.pdf",
+        source_hash=_HASH,
+        segment_inputs=segment_inputs,
+        profiles=profiles,
+    )
     result = build_source_ledger(
         source_locator="src.pdf",
         source_hash=_HASH,
         evidence_registry_hash="evidence-registry-hash",
-        chunks=(
-            ChunkText(
-                "unit-1",
-                "p.1",
-                "Root",
-                "# Root\n\nA meter has a dial.",
-            ),
-        ),
+        canonical_source=canonical_source,
         today="2026-07-02",
     )
 
@@ -132,6 +144,7 @@ def test_source_ledger_persists_stage_artifacts_from_real_pipeline() -> None:
         "staged-pages.json",
         "lint-run.json",
         "publish-run.json",
+        "assertion-graph-source-artifact.json",
     ):
         assert filename in result.artifact_files
     member_kinds = {
@@ -139,6 +152,7 @@ def test_source_ledger_persists_stage_artifacts_from_real_pipeline() -> None:
     }
     assert "source-plan-artifact" in member_kinds
     assert "publish-run-artifact" in member_kinds
+    assert "assertion-graph-source-artifact" in member_kinds
 
 
 def _page(

@@ -4,7 +4,7 @@ page_kind: concept
 summary: Weapon: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-weapon@88d056d3fcbf755355e00bb6f09e8d8c

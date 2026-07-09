@@ -4,7 +4,7 @@ page_kind: concept
 summary: Critical Target Variation: 7 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-critical-target-variation@50bb385bf42b7644bfb8adc751ed0421

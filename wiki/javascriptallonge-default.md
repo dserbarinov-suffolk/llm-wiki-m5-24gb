@@ -4,7 +4,7 @@ page_kind: concept
 summary: Default: 2 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-default@5f0457ffcdc93a1ff5b9b39da3cf25ea

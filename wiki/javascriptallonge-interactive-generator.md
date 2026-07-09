@@ -4,7 +4,7 @@ page_kind: concept
 summary: Interactive Generators: 31 statement(s) and 10 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-interactive-generator@f760c35a335f7d939f8c04cc0d5927a9

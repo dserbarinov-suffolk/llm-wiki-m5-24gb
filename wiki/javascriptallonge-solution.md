@@ -4,7 +4,7 @@ page_kind: concept
 summary: Solution: 3 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-solution@94dd6ec31ba9c7058a0cbf68734de279

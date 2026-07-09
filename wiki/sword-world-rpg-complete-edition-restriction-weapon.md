@@ -4,7 +4,7 @@ page_kind: concept
 summary: Restriction Weapon: 3 statement(s) and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-restriction-weapon@fc68c397a0bb46498dade9b57a34e288

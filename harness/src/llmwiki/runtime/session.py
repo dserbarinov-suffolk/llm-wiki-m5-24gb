@@ -17,6 +17,10 @@ from forge.context import ContextManager
 from forge.core.messages import Message
 from forge.core.runner import WorkflowRunner
 
+from llmwiki.application.source_artifacts import (
+    CanonicalLedgerSource,
+    build_canonical_ledger_source,
+)
 from llmwiki.domain.chatwindow import QAPair
 from llmwiki.domain.claim_support import (
     ClaimSupportAuditReport,
@@ -63,9 +67,10 @@ from llmwiki.runtime.chat_turn import prepare_chat_turn
 from llmwiki.runtime.cross_source_pipeline import build_cross_source_pages
 from llmwiki.runtime.ingest_confidence import record_post_ingest_confidence
 from llmwiki.runtime.ledger_pipeline import build_source_ledger
-from llmwiki.runtime.ledger_segmentation import ChunkText
+from llmwiki.runtime.ledger_segmentation import ChunkText, segment_chunks
 from llmwiki.runtime.provenance_audit import build_provenance_audit, report_to_json
 from llmwiki.runtime.provenance_audit_render import render_markdown
+from llmwiki.runtime.source_unit_segmentation import segment_source_units
 from llmwiki.runtime.transcript import TranscriptWriter
 from llmwiki.store import WikiStore
 from llmwiki.workflows import (
@@ -205,11 +210,13 @@ class Session:
             ChunkText(unit.unit_id, unit.locator, unit.heading_path, unit.text)
             for unit in extracted_units
         )
+        canonical_source = self._canonical_source_from_chunks(
+            source_locator, source_text_record.source_hash, chunks
+        )
         return self._finish_ledger_ingest(
             source_locator=source_locator,
             page_plan=page_plan,
-            chunks=chunks,
-            source_units=(),
+            canonical_source=canonical_source,
             document_model=None,
             source_text=source_text_record,
             run=self._markdown_ingest_run(source_locator, page_plan),
@@ -242,9 +249,9 @@ class Session:
         )
         self._write_page_plan(result.cache_dir, page_plan)
         self._write_observation(result.cache_dir, page_plan)
-        chunks = tuple(
-            ChunkText(unit.unit_id, unit.locator, unit.heading_path, unit.text)
-            for unit in extracted_units
+        source_units = read_source_units(result.cache_dir)
+        canonical_source = self._canonical_source_from_pdf_units(
+            source_locator, manifest.sha256, source_units
         )
         save_manifest(
             ExtractionResult(manifest=manifest.mark_integrated(), cache_dir=result.cache_dir)
@@ -252,8 +259,7 @@ class Session:
         return self._finish_ledger_ingest(
             source_locator=source_locator,
             page_plan=page_plan,
-            chunks=chunks,
-            source_units=read_source_units(result.cache_dir),
+            canonical_source=canonical_source,
             document_model=read_document_model(result.cache_dir),
             source_text=SourceText(
                 source_locator=source_locator,
@@ -269,8 +275,7 @@ class Session:
         *,
         source_locator: str,
         page_plan: PagePlan,
-        chunks: tuple[ChunkText, ...],
-        source_units: tuple[SourceUnit, ...],
+        canonical_source: CanonicalLedgerSource,
         document_model: DocumentModel | None,
         source_text: SourceText,
         run: IngestRun,
@@ -288,11 +293,9 @@ class Session:
             source_locator=source_locator,
             source_hash=source_text.source_hash,
             evidence_registry_hash=registry_hash,
-            chunks=chunks,
-            source_units=source_units,
+            canonical_source=canonical_source,
             document_model=document_model,
             today=self.today,
-            schema=self._schema_object(),
         )
         self.store.write_ledger_artifacts(source_locator, ledger.artifact_files)
         if ledger.wiki_page is not None:
@@ -330,7 +333,8 @@ class Session:
         if self.on_chunk_note is not None:
             self.on_chunk_note(ledger.summary)
         report = (
-            f"Claim-ledger ingest of raw/{source_locator} ({len(chunks)} source unit(s)).\n"
+            f"Claim-ledger ingest of raw/{source_locator} "
+            f"({len(canonical_source.segment_inputs)} canonical source segment(s)).\n"
             f"{ledger.summary}\n"
             f"Source page: {written}; linked pages: {len(ledger.topic_pages)}. "
             f"Ledger artifacts: {self.store.page_plan_artifact_dir(source_locator)}/ledger.\n"
@@ -340,6 +344,38 @@ class Session:
         )
         self.store.append_log(self.today, "ingest", source_locator, report)
         return OperationResult("ingest", source_locator, report, None, run)
+
+    def _canonical_source_from_chunks(
+        self, source_locator: str, source_hash: str, chunks: tuple[ChunkText, ...]
+    ) -> CanonicalLedgerSource:
+        inputs, profiles = segment_chunks(
+            chunks,
+            source_locator=source_locator,
+            source_hash=source_hash,
+            schema=self._schema_object(),
+        )
+        return build_canonical_ledger_source(
+            source_locator=source_locator,
+            source_hash=source_hash,
+            segment_inputs=inputs,
+            profiles=profiles,
+        )
+
+    def _canonical_source_from_pdf_units(
+        self, source_locator: str, source_hash: str, source_units: tuple[SourceUnit, ...]
+    ) -> CanonicalLedgerSource:
+        inputs, profiles = segment_source_units(
+            source_units,
+            source_locator=source_locator,
+            source_hash=source_hash,
+            schema=self._schema_object(),
+        )
+        return build_canonical_ledger_source(
+            source_locator=source_locator,
+            source_hash=source_hash,
+            segment_inputs=inputs,
+            profiles=profiles,
+        )
 
     async def synthesize(self) -> OperationResult:
         """Build canonical concept pages from stored topic indexes.

@@ -4,7 +4,7 @@ page_kind: concept
 summary: partial application: 14 statement(s) and 7 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-partial-application@76dd8229947f9331d3e43beeede1dd07

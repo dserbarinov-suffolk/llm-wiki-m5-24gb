@@ -4,7 +4,7 @@ page_kind: source
 summary: Making Data Out Of Functions / the vireo: 13 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf

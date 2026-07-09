@@ -4,7 +4,7 @@ page_kind: concept
 summary: 16 Weapon: 7 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-16-weapon@42d97ab4de028e3b582b1c598d0c0dbc

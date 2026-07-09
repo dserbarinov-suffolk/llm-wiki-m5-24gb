@@ -40,3 +40,41 @@ class TestMarkdownIngest:
         rendered = json.dumps(ledger)
         assert sentinel in rendered
         assert "[TRUNCATED" not in rendered
+
+    async def test_markdown_ingest_writes_canonical_source_artifact(
+        self, store: WikiStore, paths: WikiPaths
+    ) -> None:
+        body = """# Developer Notes
+
+Arrays are fixed length.
+
+```go
+var x [5]int
+```
+
+| Name | Value |
+| --- | --- |
+| Size | 5 |
+"""
+        source = "developer-notes.md"
+        (paths.raw_dir / source).write_text(body, encoding="utf-8")
+
+        await _session(store, paths).ingest(source)
+
+        artifact = json.loads(
+            (
+                store.page_plan_artifact_dir(source)
+                / "ledger"
+                / "assertion-graph-source-artifact.json"
+            ).read_text(encoding="utf-8")
+        )
+        atom_kinds = {atom["atom_kind"] for atom in artifact["technical_atoms"]}
+
+        assert {"code_block", "table"} <= atom_kinds
+        assert any(
+            "var x [5]int" in atom["exact_payload"] for atom in artifact["technical_atoms"]
+        )
+        assert any(
+            "| Name | Value |" in atom["exact_payload"]
+            for atom in artifact["technical_atoms"]
+        )

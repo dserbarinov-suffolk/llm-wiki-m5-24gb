@@ -4,7 +4,7 @@ page_kind: concept
 summary: Lazy: 1 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-lazy@687e8b9a0b36c266ac65607d7cc1787d

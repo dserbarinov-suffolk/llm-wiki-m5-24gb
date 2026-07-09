@@ -4,7 +4,7 @@ page_kind: concept
 summary: Works Just Fine, Because Arguments[0: 1 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-works-just-fine-because-arguments@8d8fffaf8ac4ce0ce92807f1f48a4f04

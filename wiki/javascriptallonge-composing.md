@@ -4,7 +4,7 @@ page_kind: concept
 summary: Composing: 1 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-composing@7a28ab2c01415c634707e7a0ac9bdce1

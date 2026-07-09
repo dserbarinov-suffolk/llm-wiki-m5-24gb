@@ -4,7 +4,7 @@ page_kind: concept
 summary: Adventurer Skill: 5 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-skill@14bf258a8dbbfe3dbf66d37b40d911f8

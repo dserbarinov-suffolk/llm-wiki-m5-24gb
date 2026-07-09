@@ -4,7 +4,7 @@ page_kind: concept
 summary: 4.5.5 Final Damage: 5 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-08
+updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-final-damage@10248e1e53b82ad08fc531e86427dbe9

@@ -4,7 +4,7 @@ page_kind: concept
 summary: Destructuring: 1 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-07
+updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-destructuring@8bde1b18fc2653b06f76f8cfbcbb4725

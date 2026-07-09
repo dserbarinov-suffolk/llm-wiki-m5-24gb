@@ -4,6 +4,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
+from llmwiki.application.source_artifacts import (
+    CanonicalSourceArtifact,
+    canonical_source_artifact_to_json,
+)
 from llmwiki.domain.ledger.artifacts import (
     BlockedWriteDiagnosticArtifact,
     ClaimLedgerArtifact,
@@ -55,6 +59,7 @@ def build_serialized_artifact_bundle(
     staged_page_set: StagedWikiPageSet,
     lint_run: ProjectionLintRun,
     publish_run: PublishRun,
+    source_artifact: CanonicalSourceArtifact | None,
 ) -> SerializedLedgerArtifacts:
     members = _artifact_members(
         ds_artifact,
@@ -73,6 +78,7 @@ def build_serialized_artifact_bundle(
         staged_page_set,
         lint_run,
         publish_run,
+        source_artifact,
     )
     artifact_files = _artifact_files(
         ds_artifact,
@@ -92,6 +98,7 @@ def build_serialized_artifact_bundle(
         staged_page_set,
         lint_run,
         publish_run,
+        source_artifact,
     )
     manifest = build_portable_artifact_set(tuple(members))
     artifact_files["portable-artifact-set.json"] = canonical_json(manifest, indent=2)
@@ -115,6 +122,7 @@ def _artifact_members(
     staged_page_set: StagedWikiPageSet,
     lint_run: ProjectionLintRun,
     publish_run: PublishRun,
+    source_artifact: CanonicalSourceArtifact | None,
 ) -> list[PortableArtifactMember]:
     members = [
         _member(
@@ -188,6 +196,14 @@ def _artifact_members(
             publish_run.publish_run_fingerprint,
         ),
     ]
+    if source_artifact is not None:
+        members.append(
+            _member(
+                "assertion-graph-source-artifact",
+                source_artifact.source_artifact_id,
+                source_artifact.source_artifact_fingerprint,
+            )
+        )
     if source_coverage_artifact is not None:
         members.append(
             _member(
@@ -225,6 +241,7 @@ def _artifact_files(
     staged_page_set: StagedWikiPageSet,
     lint_run: ProjectionLintRun,
     publish_run: PublishRun,
+    source_artifact: CanonicalSourceArtifact | None,
 ) -> dict[str, str]:
     artifact_files = {
         "document-structure.json": canonical_json(ds_artifact, indent=2),
@@ -243,6 +260,10 @@ def _artifact_files(
         "lint-run.json": canonical_json(lint_run, indent=2),
         "publish-run.json": canonical_json(publish_run, indent=2),
     }
+    if source_artifact is not None:
+        artifact_files["assertion-graph-source-artifact.json"] = (
+            canonical_source_artifact_to_json(source_artifact)
+        )
     if source_coverage_artifact is not None:
         artifact_files["source-coverage.json"] = canonical_json(source_coverage_artifact, indent=2)
     if blocked is not None:
