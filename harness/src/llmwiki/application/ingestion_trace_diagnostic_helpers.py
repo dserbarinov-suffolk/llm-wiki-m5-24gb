@@ -68,6 +68,17 @@ def metric(provider_id: str, kind: str, value: int | float | str) -> IngestionMe
     )
 
 
+def score_metric(provider_id: str, kind: str, value: float) -> IngestionMetric:
+    return IngestionMetric(
+        metric_id=f"metric-{provider_id}-{kind}",
+        metric_kind=kind,
+        value=value,
+        unit="score",
+        subject_kind=provider_id,
+        subject_id=kind,
+    )
+
+
 def finding(
     stage_id: str, reason: str, subject_kind: str, subject_id: str, message: str
 ) -> IngestionTraceFinding:

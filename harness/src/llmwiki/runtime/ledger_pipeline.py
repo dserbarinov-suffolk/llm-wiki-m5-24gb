@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from llmwiki.application.assertion_graph_artifacts import build_assertion_graph_artifact
 from llmwiki.application.page_projection_artifacts import build_page_projection_artifact
+from llmwiki.application.page_quality_artifacts import build_page_quality_report_artifact
 from llmwiki.application.source_artifacts import CanonicalLedgerSource
 from llmwiki.application.topic_state_artifacts import build_topic_state_artifact
 from llmwiki.domain.ledger.artifacts import (
@@ -184,6 +185,7 @@ def build_source_ledger(
     topic_pages: tuple[WikiPage, ...] = ()
     staged_pages: tuple[WikiPage, ...] = ()
     page_projection_artifact = None
+    page_quality_report_artifact = None
     if decision == "block-authoritative-write":
         blocked = build_blocked_write_diagnostic_artifact(
             wiki_page_locator=page_id,
@@ -205,6 +207,11 @@ def build_source_ledger(
                 len(topic_state_artifact.topic_states) - 1,
             ),
             source_review=source_review_section(rendered.page_body),
+        )
+        page_quality_report_artifact = build_page_quality_report_artifact(
+            graph=assertion_graph_artifact,
+            topic_artifact=topic_state_artifact,
+            page_projection_artifact=page_projection_artifact,
         )
         linked_projection = build_topic_state_page_projection(
             ledger=ledger,
@@ -251,6 +258,7 @@ def build_source_ledger(
         assertion_graph_artifact=assertion_graph_artifact,
         topic_state_artifact=topic_state_artifact,
         page_projection_artifact=page_projection_artifact,
+        page_quality_report_artifact=page_quality_report_artifact,
     )
 
     return SourceLedgerResult(

@@ -23,6 +23,7 @@ IngestionMetricProvider = Callable[[IngestionTraceInput], IngestionMetricGroup]
 
 def default_metric_providers() -> tuple[IngestionMetricProvider, ...]:
     from .ingestion_trace_diagnostics import diagnostic_metric_providers
+    from .ingestion_trace_page_quality import page_quality_metric_provider
 
     return (
         _extraction_metrics,
@@ -33,6 +34,7 @@ def default_metric_providers() -> tuple[IngestionMetricProvider, ...]:
         _provenance_metrics,
         _graph_metrics,
         *diagnostic_metric_providers(),
+        page_quality_metric_provider,
     )
 
 

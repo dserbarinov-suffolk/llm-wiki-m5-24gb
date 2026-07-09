@@ -129,6 +129,7 @@ _ARTIFACT_FILES = {
     "document-structure-artifact": "document-structure.json",
     "extraction-result-artifact": "extraction-result.json",
     "page-projection-artifact": "page-projections.json",
+    "page-quality-report-artifact": "page-quality-report.json",
     "projection-coverage-artifact": "projection-coverage.json",
     "projection-lint-run-artifact": "lint-run.json",
     "proposed-change-review-artifact": "proposed-change-review.json",

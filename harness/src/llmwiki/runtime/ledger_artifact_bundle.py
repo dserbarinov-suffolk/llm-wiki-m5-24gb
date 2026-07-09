@@ -6,6 +6,7 @@ from dataclasses import dataclass
 
 from llmwiki.application.assertion_graph_artifacts import AssertionGraphArtifact
 from llmwiki.application.page_projection_artifacts import PageProjectionArtifact
+from llmwiki.application.page_quality_artifacts import PageQualityReportArtifact
 from llmwiki.application.source_artifacts import CanonicalSourceArtifact
 from llmwiki.application.topic_state_artifacts import TopicStateArtifact
 from llmwiki.domain.ledger.artifacts import (
@@ -58,6 +59,7 @@ def build_serialized_artifact_bundle(
     assertion_graph_artifact: AssertionGraphArtifact | None,
     topic_state_artifact: TopicStateArtifact | None,
     page_projection_artifact: PageProjectionArtifact | None,
+    page_quality_report_artifact: PageQualityReportArtifact | None,
 ) -> SerializedLedgerArtifacts:
     members = _artifact_members(
         ds_artifact,
@@ -78,6 +80,7 @@ def build_serialized_artifact_bundle(
         assertion_graph_artifact,
         topic_state_artifact,
         page_projection_artifact,
+        page_quality_report_artifact,
     )
     files = artifact_files(
         ds_artifact=ds_artifact,
@@ -98,6 +101,7 @@ def build_serialized_artifact_bundle(
         assertion_graph_artifact=assertion_graph_artifact,
         topic_state_artifact=topic_state_artifact,
         page_projection_artifact=page_projection_artifact,
+        page_quality_report_artifact=page_quality_report_artifact,
     )
     manifest = build_portable_artifact_set(tuple(members))
     files["portable-artifact-set.json"] = canonical_json(manifest, indent=2)
@@ -123,6 +127,7 @@ def _artifact_members(
     assertion_graph_artifact: AssertionGraphArtifact | None,
     topic_state_artifact: TopicStateArtifact | None,
     page_projection_artifact: PageProjectionArtifact | None,
+    page_quality_report_artifact: PageQualityReportArtifact | None,
 ) -> list[PortableArtifactMember]:
     members = [
         _member(
@@ -219,6 +224,14 @@ def _artifact_members(
                 "page-projection-artifact",
                 page_projection_artifact.page_projection_artifact_id,
                 page_projection_artifact.page_projection_fingerprint,
+            )
+        )
+    if page_quality_report_artifact is not None:
+        members.append(
+            _member(
+                "page-quality-report-artifact",
+                page_quality_report_artifact.page_quality_report_artifact_id,
+                page_quality_report_artifact.page_quality_report_fingerprint,
             )
         )
     if source_coverage_artifact is not None:

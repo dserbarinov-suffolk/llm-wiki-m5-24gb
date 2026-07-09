@@ -135,6 +135,18 @@ def test_zero_rejections_with_diagnostics_surfaces_gate_effectiveness_warning() 
     assert "rejected 0 pages" in lint
 
 
+def test_page_quality_metrics_surface_positive_and_negative_scores() -> None:
+    trace = _trace(_diagnostic_artifact_files(), providers=default_metric_providers())
+
+    page_projection = render_trace_stage(trace, "page-projection")
+
+    assert "page-quality" in page_projection
+    assert "quality-good-count: 1 count" in page_projection
+    assert "quality-bad-count: 1 count" in page_projection
+    assert "page-quality-candidate" in page_projection
+    assert "low-page-quality" in page_projection
+
+
 def _trace(artifact_files: dict[str, str], providers: tuple = ()):
     return build_ingestion_trace(
         source_locator="src.pdf",
@@ -295,6 +307,50 @@ def _diagnostic_artifact_files() -> dict[str, str]:
                             "rendered_related_links": [],
                         }
                     ]
+                }
+            ),
+            "page-quality-report.json": json.dumps(
+                {
+                    "page_quality_report_artifact_id": "page-quality-report-test",
+                    "page_quality_report_fingerprint": "fp",
+                    "artifact_format": "llmwiki-portable-artifact-v1",
+                    "source_locator": "src.pdf",
+                    "source_hash": _HASH,
+                    "assertion_graph_artifact_id": "assertion-graph-test",
+                    "topic_state_artifact_id": "topic-state-test",
+                    "page_projection_artifact_id": "page-projection-test",
+                    "report": {
+                        "source_locator": "src.pdf",
+                        "source_hash": _HASH,
+                        "page_quality_records": [
+                            {
+                                "page_id": "category",
+                                "page_family": "broad-topic",
+                                "topic_state_id": "tps_big",
+                                "source_locality_score": 0.2,
+                                "topic_boundary_cohesion": 0.2,
+                                "technical_atom_integrity_rate": 1.0,
+                                "page_shape_fit": 0.2,
+                                "walkability_score": 0.2,
+                                "overall_quality_band": "bad",
+                                "positive_reasons": [],
+                                "negative_reasons": ["source_locality_score:weak"],
+                            },
+                            {
+                                "page_id": "bounded",
+                                "page_family": "topic-concept",
+                                "topic_state_id": "tps_bounded",
+                                "source_locality_score": 0.9,
+                                "topic_boundary_cohesion": 0.9,
+                                "technical_atom_integrity_rate": 1.0,
+                                "page_shape_fit": 0.9,
+                                "walkability_score": 0.9,
+                                "overall_quality_band": "good",
+                                "positive_reasons": ["source_locality_score:strong"],
+                                "negative_reasons": [],
+                            },
+                        ],
+                    },
                 }
             ),
             "lint-run.json": json.dumps(

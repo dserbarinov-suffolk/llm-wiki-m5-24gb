@@ -10,6 +10,10 @@ from llmwiki.application.page_projection_artifacts import (
     PageProjectionArtifact,
     page_projection_artifact_to_json,
 )
+from llmwiki.application.page_quality_artifacts import (
+    PageQualityReportArtifact,
+    page_quality_report_artifact_to_json,
+)
 from llmwiki.application.source_artifacts import (
     CanonicalSourceArtifact,
     canonical_source_artifact_to_json,
@@ -61,6 +65,7 @@ def artifact_files(
     assertion_graph_artifact: AssertionGraphArtifact | None,
     topic_state_artifact: TopicStateArtifact | None,
     page_projection_artifact: PageProjectionArtifact | None,
+    page_quality_report_artifact: PageQualityReportArtifact | None,
 ) -> dict[str, str]:
     files = {
         "document-structure.json": canonical_json(ds_artifact, indent=2),
@@ -90,6 +95,10 @@ def artifact_files(
     if page_projection_artifact is not None:
         files["page-projections.json"] = page_projection_artifact_to_json(
             page_projection_artifact
+        )
+    if page_quality_report_artifact is not None:
+        files["page-quality-report.json"] = page_quality_report_artifact_to_json(
+            page_quality_report_artifact
         )
     if source_coverage_artifact is not None:
         files["source-coverage.json"] = canonical_json(source_coverage_artifact, indent=2)

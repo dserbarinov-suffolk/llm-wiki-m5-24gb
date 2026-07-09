@@ -117,6 +117,8 @@ def _ranked_findings(
         "parent-change-across-continuation": 4,
         "weak-assertion-attribution": 5,
         "accepted-output-with-diagnostics": 6,
+        "low-page-quality": 7,
+        "page-quality-candidate": 8,
     }
     return tuple(
         sorted(
