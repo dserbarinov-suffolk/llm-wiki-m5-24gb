@@ -1,0 +1,86 @@
+"""Pure assertion graph domain core."""
+
+from llmwiki.domain.assertion_graph.common import (
+    Confidence,
+    DomainRecord,
+    EvidenceSelector,
+    LayoutBox,
+    SelectorType,
+)
+from llmwiki.domain.assertion_graph.knowledge import (
+    ArgumentEdge,
+    Assertion,
+    AssertionKind,
+    AssertionStatus,
+    Qualifier,
+    Relationship,
+    RelationshipKind,
+)
+from llmwiki.domain.assertion_graph.lifecycle import (
+    PageCoverageRecord,
+    PageProjection,
+    ProjectionFinding,
+    ProposedChange,
+    ProvenanceActivity,
+    ProvenanceActivityKind,
+    RecordPayload,
+    RenderedRelatedLink,
+    ReviewStatus,
+)
+from llmwiki.domain.assertion_graph.schemas import PUBLIC_DOMAIN_RECORDS, domain_json_schemas
+from llmwiki.domain.assertion_graph.source import (
+    EvidenceSpan,
+    ParseStatus,
+    SourceUnit,
+    SourceUnitKind,
+    TechnicalAtom,
+    TechnicalAtomKind,
+)
+from llmwiki.domain.assertion_graph.topic import (
+    DependencyStatus,
+    GapKind,
+    ProjectionPolicy,
+    TopicDependency,
+    TopicGap,
+    TopicKind,
+    TopicState,
+)
+
+__all__ = [
+    "ArgumentEdge",
+    "Assertion",
+    "AssertionKind",
+    "AssertionStatus",
+    "Confidence",
+    "DependencyStatus",
+    "DomainRecord",
+    "EvidenceSelector",
+    "EvidenceSpan",
+    "GapKind",
+    "LayoutBox",
+    "PUBLIC_DOMAIN_RECORDS",
+    "PageCoverageRecord",
+    "PageProjection",
+    "ParseStatus",
+    "ProjectionFinding",
+    "ProjectionPolicy",
+    "ProposedChange",
+    "ProvenanceActivity",
+    "ProvenanceActivityKind",
+    "Qualifier",
+    "RecordPayload",
+    "Relationship",
+    "RelationshipKind",
+    "RenderedRelatedLink",
+    "ReviewStatus",
+    "SelectorType",
+    "SourceUnit",
+    "SourceUnitKind",
+    "TechnicalAtom",
+    "TechnicalAtomKind",
+    "TopicDependency",
+    "TopicGap",
+    "TopicKind",
+    "TopicState",
+    "domain_json_schemas",
+]
