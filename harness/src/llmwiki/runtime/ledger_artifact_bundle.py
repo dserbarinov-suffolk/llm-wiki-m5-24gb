@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from llmwiki.application.assertion_graph_artifacts import AssertionGraphArtifact
+from llmwiki.application.association_graph_artifacts import AssociationGraphArtifact
 from llmwiki.application.page_projection_artifacts import PageProjectionArtifact
 from llmwiki.application.page_quality_artifacts import PageQualityReportArtifact
 from llmwiki.application.source_artifacts import CanonicalSourceArtifact
@@ -57,6 +58,7 @@ def build_serialized_artifact_bundle(
     source_artifact: CanonicalSourceArtifact | None,
     proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
     assertion_graph_artifact: AssertionGraphArtifact | None,
+    association_graph_artifact: AssociationGraphArtifact | None,
     topic_state_artifact: TopicStateArtifact | None,
     page_projection_artifact: PageProjectionArtifact | None,
     page_quality_report_artifact: PageQualityReportArtifact | None,
@@ -78,6 +80,7 @@ def build_serialized_artifact_bundle(
         source_artifact,
         proposed_change_review_artifact,
         assertion_graph_artifact,
+        association_graph_artifact,
         topic_state_artifact,
         page_projection_artifact,
         page_quality_report_artifact,
@@ -99,6 +102,7 @@ def build_serialized_artifact_bundle(
         source_artifact=source_artifact,
         proposed_change_review_artifact=proposed_change_review_artifact,
         assertion_graph_artifact=assertion_graph_artifact,
+        association_graph_artifact=association_graph_artifact,
         topic_state_artifact=topic_state_artifact,
         page_projection_artifact=page_projection_artifact,
         page_quality_report_artifact=page_quality_report_artifact,
@@ -125,6 +129,7 @@ def _artifact_members(
     source_artifact: CanonicalSourceArtifact | None,
     proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
     assertion_graph_artifact: AssertionGraphArtifact | None,
+    association_graph_artifact: AssociationGraphArtifact | None,
     topic_state_artifact: TopicStateArtifact | None,
     page_projection_artifact: PageProjectionArtifact | None,
     page_quality_report_artifact: PageQualityReportArtifact | None,
@@ -208,6 +213,14 @@ def _artifact_members(
                 "assertion-graph-artifact",
                 assertion_graph_artifact.assertion_graph_artifact_id,
                 assertion_graph_artifact.assertion_graph_fingerprint,
+            )
+        )
+    if association_graph_artifact is not None:
+        members.append(
+            _member(
+                "association-graph-artifact",
+                association_graph_artifact.association_graph_artifact_id,
+                association_graph_artifact.association_graph_fingerprint,
             )
         )
     if topic_state_artifact is not None:

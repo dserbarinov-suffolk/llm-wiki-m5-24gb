@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from llmwiki.application.assertion_graph_artifacts import build_assertion_graph_artifact
+from llmwiki.application.association_graph_artifacts import build_association_graph_artifact
 from llmwiki.application.page_projection_artifacts import build_page_projection_artifact
 from llmwiki.application.page_quality_artifacts import build_page_quality_report_artifact
 from llmwiki.application.source_artifacts import CanonicalLedgerSource
@@ -129,6 +130,7 @@ def build_source_ledger(
         source_artifact=canonical_source.artifact,
         ledger=ledger,
     )
+    association_graph_artifact = build_association_graph_artifact(assertion_graph_artifact)
     topic_state_artifact = build_topic_state_artifact(assertion_graph_artifact)
     source_coverage_artifact = None
     if document_model is not None:
@@ -256,6 +258,7 @@ def build_source_ledger(
         source_artifact=canonical_source.artifact,
         proposed_change_review_artifact=ledger.proposed_change_review,
         assertion_graph_artifact=assertion_graph_artifact,
+        association_graph_artifact=association_graph_artifact,
         topic_state_artifact=topic_state_artifact,
         page_projection_artifact=page_projection_artifact,
         page_quality_report_artifact=page_quality_report_artifact,

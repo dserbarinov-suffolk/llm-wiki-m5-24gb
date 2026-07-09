@@ -35,6 +35,7 @@ def test_trace_artifact_round_trips_with_stable_fingerprint() -> None:
         "source-extraction",
         "canonical-source",
     ]
+    assert "association-graph" in [stage.stage_id for stage in trace.stages]
 
 
 def test_invalid_check_status_fails_fast() -> None:
@@ -147,6 +148,16 @@ def test_page_quality_metrics_surface_positive_and_negative_scores() -> None:
     assert "low-page-quality" in page_projection
 
 
+def test_association_metrics_surface_topic_split_candidates() -> None:
+    trace = _trace(_association_split_artifact_files(), providers=default_metric_providers())
+
+    association_graph = render_trace_stage(trace, "association-graph")
+
+    assert "topic-split-candidate-count: 1 count" in association_graph
+    assert "topic-spans-many-association-clusters" in association_graph
+    assert "Broad Topic: current topic has 2 accepted records spread across 2" in association_graph
+
+
 def _trace(artifact_files: dict[str, str], providers: tuple = ()):
     return build_ingestion_trace(
         source_locator="src.pdf",
@@ -184,6 +195,24 @@ def _artifact_files() -> dict[str, str]:
         },
         "proposed-change-review.json": {"accepted_change_ids": []},
         "assertion-graph.json": {"assertions": [{}], "technical_atoms": [{}]},
+        "association-graph.json": {
+            "graph": {
+                "nodes": [{"id": "n1", "node_kind": "assertion"}],
+                "edges": [{"edge_kind": "assertion_has_evidence"}],
+                "clusters": [
+                    {
+                        "member_node_ids": ["n1"],
+                        "assertion_ids": ["ast_1"],
+                        "technical_atom_ids": [],
+                        "cohesion_score": 1.0,
+                        "separation_score": 1.0,
+                        "dominant_shape": "concept",
+                        "oversized": False,
+                        "ambiguous": False,
+                    }
+                ],
+            }
+        },
         "topic-states.json": {
             "topic_states": [{}],
             "topic_dependencies": [],
@@ -368,6 +397,61 @@ def _diagnostic_artifact_files() -> dict[str, str]:
                     "rejected_page_ids": [],
                 }
             ),
+        }
+    )
+    return files
+
+
+def _association_split_artifact_files() -> dict[str, str]:
+    files = _artifact_files()
+    files["association-graph.json"] = json.dumps(
+        {
+            "graph": {
+                "nodes": [{"id": "n1"}, {"id": "n2"}],
+                "edges": [],
+                "clusters": [
+                    {
+                        "id": "asc_1",
+                        "member_node_ids": ["n1"],
+                        "assertion_ids": ["ast_1"],
+                        "technical_atom_ids": [],
+                        "cohesion_score": 1.0,
+                        "separation_score": 1.0,
+                        "dominant_shape": "concept",
+                        "oversized": False,
+                        "ambiguous": False,
+                    },
+                    {
+                        "id": "asc_2",
+                        "member_node_ids": ["n2"],
+                        "assertion_ids": ["ast_2"],
+                        "technical_atom_ids": [],
+                        "cohesion_score": 1.0,
+                        "separation_score": 1.0,
+                        "dominant_shape": "concept",
+                        "oversized": False,
+                        "ambiguous": False,
+                    },
+                ],
+            }
+        }
+    )
+    files["assertion-graph.json"] = json.dumps(
+        {"assertions": [{"id": "ast_1"}, {"id": "ast_2"}], "technical_atoms": []}
+    )
+    files["topic-states.json"] = json.dumps(
+        {
+            "topic_states": [
+                {
+                    "id": "tps_broad",
+                    "label": "Broad Topic",
+                    "topic_kind": "concept",
+                    "accepted_assertion_ids": ["ast_1", "ast_2"],
+                    "accepted_technical_atom_ids": [],
+                }
+            ],
+            "topic_dependencies": [],
+            "topic_gaps": [],
         }
     )
     return files

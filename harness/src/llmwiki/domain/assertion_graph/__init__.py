@@ -1,5 +1,14 @@
 """Pure assertion graph domain core."""
 
+from llmwiki.domain.assertion_graph.association import (
+    AssociationCluster,
+    AssociationClusterShape,
+    AssociationEdge,
+    AssociationEdgeKind,
+    AssociationGraph,
+    AssociationNode,
+    AssociationNodeKind,
+)
 from llmwiki.domain.assertion_graph.common import (
     Confidence,
     DomainRecord,
@@ -47,6 +56,13 @@ from llmwiki.domain.assertion_graph.topic import (
 )
 
 __all__ = [
+    "AssociationCluster",
+    "AssociationClusterShape",
+    "AssociationEdge",
+    "AssociationEdgeKind",
+    "AssociationGraph",
+    "AssociationNode",
+    "AssociationNodeKind",
     "ArgumentEdge",
     "Assertion",
     "AssertionKind",

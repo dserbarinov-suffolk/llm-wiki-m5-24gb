@@ -10,6 +10,7 @@ from llmwiki.domain.graph import GraphStatus
 from llmwiki.domain.ledger.artifacts import PortableArtifactMember
 from llmwiki.domain.ledger.canonical import short_digest
 
+from .ingestion_trace_association import association_graph_metrics
 from .ingestion_trace_metrics import (
     IngestionMetricProvider,
     IngestionTraceInput,
@@ -77,9 +78,15 @@ _STAGES = (
         ("assertion-graph-artifact",),
     ),
     _StageSpec(
+        "association-graph",
+        "Association Graph",
+        ("assertion-graph-artifact",),
+        ("association-graph-artifact",),
+    ),
+    _StageSpec(
         "topic-state",
         "Topic State",
-        ("assertion-graph-artifact",),
+        ("assertion-graph-artifact", "association-graph-artifact"),
         ("topic-state-artifact",),
     ),
     _StageSpec(
@@ -124,6 +131,7 @@ _STAGES = (
 _ARTIFACT_FILES = {
     "assertion-graph-artifact": "assertion-graph.json",
     "assertion-graph-source-artifact": "assertion-graph-source-artifact.json",
+    "association-graph-artifact": "association-graph.json",
     "blocked-write-diagnostic-artifact": "blocked-write-diagnostic.json",
     "claim-ledger-artifact": "claim-ledger.json",
     "document-structure-artifact": "document-structure.json",
@@ -192,12 +200,10 @@ def _stage(
     findings: list[IngestionTraceFinding],
 ) -> IngestionTraceStage:
     pre = tuple(
-        _check(spec.stage_id, "precondition", kind, kind in artifacts)
-        for kind in spec.inputs
+        _check(spec.stage_id, "precondition", kind, kind in artifacts) for kind in spec.inputs
     )
     post = tuple(
-        _check(spec.stage_id, "postcondition", kind, kind in artifacts)
-        for kind in spec.outputs
+        _check(spec.stage_id, "postcondition", kind, kind in artifacts) for kind in spec.outputs
     )
     stage_findings = tuple(
         _finding(spec.stage_id, "missing-stage-artifact", check.subject_id, check.message)
@@ -264,11 +270,11 @@ def _decisions(stage_id: str, artifacts: Mapping[str, Mapping[str, object]]) -> 
     return {}
 
 
-def _stage_counts(
-    stage_id: str, artifacts: Mapping[str, Mapping[str, object]]
-):
+def _stage_counts(stage_id: str, artifacts: Mapping[str, Mapping[str, object]]):
     if stage_id == "topic-state":
         return topic_state_metrics(artifacts)
+    if stage_id == "association-graph":
+        return association_graph_metrics(artifacts)
     if stage_id == "page-projection":
         return page_projection_metrics(artifacts)
     if stage_id == "lint-run":

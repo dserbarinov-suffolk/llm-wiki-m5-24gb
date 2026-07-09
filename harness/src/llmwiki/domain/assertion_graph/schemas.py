@@ -4,6 +4,12 @@ from __future__ import annotations
 
 from typing import cast
 
+from llmwiki.domain.assertion_graph.association import (
+    AssociationCluster,
+    AssociationEdge,
+    AssociationGraph,
+    AssociationNode,
+)
 from llmwiki.domain.assertion_graph.common import DomainRecord, EvidenceSelector, LayoutBox
 from llmwiki.domain.assertion_graph.knowledge import (
     ArgumentEdge,
@@ -51,6 +57,10 @@ PUBLIC_DOMAIN_RECORDS: tuple[type[DomainRecord], ...] = (
     RenderedRelatedLink,
     ProjectionFinding,
     PageProjection,
+    AssociationNode,
+    AssociationEdge,
+    AssociationCluster,
+    AssociationGraph,
 )
 
 

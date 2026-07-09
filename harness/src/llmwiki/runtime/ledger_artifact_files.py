@@ -6,6 +6,10 @@ from llmwiki.application.assertion_graph_artifacts import (
     AssertionGraphArtifact,
     assertion_graph_artifact_to_json,
 )
+from llmwiki.application.association_graph_artifacts import (
+    AssociationGraphArtifact,
+    association_graph_artifact_to_json,
+)
 from llmwiki.application.page_projection_artifacts import (
     PageProjectionArtifact,
     page_projection_artifact_to_json,
@@ -63,6 +67,7 @@ def artifact_files(
     source_artifact: CanonicalSourceArtifact | None,
     proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
     assertion_graph_artifact: AssertionGraphArtifact | None,
+    association_graph_artifact: AssociationGraphArtifact | None,
     topic_state_artifact: TopicStateArtifact | None,
     page_projection_artifact: PageProjectionArtifact | None,
     page_quality_report_artifact: PageQualityReportArtifact | None,
@@ -90,6 +95,10 @@ def artifact_files(
         )
     if assertion_graph_artifact is not None:
         files["assertion-graph.json"] = assertion_graph_artifact_to_json(assertion_graph_artifact)
+    if association_graph_artifact is not None:
+        files["association-graph.json"] = association_graph_artifact_to_json(
+            association_graph_artifact
+        )
     if topic_state_artifact is not None:
         files["topic-states.json"] = topic_state_artifact_to_json(topic_state_artifact)
     if page_projection_artifact is not None:
