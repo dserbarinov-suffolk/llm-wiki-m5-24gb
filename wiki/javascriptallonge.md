@@ -8,7 +8,7 @@ updated: 2026-07-09
 domain: javascriptallonge
 category_path: sources
 source_id: javascriptallonge.pdf
-projection_coverage: projection-coverage-e2eedcc6eaa824c5@c0503664ecfa75b8
+projection_coverage: projection-coverage-e2eedcc6eaa824c5@e7d24e901a3f025d
 ---
 
 # Javascriptallonge

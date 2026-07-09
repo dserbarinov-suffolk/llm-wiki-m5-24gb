@@ -15,6 +15,8 @@ from dataclasses import fields, is_dataclass
 from enum import Enum
 from typing import Any
 
+from pydantic import BaseModel
+
 
 def to_jsonable(obj: Any) -> Any:
     """Recursively convert dataclasses/tuples/enums to JSON-safe values.
@@ -26,6 +28,8 @@ def to_jsonable(obj: Any) -> Any:
         return obj
     if isinstance(obj, Enum):
         return obj.value
+    if isinstance(obj, BaseModel):
+        return to_jsonable(obj.model_dump(mode="json"))
     if is_dataclass(obj) and not isinstance(obj, type):
         return {f.name: to_jsonable(getattr(obj, f.name)) for f in fields(obj)}
     if isinstance(obj, dict):

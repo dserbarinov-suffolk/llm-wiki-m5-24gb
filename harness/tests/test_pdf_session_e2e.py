@@ -21,6 +21,7 @@ from llmwiki.store import WikiStore
 
 TODAY = "2026-06-11"
 
+
 def _fake_extraction(paths: WikiPaths) -> ExtractionResult:
     cache_dir = paths.cache_dir / "deadbeef"
     cache_dir.mkdir(parents=True, exist_ok=True)
@@ -200,11 +201,13 @@ class TestLedgerPdfIngest:
             "document-structure.json",
             "portable-artifact-set.json",
             "assertion-graph-source-artifact.json",
+            "proposed-change-review.json",
         ):
             assert (ledger_dir / name).is_file(), name
         portable = json.loads((ledger_dir / "portable-artifact-set.json").read_text())
         member_kinds = {member["portable_artifact_kind"] for member in portable["members"]}
         assert "assertion-graph-source-artifact" in member_kinds
+        assert "proposed-change-review-artifact" in member_kinds
         # The manifest is persisted and marked integrated after ingest.
         manifest = from_json((extraction.cache_dir / "manifest.json").read_text(encoding="utf-8"))
         assert manifest.integrated

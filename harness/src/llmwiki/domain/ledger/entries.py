@@ -57,6 +57,7 @@ class LedgerEntry:
     related_entry_ids: tuple[str, ...] = ()
     derived_entry_ids: tuple[str, ...] = ()
     statement_relationship: str = ""
+    proposed_change_id: str = ""
 
     @property
     def is_claim_like(self) -> bool:

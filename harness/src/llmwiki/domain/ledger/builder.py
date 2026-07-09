@@ -25,6 +25,7 @@ from llmwiki.domain.ledger.extraction import (
 from llmwiki.domain.ledger.extractors import extract_segment
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.profiles import assign_family, build_source_profile
+from llmwiki.domain.ledger.proposed_change_review import LedgerProposedChangeReviewer
 from llmwiki.domain.ledger.schemas import (
     AbstainReasonPolicy,
     AtomSchemaSet,
@@ -101,6 +102,7 @@ def build_claim_ledger(
     rejected: list[AtomCandidate] = []
     statements: list[SourceStatement] = []
     dispositions: list[ExtractedUnitDispositionRecord] = []
+    reviewer = LedgerProposedChangeReviewer(source_locator=source_locator, source_hash=source_hash)
 
     for item in segments:
         seg = item.segment
@@ -137,6 +139,7 @@ def build_claim_ledger(
             schema.confidence_policy,
             atoms,
             rejected,
+            reviewer,
             ownership_review,
         )
         entries.extend(produced)
@@ -179,6 +182,7 @@ def build_claim_ledger(
         source_statements=tuple(statements),
         extractor_decisions=tuple(decisions),
         rejected_candidates=tuple(rejected),
+        proposed_change_review=reviewer.artifact(),
     )
     structure = DocumentStructure(
         plan.root_node_id, plan.nodes, tuple(dispositions), plan.relations

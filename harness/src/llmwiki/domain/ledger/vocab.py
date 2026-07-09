@@ -287,6 +287,8 @@ QUALITY_FINDING_SUBJECT_KINDS: Final = (
     "blocked-write-diagnostic-artifact",
     "source-profile",
     "source-family-assignment",
+    "proposed-change",
+    "proposed-change-review-artifact",
 )
 
 # -- portable artifacts ----------------------------------------------------
@@ -301,6 +303,7 @@ PORTABLE_ARTIFACT_KINDS: Final = (
     "ledger-quality-report-artifact",
     "quality-check-catalog-artifact",
     "blocked-write-diagnostic-artifact",
+    "proposed-change-review-artifact",
 )
 
 

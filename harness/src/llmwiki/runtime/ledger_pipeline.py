@@ -259,6 +259,7 @@ def build_source_ledger(
         lint_run=lint_run,
         publish_run=publish_run,
         source_artifact=canonical_source.artifact,
+        proposed_change_review_artifact=ledger.proposed_change_review,
     )
 
     return SourceLedgerResult(

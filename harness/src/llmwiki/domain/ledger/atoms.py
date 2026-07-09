@@ -164,6 +164,7 @@ class TechnicalAtom:
     trust_status: str = "trusted"
     trust_reasons: tuple[str, ...] = ()
     projection_policy: str = "authoritative"
+    proposed_change_id: str = ""
 
 
 @dataclass(frozen=True)

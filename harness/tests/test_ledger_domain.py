@@ -123,6 +123,20 @@ def test_every_segment_has_exactly_one_disposition() -> None:
     assert heading.disposition == "structural"
 
 
+def test_accepted_records_have_proposed_change_review_ids() -> None:
+    result = _build(_MIXED)
+    artifact = result.ledger.proposed_change_review
+
+    assert artifact is not None
+    assert result.ledger.entries
+    assert result.ledger.technical_atoms
+    assert all(entry.proposed_change_id.startswith("pcg_") for entry in result.ledger.entries)
+    assert all(atom.proposed_change_id.startswith("pcg_") for atom in result.ledger.technical_atoms)
+    assert artifact.approved_count >= len(result.ledger.entries) + len(
+        result.ledger.technical_atoms
+    )
+
+
 def test_one_extractor_decision_per_capability_per_content_segment() -> None:
     result = _build(_MIXED)
     by_range: dict[str, set[str]] = {}
@@ -394,10 +408,7 @@ def test_numbered_table_reference_resolves_formal_caption_text() -> None:
             ),
             (
                 "table-block",
-                "Table 5-8: Sample Memory\n"
-                "| Final Score | Time |\n"
-                "| --- | --- |\n"
-                "| 10 | One day |",
+                "Table 5-8: Sample Memory\n| Final Score | Time |\n| --- | --- |\n| 10 | One day |",
                 [],
             ),
         ]

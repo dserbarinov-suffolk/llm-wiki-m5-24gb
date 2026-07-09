@@ -27,6 +27,7 @@ from llmwiki.domain.ledger.entry_build import (
     build_relationship_entry,
     build_source_note,
 )
+from llmwiki.domain.ledger.proposed_change_review import LedgerProposedChangeReviewer
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
 from llmwiki.domain.ledger.technical_atom_trust import (
     RAW_REVIEW_ONLY,
@@ -48,6 +49,7 @@ def build_segment_entries(
     policy: ConfidencePolicy,
     atoms: list[TechnicalAtom],
     rejected: list[AtomCandidate],
+    reviewer: LedgerProposedChangeReviewer,
     ownership_review_reason: ReviewReason | None = None,
 ) -> list[LedgerEntry]:
     produced: list[LedgerEntry] = []
@@ -64,21 +66,38 @@ def build_segment_entries(
                 review_reason=trust.review_reason or atom.review_reason,
             )
             if trust.trust_status == REJECTED:
-                rejected.append(replace(candidate, review_reason=trust.review_reason))
+                rejected_candidate = replace(candidate, review_reason=trust.review_reason)
+                reviewer.reject_candidate(
+                    rejected_candidate,
+                    trust.review_reason.reason_kind
+                    if trust.review_reason is not None
+                    else "rejected-technical-atom",
+                )
+                rejected.append(rejected_candidate)
                 continue
             atom = _apply_ownership_review(atom, ownership_review_reason)
+            atom_decision = reviewer.review_atom(atom)
+            if atom_decision.accepted_atom is None:
+                continue
+            atom = atom_decision.accepted_atom
             atoms.append(atom)
             atom_texts.append(atom_raw_text(atom.payload))
-            produced.append(
+            _append_reviewed(
+                produced,
+                reviewer,
                 build_atom_entry(
                     segment=seg,
                     atom=atom,
                     statement_id=statement_id,
                     structure_node_ids=node_ids,
                     policy=policy,
-                )
+                ),
             )
         else:
+            reviewer.reject_candidate(
+                candidate,
+                candidate.validation_detail or "invalid-atom-candidate",
+            )
             rejected.append(candidate)
     for claim in claims:
         if claim.eligibility != "eligible" or _preserved_by_atom(claim.statement, atom_texts):
@@ -90,7 +109,7 @@ def build_segment_entries(
             structure_node_ids=node_ids,
             policy=policy,
         )
-        produced.append(entry)
+        _append_reviewed(produced, reviewer, entry)
         relationship = build_relationship_entry(
             segment=seg,
             claim=claim,
@@ -99,12 +118,24 @@ def build_segment_entries(
             structure_node_ids=node_ids,
         )
         if relationship is not None:
-            produced.append(relationship)
+            _append_reviewed(produced, reviewer, relationship)
     if not produced and _is_meaningful(seg, claims):
-        produced.append(
-            build_source_note(segment=seg, statement_id=statement_id, structure_node_ids=node_ids)
+        _append_reviewed(
+            produced,
+            reviewer,
+            build_source_note(segment=seg, statement_id=statement_id, structure_node_ids=node_ids),
         )
     return produced
+
+
+def _append_reviewed(
+    produced: list[LedgerEntry],
+    reviewer: LedgerProposedChangeReviewer,
+    entry: LedgerEntry,
+) -> None:
+    decision = reviewer.review_entry(entry)
+    if decision.accepted_entry is not None:
+        produced.append(decision.accepted_entry)
 
 
 def _apply_ownership_review(

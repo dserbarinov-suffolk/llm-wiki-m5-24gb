@@ -16,6 +16,7 @@ from llmwiki.domain.ledger.atom_context import TechnicalAtomContext
 from llmwiki.domain.ledger.atoms import AtomCandidate, TechnicalAtom
 from llmwiki.domain.ledger.entries import LedgerEntry, SourceStatement
 from llmwiki.domain.ledger.extraction import ExtractorDecision
+from llmwiki.domain.ledger.proposed_change_review import ProposedChangeReviewArtifact
 
 
 @dataclass(frozen=True)
@@ -69,6 +70,7 @@ class ClaimLedger:
     source_statements: tuple[SourceStatement, ...]
     extractor_decisions: tuple[ExtractorDecision, ...]
     rejected_candidates: tuple[AtomCandidate, ...]
+    proposed_change_review: ProposedChangeReviewArtifact | None = None
 
     def entry(self, entry_id: str) -> LedgerEntry | None:
         for candidate in self.entries:

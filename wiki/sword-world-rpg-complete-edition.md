@@ -8,7 +8,7 @@ updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: sources
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: projection-coverage-a9f7fabd83254c8e@7dbb0c477bce94d6
+projection_coverage: projection-coverage-a9f7fabd83254c8e@86511e3d5811d7ae
 ---
 
 # Sword World RPG Complete Edition
