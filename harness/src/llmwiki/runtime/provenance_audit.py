@@ -6,7 +6,7 @@ import re
 from collections import Counter
 
 from llmwiki.domain.ledger.canonical import canonical_json
-from llmwiki.domain.ledger.projection_policy import PAGE_FAMILY_SOURCE_MANIFEST
+from llmwiki.domain.ledger.page_families import PAGE_FAMILY_SOURCE_MANIFEST
 from llmwiki.domain.pages import PageError, parse_page
 from llmwiki.runtime.provenance_audit_index import (
     ProvenanceArtifactIndex,

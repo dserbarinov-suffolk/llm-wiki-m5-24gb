@@ -160,7 +160,7 @@ def provenance_index_from_artifacts(artifact_files: dict[str, str]) -> Provenanc
         _artifact_json(artifact_files, "claim-ledger.json", "ledger"),
         _artifact_json(artifact_files, "document-structure.json", "document_structure"),
         _artifact_json(artifact_files, "source-coverage.json", "source_coverage"),
-        _artifact_json(artifact_files, "projection-context.json", "projection_context"),
+        {},
     )
 
 
@@ -227,4 +227,3 @@ def _context_pointer(entry: dict[str, Any]) -> bool:
         and not scope.get("normalized_spatial_value")
         and "identity" in entry.get("claim_role_tags", ())
     )
-

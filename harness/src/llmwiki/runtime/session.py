@@ -64,7 +64,6 @@ from llmwiki.pdf.pipeline import (
     save_manifest,
 )
 from llmwiki.runtime.chat_turn import prepare_chat_turn
-from llmwiki.runtime.cross_source_pipeline import build_cross_source_pages
 from llmwiki.runtime.ingest_confidence import record_post_ingest_confidence
 from llmwiki.runtime.ledger_pipeline import build_source_ledger
 from llmwiki.runtime.ledger_segmentation import ChunkText, segment_chunks
@@ -324,6 +323,7 @@ class Session:
                     "provenance-audit.json": report_to_json(audit),
                     "provenance-audit.md": render_markdown(audit),
                 },
+                replace=False,
             )
             provenance_line = (
                 f"Provenance audit: {audit.finding_count} finding(s), "
@@ -376,31 +376,6 @@ class Session:
             segment_inputs=inputs,
             profiles=profiles,
         )
-
-    async def synthesize(self) -> OperationResult:
-        """Build canonical concept pages from stored topic indexes.
-
-        Deterministic and model-free: per-source topics (headings + key terms)
-        that recur across sources become canonical concept pages with source
-        evidence sections and typed cross-source relation sections.
-        """
-        topic_jsons = tuple(self.store.list_topic_index_artifacts())
-        claim_ledger_jsons = tuple(self.store.list_claim_ledger_artifacts())
-        if len(topic_jsons) < 2:
-            report = (
-                "Cross-source synthesis needs at least two ingested sources; "
-                f"found {len(topic_jsons)}."
-            )
-            self.store.append_log(self.today, "synthesize", "cross-source", report)
-            return OperationResult("synthesize", "cross-source", report, None)
-        result = build_cross_source_pages(topic_jsons, claim_ledger_jsons, today=self.today)
-        for page in result.pages:
-            self.store.write_page(page)
-        self.store.delete_cross_source_pages_not_in({page.page_id for page in result.pages})
-        graph = self._write_graph_export()
-        summary = f"{result.summary}\n{_graph_summary_line(graph)}"
-        self.store.append_log(self.today, "synthesize", "cross-source", summary)
-        return OperationResult("synthesize", "cross-source", summary, None)
 
     async def query(self, question: str) -> OperationResult:
         workflow = build_query_workflow(self.store, self.today)

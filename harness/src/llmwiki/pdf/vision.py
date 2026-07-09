@@ -22,8 +22,8 @@ class AppleVisionRecognizer:
 
     def recognize(self, image_path: Path) -> list[TextSpan]:
         try:
-            import Foundation
-            import Vision
+            import Foundation  # type: ignore[import-untyped]
+            import Vision  # type: ignore[import-untyped]
         except ImportError as exc:  # non-darwin or missing pyobjc
             raise PdfError(
                 "Apple Vision OCR unavailable (pyobjc-framework-Vision not "

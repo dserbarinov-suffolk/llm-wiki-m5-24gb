@@ -17,7 +17,6 @@ _FOCUSED_PAGE_FAMILIES = frozenset(
         "procedure-guide",
         "recipe-pattern",
         "entity-profile",
-        "cross-source-synthesis",
     }
 )
 _SUGGESTED_FOCUSED_PAGES = 4

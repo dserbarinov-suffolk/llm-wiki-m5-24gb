@@ -68,11 +68,6 @@ def _build_parser() -> argparse.ArgumentParser:
 
     sub.add_parser("lint", help="Health-check the wiki.")
 
-    sub.add_parser(
-        "synthesize",
-        help="Build cross-source concept/entity pages from ingested source ledgers.",
-    )
-
     graph = sub.add_parser("graph", help="Write or check the deterministic wiki graph export.")
     graph.add_argument(
         "--check",
@@ -149,9 +144,8 @@ async def _run(args: argparse.Namespace) -> OperationResult:
         return _run_graph(args, paths, now.date().isoformat())
 
     model_profile = load_model_profile()
-    if args.op in ("ingest", "synthesize"):
-        # Claim-ledger ingest and cross-source synthesis are deterministic
-        # projections of the ledgers, not model summaries, so no backend starts.
+    if args.op == "ingest":
+        # Claim-ledger ingest is a deterministic projection, so no backend starts.
         session = Session(
             store=WikiStore(paths, model_profile=model_profile),
             client=None,
@@ -163,8 +157,6 @@ async def _run(args: argparse.Namespace) -> OperationResult:
             extract_pdf=_pdf_extractor(paths, model_profile),
             on_chunk_note=lambda note: print(note, flush=True),
         )
-        if args.op == "synthesize":
-            return await session.synthesize()
         return await session.ingest(
             args.source, reextract=args.reextract, reintegrate=args.reintegrate
         )

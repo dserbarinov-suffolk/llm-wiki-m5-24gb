@@ -1338,3 +1338,7 @@ http://creativecommons.org/licenses/by/2.0/deed.en
 ### Disposition counts
 
 - non-claim: 312
+
+## Lint-maintained links
+
+- [[wiki-ingest-confidence]] - Ingest confidence is a key concept in the JavaScript Allongé source analysis.

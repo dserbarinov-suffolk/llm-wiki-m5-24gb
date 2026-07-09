@@ -11,14 +11,12 @@ from llmwiki.domain.ledger.artifacts import (
     build_claim_ledger_artifact,
     build_document_structure_artifact,
     build_ledger_quality_report_artifact,
-    build_projection_context_artifact,
     build_projection_coverage_artifact,
     build_quality_check_catalog_artifact,
     build_source_coverage_artifact,
 )
 from llmwiki.domain.ledger.builder import build_claim_ledger, default_schema_bundle
 from llmwiki.domain.ledger.canonical import deterministic_id
-from llmwiki.domain.ledger.knowledge_shapes import build_knowledge_shape_catalog
 from llmwiki.domain.ledger.pointers import (
     claim_ledger_pointer,
     document_structure_pointer,
@@ -26,7 +24,6 @@ from llmwiki.domain.ledger.pointers import (
     quality_check_catalog_pointer,
 )
 from llmwiki.domain.ledger.projection import ProjectionSourceSupport, plan_source_page
-from llmwiki.domain.ledger.projection_context import build_projection_context
 from llmwiki.domain.ledger.quality import (
     build_ledger_quality_report,
     build_projection_quality_report,
@@ -38,7 +35,6 @@ from llmwiki.domain.ledger.quality_catalog import (
     default_severity_policy,
 )
 from llmwiki.domain.ledger.renderer import render_source_page
-from llmwiki.domain.ledger.section_planning import build_section_grounded_plan
 from llmwiki.domain.ledger.source_coverage import build_source_coverage
 from llmwiki.domain.ledger.source_manifest_navigation import source_review_section
 from llmwiki.domain.ledger.staged_flow import (
@@ -182,15 +178,6 @@ def build_source_ledger(
         ),
     )
 
-    section_plan = build_section_grounded_plan(ledger, structure)
-    shape_catalog = build_knowledge_shape_catalog(ledger, structure)
-    projection_context = build_projection_context(ledger, structure)
-    projection_context_artifact = build_projection_context_artifact(
-        source_locator=source_locator,
-        source_hash=source_hash,
-        projection_context=projection_context,
-    )
-
     decision = page_write_decision(ledger_report, projection_report)
     blocked = None
     wiki_page: WikiPage | None = None
@@ -252,9 +239,6 @@ def build_source_ledger(
         ledger_report_artifact=ledger_report_artifact,
         projection_report_artifact=projection_report_artifact,
         coverage_artifact=coverage_artifact,
-        projection_context_artifact=projection_context_artifact,
-        section_plan=section_plan,
-        knowledge_shape_catalog=shape_catalog,
         source_coverage_artifact=source_coverage_artifact,
         blocked=blocked,
         source_plan=source_plan,

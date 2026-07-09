@@ -21,7 +21,7 @@ from llmwiki.domain.assertion_graph import (
     TopicState,
 )
 from llmwiki.domain.ledger.canonical import short_digest
-from llmwiki.domain.ledger.projection_policy import (
+from llmwiki.domain.ledger.page_families import (
     PAGE_FAMILY_BROAD_TOPIC,
     PAGE_FAMILY_PROCEDURE_GUIDE,
     PAGE_FAMILY_SOURCE_MANIFEST,
@@ -264,4 +264,3 @@ def _canonical_subject(subject: str) -> str:
 
 def _topic_state_id(source_hash: str, key: str) -> str:
     return f"tps_{short_digest(source_hash + '|topic|' + key)}"
-

@@ -157,15 +157,6 @@ class WikiStore:
             lambda metadata: metadata.sources == (source_ref,),
         )
 
-    def delete_cross_source_pages_not_in(self, keep_page_ids: set[str]) -> tuple[str, ...]:
-        return self._delete_generated_pages(
-            keep_page_ids,
-            lambda metadata: (
-                metadata.projection_coverage_pointer.startswith("cross-source-")
-                or metadata.projection_coverage_pointer.startswith("canonical-concept-")
-            ),
-        )
-
     def page_path_for_page_id(self, page_id: str) -> Path:
         candidates = self._page_paths_for_page_id(page_id)
         if len(candidates) == 1:
@@ -295,10 +286,16 @@ class WikiStore:
         artifact_dir.mkdir(parents=True, exist_ok=True)
         (artifact_dir / "claim-support-report.md").write_text(report, encoding="utf-8")
 
-    def write_ledger_artifacts(self, source_locator: str, files: dict[str, str]) -> None:
+    def write_ledger_artifacts(
+        self, source_locator: str, files: dict[str, str], *, replace: bool = True
+    ) -> None:
         """Persist the claim-ledger bundle (one canonical JSON file each)."""
         artifact_dir = self.page_plan_artifact_dir(source_locator) / "ledger"
         artifact_dir.mkdir(parents=True, exist_ok=True)
+        if replace:
+            for stale_path in artifact_dir.iterdir():
+                if stale_path.is_file():
+                    stale_path.unlink()
         for filename, text in files.items():
             (artifact_dir / filename).write_text(text, encoding="utf-8")
 
@@ -315,16 +312,6 @@ class WikiStore:
             path.read_text(encoding="utf-8")
             for path in sorted(base.glob("*/ledger/claim-ledger.json"))
         ]
-
-    def list_topic_index_artifacts(self) -> list[str]:
-        """Every stored per-source topic index (canonical JSON)."""
-        base = self._paths.cache_dir / "page-plans"
-        if not base.is_dir():
-            return []
-        return [
-            path.read_text(encoding="utf-8") for path in sorted(base.glob("*/ledger/topics.json"))
-        ]
-
 
 def _is_hidden_path(path: Path, root: Path) -> bool:
     return any(part.startswith(".") for part in path.relative_to(root).parts)

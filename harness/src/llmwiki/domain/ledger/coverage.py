@@ -1,11 +1,9 @@
 """Projection coverage objects.
 
 ``ProjectionCoverage`` is the machine-checkable authority for how a page body
-maps back to its source support: every projection coverage unit (generated
-page claim, rendered technical atom block, source review item, disposition
-count, cross-source relationship) gets one entry that records the page text
-range it covers and the internal support ids it resolves to. Internal support
-ids live here, never in the visible page body.
+maps back to its source support: every projection coverage unit gets one entry
+that records the page text range it covers and the internal support ids it
+resolves to. Internal support ids live here, never in the visible page body.
 """
 
 from __future__ import annotations
@@ -37,7 +35,6 @@ class ProjectionCoverageEntry:
     technical_atom_id: str = ""
     ledger_entry_id: str = ""
     extracted_unit_disposition: str = ""
-    cross_source_relationship_id: str = ""
 
 
 @dataclass(frozen=True)

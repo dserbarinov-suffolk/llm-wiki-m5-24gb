@@ -50,8 +50,8 @@ class QualityCheckCatalog:
         return None
 
 
-_LEDGER = ("ledger-build", "page-projection", "cross-source-projection")
-_ALL = ("ledger-build", "page-projection", "blocked-write", "cross-source-projection")
+_LEDGER = ("ledger-build", "page-projection")
+_ALL = ("ledger-build", "page-projection", "blocked-write")
 
 _APPLICABILITY = ReasonApplicabilityPolicy(
     allowed_scopes={
@@ -61,7 +61,7 @@ _APPLICABILITY = ReasonApplicabilityPolicy(
         "schema-invalid": _ALL,
         "controlled-vocabulary-invalid": _ALL,
         "canonical-order-invalid": _ALL,
-        "page-hash-invalid": ("page-projection", "cross-source-projection"),
+        "page-hash-invalid": ("page-projection",),
         "review-required": _LEDGER,
         "audit-metric": _ALL,
     },
@@ -81,8 +81,6 @@ _APPLICABILITY = ReasonApplicabilityPolicy(
             "generated-page-claim",
             "rendered-technical-atom-block",
             "source-review-item",
-            "source-backed-position",
-            "cross-source-relationship",
         ),
         "coverage-gap": (
             "document-structure-artifact",
@@ -103,8 +101,6 @@ _APPLICABILITY = ReasonApplicabilityPolicy(
             "source-review-section",
             "source-review-item",
             "disposition-count",
-            "source-backed-position",
-            "cross-source-relationship",
         ),
         "technical-atom-fidelity-failure": (
             "atom-candidate",
@@ -278,42 +274,6 @@ _CHECKS: tuple[QualityCheckDefinition, ...] = (
         "ck-projection-coverage-metric",
         "audit-metric",
         ("page-projection",),
-        ("projection-coverage-artifact",),
-    ),
-    _ck(
-        "ck-cross-source-min-support",
-        "coverage-gap",
-        ("cross-source-projection",),
-        ("projection-coverage-artifact",),
-    ),
-    _ck(
-        "ck-cross-source-position-traceable",
-        "traceability-failure",
-        ("cross-source-projection",),
-        ("source-backed-position",),
-    ),
-    _ck(
-        "ck-cross-source-relationship-arity",
-        "coverage-gap",
-        ("cross-source-projection",),
-        ("cross-source-relationship",),
-    ),
-    _ck(
-        "ck-cross-source-relationship-vocabulary",
-        "controlled-vocabulary-invalid",
-        ("cross-source-projection",),
-        ("cross-source-relationship",),
-    ),
-    _ck(
-        "ck-cross-source-page-no-internal-ids",
-        "traceability-failure",
-        ("cross-source-projection",),
-        ("page-body",),
-    ),
-    _ck(
-        "ck-cross-source-metric",
-        "audit-metric",
-        ("cross-source-projection",),
         ("projection-coverage-artifact",),
     ),
 )

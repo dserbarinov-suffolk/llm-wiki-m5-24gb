@@ -15,16 +15,13 @@ from llmwiki.domain.ledger.artifacts import (
     LedgerQualityReportArtifact,
     PortableArtifactMember,
     PortableArtifactSet,
-    ProjectionContextArtifact,
     ProjectionCoverageArtifact,
     QualityCheckCatalogArtifact,
     SourceCoverageArtifact,
     build_portable_artifact_set,
 )
 from llmwiki.domain.ledger.canonical import canonical_json
-from llmwiki.domain.ledger.knowledge_shapes import KnowledgeShapeCatalog
 from llmwiki.domain.ledger.proposed_change_review import ProposedChangeReviewArtifact
-from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.staged_contracts import (
     LedgerExtractionResult,
     ProjectionLintRun,
@@ -49,9 +46,6 @@ def build_serialized_artifact_bundle(
     ledger_report_artifact: LedgerQualityReportArtifact,
     projection_report_artifact: LedgerQualityReportArtifact,
     coverage_artifact: ProjectionCoverageArtifact,
-    projection_context_artifact: ProjectionContextArtifact,
-    section_plan: SectionGroundedPlan,
-    knowledge_shape_catalog: KnowledgeShapeCatalog,
     source_coverage_artifact: SourceCoverageArtifact | None,
     blocked: BlockedWriteDiagnosticArtifact | None,
     source_plan: SourcePlan,
@@ -72,9 +66,6 @@ def build_serialized_artifact_bundle(
         ledger_report_artifact,
         projection_report_artifact,
         coverage_artifact,
-        projection_context_artifact,
-        section_plan,
-        knowledge_shape_catalog,
         source_coverage_artifact,
         blocked,
         source_plan,
@@ -95,9 +86,6 @@ def build_serialized_artifact_bundle(
         ledger_report_artifact=ledger_report_artifact,
         projection_report_artifact=projection_report_artifact,
         coverage_artifact=coverage_artifact,
-        projection_context_artifact=projection_context_artifact,
-        section_plan=section_plan,
-        knowledge_shape_catalog=knowledge_shape_catalog,
         source_coverage_artifact=source_coverage_artifact,
         blocked=blocked,
         source_plan=source_plan,
@@ -123,9 +111,6 @@ def _artifact_members(
     ledger_report_artifact: LedgerQualityReportArtifact,
     projection_report_artifact: LedgerQualityReportArtifact,
     coverage_artifact: ProjectionCoverageArtifact,
-    projection_context_artifact: ProjectionContextArtifact,
-    section_plan: SectionGroundedPlan,
-    knowledge_shape_catalog: KnowledgeShapeCatalog,
     source_coverage_artifact: SourceCoverageArtifact | None,
     blocked: BlockedWriteDiagnosticArtifact | None,
     source_plan: SourcePlan,
@@ -169,21 +154,6 @@ def _artifact_members(
             "projection-coverage-artifact",
             coverage_artifact.projection_coverage_artifact_id,
             coverage_artifact.projection_coverage_fingerprint,
-        ),
-        _member(
-            "projection-context-artifact",
-            projection_context_artifact.projection_context_artifact_id,
-            projection_context_artifact.projection_context_fingerprint,
-        ),
-        _member(
-            "section-grounded-plan-artifact",
-            section_plan.section_grounded_plan_id,
-            section_plan.section_grounded_plan_fingerprint,
-        ),
-        _member(
-            "knowledge-shape-catalog-artifact",
-            knowledge_shape_catalog.knowledge_shape_catalog_id,
-            knowledge_shape_catalog.knowledge_shape_catalog_fingerprint,
         ),
         _member(
             "source-plan-artifact",

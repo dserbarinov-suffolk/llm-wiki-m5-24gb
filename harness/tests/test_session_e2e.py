@@ -170,6 +170,13 @@ class TestIngest:
             "page-projections.json",
         ):
             assert (ledger_dir / name).is_file(), name
+        for retired_name in (
+            "projection-context.json",
+            "section-plan.json",
+            "knowledge-shapes.json",
+            "topics.json",
+        ):
+            assert not (ledger_dir / retired_name).exists(), retired_name
         # The evidence registry remains the prior link in the authority chain.
         assert (artifact_dir / "evidence-registry.json").is_file()
         manifest = json.loads((ledger_dir / "portable-artifact-set.json").read_text())
@@ -181,6 +188,21 @@ class TestIngest:
         assert "topic-state-artifact" in kinds
         assert "page-projection-artifact" in kinds
         assert "portable-artifact-set" not in kinds
+        assert "projection-context-artifact" not in kinds
+        assert "section-grounded-plan-artifact" not in kinds
+        assert "knowledge-shape-catalog-artifact" not in kinds
+
+    async def test_ledger_artifact_write_replaces_stale_files(
+        self, store: WikiStore, paths: WikiPaths, source: str
+    ) -> None:
+        ledger_dir = store.page_plan_artifact_dir(source) / "ledger"
+        ledger_dir.mkdir(parents=True, exist_ok=True)
+        (ledger_dir / "projection-context.json").write_text("stale", encoding="utf-8")
+
+        await _session(store, [], paths).ingest(source)
+
+        assert not (ledger_dir / "projection-context.json").exists()
+        assert (ledger_dir / "page-projections.json").is_file()
 
     async def test_claim_ledger_references_document_structure_and_has_entries(
         self, store: WikiStore, paths: WikiPaths, source: str

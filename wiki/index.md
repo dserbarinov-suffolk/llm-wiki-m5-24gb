@@ -623,5 +623,5 @@
 ## Recipes
 
 ## Syntheses
-- [[wiki-health]] — Wiki health report from the latest lint pass (2026-07-08).
+- [[wiki-health]] — Wiki health report from the latest lint pass (2026-07-09).
 - [[wiki-ingest-confidence]] — Latest bounded post-ingest confidence report.

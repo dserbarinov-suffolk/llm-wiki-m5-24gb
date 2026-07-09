@@ -13,7 +13,6 @@ PAGE_FAMILIES = (
     "collection-page",
     "broad-topic",
     "entity-profile",
-    "cross-source-synthesis",
 )
 
 PAGE_KIND_HEADINGS = {

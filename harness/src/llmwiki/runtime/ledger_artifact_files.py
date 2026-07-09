@@ -23,18 +23,15 @@ from llmwiki.domain.ledger.artifacts import (
     ClaimLedgerArtifact,
     DocumentStructureArtifact,
     LedgerQualityReportArtifact,
-    ProjectionContextArtifact,
     ProjectionCoverageArtifact,
     QualityCheckCatalogArtifact,
     SourceCoverageArtifact,
 )
 from llmwiki.domain.ledger.canonical import canonical_json
-from llmwiki.domain.ledger.knowledge_shapes import KnowledgeShapeCatalog
 from llmwiki.domain.ledger.proposed_change_review import (
     ProposedChangeReviewArtifact,
     proposed_change_review_artifact_to_json,
 )
-from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.staged_contracts import (
     LedgerExtractionResult,
     ProjectionLintRun,
@@ -52,9 +49,6 @@ def artifact_files(
     ledger_report_artifact: LedgerQualityReportArtifact,
     projection_report_artifact: LedgerQualityReportArtifact,
     coverage_artifact: ProjectionCoverageArtifact,
-    projection_context_artifact: ProjectionContextArtifact,
-    section_plan: SectionGroundedPlan,
-    knowledge_shape_catalog: KnowledgeShapeCatalog,
     source_coverage_artifact: SourceCoverageArtifact | None,
     blocked: BlockedWriteDiagnosticArtifact | None,
     source_plan: SourcePlan,
@@ -75,9 +69,6 @@ def artifact_files(
         "ledger-quality-report.json": canonical_json(ledger_report_artifact, indent=2),
         "projection-quality-report.json": canonical_json(projection_report_artifact, indent=2),
         "projection-coverage.json": canonical_json(coverage_artifact, indent=2),
-        "projection-context.json": canonical_json(projection_context_artifact, indent=2),
-        "section-plan.json": canonical_json(section_plan, indent=2),
-        "knowledge-shapes.json": canonical_json(knowledge_shape_catalog, indent=2),
         "source-plan.json": canonical_json(source_plan, indent=2),
         "extraction-result.json": canonical_json(extraction_result, indent=2),
         "staged-pages.json": canonical_json(staged_page_set, indent=2),

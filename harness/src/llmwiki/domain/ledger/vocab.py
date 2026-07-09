@@ -121,12 +121,6 @@ RELATIONSHIP_KINDS: Final = (
     "constrains",
     "contrasts-with",
 )
-CROSS_SOURCE_RELATIONSHIP_KINDS: Final = (
-    "conflicts-with",
-    "agrees-with",
-    "qualifies",
-    "supersedes",
-)
 
 # -- extraction ranking ----------------------------------------------------
 
@@ -192,7 +186,6 @@ QUALITY_REPORT_SCOPES: Final = (
     "ledger-build",
     "page-projection",
     "blocked-write",
-    "cross-source-projection",
 )
 QUALITY_FINDING_SEVERITIES: Final = ("blocking", "warning", "info")
 QUALITY_FINDING_SEVERITY_ORDER: Final = ("blocking", "warning", "info")
@@ -228,7 +221,6 @@ PROJECTION_COVERAGE_UNIT_KINDS: Final = (
     "rendered-technical-atom-block",
     "source-review-item",
     "disposition-count",
-    "cross-source-relationship",
 )
 QUALITY_FINDING_LOCATOR_KINDS: Final = (
     "source-locator",
@@ -278,8 +270,6 @@ QUALITY_FINDING_SUBJECT_KINDS: Final = (
     "source-review-section",
     "source-review-item",
     "disposition-count",
-    "source-backed-position",
-    "cross-source-relationship",
     "quality-report",
     "ledger-quality-report-artifact",
     "quality-finding",
