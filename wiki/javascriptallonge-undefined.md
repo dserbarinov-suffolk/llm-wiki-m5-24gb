@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-undefined
 page_kind: concept
-summary: undefined: 8 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 14 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_f7e1c753e0a4fc35@fb5d26642f495c8cdc9681174dbd66b6
+projection_coverage: page-projection-pgp_75002af35576692b@2c336af2d74eb61fc87334917b2ae06d
 ---
 
 # undefined
@@ -23,6 +23,12 @@ Source: [[javascriptallonge]]
 - This works because JavaScript has a feature that can infer where the semi-colons should be most of the time. (javascriptallonge.pdf p.34)
 - You might think that undefined in JavaScript is equivalent to NULL in SQL. (javascriptallonge.pdf p.35)
 - In JavaScript, every undefined is identical to every other undefined . (javascriptallonge.pdf p.35)
+- In SQL, two things that are NULL are not equal to nor share the same identity, because two unknowns can't be equal. (javascriptallonge.pdf p.35)
+
+## Rules
+
+- Like numbers, booleans and strings, JavaScript can print out the value undefined . (javascriptallonge.pdf p.34)
+- This works because JavaScript has a feature that can infer where the semi-colons should be most of the time. (javascriptallonge.pdf p.34)
 - In SQL, two things that are NULL are not equal to nor share the same identity, because two unknowns can't be equal. (javascriptallonge.pdf p.35)
 
 ## Technical atoms

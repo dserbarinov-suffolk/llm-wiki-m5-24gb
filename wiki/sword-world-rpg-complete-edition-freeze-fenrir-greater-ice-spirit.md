@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-freeze-fenrir-greater-ice-spirit
 page_kind: concept
-summary: [ Freeze ] (Fenrir/Greater Ice Spirit): 20 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 40 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_da364d8e8c215b01@386e9da8508a0473235a4c9ebae04ab9
+projection_coverage: page-projection-pgp_ba487db521d41984@b44c013250db957f1e89e9ba828051a6
 ---
 
 # [ Freeze ] (Fenrir/Greater Ice Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - This spell has the effect of completely freezing the target instantly. (Sword World RPG - Complete Edition.pdf p.96)
 - This spell cannot exert its original effect on things that do not have living bodies with blood flowing through them, such as undead, golems, etc. (Sword World RPG - Complete Edition.pdf p.96)
@@ -37,7 +37,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Within the area of effect, any spirit magic that depends on the neutralized spirit power will no longer be able to be used, and any magic that had an effect will be canceled immediately. (Sword World RPG - Complete Edition.pdf p.96)
 - The greater spirits and spirit power that can be neutralized are as follows. (Sword World RPG - Complete Edition.pdf p.96)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -124,22 +124,19 @@ Resist=None
 ```
 
 <a id="atom-13"></a>
-**Atom:** rule
-
-```
-If a ship is caught in the whirlpool, the person at the helm must make a success roll using the ship steering ability.
-```
-
-<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-15"></a>
-**Atom:** rule
 
-```
-Even if you expand this spell and use it, you cannot neutralize two or more types of spirit power at the same time.
-```
+## Rules and exceptions
+
+- This spell cannot exert its original effect on things that do not have living bodies with blood flowing through them, such as undead, golems, etc. (Sword World RPG - Complete Edition.pdf p.96)
+- and can only freeze the surface of their bodies and render them unable to act. (Sword World RPG - Complete Edition.pdf p.96)
+- The spell's effect can work on anything that can fit inside the whirlpool. (Sword World RPG - Complete Edition.pdf p.96)
+- This is the same even if multiple casters attempt it (only one type of spirit power can be neutralized in one space). (Sword World RPG - Complete Edition.pdf p.96)
+- However, only one type of spirit power can be neutralized at a time. (Sword World RPG - Complete Edition.pdf p.96)
+- Within the area of effect, any spirit magic that depends on the neutralized spirit power will no longer be able to be used, and any magic that had an effect will be canceled immediately. (Sword World RPG - Complete Edition.pdf p.96)
+- The greater spirits and spirit power that can be neutralized are as follows. (Sword World RPG - Complete Edition.pdf p.96)

@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-shoot-arrow-sylph-wind-spirit
 page_kind: concept
-summary: [ Shoot Arrow ] (Sylph/Wind Spirit): 9 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_1d1cedfb355f18d8@e8fbce162a17ee9eb02446a035e4bcbc
+projection_coverage: page-projection-pgp_45c2d04381b341d8@7f6e2f8f223c452f23adfbd45c1fcbfd
 ---
 
 # [ Shoot Arrow ] (Sylph/Wind Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Also, if you roll 10 or greater on your damage check, a critical will occur. (Sword World RPG - Complete Edition.pdf p.89-90)
 - Type=Counters (Negates): Missile Protection Expansion=Distance, targets Resist=None When you cast this spell, the caster's arrow will be carried by a sylph, ensuring that it hits the target. (Sword World RPG - Complete Edition.pdf p.89-90)
@@ -26,7 +26,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - However, you cannot launch multiple arrows at a single target at once. (Sword World RPG - Complete Edition.pdf p.90)
 - It is possible to expand the effect of this spell to launch multiple arrows and attack multiple targets at once. (Sword World RPG - Complete Edition.pdf p.90)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -63,9 +63,12 @@ Duration=Instant
 Effect=Automatically hit the target with a strike power 20 arrow
 ```
 
-<a id="atom-6"></a>
-**Atom:** rule
 
-```
-Note that this spell cannot deal damage to monsters that can only be wounded by silver or magical weapons, such as werewolves, etc.
-```
+## Rules and exceptions
+
+- The target cannot resist this spell. (Sword World RPG - Complete Edition.pdf p.89-90)
+- However, you cannot launch multiple arrows at a single target at once. (Sword World RPG - Complete Edition.pdf p.90)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-charm-dryad-plant-spirit]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-if-functions-without-free-variables-are-pure-are-closures-impure
 page_kind: concept
-summary: if functions without free variables are pure, are closures impure?: 18 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 25 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_5e6f8b7047aafcf8@29c088636d03f82b917a3bfd6489514d
+projection_coverage: page-projection-pgp_95c171106b1915f6@66ddeabe0b628f05ff7e0f67f72e369b
 ---
 
 # if functions without free variables are pure, are closures impure?
@@ -35,6 +35,14 @@ Source: [[javascriptallonge]]
 - We can 't say what it will do with argument (2) without understanding the magic for evaluating the free variable x . (javascriptallonge.pdf p.45)
 - 27 You may also hear the term 'non-local variable.' Both are correct. (javascriptallonge.pdf p.45)
 
+## Rules
+
+- Now that we know that variables used in a function are either bound or free, we can bifurcate functions into those with free variables and those without:. (javascriptallonge.pdf p.45)
+- From this, we learn something: A pure function can contain a closure. (javascriptallonge.pdf p.45)
+- If you can 't, give your reasoning for why it's impossible. (javascriptallonge.pdf p.45)
+- We can 't say what it will do with argument (2) without understanding the magic for evaluating the free variable x . (javascriptallonge.pdf p.45)
+- 27 You may also hear the term 'non-local variable.' Both are correct. (javascriptallonge.pdf p.45)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -43,3 +51,8 @@ Source: [[javascriptallonge]]
 ```
 If pure functions can contain closures, can a closure contain a pure function?
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-it-s-always-the-environment]] - contextualizes: source-supported topic dependency

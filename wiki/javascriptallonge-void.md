@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-void
 page_kind: concept
-summary: void: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_9819277a7f44860b@553a6c6de615c4741219e430f8de2a8b
+projection_coverage: page-projection-pgp_d4df38b20faec028@2034b3d3f919fd112345f00779a66f7c
 ---
 
 # void
@@ -34,3 +34,9 @@ void 1
 void (2 + 2)
 //=> undefined
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-simplest-possible-block]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-back-on-the-block]] - contextualizes: source-supported topic dependency

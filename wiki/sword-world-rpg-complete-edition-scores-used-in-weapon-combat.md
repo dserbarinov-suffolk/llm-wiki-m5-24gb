@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-scores-used-in-weapon-combat
 page_kind: concept
-summary: Scores Used in Weapon Combat: 32 accepted assertion(s) and 10 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 41 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_981aaaa1ff1509da@356b8cea615877e085e38b820695f891
+projection_coverage: page-projection-pgp_38e855e574e09e39@725426909ddb55025f6024915e984d45
 ---
 
 # Scores Used in Weapon Combat
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Attack power , strike power , bonus damage , critical target , evasion speed , defense power , and damage reduction . (Sword World RPG - Complete Edition.pdf p.41)
 - The higher this score, the higher the probability that a character's attack will hit. (Sword World RPG - Complete Edition.pdf p.41)
@@ -49,7 +49,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Those who are called heroes do not die from just a few injuries. (Sword World RPG - Complete Edition.pdf p.41)
 - Damage reduction is a score that reduces the damage a character would have taken. (Sword World RPG - Complete Edition.pdf p.41)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -66,57 +66,36 @@ strike power = required strength of weapon (+5 if a two-handed weapon)
 ```
 
 <a id="atom-3"></a>
-**Atom:** rule
-
-```
-strike power = required strength of weapon (+5 if a two-handed weapon)
-```
-
-<a id="atom-4"></a>
-**Atom:** rule
-
-```
-These characters can deal more damage to their foes, even when using the same sized weapon.
-```
-
-<a id="atom-5"></a>
 **Atom:** formula
 
 ```
 bonus damage = fighter (thief/ranger) skill level + strength bonus
 ```
 
-<a id="atom-6"></a>
-**Atom:** rule
-
-```
-If a weapon hits, it'll sometimes deal more damage than normal.
-```
-
-<a id="atom-7"></a>
+<a id="atom-4"></a>
 **Atom:** formula
 
 ```
 critical target = 10 (9 if using thief skill)
 ```
 
-<a id="atom-8"></a>
-**Atom:** rule
-
-```
-If by a stroke of bad luck, an opponent's attack hits, a character can still reduce the damage by means of armor.
-```
-
-<a id="atom-9"></a>
+<a id="atom-5"></a>
 **Atom:** formula
 
 ```
 defense power = required strength of armor
 ```
 
-<a id="atom-10"></a>
+<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 damage reduction = adventurer level
 ```
+
+
+## Rules and exceptions
+
+- Characters with deep experience in combat can handle weapons effectively. (Sword World RPG - Complete Edition.pdf p.41)
+- In addition, characters with high strength can wield weapons more powerfully. (Sword World RPG - Complete Edition.pdf p.41)
+- In combat, characters are not the only ones who can attack. (Sword World RPG - Complete Edition.pdf p.41)

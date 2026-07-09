@@ -1,25 +1,25 @@
 ---
 page_id: sword-world-rpg-complete-edition-18-3-1-how-to-read-the-structure-strength-table
 page_kind: concept
-summary: 18.3.1 How to Read the Structure Strength Table: 2 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_a4307af8759a8a16@2707fb455703c23682eb1c27fe51ca55
+projection_coverage: page-projection-pgp_8393f0a35b25a347@a53e876a2151c10dac1d72360f36f5c4
 ---
 
 # 18.3.1 How to Read the Structure Strength Table
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Normal = Swords, spears, axes, maces, flails, slings, rocks, war hammers, barehanded , stone-type, wind cuttertype, blade-type magic. (Sword World RPG - Complete Edition.pdf p.277)
 - When its defense points reach 0, its destruction points begin to decrease, and on the next round when destruction points reach 1, the paper object will burn out. (Sword World RPG - Complete Edition.pdf p.277)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -43,13 +43,6 @@ Ignore Defense Points = Fire-type, electrictype, explosion-type, pure energy-typ
 ```
 
 <a id="atom-4"></a>
-**Atom:** rule
-
-```
-Special = If you cast " Fire Weapon " magic, strike power will become +20, and even weapons that cannot cause criticals will now be able to cause criticals.
-```
-
-<a id="atom-5"></a>
 **Atom:** table
 
 ```text

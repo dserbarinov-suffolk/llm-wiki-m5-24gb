@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-5-1-13-spirit-magic-and-the-shaman-skill
 page_kind: concept
-summary: 5.1.13 Spirit Magic and the Shaman Skill: 30 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 43 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_f594fde5c7a5912b@50ab320f822f0cabd26a0bfbdeba4400
+projection_coverage: page-projection-pgp_e42b180b05984636@39a17ad6bec7cecd2dd1b0fb357408eb
 ---
 
 # 5.1.13 Spirit Magic and the Shaman Skill
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - The basic rules for casting magic are the same, but the following conditions are required in order to use the shaman skill. (Sword World RPG - Complete Edition.pdf p.83)
 - It must be in a place where the wind blows in its natural state. (Sword World RPG - Complete Edition.pdf p.83)
@@ -47,7 +47,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - These are runes used to communicate with spirits. (Sword World RPG - Complete Edition.pdf p.84)
 - Most spirits speak directly to the mind without using words, but when a caster gives commands to a spirit, they must speak these runes out loud. (Sword World RPG - Complete Edition.pdf p.84)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -59,23 +59,21 @@ Silent spirit are runes used to communicate with spirits and draw out the  power
 5.1.13.1
 ```
 
-<a id="atom-2"></a>
-**Atom:** rule
 
-```
-Therefore, you must not wear clothing or armor that severely restricts movement of your arms, and your fingers must be completely free.
-```
+## Rules and exceptions
 
-<a id="atom-3"></a>
-**Atom:** rule
+- It must be in a place where the wind blows in its natural state. (Sword World RPG - Complete Edition.pdf p.83)
+- You can also use fire from a torch you're carrying with you. (Sword World RPG - Complete Edition.pdf p.83)
+- It's said that if one emotion has too much of an outburst, it can cause phenomena such as alienation or complete loss of functions of other spirits, which can lead to mental disorders. (Sword World RPG - Complete Edition.pdf p.83)
+- Explanations of where these are at work can be found under each individual spell. (Sword World RPG - Complete Edition.pdf p.83)
+- Shamans have the following basic abilities, which they can use without any restrictions. (Sword World RPG - Complete Edition.pdf p.83)
+- However, you cannot see colors at all. (Sword World RPG - Complete Edition.pdf p.83)
+- When a player declares that they will use this ability, the game master must tell the player what spirit power is at work in that location. (Sword World RPG - Complete Edition.pdf p.83)
+- Since there are spirits of life and spirits of undeath (which control negative life force), the sense aura ability can be used to distinguish between living things and undead. (Sword World RPG - Complete Edition.pdf p.83-84)
+- Also, if there's extremely strong spirit power in your surroundings, you may not be able to sense weak spirit power at work. (Sword World RPG - Complete Edition.pdf p.84)
+- Sense aura is a subtle sensation, more like what we can smell than see . (Sword World RPG - Complete Edition.pdf p.84)
+- Most spirits speak directly to the mind without using words, but when a caster gives commands to a spirit, they must speak these runes out loud. (Sword World RPG - Complete Edition.pdf p.84)
 
-```
-You cannot use spells that belong to a specific spirit in places where that spirit power is not at work.
-```
+## Related pages
 
-<a id="atom-4"></a>
-**Atom:** rule
-
-```
-Those who can use these runes can communicate with any spirit.
-```
+- [[sword-world-rpg-complete-edition-10th-level-ancient-magic-list-dimension-gate]] - contextualizes: source-supported topic dependency

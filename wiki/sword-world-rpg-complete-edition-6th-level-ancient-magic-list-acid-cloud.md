@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-6th-level-ancient-magic-list-acid-cloud
 page_kind: concept
-summary: 6th Level Ancient Magic List [ Acid Cloud ]: 56 accepted assertion(s) and 76 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 141 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_67c8113c4e839335@e54ed063b82383e5da4e8ec16b943346
+projection_coverage: page-projection-pgp_2ebab39cecd23919@0108c5336cc86ac419ea3e1e64aa4c5d
 ---
 
 # 6th Level Ancient Magic List [ Acid Cloud ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Acid is fleeting and primarily harms the mucous membranes and respiratory organs of living things. (Sword World RPG - Complete Edition.pdf p.76)
 - It does not affect armor, etc. (Sword World RPG - Complete Edition.pdf p.76)
@@ -73,7 +73,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Note that if the target succeeds on a resistance roll against this spell, it'll have no effect. (Sword World RPG - Complete Edition.pdf p.78)
 - This spell works on targets slightly larger than a human (such as an ogre or a manticore), but has no effect on targets of a larger size than that (such as a dragon or a roc). (Sword World RPG - Complete Edition.pdf p.78)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -83,346 +83,346 @@ Resist=Reduced effect
 ```
 
 <a id="atom-2"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-When you cast this spell, you can turn the air within its area of effect into highly acidic poison gas, dealing strike power 30 damage to everything within it.
+Base Mental Power Cost=30
 ```
 
 <a id="atom-3"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=30
+Distance=Touch
 ```
 
 <a id="atom-4"></a>
 **Atom:** formula
 
 ```
-Distance=Touch
+Area=One object
 ```
 
 <a id="atom-5"></a>
 **Atom:** formula
 
 ```
-Area=One object
+Duration=Instant
 ```
 
 <a id="atom-6"></a>
 **Atom:** formula
 
 ```
-Duration=Instant
+Effect=Appraise and identify magic power
 ```
 
 <a id="atom-7"></a>
 **Atom:** formula
 
 ```
-Effect=Appraise and identify magic power
+Type=Detection
 ```
 
 <a id="atom-8"></a>
 **Atom:** formula
 
 ```
-Type=Detection
+Resist=None
 ```
 
 <a id="atom-9"></a>
 **Atom:** formula
 
 ```
-Resist=None
+Base Mental Power Cost=30
 ```
 
 <a id="atom-10"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-If it's a regular magical item, you can almost certainly identify the magic.
+Distance=Touch
 ```
 
 <a id="atom-11"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=30
+Area=One
 ```
 
 <a id="atom-12"></a>
 **Atom:** formula
 
 ```
-Distance=Touch
+Duration=Permanent
 ```
 
 <a id="atom-13"></a>
 **Atom:** formula
 
 ```
-Area=One
+Effect=Give a target a prohibition command
 ```
 
 <a id="atom-14"></a>
 **Atom:** formula
 
 ```
-Duration=Permanent
+Expansion=Final score
 ```
 
 <a id="atom-15"></a>
 **Atom:** formula
 
 ```
-Effect=Give a target a prohibition command
+Resist=Negated effect
 ```
 
 <a id="atom-16"></a>
 **Atom:** formula
 
 ```
-Expansion=Final score
+Resist=None
 ```
 
 <a id="atom-17"></a>
 **Atom:** formula
 
 ```
-Resist=Negated effect
-```
-
-<a id="atom-18"></a>
-**Atom:** rule
-
-```
-The caster can cancel this spell at will, but the spell will not be removed even if the caster dies.
-```
-
-<a id="atom-19"></a>
-**Atom:** rule
-
-```
-At least, if you're not intelligent enough to use language, this spell cannot be cast on you.
-```
-
-<a id="atom-20"></a>
-**Atom:** formula
-
-```
-Resist=None
-```
-
-<a id="atom-21"></a>
-**Atom:** rule
-
-```
-If you wish, you can turn non-human animals, fae, youma, titans, mythical beasts, magical beasts, etc.
-```
-
-<a id="atom-22"></a>
-**Atom:** formula
-
-```
 Base Mental Power Cost=30
 ```
 
-<a id="atom-23"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Distance=Touch
 ```
 
-<a id="atom-24"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Area=One wooden staff or object
 ```
 
-<a id="atom-25"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Duration=Permanent
 ```
 
-<a id="atom-26"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Effect=Can create a magical catalyst
 ```
 
-<a id="atom-27"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Type=Non-removable
 ```
 
-<a id="atom-28"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-29"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=30
 ```
 
-<a id="atom-30"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Distance=Touch
 ```
 
-<a id="atom-31"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Area=One corpse
 ```
 
-<a id="atom-32"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Duration=Permanent
 ```
 
-<a id="atom-33"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Effect=Turns a corpse into a buau zombie
 ```
 
-<a id="atom-34"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Type=Non-removable, lost
 ```
 
-<a id="atom-35"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=18
 ```
 
-<a id="atom-36"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-37"></a>
+<a id="atom-32"></a>
 **Atom:** formula
 
 ```
 Area=A space within a 30 meter radius from
 ```
 
-<a id="atom-38"></a>
+<a id="atom-33"></a>
 **Atom:** formula
 
 ```
 Duration=18 rounds
 ```
 
-<a id="atom-39"></a>
+<a id="atom-34"></a>
 **Atom:** formula
 
 ```
 Effect=Can see through obstacles and the interior of objects
 ```
 
-<a id="atom-40"></a>
+<a id="atom-35"></a>
 **Atom:** formula
 
 ```
 Type=Detection
 ```
 
-<a id="atom-41"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-42"></a>
-**Atom:** rule
-
-```
-As long as it's within the area of effect, the caster can adjust the desired range and distance they want to see at will.
-```
-
-<a id="atom-43"></a>
+<a id="atom-37"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=30
 ```
 
-<a id="atom-44"></a>
+<a id="atom-38"></a>
 **Atom:** formula
 
 ```
 Distance=Touch
 ```
 
-<a id="atom-45"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Area=One object
 ```
 
-<a id="atom-46"></a>
+<a id="atom-40"></a>
 **Atom:** formula
 
 ```
 Duration=Permanent
 ```
 
-<a id="atom-47"></a>
+<a id="atom-41"></a>
 **Atom:** formula
 
 ```
 Effect=Hides magical power applied to an
 ```
 
-<a id="atom-48"></a>
+<a id="atom-42"></a>
 **Atom:** formula
 
 ```
 Type=Target score, non-removable, lost
 ```
 
-<a id="atom-49"></a>
+<a id="atom-43"></a>
 **Atom:** formula
 
 ```
 Expansion=Final score
 ```
 
-<a id="atom-50"></a>
+<a id="atom-44"></a>
 **Atom:** formula
 
 ```
 Resist=None
+```
+
+<a id="atom-45"></a>
+**Atom:** formula
+
+```
+Base Mental Power Cost=24
+```
+
+<a id="atom-46"></a>
+**Atom:** formula
+
+```
+Distance=10 meters
+```
+
+<a id="atom-47"></a>
+**Atom:** formula
+
+```
+Area=One
+```
+
+<a id="atom-48"></a>
+**Atom:** formula
+
+```
+Duration=Instant
+```
+
+<a id="atom-49"></a>
+**Atom:** formula
+
+```
+Type=Lost, damage (Mind-type, see description)
+```
+
+<a id="atom-50"></a>
+**Atom:** formula
+
+```
+Resist=Negated effect
 ```
 
 <a id="atom-51"></a>
@@ -450,28 +450,38 @@ Area=One
 **Atom:** formula
 
 ```
-Duration=Instant
+Duration=18 rounds
 ```
 
 <a id="atom-55"></a>
 **Atom:** formula
 
 ```
-Type=Lost, damage (Mind-type, see description)
-```
-
-<a id="atom-56"></a>
-**Atom:** formula
-
-```
 Resist=Negated effect
 ```
 
-<a id="atom-57"></a>
-**Atom:** rule
+<a id="atom-56"></a>
+**Atom:** table
 
+```text
+Table 5-3: Slow: Agility and Evasion                                        Distance=Within the caster's view
+                                    completely unable to move. The poor
+                                                                        Area=One person or object up to 1 cubic
+ Penalties
 ```
-If you expand the effect and steal mental power (points) from multiple targets, you can recover the total mental power (points) you stole.
+
+<a id="atom-57"></a>
+**Atom:** table
+
+```text
+7th Level Ancient Magic List [ Dispel Order ]
+| Target's Agility | Evasion Speed (Points) Penalty |
+| --- | --- |
+| 1-5 | 0 |
+| 6-17 | -1 |
+| 18-29 | -2 |
+| 30-41 | -3 |
+| 42-53 | -4 |
 ```
 
 <a id="atom-58"></a>
@@ -506,69 +516,10 @@ Duration=18 rounds
 **Atom:** formula
 
 ```
-Resist=Negated effect
-```
-
-<a id="atom-63"></a>
-**Atom:** table
-
-```text
-Table 5-3: Slow: Agility and Evasion                                        Distance=Within the caster's view
-                                    completely unable to move. The poor
-                                                                        Area=One person or object up to 1 cubic
- Penalties
-```
-
-<a id="atom-64"></a>
-**Atom:** table
-
-```text
-7th Level Ancient Magic List [ Dispel Order ]
-| Target's Agility | Evasion Speed (Points) Penalty |
-| --- | --- |
-| 1-5 | 0 |
-| 6-17 | -1 |
-| 18-29 | -2 |
-| 30-41 | -3 |
-| 42-53 | -4 |
-```
-
-<a id="atom-65"></a>
-**Atom:** formula
-
-```
-Base Mental Power Cost=24
-```
-
-<a id="atom-66"></a>
-**Atom:** formula
-
-```
-Distance=10 meters
-```
-
-<a id="atom-67"></a>
-**Atom:** formula
-
-```
-Area=One
-```
-
-<a id="atom-68"></a>
-**Atom:** formula
-
-```
-Duration=18 rounds
-```
-
-<a id="atom-69"></a>
-**Atom:** formula
-
-```
 Resist=None
 ```
 
-<a id="atom-70"></a>
+<a id="atom-63"></a>
 **Atom:** table
 
 ```text
@@ -580,44 +531,61 @@ Table 5-4: Haste: Agility and Evasion    commands
                                                                         Resist=Negated effect
 ```
 
-<a id="atom-71"></a>
+<a id="atom-64"></a>
 **Atom:** formula
 
 ```
 1-2
 ```
 
-<a id="atom-72"></a>
+<a id="atom-65"></a>
 **Atom:** formula
 
 ```
 3-8
 ```
 
-<a id="atom-73"></a>
+<a id="atom-66"></a>
 **Atom:** formula
 
 ```
 9-14
 ```
 
-<a id="atom-74"></a>
+<a id="atom-67"></a>
 **Atom:** formula
 
 ```
 15-20
 ```
 
-<a id="atom-75"></a>
+<a id="atom-68"></a>
 **Atom:** formula
 
 ```
 21-26
 ```
 
-<a id="atom-76"></a>
-**Atom:** rule
 
-```
-When making a check, you may only make a resistance roll against this spell once per round in which the spell is cast.
-```
+## Rules and exceptions
+
+- If they fail, the same caster cannot use this spell on the same object until their magic power increases (any attempts will always fail). (Sword World RPG - Complete Edition.pdf p.76)
+- When you use this spell on an object that had Seal Enchantment cast on it, its effect cannot be inferred if your final score does not exceed the target score determined by Seal Enchantment . (Sword World RPG - Complete Edition.pdf p.76)
+- The caster can give commands to the skeletons and zombies created in this way. (Sword World RPG - Complete Edition.pdf p.76-77)
+- The commands must be extremely simple, at best they can be made to protect a specific location. (Sword World RPG - Complete Edition.pdf p.76-77)
+- into undead, but to cast this on something larger than human size, you must consume additional mental power (points) to expand the effect. (Sword World RPG - Complete Edition.pdf p.77)
+- Other scores may not need to be changed. (Sword World RPG - Complete Edition.pdf p.77)
+- Y ou can also use this spell to create a magical catalyst other than a mage's staff. (Sword World RPG - Complete Edition.pdf p.77)
+- The caster can make the buau zombie obey commands. (Sword World RPG - Complete Edition.pdf p.77)
+- To cast this spell, you need a corpse within a few days of death, so the corpse can be revived as a buau zombie (see p. (Sword World RPG - Complete Edition.pdf p.77)
+- The clairvoyant information appears directly in your mind as an image, so you can still see even if the target location is closed in darkness. (Sword World RPG - Complete Edition.pdf p.77)
+- By casting this spell, the caster can see things on the other side of obstacles such as walls, etc. (Sword World RPG - Complete Edition.pdf p.77)
+- This spell cannot be cast on living things. (Sword World RPG - Complete Edition.pdf p.77)
+- However, you cannot make your mental power (points) higher than your original score. (Sword World RPG - Complete Edition.pdf p.77)
+- However, since they can still move their mouth, they can speak and use holy magic. (Sword World RPG - Complete Edition.pdf p.78)
+- Not even an ogre can break this magical rope. (Sword World RPG - Complete Edition.pdf p.78)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-5th-level-ancient-magic-list-apport]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-7th-level-ancient-magic-list-dispel-order]] - contextualizes: source-supported topic dependency

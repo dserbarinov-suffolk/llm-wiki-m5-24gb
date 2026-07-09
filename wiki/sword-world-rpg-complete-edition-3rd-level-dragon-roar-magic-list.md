@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-3rd-level-dragon-roar-magic-list
 page_kind: concept
-summary: 3rd Level Dragon Roar Magic List: 6 accepted assertion(s) and 23 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 28 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_72ab6e95d4202c21@fa8970f2b9e9c2be32dbf60a4a4315a4
+projection_coverage: page-projection-pgp_4756ce8d407c4c8f@689fea85c5f1bfa8d0f17bf052db4528
 ---
 
 # 3rd Level Dragon Roar Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - When the opponent's intelligence is low, you can only know their emotions and degree of hunger. (Sword World RPG - Complete Edition.pdf p.150-151)
 - The caster will no longer be attacked unless the opponent is enraged or extremely hungry. (Sword World RPG - Complete Edition.pdf p.150-151)
@@ -23,7 +23,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - The caster's agility does not change. (Sword World RPG - Complete Edition.pdf p.151)
 - Movement speed during flight is 30, and during full movement, 30 km per hour. (Sword World RPG - Complete Edition.pdf p.151)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -68,120 +68,105 @@ Expansion=Duration
 ```
 
 <a id="atom-7"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-If the opponent is intelligent enough, you can also negotiate.
+Base Mental Power Cost=12
 ```
 
 <a id="atom-8"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=12
+Distance=Caster
 ```
 
 <a id="atom-9"></a>
 **Atom:** formula
 
 ```
-Distance=Caster
+Area=Caster
 ```
 
 <a id="atom-10"></a>
 **Atom:** formula
 
 ```
-Area=Caster
+Duration=18 rounds
 ```
 
 <a id="atom-11"></a>
 **Atom:** formula
 
 ```
-Duration=18 rounds
+Effect=No longer take damage from fire and heat
 ```
 
 <a id="atom-12"></a>
 **Atom:** formula
 
 ```
-Effect=No longer take damage from fire and heat
+Expansion=Duration
 ```
 
 <a id="atom-13"></a>
 **Atom:** formula
 
 ```
-Expansion=Duration
+Resist=None
 ```
 
 <a id="atom-14"></a>
 **Atom:** formula
 
 ```
-Resist=None
-```
-
-<a id="atom-15"></a>
-**Atom:** rule
-
-```
-Even if it's heat or fire caused by magic, you can protect yourself in the same way.
-```
-
-<a id="atom-16"></a>
-**Atom:** formula
-
-```
 Base Mental Power Cost=12
 ```
 
-<a id="atom-17"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-18"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Area=Caster
 ```
 
-<a id="atom-19"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Duration=1 hour
 ```
 
-<a id="atom-20"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Effect=Grow wings and gain the ability to fly
 ```
 
-<a id="atom-21"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Type=Target score
 ```
 
-<a id="atom-22"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-23"></a>
-**Atom:** rule
 
-```
-If you are wearing armor, you will not be able to grow your wings (unless you take some measure like having a hole in the back, etc.).
-```
+## Rules and exceptions
+
+- When the opponent's intelligence is low, you can only know their emotions and degree of hunger. (Sword World RPG - Complete Edition.pdf p.150-151)
+- Using these wings, the caster can fly freely in the sky. (Sword World RPG - Complete Edition.pdf p.151)

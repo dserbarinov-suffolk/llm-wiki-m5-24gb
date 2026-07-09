@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-vireo
 page_kind: concept
-summary: the vireo: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_13832b47e3c6e97d@70fe35048c65ebbb45a424df7f5cf242
+projection_coverage: page-projection-pgp_b18c52e65361d83c@0604a090a4e7e335e221eb3aa26bc996
 ---
 
 # the vireo
@@ -75,3 +75,9 @@ latin(first)
 latin(second)
 //=> "secundus"
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-backwardnes]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-lists-with-functions-as-data]] - contextualizes: source-supported topic dependency

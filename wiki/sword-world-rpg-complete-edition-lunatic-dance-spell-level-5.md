@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-lunatic-dance-spell-level-5
 page_kind: concept
-summary: [ Lunatic Dance ] (Spell Level=5): 5 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_3134cd30f455bb9d@30937b6bf04b6052b188d407dba5c49d
+projection_coverage: page-projection-pgp_f8cde27852aeac4d@5b2c08b17471f9c8877e775fd8a199fc
 ---
 
 # [ Lunatic Dance ] (Spell Level=5)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Instead, you must dance with complex gestures. (Sword World RPG - Complete Edition.pdf p.148)
 - This magic does not require the spell to be chanted. (Sword World RPG - Complete Edition.pdf p.148)
@@ -22,7 +22,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Those who see this dance and fail a resistance roll will go insane and begin dancing in response to the caster's dance. (Sword World RPG - Complete Edition.pdf p.148)
 - This magic can extend the amount of time the target remains insane after the dance ends, if the caster consumes extra mental power to expand the effect. (Sword World RPG - Complete Edition.pdf p.148)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -58,3 +58,13 @@ Effect=Causes 12 hours of madness to anyone who watches the dance
 ```
 Resist=Negated effect
 ```
+
+
+## Rules and exceptions
+
+- Instead, you must dance with complex gestures. (Sword World RPG - Complete Edition.pdf p.148)
+- This magic can extend the amount of time the target remains insane after the dance ends, if the caster consumes extra mental power to expand the effect. (Sword World RPG - Complete Edition.pdf p.148)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-lunatic-seed-spell-level-4]] - contextualizes: source-supported topic dependency

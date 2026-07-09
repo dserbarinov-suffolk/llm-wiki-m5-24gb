@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-const
 page_kind: concept
-summary: const: 11 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 26 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_97356ebb25f2546d@18a037041a65b28884bb548a11da98b5
+projection_coverage: page-projection-pgp_84bd6433da93714d@86ea9cae27cfc564df308ff4a4482d85
 ---
 
 # const
@@ -27,6 +27,12 @@ Source: [[javascriptallonge]]
 - A name that's bound to a function is a valid expression evaluating to a function. (javascriptallonge.pdf p.53)
 - Amazing how such an important idea-naming functions- can be explained en passant in just a few words. (javascriptallonge.pdf p.53)
 - 30 We're into the second chapter and we've finally named a function. (javascriptallonge.pdf p.53)
+
+## Rules
+
+- We'll learn a lot more about const in future chapters, but here's the most important thing we can do with const :. (javascriptallonge.pdf p.52)
+- We can bind any expression. (javascriptallonge.pdf p.53)
+- Amazing how such an important idea-naming functions- can be explained en passant in just a few words. (javascriptallonge.pdf p.53)
 
 ## Technical atoms
 
@@ -121,3 +127,9 @@ calc = (diameter) => diameter * PI;
 return "The circumference is " + calc(d)
 }
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-inside-out]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-nested-blocks]] - contextualizes: source-supported topic dependency

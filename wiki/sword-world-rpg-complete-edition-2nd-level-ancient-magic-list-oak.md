@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-2nd-level-ancient-magic-list-oak
 page_kind: concept
-summary: 2nd Level Ancient Magic List [ Oak ]: 27 accepted assertion(s) and 23 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 64 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_4131ab5bf5916a3a@8038a801a8a91db05844526f299cee44
+projection_coverage: page-projection-pgp_76b1c23123ddd7c3@f01849f3ac98517e8912b4230dd8ce2a
 ---
 
 # 2nd Level Ancient Magic List [ Oak ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - After the spell's duration expires, the oak will turn back into a branch. (Sword World RPG - Complete Edition.pdf p.70)
 - Oaks can only fight, and the caster must specify whom to attack. (Sword World RPG - Complete Edition.pdf p.70)
@@ -44,7 +44,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - At this time, sounds within the area of effect will not be heard at all from that location, and you will not be able to choose and transfer sounds. (Sword World RPG - Complete Edition.pdf p.71)
 - This spell can also be used within a more narrow area of effect, so you can just transfer your own words. (Sword World RPG - Complete Edition.pdf p.71)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -96,113 +96,122 @@ Resist=None
 ```
 
 <a id="atom-8"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-Anything that is not directly visible to the caster cannot be detected, even if it is hostile.
+Resist=Negated effect
 ```
 
 <a id="atom-9"></a>
 **Atom:** formula
 
 ```
-Resist=Negated effect
+Base Mental Power Cost=10
 ```
 
 <a id="atom-10"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=10
+Distance=10 meters
 ```
 
 <a id="atom-11"></a>
 **Atom:** formula
 
 ```
-Distance=10 meters
+Area=One weapon
 ```
 
 <a id="atom-12"></a>
 **Atom:** formula
 
 ```
-Area=One weapon
+Duration=18 rounds
 ```
 
 <a id="atom-13"></a>
 **Atom:** formula
 
 ```
-Duration=18 rounds
+Effect=Wraps a weapon in magical fire, adding +10 to strike power
 ```
 
 <a id="atom-14"></a>
 **Atom:** formula
 
 ```
-Effect=Wraps a weapon in magical fire, adding +10 to strike power
+Resist=None
 ```
 
 <a id="atom-15"></a>
 **Atom:** formula
 
 ```
-Resist=None
-```
-
-<a id="atom-16"></a>
-**Atom:** rule
-
-```
-If you apply it to a projectile such as a bow, you do not have to apply it to each individual arrow.
-```
-
-<a id="atom-17"></a>
-**Atom:** formula
-
-```
 Base Mental Power Cost=6
 ```
 
-<a id="atom-18"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Distance=30 meters
 ```
 
-<a id="atom-19"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Area=Space with a 1 meter radius
 ```
 
-<a id="atom-20"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Duration=18 rounds
 ```
 
-<a id="atom-21"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Effect=Sounds within the area of effect can be generated elsewhere
 ```
 
-<a id="atom-22"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Type=Illusion
 ```
 
-<a id="atom-23"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Resist=Negated effect
 ```
+
+
+## Rules and exceptions
+
+- Oaks can only fight, and the caster must specify whom to attack. (Sword World RPG - Complete Edition.pdf p.70)
+- Or otherwise, they can specify a location, and have the oak attack anyone invading that location. (Sword World RPG - Complete Edition.pdf p.70)
+- By casting this spell, the caster can learn of the presence of anything that has aggressive intentions towards them. (Sword World RPG - Complete Edition.pdf p.70)
+- However, this spell cannot significantly change the size or shape of your body. (Sword World RPG - Complete Edition.pdf p.70)
+- For monsters that are weak against fire, you can add an extra +10 bonus to strike power (+20 total). (Sword World RPG - Complete Edition.pdf p.70)
+- This spell can be used to damage monsters that only magic weapons are effective against. (Sword World RPG - Complete Edition.pdf p.70)
+- Monsters that can only be wounded by magic and are also immune to fire cannot be dealt damage by attacking them with a weapon that had this spell cast on it. (Sword World RPG - Complete Edition.pdf p.70)
+- This spell can also be cast directly on a living creature. (Sword World RPG - Complete Edition.pdf p.70)
+- Base Mental Power Cost=6 Distance=10 meters Area=One Duration=18 rounds Effect=You can control falling speed Type=Expansion=Duration, distance, targets Resist=None A target with this spell cast on them can fall at any speed they desire, ignoring their normal falling speed. (Sword World RPG - Complete Edition.pdf p.70-71)
+- The falling speed can be infinitely close to 0, but it cannot be completely 0, nor can it infinitely increase . (Sword World RPG - Complete Edition.pdf p.70-71)
+- Y ou also cannot fall faster than twice your normal falling speed. (Sword World RPG - Complete Edition.pdf p.70-71)
+- Also, if the target on whom the spell is cast has lost consciousness, is unconscious, or is an animate object and has no mind, the caster can instead control the target's falling speed. (Sword World RPG - Complete Edition.pdf p.71)
+- This spell can cause all sounds occurring in a space within a 1-meter radius around the caster to be generated elsewhere. (Sword World RPG - Complete Edition.pdf p.71)
+- This spell can also be used within a more narrow area of effect, so you can just transfer your own words. (Sword World RPG - Complete Edition.pdf p.71)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-ancient-magic-list]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-3rd-level-ancient-magic-list]] - contextualizes: source-supported topic dependency

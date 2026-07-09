@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-grapple
 page_kind: concept
-summary: Grapple: 21 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 32 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_fa1fe0538b39d3a5@741a6659d1d3695048c2e32ab352e0e0
+projection_coverage: page-projection-pgp_8a5b54ea8c2154d5@232a01e4525a34e718e29ff0d14a8511
 ---
 
 # Grapple
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - To attempt a grapple , you must first not be holding any large weapons or shields in your hands. (Sword World RPG - Complete Edition.pdf p.265)
 - Then, any attempt to grapple will automatically occur at the end of the round. (Sword World RPG - Complete Edition.pdf p.265)
@@ -38,23 +38,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - However, if your enemy is being strangled or pinned down , you can attack them. (Sword World RPG - Complete Edition.pdf p.266)
 - Please make a damage check immediately. (Sword World RPG - Complete Edition.pdf p.266)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-Anyone who attempts to grapple will suffer a -2 penalty to his or her attack power, then must make a hit check for their attack.
-```
-
-<a id="atom-2"></a>
-**Atom:** rule
-
-```
-Once you've entered a grapple, the only weapons you can use are daggers and garrotes (described below).
-```
-
-<a id="atom-3"></a>
 **Atom:** table
 
 ```text
@@ -75,30 +61,19 @@ Ancient magic, spirit magic,  and spellsongs cannot be used.
 5. Escape from Grapple
 ```
 
-<a id="atom-4"></a>
-**Atom:** rule
 
-```
-Those being strangled or pinned down cannot attempt to escape from a grapple unless they fi rst escape from those conditions.
-```
+## Rules and exceptions
 
-<a id="atom-5"></a>
-**Atom:** rule
+- To attempt a grapple , you must first not be holding any large weapons or shields in your hands. (Sword World RPG - Complete Edition.pdf p.265)
+- Large weapons must be kept out of hand. (Sword World RPG - Complete Edition.pdf p.266)
+- Actions that characters in a grapple can take are limited to the following. (Sword World RPG - Complete Edition.pdf p.266)
+- An opponent who is trying to maintain the grapple may counter this by making one using adventurer level + agility bonus or adventure level + strength bonus as the baseline score, whichever is greater. (Sword World RPG - Complete Edition.pdf p.266)
+- For adventurers who rely on weapons, this may pose a threat. (Sword World RPG - Complete Edition.pdf p.266)
+- Of course, a monster that does not have hands cannot strangle . (Sword World RPG - Complete Edition.pdf p.266)
+- If you roll 1~3, you can aim at your enemy. (Sword World RPG - Complete Edition.pdf p.266)
+- However, if your enemy is being strangled or pinned down , you can attack them. (Sword World RPG - Complete Edition.pdf p.266)
 
-```
-When attacking a target who is grappling from outside with a melee weapon, roll 1D.
-```
+## Related pages
 
-<a id="atom-6"></a>
-**Atom:** rule
-
-```
-If you roll 4~5, you cannot attack.
-```
-
-<a id="atom-7"></a>
-**Atom:** rule
-
-```
-When attacking a grappler with a projectile or casting (shooting-type) single-target magic, you must decide who your target will be completely at random .
-```
+- [[sword-world-rpg-complete-edition-mow-down]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-ram]] - contextualizes: source-supported topic dependency

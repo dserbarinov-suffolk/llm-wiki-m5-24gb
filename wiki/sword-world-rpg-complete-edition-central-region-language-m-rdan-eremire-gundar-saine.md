@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-central-region-language-m-rdan-eremire-gundar-saine
 page_kind: concept
-summary: Central Region (Language = Mārdan/Eremire Gundar/Saine): 12 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_0bd8680c3450bf19@e9fcc18c91b121e71050b72264131ee4
+projection_coverage: page-projection-pgp_17e0003ee5ccac66@c5f7fccd561dc9bd77f38a77842980d2
 ---
 
 # Central Region (Language = Mārdan/Eremire Gundar/Saine)
@@ -28,3 +28,8 @@ Source: [[sword-world-rpg-complete-edition]]
 - These assassins, skilled in spirit magic abilities, are greatly feared. (Sword World RPG - Complete Edition.pdf p.286)
 - They are known for their extreme secrecy and rarely reveal their true nature or beliefs (they appear to worship their own deities). (Sword World RPG - Complete Edition.pdf p.286)
 - They have been known to send assassins after those who try to forcefully uncover their secrets or who accidentally witness important rituals. (Sword World RPG - Complete Edition.pdf p.286)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-oran-language-eastern-m-rdan]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-northern-central-region-language-western-gundar]] - contextualizes: source-supported topic dependency

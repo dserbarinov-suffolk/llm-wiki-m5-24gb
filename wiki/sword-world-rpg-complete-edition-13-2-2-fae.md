@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-13-2-2-fae
 page_kind: concept
-summary: 13.2.2 Fae: 57 accepted assertion(s) and 11 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 74 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_2cea294beb0d5bf5@2a3db502102cc1114c924ee7d310f4e2
+projection_coverage: page-projection-pgp_70651178d2085f0a@529fee77fbf588cc5c2b0325038e0612
 ---
 
 # 13.2.2 Fae
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - [ Fairy ] Monster Level=1 Rarity=11 Agility=18 Movement Speed =9/10 (air) Number=Several Frequency=Rare Intellect=Human Reaction=Friendly to neutral Attack Points=Weapon: 8 (1) Strike Points=3 Evasion Points=10 (3) Defense Points=3 Life Points/Resistance=10/8 (1) Mental Points/Resistance=18/10 (3) Special Abilities=3rd level spirit magic (Magic Intensity/Magic Power=12/5) Habitat=Uncertain Languages=Fairy, silent spirit Perception=Five senses (infravision). (Sword World RPG - Complete Edition.pdf p.176)
 - Stories are often told of humans who inadvertently wandered into the fairy world from these places. (Sword World RPG - Complete Edition.pdf p.176)
@@ -74,13 +74,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - For this reason, some sages argue that imps are not youma at all, but were originally underworld creatures. (Sword World RPG - Complete Edition.pdf p.178)
 - Monster Level=1 Rarity=6 Agility=14 Movement Speed =8 Number=Several to dozens Frequency=Frequent. (Sword World RPG - Complete Edition.pdf p.178)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-Combat is unlikely to occur, but when it does, pixies can use up to 2nd level spirit magic.
+Perception=Five senses (infravision)
 ```
 
 <a id="atom-2"></a>
@@ -91,64 +91,53 @@ Perception=Five senses (infravision)
 ```
 
 <a id="atom-3"></a>
-**Atom:** rule
-
-```
-While transformed, they can use all of the animal's physical abilities and can also speak.
-```
-
-<a id="atom-4"></a>
-**Atom:** formula
-
-```
-Perception=Five senses (infravision)
-```
-
-<a id="atom-5"></a>
-**Atom:** rule
-
-```
-They cannot wear heavy armor, only soft leather at most.
-```
-
-<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 Special Abilities=4th level spirit magic (Magic Intensity/Magic Power=13/6, water spirits only)
 ```
 
-<a id="atom-7"></a>
+<a id="atom-4"></a>
 **Atom:** formula
 
 ```
 Habitat=Seas
 ```
 
-<a id="atom-8"></a>
-**Atom:** rule
-
-```
-Mermaid shamans can use spirit magic up to 4th level, which is powered by water spirits (undine).
-```
-
-<a id="atom-9"></a>
+<a id="atom-5"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (illumination)
 ```
 
-<a id="atom-10"></a>
+<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-11"></a>
+<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 Intellect=Low
 ```
+
+
+## Rules and exceptions
+
+- They may carry items such as silver daggers, etc. (Sword World RPG - Complete Edition.pdf p.176)
+- However, they cannot transform into very large animals such as bears, wolves, etc. (Sword World RPG - Complete Edition.pdf p.176)
+- They can use spirit magic. (Sword World RPG - Complete Edition.pdf p.176)
+- Featherfolk resemble humans, but have bird wings growing from their shoulders, allowing them to fly. (Sword World RPG - Complete Edition.pdf p.177)
+- Mermen are a species that breathes underwater and cannot breathe on land. (Sword World RPG - Complete Edition.pdf p.177)
+- They can only act on land for up to their life points rounds (14 rounds), after which they will suffocate. (Sword World RPG - Complete Edition.pdf p.177)
+- Anyone who suffers damage from an imp's attack must attempt a life force resistance roll. (Sword World RPG - Complete Edition.pdf p.178)
+- They may use 1st level dark magic, and may also be the familiars of evil sorcerers (many of whom also have the dark priest skill). (Sword World RPG - Complete Edition.pdf p.178)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-how-to-read-the-monster-catalog]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-youma]] - contextualizes: source-supported topic dependency

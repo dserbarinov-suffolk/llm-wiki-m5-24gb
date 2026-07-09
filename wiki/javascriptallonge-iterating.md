@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-iterating
 page_kind: concept
-summary: iterating: 9 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 20 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_13dac0a2d89757f7@ad4e44b1ec7b42b92c86f16993e06e28
+projection_coverage: page-projection-pgp_8e7fdb98655f38e8@c43bf37e4a07c37e2f583bcc939b7bf8
 ---
 
 # iterating
@@ -24,6 +24,13 @@ Source: [[javascriptallonge]]
 - We can put those into a POJO (a Plain Old JavaScript Object). (javascriptallonge.pdf p.169)
 - The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. (javascriptallonge.pdf p.171)
 - Now this is something else. (javascriptallonge.pdf p.171)
+- We can write a different iterator for a different data structure. (javascriptallonge.pdf p.171)
+
+## Rules
+
+- Folding is a universal operation, and with care we can accomplish any task with folds that could be accomplished with that stalwart of structured programming, the for loop. (javascriptallonge.pdf p.169)
+- We can put those into a POJO (a Plain Old JavaScript Object). (javascriptallonge.pdf p.169)
+- The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. (javascriptallonge.pdf p.171)
 - We can write a different iterator for a different data structure. (javascriptallonge.pdf p.171)
 
 ## Technical atoms
@@ -160,3 +167,8 @@ const aListIterator = listIterator(list(1, 4, 9, 16, 25));
 iteratorSum(aListIterator)
 //=> 55
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-unfolding-and-laziness]] - contextualizes: source-supported topic dependency

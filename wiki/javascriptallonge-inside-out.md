@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-inside-out
 page_kind: concept
-summary: inside-out: 11 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 21 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_4798dd76cc0ac53e@539b98ba2b7f71be9683de6d8ac3e685
+projection_coverage: page-projection-pgp_b56b2c2bd456d64a@9d9ac103e8ce04c8521cd488fb7e1890
 ---
 
 # inside-out
@@ -27,6 +27,12 @@ Source: [[javascriptallonge]]
 - Well, the wrinkle with this is that typically, invoking functions is considerably more expensive than evaluating expressions. (javascriptallonge.pdf p.51)
 - But then we've obfuscated our code, and we don't want to do that unless we absolutely have to. (javascriptallonge.pdf p.51)
 - What would be very nice is if the language gave us a way to bind names inside of blocks without incurring the cost of a function invocation. (javascriptallonge.pdf p.51)
+
+## Rules
+
+- There's another way we can make a function that binds 3.14159265 to the name PI and then uses that in its expression. (javascriptallonge.pdf p.50)
+- That's how it should be, naming PI is its concern, not ours. (javascriptallonge.pdf p.51)
+- But then we've obfuscated our code, and we don't want to do that unless we absolutely have to. (javascriptallonge.pdf p.51)
 
 ## Technical atoms
 
@@ -89,3 +95,8 @@ diameter * PI)(3.14159265)
 (diameter) => diameter * PI
 )(3.14159265)
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-const]] - contextualizes: source-supported topic dependency

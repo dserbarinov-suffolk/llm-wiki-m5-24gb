@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-age-of-mythology
 page_kind: concept
-summary: Age of Mythology: 17 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 18 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_21d9e31cc84d5c5a@db1bf93ef306d229120817fd903c5205
+projection_coverage: page-projection-pgp_adb317c22d616927@0130ade33d7adf7b26cb6bab82c57d2f
 ---
 
 # Age of Mythology
@@ -33,3 +33,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - It is said to have begun with minor differences among the gods. (Sword World RPG - Complete Edition.pdf p.281)
 - As a result, the gods lost their physical forms and their means to directly intervene in the material world, becoming purely mental entities or forces. (Sword World RPG - Complete Edition.pdf p.281)
 - But these differences bred small conflicts, which evolved into great wars. (Sword World RPG - Complete Edition.pdf p.281)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-age-of-magic-the-kingdom-of-kastuul]] - contextualizes: source-supported topic dependency

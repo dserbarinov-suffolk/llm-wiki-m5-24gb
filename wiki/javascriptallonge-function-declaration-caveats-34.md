@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-function-declaration-caveats-34
 page_kind: concept
-summary: function declaration caveats 34: 7 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_5bb386ecb5d39b85@3fe336e51cefc02e87da70610c981939
+projection_coverage: page-projection-pgp_b832d27920abef6d@17ba27c0718164684d5db3329492ba5e
 ---
 
 # function declaration caveats 34
@@ -23,6 +23,11 @@ Source: [[javascriptallonge]]
 - The big trouble with expressions like this is that they may work just fine in your test environment but work a different way in production. (javascriptallonge.pdf p.67)
 - Another caveat is that a function declaration cannot exist inside of any expression, otherwise it's a function expression. (javascriptallonge.pdf p.67)
 - The parentheses make this an expression, not a function declaration. (javascriptallonge.pdf p.67)
+
+## Rules
+
+- The big trouble with expressions like this is that they may work just fine in your test environment but work a different way in production. (javascriptallonge.pdf p.67)
+- Another caveat is that a function declaration cannot exist inside of any expression, otherwise it's a function expression. (javascriptallonge.pdf p.67)
 
 ## Technical atoms
 
@@ -61,3 +66,8 @@ function trueDat () { return true }
 But this is not:
 (function trueDat () { return true })
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-function-declarations]] - contextualizes: source-supported topic dependency

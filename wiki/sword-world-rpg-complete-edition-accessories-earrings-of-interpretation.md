@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-accessories-earrings-of-interpretation
 page_kind: concept
-summary: 《 Accessories 》 [ Earrings of Interpretation ]: 45 accepted assertion(s) and 47 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 96 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_9828314108debf98@44037bedcbe89ee1004bf66f623be8e0
+projection_coverage: page-projection-pgp_f17b46575807375c@998f4eda4dc249f29471d43b896df0b1
 ---
 
 # 《 Accessories 》 [ Earrings of Interpretation ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - By wearing these earrings, you can understand the contents of conversations in languages you do not know. (Sword World RPG - Complete Edition.pdf p.248)
 - However, you can only understand conversations you hear through the earrings, you cannot speak, read or write that language. (Sword World RPG - Complete Edition.pdf p.248)
@@ -62,7 +62,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Rarity=13 Enchanter=Many Form =Spherical polished yellow crystal Base Trade Price=1800 gamels Powers=Has the same effect as Lightning when thrown. (Sword World RPG - Complete Edition.pdf p.250)
 - Its magic power is 3 and breaks after one use. (Sword World RPG - Complete Edition.pdf p.250)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -114,122 +114,122 @@ Powers=Can shapeshift into a small animal.
 ```
 
 <a id="atom-8"></a>
-**Atom:** rule
-
-```
-When wearing these earrings and focusing your thoughts, you can transform into small animals such as mice or birds.
-```
-
-<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Powers=Sucks in an object
 ```
 
-<a id="atom-10"></a>
-**Atom:** rule
-
-```
-While the object is absorbed, if you speak the password again, you can retrieve the object.
-```
-
-<a id="atom-11"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-12"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Form=Necklace adorned with bluish diamonds
 ```
 
-<a id="atom-13"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Powers=Makes one target believe what the wearer believes.
 ```
 
-<a id="atom-14"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-15"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Rarity=15
 ```
 
-<a id="atom-16"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Enchanter=Many
 ```
 
-<a id="atom-17"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Form=Amulet
 ```
 
-<a id="atom-18"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Powers=+1 to effect checks against undead
 ```
 
-<a id="atom-19"></a>
-**Atom:** rule
-
-```
-If the person wearing this amulet uses the holy magic Turn Undead or the spellsong Requiem, they can add +1 to a 2D roll when making an effect check against undead (if the roll is 12, treat it as 12).
-```
-
-<a id="atom-20"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-21"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Enchanter=Many
 ```
 
-<a id="atom-22"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Powers=The wearers can talk to each other over a far distance.
 ```
 
-<a id="atom-23"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Rarity=13
 ```
 
-<a id="atom-24"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Form=A stone similar to topaz that emits a bluish-white light from inside
+```
+
+<a id="atom-22"></a>
+**Atom:** formula
+
+```
+Enchanter=Many
+```
+
+<a id="atom-23"></a>
+**Atom:** formula
+
+```
+Base Trade Price=Stored mental points x mental points x 100 gamels
+```
+
+<a id="atom-24"></a>
+**Atom:** formula
+
+```
+Rarity=13
 ```
 
 <a id="atom-25"></a>
@@ -243,21 +243,21 @@ Enchanter=Many
 **Atom:** formula
 
 ```
-Base Trade Price=Stored mental points x mental points x 100 gamels
+Form=Spherical polished blue crystal
 ```
 
 <a id="atom-27"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-Normally, this stone stores 2D+10 mental points, and a rune master can use magic by consuming these mental points instead of their own mental power.
+Base Trade Price=Remaining absorption points x 480 gamels
 ```
 
 <a id="atom-28"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-In this case, adventurers can purchase these stones if they have enough money.
+Powers=Absorbs 10 points of fire damage
 ```
 
 <a id="atom-29"></a>
@@ -278,21 +278,21 @@ Enchanter=Many
 **Atom:** formula
 
 ```
-Form=Spherical polished blue crystal
+Form=Spherical polished purple crystal
 ```
 
 <a id="atom-32"></a>
 **Atom:** formula
 
 ```
-Base Trade Price=Remaining absorption points x 480 gamels
+Base Trade Price=Remaining number of uses x 800 gamels
 ```
 
 <a id="atom-33"></a>
 **Atom:** formula
 
 ```
-Powers=Absorbs 10 points of fire damage
+Powers=Can blow wind up to a speed of 10m in any direction
 ```
 
 <a id="atom-34"></a>
@@ -313,82 +313,60 @@ Enchanter=Many
 **Atom:** formula
 
 ```
-Form=Spherical polished purple crystal
+Form=Spherical polished rose-colored crystal
 ```
 
 <a id="atom-37"></a>
 **Atom:** formula
 
 ```
-Base Trade Price=Remaining number of uses x 800 gamels
+Powers=Has the same effect as Fireball when thrown
 ```
 
 <a id="atom-38"></a>
 **Atom:** formula
 
 ```
-Powers=Can blow wind up to a speed of 10m in any direction
+Rarity=13
 ```
 
 <a id="atom-39"></a>
 **Atom:** formula
 
 ```
-Rarity=13
+Enchanter=Many
 ```
 
 <a id="atom-40"></a>
 **Atom:** formula
 
 ```
-Enchanter=Many
+Form=Spherical polished rainbow-colored crystal
 ```
 
 <a id="atom-41"></a>
 **Atom:** formula
 
 ```
-Form=Spherical polished rose-colored crystal
+Base Trade Price=Remaining number of uses x 120 gamels
 ```
 
 <a id="atom-42"></a>
 **Atom:** formula
 
 ```
-Powers=Has the same effect as Fireball when thrown
-```
-
-<a id="atom-43"></a>
-**Atom:** formula
-
-```
-Rarity=13
-```
-
-<a id="atom-44"></a>
-**Atom:** formula
-
-```
-Enchanter=Many
-```
-
-<a id="atom-45"></a>
-**Atom:** formula
-
-```
-Form=Spherical polished rainbow-colored crystal
-```
-
-<a id="atom-46"></a>
-**Atom:** formula
-
-```
-Base Trade Price=Remaining number of uses x 120 gamels
-```
-
-<a id="atom-47"></a>
-**Atom:** formula
-
-```
 Powers=Casts a Light spell
 ```
+
+
+## Rules and exceptions
+
+- By wearing these earrings, you can understand the contents of conversations in languages you do not know. (Sword World RPG - Complete Edition.pdf p.248)
+- However, you can only understand conversations you hear through the earrings, you cannot speak, read or write that language. (Sword World RPG - Complete Edition.pdf p.248)
+- This bracelet cannot absorb more than one object at a time, and it cannot absorb anything that exceeds 50 centimeters in length in any dimension. (Sword World RPG - Complete Edition.pdf p.249)
+- However, it cannot reduce the fatigue and other effects that come with staying awake for long periods. (Sword World RPG - Complete Edition.pdf p.249)
+- The effect cannot manifest on more than one target at a time. (Sword World RPG - Complete Edition.pdf p.249)
+- In other words, at least two amulets are required to make a call. (Sword World RPG - Complete Edition.pdf p.249)
+- It can also be used as a substitute for mental power when using common runes. (Sword World RPG - Complete Edition.pdf p.249)
+- However, only one stone can be used at a time, and it cannot be used simultaneously with the caster's own mental power. (Sword World RPG - Complete Edition.pdf p.249)
+- The game master may decide that these are widely traded at the academy of sages. (Sword World RPG - Complete Edition.pdf p.249)

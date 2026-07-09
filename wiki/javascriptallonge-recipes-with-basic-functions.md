@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-recipes-with-basic-functions
 page_kind: concept
-summary: Recipes with Basic Functions: 2 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_af85029b2c24d177@04d2125e2986e97e28df54b772cdd3d6
+projection_coverage: page-projection-pgp_7675234ba060a0f6@04d2125e2986e97e28df54b772cdd3d6
 ---
 
 # Recipes with Basic Functions

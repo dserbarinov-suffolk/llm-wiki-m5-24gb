@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-currency
 page_kind: concept
-summary: Currency: 63 accepted assertion(s) and 29 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 94 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_f4cb3a0d85149e70@67fce3f1f63fd75a7a8231ee39d145ac
+projection_coverage: page-projection-pgp_6304b7c869124426@d5c3cabc5e2ecf93002c46ffee2cfc0e
 ---
 
 # Currency
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - However, this method made it difficult for commerce to develop, and fraud using cheaper metals that resembled gold and silver was common. (Sword World RPG - Complete Edition.pdf p.289)
 - The main currency of the Alecrast continent is a silver coin called the "gamel." This silver coin was invented by Count Gamel, who was a minister of the now-extinct Moraana Kingdom. (Sword World RPG - Complete Edition.pdf p.289)
@@ -80,7 +80,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - However, if alternative senses (smell, hearing, etc.) are developed to some extent. (Sword World RPG - Complete Edition.pdf p.304)
 - This is a free, unofficial, fan-based translation. (Sword World RPG - Complete Edition.pdf p.310)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -363,27 +363,6 @@ Table 9-1: Determining Target Scores or Difficulties
 ```
 
 <a id="atom-15"></a>
-**Atom:** rule
-
-```
-If you have the skill, you can expect success.
-```
-
-<a id="atom-16"></a>
-**Atom:** rule
-
-```
-If you're a pro in that field, you can expect success, but you should expect to fail if you're just dabbling.
-```
-
-<a id="atom-17"></a>
-**Atom:** rule
-
-```
-If you're a master, you'll never fail, but if you're a pro, success is 50-50.
-```
-
-<a id="atom-18"></a>
 **Atom:** table
 
 ```text
@@ -393,7 +372,7 @@ Table 9-2: Success Roll Modifiers
  Slightly disadvantageous situation                                   -1
 ```
 
-<a id="atom-19"></a>
+<a id="atom-16"></a>
 **Atom:** table
 
 ```text
@@ -402,14 +381,7 @@ Table 10-1: Attack Power and Evasion Speed Modifiers
  Can’t see opponent (in the dark, invisible enemy, etc.)                         -4
 ```
 
-<a id="atom-20"></a>
-**Atom:** rule
-
-```
-If you don't have to rely on vision
-```
-
-<a id="atom-21"></a>
+<a id="atom-17"></a>
 **Atom:** table
 
 ```text
@@ -421,7 +393,7 @@ Table 10-2: Surprise Attack Check
 | High |  |  |  |  | -3 | +9 |
 ```
 
-<a id="atom-22"></a>
+<a id="atom-18"></a>
 **Atom:** table
 
 ```text
@@ -433,7 +405,7 @@ Table 11-2: NPC Presence by Level
 | 1st | level | All | but the | most |  | remote | village |  |  |  |  |  |  |  |
 ```
 
-<a id="atom-23"></a>
+<a id="atom-19"></a>
 **Atom:** table
 
 ```text
@@ -447,7 +419,7 @@ Table 16-3 Optional Armor Table
 |  | Plate Armor | -1 | +5 |  | Yes | Yes |
 ```
 
-<a id="atom-24"></a>
+<a id="atom-20"></a>
 **Atom:** table
 
 ```text
@@ -471,7 +443,7 @@ Table 16-4 Maximum Ranges Table
 | Dart | 20 |  |  |  |  |  |  |  |  |
 ```
 
-<a id="atom-25"></a>
+<a id="atom-21"></a>
 **Atom:** table
 
 ```text
@@ -484,21 +456,7 @@ Table 18-1: Age-Based Ability Score Modification Table
 | 13 | – | 14 | All | ability | scores | reduced | by | 5/6 |
 ```
 
-<a id="atom-26"></a>
-**Atom:** rule
-
-```
-All ability scores reduced to 2/6, except intelligence and mental power remain the same
-```
-
-<a id="atom-27"></a>
-**Atom:** rule
-
-```
-All ability scores reduced to 1/6, except intelligence and mental power remain the same
-```
-
-<a id="atom-28"></a>
+<a id="atom-22"></a>
 **Atom:** table
 
 ```text
@@ -512,7 +470,7 @@ Table 18-2 Types of Magic
 | Earthquake | Crack, Earthquake |  |  |
 ```
 
-<a id="atom-29"></a>
+<a id="atom-23"></a>
 **Atom:** table
 
 ```text
@@ -739,3 +697,15 @@ Key Number
 12 13 13 13 14 14 14 14 15 15 15 15
 [Reprint Edition] Sword World RPG Complete Edition
 ```
+
+
+## Rules and exceptions
+
+- While production may occur in other countries, it is customary in all nations to include Count Gamel's relief on the silver coins. (Sword World RPG - Complete Edition.pdf p.289)
+- When we first announced Sword World RPG, tabletop RPGs themselves were still a novel concept that hadn't really taken root, and even we weren't sure how far we could take it. (Sword World RPG - Complete Edition.pdf p.292)
+- Adding to that the wealth of data accumulated over these 8 years, this game should have become even more enjoyable and interesting. (Sword World RPG - Complete Edition.pdf p.293)
+- Even amateurs can be successful. (Sword World RPG - Complete Edition.pdf p.304)
+- Amateurs should stay away from it. (Sword World RPG - Complete Edition.pdf p.304)
+- Even pros can fail due to a little bad luck. (Sword World RPG - Complete Edition.pdf p.304)
+- Even a master cannot guarantee success. (Sword World RPG - Complete Edition.pdf p.304)
+- You can 't blame a master even if they fail. (Sword World RPG - Complete Edition.pdf p.304)

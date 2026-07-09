@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-what-you-ll-need-to-play-sword-world-rpg
 page_kind: concept
-summary: What You'll Need to Play Sword World RPG: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 20 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_d6affd3ba406e93a@12a10ae012f97ad847ac65ecbced6195
+projection_coverage: page-projection-pgp_cbaa73c7ca1ff47b@dc47e496a3c1fc930ab55b81b0ae75e3
 ---
 
 # What You'll Need to Play Sword World RPG
@@ -29,6 +29,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - From here on in this book, rolling dice will be referred to as rolling 1D or rolling 2D . (Sword World RPG - Complete Edition.pdf p.7)
 - If division results in a fraction, the fraction is either rounded up or rounded down. (Sword World RPG - Complete Edition.pdf p.7)
 - Which one is clearly stated for each situation. (Sword World RPG - Complete Edition.pdf p.7)
+- However, if it's not mentioned , the fraction should always be rounded up. (Sword World RPG - Complete Edition.pdf p.7)
+- Due to the nature of the game, there are situations in Sword World RPG where math calculations must be made. (Sword World RPG - Complete Edition.pdf p.7)
+
+## Rules
+
+- Along with pens and pencils, you must not forget the dice. (Sword World RPG - Complete Edition.pdf p.7)
 - However, if it's not mentioned , the fraction should always be rounded up. (Sword World RPG - Complete Edition.pdf p.7)
 - Due to the nature of the game, there are situations in Sword World RPG where math calculations must be made. (Sword World RPG - Complete Edition.pdf p.7)
 

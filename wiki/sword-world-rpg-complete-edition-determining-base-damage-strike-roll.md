@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-determining-base-damage-strike-roll
 page_kind: concept
-summary: Determining Base Damage (Strike Roll): 22 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 33 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_63beaf78ae77e491@246b019ec7ca6bdc0b66ec540bc67f77
+projection_coverage: page-projection-pgp_6261a151ee30d8b3@9ee6d96408de3a356faf2aaf1a9aa8aa
 ---
 
 # Determining Base Damage (Strike Roll)
@@ -38,6 +38,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - The number on row 12 is 8 , so we'll make a note of the 8 and roll a third time. (Sword World RPG - Complete Edition.pdf p.45)
 - This did not reach the critical target, so the base damage check ends here. (Sword World RPG - Complete Edition.pdf p.45)
 - If the third roll were a 2 (double ones), the base damage would instead be 6+8+0= 14 . (Sword World RPG - Complete Edition.pdf p.45)
+
+## Rules
+
+- Maybe it hit the hardest part of their armor, or maybe it only hit the hilt of a spear or ax, but no damage was dealt. (Sword World RPG - Complete Edition.pdf p.45)
+- This process can continue as long as you keep rolling greater than or equal to the critical target. (Sword World RPG - Complete Edition.pdf p.45)
+- In theory, this could deal an infinite amount of damage. (Sword World RPG - Complete Edition.pdf p.45)
 
 ## Technical atoms
 
@@ -82,3 +88,9 @@ If the second 2D roll is also greater than or equal to the critical target, you 
 ```
 If a critical occurs, but you roll double ones on the second and subsequent damage checks, 0 is added to the previous result (i.e., the previous result remains the same ), and the base damage check will end.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-4-5-1-hit-checks]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-4-5-3-bonus-damage]] - contextualizes: source-supported topic dependency

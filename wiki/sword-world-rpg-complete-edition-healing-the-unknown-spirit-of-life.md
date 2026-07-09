@@ -1,25 +1,25 @@
 ---
 page_id: sword-world-rpg-complete-edition-healing-the-unknown-spirit-of-life
 page_kind: concept
-summary: [ Healing ] (The Unknown Spirit of Life): 2 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_30b75f1c543f34ec@f763c9cdeb7c67c463b4da1c3e2062cc
+projection_coverage: page-projection-pgp_fb179b2fa6c37519@63fcf563c6029a4f31257dcc295b0017
 ---
 
 # [ Healing ] (The Unknown Spirit of Life)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Undead that fail to resist this spell will immediately have their life points become 0 and cease all activity. (Sword World RPG - Complete Edition.pdf p.88)
 - This spell can deal damage to undead. (Sword World RPG - Complete Edition.pdf p.88)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -56,9 +56,12 @@ Duration=Instant
 Resist=Negated effect
 ```
 
-<a id="atom-6"></a>
-**Atom:** rule
 
-```
-When you cast this spell, it can completely heal any wound instantly, but it cannot regenerate a severed arm or leg.
-```
+## Rules and exceptions
+
+- This spell can deal damage to undead. (Sword World RPG - Complete Edition.pdf p.88)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-binding-dryad-plant-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-mute-sylph-wind-spirit]] - contextualizes: source-supported topic dependency

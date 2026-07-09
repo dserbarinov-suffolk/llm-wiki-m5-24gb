@@ -1,26 +1,26 @@
 ---
 page_id: sword-world-rpg-complete-edition-target-scores
 page_kind: concept
-summary: Target Scores: 3 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_18e02e03dbd2f7ad@51d0faf9c1f6e292219f9c29ce88a7fc
+projection_coverage: page-projection-pgp_a6f3ae32a2d48702@9073402c2cb01d0a9b195d6177dd327e
 ---
 
 # Target Scores
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Once the baseline score and target score are determined, a success roll check can finally be made. (Sword World RPG - Complete Edition.pdf p.30)
 - The result is called the fi nal score . (Sword World RPG - Complete Edition.pdf p.30)
 - This final score should be equal to or greater than the target score. (Sword World RPG - Complete Edition.pdf p.30)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -34,15 +34,19 @@ The baseline score is  a number that represents a character's ability. However, 
 ```
 
 <a id="atom-2"></a>
-**Atom:** rule
-
-```
-The player must roll two dice and add their baseline score to the roll.
-```
-
-<a id="atom-3"></a>
 **Atom:** formula
 
 ```
 final score (baseline score + 2D) ≥ target score → action is successful
 ```
+
+
+## Rules and exceptions
+
+- Once the baseline score and target score are determined, a success roll check can finally be made. (Sword World RPG - Complete Edition.pdf p.30)
+- This final score should be equal to or greater than the target score. (Sword World RPG - Complete Edition.pdf p.30)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-baseline-scores]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-check]] - contextualizes: source-supported topic dependency

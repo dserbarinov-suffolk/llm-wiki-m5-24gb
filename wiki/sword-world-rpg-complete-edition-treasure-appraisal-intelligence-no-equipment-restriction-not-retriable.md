@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-treasure-appraisal-intelligence-no-equipment-restriction-not-retriable
 page_kind: concept
-summary: [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable): 10 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 16 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_2e47432bd00e309c@e9573e7df07f0cfad7386e20e1422671
+projection_coverage: page-projection-pgp_e090c53eb6cc1f7b@98d2ec56cd9edf0c03160b0508e9eaa6
 ---
 
 # [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable)
@@ -27,6 +27,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - For sense , make the difficulty the same as fi nd , but impose a -4 modifier on the player side. (Sword World RPG - Complete Edition.pdf p.115)
 - Sense is the ability to sense the presence of a trap based on past experience and knowledge without actively taking any action. (Sword World RPG - Complete Edition.pdf p.115)
 
+## Rules
+
+- This can also be used to judge whether someone is rich or not based on their attire, demeanor, and how much their purse bulges. (Sword World RPG - Complete Edition.pdf p.115)
+- The game master should set the target score each time. (Sword World RPG - Complete Edition.pdf p.115)
+- In the case of a success, please accurately tell them of the presence of the trap and the difficulty to disarm it, and in the case of a failure, or if a trap is not present in the first place, make sure to tell them that it cannot be found. (Sword World RPG - Complete Edition.pdf p.115)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -42,3 +48,8 @@ If you take your time, you can determine specific prices for items such as jewel
 ```
 If successful, the presence of a trap will be sensed at a perilous point, and the game master must inform the player of the type of trap.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-long-jump-high-jump-agility-equipment-restriction]] - contextualizes: source-supported topic dependency

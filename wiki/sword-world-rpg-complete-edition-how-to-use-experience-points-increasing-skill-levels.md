@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-how-to-use-experience-points-increasing-skill-levels
 page_kind: concept
-summary: How to Use Experience Points: Increasing Skill Levels: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 23 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_e922c238d3b0c295@f71124a22a9a56b8a55128ccf2702b1e
+projection_coverage: page-projection-pgp_a1e745703f916292@52dc77fbb8e9574982fa43bfb99005be
 ---
 
 # How to Use Experience Points: Increasing Skill Levels
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - At the end of an adventure, characters gain experience points. (Sword World RPG - Complete Edition.pdf p.130)
 - By spending these experience points, a character can increase their skill level-you pay experience points to buy skill levels. (Sword World RPG - Complete Edition.pdf p.130)
@@ -32,16 +32,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - Experience points cannot be negative. (Sword World RPG - Complete Edition.pdf p.130)
 - This is because you can't grow from experiences you haven't had. (Sword World RPG - Complete Edition.pdf p.130)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-If he gains 5000 experience points again on his next adventure, he can now use his 5500 experience points to advance.
-```
-
-<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -53,3 +46,14 @@ Table 8-1: Experience Points by Skill
                                                              Shaman       Thief
  pursues his abilities as a ranger and raises    Attained Level  Sorcerer                           Sage     Sorcerer &
 ```
+
+
+## Rules and exceptions
+
+- By spending these experience points, a character can increase their skill level-you pay experience points to buy skill levels. (Sword World RPG - Complete Edition.pdf p.130)
+- However, in any case, a character's skill level can only reach 10th level. (Sword World RPG - Complete Edition.pdf p.130)
+- Any remaining experience points can be carried over and used in addition to the experience points earned on the next adventure. (Sword World RPG - Complete Edition.pdf p.130)
+- It may seem strange to carry over experience , but think of it as cutting off the adventurer's growth by the amount of experience points carried over for now. (Sword World RPG - Complete Edition.pdf p.130)
+- You also cannot sell your skill levels for experience points. (Sword World RPG - Complete Edition.pdf p.130)
+- Experience points cannot be negative. (Sword World RPG - Complete Edition.pdf p.130)
+- This is because you can't grow from experiences you haven't had. (Sword World RPG - Complete Edition.pdf p.130)

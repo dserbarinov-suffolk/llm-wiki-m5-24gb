@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-double-sixes-and-double-ones
 page_kind: concept
-summary: Double Sixes and Double Ones: 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_e621b38741811797@85a84a113ff448bcd1c2a6462a842e30
+projection_coverage: page-projection-pgp_44dd29057bbae509@df0c1adfbfb92f9ee00c23c9c3d77fb7
 ---
 
 # Double Sixes and Double Ones
@@ -40,3 +40,9 @@ The defender doesn't even have to roll the dice.
 ```
 If the defender's roll is double sixes , the attack will always fail.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-4-7-1-hit-checks]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-4-7-2-damage-checks]] - contextualizes: source-supported topic dependency

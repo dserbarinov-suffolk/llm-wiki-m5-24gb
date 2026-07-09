@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-defaults-and-destructuring
 page_kind: concept
-summary: defaults and destructuring: 2 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_08b19691583a480a@ae04c4efb98815b4e4c69ebd1ba0d392
+projection_coverage: page-projection-pgp_20d67b664b4699ee@38270d748a79fdbde6188289aa17b87b
 ---
 
 # defaults and destructuring
@@ -15,6 +15,11 @@ projection_coverage: topic-state-tps_08b19691583a480a@ae04c4efb98815b4e4c69ebd1b
 Source: [[javascriptallonge]]
 
 ## Statements
+
+- Now we learn that we can create a default parameter argument. (javascriptallonge.pdf p.124)
+- How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters. (javascriptallonge.pdf p.125)
+
+## Rules
 
 - Now we learn that we can create a default parameter argument. (javascriptallonge.pdf p.124)
 - How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters. (javascriptallonge.pdf p.125)
@@ -32,3 +37,8 @@ const [first, second = "two"] = ["primus", "secundus"];
 `${first} . ${second}`
 //=> "primus . secundus"
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-default-arguments]] - contextualizes: source-supported topic dependency

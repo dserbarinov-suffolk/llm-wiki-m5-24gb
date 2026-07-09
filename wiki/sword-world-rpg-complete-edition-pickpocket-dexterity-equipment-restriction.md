@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-pickpocket-dexterity-equipment-restriction
 page_kind: concept
-summary: [ ⑦ Pickpocket [Dexterity] ] (Equipment restriction): 3 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_5acf52a37f8c856e@1e561c024d8a8ffea6d7a5b4bf8726bf
+projection_coverage: page-projection-pgp_52ced748091ce5b2@ad7bcb96c84e2eb90a05df7f583bc9bf
 ---
 
 # [ ⑦ Pickpocket [Dexterity] ] (Equipment restriction)
@@ -35,3 +35,9 @@ The person trying to pickpocket must make a success roll using thief skill level
 ```
 The game master may add modifiers depending on the surroundings and the opponent's situation.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-stealthy-step-agility-equipment-restriction]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-hide-agility-equipment-restriction]] - contextualizes: source-supported topic dependency

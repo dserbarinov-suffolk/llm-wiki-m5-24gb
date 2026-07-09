@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-destructuring-parameters
 page_kind: concept
-summary: destructuring parameters: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_83b36c9ab3ffa860@b90a7bcec57e83cb8dc1921cb74cf74c
+projection_coverage: page-projection-pgp_10bc0502113d3d0b@136e5686e0241e74f704818f3529d0f1
 ---
 
 # destructuring parameters
@@ -51,3 +51,8 @@ const headAndTail = (head, ...tail) => [head, tail];
 headAndTail(1, 2, 3, 4, 5)
 //=> [1,[2,3,4,5]]
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-destructuring-is-not-pattern-matching]] - contextualizes: source-supported topic dependency

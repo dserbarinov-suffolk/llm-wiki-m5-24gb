@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-kestrel-and-the-idiot
 page_kind: concept
-summary: the kestrel and the idiot: 7 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 16 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_40b20d1a91d8a154@934af5e10cceef48c60ff31bc01c38b1
+projection_coverage: page-projection-pgp_11fbe7f26dc821fd@444906dcb3a962d932236acd4457c8f3
 ---
 
 # the kestrel and the idiot
@@ -21,6 +21,11 @@ Source: [[javascriptallonge]]
 - The kestrel, or K , is a function that makes constant functions. (javascriptallonge.pdf p.179)
 - You give it a value, and it returns a constant function that gives that value. (javascriptallonge.pdf p.179)
 - The identity function is a function that evaluates to whatever parameter you pass it. (javascriptallonge.pdf p.179)
+- Given two values, we can say that K always returns the first value: K(x)(y) => x (that's not valid JavaScript, but it's essentially how it works). (javascriptallonge.pdf p.179)
+- Given two values, we can say that K always returns the first value, and given two values, K(I) always returns the second value. (javascriptallonge.pdf p.180)
+
+## Rules
+
 - Given two values, we can say that K always returns the first value: K(x)(y) => x (that's not valid JavaScript, but it's essentially how it works). (javascriptallonge.pdf p.179)
 - Given two values, we can say that K always returns the first value, and given two values, K(I) always returns the second value. (javascriptallonge.pdf p.180)
 
@@ -86,3 +91,8 @@ first("primus")("secundus")
 second("primus")("secundus")
 //=> "secundus"
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-backwardnes]] - contextualizes: source-supported topic dependency

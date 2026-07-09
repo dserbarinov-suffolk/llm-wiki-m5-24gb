@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-monster-level-and-adventurer-level
 page_kind: concept
-summary: Monster Level and Adventurer Level: 9 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_86abe411dc875346@9013f0128cea35d4171b2f31b180f61b
+projection_coverage: page-projection-pgp_1bfd49bcadeebb70@39bf6eabf3df62ca748ba6a4a354aaa2
 ---
 
 # Monster Level and Adventurer Level
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - A monster level's score is basically set so that if it's equal to a character's adventurer level, the character will be stronger. (Sword World RPG - Complete Edition.pdf p.234)
 - A monster's monster level is a rough guide to its strength when it appears in a scenario. (Sword World RPG - Complete Edition.pdf p.234)
@@ -26,7 +26,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - This is the same reason why resistance score is calculated with +8. (Sword World RPG - Complete Edition.pdf p.234)
 - In particular, monsters that use magic are, without exception, more formidable enemies than their level suggests. (Sword World RPG - Complete Edition.pdf p.235)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -42,3 +42,12 @@ Monster Level and Adventurer Level
 | Level 11-13 | A nation-wide crisis |
 | Level 14-15 | An Alecrast-wide crisis |
 ```
+
+
+## Rules and exceptions
+
+- Of course, combat balance will vary depending on the special abilities of the monsters and the composition of the Note: A dark elf can add +4 to mental power resistance due to the blessings of the dark gods. (Sword World RPG - Complete Edition.pdf p.234)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-representing-special-monsters-with-character-data]] - contextualizes: source-supported topic dependency

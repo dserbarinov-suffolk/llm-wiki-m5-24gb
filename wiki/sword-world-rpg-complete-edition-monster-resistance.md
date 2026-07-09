@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-monster-resistance
 page_kind: concept
-summary: Monster Resistance: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_d7e5b79432b6f370@7beb3c24cf78f4c25d5bda583bf60359
+projection_coverage: page-projection-pgp_5bf7bbc4e68a10dc@7beb3c24cf78f4c25d5bda583bf60359
 ---
 
 # Monster Resistance

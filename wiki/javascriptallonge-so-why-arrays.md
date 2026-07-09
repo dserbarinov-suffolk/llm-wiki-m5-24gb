@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-so-why-arrays
 page_kind: concept
-summary: so why arrays: 5 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_89cbb033bc1469df@673c3f53d96e8cc5461e8e711fa323d4
+projection_coverage: page-projection-pgp_3c226246f8ce6aa8@3415a549bd40c03162a235237efb3823
 ---
 
 # so why arrays
@@ -37,3 +37,8 @@ And if you want an arbitrary item from a list, you have to iterate through the l
 ```
 We have avoided discussing rebinding and mutating values, but if we want to change elements of our lists, the naïve linked list implementation suffers as well: When we take the cdr of a linked list, we are sharing the elements.
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-some-history]] - contextualizes: source-supported topic dependency

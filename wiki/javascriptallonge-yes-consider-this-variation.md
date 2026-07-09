@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-yes-consider-this-variation
 page_kind: concept
-summary: Yes. Consider this variation:: 9 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 16 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_4a1ec7ff2a63f6c0@377121b67c6a1bcaa3c9479218c91c5a
+projection_coverage: page-projection-pgp_8f8230063770664e@cc0e45903debb62ad82965b2ea0c383d
 ---
 
 # Yes. Consider this variation:
@@ -25,6 +25,10 @@ Source: [[javascriptallonge]]
 - That does not mean that you should follow the exact same practice in your own code: The purpose of this book is to illustrate certain principles of programming. (javascriptallonge.pdf p.157)
 - The purpose of your own code is to get things done. (javascriptallonge.pdf p.157)
 - The two goals are often, but not always, aligned. (javascriptallonge.pdf p.157)
+
+## Rules
+
+- That does not mean that you should follow the exact same practice in your own code: The purpose of this book is to illustrate certain principles of programming. (javascriptallonge.pdf p.157)
 
 ## Technical atoms
 

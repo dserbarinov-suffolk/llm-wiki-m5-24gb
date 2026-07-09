@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-for-humans-and-halfelves-raised-by-humans
 page_kind: concept
-summary: For Humans and HalfElves Raised by Humans: 7 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_3dc5aa065c5c4014@c8abd0ad7053819db89d62e33fde2353
+projection_coverage: page-projection-pgp_15332d9158dd6f03@a5de474d5118c1be33ebeb287b6c3c1a
 ---
 
 # For Humans and HalfElves Raised by Humans
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - At this time, both the game master and the player should clearly know what the chosen general skill can do (the abilities that can be used with that general skill). (Sword World RPG - Complete Edition.pdf p.18)
 - If they've acquired the sage skill, they can choose to come from either the merchant or scholar background. (Sword World RPG - Complete Edition.pdf p.18-19)
@@ -24,23 +24,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - The backgrounds table does not always have to be used. (Sword World RPG - Complete Edition.pdf p.18-19)
 - Such special backgrounds are not allowed without the game master's permission. (Sword World RPG - Complete Edition.pdf p.18-19)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-If the player's background is ordinary citizen (roll 7), they must consult with the game master to determine one general skill appropriate for the character and acquire it at 3rd level.
-```
-
-<a id="atom-2"></a>
-**Atom:** rule
-
-```
-If the player's background is merchant/scholar (roll 8), they must choose either 3rd level in the merchant skill or 3rd level in the sage skill for their character to acquire.
-```
-
-<a id="atom-3"></a>
 **Atom:** table
 
 ```text
@@ -55,3 +41,17 @@ Table 1-6: Starting Experience by Race
                                                               above     100 years old. Of course, it's natural that
          ⬤
 ```
+
+
+## Rules and exceptions
+
+- At this time, both the game master and the player should clearly know what the chosen general skill can do (the abilities that can be used with that general skill). (Sword World RPG - Complete Edition.pdf p.18)
+- If they've acquired the sage skill, they can choose to come from either the merchant or scholar background. (Sword World RPG - Complete Edition.pdf p.18-19)
+- If a character has acquired the merchant skill, they must always come from the merchant background. (Sword World RPG - Complete Edition.pdf p.18-19)
+- If they wish to have a special background such as noble or rune master , they may discuss this with the game master. (Sword World RPG - Complete Edition.pdf p.18-19)
+- The backgrounds table does not always have to be used. (Sword World RPG - Complete Edition.pdf p.18-19)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-experience-points]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-for-races-other-than-humans]] - contextualizes: source-supported topic dependency

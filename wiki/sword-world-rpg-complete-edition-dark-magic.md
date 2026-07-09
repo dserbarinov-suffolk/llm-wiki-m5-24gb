@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-dark-magic
 page_kind: concept
-summary: Dark Magic: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_4f2dca5dcb3de89e@3e03fe6c1941922a34745594bed224db
+projection_coverage: page-projection-pgp_284d920acf126e27@5d5b7b8060367d5a08ebd7d2bafe9d59
 ---
 
 # Dark Magic
@@ -23,3 +23,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - This is because believers in wicked gods other than Phalaris are rarely seen. (Sword World RPG - Complete Edition.pdf p.142)
 - Dark magic basically has the same origin as holy magic, and dark priests can use most of the basic holy magic. (Sword World RPG - Complete Edition.pdf p.142)
 - In addition, dark priests can use wicked magic that the gods of light do not allow (do not give power to). (Sword World RPG - Complete Edition.pdf p.142)
+
+## Rules
+
+- Dark magic basically has the same origin as holy magic, and dark priests can use most of the basic holy magic. (Sword World RPG - Complete Edition.pdf p.142)
+- In addition, dark priests can use wicked magic that the gods of light do not allow (do not give power to). (Sword World RPG - Complete Edition.pdf p.142)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-rune-masters-status]] - contextualizes: source-supported topic dependency

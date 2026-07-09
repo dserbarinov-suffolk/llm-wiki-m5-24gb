@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-why
 page_kind: concept
-summary: Why?: 6 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_9a795b359160e120@d3f611fba2aef81c00b7331babbef5f1
+projection_coverage: page-projection-pgp_a73a2afe6fe6df63@4650be390d96467ef50ef924582d19bb
 ---
 
 # Why?
@@ -61,3 +61,8 @@ const something = x => f(v => x(x)(v));
 return something(something);
 };
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-mapwith]] - contextualizes: source-supported topic dependency

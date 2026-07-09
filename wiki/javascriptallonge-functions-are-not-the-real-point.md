@@ -1,20 +1,20 @@
 ---
 page_id: javascriptallonge-functions-are-not-the-real-point
 page_kind: concept
-summary: functions are not the real point: 9 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_ec4e9677a84e129b@a3092adc02f4754a690b3ccb77b46753
+projection_coverage: page-projection-pgp_b6dcaf7e5ed7f99f@3a39b991894856a6f1d4005abaac307e
 ---
 
 # functions are not the real point
 
 Source: [[javascriptallonge]]
 
-## Statements
+## Procedure
 
 - You can establish that K and K(I) can represent true and false , model magnitudes with Church Numerals 79 or Surreal Numbers 80 , and build your way up to printing FizzBuzz. (javascriptallonge.pdf p.188)
 - There are lots of similar texts explaining how to construct complex semantics out of functions. (javascriptallonge.pdf p.188)
@@ -26,7 +26,7 @@ Source: [[javascriptallonge]]
 - (Knowing that it can be done, on the other hand, is very important to understanding computer science.). (javascriptallonge.pdf p.188)
 - Knowing how to make a list out of just functions is a little like knowing that photons are the Gauge Bosons 81 of the electromagnetic force. (javascriptallonge.pdf p.188)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -36,3 +36,15 @@ Source: [[javascriptallonge]]
 81 https://en.wikipedia.org/wiki/Gauge_boson
 80 https://en.wikipedia.org/wiki/Surreal_number
 ```
+
+
+## Rules and exceptions
+
+- You can establish that K and K(I) can represent true and false , model magnitudes with Church Numerals 79 or Surreal Numbers 80 , and build your way up to printing FizzBuzz. (javascriptallonge.pdf p.188)
+- They are 'axioms' of combinatory logic, and can be used to compute anything that JavaScript can compute. (javascriptallonge.pdf p.188)
+- (Knowing that it can be done, on the other hand, is very important to understanding computer science.). (javascriptallonge.pdf p.188)
+
+## Related pages
+
+- [[javascriptallonge-say-please]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-return-to-backward-thinking]] - contextualizes: source-supported topic dependency

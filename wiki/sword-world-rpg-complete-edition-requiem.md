@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-requiem
 page_kind: concept
-summary: Requiem: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_5ab79b9d8d12bf10@6625715825e2dde79e6cceae7d8b51ff
+projection_coverage: page-projection-pgp_eaffbe4bf078a87b@4d60379b9a00658c69c4aeaf89f5ffb4
 ---
 
 # Requiem
@@ -28,3 +28,9 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 If this spellsong is sung to the deceased for over an hour during their funeral, the deceased will never become undead.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-lullaby-mind]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-resistance]] - contextualizes: source-supported topic dependency

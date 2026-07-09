@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-when-a-monster-casts-magic-on-adventurers
 page_kind: concept
-summary: When a Monster Casts Magic on Adventurers: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_0452a5a7a484e29d@8f8ece2da5565aa462a771651c240236
+projection_coverage: page-projection-pgp_6f4ad4e4555a6d8b@7d86c0194a2e70c9f5838fef936a0d07
 ---
 
 # When a Monster Casts Magic on Adventurers
@@ -28,3 +28,9 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 Each player must make a resistance roll using monster's magic intensity as the target score.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-monsters]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-adventurers]] - contextualizes: source-supported topic dependency

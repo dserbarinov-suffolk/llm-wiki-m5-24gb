@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-rules-regarding-language
 page_kind: concept
-summary: Rules Regarding Language: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_ba37566760a3cc08@8069591698be8361a68b15477cfa7ec8
+projection_coverage: page-projection-pgp_c478c8c57f71ba55@8069591698be8361a68b15477cfa7ec8
 ---
 
 # Rules Regarding Language

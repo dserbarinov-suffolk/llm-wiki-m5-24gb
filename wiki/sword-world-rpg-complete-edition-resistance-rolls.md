@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-resistance-rolls
 page_kind: concept
-summary: Resistance Rolls: 14 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 16 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_1ab8c8fad2c91aed@fe5d5cd9cfc3664764d16f8eaef2c527
+projection_coverage: page-projection-pgp_8467513b3b9b4069@deabca1125b0dd8498cbd8049834a546
 ---
 
 # Resistance Rolls
@@ -39,3 +39,8 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 In particular, all checks against magic, even if it causes physical damage, are made with mental power resistance rolls.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-success-rolls-using-adventurer-level]] - contextualizes: source-supported topic dependency

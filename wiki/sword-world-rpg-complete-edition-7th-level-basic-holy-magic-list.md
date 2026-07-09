@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-7th-level-basic-holy-magic-list
 page_kind: concept
-summary: 7th Level Basic Holy Magic List: 9 accepted assertion(s) and 13 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 25 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_5377ef07b1ff6e5b@217c25b809b4428fc81f82231c6384f9
+projection_coverage: page-projection-pgp_4055cca79c1f63d6@765a227074a813eb72f2da61fd96eaac
 ---
 
 # 7th Level Basic Holy Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Effect= Causes an explosion centered on the caster, dealing strike power 30 damage. (Sword World RPG - Complete Edition.pdf p.102)
 - This spell is an indiscriminate expansion of Force , which causes an explosion centered around the caster. (Sword World RPG - Complete Edition.pdf p.102)
@@ -26,7 +26,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Braki Mole, woodpecker, squirrel, small bird (they have the characteristic of nest-building). (Sword World RPG - Complete Edition.pdf p.103)
 - This spell does not help restore life force (points) from wounds, nor can it be cast on a corpse to bring it back to life. (Sword World RPG - Complete Edition.pdf p.103)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -126,3 +126,13 @@ Table 5-7: Summon Servant
 | Braki force cast | This (points) on | Mole, spell a corpse | woodpecker, does from to | not wounds, bring | help it | squirrel, restore nor back | small life can it to life. | bird be | (they depending worships. | have The animals | the characteristic on Here | that are | the | are god some | of nest-building) summoned representative | the | vary priest |  | points effective power | from if (points) | the you | collection try voluntarily. | to use |  | field. It's only your mental |
 | Base | 8th [ Mental | Level Magic Summon Power |  | Basic Servant Cost=32 | List | Holy | ] |  | gods them Base Distance=Caster Area=A | and (Table Mental space | the 5-7: [ Power Power | animals within | Summon Cost=24 | Link a 10 | associated Servant). meter | ] radius | with from |  | the the at disappear. cannot | If the spell is mental that moment take | priest's canceled power Those | focus (points) will who back | by Dispel be agreed the | is interrupted mental | or Magic, etc. accumulated released and to the spell power |
 ```
+
+
+## Rules and exceptions
+
+- This spell does not help restore life force (points) from wounds, nor can it be cast on a corpse to bring it back to life. (Sword World RPG - Complete Edition.pdf p.103)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-6th-level-basic-holy-magic-list]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-8th-level-basic-holy-magic-list]] - contextualizes: source-supported topic dependency

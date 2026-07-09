@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-difficulty-checks
 page_kind: concept
-summary: Difficulty Checks: 20 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 24 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_dcadcb41f83f57da@e3a73b76e99d3c481b94c13a9cdabeaf
+projection_coverage: page-projection-pgp_4d26d604fb9547ce@6c88e3ee4ec3f021e349b6a39ee3eb2e
 ---
 
 # Difficulty Checks
@@ -36,6 +36,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - Within the setting, there are actions that we attempt on our own but do not know (or cannot tell ) whether they are successful or unsuccessful. (Sword World RPG - Complete Edition.pdf p.31)
 - These checks-- which are often made mainly when finding something --change the method of success rolls considerably. (Sword World RPG - Complete Edition.pdf p.31)
 - The difficulty is determined via target score determination. (Sword World RPG - Complete Edition.pdf p.31)
+
+## Rules
+
+- Maybe the traps are so Some games treat extreme stakes during an action check as a definitive success or failure, and Sword World RPG may do so as well. (Sword World RPG - Complete Edition.pdf p.31)
+- How bonuses and penalties are applied can be found in Part 2: Game Master Section . (Sword World RPG - Complete Edition.pdf p.31)
+- Within the setting, there are actions that we attempt on our own but do not know (or cannot tell ) whether they are successful or unsuccessful. (Sword World RPG - Complete Edition.pdf p.31)
 
 ## Technical atoms
 

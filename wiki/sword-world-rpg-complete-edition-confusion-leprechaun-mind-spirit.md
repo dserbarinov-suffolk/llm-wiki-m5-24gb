@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-confusion-leprechaun-mind-spirit
 page_kind: concept
-summary: [ Confusion ] (Leprechaun/Mind Spirit): 7 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_7eb08decb564ee6c@fd34cfdd283951fff5120f9fb13525fb
+projection_coverage: page-projection-pgp_109da9914b2c592f@d7a4b974ab47dd509f76a7a42c0d9d0d
 ---
 
 # [ Confusion ] (Leprechaun/Mind Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - At this time, even if an ally casts magic on you in order to help you, you will consider it a hostile act. (Sword World RPG - Complete Edition.pdf p.85)
 - You'll also lose your ability to make accurate judgments. (Sword World RPG - Complete Edition.pdf p.85)
@@ -24,7 +24,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Also, it doesn't mean you've become stupid, so you won't trust an opponent just because they yell I'm your friend!. (Sword World RPG - Complete Edition.pdf p.85)
 - You can also cast Dispel Magic , Sanity , or other magic that belongs to mind on yourself. (Sword World RPG - Complete Edition.pdf p.85)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -75,16 +75,12 @@ Type=Mind
 Resist=Negated effect
 ```
 
-<a id="atom-8"></a>
-**Atom:** rule
 
-```
-However, you'll still be able to respond appropriately to actions taken against you, so if someone attacks you, you can conclude that the opponent is your enemy.
-```
+## Rules and exceptions
 
-<a id="atom-9"></a>
-**Atom:** rule
+- You can make similar judgments about those who cast magic on you. (Sword World RPG - Complete Edition.pdf p.85)
+- You can also cast Dispel Magic , Sanity , or other magic that belongs to mind on yourself. (Sword World RPG - Complete Edition.pdf p.85)
 
-```
-If you're caught by this spell, you can still use magic to strengthen or protect yourself.
-```
+## Related pages
+
+- [[sword-world-rpg-complete-edition-shade-shade-dark-spirit]] - contextualizes: source-supported topic dependency

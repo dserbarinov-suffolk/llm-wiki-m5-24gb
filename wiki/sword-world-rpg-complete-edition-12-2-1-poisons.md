@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-12-2-1-poisons
 page_kind: concept
-summary: 12.2.1 Poisons: 102 accepted assertion(s) and 57 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 164 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_61662676db1dcbfb@4f041436c7286404082a578a7f0a3ef2
+projection_coverage: page-projection-pgp_fc174dd1e2f39044@2afae0a86c635f8e113fda24d9797d0e
 ---
 
 # 12.2.1 Poisons
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Therefore, a proud warrior does not want to use poison. (Sword World RPG - Complete Edition.pdf p.160)
 - Just like in our world, in Alecrast, using poison as a weapon is an immoral act. (Sword World RPG - Complete Edition.pdf p.160)
@@ -119,30 +119,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - This poison has its normal effect only on women. (Sword World RPG - Complete Edition.pdf p.164)
 - When a man is affected by this poison and fails to resist, his body undergoes abnormal mutations as a side effect, turning him into a mutant monster. (Sword World RPG - Complete Edition.pdf p.164)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-Poisons that have entered the body can be cleared using specific antidotes (if any), the holy magic Cure Poison or Refresh , or the spirit magic Restore Health .
-```
-
-<a id="atom-2"></a>
-**Atom:** rule
-
-```
-Once a detox fails, the same caster cannot attempt detox magic until their magic power increases (and even if they try, they will always fail).
-```
-
-<a id="atom-3"></a>
-**Atom:** rule
-
-```
-The spirit magic Purification can make liquid poison harmless if the final score when casting the magic is greater than or equal to than the toxicity score.
-```
-
-<a id="atom-4"></a>
 **Atom:** table
 
 ```text
@@ -152,373 +131,319 @@ Monsters that use poison as weapons are  immune  to  their own poisons  (but are
 12.2.1.3
 ```
 
-<a id="atom-5"></a>
+<a id="atom-2"></a>
 **Atom:** formula
 
 ```
 Effect Duration=2 days
 ```
 
-<a id="atom-6"></a>
-**Atom:** rule
-
-```
-If you're trapped in a room filled with poison gas, you must make a resistance roll every round.
-```
-
-<a id="atom-7"></a>
-**Atom:** rule
-
-```
-Those affected by the poison can reduce this damage.
-```
-
-<a id="atom-8"></a>
-**Atom:** rule
-
-```
-If you successfully resist, the damage will be reduced (in this case, strike power will be -10 and no criticals will occur) or you will not suffer any damage at all.
-```
-
-<a id="atom-9"></a>
-**Atom:** rule
-
-```
-When the poison enters the body, make a life force resistance roll (for monsters, a life point resistance roll) using the toxicity score as the target score.
-```
-
-<a id="atom-10"></a>
-**Atom:** rule
-
-```
-An adventurer must make a success roll using sage skill level + intelligence bonus as the baseline score, and if they succeed, they will know about the poison.
-```
-
-<a id="atom-11"></a>
-**Atom:** rule
-
-```
-However, even if you know how to make it, whether or not you can make it is another matter.
-```
-
-<a id="atom-12"></a>
+<a id="atom-3"></a>
 **Atom:** formula
 
 ```
 Effect Duration=Instant
 ```
 
-<a id="atom-13"></a>
+<a id="atom-4"></a>
 **Atom:** formula
 
 ```
 Effect=Make the person who took it into a child
 ```
 
-<a id="atom-14"></a>
-**Atom:** rule
-
-```
-If you are detoxed, you will recover (grow) within a few days, but unless you are detoxed, you will have to act with the same physique and mentality as a child.
-```
-
-<a id="atom-15"></a>
+<a id="atom-5"></a>
 **Atom:** formula
 
 ```
 Effect=Causes illusions
 ```
 
-<a id="atom-16"></a>
+<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 Effect=Cause memory loss
 ```
 
-<a id="atom-17"></a>
+<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 Effect Duration=Permanent
 ```
 
-<a id="atom-18"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Effect=Put to sleep
 ```
 
-<a id="atom-19"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Effect=Become unable to speak
 ```
 
-<a id="atom-20"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Toxicity Score=11
 ```
 
-<a id="atom-21"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-22"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Effect Start Time=1 round later
 ```
 
-<a id="atom-23"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Effect Duration=24 hours
 ```
 
-<a id="atom-24"></a>
-**Atom:** rule
-
-```
-However, if you suffer a very strong physical or mental shock, you may recover from the paralysis even before the duration expires.
-```
-
-<a id="atom-25"></a>
-**Atom:** rule
-
-```
-If treatment is delayed, you may remain in a coma for several days after the poison wears off.
-```
-
-<a id="atom-26"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Effect=Put into suspended animation
 ```
 
-<a id="atom-27"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Effect=Deals strike power 10 damage plus bonus damage 1. Resist negates effect.
 ```
 
-<a id="atom-28"></a>
-**Atom:** rule
-
-```
-If you use it too many times, you may harm your health or go crazy.
-```
-
-<a id="atom-29"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Effect=Make you laugh
 ```
 
-<a id="atom-30"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Toxicity Score=11
 ```
 
-<a id="atom-31"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-32"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Effect Start Time= 1 round later
 ```
 
-<a id="atom-33"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Effect Duration=1 round
 ```
 
-<a id="atom-34"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Toxicity Score=13
 ```
 
-<a id="atom-35"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-36"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Effect Start Time=1 hour later
 ```
 
-<a id="atom-37"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Effect Duration=24 hours
 ```
 
-<a id="atom-38"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Effect=Full body paralysis
 ```
 
-<a id="atom-39"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Effect=Cause intense fear
 ```
 
-<a id="atom-40"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Effect=Change gender
 ```
 
-<a id="atom-41"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Effect Duration=Permanent
 ```
 
-<a id="atom-42"></a>
-**Atom:** rule
-
-```
-Additionally, there are no changes to the magic that shamans can use.
-```
-
-<a id="atom-43"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Effect=Petrification
 ```
 
-<a id="atom-44"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Toxicity Score=16
 ```
 
-<a id="atom-45"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Rarity=13
 ```
 
-<a id="atom-46"></a>
+<a id="atom-32"></a>
 **Atom:** formula
 
 ```
 Effect Start Time=6 rounds later
 ```
 
-<a id="atom-47"></a>
+<a id="atom-33"></a>
 **Atom:** formula
 
 ```
 Effect Duration=Permanent
 ```
 
-<a id="atom-48"></a>
+<a id="atom-34"></a>
 **Atom:** formula
 
 ```
 Effect=Fall in love with the first person you see
 ```
 
-<a id="atom-49"></a>
+<a id="atom-35"></a>
 **Atom:** formula
 
 ```
 Toxicity Score=13
 ```
 
-<a id="atom-50"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Rarity=11
 ```
 
-<a id="atom-51"></a>
+<a id="atom-37"></a>
 **Atom:** formula
 
 ```
 Effect Start Time=1 round later
 ```
 
-<a id="atom-52"></a>
+<a id="atom-38"></a>
 **Atom:** formula
 
 ```
 Effect Duration=Permanent
 ```
 
-<a id="atom-53"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Effect=Turns women into little people and
 ```
 
-<a id="atom-54"></a>
+<a id="atom-40"></a>
 **Atom:** formula
 
 ```
 Toxicity Score=13
 ```
 
-<a id="atom-55"></a>
+<a id="atom-41"></a>
 **Atom:** formula
 
 ```
 Rarity=17
 ```
 
-<a id="atom-56"></a>
+<a id="atom-42"></a>
 **Atom:** formula
 
 ```
 Effect Start Time=1 round left
 ```
 
-<a id="atom-57"></a>
+<a id="atom-43"></a>
 **Atom:** formula
 
 ```
 Effect Duration=Permanent
 ```
+
+
+## Rules and exceptions
+
+- To remove a poison with magic, the caster's final score (magic power + 2D roll ) must be greater than or equal to the poison's toxicity score . (Sword World RPG - Complete Edition.pdf p.160)
+- Drinking a little can help lighten your mood and relieve stress, but drinking too much can leave you drunk (in this state, you suffer a -4 penalty on all success rolls). (Sword World RPG - Complete Edition.pdf p.160)
+- Some adventurers, other than dwarves, have extremely low tolerance for alcohol, and such characters cannot resist this poison (?) no matter how high their adventurer level. (Sword World RPG - Complete Edition.pdf p.160)
+- Y ou may also experience headaches and nausea after a certain period of time. (Sword World RPG - Complete Edition.pdf p.160)
+- It can be applied to knives and arrows to increase their killing power, but the poison usually wears off after about three uses and loses its effect, so it must be reapplied frequently. (Sword World RPG - Complete Edition.pdf p.160)
+- An adventurer can only hold their breath for a number of rounds equal to their life force. (Sword World RPG - Complete Edition.pdf p.160)
+- Touch poison comes in liquid or powder form and can penetrate through the skin. (Sword World RPG - Complete Edition.pdf p.160)
+- Magical poisons and their effects can be removed with Dispel Magic as well as Purification , Cure Poison , etc. (Sword World RPG - Complete Edition.pdf p.160)
+- The toxicity scores listed here are just examples; by diluting the substance, the toxicity score can be made as low as desired, and by concentrating it, it can be made somewhat greater. (Sword World RPG - Complete Edition.pdf p.161)
+- If your success roll is 4 or more above the rarity , you can also know how to make the poison and its antidote (if it has one). (Sword World RPG - Complete Edition.pdf p.161)
+- You can also guess the name of the poison when you see the symptoms of the poisoned person. (Sword World RPG - Complete Edition.pdf p.161)
+- This poison does not have the effect of reversing a character's age, and may cause them to die of old age while remaining a child. (Sword World RPG - Complete Edition.pdf p.161)
+- Enemies may appear to have multiple parts, allies may appear to be monsters, or the surrounding scenery may appear to have changed. (Sword World RPG - Complete Edition.pdf p.161)
+- If someone pulls their arm, they will stagger, and if someone calls them, they will respond in an emotionless voice, but they cannot do anything of their own will. (Sword World RPG - Complete Edition.pdf p.162)
+- Around one additional hour of suggestions can transform the victim into a robot that follows commands. (Sword World RPG - Complete Edition.pdf p.162)
+- Victims turned into robots faithfully follow the commands of the person who gave them the suggestions, and will casually kill even their family and friends (they cannot use magic). (Sword World RPG - Complete Edition.pdf p.162)
+- Particularly powerful ones can turn you into a mythical beast such as a scylla, etc. (Sword World RPG - Complete Edition.pdf p.163)
+- If you drink it again, you can return to normal. (Sword World RPG - Complete Edition.pdf p.163)
+- The only people you can fall in love with are fae, youma, titans, and mythical beasts that have human body parts (centaurs, etc.); you cannot fall in love with undead, animals, etc. (Sword World RPG - Complete Edition.pdf p.163)

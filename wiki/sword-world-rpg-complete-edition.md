@@ -8,7 +8,7 @@ updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: sources
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: projection-coverage-029a03a084b7c56f@4506239b11989033
+projection_coverage: page-projection-pgp_d4bfd81bddc23128@bf9321513f1fe48ba1f1597c5c3b70c5
 ---
 
 # Sword World RPG Complete Edition
@@ -20,468 +20,464 @@ projection_coverage: projection-coverage-029a03a084b7c56f@4506239b11989033
 
 ## Page Families
 
-- broad-topic: 23 page(s) - broad concept overview pages
-- source-manifest: 1 page(s) - source entry point
-- topic-concept: 430 page(s) - focused concept pages
+- broad-topic: 23 page(s) - generated topic-state projections
+- topic-concept: 430 page(s) - generated topic-state projections
 
 ## Concept Entry Points
 
-- [[sword-world-rpg-complete-edition-1-replay-collections]] - topic concept: 1. Replay Collections: 12 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-3-1-skill-basics]] - topic concept: 1.3.1 Skill Basics: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-3-2-skill-types]] - topic concept: 1.3.2 Skill Types: 12 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-3-3-adventurer-level]] - topic concept: 1.3.3 Adventurer Level: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-1-choose-a-race]] - topic concept: 1.4.1 Choose a Race: 23 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-2-determine-ability-scores]] - topic concept: 1.4.2 Determine Ability Scores: 14 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-4-age-gender-name]] - topic concept: 1.4.4 Age, Gender, Name: 42 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-5-character-growth-via-starting-experience-points]] - topic concept: 1.4.5 Character Growth via Starting Experience Points: 23 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-6-purchasing-weapons-and-armor]] - topic concept: 1.4.6 Purchasing Weapons and Armor: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-7-restrictions-on-weapons-and-armor-based-on-skill]] - topic concept: 1.4.7 Restrictions on Weapons and Armor Based on Skill: 34 accepted assertion(s) and 12 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-10-5]] - topic concept: 10.5: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-10th-level-ancient-magic-list-dimension-gate]] - topic concept: 10th Level Ancient Magic List [ Dimension Gate ]: 15 accepted assertion(s) and 25 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-10th-level-basic-dark-magic-list-call-god]] - topic concept: 10th Level Basic Dark Magic List [ Call God ]: 9 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-10th-level-basic-holy-magic-list-call-god]] - topic concept: 10th Level Basic Holy Magic List [ Call God ]: 21 accepted assertion(s) and 31 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-10th-level-dragon-roar-magic-list-reborn-dragon]] - topic concept: 10th Level Dragon Roar Magic List [ Reborn Dragon ]: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-11-2]] - topic concept: 11.2: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-11-2-2-basic-dark-magic-list]] - topic concept: 11.2.2 Basic Dark Magic List: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-12-2-3-herbs]] - topic concept: 12.2.3 Herbs: 29 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-1]] - topic concept: 13.2.1: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-13-other]] - topic concept: 13.2.13 Other: 9 accepted assertion(s) and 18 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-4]] - topic concept: 13.4: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6]] - topic concept: 13.6: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-1]] - topic concept: 13.6.1: 23 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-2]] - topic concept: 13.6.2: 5 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-3-special-attacks-other]] - topic concept: 13.6.3 Special Attacks: Other: 30 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-4]] - topic concept: 13.6.4: 18 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-5]] - topic concept: 13.6.5: 15 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-6]] - topic concept: 13.6.6: 18 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-7-special-defense-abilities-weaknesses]] - topic concept: 13.6.7 Special Defense Abilities: Weaknesses: 11 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-14-2]] - topic concept: 14.2: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-14-2-1-negotiations-with-adventurers]] - topic concept: 14.2.1 Negotiations With Adventurers: 12 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-16-6-2-two-handed-attacks]] - topic concept: 16.6.2 Two-Handed Attacks: 5 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-17-5]] - topic concept: 17.5: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-18-2]] - topic concept: 18.2: 5 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-18-3-1-how-to-read-the-structure-strength-table]] - topic concept: 18.3.1 How to Read the Structure Strength Table: 2 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-18-3-2-structure-material-list]] - topic concept: 18.3.2 Structure Material List: 8 accepted assertion(s) and 31 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-18-3-3-handling-spirit-walls]] - topic concept: 18.3.3 Handling Spirit Walls: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1st-level-ancient-magic-list-unlock]] - topic concept: 1st Level Ancient Magic List [ Unlock ]: 4 accepted assertion(s) and 20 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1st-level-basic-dark-magic-list]] - topic concept: 1st Level Basic Dark Magic List: 11 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1st-level-dragon-roar-magic-list-iron-stomach]] - topic concept: 1st Level Dragon Roar Magic List [ Iron Stomach ]: 3 accepted assertion(s) and 23 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-learn-from-a-sorcerer-who-knows-lost-spell]] - topic concept: 2. Learn From a Sorcerer Who Knows Lost Spell: 9 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-3-1-automatic-success-and-automatic-failure]] - topic concept: 2.3.1 Automatic Success and Automatic Failure: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-4]] - topic concept: 2.4: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-5]] - topic concept: 2.5: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-5-2-how-to-make-a-difficulty-check]] - topic concept: 2.5.2 How to Make a Difficulty Check: 11 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-5-3-analogy-of-success-and-failure]] - topic concept: 2.5.3 Analogy of Success and Failure: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2nd-level-ancient-magic-list-oak]] - topic concept: 2nd Level Ancient Magic List [ Oak ]: 27 accepted assertion(s) and 23 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2nd-level-basic-dark-magic-list]] - topic concept: 2nd Level Basic Dark Magic List: 4 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2nd-level-basic-holy-magic-list-cure-deafness]] - topic concept: 2nd Level Basic Holy Magic List [ Cure Deafness ]: 7 accepted assertion(s) and 28 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2nd-level-dragon-roar-magic-list]] - topic concept: 2nd Level Dragon Roar Magic List: 5 accepted assertion(s) and 24 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit]] - topic concept: 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit): 8 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-1-1-order-of-action-announcements]] - topic concept: 3.1.1 Order of Action Announcements: 14 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-1-2-player-action-announcements]] - topic concept: 3.1.2 Player Action Announcements: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-1-3-npc-and-monster-action-announcements]] - topic concept: 3.1.3 NPC and Monster Action Announcements: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-2-1-delaying-an-action]] - topic concept: 3.2.1 Delaying an Action: 7 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-3]] - topic concept: 3.3: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-4-1]] - topic concept: 3.4.1: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-4-2-actions-you-can-take]] - topic concept: 3.4.2 Actions You Can Take: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-4-3]] - topic concept: 3.4.3: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3rd-level-basic-dark-magic-list-poison]] - topic concept: 3rd Level Basic Dark Magic List [ Poison ]: 10 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3rd-level-basic-holy-magic-list-cure-poison]] - topic concept: 3rd Level Basic Holy Magic List [ Cure Poison ]: 12 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3rd-level-dragon-roar-magic-list]] - topic concept: 3rd Level Dragon Roar Magic List: 6 accepted assertion(s) and 23 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit]] - topic concept: 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit): 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-sword-world-novels-and-short-story-collections]] - topic concept: 4. Sword World Novels and Short Story Collections: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-10]] - topic concept: 4.10: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-11-1-magical-recovery]] - topic concept: 4.11.1 Magical Recovery: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-11-2-first-aid]] - topic concept: 4.11.2 First-Aid: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-11-3-natural-recovery]] - topic concept: 4.11.3 Natural Recovery: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-5-1-hit-checks]] - topic concept: 4.5.1 Hit Checks: 8 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-5-3-bonus-damage]] - topic concept: 4.5.3 Bonus Damage: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-6-1-hit-evasion-checks]] - topic concept: 4.6.1 Hit (Evasion) Checks: 10 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-6-3-defense-rolls]] - topic concept: 4.6.3 Defense Rolls: 6 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-6-4-damage-reduction]] - topic concept: 4.6.4 Damage Reduction: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-6-5-final-damage]] - topic concept: 4.6.5 Final Damage: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-7-1-hit-checks]] - topic concept: 4.7.1 Hit Checks: 8 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-7-2-damage-checks]] - topic concept: 4.7.2 Damage Checks: 8 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-9-2-death-checks-every-hour]] - topic concept: 4.9.2 Death Checks Every Hour: 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-9-3-monster-death-check]] - topic concept: 4.9.3 Monster Death Check: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-9-4-mercy]] - topic concept: 4.9.4 Mercy: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4th-level-ancient-magic-list-counter-sense]] - topic concept: 4th Level Ancient Magic List [ Counter Sense ]: 37 accepted assertion(s) and 44 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4th-level-basic-dark-magic-list-control-imp]] - topic concept: 4th Level Basic Dark Magic List [ Control Imp ]: 10 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4th-level-basic-holy-magic-list-cure-disease]] - topic concept: 4th Level Basic Holy Magic List [ Cure Disease ]: 8 accepted assertion(s) and 16 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4th-level-dragon-roar-magic-list]] - topic concept: 4th Level Dragon Roar Magic List: 7 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4th-level-spirit-magic-list-water-walking-undine-water-spirit]] - topic concept: 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit): 3 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-1-types-of-magic]] - topic concept: 5.1.1 Types of Magic: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-13-spirit-magic-and-the-shaman-skill]] - topic concept: 5.1.13 Spirit Magic and the Shaman Skill: 30 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-2-rune-masters-and-rune-master-skills]] - topic concept: 5.1.2 Rune Masters and Rune Master Skills: 13 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-3-learning-magic]] - topic concept: 5.1.3 Learning Magic: 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-4-how-to-use-magic]] - topic concept: 5.1.4 How to Use Magic: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-7-magic-expansion]] - topic concept: 5.1.7 Magic Expansion: 40 accepted assertion(s) and 11 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-8-magic-contraction]] - topic concept: 5.1.8 Magic Contraction: 23 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-3]] - topic concept: 5.3: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-3-1-spellsong-list]] - topic concept: 5.3.1 Spellsong List: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5th-level-ancient-magic-list-apport]] - topic concept: 5th Level Ancient Magic List [ Apport ]: 29 accepted assertion(s) and 52 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5th-level-basic-dark-magic-list]] - topic concept: 5th Level Basic Dark Magic List: 9 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5th-level-basic-holy-magic-list-quest]] - topic concept: 5th Level Basic Holy Magic List [ Quest ]: 13 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5th-level-dragon-roar-magic-list-dragon-s-roar]] - topic concept: 5th Level Dragon Roar Magic List [ Dragon's Roar ]: 8 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5th-level-spirit-magic-list-control-plant]] - topic concept: 5th Level Spirit Magic List [ Control Plant ]: 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6-collection-series]] - topic concept: 6. Collection Series: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6-4]] - topic concept: 6.4: 10 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6-5]] - topic concept: 6.5: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6th-level-basic-dark-magic-list-mesmerize]] - topic concept: 6th Level Basic Dark Magic List [ Mesmerize ]: 9 accepted assertion(s) and 10 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6th-level-basic-holy-magic-list]] - topic concept: 6th Level Basic Holy Magic List: 13 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6th-level-dragon-roar-magic-list]] - topic concept: 6th Level Dragon Roar Magic List: 12 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7-old-version-of-the-rules]] - topic concept: 7. Old Version of the Rules: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7-2]] - topic concept: 7.2: 11 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7-3]] - topic concept: 7.3: 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7-5]] - topic concept: 7.5: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7th-level-ancient-magic-list-dispel-order]] - topic concept: 7th Level Ancient Magic List [ Dispel Order ]: 43 accepted assertion(s) and 49 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7th-level-basic-holy-magic-list]] - topic concept: 7th Level Basic Holy Magic List: 9 accepted assertion(s) and 13 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7th-level-dragon-roar-magic-list-summon-wyrm]] - topic concept: 7th Level Dragon Roar Magic List [ Summon Wyrm ]: 5 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8-game-master-screen]] - topic concept: 8. Game Master Screen: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8-3]] - topic concept: 8.3: 9 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8-4]] - topic concept: 8.4: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8th-level-ancient-magic-list]] - topic concept: 8th Level Ancient Magic List: 26 accepted assertion(s) and 36 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8th-level-basic-dark-magic-list-cripple]] - topic concept: 8th Level Basic Dark Magic List [ Cripple ]: 7 accepted assertion(s) and 13 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8th-level-basic-holy-magic-list]] - topic concept: 8th Level Basic Holy Magic List: 17 accepted assertion(s) and 19 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8th-level-dragon-roar-magic-list]] - topic concept: 8th Level Dragon Roar Magic List: 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8th-level-spirit-magic-list-ice-coffin]] - topic concept: 8th Level Spirit Magic List [ Ice Coffin ]: 9 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9-3]] - topic concept: 9.3: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9-4]] - topic concept: 9.4: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9th-level-ancient-magic-list-command-golem]] - topic concept: 9th Level Ancient Magic List [ Command Golem ]: 37 accepted assertion(s) and 34 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9th-level-basic-dark-magic-list-plague]] - topic concept: 9th Level Basic Dark Magic List [ Plague ]: 13 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9th-level-dragon-roar-magic-list-summon-lesser-dragon]] - topic concept: 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ]: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit]] - topic concept: 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit): 8 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-berserk-spell-level-3]] - topic concept: [ Berserk ] (Spell Level=3): 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-binding-dryad-plant-spirit]] - topic concept: [ Binding ] (Dryad/Plant Spirit): 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-brownie-brownie-building-spirit]] - topic concept: [ Brownie ] (Brownie/Building Spirit): 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-charm-dryad-plant-spirit]] - topic concept: [ Charm ] (Dryad/Plant Spirit): 7 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-confusion-leprechaun-mind-spirit]] - topic concept: [ Confusion ] (Leprechaun/Mind Spirit): 7 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-control-spirit-various-lesser-spirits]] - topic concept: [ Control Spirit ] (Various lesser spirits): 11 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-crack-behemoth-greater-earth-spirit]] - topic concept: [ Crack ] (Behemoth/Greater Earth Spirit): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-create-ghost-ship-spell-level-6]] - topic concept: [ Create Ghost Ship ] (Spell Level=6): 3 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-current-kraken-greater-water-spirit]] - topic concept: [ Current ] (Kraken/Greater Water Spirit): 3 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-decrease-water-pressure-undine-water-spirit]] - topic concept: [ Decrease Water Pressure ] (Undine/Water Spirit): 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-divine-armor-spell-level-7]] - topic concept: [ Divine Armor ] (Spell Level=7): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-divine-weapon-spell-level-7]] - topic concept: [ Divine Weapon ] (Spell Level=7): 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-fanaticism-valkyrie-mind-spirit]] - topic concept: [ Fanaticism ] (Valkyrie/Mind Spirit): 4 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-fear-shade-dark-spirit]] - topic concept: [ Fear ] (Shade/Dark Spirit): 4 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-firebolt-salamander-fire-spirit]] - topic concept: [ Firebolt ] (Salamander/Fire Spirit): 3 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-firestorm-efreet-greater-fire-spirit]] - topic concept: [ Firestorm ] (Efreet/Greater Fire Spirit): 3 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-forget-leprechaun-mind-spirit]] - topic concept: [ Forget ] (Leprechaun/Mind Spirit): 7 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-freeze-fenrir-greater-ice-spirit]] - topic concept: [ Freeze ] (Fenrir/Greater Ice Spirit): 20 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-full-control-spirit-various-lesser-spirits]] - topic concept: [ Full Control Spirit ] (Various lesser spirits): 2 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-greater-daemons-doppelganger]] - topic concept: [ Greater Daemons ] Doppelganger: 10 accepted assertion(s) and 11 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-healing-the-unknown-spirit-of-life]] - topic concept: [ Healing ] (The Unknown Spirit of Life): 2 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-heat-metal-spell-level-5]] - topic concept: [ Heat Metal ] (Spell Level=5): 4 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ice-storm-fenrir-greater-ice-spirit]] - topic concept: [ Ice Storm ] (Fenrir/Greater Ice Spirit): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-inspiration-spell-level-3]] - topic concept: [ Inspiration ] (Spell Level=3): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-jihad-spell-level-10]] - topic concept: [ Jihad ] (Spell Level=10): 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-legend-spell-level-7]] - topic concept: [ Legend ] (Spell Level=7): 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lesser-daemon-grunel]] - topic concept: [ Lesser Daemon ] Grunel: 39 accepted assertion(s) and 61 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lunatic-dance-spell-level-5]] - topic concept: [ Lunatic Dance ] (Spell Level=5): 5 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lunatic-seed-spell-level-4]] - topic concept: [ Lunatic Seed ] (Spell Level=4): 7 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-maze-woods-ent-greater-plant-spirit]] - topic concept: [ Maze Woods ] (Ent/Greater Plant Spirit): 4 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-missile-protection-sylph-wind-spirit]] - topic concept: [ Missile Protection ] (Sylph/Wind Spirit): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-mute-sylph-wind-spirit]] - topic concept: [ Mute ] (Sylph/Wind Spirit): 4 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-nightmare-incubus-succubus-dream-spirit]] - topic concept: [ Nightmare ] (Incubus, Succubus/Dream Spirit): 11 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-preserve-sound-sylph-wind-spirit]] - topic concept: [ Preserve Sound ] (Sylph/Wind Spirit): 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-purification-undine-water-spirit]] - topic concept: [ Purification ] (Undine/Water Spirit): 4 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-restore-health-the-unknown-spirit-of-life]] - topic concept: [ Restore Health ] (The Unknown Spirit of Life): 4 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sense-evil-spell-level-1]] - topic concept: [ Sense Evil ] (Spell Level=1): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sense-metal-spell-level-3]] - topic concept: [ Sense Metal ] (Spell Level=3): 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shade-shade-dark-spirit]] - topic concept: [ Shade ] (Shade/Dark Spirit): 8 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shoot-arrow-sylph-wind-spirit]] - topic concept: [ Shoot Arrow ] (Sylph/Wind Spirit): 9 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-silence-sylph-wind-spirit]] - topic concept: [ Silence ] (Sylph/Wind Spirit): 5 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sink-undine-water-spirit]] - topic concept: [ Sink ] (Undine/Water Spirit): 3 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sleep-sandman-mind-spirit]] - topic concept: [ Sleep ] (Sandman/Mind Spirit): 3 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-snare-gnome-earth-spirit]] - topic concept: [ Snare ] (Gnome/Earth Spirit): 4 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-stone-blast-gnome-earth-spirit]] - topic concept: [ Stone Blast ] (Gnome/Earth Spirit): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-suffocate-djinn-wind-spirit]] - topic concept: [ Suffocate ] (Djinn/Wind Spirit): 5 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-tunnel-gnome-earth-spirit]] - topic concept: [ Tunnel ] (Gnome/Earth Spirit): 13 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-valkyrie-blessing-valkyrie-mind-spirit]] - topic concept: [ Valkyrie Blessing ] (Valkyrie/Mind Spirit): 5 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-valkyrie-javelin-valkyrie-mind-spirit]] - topic concept: [ Valkyrie Javelin ] (Valkyrie/Mind Spirit): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-water-breathing-undine-water-spirit]] - topic concept: [ Water Breathing ] (Undine/Water Spirit): 2 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-weak-point-spell-level-3]] - topic concept: [ Weak Point ] (Spell Level=3): 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-windstorm-djinn-greater-wind-spirit]] - topic concept: [ Windstorm ] (Djinn/Greater Wind Spirit): 6 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-footprint-tracking-intelligence-no-equipment-restriction-not-retriable]] - topic concept: [ ① Footprint Tracking [Intelligence] ] (No equipment restriction, not retriable): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-tumble-agility-equipment-restriction]] - topic concept: [ ① Tumble [Agility] ] (Equipment restriction): 2 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-first-aid-no-equipment-restriction]] - topic concept: [ ② First-Aid [-] ] (No equipment restriction): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lockpicking-dexterity-no-equipment-restriction-not-retriable]] - topic concept: [ ② Lockpicking [Dexterity]] (No equipment restriction, not retriable): 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-acrobatics-agility-equipment-restriction]] - topic concept: [ ③ Acrobatics [Agility] ] (Equipment restriction): 5 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-astrology-intelligence-not-retriable]] - topic concept: [ ③ Astrology [Intelligence] ] (Not retriable): 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-camouflage-intelligence-equipment-restriction]] - topic concept: [ ③ Camouflage [Intelligence] ] (Equipment restriction): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-herbs-intelligence-not-retriable]] - topic concept: [ ③ Herbs [Intelligence] ] (Not retriable): 18 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-knowledge-intelligence-not-retriable]] - topic concept: [ ④ Knowledge [Intelligence]] (Not retriable): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-swim-agility-equipment-restriction]] - topic concept: [ ④ Swim [Agility] ] (Equipment restriction): 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction]] - topic concept: [ ⑤ Listen [Intelligence] ] (Equipment restriction): 9 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-research-intelligence-not-retriable]] - topic concept: [ ⑤ Research [Intelligence] ] (Not retriable): 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-stealthy-step-agility-equipment-restriction]] - topic concept: [ ⑥ Stealthy Step [Agility] ] (Equipment restriction): 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-treasure-appraisal-intelligence-not-retriable]] - topic concept: [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable): 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-medicines-intelligence-appraisal-only-not-retriable]] - topic concept: [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable): 17 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-pickpocket-dexterity-equipment-restriction]] - topic concept: [ ⑦ Pickpocket [Dexterity] ] (Equipment restriction): 3 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-hide-agility-equipment-restriction]] - topic concept: [ ⑧ Hide [Agility] ] (Equipment restriction): 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-map-creation-intelligence-no-equipment-restriction-not-retriable]] - topic concept: [ ⑨ Map Creation [Intelligence]] (No equipment restriction, not retriable): 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-search-intelligence-no-equipment-restriction-not-retriable]] - topic concept: [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable): 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-climb-agility-equipment-restriction]] - topic concept: [ ⑩ Climb [Agility] ] (Equipment restriction): 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-weather-prediction-intelligence-no-equipment-restriction-not-retriable]] - topic concept: [ ⑩ Weather Prediction [Intelligence] ] (No equipment restriction, not retriable): 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-special-combat-dexterity-agility-strength-equipment-restriction]] - topic concept: [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction): 10 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-long-jump-high-jump-agility-equipment-restriction]] - topic concept: [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction): 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-projectile-use-dexterity-strength-no-equipment-restriction]] - topic concept: [ ⑫ Projectile Use [Dexterity, Strength] ] (No equipment restriction): 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-follow-agility-equipment-restriction]] - topic concept: [ ⑬ Follow [Agility] ] (Equipment restriction): 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-disguise-dexterity-no-equipment-restriction]] - topic concept: [ ⑭ Disguise [Dexterity] ] (No equipment restriction): 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-surprise-attack-intelligence-no-equipment-restriction]] - topic concept: [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-treasure-appraisal-intelligence-no-equipment-restriction-not-retriable]] - topic concept: [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable): 10 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-remove-set-trap-dexterity-equipment-restriction-not-retriable]] - topic concept: [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable): 6 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ability]] - topic concept: Ability: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ability-scores]] - topic concept: Ability Scores: 18 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-accomplishing-missions]] - topic concept: Accomplishing Missions: 5 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-acquiring-rune-master-skills-and-increasing-levels]] - topic concept: Acquiring Rune Master Skills and Increasing Levels: 22 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-action-canceling]] - topic concept: Action Canceling: 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-action-order]] - topic concept: Action Order: 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-actions-you-can-take-while-standing-still]] - topic concept: Actions You Can Take While Standing Still: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-adventure-treasure-and-reward-amounts]] - topic concept: Adventure Treasure and Reward Amounts: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-adventurer-death-checks]] - topic concept: Adventurer Death Checks: 10 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-adventurer]] - topic concept: Adventurers: 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-age-of-mythology]] - topic concept: Age of Mythology: 17 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ancient-magic-list]] - topic concept: Ancient Magic List: 40 accepted assertion(s) and 65 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-and-armor]] - topic concept: and Armor: 14 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-and-runes]] - topic concept: and Runes: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-area-aim]] - topic concept: Area Aim: 17 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-armor]] - topic concept: Armor: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-artwork]] - topic concept: Artwork: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-asking-npcs-to-use-magic]] - topic concept: Asking NPCs to Use Magic: 31 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-attack-power-modifier]] - topic concept: Attack Power Modifier: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-attacks-from-characters-against-monsters]] - topic concept: Attacks From Characters Against Monsters: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-attacks-from-monsters-against-characters]] - topic concept: Attacks From Monsters Against Characters: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-automatic-success-restrictions]] - topic concept: Automatic Success Restrictions: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ballista]] - topic concept: Ballista: 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-bard-skill]] - topic concept: Bard Skill: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-baseline-scores]] - topic concept: Baseline Scores: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-blindnes]] - topic concept: Blindness: 2 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-bonuses-and-penalties]] - topic concept: Bonuses and Penalties: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-books-related-to-sword-world-rpg]] - topic concept: Books Related to Sword World RPG: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-boomerang]] - topic concept: Boomerang: 2 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-calendar-and-time]] - topic concept: Calendar and Time: 16 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-catalysts-other-than-staves]] - topic concept: Catalysts Other Than Staves: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-central-region-language-m-rdan-eremire-gundar-saine]] - topic concept: Central Region (Language = Mārdan/Eremire Gundar/Saine): 12 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-cestu]] - topic concept: Cestus: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-cha-za-special-holy-magic-list-luck]] - topic concept: Cha Za Special Holy Magic List [ Luck ]: 5 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-change-attack-targets]] - topic concept: Change Attack Targets: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-changes-to-magic-procedure]] - topic concept: Changes to Magic Procedure: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-chaosland-language-native-language]] - topic concept: Chaosland (Language = Native Language): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-character-creation]] - topic concept: Character Creation: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-charge]] - topic concept: Charge: 11 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-charm-mind]] - topic concept: Charm (Mind): 5 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-check]] - topic concept: Checks: 12 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-citizen]] - topic concept: Citizens: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-climate]] - topic concept: Climate: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection]] - topic concept: Collections: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-combat-between-monsters]] - topic concept: Combat Between Monsters: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-combat-in-special-situations]] - topic concept: Combat in Special Situations: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-combat-in-which-monsters-roll-dice]] - topic concept: Combat in Which Monsters Roll Dice: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-common-runes]] - topic concept: Common Runes: 7 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-consuming-mental-power]] - topic concept: Consuming Mental Power: 7 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-converting-character-data-to-monster-data]] - topic concept: Converting Character Data to Monster Data: 15 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-craftsman-skill]] - topic concept: Craftsman Skill: 20 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-cranequin-crossbow]] - topic concept: Cranequin Crossbow: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-critical-target-variation]] - topic concept: Critical Target Variation: 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-curiosity-mind]] - topic concept: Curiosity (Mind): 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-curse]] - topic concept: Curse: 42 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-daemons-underworld-creatures]] - topic concept: Daemons/Underworld Creatures: 12 accepted assertion(s) and 37 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-dance-mind]] - topic concept: Dance (Mind): 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-dark-magic]] - topic concept: Dark Magic: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-defense-modifier]] - topic concept: Defense Modifier: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-destruction-points]] - topic concept: Destruction Points: 17 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-detail]] - topic concept: Details: 20 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-determining-base-damage-strike-roll]] - topic concept: Determining Base Damage (Strike Roll): 22 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-difficulty-checks]] - topic concept: Difficulty Checks: 20 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-double-sixes-and-double-ones]] - topic concept: Double Sixes and Double Ones: 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-dragon-roar-magic]] - topic concept: Dragon Roar Magic: 16 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-drop-a-weapon-etc-on-the-ground]] - topic concept: Drop a Weapon, Etc. On the Ground: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-early-bird-mind]] - topic concept: Early Bird (Mind): 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-eastend-languages]] - topic concept: Eastend (Languages = ?): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-equipment]] - topic concept: Equipment: 26 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-excellent-weapons-and-armor]] - topic concept: Excellent Weapons and Armor: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-experience-points]] - topic concept: Experience Points: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-farland-languages]] - topic concept: Farland (Languages = ?): 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-for-humans-and-halfelves-raised-by-humans]] - topic concept: For Humans and HalfElves Raised by Humans: 7 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-for-races-other-than-humans]] - topic concept: For Races Other Than Humans: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-forcelia]] - topic concept: Forcelia: 33 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-forger-of-colors]] - topic concept: Forger of Colors: 31 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-four-types-of-experience-points]] - topic concept: Four Types of Experience Points: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-full-defense]] - topic concept: Full Defense: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-full-resistance]] - topic concept: Full Resistance: 12 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-garrote]] - topic concept: Garrote: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-gems-and-precious-metals]] - topic concept: Gems and Precious Metals: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-general-modifiers]] - topic concept: General Modifiers: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-geography]] - topic concept: Geography: 23 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-grapple]] - topic concept: Grapple: 21 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-guide-to-forcelia-and-alecrast]] - topic concept: Guide to Forcelia and Alecrast: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-guild]] - topic concept: Guilds: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-healer-skill]] - topic concept: Healer Skill: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-healing]] - topic concept: Healing: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-holding-weapons-in-both-hands]] - topic concept: Holding Weapons in Both Hands: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-how-to-create-general-skills]] - topic concept: How to Create General Skills: 11 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-how-to-use-experience-points-increasing-skill-levels]] - topic concept: How to Use Experience Points: Increasing Skill Levels: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-human]] - topic concept: Humans: 33 accepted assertion(s) and 94 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-hunter-skill]] - topic concept: Hunter Skill: 11 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-increasing-general-skills]] - topic concept: Increasing General Skills: 12 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-island-of-damned-language-native-language]] - topic concept: Island of Damned (Language = Native Language): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-islands-of-azarn-language-eastern-m-rdan]] - topic concept: Islands of Azarn (Language = Eastern/Mārdan): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-kardis-special-dark-magic-list]] - topic concept: Kardis Special Dark Magic List: 2 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-kingdom]] - topic concept: Kingdoms: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-king]] - topic concept: Kings: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lance]] - topic concept: Lance: 6 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-language]] - topic concept: Languages: 13 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-long-distance-modifiers]] - topic concept: Long Distance Modifiers: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-loss-of-ability-scores-and-its-impact]] - topic concept: Loss of Ability Scores and Its Impact: 22 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lost-spells]] - topic concept: Lost Spells: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lullaby-mind]] - topic concept: Lullaby (Mind): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magic-list-cure-wounds]] - topic concept: Magic List [ Cure Wounds ]: 20 accepted assertion(s) and 25 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magic-list-recall-spirit]] - topic concept: Magic List [ Recall Spirit ]: 19 accepted assertion(s) and 16 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magical-item-list]] - topic concept: Magical Item List: 15 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magical-items]] - topic concept: Magical Items: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magical-weapons-and-armor]] - topic concept: Magical Weapons and Armor: 15 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-main-gauche-sword-breaker]] - topic concept: Main-gauche/Sword Breaker: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-march-mind]] - topic concept: March (Mind): 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-marfa-special-holy-magic-list]] - topic concept: Marfa Special Holy Magic List: 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-merchant-skill]] - topic concept: Merchant Skill: 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-merchant-s-license]] - topic concept: Merchant's License: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-mithril-silver-weapons-and-armor]] - topic concept: Mithril Silver Weapons and Armor: 15 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-monster-defense-points]] - topic concept: Monster Defense Points: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-monster-level-and-adventurer-level]] - topic concept: Monster Level and Adventurer Level: 9 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-monster-resistance]] - topic concept: Monster Resistance: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-monster]] - topic concept: Monsters: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-morale-mind]] - topic concept: Morale (Mind): 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-movement-and-actions]] - topic concept: Movement and Actions: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-mow-down]] - topic concept: Mow Down: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-myrii-special-holy-magic-list-battle-song-spell-level-5]] - topic concept: Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5): 3 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-nobles-knight]] - topic concept: Nobles/Knights: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-northeast-region-language-eastern-m-rdan]] - topic concept: Northeast Region (Language = Eastern/Mārdan): 15 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-northern-central-region-language-western-gundar]] - topic concept: Northern Central Region (Language = Western/Gundar): 25 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-nostalgia-mind]] - topic concept: Nostalgia (Mind): 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-npc-and-monster-action-announcement]] - topic concept: NPC and Monster Action Announcement: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-number-of-projectile-shots]] - topic concept: Number of Projectile Shots: 6 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-one-handed-and-twohanded-weapons]] - topic concept: One-Handed and TwoHanded Weapons: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-oran-language-eastern-m-rdan]] - topic concept: Oran (Language = Eastern/Mārdan): 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-part-2-game-master-section]] - topic concept: Part 2 Game Master Section: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-part-3-optional-rules]] - topic concept: Part 3 Optional Rules: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-peace-mind]] - topic concept: Peace (Mind): 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-pole-weapons]] - topic concept: Pole Weapons: 28 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-power]] - topic concept: Power: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-precautions-when-using-skills]] - topic concept: Precautions When Using Skills: 11 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-price-calculation]] - topic concept: Price Calculation: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-projectile]] - topic concept: Projectiles: 2 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-race]] - topic concept: Races: 29 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ram]] - topic concept: Ram: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ready-a-sheathed-weapon]] - topic concept: Ready a Sheathed Weapon: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ready-a-weapon]] - topic concept: Ready a Weapon: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ready-a-weapon-and-attack]] - topic concept: Ready a Weapon and Attack: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-religious-organizations]] - topic concept: Religious Organizations: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-representing-special-monsters-with-character-data]] - topic concept: Representing Special Monsters with Character Data: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-reptile-check-intelligence]] - topic concept: Reptile Check [Intelligence]: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-requiem]] - topic concept: Requiem: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-required-strength]] - topic concept: Required Strength: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-resistance]] - topic concept: Resistance: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-resistance-rolls]] - topic concept: Resistance Rolls: 14 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-for-awarding-greater-experience-points]] - topic concept: Rules for Awarding Greater Experience Points: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-for-destroying-structures]] - topic concept: Rules for Destroying Structures: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-for-poison-illness-and-infection]] - topic concept: Rules for Poison, Illness and Infection: 11 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-for-sleeping-adventurers]] - topic concept: Rules for Sleeping Adventurers: 5 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-for-sleeping-monsters]] - topic concept: Rules for Sleeping Monsters: 15 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-regarding-language]] - topic concept: Rules Regarding Language: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rune-masters-status]] - topic concept: Rune Masters' Status: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sage-skill]] - topic concept: Sage Skill: 18 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sailor-skill]] - topic concept: Sailor Skill: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sap-blackjack]] - topic concept: Sap (Blackjack): 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-scores-used-in-weapon-combat]] - topic concept: Scores Used in Weapon Combat: 32 accepted assertion(s) and 10 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-setting-target-scores-and-difficulties]] - topic concept: Setting Target Scores and Difficulties: 21 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sheath-a-weapon-etc]] - topic concept: Sheath a Weapon, Etc.: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shield-attack]] - topic concept: Shield Attack: 8 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shield-modifiers]] - topic concept: Shield Modifiers: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shield]] - topic concept: Shields: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shotel]] - topic concept: Shotel: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-should-you-use-a-target-score-check-or-a-difficulty-check]] - topic concept: Should You Use a Target Score Check or a Difficulty Check?: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-silver-weapons-and-armor]] - topic concept: Silver Weapons and Armor: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sing-mind]] - topic concept: Sing (Mind): 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-skill]] - topic concept: Skills: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-slave]] - topic concept: Slaves: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-snipe]] - topic concept: Snipe: 13 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-southern-central-region-language-western-gundar]] - topic concept: Southern Central Region (Language = Western/Gundar): 26 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-special]] - topic concept: Special: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-special-bonuses]] - topic concept: Special Bonuses: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-special-dark-magic-list]] - topic concept: Special Dark Magic List: 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-spell-list]] - topic concept: Spell List: 10 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-spellsong]] - topic concept: Spellsongs: 15 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-spirit-magic-list]] - topic concept: Spirit Magic List: 6 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-stand-up-and-ready-yourself]] - topic concept: Stand Up and Ready Yourself: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-starting-adventurer-languages]] - topic concept: Starting Adventurer Languages: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-strike-power-modifier]] - topic concept: Strike Power Modifier: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-strong-blow]] - topic concept: Strong Blow: 3 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-success-rolls]] - topic concept: Success Rolls: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-success-rolls-using-adventurer-level]] - topic concept: Success Rolls Using Adventurer Level: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sun-moon-stars]] - topic concept: Sun, Moon, Stars: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-surprise-attacks]] - topic concept: Surprise Attacks: 7 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-switch-a-weapon-from-hand-to-hand]] - topic concept: Switch a Weapon From Hand to Hand: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sword-world-rpg-complete-edition-rulebook]] - topic concept: Sword World RPG: Complete Edition Rulebook: 24 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-target-scores]] - topic concept: Target Scores: 3 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-age-of-magic-the-kingdom-of-kastuul]] - topic concept: The Age of Magic = The Kingdom of Kastuul: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-age-of-sword-the-new-kingdoms]] - topic concept: The Age of Sword = The New Kingdoms: 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-difference-between-general-skills-and-adventurer-skills]] - topic concept: The Difference Between General Skills and Adventurer Skills: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-meaning-of-the-rulebook]] - topic concept: The Meaning of the Rulebook: 21 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-nameless-god-of-madness-wicked-god]] - topic concept: The Nameless God of Madness (Wicked God): 20 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-nameless-god-of-madness-special-dark-magic-list]] - topic concept: The Nameless God of Madness Special Dark Magic List: 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-thief-skill]] - topic concept: Thief Skill: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-thieves-guild-sorcerers-guild-academy]] - topic concept: Thieves Guild/Sorcerers' Guild (Academy): 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-throwing-multiple-darts-or-daggers]] - topic concept: Throwing Multiple Darts or Daggers: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-treasure-and-rewards-in-sword-world]] - topic concept: Treasure and Rewards in Sword World: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-treasure-types]] - topic concept: Treasure Types: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-unconscious-and-death-checks]] - topic concept: Unconscious and Death Checks: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-use-magic-and-projectiles]] - topic concept: Use Magic and Projectiles: 2 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-vibrato]] - topic concept: Vibrato: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-water-combat]] - topic concept: Water Combat: 6 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-weapon-and-armor-restrictions]] - topic concept: Weapon and Armor Restrictions: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-weapon-combat-skills]] - topic concept: Weapon Combat Skills: 2 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-weapons-and-armor-that-are-too-heavy]] - topic concept: Weapons and Armor That Are Too Heavy: 4 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-western-countries-language-western-except-palmer-village-which-uses-eastern]] - topic concept: Western Countries (Language: Western, except Palmer Village which uses Eastern): 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-what-is-a-role-playing-game-rpg]] - topic concept: What is a Role-Playing Game (RPG)?: 28 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-what-you-ll-need-to-play-sword-world-rpg]] - topic concept: What You'll Need to Play Sword World RPG: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-when-a-monster-casts-magic-on-adventurers]] - topic concept: When a Monster Casts Magic on Adventurers: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-a-mix-of-adventurers-and-monsters]] - topic concept: When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: 6 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-adventurers]] - topic concept: When an Adventurer Casts Magic on Adventurers: 9 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-monsters]] - topic concept: When an Adventurer Casts Magic on Monsters: 5 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-whip-net-bola]] - topic concept: Whip, Net, Bola: 9 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-withdraw-flee-from-engagement]] - topic concept: Withdraw (Flee) From Engagement: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-work-requests-to-npcs]] - topic concept: Work Requests to NPCs: 14 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-world]] - topic concept: World: 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-accessories-earrings-of-interpretation]] - topic concept: 《 Accessories 》 [ Earrings of Interpretation ]: 45 accepted assertion(s) and 47 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magic-armor-2-non-metal-or-ring-mail]] - topic concept: 《 Magic Armor (+2) 》 Non-metal or ring mail: 27 accepted assertion(s) and 20 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-
-## Broad Topic Pages
-
-- [[sword-world-rpg-complete-edition-1-3-4-explanation-of-adventurer-skills]] - broad topic: 1.3.4 Explanation of Adventurer Skills: 57 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-12-2-1-poisons]] - broad topic: 12.2.1 Poisons: 102 accepted assertion(s) and 57 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-10-magical-creatures]] - broad topic: 13.2.10 Magical Creatures: 152 accepted assertion(s) and 129 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-2-fae]] - broad topic: 13.2.2 Fae: 57 accepted assertion(s) and 11 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-4-spirits]] - broad topic: 13.2.4 Spirits: 128 accepted assertion(s) and 79 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-5-titans]] - broad topic: 13.2.5 Titans: 78 accepted assertion(s) and 43 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-7-animals]] - broad topic: 13.2.7 Animals: 299 accepted assertion(s) and 289 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-14-4-2-list-of-magical-items]] - broad topic: 14.4.2 List of Magical Items: 49 accepted assertion(s) and 57 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3rd-level-ancient-magic-list]] - broad topic: 3rd Level Ancient Magic List: 65 accepted assertion(s) and 42 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-9-magic-types]] - broad topic: 5.1.9 Magic Types: 84 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6th-level-ancient-magic-list-acid-cloud]] - broad topic: 6th Level Ancient Magic List [ Acid Cloud ]: 56 accepted assertion(s) and 76 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6th-level-spirit-magic-list]] - broad topic: 6th Level Spirit Magic List: 53 accepted assertion(s) and 20 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-common-adventurer-abilities]] - broad topic: Common Adventurer Abilities: 75 accepted assertion(s) and 21 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-creeping-tree]] - broad topic: Creeping Tree: 257 accepted assertion(s) and 258 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-currency]] - broad topic: Currency: 63 accepted assertion(s) and 29 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-filling-out-the-character-sheet]] - broad topic: Filling Out the Character Sheet: 64 accepted assertion(s) and 19 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-how-to-read-the-monster-catalog]] - broad topic: How to Read the Monster Catalog: 146 accepted assertion(s) and 30 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-illnesse]] - broad topic: Illnesses: 99 accepted assertion(s) and 47 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-mythical-beasts-and-magical-beasts]] - broad topic: Mythical Beasts and Magical Beasts: 287 accepted assertion(s) and 213 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-priest-skill]] - broad topic: Priest Skill: 50 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-types-of-monsters]] - broad topic: Types of Monsters: 73 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-youma]] - broad topic: Youma: 71 accepted assertion(s) and 32 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-staves-and-wands-ice-blaze-wand]] - broad topic: 《 Staves and Wands 》 [ Ice Blaze Wand ]: 153 accepted assertion(s) and 183 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1-replay-collections]] - topic-concept: 1. Replay Collections; 13 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-1-3-1-skill-basics]] - topic-concept: 1.3.1 Skill Basics; 9 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-1-3-2-skill-types]] - topic-concept: 1.3.2 Skill Types; 16 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-1-3-3-adventurer-level]] - topic-concept: 1.3.3 Adventurer Level; 4 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-1-3-4-explanation-of-adventurer-skills]] - broad-topic: 1.3.4 Explanation of Adventurer Skills; 69 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-1-4-1-choose-a-race]] - topic-concept: 1.4.1 Choose a Race; 31 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-1-4-2-determine-ability-scores]] - topic-concept: 1.4.2 Determine Ability Scores; 28 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-1-4-4-age-gender-name]] - topic-concept: 1.4.4 Age, Gender, Name; 56 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-1-4-5-character-growth-via-starting-experience-points]] - topic-concept: 1.4.5 Character Growth via Starting Experience Points; 33 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-1-4-6-purchasing-weapons-and-armor]] - topic-concept: 1.4.6 Purchasing Weapons and Armor; 4 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-1-4-7-restrictions-on-weapons-and-armor-based-on-skill]] - topic-concept: 1.4.7 Restrictions on Weapons and Armor Based on Skill; 50 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-10-5]] - topic-concept: 10.5; 7 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-10th-level-ancient-magic-list-dimension-gate]] - topic-concept: 10th Level Ancient Magic List [ Dimension Gate ]; 42 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-10th-level-basic-dark-magic-list-call-god]] - topic-concept: 10th Level Basic Dark Magic List [ Call God ]; 11 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-10th-level-basic-holy-magic-list-call-god]] - topic-concept: 10th Level Basic Holy Magic List [ Call God ]; 55 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-10th-level-dragon-roar-magic-list-reborn-dragon]] - topic-concept: 10th Level Dragon Roar Magic List [ Reborn Dragon ]; 9 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-11-2]] - topic-concept: 11.2; 4 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-11-2-2-basic-dark-magic-list]] - topic-concept: 11.2.2 Basic Dark Magic List; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-12-2-1-poisons]] - broad-topic: 12.2.1 Poisons; 164 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-12-2-3-herbs]] - topic-concept: 12.2.3 Herbs; 50 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-13-2-1]] - topic-concept: 13.2.1; 2 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-13-2-10-magical-creatures]] - broad-topic: 13.2.10 Magical Creatures; 304 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-13-2-13-other]] - topic-concept: 13.2.13 Other; 32 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-13-2-2-fae]] - broad-topic: 13.2.2 Fae; 74 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-13-2-4-spirits]] - broad-topic: 13.2.4 Spirits; 231 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-13-2-5-titans]] - broad-topic: 13.2.5 Titans; 131 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-13-2-7-animals]] - broad-topic: 13.2.7 Animals; 614 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-13-4]] - topic-concept: 13.4; 3 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-13-6]] - topic-concept: 13.6; 4 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-13-6-1]] - topic-concept: 13.6.1; 38 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-13-6-2]] - topic-concept: 13.6.2; 12 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-13-6-3-special-attacks-other]] - topic-concept: 13.6.3 Special Attacks: Other; 48 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-13-6-4]] - topic-concept: 13.6.4; 26 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-13-6-5]] - topic-concept: 13.6.5; 22 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-13-6-6]] - topic-concept: 13.6.6; 25 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-13-6-7-special-defense-abilities-weaknesses]] - topic-concept: 13.6.7 Special Defense Abilities: Weaknesses; 15 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-14-2]] - topic-concept: 14.2; 11 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-14-2-1-negotiations-with-adventurers]] - topic-concept: 14.2.1 Negotiations With Adventurers; 12 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-14-4-2-list-of-magical-items]] - broad-topic: 14.4.2 List of Magical Items; 107 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-16-6-2-two-handed-attacks]] - topic-concept: 16.6.2 Two-Handed Attacks; 6 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-17-5]] - topic-concept: 17.5; 4 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-18-2]] - topic-concept: 18.2; 10 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-18-3-1-how-to-read-the-structure-strength-table]] - topic-concept: 18.3.1 How to Read the Structure Strength Table; 6 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-18-3-2-structure-material-list]] - topic-concept: 18.3.2 Structure Material List; 38 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-18-3-3-handling-spirit-walls]] - topic-concept: 18.3.3 Handling Spirit Walls; 7 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-1st-level-ancient-magic-list-unlock]] - topic-concept: 1st Level Ancient Magic List [ Unlock ]; 27 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-1st-level-basic-dark-magic-list]] - topic-concept: 1st Level Basic Dark Magic List; 18 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-1st-level-dragon-roar-magic-list-iron-stomach]] - topic-concept: 1st Level Dragon Roar Magic List [ Iron Stomach ]; 24 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-2-learn-from-a-sorcerer-who-knows-lost-spell]] - topic-concept: 2. Learn From a Sorcerer Who Knows Lost Spell; 12 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-2-3-1-automatic-success-and-automatic-failure]] - topic-concept: 2.3.1 Automatic Success and Automatic Failure; 4 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-2-4]] - topic-concept: 2.4; 2 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-2-5]] - topic-concept: 2.5; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-2-5-2-how-to-make-a-difficulty-check]] - topic-concept: 2.5.2 How to Make a Difficulty Check; 15 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-2-5-3-analogy-of-success-and-failure]] - topic-concept: 2.5.3 Analogy of Success and Failure; 22 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-2nd-level-ancient-magic-list-oak]] - topic-concept: 2nd Level Ancient Magic List [ Oak ]; 64 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-2nd-level-basic-dark-magic-list]] - topic-concept: 2nd Level Basic Dark Magic List; 11 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-2nd-level-basic-holy-magic-list-cure-deafness]] - topic-concept: 2nd Level Basic Holy Magic List [ Cure Deafness ]; 35 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-2nd-level-dragon-roar-magic-list]] - topic-concept: 2nd Level Dragon Roar Magic List; 29 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit]] - topic-concept: 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit); 17 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-3-1-1-order-of-action-announcements]] - topic-concept: 3.1.1 Order of Action Announcements; 21 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-3-1-2-player-action-announcements]] - topic-concept: 3.1.2 Player Action Announcements; 9 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-3-1-3-npc-and-monster-action-announcements]] - topic-concept: 3.1.3 NPC and Monster Action Announcements; 13 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-3-2-1-delaying-an-action]] - topic-concept: 3.2.1 Delaying an Action; 18 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-3-3]] - topic-concept: 3.3; 6 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-3-4-1]] - topic-concept: 3.4.1; 3 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-3-4-2-actions-you-can-take]] - topic-concept: 3.4.2 Actions You Can Take; 10 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-3-4-3]] - topic-concept: 3.4.3; 3 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-3rd-level-ancient-magic-list]] - broad-topic: 3rd Level Ancient Magic List; 121 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-3rd-level-basic-dark-magic-list-poison]] - topic-concept: 3rd Level Basic Dark Magic List [ Poison ]; 25 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-3rd-level-basic-holy-magic-list-cure-poison]] - topic-concept: 3rd Level Basic Holy Magic List [ Cure Poison ]; 31 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-3rd-level-dragon-roar-magic-list]] - topic-concept: 3rd Level Dragon Roar Magic List; 28 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit]] - topic-concept: 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit); 12 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-4-sword-world-novels-and-short-story-collections]] - topic-concept: 4. Sword World Novels and Short Story Collections; 6 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-4-10]] - topic-concept: 4.10; 7 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-4-11-1-magical-recovery]] - topic-concept: 4.11.1 Magical Recovery; 4 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-4-11-2-first-aid]] - topic-concept: 4.11.2 First-Aid; 5 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-4-11-3-natural-recovery]] - topic-concept: 4.11.3 Natural Recovery; 5 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-4-5-1-hit-checks]] - topic-concept: 4.5.1 Hit Checks; 12 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-4-5-3-bonus-damage]] - topic-concept: 4.5.3 Bonus Damage; 8 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-4-6-1-hit-evasion-checks]] - topic-concept: 4.6.1 Hit (Evasion) Checks; 12 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-4-6-3-defense-rolls]] - topic-concept: 4.6.3 Defense Rolls; 10 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-4-6-4-damage-reduction]] - topic-concept: 4.6.4 Damage Reduction; 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-4-6-5-final-damage]] - topic-concept: 4.6.5 Final Damage; 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-4-7-1-hit-checks]] - topic-concept: 4.7.1 Hit Checks; 12 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-4-7-2-damage-checks]] - topic-concept: 4.7.2 Damage Checks; 10 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-4-9-2-death-checks-every-hour]] - topic-concept: 4.9.2 Death Checks Every Hour; 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-4-9-3-monster-death-check]] - topic-concept: 4.9.3 Monster Death Check; 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-4-9-4-mercy]] - topic-concept: 4.9.4 Mercy; 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-4th-level-ancient-magic-list-counter-sense]] - topic-concept: 4th Level Ancient Magic List [ Counter Sense ]; 92 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-4th-level-basic-dark-magic-list-control-imp]] - topic-concept: 4th Level Basic Dark Magic List [ Control Imp ]; 28 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-4th-level-basic-holy-magic-list-cure-disease]] - topic-concept: 4th Level Basic Holy Magic List [ Cure Disease ]; 24 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-4th-level-dragon-roar-magic-list]] - topic-concept: 4th Level Dragon Roar Magic List; 23 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-4th-level-spirit-magic-list-water-walking-undine-water-spirit]] - topic-concept: 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit); 11 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-5-1-1-types-of-magic]] - topic-concept: 5.1.1 Types of Magic; 10 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-5-1-13-spirit-magic-and-the-shaman-skill]] - topic-concept: 5.1.13 Spirit Magic and the Shaman Skill; 43 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-5-1-2-rune-masters-and-rune-master-skills]] - topic-concept: 5.1.2 Rune Masters and Rune Master Skills; 19 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-5-1-3-learning-magic]] - topic-concept: 5.1.3 Learning Magic; 14 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-5-1-4-how-to-use-magic]] - topic-concept: 5.1.4 How to Use Magic; 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-5-1-7-magic-expansion]] - topic-concept: 5.1.7 Magic Expansion; 64 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-5-1-8-magic-contraction]] - topic-concept: 5.1.8 Magic Contraction; 40 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-5-1-9-magic-types]] - broad-topic: 5.1.9 Magic Types; 134 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-5-3]] - topic-concept: 5.3; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-5-3-1-spellsong-list]] - topic-concept: 5.3.1 Spellsong List; 3 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-5th-level-ancient-magic-list-apport]] - topic-concept: 5th Level Ancient Magic List [ Apport ]; 90 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-5th-level-basic-dark-magic-list]] - topic-concept: 5th Level Basic Dark Magic List; 12 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-5th-level-basic-holy-magic-list-quest]] - topic-concept: 5th Level Basic Holy Magic List [ Quest ]; 30 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-5th-level-dragon-roar-magic-list-dragon-s-roar]] - topic-concept: 5th Level Dragon Roar Magic List [ Dragon's Roar ]; 25 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-5th-level-spirit-magic-list-control-plant]] - topic-concept: 5th Level Spirit Magic List [ Control Plant ]; 14 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-6-collection-series]] - topic-concept: 6. Collection Series; 3 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-6-4]] - topic-concept: 6.4; 14 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-6-5]] - topic-concept: 6.5; 3 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-6th-level-ancient-magic-list-acid-cloud]] - broad-topic: 6th Level Ancient Magic List [ Acid Cloud ]; 141 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-6th-level-basic-dark-magic-list-mesmerize]] - topic-concept: 6th Level Basic Dark Magic List [ Mesmerize ]; 18 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-6th-level-basic-holy-magic-list]] - topic-concept: 6th Level Basic Holy Magic List; 29 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-6th-level-dragon-roar-magic-list]] - topic-concept: 6th Level Dragon Roar Magic List; 33 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-6th-level-spirit-magic-list]] - broad-topic: 6th Level Spirit Magic List; 88 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-7-old-version-of-the-rules]] - topic-concept: 7. Old Version of the Rules; 2 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-7-2]] - topic-concept: 7.2; 15 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-7-3]] - topic-concept: 7.3; 13 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-7-5]] - topic-concept: 7.5; 9 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-7th-level-ancient-magic-list-dispel-order]] - topic-concept: 7th Level Ancient Magic List [ Dispel Order ]; 103 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-7th-level-basic-holy-magic-list]] - topic-concept: 7th Level Basic Holy Magic List; 25 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-7th-level-dragon-roar-magic-list-summon-wyrm]] - topic-concept: 7th Level Dragon Roar Magic List [ Summon Wyrm ]; 14 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-8-game-master-screen]] - topic-concept: 8. Game Master Screen; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-8-3]] - topic-concept: 8.3; 13 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-8-4]] - topic-concept: 8.4; 2 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-8th-level-ancient-magic-list]] - topic-concept: 8th Level Ancient Magic List; 66 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-8th-level-basic-dark-magic-list-cripple]] - topic-concept: 8th Level Basic Dark Magic List [ Cripple ]; 19 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-8th-level-basic-holy-magic-list]] - topic-concept: 8th Level Basic Holy Magic List; 43 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-8th-level-dragon-roar-magic-list]] - topic-concept: 8th Level Dragon Roar Magic List; 11 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-8th-level-spirit-magic-list-ice-coffin]] - topic-concept: 8th Level Spirit Magic List [ Ice Coffin ]; 14 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-9-3]] - topic-concept: 9.3; 6 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-9-4]] - topic-concept: 9.4; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-9th-level-ancient-magic-list-command-golem]] - topic-concept: 9th Level Ancient Magic List [ Command Golem ]; 78 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-9th-level-basic-dark-magic-list-plague]] - topic-concept: 9th Level Basic Dark Magic List [ Plague ]; 32 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-9th-level-dragon-roar-magic-list-summon-lesser-dragon]] - topic-concept: 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ]; 6 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit]] - topic-concept: 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit); 16 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-berserk-spell-level-3]] - topic-concept: [ Berserk ] (Spell Level=3); 11 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-binding-dryad-plant-spirit]] - topic-concept: [ Binding ] (Dryad/Plant Spirit); 12 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-brownie-brownie-building-spirit]] - topic-concept: [ Brownie ] (Brownie/Building Spirit); 11 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-charm-dryad-plant-spirit]] - topic-concept: [ Charm ] (Dryad/Plant Spirit); 17 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-confusion-leprechaun-mind-spirit]] - topic-concept: [ Confusion ] (Leprechaun/Mind Spirit); 17 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-control-spirit-various-lesser-spirits]] - topic-concept: [ Control Spirit ] (Various lesser spirits); 28 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-crack-behemoth-greater-earth-spirit]] - topic-concept: [ Crack ] (Behemoth/Greater Earth Spirit); 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-create-ghost-ship-spell-level-6]] - topic-concept: [ Create Ghost Ship ] (Spell Level=6); 10 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-current-kraken-greater-water-spirit]] - topic-concept: [ Current ] (Kraken/Greater Water Spirit); 11 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-decrease-water-pressure-undine-water-spirit]] - topic-concept: [ Decrease Water Pressure ] (Undine/Water Spirit); 5 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-divine-armor-spell-level-7]] - topic-concept: [ Divine Armor ] (Spell Level=7); 10 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-divine-weapon-spell-level-7]] - topic-concept: [ Divine Weapon ] (Spell Level=7); 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-fanaticism-valkyrie-mind-spirit]] - topic-concept: [ Fanaticism ] (Valkyrie/Mind Spirit); 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-fear-shade-dark-spirit]] - topic-concept: [ Fear ] (Shade/Dark Spirit); 14 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-firebolt-salamander-fire-spirit]] - topic-concept: [ Firebolt ] (Salamander/Fire Spirit); 8 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-firestorm-efreet-greater-fire-spirit]] - topic-concept: [ Firestorm ] (Efreet/Greater Fire Spirit); 11 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-forget-leprechaun-mind-spirit]] - topic-concept: [ Forget ] (Leprechaun/Mind Spirit); 16 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-freeze-fenrir-greater-ice-spirit]] - topic-concept: [ Freeze ] (Fenrir/Greater Ice Spirit); 40 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-full-control-spirit-various-lesser-spirits]] - topic-concept: [ Full Control Spirit ] (Various lesser spirits); 6 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-greater-daemons-doppelganger]] - topic-concept: [ Greater Daemons ] Doppelganger; 25 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-healing-the-unknown-spirit-of-life]] - topic-concept: [ Healing ] (The Unknown Spirit of Life); 10 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-heat-metal-spell-level-5]] - topic-concept: [ Heat Metal ] (Spell Level=5); 8 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-ice-storm-fenrir-greater-ice-spirit]] - topic-concept: [ Ice Storm ] (Fenrir/Greater Ice Spirit); 4 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-inspiration-spell-level-3]] - topic-concept: [ Inspiration ] (Spell Level=3); 13 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-jihad-spell-level-10]] - topic-concept: [ Jihad ] (Spell Level=10); 12 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-legend-spell-level-7]] - topic-concept: [ Legend ] (Spell Level=7); 15 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-lesser-daemon-grunel]] - topic-concept: [ Lesser Daemon ] Grunel; 108 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-lunatic-dance-spell-level-5]] - topic-concept: [ Lunatic Dance ] (Spell Level=5); 13 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-lunatic-seed-spell-level-4]] - topic-concept: [ Lunatic Seed ] (Spell Level=4); 19 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-maze-woods-ent-greater-plant-spirit]] - topic-concept: [ Maze Woods ] (Ent/Greater Plant Spirit); 11 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-missile-protection-sylph-wind-spirit]] - topic-concept: [ Missile Protection ] (Sylph/Wind Spirit); 11 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-mute-sylph-wind-spirit]] - topic-concept: [ Mute ] (Sylph/Wind Spirit); 14 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-nightmare-incubus-succubus-dream-spirit]] - topic-concept: [ Nightmare ] (Incubus, Succubus/Dream Spirit); 24 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-preserve-sound-sylph-wind-spirit]] - topic-concept: [ Preserve Sound ] (Sylph/Wind Spirit); 13 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-purification-undine-water-spirit]] - topic-concept: [ Purification ] (Undine/Water Spirit); 14 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-restore-health-the-unknown-spirit-of-life]] - topic-concept: [ Restore Health ] (The Unknown Spirit of Life); 14 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-sense-evil-spell-level-1]] - topic-concept: [ Sense Evil ] (Spell Level=1); 11 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-sense-metal-spell-level-3]] - topic-concept: [ Sense Metal ] (Spell Level=3); 9 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-shade-shade-dark-spirit]] - topic-concept: [ Shade ] (Shade/Dark Spirit); 15 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-shoot-arrow-sylph-wind-spirit]] - topic-concept: [ Shoot Arrow ] (Sylph/Wind Spirit); 17 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-silence-sylph-wind-spirit]] - topic-concept: [ Silence ] (Sylph/Wind Spirit); 14 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-sink-undine-water-spirit]] - topic-concept: [ Sink ] (Undine/Water Spirit); 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-sleep-sandman-mind-spirit]] - topic-concept: [ Sleep ] (Sandman/Mind Spirit); 11 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-snare-gnome-earth-spirit]] - topic-concept: [ Snare ] (Gnome/Earth Spirit); 12 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-stone-blast-gnome-earth-spirit]] - topic-concept: [ Stone Blast ] (Gnome/Earth Spirit); 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-suffocate-djinn-wind-spirit]] - topic-concept: [ Suffocate ] (Djinn/Wind Spirit); 11 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-tunnel-gnome-earth-spirit]] - topic-concept: [ Tunnel ] (Gnome/Earth Spirit); 23 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-valkyrie-blessing-valkyrie-mind-spirit]] - topic-concept: [ Valkyrie Blessing ] (Valkyrie/Mind Spirit); 21 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-valkyrie-javelin-valkyrie-mind-spirit]] - topic-concept: [ Valkyrie Javelin ] (Valkyrie/Mind Spirit); 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-water-breathing-undine-water-spirit]] - topic-concept: [ Water Breathing ] (Undine/Water Spirit); 11 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-weak-point-spell-level-3]] - topic-concept: [ Weak Point ] (Spell Level=3); 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-windstorm-djinn-greater-wind-spirit]] - topic-concept: [ Windstorm ] (Djinn/Greater Wind Spirit); 15 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-footprint-tracking-intelligence-no-equipment-restriction-not-retriable]] - topic-concept: [ ① Footprint Tracking [Intelligence] ] (No equipment restriction, not retriable); 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-tumble-agility-equipment-restriction]] - topic-concept: [ ① Tumble [Agility] ] (Equipment restriction); 6 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-first-aid-no-equipment-restriction]] - topic-concept: [ ② First-Aid [-] ] (No equipment restriction); 6 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-lockpicking-dexterity-no-equipment-restriction-not-retriable]] - topic-concept: [ ② Lockpicking [Dexterity]] (No equipment restriction, not retriable); 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-acrobatics-agility-equipment-restriction]] - topic-concept: [ ③ Acrobatics [Agility] ] (Equipment restriction); 11 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-astrology-intelligence-not-retriable]] - topic-concept: [ ③ Astrology [Intelligence] ] (Not retriable); 11 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-camouflage-intelligence-equipment-restriction]] - topic-concept: [ ③ Camouflage [Intelligence] ] (Equipment restriction); 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-herbs-intelligence-not-retriable]] - topic-concept: [ ③ Herbs [Intelligence] ] (Not retriable); 25 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-knowledge-intelligence-not-retriable]] - topic-concept: [ ④ Knowledge [Intelligence]] (Not retriable); 5 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-swim-agility-equipment-restriction]] - topic-concept: [ ④ Swim [Agility] ] (Equipment restriction); 2 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction]] - topic-concept: [ ⑤ Listen [Intelligence] ] (Equipment restriction); 17 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-research-intelligence-not-retriable]] - topic-concept: [ ⑤ Research [Intelligence] ] (Not retriable); 9 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-stealthy-step-agility-equipment-restriction]] - topic-concept: [ ⑥ Stealthy Step [Agility] ] (Equipment restriction); 15 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-treasure-appraisal-intelligence-not-retriable]] - topic-concept: [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable); 8 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-medicines-intelligence-appraisal-only-not-retriable]] - topic-concept: [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable); 28 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-pickpocket-dexterity-equipment-restriction]] - topic-concept: [ ⑦ Pickpocket [Dexterity] ] (Equipment restriction); 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-hide-agility-equipment-restriction]] - topic-concept: [ ⑧ Hide [Agility] ] (Equipment restriction); 5 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-map-creation-intelligence-no-equipment-restriction-not-retriable]] - topic-concept: [ ⑨ Map Creation [Intelligence]] (No equipment restriction, not retriable); 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-search-intelligence-no-equipment-restriction-not-retriable]] - topic-concept: [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable); 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-climb-agility-equipment-restriction]] - topic-concept: [ ⑩ Climb [Agility] ] (Equipment restriction); 12 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-weather-prediction-intelligence-no-equipment-restriction-not-retriable]] - topic-concept: [ ⑩ Weather Prediction [Intelligence] ] (No equipment restriction, not retriable); 14 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-special-combat-dexterity-agility-strength-equipment-restriction]] - topic-concept: [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction); 17 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-long-jump-high-jump-agility-equipment-restriction]] - topic-concept: [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction); 5 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-projectile-use-dexterity-strength-no-equipment-restriction]] - topic-concept: [ ⑫ Projectile Use [Dexterity, Strength] ] (No equipment restriction); 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-follow-agility-equipment-restriction]] - topic-concept: [ ⑬ Follow [Agility] ] (Equipment restriction); 11 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-disguise-dexterity-no-equipment-restriction]] - topic-concept: [ ⑭ Disguise [Dexterity] ] (No equipment restriction); 8 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-surprise-attack-intelligence-no-equipment-restriction]] - topic-concept: [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction); 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-treasure-appraisal-intelligence-no-equipment-restriction-not-retriable]] - topic-concept: [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable); 16 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-remove-set-trap-dexterity-equipment-restriction-not-retriable]] - topic-concept: [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable); 12 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-ability]] - topic-concept: Ability; 2 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-ability-scores]] - topic-concept: Ability Scores; 20 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-accomplishing-missions]] - topic-concept: Accomplishing Missions; 9 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-acquiring-rune-master-skills-and-increasing-levels]] - topic-concept: Acquiring Rune Master Skills and Increasing Levels; 31 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-action-canceling]] - topic-concept: Action Canceling; 13 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-action-order]] - topic-concept: Action Order; 9 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-actions-you-can-take-while-standing-still]] - topic-concept: Actions You Can Take While Standing Still; 5 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-adventure-treasure-and-reward-amounts]] - topic-concept: Adventure Treasure and Reward Amounts; 11 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-adventurer-death-checks]] - topic-concept: Adventurer Death Checks; 12 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-adventurer]] - topic-concept: Adventurers; 13 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-age-of-mythology]] - topic-concept: Age of Mythology; 18 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-ancient-magic-list]] - topic-concept: Ancient Magic List; 112 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-and-armor]] - topic-concept: and Armor; 20 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-and-runes]] - topic-concept: and Runes; 11 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-area-aim]] - topic-concept: Area Aim; 30 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-armor]] - topic-concept: Armor; 4 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-artwork]] - topic-concept: Artwork; 5 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-asking-npcs-to-use-magic]] - topic-concept: Asking NPCs to Use Magic; 43 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-attack-power-modifier]] - topic-concept: Attack Power Modifier; 3 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-attacks-from-characters-against-monsters]] - topic-concept: Attacks From Characters Against Monsters; 9 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-attacks-from-monsters-against-characters]] - topic-concept: Attacks From Monsters Against Characters; 9 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-automatic-success-restrictions]] - topic-concept: Automatic Success Restrictions; 22 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-ballista]] - topic-concept: Ballista; 12 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-bard-skill]] - topic-concept: Bard Skill; 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-baseline-scores]] - topic-concept: Baseline Scores; 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-blindnes]] - topic-concept: Blindness; 7 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-bonuses-and-penalties]] - topic-concept: Bonuses and Penalties; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-books-related-to-sword-world-rpg]] - topic-concept: Books Related to Sword World RPG; 3 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-boomerang]] - topic-concept: Boomerang; 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-calendar-and-time]] - topic-concept: Calendar and Time; 17 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-catalysts-other-than-staves]] - topic-concept: Catalysts Other Than Staves; 4 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-central-region-language-m-rdan-eremire-gundar-saine]] - topic-concept: Central Region (Language = Mārdan/Eremire Gundar/Saine); 14 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-cestu]] - topic-concept: Cestus; 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-cha-za-special-holy-magic-list-luck]] - topic-concept: Cha Za Special Holy Magic List [ Luck ]; 15 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-change-attack-targets]] - topic-concept: Change Attack Targets; 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-changes-to-magic-procedure]] - topic-concept: Changes to Magic Procedure; 9 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-chaosland-language-native-language]] - topic-concept: Chaosland (Language = Native Language); 5 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-character-creation]] - topic-concept: Character Creation; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-charge]] - topic-concept: Charge; 23 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-charm-mind]] - topic-concept: Charm (Mind); 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-check]] - topic-concept: Checks; 17 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-citizen]] - topic-concept: Citizens; 5 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-climate]] - topic-concept: Climate; 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-collection]] - topic-concept: Collections; 7 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-combat-between-monsters]] - topic-concept: Combat Between Monsters; 8 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-combat-in-special-situations]] - topic-concept: Combat in Special Situations; 8 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-combat-in-which-monsters-roll-dice]] - topic-concept: Combat in Which Monsters Roll Dice; 10 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-common-adventurer-abilities]] - broad-topic: Common Adventurer Abilities; 104 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-common-runes]] - topic-concept: Common Runes; 11 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-consuming-mental-power]] - topic-concept: Consuming Mental Power; 17 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-converting-character-data-to-monster-data]] - topic-concept: Converting Character Data to Monster Data; 33 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-craftsman-skill]] - topic-concept: Craftsman Skill; 29 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-cranequin-crossbow]] - topic-concept: Cranequin Crossbow; 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-creeping-tree]] - broad-topic: Creeping Tree; 541 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-critical-target-variation]] - topic-concept: Critical Target Variation; 10 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-curiosity-mind]] - topic-concept: Curiosity (Mind); 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-currency]] - broad-topic: Currency; 94 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-curse]] - topic-concept: Curse; 45 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-daemons-underworld-creatures]] - topic-concept: Daemons/Underworld Creatures; 53 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-dance-mind]] - topic-concept: Dance (Mind); 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-dark-magic]] - topic-concept: Dark Magic; 10 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-defense-modifier]] - topic-concept: Defense Modifier; 3 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-destruction-points]] - topic-concept: Destruction Points; 20 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-detail]] - topic-concept: Details; 31 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-determining-base-damage-strike-roll]] - topic-concept: Determining Base Damage (Strike Roll); 33 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-difficulty-checks]] - topic-concept: Difficulty Checks; 24 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-double-sixes-and-double-ones]] - topic-concept: Double Sixes and Double Ones; 12 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-dragon-roar-magic]] - topic-concept: Dragon Roar Magic; 21 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-drop-a-weapon-etc-on-the-ground]] - topic-concept: Drop a Weapon, Etc. On the Ground; 5 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-early-bird-mind]] - topic-concept: Early Bird (Mind); 3 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-eastend-languages]] - topic-concept: Eastend (Languages = ?); 5 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-equipment]] - topic-concept: Equipment; 37 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-excellent-weapons-and-armor]] - topic-concept: Excellent Weapons and Armor; 4 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-experience-points]] - topic-concept: Experience Points; 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-farland-languages]] - topic-concept: Farland (Languages = ?); 10 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-filling-out-the-character-sheet]] - broad-topic: Filling Out the Character Sheet; 83 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-for-humans-and-halfelves-raised-by-humans]] - topic-concept: For Humans and HalfElves Raised by Humans; 15 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-for-races-other-than-humans]] - topic-concept: For Races Other Than Humans; 10 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-forcelia]] - topic-concept: Forcelia; 37 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-forger-of-colors]] - topic-concept: Forger of Colors; 37 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-four-types-of-experience-points]] - topic-concept: Four Types of Experience Points; 2 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-full-defense]] - topic-concept: Full Defense; 5 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-full-resistance]] - topic-concept: Full Resistance; 20 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-garrote]] - topic-concept: Garrote; 5 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-gems-and-precious-metals]] - topic-concept: Gems and Precious Metals; 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-general-modifiers]] - topic-concept: General Modifiers; 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-geography]] - topic-concept: Geography; 24 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-grapple]] - topic-concept: Grapple; 32 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-guide-to-forcelia-and-alecrast]] - topic-concept: Guide to Forcelia and Alecrast; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-guild]] - topic-concept: Guilds; 9 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-healer-skill]] - topic-concept: Healer Skill; 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-healing]] - topic-concept: Healing; 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-holding-weapons-in-both-hands]] - topic-concept: Holding Weapons in Both Hands; 4 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-how-to-create-general-skills]] - topic-concept: How to Create General Skills; 16 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-how-to-read-the-monster-catalog]] - broad-topic: How to Read the Monster Catalog; 192 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-how-to-use-experience-points-increasing-skill-levels]] - topic-concept: How to Use Experience Points: Increasing Skill Levels; 23 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-human]] - topic-concept: Humans; 134 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-hunter-skill]] - topic-concept: Hunter Skill; 17 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-illnesse]] - broad-topic: Illnesses; 159 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-increasing-general-skills]] - topic-concept: Increasing General Skills; 17 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-island-of-damned-language-native-language]] - topic-concept: Island of Damned (Language = Native Language); 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-islands-of-azarn-language-eastern-m-rdan]] - topic-concept: Islands of Azarn (Language = Eastern/Mārdan); 5 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-kardis-special-dark-magic-list]] - topic-concept: Kardis Special Dark Magic List; 9 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-kingdom]] - topic-concept: Kingdoms; 6 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-king]] - topic-concept: Kings; 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-lance]] - topic-concept: Lance; 14 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-language]] - topic-concept: Languages; 20 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-long-distance-modifiers]] - topic-concept: Long Distance Modifiers; 2 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-loss-of-ability-scores-and-its-impact]] - topic-concept: Loss of Ability Scores and Its Impact; 24 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-lost-spells]] - topic-concept: Lost Spells; 7 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-lullaby-mind]] - topic-concept: Lullaby (Mind); 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-magic-list-cure-wounds]] - topic-concept: Magic List [ Cure Wounds ]; 48 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-magic-list-recall-spirit]] - topic-concept: Magic List [ Recall Spirit ]; 42 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-magical-item-list]] - topic-concept: Magical Item List; 23 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-magical-items]] - topic-concept: Magical Items; 9 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-magical-weapons-and-armor]] - topic-concept: Magical Weapons and Armor; 24 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-main-gauche-sword-breaker]] - topic-concept: Main-gauche/Sword Breaker; 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-march-mind]] - topic-concept: March (Mind); 10 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-marfa-special-holy-magic-list]] - topic-concept: Marfa Special Holy Magic List; 11 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-merchant-skill]] - topic-concept: Merchant Skill; 12 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-merchant-s-license]] - topic-concept: Merchant's License; 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-mithril-silver-weapons-and-armor]] - topic-concept: Mithril Silver Weapons and Armor; 23 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-monster-defense-points]] - topic-concept: Monster Defense Points; 9 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-monster-level-and-adventurer-level]] - topic-concept: Monster Level and Adventurer Level; 12 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-monster-resistance]] - topic-concept: Monster Resistance; 4 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-monster]] - topic-concept: Monsters; 5 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-morale-mind]] - topic-concept: Morale (Mind); 5 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-movement-and-actions]] - topic-concept: Movement and Actions; 8 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-mow-down]] - topic-concept: Mow Down; 14 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-myrii-special-holy-magic-list-battle-song-spell-level-5]] - topic-concept: Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5); 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-mythical-beasts-and-magical-beasts]] - broad-topic: Mythical Beasts and Magical Beasts; 534 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-nobles-knight]] - topic-concept: Nobles/Knights; 4 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-northeast-region-language-eastern-m-rdan]] - topic-concept: Northeast Region (Language = Eastern/Mārdan); 17 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-northern-central-region-language-western-gundar]] - topic-concept: Northern Central Region (Language = Western/Gundar); 28 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-nostalgia-mind]] - topic-concept: Nostalgia (Mind); 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-npc-and-monster-action-announcement]] - topic-concept: NPC and Monster Action Announcement; 8 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-number-of-projectile-shots]] - topic-concept: Number of Projectile Shots; 12 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-one-handed-and-twohanded-weapons]] - topic-concept: One-Handed and TwoHanded Weapons; 8 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-oran-language-eastern-m-rdan]] - topic-concept: Oran (Language = Eastern/Mārdan); 11 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-part-2-game-master-section]] - topic-concept: Part 2 Game Master Section; 7 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-part-3-optional-rules]] - topic-concept: Part 3 Optional Rules; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-peace-mind]] - topic-concept: Peace (Mind); 4 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-pole-weapons]] - topic-concept: Pole Weapons; 40 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-power]] - topic-concept: Power; 11 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-precautions-when-using-skills]] - topic-concept: Precautions When Using Skills; 18 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-price-calculation]] - topic-concept: Price Calculation; 4 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-priest-skill]] - broad-topic: Priest Skill; 60 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-projectile]] - topic-concept: Projectiles; 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-race]] - topic-concept: Races; 34 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-ram]] - topic-concept: Ram; 11 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-ready-a-sheathed-weapon]] - topic-concept: Ready a Sheathed Weapon; 10 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-ready-a-weapon]] - topic-concept: Ready a Weapon; 5 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-ready-a-weapon-and-attack]] - topic-concept: Ready a Weapon and Attack; 4 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-religious-organizations]] - topic-concept: Religious Organizations; 12 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-representing-special-monsters-with-character-data]] - topic-concept: Representing Special Monsters with Character Data; 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-reptile-check-intelligence]] - topic-concept: Reptile Check [Intelligence]; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-requiem]] - topic-concept: Requiem; 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-required-strength]] - topic-concept: Required Strength; 11 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-resistance]] - topic-concept: Resistance; 10 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-resistance-rolls]] - topic-concept: Resistance Rolls; 16 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-rules-for-awarding-greater-experience-points]] - topic-concept: Rules for Awarding Greater Experience Points; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-rules-for-destroying-structures]] - topic-concept: Rules for Destroying Structures; 3 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-rules-for-poison-illness-and-infection]] - topic-concept: Rules for Poison, Illness and Infection; 13 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-rules-for-sleeping-adventurers]] - topic-concept: Rules for Sleeping Adventurers; 8 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-rules-for-sleeping-monsters]] - topic-concept: Rules for Sleeping Monsters; 25 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-rules-regarding-language]] - topic-concept: Rules Regarding Language; 6 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-rune-masters-status]] - topic-concept: Rune Masters' Status; 4 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-sage-skill]] - topic-concept: Sage Skill; 27 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-sailor-skill]] - topic-concept: Sailor Skill; 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-sap-blackjack]] - topic-concept: Sap (Blackjack); 8 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-scores-used-in-weapon-combat]] - topic-concept: Scores Used in Weapon Combat; 41 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-setting-target-scores-and-difficulties]] - topic-concept: Setting Target Scores and Difficulties; 28 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-sheath-a-weapon-etc]] - topic-concept: Sheath a Weapon, Etc.; 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-shield-attack]] - topic-concept: Shield Attack; 17 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-shield-modifiers]] - topic-concept: Shield Modifiers; 8 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-shield]] - topic-concept: Shields; 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-shotel]] - topic-concept: Shotel; 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-should-you-use-a-target-score-check-or-a-difficulty-check]] - topic-concept: Should You Use a Target Score Check or a Difficulty Check?; 24 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-silver-weapons-and-armor]] - topic-concept: Silver Weapons and Armor; 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-sing-mind]] - topic-concept: Sing (Mind); 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-skill]] - topic-concept: Skills; 3 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-slave]] - topic-concept: Slaves; 4 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-snipe]] - topic-concept: Snipe; 26 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-southern-central-region-language-western-gundar]] - topic-concept: Southern Central Region (Language = Western/Gundar); 30 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-special]] - topic-concept: Special; 4 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-special-bonuses]] - topic-concept: Special Bonuses; 5 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-special-dark-magic-list]] - topic-concept: Special Dark Magic List; 11 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-spell-list]] - topic-concept: Spell List; 15 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-spellsong]] - topic-concept: Spellsongs; 25 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-spirit-magic-list]] - topic-concept: Spirit Magic List; 18 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-stand-up-and-ready-yourself]] - topic-concept: Stand Up and Ready Yourself; 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-starting-adventurer-languages]] - topic-concept: Starting Adventurer Languages; 9 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-strike-power-modifier]] - topic-concept: Strike Power Modifier; 5 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-strong-blow]] - topic-concept: Strong Blow; 8 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-success-rolls]] - topic-concept: Success Rolls; 10 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-success-rolls-using-adventurer-level]] - topic-concept: Success Rolls Using Adventurer Level; 4 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-sun-moon-stars]] - topic-concept: Sun, Moon, Stars; 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-surprise-attacks]] - topic-concept: Surprise Attacks; 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-switch-a-weapon-from-hand-to-hand]] - topic-concept: Switch a Weapon From Hand to Hand; 7 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-sword-world-rpg-complete-edition-rulebook]] - topic-concept: Sword World RPG: Complete Edition Rulebook; 34 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-target-scores]] - topic-concept: Target Scores; 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-age-of-magic-the-kingdom-of-kastuul]] - topic-concept: The Age of Magic = The Kingdom of Kastuul; 10 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-age-of-sword-the-new-kingdoms]] - topic-concept: The Age of Sword = The New Kingdoms; 10 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-difference-between-general-skills-and-adventurer-skills]] - topic-concept: The Difference Between General Skills and Adventurer Skills; 10 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-meaning-of-the-rulebook]] - topic-concept: The Meaning of the Rulebook; 29 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-nameless-god-of-madness-wicked-god]] - topic-concept: The Nameless God of Madness (Wicked God); 28 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-nameless-god-of-madness-special-dark-magic-list]] - topic-concept: The Nameless God of Madness Special Dark Magic List; 12 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-thief-skill]] - topic-concept: Thief Skill; 6 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-thieves-guild-sorcerers-guild-academy]] - topic-concept: Thieves Guild/Sorcerers' Guild (Academy); 9 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-throwing-multiple-darts-or-daggers]] - topic-concept: Throwing Multiple Darts or Daggers; 8 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-treasure-and-rewards-in-sword-world]] - topic-concept: Treasure and Rewards in Sword World; 6 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-treasure-types]] - topic-concept: Treasure Types; 3 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-types-of-monsters]] - broad-topic: Types of Monsters; 82 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-unconscious-and-death-checks]] - topic-concept: Unconscious and Death Checks; 4 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-use-magic-and-projectiles]] - topic-concept: Use Magic and Projectiles; 8 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-vibrato]] - topic-concept: Vibrato; 3 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-water-combat]] - topic-concept: Water Combat; 14 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-weapon-and-armor-restrictions]] - topic-concept: Weapon and Armor Restrictions; 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-weapon-combat-skills]] - topic-concept: Weapon Combat Skills; 5 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-weapons-and-armor-that-are-too-heavy]] - topic-concept: Weapons and Armor That Are Too Heavy; 9 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-western-countries-language-western-except-palmer-village-which-uses-eastern]] - topic-concept: Western Countries (Language: Western, except Palmer Village which uses Eastern); 13 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-what-is-a-role-playing-game-rpg]] - topic-concept: What is a Role-Playing Game (RPG)?; 34 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-what-you-ll-need-to-play-sword-world-rpg]] - topic-concept: What You'll Need to Play Sword World RPG; 20 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-when-a-monster-casts-magic-on-adventurers]] - topic-concept: When a Monster Casts Magic on Adventurers; 6 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-a-mix-of-adventurers-and-monsters]] - topic-concept: When an Adventurer Casts Magic on a Mix of Adventurers and Monsters; 12 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-adventurers]] - topic-concept: When an Adventurer Casts Magic on Adventurers; 15 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-monsters]] - topic-concept: When an Adventurer Casts Magic on Monsters; 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-whip-net-bola]] - topic-concept: Whip, Net, Bola; 17 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-withdraw-flee-from-engagement]] - topic-concept: Withdraw (Flee) From Engagement; 7 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-work-requests-to-npcs]] - topic-concept: Work Requests to NPCs; 21 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-world]] - topic-concept: World; 10 projected supported fragment(s), 1 related link(s).
+- [[sword-world-rpg-complete-edition-youma]] - broad-topic: Youma; 106 projected supported fragment(s), 2 related link(s).
+- [[sword-world-rpg-complete-edition-accessories-earrings-of-interpretation]] - topic-concept: 《 Accessories 》 [ Earrings of Interpretation ]; 96 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-magic-armor-2-non-metal-or-ring-mail]] - topic-concept: 《 Magic Armor (+2) 》 Non-metal or ring mail; 44 projected supported fragment(s), 0 related link(s).
+- [[sword-world-rpg-complete-edition-staves-and-wands-ice-blaze-wand]] - broad-topic: 《 Staves and Wands 》 [ Ice Blaze Wand ]; 362 projected supported fragment(s), 0 related link(s).
 
 ## Source review
 

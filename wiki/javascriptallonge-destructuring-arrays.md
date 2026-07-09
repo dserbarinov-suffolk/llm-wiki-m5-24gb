@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-destructuring-arrays
 page_kind: concept
-summary: destructuring arrays: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_30e0ca6e3d283b4c@cf4a8439344fa05f17296b91833cb0c7
+projection_coverage: page-projection-pgp_51017bfccaa0350f@bac33de0dcd853b3d221b4a3077b2235
 ---
 
 # destructuring arrays
@@ -19,6 +19,10 @@ Source: [[javascriptallonge]]
 - There is another way to extract elements from arrays: Destructuring , a feature going back to Common Lisp, if not before. (javascriptallonge.pdf p.103)
 - The line const wrapped = [something]; is interesting. (javascriptallonge.pdf p.103)
 - The statement const [something] = wrapped ; destructures the array represented by wrapped , binding the value of its single element to the name something . (javascriptallonge.pdf p.103)
+- We could do the same thing with (name) => name[1] , but destructuring is code that resembles the data it consumes, a valuable coding style. (javascriptallonge.pdf p.104)
+
+## Rules
+
 - We could do the same thing with (name) => name[1] , but destructuring is code that resembles the data it consumes, a valuable coding style. (javascriptallonge.pdf p.104)
 
 ## Technical atoms
@@ -80,3 +84,9 @@ return `${first} is a ${occupation}`;
 description([["Reginald", "Braithwaite"], "programmer"])
 //=> "Reginald is a programmer"
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-element-references]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-gathering]] - contextualizes: source-supported topic dependency

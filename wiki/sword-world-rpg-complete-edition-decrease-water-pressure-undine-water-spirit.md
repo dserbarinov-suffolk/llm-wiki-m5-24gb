@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-decrease-water-pressure-undine-water-spirit
 page_kind: concept
-summary: [ Decrease Water Pressure ] (Undine/Water Spirit): 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_70a99f1655ad9bd5@30b8526c009fb2fc1969b5bed3c79b40
+projection_coverage: page-projection-pgp_078bff6db5c6e416@ea3ff46f9415e2a6ead12bd0320782e5
 ---
 
 # [ Decrease Water Pressure ] (Undine/Water Spirit)
@@ -28,3 +28,8 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 If you cast this spell, you can fight underwater without any penalties at all.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-preserve-sound-sylph-wind-spirit]] - contextualizes: source-supported topic dependency

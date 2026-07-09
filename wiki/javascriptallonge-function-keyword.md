@@ -1,20 +1,20 @@
 ---
 page_id: javascriptallonge-function-keyword
 page_kind: concept
-summary: the function keyword: 22 accepted assertion(s) and 19 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 26 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_635462d5982e25dc@edef56825f2654f8aa377c1694340543
+projection_coverage: page-projection-pgp_eedd1d29548876ba@187b3fd86c82043fcdb65938c05bb201
 ---
 
 # the function keyword
 
 Source: [[javascriptallonge]]
 
-## Statements
+## Procedure
 
 - JavaScript does have a syntax for naming a function, we use the function keyword. (javascriptallonge.pdf p.62)
 - Until ECMAScript 2015 was created, function was the usual syntax for writing functions. (javascriptallonge.pdf p.62)
@@ -39,161 +39,9 @@ Source: [[javascriptallonge]]
 - We'll see it used in many of the recipes, starting off with partial application and ellipses. (javascriptallonge.pdf p.75)
 - The most common use of the arguments binding is to build functions that can take a variable number of arguments. (javascriptallonge.pdf p.75)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** code block
-
-```
-(str) => str + str
-```
-
-<a id="atom-2"></a>
-**Atom:** code block
-
-```
-function (str) { return str + str }
-```
-
-<a id="atom-3"></a>
-**Atom:** rule
-
-```
-We always use a block, we cannot write function (str) str + str .
-```
-
-<a id="atom-4"></a>
-**Atom:** example
-
-```
-If we leave out the 'something optional' that comes after the function keyword, we can translate all of the fat arrow functions that we've seen into function keyword functions, e.g.
-```
-
-<a id="atom-5"></a>
-**Atom:** code block
-
-```
-(n) => (1.618**n - -1.618**-n) / 2.236
-```
-
-<a id="atom-6"></a>
-**Atom:** code block
-
-```
-function (n) {
-return (1.618**n - -1.618**-n) / 2.236;
-}
-```
-
-<a id="atom-7"></a>
-**Atom:** code block
-
-```
-const repeat = function repeat (str) {
-return str + str;
-};
-const fib = function fib (n) {
-return (1.618**n - -1.618**-n) / 2.236;
-};
-```
-
-<a id="atom-8"></a>
-**Atom:** example
-
-```
-Placing a name between the function keyword and the argument list names the function. Confusingly, the name of the function is not exactly the same thing as the name we may choose to bind to the value of the function. For example, we can write:
-```
-
-<a id="atom-9"></a>
-**Atom:** code block
-
-```
-const double = function repeat (str) {
-return str + str;
-}
-```
-
-<a id="atom-10"></a>
-**Atom:** code block
-
-```
-double.name
-//=> 'repeat'
-```
-
-<a id="atom-11"></a>
-**Atom:** code block
-
-```
-someBackboneView.on('click', function clickHandler () {
-//...
-});
-```
-
-<a id="atom-12"></a>
-**Atom:** code block
-
-```
-const bindingName = function actualName () {
-//...
-};
-bindingName
-//=> [Function: actualName]
-actualName
-//=> ReferenceError: actualName is not defined
-```
-
-<a id="atom-13"></a>
-**Atom:** code block
-
-```
-(function even (n) {
-if (n === 0) {
-return true
-}
-else return !even(n - 1)
-})(5)
-//=> false
-(function even (n) {
-if (n === 0) {
-return true
-}
-else return !even(n - 1)
-})(2)
-//=> true
-```
-
-<a id="atom-14"></a>
-**Atom:** code block
-
-```
-even
-//=> Can't find variable: even
-```
-
-<a id="atom-15"></a>
-**Atom:** code block
-
-```
-const plus = function (a, b) {
-return arguments[0] + arguments[1];
-}
-plus(2,3)
-//=> 5
-```
-
-<a id="atom-16"></a>
-**Atom:** code block
-
-```
-const args = function (a, b) {
-return arguments;
-}
-args(2,3)
-//=> { '0': 2, '1': 3 }
-```
-
-<a id="atom-17"></a>
 **Atom:** table
 
 ```text
@@ -201,28 +49,12 @@ args(2,3)
 43 We'll look at arrays and plain old javascript objects in depth later.
 ```
 
-<a id="atom-18"></a>
-**Atom:** code block
 
-```
-const plus = function () {
-return arguments[0] + arguments[1];
-}
-plus(2,3)
-//=> 5
-```
+## Rules and exceptions
 
-<a id="atom-19"></a>
-**Atom:** code block
+- That may seem confusing, but think of the binding names as properties of the environment, not of the function. (javascriptallonge.pdf p.63)
+- The most common use of the arguments binding is to build functions that can take a variable number of arguments. (javascriptallonge.pdf p.75)
 
-```
-const howMany = function () {
-return arguments['length'];
-}
-howMany()
-//=> 0
-howMany('hello')
-//=> 1
-howMany('sharks', 'are', 'apex', 'predators')
-//=> 4
-```
+## Related pages
+
+- [[javascriptallonge-function-declarations]] - contextualizes: source-supported topic dependency

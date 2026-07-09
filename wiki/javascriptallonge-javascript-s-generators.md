@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-javascript-s-generators
 page_kind: concept
-summary: javascript's generators: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 19 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_2566ddf5b6808b41@0f2dfde42886a15631049c01e3a74d31
+projection_coverage: page-projection-pgp_30105c7d214d9656@2a6aebcbed633f7789eccf509dd4e5cd
 ---
 
 # javascript's generators
@@ -24,6 +24,13 @@ Source: [[javascriptallonge]]
 - Generator functions can take an argument. (javascriptallonge.pdf p.230)
 - Invoking only("you") returns an iterator that we can call with .next() , and it yields "you" . (javascriptallonge.pdf p.231)
 - Invoking only more than once gives us fresh iterators each time:. (javascriptallonge.pdf p.231)
+
+## Rules
+
+- It would be very nice if we could sometimes write iterators as a .next() method that gets called, and sometimes write out a generator. (javascriptallonge.pdf p.230)
+- We can write an iterator, but use a generation style of programming. (javascriptallonge.pdf p.230)
+- Generator functions can take an argument. (javascriptallonge.pdf p.230)
+- Invoking only("you") returns an iterator that we can call with .next() , and it yields "you" . (javascriptallonge.pdf p.231)
 
 ## Technical atoms
 
@@ -80,3 +87,9 @@ sixteen.next()
 //=>
 {"done":true}
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-state-machines]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-generators-are-coroutines]] - contextualizes: source-supported topic dependency

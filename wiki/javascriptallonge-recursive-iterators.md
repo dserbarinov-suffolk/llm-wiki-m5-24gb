@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-recursive-iterators
 page_kind: concept
-summary: recursive iterators: 6 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_4ff24cdf2cba6740@c5a956c112b5127e371e2622bd0f50cc
+projection_coverage: page-projection-pgp_f987a3d90f85698a@63f1e83c02b6b933cd46a406549a487e
 ---
 
 # recursive iterators
@@ -22,6 +22,10 @@ Source: [[javascriptallonge]]
 - If you peel off isIterable and ignore the way that the iteration version uses [Symbol.iterator] and .next , we're left with the fact that the generating version calls itself recursively, and the iteration version maintains an explicit stack. (javascriptallonge.pdf p.227)
 - In essence, both the generation and iteration implementations have stacks, but the generation version's stack is implicit , while the iteration version's stack is explicit . (javascriptallonge.pdf p.227)
 - A less kind way to put it is that the iteration version is greenspunning something built into our programming language: We're reinventing the use of a stack to manage recursion, because writing our code to respond to a function call makes us turn a simple recursive algorithm inside-out. (javascriptallonge.pdf p.228)
+
+## Rules
+
+- Generators have to manage the exact same amount of state, but sometimes, it's much easier to manage that state in a generator. (javascriptallonge.pdf p.226)
 
 ## Technical atoms
 
@@ -94,3 +98,8 @@ console.log(n)
 4
 5
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-state-machines]] - contextualizes: source-supported topic dependency

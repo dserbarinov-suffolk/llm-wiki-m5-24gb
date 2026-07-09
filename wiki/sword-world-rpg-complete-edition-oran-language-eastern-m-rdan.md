@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-oran-language-eastern-m-rdan
 page_kind: concept
-summary: Oran (Language = Eastern/Mārdan): 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_bdb8b65c0f868d7f@3b0ccd12a15c24eb3d9feff614583408
+projection_coverage: page-projection-pgp_251389677cbf4a3f@b25ec4ea6f7f59fba6978045e6ac6570
 ---
 
 # Oran (Language = Eastern/Mārdan)
@@ -25,3 +25,8 @@ Source: [[sword-world-rpg-complete-edition]]
 - Oran's Sorcerers' Guild was the first to be established in Alecrast and serves as the central hub connecting Sorcerers' Guilds across different regions. (Sword World RPG - Complete Edition.pdf p.286)
 - It was Mana Rai who established ancient magic as power derived from the magical element "mana," completed the currently accepted theory of magic, and developed common language magic that is activated through the common tongue. (Sword World RPG - Complete Edition.pdf p.286)
 - In northern Oran, there are ruins known as the "Fallen City." These ruins were created when Rex, one of the largest aerial cities of the ancient kingdom, fell from the sky. (Sword World RPG - Complete Edition.pdf p.286)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-northeast-region-language-eastern-m-rdan]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-central-region-language-m-rdan-eremire-gundar-saine]] - contextualizes: source-supported topic dependency

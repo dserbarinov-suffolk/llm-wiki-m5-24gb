@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-left-variadic-destructuring
 page_kind: concept
-summary: left-variadic destructuring: 3 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_2b6649d2d92e56a2@a0cacdb48a81a5c5b18a51ec05e1db84
+projection_coverage: page-projection-pgp_ea2a86a2bbb210fb@3470cb9b533a60412219d3dd65383edf
 ---
 
 # left-variadic destructuring
@@ -15,6 +15,12 @@ projection_coverage: topic-state-tps_2b6649d2d92e56a2@a0cacdb48a81a5c5b18a51ec05
 Source: [[javascriptallonge]]
 
 ## Statements
+
+- Gathering arguments for functions is one of the ways JavaScript can destructure arrays. (javascriptallonge.pdf p.92)
+- But we can write our own left-gathering function utility using the same principles without all the tedium:. (javascriptallonge.pdf p.93)
+- With leftGather , we have to supply the length of the array we wish to use as the result, and it gathers excess arguments into it from the left, just like leftVariadic gathers excess parameters for a function. (javascriptallonge.pdf p.93)
+
+## Rules
 
 - Gathering arguments for functions is one of the ways JavaScript can destructure arrays. (javascriptallonge.pdf p.92)
 - But we can write our own left-gathering function utility using the same principles without all the tedium:. (javascriptallonge.pdf p.93)
@@ -72,3 +78,8 @@ butLast
 last
 //=> 'droid'
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-overcoming-limitations]] - contextualizes: source-supported topic dependency

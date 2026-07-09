@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-michael-fogus
 page_kind: concept
-summary: michael fogus: 12 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_b18c6feada0e198f@a6d747655ffb13abf3da796f2533d9b8
+projection_coverage: page-projection-pgp_a5ad659628e964d5@a6d747655ffb13abf3da796f2533d9b8
 ---
 
 # michael fogus

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-northeast-region-language-eastern-m-rdan
 page_kind: concept
-summary: Northeast Region (Language = Eastern/Mārdan): 15 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_634e15fd626ce2f0@793509b431ea543b0b08b22f9f13d00d
+projection_coverage: page-projection-pgp_a9ccb9d611f50f51@384243fb112db92ff00d77b2e74c0e31
 ---
 
 # Northeast Region (Language = Eastern/Mārdan)
@@ -40,3 +40,8 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 If you can gain favor with the powerful tribes, Baikal can become a hospitable country for travelers.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-oran-language-eastern-m-rdan]] - contextualizes: source-supported topic dependency

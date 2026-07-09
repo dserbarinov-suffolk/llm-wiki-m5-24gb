@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-generators-are-coroutines
 page_kind: concept
-summary: generators are coroutines: 22 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 27 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_f6090ec624435699@6509c7df5832dccc5a23577ae61dd3d1
+projection_coverage: page-projection-pgp_32b2ca36b9ae1930@7298a1d94106a17af3539491ae1798fa
 ---
 
 # generators are coroutines
@@ -38,6 +38,10 @@ Source: [[javascriptallonge]]
 - For example, a 'transpiler' might implement oneTwoThree as a state machine, a little like this (there is more to generators, but we'll see that later):. (javascriptallonge.pdf p.234)
 - But no matter how JavaScript implements it, our mental model is that a generator function returns an iterator, and that when we call .next() , it runs until it returns, ends, or yields. (javascriptallonge.pdf p.234)
 - If it yields, it suspends its own execution and the consuming code resumes execution, until .next() is called again, at which point the iterator resumes its own execution from the point where it yielded. (javascriptallonge.pdf p.234)
+
+## Rules
+
+- With an iterator, we can call them the producer and the consumer . (javascriptallonge.pdf p.233-234)
 
 ## Technical atoms
 
@@ -99,3 +103,9 @@ return {done: true};
 }
 };
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-javascript-s-generators]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-generators-and-iterables]] - contextualizes: source-supported topic dependency

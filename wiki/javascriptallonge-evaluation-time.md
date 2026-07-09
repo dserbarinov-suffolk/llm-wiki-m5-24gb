@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-evaluation-time
 page_kind: concept
-summary: evaluation time: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_31748b77ca2fb57a@7cf5882f01f34cba29ca830a6e4395d1
+projection_coverage: page-projection-pgp_3fc1a66f51eb797f@5955b517478d87e663bb9ec8fab6db1b
 ---
 
 # evaluation time
@@ -40,3 +40,8 @@ const greeting = (name) => 'Hello my name is ' + name;
 greeting('Arthur Dent')
 //=> 'Hello my name is Arthur Dent'
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-quasi-literal]] - contextualizes: source-supported topic dependency

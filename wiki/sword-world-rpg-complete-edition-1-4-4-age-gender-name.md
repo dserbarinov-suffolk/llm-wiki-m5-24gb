@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-1-4-4-age-gender-name
 page_kind: concept
-summary: 1.4.4 Age, Gender, Name: 42 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 56 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_0e38c2faf7d3e84d@6b47b69046fd74dcff54c0b36d25d197
+projection_coverage: page-projection-pgp_4b1805247f3eca9d@64f6531e62b9fbfe15980d0d93e386a5
 ---
 
 # 1.4.4 Age, Gender, Name
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - You can decide at the beginning. (Sword World RPG - Complete Edition.pdf p.19)
 - A character must be given a name, and their age and gender must be decided. (Sword World RPG - Complete Edition.pdf p.19)
@@ -59,23 +59,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - In this section, we'll use Ducard Sample Ⅱ (the second), though it's not a very sensible name. (Sword World RPG - Complete Edition.pdf p.20)
 - Y ou may follow your own sensibilities, or you may borrow the name of a real westerner. (Sword World RPG - Complete Edition.pdf p.20)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** example
-
-```
-For races other than humans, consider age as follows. Even for different races with long life spans, the rate of growth to adulthood is not much different from that of humans. Therefore, once they reach around 20 years of age, they are physically fit enough to embark on an adventure.
-```
-
-<a id="atom-2"></a>
-**Atom:** example
-
-```
-Even races other than humans have two genders, male and female, exactly the same as humans. Also consider the differences in appearance between men and women, as well as the differences in the division of roles in society, to be equivalent to those of humans.
-```
-
-<a id="atom-3"></a>
 **Atom:** table
 
 ```text
@@ -86,3 +72,23 @@ Even races other than humans have two genders, male and female, exactly the same
 | 2 |  |  |  | 2000 | 1500 | 1000 |
 | 3 |  |  |  |  |  | 1500 |
 ```
+
+
+## Rules and exceptions
+
+- You can decide at the beginning. (Sword World RPG - Complete Edition.pdf p.19)
+- A character must be given a name, and their age and gender must be decided. (Sword World RPG - Complete Edition.pdf p.19)
+- These things may be decided at any stage of character creation. (Sword World RPG - Complete Edition.pdf p.19)
+- Conversely, once the ability scores are created and the character's initial experience is determined, you can usually get an impression of the character. (Sword World RPG - Complete Edition.pdf p.19)
+- This should make it easier to decide on the age, gender, and name of the character. (Sword World RPG - Complete Edition.pdf p.19)
+- When deciding on the age of a character, it should be between 15 years old and around 30 years old at most for a human. (Sword World RPG - Complete Edition.pdf p.19)
+- However, in the societies of other races, you basically have to be older to be considered an adult, and the longer the life span of the race, the later they tend to do so. (Sword World RPG - Complete Edition.pdf p.19)
+- Naturally, a character must have a name. (Sword World RPG - Complete Edition.pdf p.20)
+- Therefore, a character should be given a name that is appropriate for Forcelia. (Sword World RPG - Complete Edition.pdf p.20)
+- In rare cases, a middle name may also be added between the first and last names. (Sword World RPG - Complete Edition.pdf p.20)
+- Therefore, the age should be a little higher, like around 24. (Sword World RPG - Complete Edition.pdf p.20)
+- Y ou may follow your own sensibilities, or you may borrow the name of a real westerner. (Sword World RPG - Complete Edition.pdf p.20)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-for-races-other-than-humans]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-unconscious-and-death-checks
 page_kind: concept
-summary: Unconscious and Death Checks: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_53bd102e3fc0d790@ecfdfd8140d51cc80106861c04618af8
+projection_coverage: page-projection-pgp_9248d2e2672bd2bc@ecfdfd8140d51cc80106861c04618af8
 ---
 
 # Unconscious and Death Checks

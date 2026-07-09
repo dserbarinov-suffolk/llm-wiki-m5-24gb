@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-how-to-read-the-monster-catalog
 page_kind: concept
-summary: How to Read the Monster Catalog: 146 accepted assertion(s) and 30 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 192 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_88f0b089385af1c4@62058dc4a5c168b76b72eeb3f0d7c432
+projection_coverage: page-projection-pgp_87fed397dd06cb7e@1b73516a012b27bb7cf7da835d312f78
 ---
 
 # How to Read the Monster Catalog
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - The meaning of each game detail is as follows. (Sword World RPG - Complete Edition.pdf p.172)
 - If it's 10, even a seasoned adventurer will have a hard time crossing swords with it. (Sword World RPG - Complete Edition.pdf p.172)
@@ -163,214 +163,129 @@ Source: [[sword-world-rpg-complete-edition]]
 - Most of them have the appearance of women, but there are also individuals that have the appearance of men. (Sword World RPG - Complete Edition.pdf p.176)
 - They'll whisper in your ear while remaining hidden from view, and thrust a weapon in their hand (it appears to be a needle-thin dagger) into your butt. (Sword World RPG - Complete Edition.pdf p.176)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-If they're hungry and think their opponent is weak, they may attack.
-```
-
-<a id="atom-2"></a>
-**Atom:** example
-
-```
-Dogs have a habit of following their leaders, and humans have taken advantage of this habit to use dogs for various purposes. Dogs react to humans in a variety of ways. If they are domesticated, they will not attack humans because they consider humans to be their masters. However, special guard dogs, military dogs, etc. that have been trained to treat all but specific people as enemies will attack even humans larger than themselves. Dogs are especially aggressive towards intruders-they also have a strong sense of territory. If it's a wild dog that's not owned by humans, it will act according to its own instincts. If they're hungry and think their opponent is weak, they may attack.
-```
-
-<a id="atom-3"></a>
-**Atom:** rule
-
-```
-If you want to include small or large dogs in your game, the game master should increase or
-```
-
-<a id="atom-4"></a>
-**Atom:** rule
-
-```
-If given a command-- the only ones who can give commands are those who directly created the monster or those who used magic to give the command -they will faithfully carry it out, but they cannot make their own decisions.
-```
-
-<a id="atom-5"></a>
-**Atom:** rule
-
-```
-They can distinguish their master and will follow their commands (if they're trained).
-```
-
-<a id="atom-6"></a>
-**Atom:** rule
-
-```
-They can also use primitive tools, words, and a very limited number of written characters.
-```
-
-<a id="atom-7"></a>
-**Atom:** example
-
-```
-If it says adversarial , it means they consider adventurers (human or fae) to be their enemies. The specific actions they'll take will vary depending on the power dynamic (difference in number) between the adventurers and monsters, as well as the intelligence of the monsters. Even if the monster is adversarial, if the adventurers have the superior numbers, it will not attack immediately and may try to use trickery.
-```
-
-<a id="atom-8"></a>
-**Atom:** rule
-
-```
-A character must make a success roll using their evasion speed as the baseline score and these attack points as the target score.
-```
-
-<a id="atom-9"></a>
-**Atom:** rule
-
-```
-In this case, if they're written on one line separated by a slash (/), it means that they can attack that number of times in one round.
-```
-
-<a id="atom-10"></a>
-**Atom:** rule
-
-```
-If a character fails to evade their attack, these strike points become damage and reduce the character's life force.
-```
-
-<a id="atom-11"></a>
-**Atom:** rule
-
-```
-If Attack Points=Horn:12 (5)/Hoof:12 (5) is written as Strike Points=17/16 , then if the horn attack hits, it'll deal 17 points of damage, and the hoof attack hits, it'll deal 16 points.
-```
-
-<a id="atom-12"></a>
-**Atom:** rule
-
-```
-Just as characters can reduce damage through armor, monsters also have thick skin, shells, scales, etc.
-```
-
-<a id="atom-13"></a>
-**Atom:** rule
-
-```
-When struck by magic or similar attacks, defense points cannot reduce damage, monster level reduces damage instead.
-```
-
-<a id="atom-14"></a>
-**Atom:** rule
-
-```
-When a monster suffers damage, it will lose life points.
-```
-
-<a id="atom-15"></a>
-**Atom:** rule
-
-```
-When a character casts a spell on a monster, they must make a success roll using their magic power as the baseline score.
-```
-
-<a id="atom-16"></a>
-**Atom:** example
-
-```
-Those whose sensory abilities are pseudo have five pseudo-senses through magical means. After all, one part may be missing, or they may have special senses. In such cases, there is an organ that captures the sensation in a pseudo manner. If those organs are destroyed, the pseudo-senses will no longer be usable. For example, skeletons can use their empty eye sockets for pseudo vision. Therefore, if they're blindfolded, they won't be able to see, and they won't be able to see anything approaching from behind. Monsters whose perception is pseudo can experience illusions.
-```
-
-<a id="atom-17"></a>
-**Atom:** rule
-
-```
-If it says none , then the monster does not use language (those with obeys commands intellect may not speak themselves, but may understand what others are saying).
-```
-
-<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Monster Level=1
 ```
 
-<a id="atom-19"></a>
+<a id="atom-2"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-20"></a>
+<a id="atom-3"></a>
 **Atom:** formula
 
 ```
 Agility=14 Movement Speed=4/7 (air)
 ```
 
-<a id="atom-21"></a>
+<a id="atom-4"></a>
 **Atom:** formula
 
 ```
 Number=One
 ```
 
-<a id="atom-22"></a>
+<a id="atom-5"></a>
 **Atom:** formula
 
 ```
 Frequency=Rare
 ```
 
-<a id="atom-23"></a>
+<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 Intellect=Human
 ```
 
-<a id="atom-24"></a>
+<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 Reaction=Friendly
 ```
 
-<a id="atom-25"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Strike Points=2
 ```
 
-<a id="atom-26"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=7/8 (1)
 ```
 
-<a id="atom-27"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=15/9 (2)
 ```
 
-<a id="atom-28"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Special Abilities=2nd level spirit magic (Magic Intensity/Magic Power=11/4)
 ```
 
-<a id="atom-29"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (infravision)
 ```
 
-<a id="atom-30"></a>
-**Atom:** rule
 
-```
-They can use this ability without any restrictions, and they do not consume mental points by using this ability.
-```
+## Rules and exceptions
+
+- Examples of this include lycanthropes and red caps, where humans become monsters due to infectious diseases. (Sword World RPG - Complete Edition.pdf p.172)
+- It's also used to determine whether a character can escape from the monster. (Sword World RPG - Complete Edition.pdf p.172)
+- However, in order to do so, you will need a reason that the players can understand. (Sword World RPG - Complete Edition.pdf p.173)
+- This data is not exact, and the game master may change the number appearing depending on the circumstances of the scenario. (Sword World RPG - Complete Edition.pdf p.173)
+- In such cases, it would be best to provide a reason that the players can understand. (Sword World RPG - Complete Edition.pdf p.173)
+- Of course, spells that affect the mind cannot be expected to have any effect. (Sword World RPG - Complete Edition.pdf p.173)
+- However, they have a memory comparable to that of humans, and can answer questions accurately if asked (if commanded to answer the question ). (Sword World RPG - Complete Edition.pdf p.173)
+- However, they can sometimes display surprising judgment, although this is something that has been learned as an instinct. (Sword World RPG - Complete Edition.pdf p.173)
+- They can handle tools, words, text, etc. (Sword World RPG - Complete Edition.pdf p.173)
+- For a human, you could even use the adjective wise . (Sword World RPG - Complete Edition.pdf p.173)
+- It can be violent , adversarial , neutral , friendly , hunger-based or commandbased . (Sword World RPG - Complete Edition.pdf p.173)
+- Depending on the situation, they can be your enemy or your ally. (Sword World RPG - Complete Edition.pdf p.173)
+- This is because they may attack adventurers, seeing them as food. (Sword World RPG - Complete Edition.pdf p.174)
+- However, for carnivorous (omnivorous) animals, it can be very dangerous when they're hungry. (Sword World RPG - Complete Edition.pdf p.174)
+- Each targeted character must make a success roll to determine whether they're able to avoid the attack. (Sword World RPG - Complete Edition.pdf p.174)
+- For example, Horn ： 12 (5)/Hoof ： 12 (5) means that two attacks can be made with horn and hoof. (Sword World RPG - Complete Edition.pdf p.174)
+- If there are multiple attack methods, but they are written on two (or more) lines, the monster may have multiple attack methods, but can only use one of them during a round. (Sword World RPG - Complete Edition.pdf p.174)
+- A character can reduce this damage through armor (defense rolls) and adventurer level. (Sword World RPG - Complete Edition.pdf p.174)
+- In order for a character to hit a monster with an attack, they must succeed on a success roll using these evasion points as the target score and their attack power as the baseline score. (Sword World RPG - Complete Edition.pdf p.174)
+- This represents the degree to which the monster can evade attacks. (Sword World RPG - Complete Edition.pdf p.174)
+- to reduce damage (some fae and youma may wear armor just like humans). (Sword World RPG - Complete Edition.pdf p.174)
+- Whether or not a character can reduce damage through armor is the standard for deciding whether to use defense points or monster level. (Sword World RPG - Complete Edition.pdf p.174)
+- Therefore, only defense points should be applied when reducing damage from weapon attacks. (Sword World RPG - Complete Edition.pdf p.174)
+- Monster level may not be further subtracted from it. (Sword World RPG - Complete Edition.pdf p.174)
+- For characters, the resistance roll is successful if the final score of the resistance roll is equal to the toxicity score, etc., but for monsters, the life point resistance must be greater than the toxicity score, etc. (Sword World RPG - Complete Edition.pdf p.174)
+- a life force resistance roll determines whether they can avoid or reduce the effects of the poison. (Sword World RPG - Complete Edition.pdf p.174)
+- Conversely, for a monster to resist magic, its mental point resistance must be greater than the magic's final score. (Sword World RPG - Complete Edition.pdf p.175)
+- Monsters may have various special abilities . (Sword World RPG - Complete Edition.pdf p.175)
+- If you want to have the monster appear in a place other than what's shown here, you'll need a reason that the players can understand. (Sword World RPG - Complete Edition.pdf p.175)
+- It may also include specialized features such as darkvision , infravision , illumination , sonar , and vibration sense . (Sword World RPG - Complete Edition.pdf p.175)
+- In some cases, some of these senses may be missing. (Sword World RPG - Complete Edition.pdf p.175)
+- They cannot perceive things that are flying in the air or that are not moving. (Sword World RPG - Complete Edition.pdf p.175)
+- However, in order to remain invisible, they need focus, and if they cannot do this, you will not be able to use Invisibility , and even if they do use it, if they lose their concentration (such as when attacking or using other magic, etc.) they will appear instantly. (Sword World RPG - Complete Edition.pdf p.176)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-13-2-2-fae]] - contextualizes: source-supported topic dependency

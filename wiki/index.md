@@ -9,614 +9,614 @@
 ## Entities
 
 ## Concepts
-- [[javascriptallonge-about-javascript-allong]] — About JavaScript Allongé: 5 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-about-the-sample-pdf]] — About The Sample PDF: 3 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-after-another-drink]] — after another drink: 5 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-aftermath]] — the aftermath: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-ah-i-d-like-to-have-an-argument-please-22]] — Ah. I'd Like to Have an Argument, Please. 22: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-applying-functions]] — applying functions: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-are-consts-also-from-a-shadowy-planet]] — are consts also from a shadowy planet?: 13 accepted assertion(s) and 11 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-array-literals]] — array literals: 5 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-arrays-and-destructuring-arguments]] — Arrays and Destructuring Arguments: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less]] — As Little As Possible About Functions, But No Less: 8 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-back-on-the-block]] — back on the block: 5 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-backwardnes]] — backwardness: 4 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-balanced-statement-about-combinators]] — a balanced statement about combinators: 2 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-bonu]] — bonus: 6 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-building-blocks]] — Building Blocks: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-building-with-mutation]] — building with mutation: 5 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-call-by-sharing]] — call by sharing: 11 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-call-by-value]] — call by value: 3 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-carpenter-s-solution]] — the carpenter's solution: 12 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-caveat]] — caveat: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-closures-and-scope]] — Closures and Scope: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-combinator]] — combinators: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-composition]] — composition: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-const]] — const: 11 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-const-and-lexical-scope]] — const and lexical scope: 8 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-converting-non-tail-calls-to-tail-calls]] — converting non-tail-calls to tail-calls: 5 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-copy-on-read]] — copy-on-read: 7 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-copy-on-write]] — Copy on Write: 13 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-default-arguments]] — default arguments: 5 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-defaults-and-destructuring]] — defaults and destructuring: 2 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-destructuring-arrays]] — destructuring arrays: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-destructuring-is-not-pattern-matching]] — destructuring is not pattern matching: 7 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-destructuring-objects]] — destructuring objects: 2 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-destructuring-parameters]] — destructuring parameters: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-disclaimer]] — Disclaimer: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-eager-collections]] — eager collections: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-ecmascript-6-has-three-major-groups-of-features]] — ECMAScript 6 has three major groups of features:: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-element-references]] — element references: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-evaluation-time]] — evaluation time: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-factorial]] — factorials: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-floating]] — floating: 7 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-folding]] — folding: 2 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-foreword-to-the-six-edition]] — Foreword to the 'Six' edition: 7 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-from]] — from: 7 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function]] — Functions: 11 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-declaration-caveats-34]] — function declaration caveats 34: 7 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-declarations]] — function declarations: 8 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-decorators]] — function decorators: 3 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-keyword]] — the function keyword: 22 accepted assertion(s) and 19 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-parameters-are-eager]] — function parameters are eager: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functional-iterators]] — Functional Iterators: 7 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functions-and-identities]] — functions and identities: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functions-are-not-the-real-point]] — functions are not the real point: 9 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functions-that-evaluate-to-functions]] — functions that evaluate to functions: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functions-that-return-values-and-evaluate-expressions]] — functions that return values and evaluate expressions: 6 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-garbage-garbage-everywhere]] — Garbage, Garbage Everywhere: 12 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-gathering]] — gathering: 4 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-generating-iterables]] — Generating Iterables: 8 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-generators-and-iterables]] — generators and iterables: 7 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-generators-are-coroutines]] — generators are coroutines: 22 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-higher-order-functions]] — higher-order functions: 2 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-history-lesson]] — a history lesson: 2 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-how-this-book-is-organized]] — how this book is organized: 3 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-how-to-run-the-examples]] — How to run the examples: 8 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-if-functions-without-free-variables-are-pure-are-closures-impure]] — if functions without free variables are pure, are closures impure?: 18 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-implementing-methods-with-iteration]] — implementing methods with iteration: 6 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-inside-out]] — inside-out: 11 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-interactive-generators]] — Interactive Generators: 13 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-it-s-always-the-environment]] — it's always the environment: 10 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterable]] — iterables: 15 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterables-out-to-infinity]] — iterables out to infinity: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterating]] — iterating: 9 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iteration-and-iterables]] — Iteration and Iterables: 3 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterator-objects]] — iterator objects: 6 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-javascript-s-generators]] — javascript's generators: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-kestrel-and-the-idiot]] — the kestrel and the idiot: 7 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-lazy-and-eager-collections]] — Lazy and Eager Collections: 10 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-lazy-collection-operations]] — lazy collection operations: 10 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-left-variadic-destructuring]] — left-variadic destructuring: 3 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-left-variadic-functions]] — Left-Variadic Functions: 5 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-like-this]] — Like this:: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-linear-recursion]] — linear recursion: 19 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-lists-with-functions-as-data]] — lists with functions as data: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-literal-object-syntax]] — literal object syntax: 8 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-look-back-at-functional-iterators]] — a look back at functional iterators: 4 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-magic-names]] — Magic Names: 2 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-magic-names-and-fat-arrows]] — magic names and fat arrows: 16 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-making-data-out-of-functions]] — Making Data Out Of Functions: 8 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mapping]] — mapping: 3 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mapwith]] — mapWith: 7 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-maybe]] — Maybe: 5 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-michael-fogus]] — michael fogus: 12 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mixing-let-and-const]] — mixing let and const: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-more-generators]] — more generators: 3 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mutation]] — Mutation: 12 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mutation-and-data-structures]] — mutation and data structures: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-nested-blocks]] — nested blocks: 4 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-once]] — Once: 4 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-operations-on-numbers]] — operations on numbers: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-operations-on-ordered-collections]] — operations on ordered collections: 17 accepted assertion(s) and 9 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-ordered-collections]] — ordered collections: 9 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-overcoming-limitations]] — overcoming limitations: 2 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-partial-application]] — partial application: 14 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-picking-the-bean-choice-and-truthiness]] — Picking the Bean: Choice and Truthiness: 4 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-plain-old-javascript-objects]] — Plain Old JavaScript Objects: 8 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-problem]] — the problem: 7 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-quasi-literal]] — quasi-literals: 6 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-quick-summary-of-functions-and-bodies]] — a quick summary of functions and bodies: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-reassignment]] — Reassignment: 7 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-rebinding]] — rebinding: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-recipes-with-basic-functions]] — Recipes with Basic Functions: 2 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-recursive-iterators]] — recursive iterators: 6 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-reference-types]] — reference types: 6 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-representing-naughts-and-crosses-as-a-stateful-function]] — representing naughts and crosses as a stateful function: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-return-to-backward-thinking]] — a return to backward thinking: 16 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-revisiting-linked-lists]] — revisiting linked lists: 12 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-rewriting-iterable-operations]] — rewriting iterable operations: 5 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-rich-aroma-basic-numbers]] — A Rich Aroma: Basic Numbers: 10 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-say-please]] — say 'please': 5 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-self-currying-flip]] — self-currying flip: 2 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-self-similarity]] — Self-Similarity: 16 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-shadowy-variables-from-a-shadowy-planet]] — shadowy variables from a shadowy planet: 7 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-simplest-possible-block]] — the simplest possible block: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-so-why-arrays]] — so why arrays: 5 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-some-history]] — some history: 16 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-state-machines]] — state machines: 6 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-summary]] — summary: 18 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tail-call-optimization]] — tail-call optimization: 11 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tail-calls-and-default-arguments]] — Tail Calls (and Default Arguments): 15 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tap]] — Tap: 4 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-that-constant-coffee-craving]] — That Constant Coffee Craving: 9 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-that-s-nice-is-that-the-only-reason]] — that's nice. is that the only reason?: 10 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-this-seems-familiar]] — this seems familiar: 8 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tortoises-hares-and-teleporting-turtles]] — Tortoises, Hares, and Teleporting Turtles: 7 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-truthiness-and-operators]] — truthiness and operators: 11 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-truthiness-and-the-ternary-operator]] — truthiness and the ternary operator: 12 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-unary]] — Unary: 7 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-undefined]] — undefined: 8 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-unfolding-and-laziness]] — unfolding and laziness: 6 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-value-types]] — value types: 6 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-values-are-expressions]] — values are expressions: 18 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-var]] — var: 7 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-variables-and-bindings]] — variables and bindings: 15 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-vireo]] — the vireo: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-void]] — void: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-warm-cup-basic-strings-and-quasi-literals]] — A Warm Cup: Basic Strings and Quasi-Literals: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-we-ll-keep-it-simple]] — We'll keep it simple:: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-what-javascript-allong-is-and-isn-t]] — What JavaScript Allongé is. And isn't.: 17 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-which-came-first-the-chicken-or-the-egg]] — which came first, the chicken or the egg?: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-why]] — Why?: 6 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-why-const-and-let-were-invented]] — why const and let were invented: 10 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-why-the-six-edition]] — why the 'six' edition?: 15 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-will-be-represented-as]] — Will be represented as:: 2 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-yes-consider-this-variation]] — Yes. Consider this variation:: 9 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-yielding-iterables]] — yielding iterables: 5 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
-- [[sword-world-rpg-complete-edition-1-3-1-skill-basics]] — 1.3.1 Skill Basics: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-3-2-skill-types]] — 1.3.2 Skill Types: 12 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-3-3-adventurer-level]] — 1.3.3 Adventurer Level: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-3-4-explanation-of-adventurer-skills]] — 1.3.4 Explanation of Adventurer Skills: 57 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-1-choose-a-race]] — 1.4.1 Choose a Race: 23 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-2-determine-ability-scores]] — 1.4.2 Determine Ability Scores: 14 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-4-age-gender-name]] — 1.4.4 Age, Gender, Name: 42 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-5-character-growth-via-starting-experience-points]] — 1.4.5 Character Growth via Starting Experience Points: 23 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-6-purchasing-weapons-and-armor]] — 1.4.6 Purchasing Weapons and Armor: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-4-7-restrictions-on-weapons-and-armor-based-on-skill]] — 1.4.7 Restrictions on Weapons and Armor Based on Skill: 34 accepted assertion(s) and 12 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1-replay-collections]] — 1. Replay Collections: 12 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-10-5]] — 10.5: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-10th-level-ancient-magic-list-dimension-gate]] — 10th Level Ancient Magic List [ Dimension Gate ]: 15 accepted assertion(s) and 25 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-10th-level-basic-dark-magic-list-call-god]] — 10th Level Basic Dark Magic List [ Call God ]: 9 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-10th-level-basic-holy-magic-list-call-god]] — 10th Level Basic Holy Magic List [ Call God ]: 21 accepted assertion(s) and 31 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-10th-level-dragon-roar-magic-list-reborn-dragon]] — 10th Level Dragon Roar Magic List [ Reborn Dragon ]: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-11-2]] — 11.2: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-11-2-2-basic-dark-magic-list]] — 11.2.2 Basic Dark Magic List: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-12-2-1-poisons]] — 12.2.1 Poisons: 102 accepted assertion(s) and 57 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-12-2-3-herbs]] — 12.2.3 Herbs: 29 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-1]] — 13.2.1: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-10-magical-creatures]] — 13.2.10 Magical Creatures: 152 accepted assertion(s) and 129 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-13-other]] — 13.2.13 Other: 9 accepted assertion(s) and 18 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-2-fae]] — 13.2.2 Fae: 57 accepted assertion(s) and 11 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-4-spirits]] — 13.2.4 Spirits: 128 accepted assertion(s) and 79 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-5-titans]] — 13.2.5 Titans: 78 accepted assertion(s) and 43 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-2-7-animals]] — 13.2.7 Animals: 299 accepted assertion(s) and 289 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-4]] — 13.4: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6]] — 13.6: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-1]] — 13.6.1: 23 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-2]] — 13.6.2: 5 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-3-special-attacks-other]] — 13.6.3 Special Attacks: Other: 30 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-4]] — 13.6.4: 18 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-5]] — 13.6.5: 15 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-6]] — 13.6.6: 18 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-13-6-7-special-defense-abilities-weaknesses]] — 13.6.7 Special Defense Abilities: Weaknesses: 11 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-14-2]] — 14.2: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-14-2-1-negotiations-with-adventurers]] — 14.2.1 Negotiations With Adventurers: 12 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-14-4-2-list-of-magical-items]] — 14.4.2 List of Magical Items: 49 accepted assertion(s) and 57 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-16-6-2-two-handed-attacks]] — 16.6.2 Two-Handed Attacks: 5 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-17-5]] — 17.5: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-18-2]] — 18.2: 5 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-18-3-1-how-to-read-the-structure-strength-table]] — 18.3.1 How to Read the Structure Strength Table: 2 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-18-3-2-structure-material-list]] — 18.3.2 Structure Material List: 8 accepted assertion(s) and 31 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-18-3-3-handling-spirit-walls]] — 18.3.3 Handling Spirit Walls: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1st-level-ancient-magic-list-unlock]] — 1st Level Ancient Magic List [ Unlock ]: 4 accepted assertion(s) and 20 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1st-level-basic-dark-magic-list]] — 1st Level Basic Dark Magic List: 11 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-1st-level-dragon-roar-magic-list-iron-stomach]] — 1st Level Dragon Roar Magic List [ Iron Stomach ]: 3 accepted assertion(s) and 23 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-3-1-automatic-success-and-automatic-failure]] — 2.3.1 Automatic Success and Automatic Failure: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-4]] — 2.4: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-5]] — 2.5: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-5-2-how-to-make-a-difficulty-check]] — 2.5.2 How to Make a Difficulty Check: 11 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-5-3-analogy-of-success-and-failure]] — 2.5.3 Analogy of Success and Failure: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2-learn-from-a-sorcerer-who-knows-lost-spell]] — 2. Learn From a Sorcerer Who Knows Lost Spell: 9 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2nd-level-ancient-magic-list-oak]] — 2nd Level Ancient Magic List [ Oak ]: 27 accepted assertion(s) and 23 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2nd-level-basic-dark-magic-list]] — 2nd Level Basic Dark Magic List: 4 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2nd-level-basic-holy-magic-list-cure-deafness]] — 2nd Level Basic Holy Magic List [ Cure Deafness ]: 7 accepted assertion(s) and 28 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2nd-level-dragon-roar-magic-list]] — 2nd Level Dragon Roar Magic List: 5 accepted assertion(s) and 24 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit]] — 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit): 8 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-1-1-order-of-action-announcements]] — 3.1.1 Order of Action Announcements: 14 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-1-2-player-action-announcements]] — 3.1.2 Player Action Announcements: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-1-3-npc-and-monster-action-announcements]] — 3.1.3 NPC and Monster Action Announcements: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-2-1-delaying-an-action]] — 3.2.1 Delaying an Action: 7 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-3]] — 3.3: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-4-1]] — 3.4.1: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-4-2-actions-you-can-take]] — 3.4.2 Actions You Can Take: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3-4-3]] — 3.4.3: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3rd-level-ancient-magic-list]] — 3rd Level Ancient Magic List: 65 accepted assertion(s) and 42 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3rd-level-basic-dark-magic-list-poison]] — 3rd Level Basic Dark Magic List [ Poison ]: 10 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3rd-level-basic-holy-magic-list-cure-poison]] — 3rd Level Basic Holy Magic List [ Cure Poison ]: 12 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3rd-level-dragon-roar-magic-list]] — 3rd Level Dragon Roar Magic List: 6 accepted assertion(s) and 23 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit]] — 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit): 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-10]] — 4.10: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-11-1-magical-recovery]] — 4.11.1 Magical Recovery: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-11-2-first-aid]] — 4.11.2 First-Aid: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-11-3-natural-recovery]] — 4.11.3 Natural Recovery: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-5-1-hit-checks]] — 4.5.1 Hit Checks: 8 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-5-3-bonus-damage]] — 4.5.3 Bonus Damage: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-6-1-hit-evasion-checks]] — 4.6.1 Hit (Evasion) Checks: 10 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-6-3-defense-rolls]] — 4.6.3 Defense Rolls: 6 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-6-4-damage-reduction]] — 4.6.4 Damage Reduction: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-6-5-final-damage]] — 4.6.5 Final Damage: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-7-1-hit-checks]] — 4.7.1 Hit Checks: 8 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-7-2-damage-checks]] — 4.7.2 Damage Checks: 8 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-9-2-death-checks-every-hour]] — 4.9.2 Death Checks Every Hour: 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-9-3-monster-death-check]] — 4.9.3 Monster Death Check: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-9-4-mercy]] — 4.9.4 Mercy: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4-sword-world-novels-and-short-story-collections]] — 4. Sword World Novels and Short Story Collections: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4th-level-ancient-magic-list-counter-sense]] — 4th Level Ancient Magic List [ Counter Sense ]: 37 accepted assertion(s) and 44 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4th-level-basic-dark-magic-list-control-imp]] — 4th Level Basic Dark Magic List [ Control Imp ]: 10 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4th-level-basic-holy-magic-list-cure-disease]] — 4th Level Basic Holy Magic List [ Cure Disease ]: 8 accepted assertion(s) and 16 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4th-level-dragon-roar-magic-list]] — 4th Level Dragon Roar Magic List: 7 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-4th-level-spirit-magic-list-water-walking-undine-water-spirit]] — 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit): 3 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-1-types-of-magic]] — 5.1.1 Types of Magic: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-13-spirit-magic-and-the-shaman-skill]] — 5.1.13 Spirit Magic and the Shaman Skill: 30 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-2-rune-masters-and-rune-master-skills]] — 5.1.2 Rune Masters and Rune Master Skills: 13 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-3-learning-magic]] — 5.1.3 Learning Magic: 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-4-how-to-use-magic]] — 5.1.4 How to Use Magic: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-7-magic-expansion]] — 5.1.7 Magic Expansion: 40 accepted assertion(s) and 11 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-8-magic-contraction]] — 5.1.8 Magic Contraction: 23 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-1-9-magic-types]] — 5.1.9 Magic Types: 84 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-3]] — 5.3: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5-3-1-spellsong-list]] — 5.3.1 Spellsong List: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5th-level-ancient-magic-list-apport]] — 5th Level Ancient Magic List [ Apport ]: 29 accepted assertion(s) and 52 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5th-level-basic-dark-magic-list]] — 5th Level Basic Dark Magic List: 9 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5th-level-basic-holy-magic-list-quest]] — 5th Level Basic Holy Magic List [ Quest ]: 13 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5th-level-dragon-roar-magic-list-dragon-s-roar]] — 5th Level Dragon Roar Magic List [ Dragon's Roar ]: 8 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-5th-level-spirit-magic-list-control-plant]] — 5th Level Spirit Magic List [ Control Plant ]: 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6-4]] — 6.4: 10 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6-5]] — 6.5: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6-collection-series]] — 6. Collection Series: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6th-level-ancient-magic-list-acid-cloud]] — 6th Level Ancient Magic List [ Acid Cloud ]: 56 accepted assertion(s) and 76 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6th-level-basic-dark-magic-list-mesmerize]] — 6th Level Basic Dark Magic List [ Mesmerize ]: 9 accepted assertion(s) and 10 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6th-level-basic-holy-magic-list]] — 6th Level Basic Holy Magic List: 13 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6th-level-dragon-roar-magic-list]] — 6th Level Dragon Roar Magic List: 12 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-6th-level-spirit-magic-list]] — 6th Level Spirit Magic List: 53 accepted assertion(s) and 20 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7-2]] — 7.2: 11 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7-3]] — 7.3: 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7-5]] — 7.5: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7-old-version-of-the-rules]] — 7. Old Version of the Rules: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7th-level-ancient-magic-list-dispel-order]] — 7th Level Ancient Magic List [ Dispel Order ]: 43 accepted assertion(s) and 49 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7th-level-basic-holy-magic-list]] — 7th Level Basic Holy Magic List: 9 accepted assertion(s) and 13 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-7th-level-dragon-roar-magic-list-summon-wyrm]] — 7th Level Dragon Roar Magic List [ Summon Wyrm ]: 5 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8-3]] — 8.3: 9 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8-4]] — 8.4: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8-game-master-screen]] — 8. Game Master Screen: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8th-level-ancient-magic-list]] — 8th Level Ancient Magic List: 26 accepted assertion(s) and 36 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8th-level-basic-dark-magic-list-cripple]] — 8th Level Basic Dark Magic List [ Cripple ]: 7 accepted assertion(s) and 13 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8th-level-basic-holy-magic-list]] — 8th Level Basic Holy Magic List: 17 accepted assertion(s) and 19 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8th-level-dragon-roar-magic-list]] — 8th Level Dragon Roar Magic List: 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-8th-level-spirit-magic-list-ice-coffin]] — 8th Level Spirit Magic List [ Ice Coffin ]: 9 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9-3]] — 9.3: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9-4]] — 9.4: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9th-level-ancient-magic-list-command-golem]] — 9th Level Ancient Magic List [ Command Golem ]: 37 accepted assertion(s) and 34 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9th-level-basic-dark-magic-list-plague]] — 9th Level Basic Dark Magic List [ Plague ]: 13 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9th-level-dragon-roar-magic-list-summon-lesser-dragon]] — 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ]: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit]] — 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit): 8 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ability]] — Ability: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ability-scores]] — Ability Scores: 18 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-accessories-earrings-of-interpretation]] — 《 Accessories 》 [ Earrings of Interpretation ]: 45 accepted assertion(s) and 47 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-accomplishing-missions]] — Accomplishing Missions: 5 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-acquiring-rune-master-skills-and-increasing-levels]] — Acquiring Rune Master Skills and Increasing Levels: 22 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-acrobatics-agility-equipment-restriction]] — [ ③ Acrobatics [Agility] ] (Equipment restriction): 5 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-action-canceling]] — Action Canceling: 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-action-order]] — Action Order: 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-actions-you-can-take-while-standing-still]] — Actions You Can Take While Standing Still: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-adventure-treasure-and-reward-amounts]] — Adventure Treasure and Reward Amounts: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-adventurer]] — Adventurers: 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-adventurer-death-checks]] — Adventurer Death Checks: 10 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-age-of-magic-the-kingdom-of-kastuul]] — The Age of Magic = The Kingdom of Kastuul: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-age-of-mythology]] — Age of Mythology: 17 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-age-of-sword-the-new-kingdoms]] — The Age of Sword = The New Kingdoms: 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ancient-magic-list]] — Ancient Magic List: 40 accepted assertion(s) and 65 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-and-armor]] — and Armor: 14 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-and-runes]] — and Runes: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-area-aim]] — Area Aim: 17 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-armor]] — Armor: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-artwork]] — Artwork: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-asking-npcs-to-use-magic]] — Asking NPCs to Use Magic: 31 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-astrology-intelligence-not-retriable]] — [ ③ Astrology [Intelligence] ] (Not retriable): 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-attack-power-modifier]] — Attack Power Modifier: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-attacks-from-characters-against-monsters]] — Attacks From Characters Against Monsters: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-attacks-from-monsters-against-characters]] — Attacks From Monsters Against Characters: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-automatic-success-restrictions]] — Automatic Success Restrictions: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ballista]] — Ballista: 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-bard-skill]] — Bard Skill: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-baseline-scores]] — Baseline Scores: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-berserk-spell-level-3]] — [ Berserk ] (Spell Level=3): 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-binding-dryad-plant-spirit]] — [ Binding ] (Dryad/Plant Spirit): 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-blindnes]] — Blindness: 2 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-bonuses-and-penalties]] — Bonuses and Penalties: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-books-related-to-sword-world-rpg]] — Books Related to Sword World RPG: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-boomerang]] — Boomerang: 2 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-brownie-brownie-building-spirit]] — [ Brownie ] (Brownie/Building Spirit): 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-calendar-and-time]] — Calendar and Time: 16 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-camouflage-intelligence-equipment-restriction]] — [ ③ Camouflage [Intelligence] ] (Equipment restriction): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-catalysts-other-than-staves]] — Catalysts Other Than Staves: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-central-region-language-m-rdan-eremire-gundar-saine]] — Central Region (Language = Mārdan/Eremire Gundar/Saine): 12 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-cestu]] — Cestus: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-cha-za-special-holy-magic-list-luck]] — Cha Za Special Holy Magic List [ Luck ]: 5 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-change-attack-targets]] — Change Attack Targets: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-changes-to-magic-procedure]] — Changes to Magic Procedure: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-chaosland-language-native-language]] — Chaosland (Language = Native Language): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-character-creation]] — Character Creation: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-charge]] — Charge: 11 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-charm-dryad-plant-spirit]] — [ Charm ] (Dryad/Plant Spirit): 7 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-charm-mind]] — Charm (Mind): 5 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-check]] — Checks: 12 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-citizen]] — Citizens: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-climate]] — Climate: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-climb-agility-equipment-restriction]] — [ ⑩ Climb [Agility] ] (Equipment restriction): 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection]] — Collections: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-combat-between-monsters]] — Combat Between Monsters: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-combat-in-special-situations]] — Combat in Special Situations: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-combat-in-which-monsters-roll-dice]] — Combat in Which Monsters Roll Dice: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-common-adventurer-abilities]] — Common Adventurer Abilities: 75 accepted assertion(s) and 21 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-common-runes]] — Common Runes: 7 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-confusion-leprechaun-mind-spirit]] — [ Confusion ] (Leprechaun/Mind Spirit): 7 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-consuming-mental-power]] — Consuming Mental Power: 7 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-control-spirit-various-lesser-spirits]] — [ Control Spirit ] (Various lesser spirits): 11 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-converting-character-data-to-monster-data]] — Converting Character Data to Monster Data: 15 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-crack-behemoth-greater-earth-spirit]] — [ Crack ] (Behemoth/Greater Earth Spirit): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-craftsman-skill]] — Craftsman Skill: 20 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-cranequin-crossbow]] — Cranequin Crossbow: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-create-ghost-ship-spell-level-6]] — [ Create Ghost Ship ] (Spell Level=6): 3 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-creeping-tree]] — Creeping Tree: 257 accepted assertion(s) and 258 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-critical-target-variation]] — Critical Target Variation: 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-curiosity-mind]] — Curiosity (Mind): 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-currency]] — Currency: 63 accepted assertion(s) and 29 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-current-kraken-greater-water-spirit]] — [ Current ] (Kraken/Greater Water Spirit): 3 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-curse]] — Curse: 42 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-daemons-underworld-creatures]] — Daemons/Underworld Creatures: 12 accepted assertion(s) and 37 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-dance-mind]] — Dance (Mind): 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-dark-magic]] — Dark Magic: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-decrease-water-pressure-undine-water-spirit]] — [ Decrease Water Pressure ] (Undine/Water Spirit): 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-defense-modifier]] — Defense Modifier: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-destruction-points]] — Destruction Points: 17 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-detail]] — Details: 20 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-determining-base-damage-strike-roll]] — Determining Base Damage (Strike Roll): 22 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-difference-between-general-skills-and-adventurer-skills]] — The Difference Between General Skills and Adventurer Skills: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-difficulty-checks]] — Difficulty Checks: 20 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-disguise-dexterity-no-equipment-restriction]] — [ ⑭ Disguise [Dexterity] ] (No equipment restriction): 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-divine-armor-spell-level-7]] — [ Divine Armor ] (Spell Level=7): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-divine-weapon-spell-level-7]] — [ Divine Weapon ] (Spell Level=7): 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-double-sixes-and-double-ones]] — Double Sixes and Double Ones: 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-dragon-roar-magic]] — Dragon Roar Magic: 16 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-drop-a-weapon-etc-on-the-ground]] — Drop a Weapon, Etc. On the Ground: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-early-bird-mind]] — Early Bird (Mind): 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-eastend-languages]] — Eastend (Languages = ?): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-equipment]] — Equipment: 26 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-excellent-weapons-and-armor]] — Excellent Weapons and Armor: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-experience-points]] — Experience Points: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-fanaticism-valkyrie-mind-spirit]] — [ Fanaticism ] (Valkyrie/Mind Spirit): 4 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-farland-languages]] — Farland (Languages = ?): 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-fear-shade-dark-spirit]] — [ Fear ] (Shade/Dark Spirit): 4 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-filling-out-the-character-sheet]] — Filling Out the Character Sheet: 64 accepted assertion(s) and 19 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-firebolt-salamander-fire-spirit]] — [ Firebolt ] (Salamander/Fire Spirit): 3 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-firestorm-efreet-greater-fire-spirit]] — [ Firestorm ] (Efreet/Greater Fire Spirit): 3 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-first-aid-no-equipment-restriction]] — [ ② First-Aid [-] ] (No equipment restriction): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-follow-agility-equipment-restriction]] — [ ⑬ Follow [Agility] ] (Equipment restriction): 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-footprint-tracking-intelligence-no-equipment-restriction-not-retriable]] — [ ① Footprint Tracking [Intelligence] ] (No equipment restriction, not retriable): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-for-humans-and-halfelves-raised-by-humans]] — For Humans and HalfElves Raised by Humans: 7 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-for-races-other-than-humans]] — For Races Other Than Humans: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-forcelia]] — Forcelia: 33 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-forger-of-colors]] — Forger of Colors: 31 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-forget-leprechaun-mind-spirit]] — [ Forget ] (Leprechaun/Mind Spirit): 7 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-four-types-of-experience-points]] — Four Types of Experience Points: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-freeze-fenrir-greater-ice-spirit]] — [ Freeze ] (Fenrir/Greater Ice Spirit): 20 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-full-control-spirit-various-lesser-spirits]] — [ Full Control Spirit ] (Various lesser spirits): 2 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-full-defense]] — Full Defense: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-full-resistance]] — Full Resistance: 12 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-garrote]] — Garrote: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-gems-and-precious-metals]] — Gems and Precious Metals: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-general-modifiers]] — General Modifiers: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-geography]] — Geography: 23 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-grapple]] — Grapple: 21 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-greater-daemons-doppelganger]] — [ Greater Daemons ] Doppelganger: 10 accepted assertion(s) and 11 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-guide-to-forcelia-and-alecrast]] — Guide to Forcelia and Alecrast: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-guild]] — Guilds: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-healer-skill]] — Healer Skill: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-healing]] — Healing: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-healing-the-unknown-spirit-of-life]] — [ Healing ] (The Unknown Spirit of Life): 2 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-heat-metal-spell-level-5]] — [ Heat Metal ] (Spell Level=5): 4 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-herbs-intelligence-not-retriable]] — [ ③ Herbs [Intelligence] ] (Not retriable): 18 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-hide-agility-equipment-restriction]] — [ ⑧ Hide [Agility] ] (Equipment restriction): 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-holding-weapons-in-both-hands]] — Holding Weapons in Both Hands: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-how-to-create-general-skills]] — How to Create General Skills: 11 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-how-to-read-the-monster-catalog]] — How to Read the Monster Catalog: 146 accepted assertion(s) and 30 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-how-to-use-experience-points-increasing-skill-levels]] — How to Use Experience Points: Increasing Skill Levels: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-human]] — Humans: 33 accepted assertion(s) and 94 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-hunter-skill]] — Hunter Skill: 11 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ice-storm-fenrir-greater-ice-spirit]] — [ Ice Storm ] (Fenrir/Greater Ice Spirit): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-illnesse]] — Illnesses: 99 accepted assertion(s) and 47 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-increasing-general-skills]] — Increasing General Skills: 12 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-inspiration-spell-level-3]] — [ Inspiration ] (Spell Level=3): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-island-of-damned-language-native-language]] — Island of Damned (Language = Native Language): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-islands-of-azarn-language-eastern-m-rdan]] — Islands of Azarn (Language = Eastern/Mārdan): 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-jihad-spell-level-10]] — [ Jihad ] (Spell Level=10): 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-kardis-special-dark-magic-list]] — Kardis Special Dark Magic List: 2 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-king]] — Kings: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-kingdom]] — Kingdoms: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-knowledge-intelligence-not-retriable]] — [ ④ Knowledge [Intelligence]] (Not retriable): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lance]] — Lance: 6 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-language]] — Languages: 13 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-legend-spell-level-7]] — [ Legend ] (Spell Level=7): 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lesser-daemon-grunel]] — [ Lesser Daemon ] Grunel: 39 accepted assertion(s) and 61 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction]] — [ ⑤ Listen [Intelligence] ] (Equipment restriction): 9 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lockpicking-dexterity-no-equipment-restriction-not-retriable]] — [ ② Lockpicking [Dexterity]] (No equipment restriction, not retriable): 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-long-distance-modifiers]] — Long Distance Modifiers: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-long-jump-high-jump-agility-equipment-restriction]] — [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction): 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-loss-of-ability-scores-and-its-impact]] — Loss of Ability Scores and Its Impact: 22 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lost-spells]] — Lost Spells: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lullaby-mind]] — Lullaby (Mind): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lunatic-dance-spell-level-5]] — [ Lunatic Dance ] (Spell Level=5): 5 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-lunatic-seed-spell-level-4]] — [ Lunatic Seed ] (Spell Level=4): 7 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magic-armor-2-non-metal-or-ring-mail]] — 《 Magic Armor (+2) 》 Non-metal or ring mail: 27 accepted assertion(s) and 20 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magic-list-cure-wounds]] — Magic List [ Cure Wounds ]: 20 accepted assertion(s) and 25 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magic-list-recall-spirit]] — Magic List [ Recall Spirit ]: 19 accepted assertion(s) and 16 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magical-item-list]] — Magical Item List: 15 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magical-items]] — Magical Items: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-magical-weapons-and-armor]] — Magical Weapons and Armor: 15 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-main-gauche-sword-breaker]] — Main-gauche/Sword Breaker: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-map-creation-intelligence-no-equipment-restriction-not-retriable]] — [ ⑨ Map Creation [Intelligence]] (No equipment restriction, not retriable): 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-march-mind]] — March (Mind): 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-marfa-special-holy-magic-list]] — Marfa Special Holy Magic List: 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-maze-woods-ent-greater-plant-spirit]] — [ Maze Woods ] (Ent/Greater Plant Spirit): 4 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-meaning-of-the-rulebook]] — The Meaning of the Rulebook: 21 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-medicines-intelligence-appraisal-only-not-retriable]] — [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable): 17 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-merchant-s-license]] — Merchant's License: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-merchant-skill]] — Merchant Skill: 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-missile-protection-sylph-wind-spirit]] — [ Missile Protection ] (Sylph/Wind Spirit): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-mithril-silver-weapons-and-armor]] — Mithril Silver Weapons and Armor: 15 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-monster]] — Monsters: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-monster-defense-points]] — Monster Defense Points: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-monster-level-and-adventurer-level]] — Monster Level and Adventurer Level: 9 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-monster-resistance]] — Monster Resistance: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-morale-mind]] — Morale (Mind): 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-movement-and-actions]] — Movement and Actions: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-mow-down]] — Mow Down: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-mute-sylph-wind-spirit]] — [ Mute ] (Sylph/Wind Spirit): 4 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-myrii-special-holy-magic-list-battle-song-spell-level-5]] — Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5): 3 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-mythical-beasts-and-magical-beasts]] — Mythical Beasts and Magical Beasts: 287 accepted assertion(s) and 213 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-nameless-god-of-madness-special-dark-magic-list]] — The Nameless God of Madness Special Dark Magic List: 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-nameless-god-of-madness-wicked-god]] — The Nameless God of Madness (Wicked God): 20 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-nightmare-incubus-succubus-dream-spirit]] — [ Nightmare ] (Incubus, Succubus/Dream Spirit): 11 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-nobles-knight]] — Nobles/Knights: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-northeast-region-language-eastern-m-rdan]] — Northeast Region (Language = Eastern/Mārdan): 15 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-northern-central-region-language-western-gundar]] — Northern Central Region (Language = Western/Gundar): 25 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-nostalgia-mind]] — Nostalgia (Mind): 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-npc-and-monster-action-announcement]] — NPC and Monster Action Announcement: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-number-of-projectile-shots]] — Number of Projectile Shots: 6 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-one-handed-and-twohanded-weapons]] — One-Handed and TwoHanded Weapons: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-oran-language-eastern-m-rdan]] — Oran (Language = Eastern/Mārdan): 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-part-2-game-master-section]] — Part 2 Game Master Section: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-part-3-optional-rules]] — Part 3 Optional Rules: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-peace-mind]] — Peace (Mind): 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-pickpocket-dexterity-equipment-restriction]] — [ ⑦ Pickpocket [Dexterity] ] (Equipment restriction): 3 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-pole-weapons]] — Pole Weapons: 28 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-power]] — Power: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-precautions-when-using-skills]] — Precautions When Using Skills: 11 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-preserve-sound-sylph-wind-spirit]] — [ Preserve Sound ] (Sylph/Wind Spirit): 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-price-calculation]] — Price Calculation: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-priest-skill]] — Priest Skill: 50 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-projectile]] — Projectiles: 2 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-projectile-use-dexterity-strength-no-equipment-restriction]] — [ ⑫ Projectile Use [Dexterity, Strength] ] (No equipment restriction): 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-purification-undine-water-spirit]] — [ Purification ] (Undine/Water Spirit): 4 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-race]] — Races: 29 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ram]] — Ram: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ready-a-sheathed-weapon]] — Ready a Sheathed Weapon: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ready-a-weapon]] — Ready a Weapon: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-ready-a-weapon-and-attack]] — Ready a Weapon and Attack: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-religious-organizations]] — Religious Organizations: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-remove-set-trap-dexterity-equipment-restriction-not-retriable]] — [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable): 6 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-representing-special-monsters-with-character-data]] — Representing Special Monsters with Character Data: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-reptile-check-intelligence]] — Reptile Check [Intelligence]: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-requiem]] — Requiem: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-required-strength]] — Required Strength: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-research-intelligence-not-retriable]] — [ ⑤ Research [Intelligence] ] (Not retriable): 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-resistance]] — Resistance: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-resistance-rolls]] — Resistance Rolls: 14 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-restore-health-the-unknown-spirit-of-life]] — [ Restore Health ] (The Unknown Spirit of Life): 4 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-for-awarding-greater-experience-points]] — Rules for Awarding Greater Experience Points: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-for-destroying-structures]] — Rules for Destroying Structures: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-for-poison-illness-and-infection]] — Rules for Poison, Illness and Infection: 11 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-for-sleeping-adventurers]] — Rules for Sleeping Adventurers: 5 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-for-sleeping-monsters]] — Rules for Sleeping Monsters: 15 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rules-regarding-language]] — Rules Regarding Language: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-rune-masters-status]] — Rune Masters' Status: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sage-skill]] — Sage Skill: 18 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sailor-skill]] — Sailor Skill: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sap-blackjack]] — Sap (Blackjack): 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-scores-used-in-weapon-combat]] — Scores Used in Weapon Combat: 32 accepted assertion(s) and 10 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-search-intelligence-no-equipment-restriction-not-retriable]] — [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable): 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sense-evil-spell-level-1]] — [ Sense Evil ] (Spell Level=1): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sense-metal-spell-level-3]] — [ Sense Metal ] (Spell Level=3): 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-setting-target-scores-and-difficulties]] — Setting Target Scores and Difficulties: 21 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shade-shade-dark-spirit]] — [ Shade ] (Shade/Dark Spirit): 8 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sheath-a-weapon-etc]] — Sheath a Weapon, Etc.: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shield]] — Shields: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shield-attack]] — Shield Attack: 8 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shield-modifiers]] — Shield Modifiers: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shoot-arrow-sylph-wind-spirit]] — [ Shoot Arrow ] (Sylph/Wind Spirit): 9 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-shotel]] — Shotel: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-should-you-use-a-target-score-check-or-a-difficulty-check]] — Should You Use a Target Score Check or a Difficulty Check?: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-silence-sylph-wind-spirit]] — [ Silence ] (Sylph/Wind Spirit): 5 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-silver-weapons-and-armor]] — Silver Weapons and Armor: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sing-mind]] — Sing (Mind): 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sink-undine-water-spirit]] — [ Sink ] (Undine/Water Spirit): 3 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-skill]] — Skills: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-slave]] — Slaves: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sleep-sandman-mind-spirit]] — [ Sleep ] (Sandman/Mind Spirit): 3 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-snare-gnome-earth-spirit]] — [ Snare ] (Gnome/Earth Spirit): 4 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-snipe]] — Snipe: 13 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-southern-central-region-language-western-gundar]] — Southern Central Region (Language = Western/Gundar): 26 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-special]] — Special: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-special-bonuses]] — Special Bonuses: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-special-combat-dexterity-agility-strength-equipment-restriction]] — [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction): 10 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-special-dark-magic-list]] — Special Dark Magic List: 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-spell-list]] — Spell List: 10 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-spellsong]] — Spellsongs: 15 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-spirit-magic-list]] — Spirit Magic List: 6 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-stand-up-and-ready-yourself]] — Stand Up and Ready Yourself: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-starting-adventurer-languages]] — Starting Adventurer Languages: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-staves-and-wands-ice-blaze-wand]] — 《 Staves and Wands 》 [ Ice Blaze Wand ]: 153 accepted assertion(s) and 183 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-stealthy-step-agility-equipment-restriction]] — [ ⑥ Stealthy Step [Agility] ] (Equipment restriction): 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-stone-blast-gnome-earth-spirit]] — [ Stone Blast ] (Gnome/Earth Spirit): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-strike-power-modifier]] — Strike Power Modifier: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-strong-blow]] — Strong Blow: 3 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-success-rolls]] — Success Rolls: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-success-rolls-using-adventurer-level]] — Success Rolls Using Adventurer Level: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-suffocate-djinn-wind-spirit]] — [ Suffocate ] (Djinn/Wind Spirit): 5 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sun-moon-stars]] — Sun, Moon, Stars: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-surprise-attack-intelligence-no-equipment-restriction]] — [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction): 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-surprise-attacks]] — Surprise Attacks: 7 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-swim-agility-equipment-restriction]] — [ ④ Swim [Agility] ] (Equipment restriction): 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-switch-a-weapon-from-hand-to-hand]] — Switch a Weapon From Hand to Hand: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-sword-world-rpg-complete-edition-rulebook]] — Sword World RPG: Complete Edition Rulebook: 24 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-target-scores]] — Target Scores: 3 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-thief-skill]] — Thief Skill: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-thieves-guild-sorcerers-guild-academy]] — Thieves Guild/Sorcerers' Guild (Academy): 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-throwing-multiple-darts-or-daggers]] — Throwing Multiple Darts or Daggers: 4 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-treasure-and-rewards-in-sword-world]] — Treasure and Rewards in Sword World: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-treasure-appraisal-intelligence-no-equipment-restriction-not-retriable]] — [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable): 10 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-treasure-appraisal-intelligence-not-retriable]] — [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable): 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-treasure-types]] — Treasure Types: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-tumble-agility-equipment-restriction]] — [ ① Tumble [Agility] ] (Equipment restriction): 2 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-tunnel-gnome-earth-spirit]] — [ Tunnel ] (Gnome/Earth Spirit): 13 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-types-of-monsters]] — Types of Monsters: 73 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-unconscious-and-death-checks]] — Unconscious and Death Checks: 4 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-use-magic-and-projectiles]] — Use Magic and Projectiles: 2 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-valkyrie-blessing-valkyrie-mind-spirit]] — [ Valkyrie Blessing ] (Valkyrie/Mind Spirit): 5 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-valkyrie-javelin-valkyrie-mind-spirit]] — [ Valkyrie Javelin ] (Valkyrie/Mind Spirit): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-vibrato]] — Vibrato: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-water-breathing-undine-water-spirit]] — [ Water Breathing ] (Undine/Water Spirit): 2 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-water-combat]] — Water Combat: 6 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-weak-point-spell-level-3]] — [ Weak Point ] (Spell Level=3): 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-weapon-and-armor-restrictions]] — Weapon and Armor Restrictions: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-weapon-combat-skills]] — Weapon Combat Skills: 2 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-weapons-and-armor-that-are-too-heavy]] — Weapons and Armor That Are Too Heavy: 4 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-weather-prediction-intelligence-no-equipment-restriction-not-retriable]] — [ ⑩ Weather Prediction [Intelligence] ] (No equipment restriction, not retriable): 7 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-western-countries-language-western-except-palmer-village-which-uses-eastern]] — Western Countries (Language: Western, except Palmer Village which uses Eastern): 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-what-is-a-role-playing-game-rpg]] — What is a Role-Playing Game (RPG)?: 28 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-what-you-ll-need-to-play-sword-world-rpg]] — What You'll Need to Play Sword World RPG: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-when-a-monster-casts-magic-on-adventurers]] — When a Monster Casts Magic on Adventurers: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-a-mix-of-adventurers-and-monsters]] — When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: 6 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-adventurers]] — When an Adventurer Casts Magic on Adventurers: 9 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-monsters]] — When an Adventurer Casts Magic on Monsters: 5 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-whip-net-bola]] — Whip, Net, Bola: 9 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-windstorm-djinn-greater-wind-spirit]] — [ Windstorm ] (Djinn/Greater Wind Spirit): 6 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-withdraw-flee-from-engagement]] — Withdraw (Flee) From Engagement: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-work-requests-to-npcs]] — Work Requests to NPCs: 14 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-world]] — World: 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-youma]] — Youma: 71 accepted assertion(s) and 32 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[javascriptallonge-about-javascript-allong]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-about-the-sample-pdf]] — topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-after-another-drink]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-aftermath]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-ah-i-d-like-to-have-an-argument-please-22]] — topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-applying-functions]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-are-consts-also-from-a-shadowy-planet]] — topic-concept: 30 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-array-literals]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-arrays-and-destructuring-arguments]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less]] — topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-back-on-the-block]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-backwardnes]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-balanced-statement-about-combinators]] — topic-concept: 4 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-bonu]] — topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-building-blocks]] — topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-building-with-mutation]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-call-by-sharing]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-call-by-value]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-carpenter-s-solution]] — topic-concept: 22 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-caveat]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-closures-and-scope]] — topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-combinator]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-composition]] — topic-concept: 18 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-const]] — topic-concept: 26 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-const-and-lexical-scope]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-converting-non-tail-calls-to-tail-calls]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-copy-on-read]] — topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-copy-on-write]] — topic-concept: 22 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-default-arguments]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-defaults-and-destructuring]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-destructuring-arrays]] — topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-destructuring-is-not-pattern-matching]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-destructuring-objects]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-destructuring-parameters]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-disclaimer]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-eager-collections]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-ecmascript-6-has-three-major-groups-of-features]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-element-references]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-evaluation-time]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-factorial]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-floating]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-folding]] — topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-foreword-to-the-six-edition]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-from]] — topic-concept: 15 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function]] — topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-declaration-caveats-34]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-declarations]] — topic-concept: 16 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-decorators]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-keyword]] — topic-concept: 26 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-parameters-are-eager]] — topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-functional-iterators]] — topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-functions-and-identities]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-functions-are-not-the-real-point]] — topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-functions-that-evaluate-to-functions]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-functions-that-return-values-and-evaluate-expressions]] — topic-concept: 14 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-garbage-garbage-everywhere]] — topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-gathering]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-generating-iterables]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-generators-and-iterables]] — topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-generators-are-coroutines]] — topic-concept: 27 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-higher-order-functions]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-history-lesson]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-how-this-book-is-organized]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-how-to-run-the-examples]] — topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-if-functions-without-free-variables-are-pure-are-closures-impure]] — topic-concept: 25 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-implementing-methods-with-iteration]] — topic-concept: 18 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-inside-out]] — topic-concept: 21 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-interactive-generators]] — topic-concept: 15 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-it-s-always-the-environment]] — topic-concept: 19 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-iterable]] — topic-concept: 24 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-iterables-out-to-infinity]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-iterating]] — topic-concept: 20 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-iteration-and-iterables]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-iterator-objects]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-javascript-s-generators]] — topic-concept: 19 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-kestrel-and-the-idiot]] — topic-concept: 16 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-lazy-and-eager-collections]] — topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-lazy-collection-operations]] — topic-concept: 23 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-left-variadic-destructuring]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-left-variadic-functions]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-like-this]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-linear-recursion]] — topic-concept: 25 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-lists-with-functions-as-data]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-literal-object-syntax]] — topic-concept: 20 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-look-back-at-functional-iterators]] — topic-concept: 14 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-magic-names]] — topic-concept: 3 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-magic-names-and-fat-arrows]] — topic-concept: 23 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-making-data-out-of-functions]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-mapping]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-mapwith]] — topic-concept: 19 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-maybe]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-michael-fogus]] — topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-mixing-let-and-const]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-more-generators]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-mutation]] — topic-concept: 23 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-mutation-and-data-structures]] — topic-concept: 15 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-nested-blocks]] — topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-once]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-operations-on-numbers]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-operations-on-ordered-collections]] — topic-concept: 30 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-ordered-collections]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-overcoming-limitations]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-partial-application]] — topic-concept: 21 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-picking-the-bean-choice-and-truthiness]] — topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-plain-old-javascript-objects]] — topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-problem]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-quasi-literal]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-quick-summary-of-functions-and-bodies]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-reassignment]] — topic-concept: 15 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-rebinding]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipes-with-basic-functions]] — topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recursive-iterators]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-reference-types]] — topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-representing-naughts-and-crosses-as-a-stateful-function]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-return-to-backward-thinking]] — topic-concept: 27 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-revisiting-linked-lists]] — topic-concept: 21 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-rewriting-iterable-operations]] — topic-concept: 14 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-rich-aroma-basic-numbers]] — topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-say-please]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-self-currying-flip]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-self-similarity]] — topic-concept: 28 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-shadowy-variables-from-a-shadowy-planet]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-simplest-possible-block]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-so-why-arrays]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-some-history]] — topic-concept: 21 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-state-machines]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-summary]] — topic-concept: 23 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-tail-call-optimization]] — topic-concept: 18 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-tail-calls-and-default-arguments]] — topic-concept: 25 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-tap]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-that-constant-coffee-craving]] — topic-concept: 16 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-that-s-nice-is-that-the-only-reason]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-this-seems-familiar]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-tortoises-hares-and-teleporting-turtles]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-truthiness-and-operators]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-truthiness-and-the-ternary-operator]] — topic-concept: 16 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-unary]] — topic-concept: 16 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-undefined]] — topic-concept: 14 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-unfolding-and-laziness]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-value-types]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-values-are-expressions]] — topic-concept: 22 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-var]] — topic-concept: 15 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-variables-and-bindings]] — topic-concept: 21 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-vireo]] — topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-void]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-warm-cup-basic-strings-and-quasi-literals]] — topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-we-ll-keep-it-simple]] — topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-what-javascript-allong-is-and-isn-t]] — topic-concept: 25 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-which-came-first-the-chicken-or-the-egg]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-why]] — topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-why-const-and-let-were-invented]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-why-the-six-edition]] — topic-concept: 23 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-will-be-represented-as]] — topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-yes-consider-this-variation]] — topic-concept: 16 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-yielding-iterables]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
+- [[sword-world-rpg-complete-edition-1-3-1-skill-basics]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1-3-2-skill-types]] — topic-concept: 16 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1-3-3-adventurer-level]] — topic-concept: 4 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1-3-4-explanation-of-adventurer-skills]] — broad-topic: 69 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1-4-1-choose-a-race]] — topic-concept: 31 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1-4-2-determine-ability-scores]] — topic-concept: 28 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1-4-4-age-gender-name]] — topic-concept: 56 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1-4-5-character-growth-via-starting-experience-points]] — topic-concept: 33 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1-4-6-purchasing-weapons-and-armor]] — topic-concept: 4 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1-4-7-restrictions-on-weapons-and-armor-based-on-skill]] — topic-concept: 50 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1-replay-collections]] — topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-10-5]] — topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-10th-level-ancient-magic-list-dimension-gate]] — topic-concept: 42 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-10th-level-basic-dark-magic-list-call-god]] — topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-10th-level-basic-holy-magic-list-call-god]] — topic-concept: 55 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-10th-level-dragon-roar-magic-list-reborn-dragon]] — topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-11-2]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-11-2-2-basic-dark-magic-list]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-12-2-1-poisons]] — broad-topic: 164 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-12-2-3-herbs]] — topic-concept: 50 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-2-1]] — topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-2-10-magical-creatures]] — broad-topic: 304 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-2-13-other]] — topic-concept: 32 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-2-2-fae]] — broad-topic: 74 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-2-4-spirits]] — broad-topic: 231 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-2-5-titans]] — broad-topic: 131 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-2-7-animals]] — broad-topic: 614 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-4]] — topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-6]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-6-1]] — topic-concept: 38 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-6-2]] — topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-6-3-special-attacks-other]] — topic-concept: 48 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-6-4]] — topic-concept: 26 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-6-5]] — topic-concept: 22 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-6-6]] — topic-concept: 25 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-13-6-7-special-defense-abilities-weaknesses]] — topic-concept: 15 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-14-2]] — topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-14-2-1-negotiations-with-adventurers]] — topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-14-4-2-list-of-magical-items]] — broad-topic: 107 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-16-6-2-two-handed-attacks]] — topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-17-5]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-18-2]] — topic-concept: 10 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-18-3-1-how-to-read-the-structure-strength-table]] — topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-18-3-2-structure-material-list]] — topic-concept: 38 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-18-3-3-handling-spirit-walls]] — topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1st-level-ancient-magic-list-unlock]] — topic-concept: 27 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1st-level-basic-dark-magic-list]] — topic-concept: 18 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-1st-level-dragon-roar-magic-list-iron-stomach]] — topic-concept: 24 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-2-3-1-automatic-success-and-automatic-failure]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-2-4]] — topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-2-5]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-2-5-2-how-to-make-a-difficulty-check]] — topic-concept: 15 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-2-5-3-analogy-of-success-and-failure]] — topic-concept: 22 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-2-learn-from-a-sorcerer-who-knows-lost-spell]] — topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-2nd-level-ancient-magic-list-oak]] — topic-concept: 64 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-2nd-level-basic-dark-magic-list]] — topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-2nd-level-basic-holy-magic-list-cure-deafness]] — topic-concept: 35 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-2nd-level-dragon-roar-magic-list]] — topic-concept: 29 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3-1-1-order-of-action-announcements]] — topic-concept: 21 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3-1-2-player-action-announcements]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3-1-3-npc-and-monster-action-announcements]] — topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3-2-1-delaying-an-action]] — topic-concept: 18 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3-3]] — topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3-4-1]] — topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3-4-2-actions-you-can-take]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3-4-3]] — topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3rd-level-ancient-magic-list]] — broad-topic: 121 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3rd-level-basic-dark-magic-list-poison]] — topic-concept: 25 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3rd-level-basic-holy-magic-list-cure-poison]] — topic-concept: 31 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3rd-level-dragon-roar-magic-list]] — topic-concept: 28 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit]] — topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-10]] — topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-11-1-magical-recovery]] — topic-concept: 4 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-11-2-first-aid]] — topic-concept: 5 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-11-3-natural-recovery]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-5-1-hit-checks]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-5-3-bonus-damage]] — topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-6-1-hit-evasion-checks]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-6-3-defense-rolls]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-6-4-damage-reduction]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-6-5-final-damage]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-7-1-hit-checks]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-7-2-damage-checks]] — topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-9-2-death-checks-every-hour]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-9-3-monster-death-check]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-9-4-mercy]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4-sword-world-novels-and-short-story-collections]] — topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4th-level-ancient-magic-list-counter-sense]] — topic-concept: 92 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4th-level-basic-dark-magic-list-control-imp]] — topic-concept: 28 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4th-level-basic-holy-magic-list-cure-disease]] — topic-concept: 24 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4th-level-dragon-roar-magic-list]] — topic-concept: 23 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-4th-level-spirit-magic-list-water-walking-undine-water-spirit]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5-1-1-types-of-magic]] — topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5-1-13-spirit-magic-and-the-shaman-skill]] — topic-concept: 43 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5-1-2-rune-masters-and-rune-master-skills]] — topic-concept: 19 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5-1-3-learning-magic]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5-1-4-how-to-use-magic]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5-1-7-magic-expansion]] — topic-concept: 64 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5-1-8-magic-contraction]] — topic-concept: 40 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5-1-9-magic-types]] — broad-topic: 134 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5-3]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5-3-1-spellsong-list]] — topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5th-level-ancient-magic-list-apport]] — topic-concept: 90 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5th-level-basic-dark-magic-list]] — topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5th-level-basic-holy-magic-list-quest]] — topic-concept: 30 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5th-level-dragon-roar-magic-list-dragon-s-roar]] — topic-concept: 25 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-5th-level-spirit-magic-list-control-plant]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-6-4]] — topic-concept: 14 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-6-5]] — topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-6-collection-series]] — topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-6th-level-ancient-magic-list-acid-cloud]] — broad-topic: 141 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-6th-level-basic-dark-magic-list-mesmerize]] — topic-concept: 18 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-6th-level-basic-holy-magic-list]] — topic-concept: 29 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-6th-level-dragon-roar-magic-list]] — topic-concept: 33 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-6th-level-spirit-magic-list]] — broad-topic: 88 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-7-2]] — topic-concept: 15 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-7-3]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-7-5]] — topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-7-old-version-of-the-rules]] — topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-7th-level-ancient-magic-list-dispel-order]] — topic-concept: 103 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-7th-level-basic-holy-magic-list]] — topic-concept: 25 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-7th-level-dragon-roar-magic-list-summon-wyrm]] — topic-concept: 14 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-8-3]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-8-4]] — topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-8-game-master-screen]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-8th-level-ancient-magic-list]] — topic-concept: 66 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-8th-level-basic-dark-magic-list-cripple]] — topic-concept: 19 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-8th-level-basic-holy-magic-list]] — topic-concept: 43 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-8th-level-dragon-roar-magic-list]] — topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-8th-level-spirit-magic-list-ice-coffin]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-9-3]] — topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-9-4]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-9th-level-ancient-magic-list-command-golem]] — topic-concept: 78 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-9th-level-basic-dark-magic-list-plague]] — topic-concept: 32 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-9th-level-dragon-roar-magic-list-summon-lesser-dragon]] — topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit]] — topic-concept: 16 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-ability]] — topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-ability-scores]] — topic-concept: 20 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-accessories-earrings-of-interpretation]] — topic-concept: 96 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-accomplishing-missions]] — topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-acquiring-rune-master-skills-and-increasing-levels]] — topic-concept: 31 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-acrobatics-agility-equipment-restriction]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-action-canceling]] — topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-action-order]] — topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-actions-you-can-take-while-standing-still]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-adventure-treasure-and-reward-amounts]] — topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-adventurer]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-adventurer-death-checks]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-age-of-magic-the-kingdom-of-kastuul]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-age-of-mythology]] — topic-concept: 18 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-age-of-sword-the-new-kingdoms]] — topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-ancient-magic-list]] — topic-concept: 112 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-and-armor]] — topic-concept: 20 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-and-runes]] — topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-area-aim]] — topic-concept: 30 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-armor]] — topic-concept: 4 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-artwork]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-asking-npcs-to-use-magic]] — topic-concept: 43 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-astrology-intelligence-not-retriable]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-attack-power-modifier]] — topic-concept: 3 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-attacks-from-characters-against-monsters]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-attacks-from-monsters-against-characters]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-automatic-success-restrictions]] — topic-concept: 22 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-ballista]] — topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-bard-skill]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-baseline-scores]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-berserk-spell-level-3]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-binding-dryad-plant-spirit]] — topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-blindnes]] — topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-bonuses-and-penalties]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-books-related-to-sword-world-rpg]] — topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-boomerang]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-brownie-brownie-building-spirit]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-calendar-and-time]] — topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-camouflage-intelligence-equipment-restriction]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-catalysts-other-than-staves]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-central-region-language-m-rdan-eremire-gundar-saine]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-cestu]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-cha-za-special-holy-magic-list-luck]] — topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-change-attack-targets]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-changes-to-magic-procedure]] — topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-chaosland-language-native-language]] — topic-concept: 5 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-character-creation]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-charge]] — topic-concept: 23 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-charm-dryad-plant-spirit]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-charm-mind]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-check]] — topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-citizen]] — topic-concept: 5 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-climate]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-climb-agility-equipment-restriction]] — topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection]] — topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-combat-between-monsters]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-combat-in-special-situations]] — topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-combat-in-which-monsters-roll-dice]] — topic-concept: 10 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-common-adventurer-abilities]] — broad-topic: 104 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-common-runes]] — topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-confusion-leprechaun-mind-spirit]] — topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-consuming-mental-power]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-control-spirit-various-lesser-spirits]] — topic-concept: 28 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-converting-character-data-to-monster-data]] — topic-concept: 33 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-crack-behemoth-greater-earth-spirit]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-craftsman-skill]] — topic-concept: 29 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-cranequin-crossbow]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-create-ghost-ship-spell-level-6]] — topic-concept: 10 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-creeping-tree]] — broad-topic: 541 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-critical-target-variation]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-curiosity-mind]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-currency]] — broad-topic: 94 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-current-kraken-greater-water-spirit]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-curse]] — topic-concept: 45 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-daemons-underworld-creatures]] — topic-concept: 53 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-dance-mind]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-dark-magic]] — topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-decrease-water-pressure-undine-water-spirit]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-defense-modifier]] — topic-concept: 3 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-destruction-points]] — topic-concept: 20 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-detail]] — topic-concept: 31 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-determining-base-damage-strike-roll]] — topic-concept: 33 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-difference-between-general-skills-and-adventurer-skills]] — topic-concept: 10 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-difficulty-checks]] — topic-concept: 24 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-disguise-dexterity-no-equipment-restriction]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-divine-armor-spell-level-7]] — topic-concept: 10 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-divine-weapon-spell-level-7]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-double-sixes-and-double-ones]] — topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-dragon-roar-magic]] — topic-concept: 21 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-drop-a-weapon-etc-on-the-ground]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-early-bird-mind]] — topic-concept: 3 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-eastend-languages]] — topic-concept: 5 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-equipment]] — topic-concept: 37 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-excellent-weapons-and-armor]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-experience-points]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-fanaticism-valkyrie-mind-spirit]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-farland-languages]] — topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-fear-shade-dark-spirit]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-filling-out-the-character-sheet]] — broad-topic: 83 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-firebolt-salamander-fire-spirit]] — topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-firestorm-efreet-greater-fire-spirit]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-first-aid-no-equipment-restriction]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-follow-agility-equipment-restriction]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-footprint-tracking-intelligence-no-equipment-restriction-not-retriable]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-for-humans-and-halfelves-raised-by-humans]] — topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-for-races-other-than-humans]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-forcelia]] — topic-concept: 37 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-forger-of-colors]] — topic-concept: 37 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-forget-leprechaun-mind-spirit]] — topic-concept: 16 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-four-types-of-experience-points]] — topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-freeze-fenrir-greater-ice-spirit]] — topic-concept: 40 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-full-control-spirit-various-lesser-spirits]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-full-defense]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-full-resistance]] — topic-concept: 20 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-garrote]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-gems-and-precious-metals]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-general-modifiers]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-geography]] — topic-concept: 24 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-grapple]] — topic-concept: 32 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-greater-daemons-doppelganger]] — topic-concept: 25 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-guide-to-forcelia-and-alecrast]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-guild]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-healer-skill]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-healing]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-healing-the-unknown-spirit-of-life]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-heat-metal-spell-level-5]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-herbs-intelligence-not-retriable]] — topic-concept: 25 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-hide-agility-equipment-restriction]] — topic-concept: 5 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-holding-weapons-in-both-hands]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-how-to-create-general-skills]] — topic-concept: 16 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-how-to-read-the-monster-catalog]] — broad-topic: 192 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-how-to-use-experience-points-increasing-skill-levels]] — topic-concept: 23 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-human]] — topic-concept: 134 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-hunter-skill]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-ice-storm-fenrir-greater-ice-spirit]] — topic-concept: 4 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-illnesse]] — broad-topic: 159 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-increasing-general-skills]] — topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-inspiration-spell-level-3]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-island-of-damned-language-native-language]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-islands-of-azarn-language-eastern-m-rdan]] — topic-concept: 5 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-jihad-spell-level-10]] — topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-kardis-special-dark-magic-list]] — topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-king]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-kingdom]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-knowledge-intelligence-not-retriable]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-lance]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-language]] — topic-concept: 20 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-legend-spell-level-7]] — topic-concept: 15 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-lesser-daemon-grunel]] — topic-concept: 108 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-lockpicking-dexterity-no-equipment-restriction-not-retriable]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-long-distance-modifiers]] — topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-long-jump-high-jump-agility-equipment-restriction]] — topic-concept: 5 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-loss-of-ability-scores-and-its-impact]] — topic-concept: 24 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-lost-spells]] — topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-lullaby-mind]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-lunatic-dance-spell-level-5]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-lunatic-seed-spell-level-4]] — topic-concept: 19 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-magic-armor-2-non-metal-or-ring-mail]] — topic-concept: 44 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-magic-list-cure-wounds]] — topic-concept: 48 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-magic-list-recall-spirit]] — topic-concept: 42 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-magical-item-list]] — topic-concept: 23 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-magical-items]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-magical-weapons-and-armor]] — topic-concept: 24 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-main-gauche-sword-breaker]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-map-creation-intelligence-no-equipment-restriction-not-retriable]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-march-mind]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-marfa-special-holy-magic-list]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-maze-woods-ent-greater-plant-spirit]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-meaning-of-the-rulebook]] — topic-concept: 29 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-medicines-intelligence-appraisal-only-not-retriable]] — topic-concept: 28 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-merchant-s-license]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-merchant-skill]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-missile-protection-sylph-wind-spirit]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-mithril-silver-weapons-and-armor]] — topic-concept: 23 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-monster]] — topic-concept: 5 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-monster-defense-points]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-monster-level-and-adventurer-level]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-monster-resistance]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-morale-mind]] — topic-concept: 5 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-movement-and-actions]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-mow-down]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-mute-sylph-wind-spirit]] — topic-concept: 14 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-myrii-special-holy-magic-list-battle-song-spell-level-5]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-mythical-beasts-and-magical-beasts]] — broad-topic: 534 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-nameless-god-of-madness-special-dark-magic-list]] — topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-nameless-god-of-madness-wicked-god]] — topic-concept: 28 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-nightmare-incubus-succubus-dream-spirit]] — topic-concept: 24 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-nobles-knight]] — topic-concept: 4 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-northeast-region-language-eastern-m-rdan]] — topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-northern-central-region-language-western-gundar]] — topic-concept: 28 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-nostalgia-mind]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-npc-and-monster-action-announcement]] — topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-number-of-projectile-shots]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-one-handed-and-twohanded-weapons]] — topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-oran-language-eastern-m-rdan]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-part-2-game-master-section]] — topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-part-3-optional-rules]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-peace-mind]] — topic-concept: 4 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-pickpocket-dexterity-equipment-restriction]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-pole-weapons]] — topic-concept: 40 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-power]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-precautions-when-using-skills]] — topic-concept: 18 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-preserve-sound-sylph-wind-spirit]] — topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-price-calculation]] — topic-concept: 4 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-priest-skill]] — broad-topic: 60 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-projectile]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-projectile-use-dexterity-strength-no-equipment-restriction]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-purification-undine-water-spirit]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-race]] — topic-concept: 34 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-ram]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-ready-a-sheathed-weapon]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-ready-a-weapon]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-ready-a-weapon-and-attack]] — topic-concept: 4 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-religious-organizations]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-remove-set-trap-dexterity-equipment-restriction-not-retriable]] — topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-representing-special-monsters-with-character-data]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-reptile-check-intelligence]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-requiem]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-required-strength]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-research-intelligence-not-retriable]] — topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-resistance]] — topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-resistance-rolls]] — topic-concept: 16 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-restore-health-the-unknown-spirit-of-life]] — topic-concept: 14 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-rules-for-awarding-greater-experience-points]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-rules-for-destroying-structures]] — topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-rules-for-poison-illness-and-infection]] — topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-rules-for-sleeping-adventurers]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-rules-for-sleeping-monsters]] — topic-concept: 25 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-rules-regarding-language]] — topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-rune-masters-status]] — topic-concept: 4 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-sage-skill]] — topic-concept: 27 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-sailor-skill]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-sap-blackjack]] — topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-scores-used-in-weapon-combat]] — topic-concept: 41 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-search-intelligence-no-equipment-restriction-not-retriable]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-sense-evil-spell-level-1]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-sense-metal-spell-level-3]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-setting-target-scores-and-difficulties]] — topic-concept: 28 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-shade-shade-dark-spirit]] — topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-sheath-a-weapon-etc]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-shield]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-shield-attack]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-shield-modifiers]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-shoot-arrow-sylph-wind-spirit]] — topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-shotel]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-should-you-use-a-target-score-check-or-a-difficulty-check]] — topic-concept: 24 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-silence-sylph-wind-spirit]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-silver-weapons-and-armor]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-sing-mind]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-sink-undine-water-spirit]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-skill]] — topic-concept: 3 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-slave]] — topic-concept: 4 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-sleep-sandman-mind-spirit]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-snare-gnome-earth-spirit]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-snipe]] — topic-concept: 26 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-southern-central-region-language-western-gundar]] — topic-concept: 30 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-special]] — topic-concept: 4 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-special-bonuses]] — topic-concept: 5 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-special-combat-dexterity-agility-strength-equipment-restriction]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-special-dark-magic-list]] — topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-spell-list]] — topic-concept: 15 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-spellsong]] — topic-concept: 25 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-spirit-magic-list]] — topic-concept: 18 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-stand-up-and-ready-yourself]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-starting-adventurer-languages]] — topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-staves-and-wands-ice-blaze-wand]] — broad-topic: 362 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-stealthy-step-agility-equipment-restriction]] — topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-stone-blast-gnome-earth-spirit]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-strike-power-modifier]] — topic-concept: 5 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-strong-blow]] — topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-success-rolls]] — topic-concept: 10 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-success-rolls-using-adventurer-level]] — topic-concept: 4 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-suffocate-djinn-wind-spirit]] — topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-sun-moon-stars]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-surprise-attack-intelligence-no-equipment-restriction]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-surprise-attacks]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-swim-agility-equipment-restriction]] — topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-switch-a-weapon-from-hand-to-hand]] — topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-sword-world-rpg-complete-edition-rulebook]] — topic-concept: 34 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-target-scores]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-thief-skill]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-thieves-guild-sorcerers-guild-academy]] — topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-throwing-multiple-darts-or-daggers]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-treasure-and-rewards-in-sword-world]] — topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-treasure-appraisal-intelligence-no-equipment-restriction-not-retriable]] — topic-concept: 16 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-treasure-appraisal-intelligence-not-retriable]] — topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-treasure-types]] — topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-tumble-agility-equipment-restriction]] — topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-tunnel-gnome-earth-spirit]] — topic-concept: 23 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-types-of-monsters]] — broad-topic: 82 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-unconscious-and-death-checks]] — topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-use-magic-and-projectiles]] — topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-valkyrie-blessing-valkyrie-mind-spirit]] — topic-concept: 21 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-valkyrie-javelin-valkyrie-mind-spirit]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-vibrato]] — topic-concept: 3 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-water-breathing-undine-water-spirit]] — topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-water-combat]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-weak-point-spell-level-3]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-weapon-and-armor-restrictions]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-weapon-combat-skills]] — topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-weapons-and-armor-that-are-too-heavy]] — topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-weather-prediction-intelligence-no-equipment-restriction-not-retriable]] — topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-western-countries-language-western-except-palmer-village-which-uses-eastern]] — topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-what-is-a-role-playing-game-rpg]] — topic-concept: 34 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-what-you-ll-need-to-play-sword-world-rpg]] — topic-concept: 20 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-when-a-monster-casts-magic-on-adventurers]] — topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-a-mix-of-adventurers-and-monsters]] — topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-adventurers]] — topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-when-an-adventurer-casts-magic-on-monsters]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-whip-net-bola]] — topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-windstorm-djinn-greater-wind-spirit]] — topic-concept: 15 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-withdraw-flee-from-engagement]] — topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-work-requests-to-npcs]] — topic-concept: 21 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-world]] — topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-youma]] — broad-topic: 106 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 
 ## Procedures
 

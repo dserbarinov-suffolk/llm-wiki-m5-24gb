@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-charge
 page_kind: concept
-summary: Charge: 11 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 23 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_a89c8e181a7c8914@2897aefc7adc53eff863077539c7ad6a
+projection_coverage: page-projection-pgp_bf6307fca09e7313@1af74e390406f8e8fe6ef79b214b66ca
 ---
 
 # Charge
@@ -27,6 +27,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - Of course, this is not possible if you're taking a different action, such as casting magic, etc. (Sword World RPG - Complete Edition.pdf p.265)
 - Regardless of whether the charge was a hit or a failure, the opponent can attack at the end of the round . (Sword World RPG - Complete Edition.pdf p.265)
 - A weapon's length is proportional to its required strength , so make your hit checks based on the weapon with the greater required strength. (Sword World RPG - Complete Edition.pdf p.265)
+
+## Rules
+
+- he or she can charge an opponent and use his or her weight and speed to deal great damage. (Sword World RPG - Complete Edition.pdf p.264-265)
+- Weapons that can perform a charge are limited to spears, pole weapons (which can thrust , see below), and lances. (Sword World RPG - Complete Edition.pdf p.265)
+- First there must be a margin of weapon length (requires strength x 15 cm) x 2 to adventurer's agility x 3 meters between the adventurer and the opponent. (Sword World RPG - Complete Edition.pdf p.265)
+- Regardless of whether the charge was a hit or a failure, the opponent can attack at the end of the round . (Sword World RPG - Complete Edition.pdf p.265)
 
 ## Technical atoms
 
@@ -71,3 +78,9 @@ An opponent who's struck by a charge can take a counterattack action in response
 ```
 If your opponent's weapon is a spear, etc., you may both charge each other this includes cases where you're waiting.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-strong-blow]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-snipe]] - contextualizes: source-supported topic dependency

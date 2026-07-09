@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-14-4-2-list-of-magical-items
 page_kind: concept
-summary: 14.4.2 List of Magical Items: 49 accepted assertion(s) and 57 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 107 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_119af4d81d492849@be5dd0b883325346de6d3dcf86b61656
+projection_coverage: page-projection-pgp_9671e29e6ecae380@da163fda45d3ac41b1795c5fb909b5d5
 ---
 
 # 14.4.2 List of Magical Items
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Here, as a guideline for rewards the game master should give to characters, is a list of prices of magical daggers, one-handed swords, and two-handed swords with +1 power. (Sword World RPG - Complete Edition.pdf p.243)
 - Rather than having these appear as +1 swords , it might be better to refer to the descriptions of some of the following magical weapons and give each one a name and a history, as a way to enjoy the atmosphere of Alecrast. (Sword World RPG - Complete Edition.pdf p.243)
@@ -66,7 +66,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Rarity=12 Enchanter=Many Form =Metal armor Required Strength/Base Trade Price=See description Powers=+1 to evasion speed and damage reduction. (Sword World RPG - Complete Edition.pdf p.246)
 - This is a price list for magic metal armor with +1 power. (Sword World RPG - Complete Edition.pdf p.246-247)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -161,251 +161,209 @@ Powers=+3 to attack power and damage
 ```
 
 <a id="atom-12"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-When the staff is incomplete , the undead monsters that can be made to obey are limited to those whose total monster level is less than or equal to the owner's mental power .
+Powers=+1 to attack power and bonus damage
 ```
 
 <a id="atom-13"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-Once the staff is complete, you can control an unlimited number of undead monsters, and you also gain a +4 bonus to your final score when attempting to make them obey.
+Rarity=12
 ```
 
 <a id="atom-14"></a>
 **Atom:** formula
 
 ```
-Powers=+1 to attack power and bonus damage
+Enchanter=Unknown
 ```
 
 <a id="atom-15"></a>
 **Atom:** formula
 
 ```
-Rarity=12
+Form=Small mithril silver knife with a sharp curved blade
 ```
 
 <a id="atom-16"></a>
 **Atom:** formula
 
 ```
-Enchanter=Unknown
+Required Strength=1 (Strike power 6)
 ```
 
 <a id="atom-17"></a>
 **Atom:** formula
 
 ```
-Form=Small mithril silver knife with a sharp curved blade
+Powers=+2 to attack power and bonus damage. -2 to critical target
 ```
 
 <a id="atom-18"></a>
 **Atom:** formula
 
 ```
-Required Strength=1 (Strike power 6)
+Rarity=12
 ```
 
 <a id="atom-19"></a>
 **Atom:** formula
 
 ```
-Powers=+2 to attack power and bonus damage. -2 to critical target
+Required Strength=8 (Strike power 13)
 ```
 
 <a id="atom-20"></a>
 **Atom:** formula
 
 ```
-Rarity=12
+Powers=+1 to attack power and bonus damage
 ```
 
 <a id="atom-21"></a>
 **Atom:** formula
 
 ```
-Required Strength=8 (Strike power 13)
+Rarity=17
 ```
 
 <a id="atom-22"></a>
 **Atom:** formula
 
 ```
-Powers=+1 to attack power and bonus damage
+Powers=+2 to attack power and bonus damage. Turns invisible with a password
 ```
 
 <a id="atom-23"></a>
 **Atom:** formula
 
 ```
-Rarity=17
+Rarity=16
 ```
 
 <a id="atom-24"></a>
 **Atom:** formula
 
 ```
-Powers=+2 to attack power and bonus damage. Turns invisible with a password
+Rarity=14
 ```
 
 <a id="atom-25"></a>
 **Atom:** formula
 
 ```
-Rarity=16
-```
-
-<a id="atom-26"></a>
-**Atom:** rule
-
-```
-Anyone dealt damage by an attack from this sword must make a mental power resistance roll against target score 18.
-```
-
-<a id="atom-27"></a>
-**Atom:** formula
-
-```
-Rarity=14
-```
-
-<a id="atom-28"></a>
-**Atom:** formula
-
-```
 Required Strength=14 (Strike power 19)
 ```
 
-<a id="atom-29"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Powers=+2 to attack power and bonus damage
 ```
 
-<a id="atom-30"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-31"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Enchanter=Unknown
 ```
 
-<a id="atom-32"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Form=Rapier
 ```
 
-<a id="atom-33"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Required Strength=14 (Strike power 14)
 ```
 
-<a id="atom-34"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Powers=+1 to attack power and bonus damage
 ```
 
-<a id="atom-35"></a>
+<a id="atom-32"></a>
 **Atom:** formula
 
 ```
 Base Trade Price=9000 gamels (not for sale)
 ```
 
-<a id="atom-36"></a>
+<a id="atom-33"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-37"></a>
-**Atom:** rule
-
-```
-Since this is always spouting flames (unless it's in its sheath), it has +10 to strike power, just like Fire Weapon .
-```
-
-<a id="atom-38"></a>
+<a id="atom-34"></a>
 **Atom:** formula
 
 ```
 Rarity=18
 ```
 
-<a id="atom-39"></a>
+<a id="atom-35"></a>
 **Atom:** formula
 
 ```
 Rarity=15
 ```
 
-<a id="atom-40"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Required Strength=14 (Strike power 14)
 ```
 
-<a id="atom-41"></a>
+<a id="atom-37"></a>
 **Atom:** formula
 
 ```
 Rarity=15
 ```
 
-<a id="atom-42"></a>
+<a id="atom-38"></a>
 **Atom:** formula
 
 ```
 Form=Broadsword with a slightly reddish blade
 ```
 
-<a id="atom-43"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Required Strength=14 (Strike power 16)
 ```
 
-<a id="atom-44"></a>
-**Atom:** rule
-
-```
-Also, even if the sword does hit, this effect does not apply if damage is not dealt to life force.
-```
-
-<a id="atom-45"></a>
+<a id="atom-40"></a>
 **Atom:** formula
 
 ```
 Required Strength=15 (Strike power 20)
 ```
 
-<a id="atom-46"></a>
-**Atom:** rule
-
-```
-Moreover, when the user gives a command with a password, it can produce 1 liter of fresh water in 1 minute.
-```
-
-<a id="atom-47"></a>
+<a id="atom-41"></a>
 **Atom:** table
 
 ```text
@@ -415,70 +373,63 @@ Moreover, when the user gives a command with a password, it can produce 1 liter 
 7 31000 《 Magic Armor (+1) 》 Chain mail, splint, lamellar, plate armor
 ```
 
-<a id="atom-48"></a>
+<a id="atom-42"></a>
 **Atom:** formula
 
 ```
 Form=Battle-ax
 ```
 
-<a id="atom-49"></a>
+<a id="atom-43"></a>
 **Atom:** formula
 
 ```
 Base Trade Price=7100 gamels
 ```
 
-<a id="atom-50"></a>
+<a id="atom-44"></a>
 **Atom:** formula
 
 ```
 Powers=+1 to bonus damage
 ```
 
-<a id="atom-51"></a>
+<a id="atom-45"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-52"></a>
+<a id="atom-46"></a>
 **Atom:** formula
 
 ```
 Enchanter=Many
 ```
 
-<a id="atom-53"></a>
+<a id="atom-47"></a>
 **Atom:** formula
 
 ```
 Form=Non-metal or ring mail armor
 ```
 
-<a id="atom-54"></a>
+<a id="atom-48"></a>
 **Atom:** formula
 
 ```
 Required Strength/Base Trade Price=See description
 ```
 
-<a id="atom-55"></a>
+<a id="atom-49"></a>
 **Atom:** formula
 
 ```
 Powers=+1 to evasion speed and damage reduction
 ```
 
-<a id="atom-56"></a>
-**Atom:** rule
-
-```
-While armor with high required strength tends to be unpopular, when it becomes exceptionally high-end, it suddenly becomes an object of interest for enthusiasts, causing prices to spike dramatically.
-```
-
-<a id="atom-57"></a>
+<a id="atom-50"></a>
 **Atom:** table
 
 ```text
@@ -498,3 +449,15 @@ While armor with high required strength tends to be unpopular, when it becomes e
 | 14 |  | 21000 | 22 | 45000 |  |  |  |  |  |  |  |  |  |  |
 | 15 16 17 |  | 19000 17000 18000 | 23 24 | 60000 97000 | 《 Magic Armor (+3) 》 Non-metal or ring mail Rarity=16 |  |  |  |  |  | 《 Magic Shield Rarity=12 (+1)/14 (+2)/16 (+3) |  |  | 》 |
 ```
+
+
+## Rules and exceptions
+
+- Here, as a guideline for rewards the game master should give to characters, is a list of prices of magical daggers, one-handed swords, and two-handed swords with +1 power. (Sword World RPG - Complete Edition.pdf p.243)
+- The souls of the past kings of Ramliearth are also sealed in the sword, so the user can obtain advice from the kings. (Sword World RPG - Complete Edition.pdf p.244)
+- However, when used without a bullet and with a low ancient password, it can fire a strike power 10, magic power 8 Energy Bolt . (Sword World RPG - Complete Edition.pdf p.245)
+- This magic sword can use unlimited shockwaves (strike power 10, magic power 10), equivalent to the holy magic Force (however, magic expansion is not possible). (Sword World RPG - Complete Edition.pdf p.245)
+- It can also be used as a magical catalyst. (Sword World RPG - Complete Edition.pdf p.245)
+- Also, the sword's language is low ancient, so a character who cannot speak low ancient cannot obtain this knowledge. (Sword World RPG - Complete Edition.pdf p.245)
+- This sword may have been made for travelers crossing the desert. (Sword World RPG - Complete Edition.pdf p.246)
+- This ability can be used up to 10 times per day. (Sword World RPG - Complete Edition.pdf p.246)

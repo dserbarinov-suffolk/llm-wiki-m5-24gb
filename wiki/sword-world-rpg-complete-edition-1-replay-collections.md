@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-1-replay-collections
 page_kind: concept
-summary: 1. Replay Collections: 12 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_4f3df16e947b6656@bbe2a1239987a5cb549604579d33a89d
+projection_coverage: page-projection-pgp_2ad214354e68f8b8@2a9937f5115de625fd9251af5f0470c4
 ---
 
 # 1. Replay Collections
@@ -28,3 +28,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - A replay should not be considered a complete manual, but merely a reference. (Sword World RPG - Complete Edition.pdf p.8)
 - Finally, these replays are based on actual play and reproduction of the situations, but have been cut or edited for redundancy and other aspects in order to prioritize readability. (Sword World RPG - Complete Edition.pdf p.8)
 - In actual play, things do not go as smoothly as this. (Sword World RPG - Complete Edition.pdf p.8)
+
+## Rules
+
+- A replay should not be considered a complete manual, but merely a reference. (Sword World RPG - Complete Edition.pdf p.8)

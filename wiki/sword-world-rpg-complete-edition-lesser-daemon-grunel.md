@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-lesser-daemon-grunel
 page_kind: concept
-summary: [ Lesser Daemon ] Grunel: 39 accepted assertion(s) and 61 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 108 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_580b2e45b5297059@c630abb302dd75343e8ca165c8561a3b
+projection_coverage: page-projection-pgp_74b4c5e385ad0690@45ac59a4d25bfdeb70834d098d921999
 ---
 
 # [ Lesser Daemon ] Grunel
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - They seem to have been especially proficient at enchanting, and often carry a magical sword. (Sword World RPG - Complete Edition.pdf p.228)
 - If a grunel has a magic sword, add a bonus of 1 point to both its attack points and strike points. (Sword World RPG - Complete Edition.pdf p.228)
@@ -56,7 +56,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - If its focus is interrupted or it's unable to focus due to making physical attacks, suffering damage, etc., then it cannot maintain its illusions. (Sword World RPG - Complete Edition.pdf p.230)
 - A maligdorai can also show illusions to multiple creatures within its vision at the same time, but it must focus in order to perform the illusions. (Sword World RPG - Complete Edition.pdf p.230)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -164,323 +164,314 @@ Perception=Five senses (Darkvision)
 ```
 
 <a id="atom-16"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-The target will be unable to move, and the grunel can attack with the weapon in its right hand.
+Monster Level=5
 ```
 
 <a id="atom-17"></a>
 **Atom:** formula
 
 ```
-Monster Level=5
+Rarity=13
 ```
 
 <a id="atom-18"></a>
 **Atom:** formula
 
 ```
-Rarity=13
+Agility=14
 ```
 
 <a id="atom-19"></a>
 **Atom:** formula
 
 ```
-Agility=14
+Movement Speed=15/17 (air)
 ```
 
 <a id="atom-20"></a>
 **Atom:** formula
 
 ```
-Movement Speed=15/17 (air)
+Number=One to several
 ```
 
 <a id="atom-21"></a>
 **Atom:** formula
 
 ```
-Number=One to several
+Frequency=Very rare
 ```
 
 <a id="atom-22"></a>
 **Atom:** formula
 
 ```
-Frequency=Very rare
+Intellect=Human
 ```
 
 <a id="atom-23"></a>
 **Atom:** formula
 
 ```
-Intellect=Human
+Reaction=Adversarial, or command-based
 ```
 
 <a id="atom-24"></a>
 **Atom:** formula
 
 ```
-Reaction=Adversarial, or command-based
+Strike Points=14
 ```
 
 <a id="atom-25"></a>
 **Atom:** formula
 
 ```
-Strike Points=14
+Life Points/Resistance=25/15 (8)
 ```
 
 <a id="atom-26"></a>
 **Atom:** formula
 
 ```
-Life Points/Resistance=25/15 (8)
+Mental Points/Resistance=18/14 (7)
 ```
 
 <a id="atom-27"></a>
 **Atom:** formula
 
 ```
-Mental Points/Resistance=18/14 (7)
+Special Abilities=3rd level dark magic (magic intensity/magic power=12/5)
 ```
 
 <a id="atom-28"></a>
 **Atom:** formula
 
 ```
-Special Abilities=3rd level dark magic (magic intensity/magic power=12/5)
+Languages=Low ancient
 ```
 
 <a id="atom-29"></a>
 **Atom:** formula
 
 ```
-Languages=Low ancient
+Perception=Five senses (Darkvision)
 ```
 
 <a id="atom-30"></a>
 **Atom:** formula
 
 ```
-Perception=Five senses (Darkvision)
+Monster Level=5
 ```
 
 <a id="atom-31"></a>
 **Atom:** formula
 
 ```
-Monster Level=5
+Rarity=14
 ```
 
 <a id="atom-32"></a>
 **Atom:** formula
 
 ```
-Rarity=14
+Number=One to several
 ```
 
 <a id="atom-33"></a>
 **Atom:** formula
 
 ```
-Number=One to several
+Frequency=Very rare
 ```
 
 <a id="atom-34"></a>
 **Atom:** formula
 
 ```
-Frequency=Very rare
+Intellect=Human
 ```
 
 <a id="atom-35"></a>
 **Atom:** formula
 
 ```
-Intellect=Human
+Reaction=Adversarial, or command-based
 ```
 
 <a id="atom-36"></a>
 **Atom:** formula
 
 ```
-Reaction=Adversarial, or command-based
+Strike Points=12
 ```
 
 <a id="atom-37"></a>
 **Atom:** formula
 
 ```
-Strike Points=12
+Life Points/Resistance=20/14 (7)
 ```
 
 <a id="atom-38"></a>
 **Atom:** formula
 
 ```
-Life Points/Resistance=20/14 (7)
+Mental Points/Resistance=18/14 (7)
 ```
 
 <a id="atom-39"></a>
 **Atom:** formula
 
 ```
-Mental Points/Resistance=18/14 (7)
+Special Abilities=Shapeshift
 ```
 
 <a id="atom-40"></a>
 **Atom:** formula
 
 ```
-Special Abilities=Shapeshift
+Perception=Five senses (Darkvision)
 ```
 
 <a id="atom-41"></a>
 **Atom:** formula
 
 ```
-Perception=Five senses (Darkvision)
-```
-
-<a id="atom-42"></a>
-**Atom:** rule
-
-```
-If it spends one minute to observe them, it can imitate their tone of speech and gestures exactly.
-```
-
-<a id="atom-43"></a>
-**Atom:** formula
-
-```
 Monster Level=6 Rarity=13 Agility=10 Movement Speed=12/20 (air) Number=One
 ```
 
-<a id="atom-44"></a>
+<a id="atom-42"></a>
 **Atom:** formula
 
 ```
 Evasion Points=12 (5) Defense Points=10 Life Points/Resistance=30/17 (10)
 ```
 
-<a id="atom-45"></a>
+<a id="atom-43"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/15 (8)
 ```
 
-<a id="atom-46"></a>
+<a id="atom-44"></a>
 **Atom:** formula
 
 ```
 Special Abilities=3rd level dark magic (magic
 ```
 
-<a id="atom-47"></a>
+<a id="atom-45"></a>
 **Atom:** formula
 
 ```
 intensity/magic power=12/5)
 ```
 
-<a id="atom-48"></a>
+<a id="atom-46"></a>
 **Atom:** formula
 
 ```
 Languages=Low ancient
 ```
 
-<a id="atom-49"></a>
+<a id="atom-47"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (Darkvision)
 ```
 
-<a id="atom-50"></a>
+<a id="atom-48"></a>
 **Atom:** formula
 
 ```
 Monster Level=7
 ```
 
-<a id="atom-51"></a>
+<a id="atom-49"></a>
 **Atom:** formula
 
 ```
 Rarity=15
 ```
 
-<a id="atom-52"></a>
+<a id="atom-50"></a>
 **Atom:** formula
 
 ```
 Agility=14 Movement Speed=15/20 (air)
 ```
 
-<a id="atom-53"></a>
+<a id="atom-51"></a>
 **Atom:** formula
 
 ```
 Intellect=High
 ```
 
-<a id="atom-54"></a>
+<a id="atom-52"></a>
 **Atom:** formula
 
 ```
 Reaction=Adversarial, or command-based Attack Points=Needle x 2: 14 (7)
 ```
 
-<a id="atom-55"></a>
+<a id="atom-53"></a>
 **Atom:** formula
 
 ```
 Strike Points=16x2
 ```
 
-<a id="atom-56"></a>
+<a id="atom-54"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=20/16 (9)
 ```
 
-<a id="atom-57"></a>
+<a id="atom-55"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=25/17 (10)
 ```
 
-<a id="atom-58"></a>
+<a id="atom-56"></a>
 **Atom:** formula
 
 ```
 Languages=Low ancient
 ```
 
-<a id="atom-59"></a>
+<a id="atom-57"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (Darkvision)
 ```
 
-<a id="atom-60"></a>
-**Atom:** rule
 
-```
-When a maligdorai uses this illusion ability, those being targeted must make a mental power resistance roll against target score 17 at the beginning of the round.
-```
+## Rules and exceptions
 
-<a id="atom-61"></a>
-**Atom:** rule
+- They can also use dark magic. (Sword World RPG - Complete Edition.pdf p.228)
+- In addition, fire and heat attacks cannot wound a zalbard. (Sword World RPG - Complete Edition.pdf p.229)
+- However, it cannot copy its opponent's abilities and memories. (Sword World RPG - Complete Edition.pdf p.229)
+- It has wings reminiscent of a giant bat, can reach over 3 meters in height with its neck extended, and uses its long neck to attack by biting. (Sword World RPG - Complete Edition.pdf p.229-230)
+- The maligdorai can show illusions to surrounding creatures, dealing damage to their minds (these illusions have no effect on monsters that don't have mental points). (Sword World RPG - Complete Edition.pdf p.230)
+- If the target succeeds, they will escape the effect and can act freely, but if the target fails to resist, they will see an illusion of what they fear as an enemy deep within their heart attacking them, and as a result will suffer strike power 10 + bonus damage 7 damage to their mental power. (Sword World RPG - Complete Edition.pdf p.230)
+- To recover from this, you must defeat their master, the maligdorai. (Sword World RPG - Complete Edition.pdf p.230)
+- Those being manipulated cannot recover their mental power through sleep or through magic such as Transfer Mental Power . (Sword World RPG - Complete Edition.pdf p.230)
+- Illusions cannot be used in the round immediately after suffering damage. (Sword World RPG - Complete Edition.pdf p.230)
+- If its focus is interrupted or it's unable to focus due to making physical attacks, suffering damage, etc., then it cannot maintain its illusions. (Sword World RPG - Complete Edition.pdf p.230)
+- A maligdorai can also show illusions to multiple creatures within its vision at the same time, but it must focus in order to perform the illusions. (Sword World RPG - Complete Edition.pdf p.230)
 
-```
-Conversely, while the maligdorai is performing an illusion, the target must make a resistance roll against the illusion each round.
-```
+## Related pages
+
+- [[sword-world-rpg-complete-edition-greater-daemons-doppelganger]] - contextualizes: source-supported topic dependency

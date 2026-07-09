@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-lists-with-functions-as-data
 page_kind: concept
-summary: lists with functions as data: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_02dc7315ab2793e6@b01ec7c2250af06aeb053214801f4870
+projection_coverage: page-projection-pgp_a37ebfdf5d7f8097@17193f8aafbeb98b10e7d0d0ede6b57d
 ---
 
 # lists with functions as data
@@ -20,6 +20,11 @@ Source: [[javascriptallonge]]
 - Presto, we can use pure functions to represent a linked list . (javascriptallonge.pdf p.185)
 - And with care, we can do amazing things like use functions to represent numbers, build more complex data structures like trees, and in fact, anything that can be computed can be computed using just functions and nothing else. (javascriptallonge.pdf p.185)
 - We used functions to replace arrays and POJOs, but we still use JavaScript's built-in operators to test for equality ( === ) and to branch ?: . (javascriptallonge.pdf p.186)
+
+## Rules
+
+- Presto, we can use pure functions to represent a linked list . (javascriptallonge.pdf p.185)
+- And with care, we can do amazing things like use functions to represent numbers, build more complex data structures like trees, and in fact, anything that can be computed can be computed using just functions and nothing else. (javascriptallonge.pdf p.185)
 
 ## Technical atoms
 
@@ -126,3 +131,9 @@ doubled(rest)(first)
 doubled(rest)(rest)(first)
 //=> 6
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-vireo]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-say-please]] - contextualizes: source-supported topic dependency

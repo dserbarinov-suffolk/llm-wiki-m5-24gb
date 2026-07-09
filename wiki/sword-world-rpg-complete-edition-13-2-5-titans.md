@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-13-2-5-titans
 page_kind: concept
-summary: 13.2.5 Titans: 78 accepted assertion(s) and 43 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 131 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_a9b9cf2d9eb96a58@21e4a3847999f1b79d16904ff95adbdb
+projection_coverage: page-projection-pgp_7ac99ec219421a47@1d70402637be0ba1d1e7ae4e182896d4
 ---
 
 # 13.2.5 Titans
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - They are not very ferocious and do not actively attack humans, but they do seem to attack when they're hungry-- in cold areas with deep snow, it's not uncommon for them to be hungry and unable to find prey. (Sword World RPG - Complete Edition.pdf p.185)
 - The yeti is a titan, about two and a half meters tall, that is rarely seen in cold, snowy regions, and its body is covered in thick white fur. (Sword World RPG - Complete Edition.pdf p.185)
@@ -95,7 +95,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - They live on secluded seashores. (Sword World RPG - Complete Edition.pdf p.187)
 - They never leave their homes, and there are usually no humans living nearby. (Sword World RPG - Complete Edition.pdf p.187)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -182,218 +182,193 @@ Perception=Five senses
 ```
 
 <a id="atom-13"></a>
-**Atom:** rule
-
-```
-Characters cannot move freely in deep snow areas such as those where the yeti lives.
-```
-
-<a id="atom-14"></a>
-**Atom:** rule
-
-```
-Conversely, it is weak against fire, so if it's a fire-based attack, the check can be made with +10 to strike power.
-```
-
-<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-16"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=22/14 (7) Mental Points/Resistance=18/14 (7)
 ```
 
-<a id="atom-17"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Shapeshift (Human Child)
 ```
 
-<a id="atom-18"></a>
-**Atom:** rule
-
-```
-The form that a Spriggan can take after transforming is fixed for each individual (its apparent age cannot be changed either).
-```
-
-<a id="atom-19"></a>
-**Atom:** rule
-
-```
-The target may not take any actions for one round and will suffer a -4 penalty to evasion.
-```
-
-<a id="atom-20"></a>
-**Atom:** rule
-
-```
-A spriggan can use its considerable strength even in its child form.
-```
-
-<a id="atom-21"></a>
-**Atom:** rule
-
-```
-Their body color is the same as a rock surface, and if you are careless, you may mistake one for a huge rock.
-```
-
-<a id="atom-22"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-23"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-24"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Monster Level=11
 ```
 
-<a id="atom-25"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-26"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Strike Points=21
 ```
 
-<a id="atom-27"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=45/24 (17)
 ```
 
-<a id="atom-28"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=15/19 (12)
 ```
 
-<a id="atom-29"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Special Abilities=7th level spirit magic (Magic Intensity/Magic Power=16/9, fire spirits only)
 ```
 
-<a id="atom-30"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (infravision)
 ```
 
-<a id="atom-31"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Special Abilities=8th level spirit (Magic Intensity/Magic Power=17/10, spirits only)
 ```
 
-<a id="atom-32"></a>
-**Atom:** rule
-
-```
-If you can't communicate, they may threaten you.
-```
-
-<a id="atom-33"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Monster Level=15
 ```
 
-<a id="atom-34"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-35"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Number=One to several
 ```
 
-<a id="atom-36"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Frequency=Very Rare
 ```
 
-<a id="atom-37"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Strike Points=26
 ```
 
-<a id="atom-38"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=60/31 (24)
 ```
 
-<a id="atom-39"></a>
+<a id="atom-32"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/24 (17)
 ```
 
-<a id="atom-40"></a>
+<a id="atom-33"></a>
 **Atom:** formula
 
 ```
 Special Abilities=None in particular
 ```
 
-<a id="atom-41"></a>
+<a id="atom-34"></a>
 **Atom:** formula
 
 ```
 Habitat=Secluded seasides
 ```
 
-<a id="atom-42"></a>
+<a id="atom-35"></a>
 **Atom:** formula
 
 ```
 Languages=Giant
 ```
 
-<a id="atom-43"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
+
+
+## Rules and exceptions
+
+- The yeti is strong against cold, and cold-based attacks must be made with a -10 reduction to strike power during the check. (Sword World RPG - Complete Edition.pdf p.185)
+- They have sharp canine teeth that allow them to tear and eat raw meat. (Sword World RPG - Complete Edition.pdf p.185)
+- In some cases, all the residents of one village have to abandon their homes and land and migrate. (Sword World RPG - Complete Edition.pdf p.185)
+- Therefore, a spriggan cannot take the form of a specific child. (Sword World RPG - Complete Edition.pdf p.186)
+- However, if they attempt to attack others while still in their child form , their attack ability will be significantly reduced. (Sword World RPG - Complete Edition.pdf p.186)
+- Spriggans are apostles of the dark gods and can use up to 2nd level dark magic. (Sword World RPG - Complete Edition.pdf p.186)
+- Due to this and their rugged , rock-like appearance, some sages believe that they may have some kind of connection with earth spirits, but it's not clear whether this is true. (Sword World RPG - Complete Edition.pdf p.186)
+- A character caught by surprise cannot take any actions for one round, and suffers a -4 penalty to evasion for that round. (Sword World RPG - Complete Edition.pdf p.186)
+- If you fail, the troll can make a surprise attack. (Sword World RPG - Complete Edition.pdf p.186)
+- To notice their presence, you must succeed on a success roll against target score 13 using ranger skill level + intelligence bonus as the baseline score. (Sword World RPG - Complete Edition.pdf p.186)
+- That single blow has terrifying destructive power that can kill a person in an instant. (Sword World RPG - Complete Edition.pdf p.186)
+- They can aim at different targets in one round, or focus on hitting one target. (Sword World RPG - Complete Edition.pdf p.186)
+- Some of them live alone, but they also live in groups of a few to about ten, and female giants and baby giants can sometimes be seen. (Sword World RPG - Complete Edition.pdf p.186-187)
+- Fire giants have a deep connection with the spirit power of fire, and can use spirit magic sourced from the power of fire spirits (salamander, etc.) up to 7th level. (Sword World RPG - Complete Edition.pdf p.187)
+- Frost giants have a deep connection with the spirit power of ice, and can use spirit magic sourced from the power of ice spirits (frau, fenrir) up to 8th level. (Sword World RPG - Complete Edition.pdf p.187)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-13-2-4-spirits]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-mythical-beasts-and-magical-beasts]] - contextualizes: source-supported topic dependency

@@ -1,27 +1,27 @@
 ---
 page_id: sword-world-rpg-complete-edition-purification-undine-water-spirit
 page_kind: concept
-summary: [ Purification ] (Undine/Water Spirit): 4 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_d6f100e495379208@d1bfc6dbee27f29b10012ed9ee4e1313
+projection_coverage: page-projection-pgp_7b3b7e9bfcf74dd9@a862d4c806376be28d8842c80642cd63
 ---
 
 # [ Purification ] (Undine/Water Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - In the case of poison, its toxicity score is the target score. (Sword World RPG - Complete Edition.pdf p.84)
 - Unless otherwise specified , the target score for this type of potion is 15 . (Sword World RPG - Complete Edition.pdf p.84)
 - You can also target magical potions (liquid medicine) and poisons, but you must attempt a success roll to do so. (Sword World RPG - Complete Edition.pdf p.84)
 - This spell cannot be used on a creature's bodily fluids as a way to deal damage to that creature. (Sword World RPG - Complete Edition.pdf p.84)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -64,3 +64,14 @@ Effect=Removes impurities from water and creates perfectly fresh water
 ```
 Resist=None
 ```
+
+
+## Rules and exceptions
+
+- You can also target magical potions (liquid medicine) and poisons, but you must attempt a success roll to do so. (Sword World RPG - Complete Edition.pdf p.84)
+- This spell cannot be used on a creature's bodily fluids as a way to deal damage to that creature. (Sword World RPG - Complete Edition.pdf p.84)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-snare-gnome-earth-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-firebolt-salamander-fire-spirit]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-about-javascript-allong
 page_kind: concept
-summary: About JavaScript Allongé: 5 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_7a6633fbf420fa9a@5e61524a8fdea97b687f9e70be7bfc97
+projection_coverage: page-projection-pgp_332b4b5678f5271c@bf7d581c99ce118e7a932c6ff69c11c1
 ---
 
 # About JavaScript Allongé
@@ -30,3 +30,8 @@ Source: [[javascriptallonge]]
 ```
 If those terms seem unfamiliar, don't worry: JavaScript Allongé takes great delight in explaining what they mean and why they matter.
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-what-javascript-allong-is-and-isn-t]] - contextualizes: source-supported topic dependency

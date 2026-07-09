@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-cestu
 page_kind: concept
-summary: Cestus: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_baa20e0ddf223d3a@112cf379af9758b544572edc881ae00b
+projection_coverage: page-projection-pgp_f72c47d1dd17c2a5@b9622fc365531e4342e484da0f2bda4a
 ---
 
 # Cestus
@@ -22,6 +22,10 @@ Source: [[sword-world-rpg-complete-edition]]
 - This weapon allows you to use your hands freely while it's equipped. (Sword World RPG - Complete Edition.pdf p.271)
 - However, it becomes a hindrance when dealing with ancient magic and spirit magic. (Sword World RPG - Complete Edition.pdf p.271)
 
+## Rules
+
+- After putting on a cestus, you can also hold a weapon in your hand. (Sword World RPG - Complete Edition.pdf p.271)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -30,3 +34,9 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 Although you cannot add the strike power of a cestus to another weapon, nor can you make two attacks, it can be useful when your weapon is knocked away.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-shotel]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-sap-blackjack]] - contextualizes: source-supported topic dependency

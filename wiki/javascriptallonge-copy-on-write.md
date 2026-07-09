@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-copy-on-write
 page_kind: concept
-summary: Copy on Write: 13 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 22 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_85d58aa32836779c@92ef0c23283f910681701113663f9838
+projection_coverage: page-projection-pgp_3186afd40879ad3d@af2255115ba72b4c37e2968b04aa9eef
 ---
 
 # Copy on Write
@@ -28,6 +28,12 @@ Source: [[javascriptallonge]]
 - Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) copy of that information to prevent its changes from becoming visible to all the other tasks.Wikipedia 73. (javascriptallonge.pdf p.163)
 - Like all strategies, it makes a tradeoff: It's much cheaper than pessimistically copying structures when you make an infrequent number of small changes, but if you tend to make a lot of changes to some that you aren't sharing, it's more expensive. (javascriptallonge.pdf p.163)
 - Once we're done with it and give it to someone else, we need to be conservative and use a strategy like copy-on-read or copy-on-write. (javascriptallonge.pdf p.163)
+- Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liberal with mutation. (javascriptallonge.pdf p.163)
+
+## Rules
+
+- If we know that a list doesn't share any elements with another list, we can safely modify it. (javascriptallonge.pdf p.159)
+- Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) copy of that information to prevent its changes from becoming visible to all the other tasks.Wikipedia 73. (javascriptallonge.pdf p.163)
 - Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liberal with mutation. (javascriptallonge.pdf p.163)
 
 ## Technical atoms

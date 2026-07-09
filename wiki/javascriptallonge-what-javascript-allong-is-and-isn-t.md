@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-what-javascript-allong-is-and-isn-t
 page_kind: concept
-summary: What JavaScript Allongé is. And isn't.: 17 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 25 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_655357ca4ec385d5@b3d2366902de28071ff6666b761031e3
+projection_coverage: page-projection-pgp_b13e90b3a2109dba@1f9351d4168e7ee6ae3f142621ee92ad
 ---
 
 # What JavaScript Allongé is. And isn't.
@@ -33,6 +33,13 @@ Source: [[javascriptallonge]]
 - The use of source-code control systems with integrated diffing rewards making certain types of focused changes. (javascriptallonge.pdf p.11)
 - Debuggers encourage the use of functions with explicit or implicit names. (javascriptallonge.pdf p.11)
 - JavaScript Allongé does not attempt to address the question of JavaScript best practices in the wider context of software development, because JavaScript Allongé isn't a book about practicing, it's a book about thinking. (javascriptallonge.pdf p.11)
+
+## Rules
+
+- People often say that software should be written for people to read. (javascriptallonge.pdf p.10)
+- Choices in software development must also consider the question of consistency. (javascriptallonge.pdf p.11)
+- Then it can be jarring to add new helpers written that place the verb first, like this:. (javascriptallonge.pdf p.11)
+- Finally, choices in software development cannot ignore the tooling that is used to create and maintain software. (javascriptallonge.pdf p.11)
 
 ## Technical atoms
 
@@ -63,3 +70,9 @@ if (!!fn(element)) yield element;
 }
 });
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-about-javascript-allong]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-foreword-to-the-six-edition]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-special-combat-dexterity-agility-strength-equipment-restriction
 page_kind: concept
-summary: [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction): 10 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_67cd6f6e41b7cc03@88c79aac888752d700548f6f15f72d46
+projection_coverage: page-projection-pgp_ec12b7828d13fd3a@f46d434c055652688521c05f3ef6f612
 ---
 
 # [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction)
@@ -27,6 +27,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - If you want to use heavy weapons and armor that are full of strength, you should use the fighter skill as your standard for combat, and if you want to deal a lot of damage with a single blow, you should use light weapons and the thief skill in combat. (Sword World RPG - Complete Edition.pdf p.115)
 - If you use weapons or armor that exceed the thief skill's restrictions, you will automatically have to fight with the fighter skill. (Sword World RPG - Complete Edition.pdf p.115)
 
+## Rules
+
+- Even thieves have combat abilities and can fight using their thief skill level. (Sword World RPG - Complete Edition.pdf p.114-115)
+- You may change the skill you use in combat each round, but you may not use different skills for attack and defense on the same round (such as defending with the fighter skill, then attacking with the thief skill, etc.). (Sword World RPG - Complete Edition.pdf p.115)
+- If you want to use heavy weapons and armor that are full of strength, you should use the fighter skill as your standard for combat, and if you want to deal a lot of damage with a single blow, you should use light weapons and the thief skill in combat. (Sword World RPG - Complete Edition.pdf p.115)
+- If you use weapons or armor that exceed the thief skill's restrictions, you will automatically have to fight with the fighter skill. (Sword World RPG - Complete Edition.pdf p.115)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -35,3 +42,9 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 If one adventurer has acquired both the thief skill and the fighter skill, the player must choose which skill to fight with.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-climb-agility-equipment-restriction]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-long-jump-high-jump-agility-equipment-restriction]] - contextualizes: source-supported topic dependency

@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-language
 page_kind: concept
-summary: Languages: 13 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 20 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_a422280750921877@bd185b187078ccb025507c452a44300d
+projection_coverage: page-projection-pgp_386e9641070a228d@5626c2b992dcfc04708fd89535645e34
 ---
 
 # Languages
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Y ou can only learn to speak with the bard skill. (Sword World RPG - Complete Edition.pdf p.158)
 - Of course, it's impossible to learn how to read a language that doesn't have written characters. (Sword World RPG - Complete Edition.pdf p.158)
@@ -30,16 +30,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - *Holy prayer and daemon scream are basically the same thing. (Sword World RPG - Complete Edition.pdf p.159)
 - **Now ( believed to be) lost. (Sword World RPG - Complete Edition.pdf p.159)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-An owner of the sorcerer skill can read low ancient, so acquiring the sage skill will quickly allow you to learn new languages (if you can read common).
-```
-
-<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -51,3 +44,13 @@ Table 12-1: Languages table below lists the languages used by
 | Dragon | roar | No |  |  |  |  |  | [ | Imp | ] |  |  |
 | High | giant** | No | [ | Regional | ] | Imp, | gremlin, |  | marshman |  |  |  |
 ```
+
+
+## Rules and exceptions
+
+- Y ou can only learn to speak with the bard skill. (Sword World RPG - Complete Edition.pdf p.158)
+- With the sage skill, you can learn both to speak and to read. (Sword World RPG - Complete Edition.pdf p.158)
+- Adventurers who have learned both to speak and to read can write meaningful sentences using that language. (Sword World RPG - Complete Edition.pdf p.158)
+- Adventurers can study and learn common and normal languages other than their mother tongue. (Sword World RPG - Complete Edition.pdf p.158)
+- Also, you cannot learn runes with these skills. (Sword World RPG - Complete Edition.pdf p.158)
+- The languages that adventurers can learn are shown on Table 12-1: Languages. (Sword World RPG - Complete Edition.pdf p.158)

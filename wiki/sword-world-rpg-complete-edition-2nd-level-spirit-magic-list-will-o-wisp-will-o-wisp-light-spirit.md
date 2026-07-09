@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit
 page_kind: concept
-summary: 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit): 8 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_a23226ef4f80acb5@924e9717c0e3c4c79cf4673d3ac59954
+projection_coverage: page-projection-pgp_34161c8e55e41547@b989276bd4eb92ca00d5dcb71edc2231
 ---
 
 # 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Counters (Negates): Shade , Spirit Wall: Shade Countered (Negated) By: Shade , Spirit Wall: Shade. (Sword World RPG - Complete Edition.pdf p.85)
 - If the will -o-wisp hits an opponent, the target will receive damage from the energy generated when the will-o-wisp disintegrates. (Sword World RPG - Complete Edition.pdf p.85)
@@ -25,7 +25,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Furthermore, if someone destroys a will -o-wisp with a weapon they're holding, the one who took that action will also suffer the same damage. (Sword World RPG - Complete Edition.pdf p.85)
 - If a will -o-wisp itself comes into contact with a shade's body or enters the area of effect of Darkness , it'll vanish without emitting any energy. (Sword World RPG - Complete Edition.pdf p.85)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -68,3 +68,13 @@ Effect=Illuminates the space within the area of effect
 ```
 Type=Damage (Pure energy-type)
 ```
+
+
+## Rules and exceptions
+
+- The light can illuminate a space within a 5 meter radius. (Sword World RPG - Complete Edition.pdf p.85)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-spirit-magic-list]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit]] - contextualizes: source-supported topic dependency

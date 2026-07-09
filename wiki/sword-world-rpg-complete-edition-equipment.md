@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-equipment
 page_kind: concept
-summary: Equipment: 26 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 37 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_d50bde48d69007f8@261267980e2ce33c70e27006fa57179d
+projection_coverage: page-projection-pgp_7751561810456534@a0595e3f429a065167673aa2e97a24d8
 ---
 
 # Equipment
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - If you only have weapons and armor, you will not be able to go on an adventure. (Sword World RPG - Complete Edition.pdf p.24)
 - It won't be an adventure if you forget your ropes and torches. (Sword World RPG - Complete Edition.pdf p.24)
@@ -43,7 +43,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - So far, 277 gamels have been spent on purchases, with 303 gamels remaining. (Sword World RPG - Complete Edition.pdf p.24)
 - We won't buy preserved food yet. (Sword World RPG - Complete Edition.pdf p.24)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -90,3 +90,15 @@ Table 1-11: Equipment
 Living expenses
 1 day
 ```
+
+
+## Rules and exceptions
+
+- Many games set some kind of weight on weapons, armor and equipment, limiting the amount of goods a character can carry. (Sword World RPG - Complete Edition.pdf p.24)
+- A character cannot have an infinite number of things. (Sword World RPG - Complete Edition.pdf p.24)
+- We should also have a belt pouch (15G) for small items and money. (Sword World RPG - Complete Edition.pdf p.24)
+- Since we're going on an adventure, a water bag (20G) is a must. (Sword World RPG - Complete Edition.pdf p.24)
+- If he has friends, though, it would be nice if we could pool our money together to buy it. (Sword World RPG - Complete Edition.pdf p.24)
+- Without that, a fire cannot be started. (Sword World RPG - Complete Edition.pdf p.24)
+- A lantern would be brighter, but money is tight and we can't afford that luxury. (Sword World RPG - Complete Edition.pdf p.24)
+- It may be useful at some point. (Sword World RPG - Complete Edition.pdf p.24)

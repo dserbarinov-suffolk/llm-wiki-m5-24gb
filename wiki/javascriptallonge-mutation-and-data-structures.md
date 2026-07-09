@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-mutation-and-data-structures
 page_kind: concept
-summary: mutation and data structures: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 15 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_284dee4f97120441@e0a15aff651c1cd3783c8b8effd0dbbf
+projection_coverage: page-projection-pgp_e67925382f31ba2e@6afb76c3a6dfdfee720b133795c989aa
 ---
 
 # mutation and data structures
@@ -23,6 +23,10 @@ Source: [[javascriptallonge]]
 - One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. (javascriptallonge.pdf p.143)
 - While we're executing the mapWith function, we're constructing a new linked list. (javascriptallonge.pdf p.143)
 - The gathering operation [a, b, ..ThreeToFive] is slower, but 'safer. (javascriptallonge.pdf p.145)
+- We just use the data, and the less we mutate it, the fewer the times we have to think about whether making changes will be 'safe.'. (javascriptallonge.pdf p.145)
+
+## Rules
+
 - We just use the data, and the less we mutate it, the fewer the times we have to think about whether making changes will be 'safe.'. (javascriptallonge.pdf p.145)
 
 ## Technical atoms
@@ -104,3 +108,8 @@ OneToFive
 ```
 We don't have to remember to use copying operations when we pass it as a value to a function, or extract some data from it.
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-building-with-mutation]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-why-the-six-edition
 page_kind: concept
-summary: why the 'six' edition?: 15 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 23 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_081d97a1b6911ca6@718b481fc28f51a59bb05293868dd778
+projection_coverage: page-projection-pgp_bd4a19e254d357ed@5d1d76b33fdf867c5cd25882ad067ff2
 ---
 
 # why the 'six' edition?
@@ -31,6 +31,10 @@ Source: [[javascriptallonge]]
 - And i is scoped to the for loop. (javascriptallonge.pdf p.8)
 - Not having to work around these kinds of missing features makes JavaScript Allongé a better book , because it can focus on the why to do something and when to do it, instead of on the how to make it work. (javascriptallonge.pdf p.9)
 - JavaScript Allongé, The 'Six' Edition packs all the goodness of JavaScript Allongé into a new, updated package that is relevant for programmers working with (or planning to work with) the latest version of JavaScript. (javascriptallonge.pdf p.9)
+
+## Rules
+
+- Not having to work around these kinds of missing features makes JavaScript Allongé a better book , because it can focus on the why to do something and when to do it, instead of on the how to make it work. (javascriptallonge.pdf p.9)
 
 ## Technical atoms
 
@@ -93,3 +97,8 @@ function foo (first, ...rest) {
 // ...
 }
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-that-s-nice-is-that-the-only-reason]] - contextualizes: source-supported topic dependency

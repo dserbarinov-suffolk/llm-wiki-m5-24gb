@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-are-consts-also-from-a-shadowy-planet
 page_kind: concept
-summary: are consts also from a shadowy planet?: 13 accepted assertion(s) and 11 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 30 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_14b9124315d0ad37@e0be1c15090ba959d6c584d9a8d10c7a
+projection_coverage: page-projection-pgp_611cff2770b643a9@1117930efa81c024a4c50e34c97a0eaf
 ---
 
 # are consts also from a shadowy planet?
@@ -29,6 +29,13 @@ Source: [[javascriptallonge]]
 - But const statements can appear inside blocks. (javascriptallonge.pdf p.59)
 - This design rule is called the Principle of Least Privilege 32 , and it has both quality and security implications. (javascriptallonge.pdf p.60)
 - Typically, we want to bind our names as close to where we need them as possible. (javascriptallonge.pdf p.60)
+
+## Rules
+
+- But const statements can appear inside blocks, and we saw that blocks can appear inside of other blocks, including function bodies. (javascriptallonge.pdf p.57)
+- And we can see that our diameter * PI expression uses the binding for PI in the closest parent environment. (javascriptallonge.pdf p.58)
+- This is a book, you've already scanned ahead, so you know that the answer is no , the inner binding does not overwrite the outer binding:. (javascriptallonge.pdf p.58)
+- But const statements can appear inside blocks. (javascriptallonge.pdf p.59)
 
 ## Technical atoms
 
@@ -164,3 +171,9 @@ return diameter * PI;
 })(2)
 //=> would return 6.2831853 if const had function scope
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-const-and-lexical-scope]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-rebinding]] - contextualizes: source-supported topic dependency

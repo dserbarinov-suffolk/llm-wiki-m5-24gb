@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-functional-iterators
 page_kind: concept
-summary: Functional Iterators: 7 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_8bd1801b51a88b4a@99b9449c038dd196810ba3043b312995
+projection_coverage: page-projection-pgp_91a74968d6f73b3c@3d592e7d4f75a08144b00d95f678e42f
 ---
 
 # Functional Iterators
@@ -23,6 +23,11 @@ Source: [[javascriptallonge]]
 - What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . (javascriptallonge.pdf p.168)
 - The sumFoldable function doesn't care what kind of data structure we have , as long as it's foldable. (javascriptallonge.pdf p.168)
 - We've found another way to express the principle of separating traversing a data structure from the operation we want to perform on that data structure, we've completely separated the knowledge of how to sum from the knowledge of how to fold an array or tree (or anything else, really). (javascriptallonge.pdf p.168)
+
+## Rules
+
+- But it still relies on foldArrayWith , so it can only sum arrays. (javascriptallonge.pdf p.167)
+- Perhaps we could extract both of those things. (javascriptallonge.pdf p.167)
 
 ## Technical atoms
 
@@ -90,3 +95,9 @@ const sumFoldable = (folder) => folder((a, b) => a + b, 0);
 sumFoldable(foldTree([1, [4, [9, 16]], 25]))
 //=> 55
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-tortoises-hares-and-teleporting-turtles]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-making-data-out-of-functions]] - contextualizes: source-supported topic dependency

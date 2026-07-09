@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-7th-level-ancient-magic-list-dispel-order
 page_kind: concept
-summary: 7th Level Ancient Magic List [ Dispel Order ]: 43 accepted assertion(s) and 49 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 103 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_ebe64878172c20c0@46456c29250762bf65ea6604922404b3
+projection_coverage: page-projection-pgp_911594002f253235@e4d74a8e5bbb95109fffa3d25597a6af
 ---
 
 # 7th Level Ancient Magic List [ Dispel Order ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - This spell nullifies the effects of the types of spells that give commands, such as Quest , Geas , etc. (Sword World RPG - Complete Edition.pdf p.78)
 - Once a golem has had its commands canceled, it becomes neutral and can be given new commands using the 9th level spell Command Golem . (Sword World RPG - Complete Edition.pdf p.78)
@@ -60,7 +60,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Also, since the reflection is indiscriminate, even magic that's favorable towards the caster will be reflected. (Sword World RPG - Complete Edition.pdf p.80)
 - If a caster using Magic Reflection casts other magic on his or herself, the effect of Magic Reflection will be lost at the same time the new magic is cast. (Sword World RPG - Complete Edition.pdf p.80)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -231,176 +231,158 @@ Resist=None
 ```
 
 <a id="atom-25"></a>
-**Atom:** rule
-
-```
-If you use it in combat, attack power, evasion speed, and bonus damage will all increase, so action order and movement speed will also increase.
-```
-
-<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=28
 ```
 
-<a id="atom-27"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Distance=10 meters
 ```
 
-<a id="atom-28"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Area=One
 ```
 
-<a id="atom-29"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Duration=18 rounds
 ```
 
-<a id="atom-30"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Type=Target score, damage (Blade-type)
 ```
 
-<a id="atom-31"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Resist=Reduced effect
 ```
 
-<a id="atom-32"></a>
-**Atom:** rule
-
-```
-At this time, the target can move if they want to against the binding of the net.
-```
-
-<a id="atom-33"></a>
-**Atom:** rule
-
-```
-If the target successfully resists, when they attempt to act, the penalty on success rolls will only be -2, damage will only be calculated strike power 10, and no criticals will occur.
-```
-
-<a id="atom-34"></a>
-**Atom:** rule
-
-```
-Please note that when making a check, you may only make a resistance roll against this spell once per round in which the spell is cast.
-```
-
-<a id="atom-35"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-36"></a>
-**Atom:** rule
-
-```
-If you expand the effect by consuming extra mental power, you can bend objects with a thicker bar (crosssectional area).
-```
-
-<a id="atom-37"></a>
+<a id="atom-32"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=35
 ```
 
-<a id="atom-38"></a>
+<a id="atom-33"></a>
 **Atom:** formula
 
 ```
 Distance=Touch
 ```
 
-<a id="atom-39"></a>
+<a id="atom-34"></a>
 **Atom:** formula
 
 ```
 Area=One
 ```
 
-<a id="atom-40"></a>
+<a id="atom-35"></a>
 **Atom:** formula
 
 ```
 Effect=Change the target into another creature
 ```
 
-<a id="atom-41"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Type=Target score
 ```
 
-<a id="atom-42"></a>
+<a id="atom-37"></a>
 **Atom:** formula
 
 ```
 Expansion=Final score
 ```
 
-<a id="atom-43"></a>
+<a id="atom-38"></a>
 **Atom:** formula
 
 ```
 Resist=Negated effect
 ```
 
-<a id="atom-44"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=35
 ```
 
-<a id="atom-45"></a>
+<a id="atom-40"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-46"></a>
+<a id="atom-41"></a>
 **Atom:** formula
 
 ```
 Area=Caster
 ```
 
-<a id="atom-47"></a>
+<a id="atom-42"></a>
 **Atom:** formula
 
 ```
 Effect=Reflects magic cast on the caster back
 ```
 
-<a id="atom-48"></a>
+<a id="atom-43"></a>
 **Atom:** formula
 
 ```
 Expansion=Final score
 ```
 
-<a id="atom-49"></a>
-**Atom:** rule
 
-```
-If your magic has been reflected, you must resist against your own magic yourself.
-```
+## Rules and exceptions
+
+- Once a golem has had its commands canceled, it becomes neutral and can be given new commands using the 9th level spell Command Golem . (Sword World RPG - Complete Edition.pdf p.78)
+- However, the final score of commands given during the ancient kingdom period is very high, so you'll need a final score of at least 30 or greater to cancel a golem's commands. (Sword World RPG - Complete Edition.pdf p.78)
+- This spell can also cancel commands given to a golem. (Sword World RPG - Complete Edition.pdf p.78)
+- Once this spell fails, you cannot attempt it again until your magic power increases. (Sword World RPG - Complete Edition.pdf p.78)
+- The target can be an individual or object up to 1 cubic meter in volume. (Sword World RPG - Complete Edition.pdf p.78)
+- all have to be moved in one piece, and it's impossible to tear them apart. (Sword World RPG - Complete Edition.pdf p.78)
+- This spell cannot move only one part of the target. (Sword World RPG - Complete Edition.pdf p.78)
+- Only solids greater than a certain size can be obstacles. (Sword World RPG - Complete Edition.pdf p.78)
+- Most weapons have a bar-like part that can be bent to make them useless. (Sword World RPG - Complete Edition.pdf p.79)
+- Since it only targets bar- shaped objects, shields and armor cannot be bent. (Sword World RPG - Complete Edition.pdf p.79)
+- This magic's effect cannot work on things that have already had magic cast on them or have life (or have undead life force). (Sword World RPG - Complete Edition.pdf p.79)
+- The targets of this spell can only be animals and plants created by the hands of the gods, including humans, fae, and youma, and do not include mythical beasts, magical beasts, titans, etc. (Sword World RPG - Complete Edition.pdf p.79)
+- By casting this spell, the caster can turn any target that fails (or does not attempt) to resist into an animal of their choice. (Sword World RPG - Complete Edition.pdf p.79)
+- In addition, spells that nullify magic, such as Dispel Magic , cannot be reflected. (Sword World RPG - Complete Edition.pdf p.80)
+- However, this can only reflect magic which has an area of effect of one . (Sword World RPG - Complete Edition.pdf p.80)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-6th-level-ancient-magic-list-acid-cloud]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-8th-level-ancient-magic-list]] - contextualizes: source-supported topic dependency

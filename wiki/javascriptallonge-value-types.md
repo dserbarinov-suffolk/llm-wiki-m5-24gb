@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-value-types
 page_kind: concept
-summary: value types: 6 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_6a23953d24dfded9@e41e27c0600b3b95075cdfc38aec0388
+projection_coverage: page-projection-pgp_0a73cdee06bc5502@e290d00e647ddd9225895568a2f076c0
 ---
 
 # value types
@@ -41,3 +41,8 @@ Source: [[javascriptallonge]]
 ```
 So even if you have two cups of the same type, and their contents are the same, you can still distinguish between them.
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-reference-types]] - contextualizes: source-supported topic dependency

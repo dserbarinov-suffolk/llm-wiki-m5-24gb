@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-warm-cup-basic-strings-and-quasi-literals
 page_kind: concept
-summary: A Warm Cup: Basic Strings and Quasi-Literals: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_689fd07227b42a52@302315892816e9c06359d1bef30003fa
+projection_coverage: page-projection-pgp_d2255e840a06338a@87ea39400dc4c56bbab7762a79106c01
 ---
 
 # A Warm Cup: Basic Strings and Quasi-Literals
@@ -20,6 +20,10 @@ Source: [[javascriptallonge]]
 - There are operators that can be used on strings. (javascriptallonge.pdf p.203)
 - String manipulation is extremely common in programming. (javascriptallonge.pdf p.203)
 - Writing is a big part of what makes us human, and strings are how JavaScript and most other languages represent writing. (javascriptallonge.pdf p.203)
+
+## Rules
+
+- There are operators that can be used on strings. (javascriptallonge.pdf p.203)
 
 ## Technical atoms
 

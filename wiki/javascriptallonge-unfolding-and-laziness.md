@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-unfolding-and-laziness
 page_kind: concept
-summary: unfolding and laziness: 6 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_8753890e35a90ce7@96627bfd244d82d90f185983d28b4a93
+projection_coverage: page-projection-pgp_13d170cfe119d717@7738153bc3c68846e91ed260d244cd63
 ---
 
 # unfolding and laziness
@@ -22,6 +22,10 @@ Source: [[javascriptallonge]]
 - We can start with take , an easy function that returns an iterator that only returns a fixed number of elements:. (javascriptallonge.pdf p.174)
 - We'll need an iterator that produces odd numbers. (javascriptallonge.pdf p.174)
 - Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions. (javascriptallonge.pdf p.175)
+
+## Rules
+
+- We can start with take , an easy function that returns an iterator that only returns a fixed number of elements:. (javascriptallonge.pdf p.174)
 
 ## Technical atoms
 
@@ -161,3 +165,9 @@ const oddsOf = callLeft(filterIteratorWith, (n) => n % 2 === 1);
 toArray(take(squareOf(oddsOf(NumberIterator(1))), 5))
 //=> [1, 9, 25, 49, 81]
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-iterating]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-bonu]] - contextualizes: source-supported topic dependency

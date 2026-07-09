@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-shield
 page_kind: concept
-summary: Shields: 3 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_77f4b358b80b368b@a2bf92792b8ee157325b9cfd1f68502c
+projection_coverage: page-projection-pgp_683cfc65bdf076a0@c504ca5c0042da797aa68325a0d070d1
 ---
 
 # Shields
@@ -28,3 +28,9 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 If a character's strength is 13 or greater, a large shield can be chosen.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-armor]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-price-calculation]] - contextualizes: source-supported topic dependency

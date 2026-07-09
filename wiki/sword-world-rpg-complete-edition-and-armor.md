@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-and-armor
 page_kind: concept
-summary: and Armor: 14 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 20 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_e318a584f0867a3f@242652536f1a5bba09563d2cb21405fa
+projection_coverage: page-projection-pgp_b8bc92e91ad83c23@352391c4b7eab7052120bf84badde4d5
 ---
 
 # and Armor
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - There are people in the world who are called master craftsmen, and they sometimes create weapons and armor that are better than normal. (Sword World RPG - Complete Edition.pdf p.51)
 - These highquality weapons and armor are available to adventurers, if they seek them out. (Sword World RPG - Complete Edition.pdf p.51)
@@ -31,23 +31,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - If left alone, it will always regain consciousness. (Sword World RPG - Complete Edition.pdf p.51)
 - In addition, no matter how high quality it is , nothing can affect its attack power or evasion speed. (Sword World RPG - Complete Edition.pdf p.51)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than usual .
-```
-
-<a id="atom-2"></a>
-**Atom:** rule
-
-```
-However, if you want one of higher quality, you must go to a larger town.
-```
-
-<a id="atom-3"></a>
 **Atom:** table
 
 ```text
@@ -65,16 +51,14 @@ Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
                                     and any with +4 or more have yet to be
 ```
 
-<a id="atom-4"></a>
-**Atom:** rule
 
-```
-If they fail, then unless they roll double ones, they will continue to remain unconscious.
-```
+## Rules and exceptions
 
-<a id="atom-5"></a>
-**Atom:** rule
+- For example, a broadsword that originally had a required strength 16 could be made with required strength 15 . (Sword World RPG - Complete Edition.pdf p.51)
+- It is important to note that such weapons and armor cannot exceed the limits of the weapon or armor itself. (Sword World RPG - Complete Edition.pdf p.51)
+- So long as required strength is up to 5 lower than usual, a character can purchase one at a store. (Sword World RPG - Complete Edition.pdf p.51)
+- In addition, no matter how high quality it is , nothing can affect its attack power or evasion speed. (Sword World RPG - Complete Edition.pdf p.51)
 
-```
-Whenever an adventurer declares that their attack on a monster is a mercy, that monster will always remain alive.
-```
+## Related pages
+
+- [[sword-world-rpg-complete-edition-silver-weapons-and-armor]] - contextualizes: source-supported topic dependency

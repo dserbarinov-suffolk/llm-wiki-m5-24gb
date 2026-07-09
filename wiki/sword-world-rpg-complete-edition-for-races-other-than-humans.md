@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-for-races-other-than-humans
 page_kind: concept
-summary: For Races Other Than Humans: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_c734cbf44e585acf@d60cc8602ab3d039f71abd61090effc0
+projection_coverage: page-projection-pgp_84d118be4d5acbe2@b8ad3f387a9753bc7f9d5c5577f54950
 ---
 
 # For Races Other Than Humans
@@ -24,3 +24,8 @@ Source: [[sword-world-rpg-complete-edition]]
 - The result of our next 2D roll is 6 . (Sword World RPG - Complete Edition.pdf p.19)
 - This means we roll 2D and have money (in gamels ) equal to the result times 200. (Sword World RPG - Complete Edition.pdf p.19)
 - The character has 1200 gamels. (Sword World RPG - Complete Edition.pdf p.19)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-for-humans-and-halfelves-raised-by-humans]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-1-4-4-age-gender-name]] - contextualizes: source-supported topic dependency

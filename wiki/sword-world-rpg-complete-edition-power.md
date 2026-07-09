@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-power
 page_kind: concept
-summary: Power: 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_103ee8239a2ddb0e@289c8ea1185e9e277b69cedf1efcb97c
+projection_coverage: page-projection-pgp_1f264b73dc6b2153@27f7a7e1e1106baa74c049b2b906235f
 ---
 
 # Power
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Mental power reduced due to using magic, etc. (Sword World RPG - Complete Edition.pdf p.60)
 - The amount recovered is explained under each magic and item. (Sword World RPG - Complete Edition.pdf p.60)
@@ -23,7 +23,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - If a character sleeps for at least 6 hours in a row, they will fully recover their mental power upon awakening. (Sword World RPG - Complete Edition.pdf p.60-61)
 - However, this method of recovery can only be done once a day. (Sword World RPG - Complete Edition.pdf p.60-61)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -42,3 +42,14 @@ Source: [[sword-world-rpg-complete-edition]]
 | x 9 | 3.0 | 2.1 |
 | x 10 | 3.2 | 2.2 |
 ```
+
+
+## Rules and exceptions
+
+- There's magic and magical items that can recover a character's mental power, such as the holy magic Transfer Mental Power . (Sword World RPG - Complete Edition.pdf p.60)
+- However, this method of recovery can only be done once a day. (Sword World RPG - Complete Edition.pdf p.60-61)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-consuming-mental-power]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-5-1-7-magic-expansion]] - contextualizes: source-supported topic dependency

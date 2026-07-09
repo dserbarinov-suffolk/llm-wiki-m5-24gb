@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-picking-the-bean-choice-and-truthiness
 page_kind: concept
-summary: Picking the Bean: Choice and Truthiness: 4 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_86b2531829a3d3db@4ab27afa8bebf269ec091be407bdc9df
+projection_coverage: page-projection-pgp_44f5f9aafe7d6465@4ab27afa8bebf269ec091be407bdc9df
 ---
 
 # Picking the Bean: Choice and Truthiness

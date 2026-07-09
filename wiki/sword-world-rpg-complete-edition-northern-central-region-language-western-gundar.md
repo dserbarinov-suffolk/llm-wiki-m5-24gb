@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-northern-central-region-language-western-gundar
 page_kind: concept
-summary: Northern Central Region (Language = Western/Gundar): 25 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 28 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_3663e53d3e78f607@619720296a9eb96b86cfdc3568828e71
+projection_coverage: page-projection-pgp_22c2b5732e5f18a2@f8c1980e4a07af6c2455ed7ed9b64fd2
 ---
 
 # Northern Central Region (Language = Western/Gundar)
@@ -41,3 +41,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - In particular, their leader Lauras is said to be unmatched in all of Alecrast. (Sword World RPG - Complete Edition.pdf p.287)
 - The druids are extremely powerful Shamans. (Sword World RPG - Complete Edition.pdf p.287)
 - Ramliearth protects these mythical beasts as a national priority and has organized and dispatched woods guardian teams. (Sword World RPG - Complete Edition.pdf p.287)
+
+## Rules
+
+- This system can only exist because Rijal is both a warrior and a hero. (Sword World RPG - Complete Edition.pdf p.287)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-central-region-language-m-rdan-eremire-gundar-saine]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-southern-central-region-language-western-gundar]] - contextualizes: source-supported topic dependency

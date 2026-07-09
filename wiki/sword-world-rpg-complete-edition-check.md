@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-check
 page_kind: concept
-summary: Checks: 12 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_2ec689861f101bb0@f1c4aea0ae90b1668794e50217679999
+projection_coverage: page-projection-pgp_40820105f52ae196@42a23b70c199e3e3d844435025dc6c2d
 ---
 
 # Checks
@@ -29,6 +29,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - Ducard II is fighting some goblins. (Sword World RPG - Complete Edition.pdf p.30)
 - The game master declares the target score of this action to be 10 . (Sword World RPG - Complete Edition.pdf p.30)
 
+## Rules
+
+- Target scores for certain actions can be found in Part 2: Game Master Section . (Sword World RPG - Complete Edition.pdf p.30)
+- In other words, we must roll two dice, add 4 to the result, and if the total is 10 or more , we'll hit the target. (Sword World RPG - Complete Edition.pdf p.30)
+- Skills Other Than Combat and Magic to see which skills can be used for the baseline score of any given action. (Sword World RPG - Complete Edition.pdf p.30)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -37,3 +43,8 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 If the roll is 6 or greater, it's a hit , and if the roll is 5 or lower, it's a miss .
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-target-scores]] - contextualizes: source-supported topic dependency

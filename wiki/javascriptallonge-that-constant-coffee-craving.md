@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-that-constant-coffee-craving
 page_kind: concept
-summary: That Constant Coffee Craving: 9 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 16 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_46401491c74df1eb@670ffd5cc0c1809f44c47782fb47b4b9
+projection_coverage: page-projection-pgp_e4dad28204d25a18@ab735a58bf74c6e1f221e49d1c846881
 ---
 
 # That Constant Coffee Craving
@@ -24,6 +24,10 @@ Source: [[javascriptallonge]]
 - This one has a few more moving parts, that's all. (javascriptallonge.pdf p.49)
 - All of our 'functions' are expressions. (javascriptallonge.pdf p.49)
 - That sounds bad, but when we think about it, (diameter) => diameter * 3.14159265 is also an expression, that when evaluated, returns a function that calculates circumferences. (javascriptallonge.pdf p.49)
+- But we can use it just like (diameter) => diameter * 3.14159265 . (javascriptallonge.pdf p.49)
+
+## Rules
+
 - But we can use it just like (diameter) => diameter * 3.14159265 . (javascriptallonge.pdf p.49)
 
 ## Technical atoms
@@ -64,3 +68,9 @@ There are other ways to name things in JavaScript, but before we learn some of t
 )(3.14159265)(2)
 //=> 6.2831853
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-closures-and-scope]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-building-blocks]] - contextualizes: source-supported topic dependency

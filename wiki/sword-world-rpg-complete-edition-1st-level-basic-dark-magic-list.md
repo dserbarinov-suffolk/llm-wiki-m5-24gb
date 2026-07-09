@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-1st-level-basic-dark-magic-list
 page_kind: concept
-summary: 1st Level Basic Dark Magic List: 11 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 18 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_f8d6714a50707ead@76d39a9323d494b6721e42ec3ca26184
+projection_coverage: page-projection-pgp_5f62d7aa65d1ae49@e57f0d52cd0911326a74fa4c5626d9fe
 ---
 
 # 1st Level Basic Dark Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Countries that are negative towards magic sometimes have policies that exile rune masters from the country. (Sword World RPG - Complete Edition.pdf p.142)
 - Of course, these people also rely on magical power when they themselves need it. (Sword World RPG - Complete Edition.pdf p.142)
@@ -28,7 +28,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - However, mental power (points) will not fall below 0. (Sword World RPG - Complete Edition.pdf p.143)
 - Note that this spell does not allow the target to reduce damage using adventurer level. (Sword World RPG - Complete Edition.pdf p.143)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -65,16 +65,8 @@ Duration=Instant
 Resist=Negated effect
 ```
 
-<a id="atom-6"></a>
-**Atom:** rule
 
-```
-Before using this spell, you must declare in advance how many points of mental power (points) you will use.
-```
+## Rules and exceptions
 
-<a id="atom-7"></a>
-**Atom:** rule
-
-```
-Also, the caster cannot add their magic power to the damage dealt, and cannot divide the mental power consumed by the spell by their level (for both a caster with a 1st level dark priest skill and a caster with a 3rd level dark priest skill, the mental power consumed is the same).
-```
+- This damage check is made with strike power 10 (criticals can also occur). (Sword World RPG - Complete Edition.pdf p.142)
+- The caster can use any number of points up to the amount of mental power they have. (Sword World RPG - Complete Edition.pdf p.142)

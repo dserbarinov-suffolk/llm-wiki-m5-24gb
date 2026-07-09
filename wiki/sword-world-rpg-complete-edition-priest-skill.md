@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-priest-skill
 page_kind: concept
-summary: Priest Skill: 50 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 60 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_fdfe350c717e2643@7d4acae4779663463f8286b2664d92d4
+projection_coverage: page-projection-pgp_733e807e337b0072@c14d08995a93bb2d140341e000f223b9
 ---
 
 # Priest Skill
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - These six major gods almost always have temples in most towns. (Sword World RPG - Complete Edition.pdf p.97)
 - Among the gods of Alecrast, the six most powerful gods (and those with the greatest number of believers) are called the six major gods . (Sword World RPG - Complete Edition.pdf p.97)
@@ -67,7 +67,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - He is known as the god of smiths. (Sword World RPG - Complete Edition.pdf p.98)
 - However, his temples are rarely seen in human cities. (Sword World RPG - Complete Edition.pdf p.98)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -87,3 +87,19 @@ There are no restrictions on armor or weapons  to  use  the  priest  skill,  and
 Also,  one  character cannot worship multiple gods. Those with the priest skill must choose only one god to worship.
 5.1.15.2 The Six Major Gods
 ```
+
+
+## Rules and exceptions
+
+- He teaches that happiness can be achieved through conversation and interaction between people, such as through trade. (Sword World RPG - Complete Edition.pdf p.97)
+- Game masters should not allow player characters to worship this god. (Sword World RPG - Complete Edition.pdf p.97)
+- It is clear that those who follow these doctrines must eventually become wicked. (Sword World RPG - Complete Edition.pdf p.97)
+- Therefore, players and game masters should use common sense when making judgments, rather than forcefully twisting the doctrine or interpreting it too rigidly. (Sword World RPG - Complete Edition.pdf p.97-98)
+- However, this does not mean that everything is forgivable, so game masters should only confiscate the priest skill when the character repeatedly commits unjust acts or shows no remorse. (Sword World RPG - Complete Edition.pdf p.97-98)
+- Player characters cannot worship wicked gods. (Sword World RPG - Complete Edition.pdf p.98)
+- However, he was originally the god of volcanoes, and because he told people that when you heat a stone, it melts like water, he was worshiped as the god of smiths. (Sword World RPG - Complete Edition.pdf p.98)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-magic-list-cure-wounds]] - contextualizes: source-supported topic dependency

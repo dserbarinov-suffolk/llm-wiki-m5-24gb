@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-eager-collections
 page_kind: concept
-summary: eager collections: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_f14748b195e264ff@b3f612391acb7a0f5d56020f475f9181
+projection_coverage: page-projection-pgp_87efd0bbc160d56b@fae766bffb5c9086a982866479b1c1ff
 ---
 
 # eager collections
@@ -20,6 +20,10 @@ Source: [[javascriptallonge]]
 - We mix EagerCollection(Pair) into it, and this gives it all of our collection methods, which each method returning a new list of pairs:. (javascriptallonge.pdf p.259)
 - Here is our Pair implementation. (javascriptallonge.pdf p.259)
 - Pair is gatherable, because it implements .from() . (javascriptallonge.pdf p.259)
+
+## Rules
+
+- We can make an eager collection out of any collection that is gatherable , meaning it has a .from method:. (javascriptallonge.pdf p.256)
 
 ## Technical atoms
 
@@ -178,3 +182,8 @@ Pair.from([1, 2, 3, 4, 5]).map(x => x * 2)
 }
 }
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-lazy-collection-operations]] - contextualizes: source-supported topic dependency

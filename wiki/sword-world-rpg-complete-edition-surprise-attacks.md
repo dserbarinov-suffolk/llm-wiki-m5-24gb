@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-surprise-attacks
 page_kind: concept
-summary: Surprise Attacks: 7 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_38aa3238184636aa@17029f609206da2b5f2fae96b3a98310
+projection_coverage: page-projection-pgp_e91378475eb4cb7b@eaa744620a798cc279307d26c255d005
 ---
 
 # Surprise Attacks
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - On the Surprise Attack Check table, if this score is lower than the one in the monster column, the monster has a chance for a surprise They must not change things based on the circumstances, such as attacking with fangs if the character used the spell Counter Magic to increase their resistance, or breathing fire if the character used the spell Quickness to raise their agility (evasion speed). (Sword World RPG - Complete Edition.pdf p.138)
 - The game master must roll 2D and add it to the monster level (the highest one in the case of a group). (Sword World RPG - Complete Edition.pdf p.138)
@@ -24,16 +24,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - attack, and if it's greater than the one in the adventurer column, the adventurers have a chance for a surprise attack. (Sword World RPG - Complete Edition.pdf p.138-139)
 - If a surprise attack occurs , the side who surprised the other is free to act for. (Sword World RPG - Complete Edition.pdf p.139)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-When encountering a monster, one of you may notice the other without them noticing you, allowing you to perform a surprise attack .
-```
-
-<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -51,16 +44,14 @@ Table 10-2: Surprise Attack Check
  Subtract the monster's score from the
 ```
 
-<a id="atom-3"></a>
-**Atom:** rule
 
-```
-If you don't have to rely on vision
-```
+## Rules and exceptions
 
-<a id="atom-4"></a>
-**Atom:** rule
+- On the Surprise Attack Check table, if this score is lower than the one in the monster column, the monster has a chance for a surprise They must not change things based on the circumstances, such as attacking with fangs if the character used the spell Counter Magic to increase their resistance, or breathing fire if the character used the spell Quickness to raise their agility (evasion speed). (Sword World RPG - Complete Edition.pdf p.138)
+- The game master must roll 2D and add it to the monster level (the highest one in the case of a group). (Sword World RPG - Complete Edition.pdf p.138)
+- This can lead to a loss of game fairness and may also spoil player motivation. (Sword World RPG - Complete Edition.pdf p.138)
 
-```
-However, you should also take into consideration conditions such as the surrounding environment and whether the adventurers are proceeding quietly.
-```
+## Related pages
+
+- [[sword-world-rpg-complete-edition-combat-in-special-situations]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-water-combat]] - contextualizes: source-supported topic dependency

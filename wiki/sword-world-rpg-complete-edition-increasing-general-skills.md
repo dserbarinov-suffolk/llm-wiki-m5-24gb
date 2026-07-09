@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-increasing-general-skills
 page_kind: concept
-summary: Increasing General Skills: 12 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_28f5f3b0654e7ad3@1f35799c409c73006b2db08a6d04d735
+projection_coverage: page-projection-pgp_8d5ddaaf2d133c30@9bfb933d6434b02ecc5a4bd1c6f41e84
 ---
 
 # Increasing General Skills
@@ -29,6 +29,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - Doing something casually in your free time would probably only let you get to 3rd level. (Sword World RPG - Complete Edition.pdf p.131-132)
 - Though they may be general skills, you won't find many humans, etc. (Sword World RPG - Complete Edition.pdf p.132)
 
+## Rules
+
+- However, providing general skills may lead to individualization of a character and expand the range of role-playing . (Sword World RPG - Complete Edition.pdf p.131)
+- Therefore, general skills cannot be purchased with experience points like adventurer skills. (Sword World RPG - Complete Edition.pdf p.131)
+- Though they may be general skills, you won't find many humans, etc. (Sword World RPG - Complete Edition.pdf p.132)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -37,3 +43,8 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 If a character is suitable for this type of job, you can give them 3 levels, and if a character is unsuitable, you can give them only 1 level.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-8-3]] - contextualizes: source-supported topic dependency

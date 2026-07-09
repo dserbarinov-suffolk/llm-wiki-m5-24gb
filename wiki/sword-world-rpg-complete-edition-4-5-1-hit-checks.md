@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-4-5-1-hit-checks
 page_kind: concept
-summary: 4.5.1 Hit Checks: 8 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 12 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_2e9bf314bfce4bf7@192238c3b2a070088783f57fb961ee35
+projection_coverage: page-projection-pgp_025291e7e152e733@c72b7e5412717ab257b18513e0683963
 ---
 
 # 4.5.1 Hit Checks
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (Sword World RPG - Complete Edition.pdf p.43)
 - In the monsters' data, there is a score called evasion points , which becomes the target score. (Sword World RPG - Complete Edition.pdf p.43)
@@ -25,23 +25,16 @@ Source: [[sword-world-rpg-complete-edition]]
 - His player rolls the dice to make a hit check. (Sword World RPG - Complete Edition.pdf p.43)
 - 4+8= 12 , which is more than 10. (Sword World RPG - Complete Edition.pdf p.43)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score.
-```
-
-<a id="atom-2"></a>
 **Atom:** formula
 
 ```
 character's attack power + 2D ≥ monster's evasion points → attack hits
 ```
 
-<a id="atom-3"></a>
+<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -71,7 +64,7 @@ Key Number
 12 10 10 10 10 10 10 10 10 10 10 10 10 10 11 12 12 12 13 13
 ```
 
-<a id="atom-4"></a>
+<a id="atom-3"></a>
 **Atom:** table
 
 ```text
@@ -110,3 +103,8 @@ Table 4-2: Rating Table, Key Number
    11 12 12 13 13 13 13 13 13 13 14 15
                                                                     character's strike power. That's the base
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-determining-base-damage-strike-roll]] - contextualizes: source-supported topic dependency

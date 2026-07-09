@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-it-s-always-the-environment
 page_kind: concept
-summary: it's always the environment: 10 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 19 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_d9b84c4899974259@76f2c11fe97d294d0d14c057ba089bd5
+projection_coverage: page-projection-pgp_186c0dbb3d2f33e1@8bbf5208096fd1d228cd463ccc44c3b4
 ---
 
 # it's always the environment
@@ -26,6 +26,11 @@ Source: [[javascriptallonge]]
 - Some programming languages automatically curry and partially evaluate functions without the need to manually nest them. (javascriptallonge.pdf p.47)
 - The first function is the result of currying a the second function. (javascriptallonge.pdf p.47)
 - Calling a curried function with only some of its arguments is sometimes called partial application b . (javascriptallonge.pdf p.47)
+
+## Rules
+
+- Some people get so excited by this that they write entire books about them, some are great a , some-how shall I put this-are interesting b if you use Ruby. (javascriptallonge.pdf p.46)
+- The other big difference is that you can call it with (1) and get a function back that you can later call with (2)(3) . (javascriptallonge.pdf p.46)
 
 ## Technical atoms
 
@@ -66,3 +71,9 @@ bh
 ah
 bh
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-if-functions-without-free-variables-are-pure-are-closures-impure]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-shadowy-variables-from-a-shadowy-planet]] - contextualizes: source-supported topic dependency

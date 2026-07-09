@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-geography
 page_kind: concept
-summary: Geography: 23 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 24 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_da7c2800a5cf6e07@9f3f503f627a8543739050e548dd923d
+projection_coverage: page-projection-pgp_13501bc0a3731e92@99ef8eaadaaefefbf55f83a8a7a66a77
 ---
 
 # Geography
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - At the eastern end of the Alecrast continent lie three countries: Mudeel, Milargo, and Anoth. (Sword World RPG - Complete Edition.pdf p.284)
 - These galleys, also known as armed merchant ships, boast strength that makes ordinary pirate ships pale in comparison. (Sword World RPG - Complete Edition.pdf p.284)
@@ -40,7 +40,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - The true nature and purpose of this statue remain completely unknown. (Sword World RPG - Complete Edition.pdf p.285)
 - However, there is no doubt that it possesses some form of magical power. (Sword World RPG - Complete Edition.pdf p.285)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula

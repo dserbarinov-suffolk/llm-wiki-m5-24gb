@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-10th-level-ancient-magic-list-dimension-gate
 page_kind: concept
-summary: 10th Level Ancient Magic List [ Dimension Gate ]: 15 accepted assertion(s) and 25 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 42 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_3f10d4f9b3880a77@be6d95a52c11d8c3501e8663b96e533d
+projection_coverage: page-projection-pgp_5cdd9edefba532cc@bde1ea310545a62a913d8db7b48eb106
 ---
 
 # 10th Level Ancient Magic List [ Dimension Gate ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - The gate is a silver disc 5 meters in diameter, which appears on the floor. (Sword World RPG - Complete Edition.pdf p.82)
 - The disc can be penetrated like water, and those who jump into it will jump out of the other disc. (Sword World RPG - Complete Edition.pdf p.82)
@@ -32,7 +32,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - The spell Meteor Strike is a spell that allows the caster to control a meteorite (a very small one) at will, and make it fall to the ground. (Sword World RPG - Complete Edition.pdf p.82)
 - Of course, its destructive power would be enough to destroy buildings and ramparts. (Sword World RPG - Complete Edition.pdf p.83)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -119,92 +119,89 @@ Resist=Negated effect
 ```
 
 <a id="atom-13"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-All creatures within range must attempt to resist this spell, and if they fail, they will die instantly.
+Base Mental Power Cost=50
 ```
 
 <a id="atom-14"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=50
+Distance=10 meters
 ```
 
 <a id="atom-15"></a>
 **Atom:** formula
 
 ```
-Distance=10 meters
+Duration=Instant
 ```
 
 <a id="atom-16"></a>
 **Atom:** formula
 
 ```
-Duration=Instant
+Effect=Removes the effects of all spells
 ```
 
 <a id="atom-17"></a>
 **Atom:** formula
 
 ```
-Effect=Removes the effects of all spells
+Resist=None
 ```
 
 <a id="atom-18"></a>
 **Atom:** formula
 
 ```
-Resist=None
+Base Mental Power Cost=50
 ```
 
 <a id="atom-19"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=50
+Distance=30 meters
 ```
 
 <a id="atom-20"></a>
 **Atom:** formula
 
 ```
-Distance=30 meters
+Area=A space with a 10 meter radius
 ```
 
 <a id="atom-21"></a>
 **Atom:** formula
 
 ```
-Area=A space with a 10 meter radius
+Duration=Instant
 ```
 
 <a id="atom-22"></a>
 **Atom:** formula
 
 ```
-Duration=Instant
+Type=Damage (Explosion-type)
 ```
 
 <a id="atom-23"></a>
 **Atom:** formula
 
 ```
-Type=Damage (Explosion-type)
-```
-
-<a id="atom-24"></a>
-**Atom:** formula
-
-```
 Resist=Reduced Effect
 ```
 
-<a id="atom-25"></a>
-**Atom:** rule
 
-```
-Please note that this spell cannot be used unless you can see the sky (it has no effect if used inside a cave or dungeon).
-```
+## Rules and exceptions
+
+- The disc can be penetrated like water, and those who jump into it will jump out of the other disc. (Sword World RPG - Complete Edition.pdf p.82)
+- There is no restriction on the travel distance, but the destination must be a place the caster knows. (Sword World RPG - Complete Edition.pdf p.82)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-9th-level-ancient-magic-list-command-golem]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-5-1-13-spirit-magic-and-the-shaman-skill]] - contextualizes: source-supported topic dependency

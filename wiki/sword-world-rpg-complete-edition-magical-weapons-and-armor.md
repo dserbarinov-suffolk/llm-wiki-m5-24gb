@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-magical-weapons-and-armor
 page_kind: concept
-summary: Magical Weapons and Armor: 15 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 24 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_135599d40792426d@e41f33923a0ffea983ecf405d1bdee36
+projection_coverage: page-projection-pgp_25bb2f7574bf5e31@03c304298d9bd8fb93abad816753c770
 ---
 
 # Magical Weapons and Armor
@@ -32,6 +32,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - Also, they offer basically no bonus to strike power or defense power, same as required strength. (Sword World RPG - Complete Edition.pdf p.52)
 - High-quality ones (made with lower required strength) seem to exist only rarely . (Sword World RPG - Complete Edition.pdf p.52)
 
+## Rules
+
+- Characters may obtain these magical weapons and armor through their adventures. (Sword World RPG - Complete Edition.pdf p.52)
+- There are only a scant few weapons and armor in the world with +3 power, and any with +4 or more have yet to be found. (Sword World RPG - Complete Edition.pdf p.52)
+- Magical weapons and armor are not usually traded, but if you are very lucky you may be able to buy them if they're +1. (Sword World RPG - Complete Edition.pdf p.52)
+- A guide to prices can be found in Chapter 14: Treasure (see p. (Sword World RPG - Complete Edition.pdf p.52)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -54,3 +61,9 @@ If you wear +1 magical armor, you gain +1 to evasion speed and damage reduction.
 ```
 Even if it is magical, if it is metal armor, a shaman cannot wear it.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-silver-weapons-and-armor]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-mithril-silver-weapons-and-armor]] - contextualizes: source-supported topic dependency

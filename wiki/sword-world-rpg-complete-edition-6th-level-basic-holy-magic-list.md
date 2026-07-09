@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-6th-level-basic-holy-magic-list
 page_kind: concept
-summary: 6th Level Basic Holy Magic List: 13 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 29 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_6f4bff993f393d01@1c1fda74168214a3839eb0a5c579a1f4
+projection_coverage: page-projection-pgp_af7b24ac3ce0aefb@0e7d34daced02356b1b9f770b8e23608
 ---
 
 # 6th Level Basic Holy Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - It may attempt to possess the caster. (Sword World RPG - Complete Edition.pdf p.102)
 - However, if this magic fails, the haunt will attack and try to kill the caster. (Sword World RPG - Complete Edition.pdf p.102)
@@ -30,7 +30,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - If the effect of this spell is removed, such as with Perfect Cancellation , etc. (Sword World RPG - Complete Edition.pdf p.102)
 - the decay will begin to progress at normal rate from that moment on. (Sword World RPG - Complete Edition.pdf p.102)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -82,15 +82,23 @@ Resist=Negated effect
 ```
 
 <a id="atom-8"></a>
-**Atom:** rule
-
-```
-If you can attain a final score that's greater than or equal to the haunt's mental point resistance, you can make that haunt vanish from the material world.
-```
-
-<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
+
+
+## Rules and exceptions
+
+- It may attempt to possess the caster. (Sword World RPG - Complete Edition.pdf p.102)
+- Once the ritual has begun, the targeted haunt cannot be active during the ritual. (Sword World RPG - Complete Edition.pdf p.102)
+- This magic's final score can be increased through a ritual, but the haunt must be in a disabled state in order to begin the ritual. (Sword World RPG - Complete Edition.pdf p.102)
+- It is also a counter spell to the dark magic Rot , and if cast within the duration of Rot , it can restore things that have decayed back to their original state. (Sword World RPG - Complete Edition.pdf p.102)
+- It can be used to preserve food, and it is also effective in protecting corpses that are planned to be brought back to life in the future with Resurrection . (Sword World RPG - Complete Edition.pdf p.102)
+- If the effect of this spell is removed, such as with Perfect Cancellation , etc. (Sword World RPG - Complete Edition.pdf p.102)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-5th-level-basic-holy-magic-list-quest]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-7th-level-basic-holy-magic-list]] - contextualizes: source-supported topic dependency

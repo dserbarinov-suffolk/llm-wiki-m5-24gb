@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-13-2-10-magical-creatures
 page_kind: concept
-summary: 13.2.10 Magical Creatures: 152 accepted assertion(s) and 129 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 304 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_573b45bbded985ea@540949402b51f7b51cf93413c43fde1f
+projection_coverage: page-projection-pgp_965808911f5d3a5f@cc0b86273e4a422c08a0ef1fc9f6001c
 ---
 
 # 13.2.10 Magical Creatures
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Although they're about one-tenth the size of a human, they have human-like intelligence and can speak. (Sword World RPG - Complete Edition.pdf p.222)
 - Production of a homunculus is not always successful. (Sword World RPG - Complete Edition.pdf p.222)
@@ -169,7 +169,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Earthquake-type , explosion-type , and pure energy-type damage magic is effective, and a critical can occur. (Sword World RPG - Complete Edition.pdf p.227-228)
 - Also, damage spells such as cold-type , electric-type , stone-type , poison gas-type , and wind cutter-type are completely useless. (Sword World RPG - Complete Edition.pdf p.227-228)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -193,486 +193,486 @@ Perception=Pseudo
 ```
 
 <a id="atom-4"></a>
-**Atom:** rule
-
-```
-Also, once created, a skeleton warrior will never return to its original tooth form.
-```
-
-<a id="atom-5"></a>
-**Atom:** rule
-
-```
-To avoid being surprised, a character must make a success roll against target score 16 using ranger skill level + intelligence bonus as the baseline score.
-```
-
-<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 Monster Level=2
 ```
 
-<a id="atom-7"></a>
+<a id="atom-5"></a>
 **Atom:** formula
 
 ```
 Rarity=13
 ```
 
-<a id="atom-8"></a>
+<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 Agility=10
 ```
 
-<a id="atom-9"></a>
+<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 Frequency=Moderate
 ```
 
-<a id="atom-10"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Strike Points=4
 ```
 
-<a id="atom-11"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=8/9 (2)
 ```
 
-<a id="atom-12"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/10 (3)
 ```
 
-<a id="atom-13"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Camouflage (Sense target
 ```
 
-<a id="atom-14"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 score=16)
 ```
 
-<a id="atom-15"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Languages=None
+```
+
+<a id="atom-14"></a>
+**Atom:** formula
+
+```
+Perception=Magic
+```
+
+<a id="atom-15"></a>
+**Atom:** formula
+
+```
+Monster Level=3
 ```
 
 <a id="atom-16"></a>
 **Atom:** formula
 
 ```
-Perception=Magic
+Rarity=13
 ```
 
 <a id="atom-17"></a>
 **Atom:** formula
 
 ```
-Monster Level=3
+Agility=10
 ```
 
 <a id="atom-18"></a>
 **Atom:** formula
 
 ```
-Rarity=13
+Movement Speed=10
 ```
 
 <a id="atom-19"></a>
 **Atom:** formula
 
 ```
-Agility=10
+Number=One
 ```
 
 <a id="atom-20"></a>
 **Atom:** formula
 
 ```
-Movement Speed=10
+Frequency=Rare
 ```
 
 <a id="atom-21"></a>
 **Atom:** formula
 
 ```
-Number=One
+Strike Points=5
 ```
 
 <a id="atom-22"></a>
 **Atom:** formula
 
 ```
-Frequency=Rare
+Life Points/Resistance=16/11 (4)
 ```
 
 <a id="atom-23"></a>
 **Atom:** formula
 
 ```
-Strike Points=5
+Mental Points/Resistance=-/11 (4)
 ```
 
 <a id="atom-24"></a>
 **Atom:** formula
 
 ```
-Life Points/Resistance=16/11 (4)
+Languages=None
 ```
 
 <a id="atom-25"></a>
 **Atom:** formula
 
 ```
-Mental Points/Resistance=-/11 (4)
+Perception=Magic
 ```
 
 <a id="atom-26"></a>
 **Atom:** formula
 
 ```
-Languages=None
+Monster Level=5
 ```
 
 <a id="atom-27"></a>
 **Atom:** formula
 
 ```
-Perception=Magic
-```
-
-<a id="atom-28"></a>
-**Atom:** rule
-
-```
-Y ou can only use your other arm in combat, and your movement is restricted, so you cannot use ancient magic.
-```
-
-<a id="atom-29"></a>
-**Atom:** formula
-
-```
-Monster Level=5
-```
-
-<a id="atom-30"></a>
-**Atom:** formula
-
-```
 Rarity=13
 ```
 
-<a id="atom-31"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Agility=10
 ```
 
-<a id="atom-32"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Movement Speed=10
 ```
 
-<a id="atom-33"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Number=One
 ```
 
-<a id="atom-34"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Frequency=Rare
 ```
 
-<a id="atom-35"></a>
+<a id="atom-32"></a>
 **Atom:** formula
 
 ```
 Strike Points=13
 ```
 
-<a id="atom-36"></a>
+<a id="atom-33"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=24/15 (8)
 ```
 
-<a id="atom-37"></a>
+<a id="atom-34"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/13 (6)
 ```
 
-<a id="atom-38"></a>
+<a id="atom-35"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-39"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-40"></a>
-**Atom:** rule
-
-```
-A floor imitator can attack anyone standing on top of it.
-```
-
-<a id="atom-41"></a>
+<a id="atom-37"></a>
 **Atom:** formula
 
 ```
 Monster Level=3
 ```
 
-<a id="atom-42"></a>
+<a id="atom-38"></a>
 **Atom:** formula
 
 ```
 Rarity=16
 ```
 
-<a id="atom-43"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Agility=12
 ```
 
-<a id="atom-44"></a>
+<a id="atom-40"></a>
 **Atom:** formula
 
 ```
 Movement Speed=12
 ```
 
-<a id="atom-45"></a>
+<a id="atom-41"></a>
 **Atom:** formula
 
 ```
 Number=One
 ```
 
-<a id="atom-46"></a>
+<a id="atom-42"></a>
 **Atom:** formula
 
 ```
 Frequency=Very rare
 ```
 
-<a id="atom-47"></a>
+<a id="atom-43"></a>
 **Atom:** formula
 
 ```
 Intellect=Human
 ```
 
-<a id="atom-48"></a>
+<a id="atom-44"></a>
 **Atom:** formula
 
 ```
 Reaction=Neutral to adversarial
 ```
 
-<a id="atom-49"></a>
+<a id="atom-45"></a>
 **Atom:** formula
 
 ```
 Strike Points=7
 ```
 
-<a id="atom-50"></a>
+<a id="atom-46"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=16/11 (4) Mental Points/Resistance=12/11 (4) score=16)
 ```
 
-<a id="atom-51"></a>
+<a id="atom-47"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Camouflage (Sense target
 ```
 
-<a id="atom-52"></a>
+<a id="atom-48"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-53"></a>
-**Atom:** rule
-
-```
-During combat, a thing can attack up to 6 times by transforming its body so as to produce numerous arms and tentacles.
-```
-
-<a id="atom-54"></a>
+<a id="atom-49"></a>
 **Atom:** formula
 
 ```
 Monster Level=3
 ```
 
-<a id="atom-55"></a>
+<a id="atom-50"></a>
 **Atom:** formula
 
 ```
 Rarity=15
 ```
 
-<a id="atom-56"></a>
+<a id="atom-51"></a>
 **Atom:** formula
 
 ```
 Agility=16
 ```
 
-<a id="atom-57"></a>
+<a id="atom-52"></a>
 **Atom:** formula
 
 ```
 Movement Speed=24
 ```
 
-<a id="atom-58"></a>
+<a id="atom-53"></a>
 **Atom:** formula
 
 ```
 Points=10
 ```
 
-<a id="atom-59"></a>
+<a id="atom-54"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=16/11 (4)
 ```
 
-<a id="atom-60"></a>
+<a id="atom-55"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/11 (4)
 ```
 
-<a id="atom-61"></a>
+<a id="atom-56"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Mental attack immunity Not affected by poison and illness Fire immunity
 ```
 
-<a id="atom-62"></a>
+<a id="atom-57"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-63"></a>
+<a id="atom-58"></a>
 **Atom:** formula
 
 ```
 Habitat=Ruins
 ```
 
-<a id="atom-64"></a>
+<a id="atom-59"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-65"></a>
+<a id="atom-60"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-66"></a>
-**Atom:** rule
-
-```
-In other words, they may run away if they think they're at a disadvantage, or they may take advantageous tactics depending on the situation.
-```
-
-<a id="atom-67"></a>
+<a id="atom-61"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-68"></a>
-**Atom:** rule
-
-```
-Stalkers are usually ghostly beings, who can move without being blocked by physical obstacles.
-```
-
-<a id="atom-69"></a>
+<a id="atom-62"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-70"></a>
-**Atom:** rule
+<a id="atom-63"></a>
+**Atom:** formula
 
 ```
-Even if a gizmo's attack hits, it does not deal damage by itself.
+Monster Level=4
+```
+
+<a id="atom-64"></a>
+**Atom:** formula
+
+```
+Rarity=14
+```
+
+<a id="atom-65"></a>
+**Atom:** formula
+
+```
+Frequency=Rare
+```
+
+<a id="atom-66"></a>
+**Atom:** formula
+
+```
+Strike Points=9
+```
+
+<a id="atom-67"></a>
+**Atom:** formula
+
+```
+Life Points/Resistance=14/12 (5)
+```
+
+<a id="atom-68"></a>
+**Atom:** formula
+
+```
+Mental Points/Resistance=20/13 (6)
+```
+
+<a id="atom-69"></a>
+**Atom:** formula
+
+```
+Special Abilities=Normal weapon immunity
+```
+
+<a id="atom-70"></a>
+**Atom:** formula
+
+```
+Habitat=Ruins
 ```
 
 <a id="atom-71"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-Only fi re-type , electric-type , pure energytype , and explosion-type magic attacks can deal damage.
+Languages=None
 ```
 
 <a id="atom-72"></a>
 **Atom:** formula
 
 ```
-Monster Level=4
+Monster Level=5
 ```
 
 <a id="atom-73"></a>
@@ -686,390 +686,330 @@ Rarity=14
 **Atom:** formula
 
 ```
-Frequency=Rare
+Agility=15
 ```
 
 <a id="atom-75"></a>
 **Atom:** formula
 
 ```
-Strike Points=9
+Movement Speed=15
 ```
 
 <a id="atom-76"></a>
 **Atom:** formula
 
 ```
-Life Points/Resistance=14/12 (5)
+Frequency=Rare
 ```
 
 <a id="atom-77"></a>
 **Atom:** formula
 
 ```
-Mental Points/Resistance=20/13 (6)
+Intellect=Low
 ```
 
 <a id="atom-78"></a>
 **Atom:** formula
 
 ```
-Special Abilities=Normal weapon immunity
+Reaction=Adversarial
 ```
 
 <a id="atom-79"></a>
 **Atom:** formula
 
 ```
-Habitat=Ruins
+Strike Points=Special
 ```
 
 <a id="atom-80"></a>
 **Atom:** formula
 
 ```
-Languages=None
-```
-
-<a id="atom-81"></a>
-**Atom:** rule
-
-```
-Although it's usually invisible and doesn't make a sound, you can tell when it's approaching because the gas that makes up its body gives off a terrible odor.
-```
-
-<a id="atom-82"></a>
-**Atom:** formula
-
-```
-Monster Level=5
-```
-
-<a id="atom-83"></a>
-**Atom:** formula
-
-```
-Rarity=14
-```
-
-<a id="atom-84"></a>
-**Atom:** formula
-
-```
-Agility=15
-```
-
-<a id="atom-85"></a>
-**Atom:** formula
-
-```
-Movement Speed=15
-```
-
-<a id="atom-86"></a>
-**Atom:** formula
-
-```
-Frequency=Rare
-```
-
-<a id="atom-87"></a>
-**Atom:** formula
-
-```
-Intellect=Low
-```
-
-<a id="atom-88"></a>
-**Atom:** formula
-
-```
-Reaction=Adversarial
-```
-
-<a id="atom-89"></a>
-**Atom:** formula
-
-```
-Strike Points=Special
-```
-
-<a id="atom-90"></a>
-**Atom:** formula
-
-```
 Life Points/Resistance=16/13 (6)
 ```
 
-<a id="atom-91"></a>
+<a id="atom-81"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/14 (7)
 ```
 
-<a id="atom-92"></a>
+<a id="atom-82"></a>
 **Atom:** formula
 
 ```
 Surprise attack (Sense target score=16) Normal attack immunity
 ```
 
-<a id="atom-93"></a>
+<a id="atom-83"></a>
 **Atom:** formula
 
 ```
 Habitat=Ruins
 ```
 
-<a id="atom-94"></a>
+<a id="atom-84"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-95"></a>
-**Atom:** rule
-
-```
-Those with the ranger skill can detect this attack using their sense danger ability if they succeed on a success roll against target score 16 using ranger skill level + intelligence bonus as the baseline score.
-```
-
-<a id="atom-96"></a>
+<a id="atom-85"></a>
 **Atom:** formula
 
 ```
 Monster Level=5
 ```
 
-<a id="atom-97"></a>
+<a id="atom-86"></a>
 **Atom:** formula
 
 ```
 Rarity=18
 ```
 
-<a id="atom-98"></a>
+<a id="atom-87"></a>
 **Atom:** formula
 
 ```
 Agility=10
 ```
 
-<a id="atom-99"></a>
+<a id="atom-88"></a>
 **Atom:** formula
 
 ```
 Movement Speed=10
 ```
 
-<a id="atom-100"></a>
+<a id="atom-89"></a>
 **Atom:** formula
 
 ```
 Number=One
 ```
 
-<a id="atom-101"></a>
+<a id="atom-90"></a>
 **Atom:** formula
 
 ```
 Frequency=Very rare
 ```
 
-<a id="atom-102"></a>
+<a id="atom-91"></a>
 **Atom:** formula
 
 ```
 Intellect=Low
 ```
 
-<a id="atom-103"></a>
+<a id="atom-92"></a>
 **Atom:** formula
 
 ```
 Reaction=Adversarial
 ```
 
-<a id="atom-104"></a>
+<a id="atom-93"></a>
 **Atom:** formula
 
 ```
 Strike Points=11
 ```
 
-<a id="atom-105"></a>
+<a id="atom-94"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=18/14 (7)
 ```
 
-<a id="atom-106"></a>
+<a id="atom-95"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=18/13 (6)
 ```
 
-<a id="atom-107"></a>
+<a id="atom-96"></a>
 **Atom:** formula
 
 ```
 Special Abilities=None in particular
 ```
 
-<a id="atom-108"></a>
+<a id="atom-97"></a>
 **Atom:** formula
 
 ```
 Habitat=Various
 ```
 
-<a id="atom-109"></a>
+<a id="atom-98"></a>
 **Atom:** formula
 
 ```
 Languages=Regional
 ```
 
-<a id="atom-110"></a>
+<a id="atom-99"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-111"></a>
-**Atom:** rule
-
-```
-Transformation from human to monster takes one round, during which they cannot attack, but they can still evade.
-```
-
-<a id="atom-112"></a>
-**Atom:** rule
-
-```
-If you call out to them with all your heart, they may respond.
-```
-
-<a id="atom-113"></a>
-**Atom:** rule
-
-```
-Against an iron golem, weapons cannot deal additional critical damage.
-```
-
-<a id="atom-114"></a>
+<a id="atom-100"></a>
 **Atom:** formula
 
 ```
 Monster Level=13
 ```
 
-<a id="atom-115"></a>
+<a id="atom-101"></a>
 **Atom:** formula
 
 ```
 Rarity=16
 ```
 
-<a id="atom-116"></a>
+<a id="atom-102"></a>
 **Atom:** formula
 
 ```
 Agility=12
 ```
 
-<a id="atom-117"></a>
+<a id="atom-103"></a>
 **Atom:** formula
 
 ```
 Movement Speed=15
 ```
 
-<a id="atom-118"></a>
+<a id="atom-104"></a>
 **Atom:** formula
 
 ```
 Number=One
 ```
 
-<a id="atom-119"></a>
+<a id="atom-105"></a>
 **Atom:** formula
 
 ```
 Frequency=Very rare
 ```
 
-<a id="atom-120"></a>
+<a id="atom-106"></a>
 **Atom:** formula
 
 ```
 Intellect=Obeys commands
 ```
 
-<a id="atom-121"></a>
+<a id="atom-107"></a>
 **Atom:** formula
 
 ```
 Reaction=Command-based
 ```
 
-<a id="atom-122"></a>
+<a id="atom-108"></a>
 **Atom:** formula
 
 ```
 Strike Points=25
 ```
 
-<a id="atom-123"></a>
+<a id="atom-109"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=75/31 (24)
 ```
 
-<a id="atom-124"></a>
+<a id="atom-110"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/21 (14)
 ```
 
-<a id="atom-125"></a>
+<a id="atom-111"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Weapons cannot critical
 ```
 
-<a id="atom-126"></a>
+<a id="atom-112"></a>
 **Atom:** formula
 
 ```
 Habitat=Ruins
 ```
 
-<a id="atom-127"></a>
+<a id="atom-113"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-128"></a>
+<a id="atom-114"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-129"></a>
-**Atom:** rule
 
-```
-Against a mithril golem, weapons cannot deal additional critical damage.
-```
+## Rules and exceptions
+
+- Although they're about one-tenth the size of a human, they have human-like intelligence and can speak. (Sword World RPG - Complete Edition.pdf p.222)
+- Most resemble humans, but some are ugly, resembling gargoyles, and some have wings and can fly. (Sword World RPG - Complete Edition.pdf p.222)
+- homunculus have their own will, and in some cases they may rebel against their creators. (Sword World RPG - Complete Edition.pdf p.222)
+- Special Abilities=All weapons cannot critical Iron corrosion Mental attack immunity Not affected by poison and illness Habitat=Decaying swamps, sewers Languages=None Perception=Magic. (Sword World RPG - Complete Edition.pdf p.222)
+- Also, attacks with any weapon cannot critical against the blob. (Sword World RPG - Complete Edition.pdf p.222)
+- Depending on the material, there are four different types of puppet golems that can be created. (Sword World RPG - Complete Edition.pdf p.222)
+- They can perform simple tasks as well as fight. (Sword World RPG - Complete Edition.pdf p.223)
+- Monster Level=3 Rarity=15 Agility=12 Movement Speed =18 Number=One to several Frequency=Rare Intellect=Obeys commands Reaction=Command-based Attack Points=Arms:11 (4) Strike Points=8 Weapon:11 (4) Strike Points=9 Evasion Points=11 (4) Defense Points=5 Life Points/Resistance=15/11 (4) Mental Points/Resistance=-/11 (4) Special Abilities=Mental attack immunity Bladed weapons cannot critical Not affected by poison and illness Habitat=Various Languages=None Perception=Pseudo. (Sword World RPG - Complete Edition.pdf p.223)
+- in that they have eternal life and can carry out fairly complex commands. (Sword World RPG - Complete Edition.pdf p.223)
+- Monster Level=5 Rarity=14 (However, a sorcerer knows) Agility=18 Movement Speed =14 Number=One to several Frequency=Rare Intellect=Obeys commands Reaction=Command-based Attack Points=Weapon:12 (5) Strike Points=11 Evasion Points=14 (7) Defense Points=10 Life Points/Resistance=16/13 (6) Mental Points/Resistance=-/13 (6) Special Abilities=Mental attack immunity Bladed weapons cannot critical Not affected by poison and illness Habitat=Uncertain Languages=None. (Sword World RPG - Complete Edition.pdf p.223)
+- However, its intellect is low and it cannot accept complex or abstract commands. (Sword World RPG - Complete Edition.pdf p.223)
+- A skeleton warrior will attempt to carry out any commands they're given, unless the caster who created them gives them new commands in high ancient, or cancels any previously given commands. (Sword World RPG - Complete Edition.pdf p.223)
+- Since they can live for thousands of years in a state of suspended animation, many imitators are even now still awaiting intruders in old labyrinths. (Sword World RPG - Complete Edition.pdf p.223)
+- An imitator can also absorb iron, but cannot dissolve gold, silver, or jewelry, so it spits those out. (Sword World RPG - Complete Edition.pdf p.223)
+- Chest imitators can actually be used as treasure chests, so you may find treasure inside after defeating them. (Sword World RPG - Complete Edition.pdf p.224)
+- Anyone standing on a floor imitator that's begun to move must suffer a -2 penalty to attack and evasion due to unstable footing. (Sword World RPG - Complete Edition.pdf p.224)
+- The difference is that they have intellect and can transform into any creature so long as it's close to human size. (Sword World RPG - Complete Edition.pdf p.224)
+- The game master must roll the dice to randomly determine how many attacks are made in a round. (Sword World RPG - Complete Edition.pdf p.224)
+- Occasionally an obsidian dog can be found still wearing its silver collar. (Sword World RPG - Complete Edition.pdf p.224-225)
+- A gargoyle is a species of golem, a statue brought to life through magic, but its flexible movements resemble those of a normal living creature. (Sword World RPG - Complete Edition.pdf p.225)
+- A gargoyle has wings on its back and can fly. (Sword World RPG - Complete Edition.pdf p.225)
+- They are highly intelligent and can handle magic. (Sword World RPG - Complete Edition.pdf p.225)
+- However, since they cannot use magic, etc. (Sword World RPG - Complete Edition.pdf p.225)
+- Thus they can freely pass through small gaps in doors or holes in walls. (Sword World RPG - Complete Edition.pdf p.225)
+- Armor cannot protect against gas, only adventurer level or magical protection can reduce the damage. (Sword World RPG - Complete Edition.pdf p.225-226)
+- If you can detect it, you can evade and attack as normal, but if you cannot, it will be a complete surprise attack , so you will not be able to attack, and will be attacked with no chance to respond. (Sword World RPG - Complete Edition.pdf p.226)
+- If you cast the holy magic Cure Poison on them, you can return them to their human form. (Sword World RPG - Complete Edition.pdf p.227)
+- In addition to Living Doll , it' s said that there are several other poisons that can create mutant monsters. (Sword World RPG - Complete Edition.pdf p.227)
+- All they can do is blindly follow the commands of their sorcerer master. (Sword World RPG - Complete Edition.pdf p.227)
+- In the present day, the method of creating golems has been lost, and there are no sorcerers who can create golems. (Sword World RPG - Complete Edition.pdf p.227)
+- Such golems can be given commands using the ancient magic Command Golem . (Sword World RPG - Complete Edition.pdf p.227)
+- Monster Level=9 Rarity=12 Agility=6 Movement Speed =8 Number=One Frequency=Rare Intellect=Obeys commands Reaction=Command-based Attack Points=Arms:17 (10) Strike Points=19 Evasion Points=14 (7) Defense Points=14 Life Points/Resistance=50/23 (16) Mental Points/Resistance=-/17 (10) Special Abilities=Weapons cannot critical Certain magic resistant Mental attack immunity Not affected by poison and illness Habitat=Ruins. (Sword World RPG - Complete Edition.pdf p.227)
+- Earthquake-type , explosion-type , and pure energy-type damage magic is effective, and a critical can occur. (Sword World RPG - Complete Edition.pdf p.227)
+- Fire-type damage magic is effective, but a critical cannot occur. (Sword World RPG - Complete Edition.pdf p.227)
+- Since they're formed from mithril silver, which is hard but lightweight, they can make relatively agile movements, and they also have exceptionally hard bodies and large amounts of life force. (Sword World RPG - Complete Edition.pdf p.227)
+- Fire-type damage magic is effective, but a critical cannot occur. (Sword World RPG - Complete Edition.pdf p.227-228)
+- Earthquake-type , explosion-type , and pure energy-type damage magic is effective, and a critical can occur. (Sword World RPG - Complete Edition.pdf p.227-228)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-daemons-underworld-creatures]] - contextualizes: source-supported topic dependency

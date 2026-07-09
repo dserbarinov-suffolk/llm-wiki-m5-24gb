@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-generating-iterables
 page_kind: concept
-summary: Generating Iterables: 8 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_b2ef6728ef0cd7cf@75ae0603b3611cba27df5bec939b3748
+projection_coverage: page-projection-pgp_8e7bf445d37bab0e@3e8127f3863b318cf39d8f7c68f73821
 ---
 
 # Generating Iterables
@@ -73,3 +73,9 @@ while (true) {
 console.log(n++)
 }
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-iteration-and-iterables]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-rewriting-iterable-operations]] - contextualizes: source-supported topic dependency

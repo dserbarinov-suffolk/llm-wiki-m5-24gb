@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from llmwiki.application.assertion_graph_artifacts import build_assertion_graph_artifact
+from llmwiki.application.page_projection_artifacts import build_page_projection_artifact
 from llmwiki.application.source_artifacts import CanonicalLedgerSource
 from llmwiki.application.topic_state_artifacts import build_topic_state_artifact
 from llmwiki.domain.ledger.artifacts import (
@@ -39,6 +40,7 @@ from llmwiki.domain.ledger.quality_catalog import (
 from llmwiki.domain.ledger.renderer import render_source_page
 from llmwiki.domain.ledger.section_planning import build_section_grounded_plan
 from llmwiki.domain.ledger.source_coverage import build_source_coverage
+from llmwiki.domain.ledger.source_manifest_navigation import source_review_section
 from llmwiki.domain.ledger.staged_flow import (
     accepted_pages,
     build_extraction_result,
@@ -194,6 +196,7 @@ def build_source_ledger(
     wiki_page: WikiPage | None = None
     topic_pages: tuple[WikiPage, ...] = ()
     staged_pages: tuple[WikiPage, ...] = ()
+    page_projection_artifact = None
     if decision == "block-authoritative-write":
         blocked = build_blocked_write_diagnostic_artifact(
             wiki_page_locator=page_id,
@@ -204,19 +207,27 @@ def build_source_ledger(
             ),
         )
     else:
+        page_projection_artifact = build_page_projection_artifact(
+            graph=assertion_graph_artifact,
+            topic_artifact=topic_state_artifact,
+            source_page_id=page_id,
+            source_title=title,
+            source_summary=ledger_summary(
+                ledger,
+                decision,
+                len(topic_state_artifact.topic_states) - 1,
+            ),
+            source_review=source_review_section(rendered.page_body),
+        )
         linked_projection = build_topic_state_page_projection(
             ledger=ledger,
-            structure=structure,
             page_id=page_id,
-            title=title,
             source_locator=source_locator,
             today=today,
             decision=decision,
-            rendered=rendered,
             support=support,
             projection_report_artifact=projection_report_artifact,
-            assertion_graph_artifact=assertion_graph_artifact,
-            topic_state_artifact=topic_state_artifact,
+            page_projection_artifact=page_projection_artifact,
         )
         wiki_page = linked_projection.source_page
         topic_pages = linked_projection.linked_pages
@@ -255,6 +266,7 @@ def build_source_ledger(
         proposed_change_review_artifact=ledger.proposed_change_review,
         assertion_graph_artifact=assertion_graph_artifact,
         topic_state_artifact=topic_state_artifact,
+        page_projection_artifact=page_projection_artifact,
     )
 
     return SourceLedgerResult(

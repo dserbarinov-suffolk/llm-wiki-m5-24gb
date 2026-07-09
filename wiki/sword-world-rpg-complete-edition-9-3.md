@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-9-3
 page_kind: concept
-summary: 9.3: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_590f4969d7f2da16@f8b31f913cc40e27d6370ddcd083ce6a
+projection_coverage: page-projection-pgp_cfdfe6abcdc41ab3@f8b31f913cc40e27d6370ddcd083ce6a
 ---
 
 # 9.3

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-unary
 page_kind: concept
-summary: Unary: 7 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 16 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_7d54fb19476e82a2@5095ec9658c64ada2e189ec40888ac4b
+projection_coverage: page-projection-pgp_e9a4543da19b4cf6@515dfc8e70f10686ca499004c6c6a58e
 ---
 
 # Unary
@@ -22,6 +22,10 @@ Source: [[javascriptallonge]]
 - And when you call parseInt with map , the index is interpreted as a radix. (javascriptallonge.pdf p.82)
 - What we want is to convert parseInt into a function taking only one argument. (javascriptallonge.pdf p.82)
 - This doesn't work because parseInt is defined as parseInt(string[, radix]) . (javascriptallonge.pdf p.82)
+- Wecould write ['1', '2', '3'].map((s) => parseInt(s)) , or we could come up with a decorator to do the job for us:. (javascriptallonge.pdf p.82)
+
+## Rules
+
 - Wecould write ['1', '2', '3'].map((s) => parseInt(s)) , or we could come up with a decorator to do the job for us:. (javascriptallonge.pdf p.82)
 
 ## Technical atoms
@@ -82,3 +86,9 @@ return fn.call(this, something)
 ['1', '2', '3'].map(unary(parseInt))
 //=> [1, 2, 3]
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-disclaimer]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-tap]] - contextualizes: source-supported topic dependency

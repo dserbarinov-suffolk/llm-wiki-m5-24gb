@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-snipe
 page_kind: concept
-summary: Snipe: 13 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 26 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_82eee32ba128ac9a@f211f2e99b8c66a12b0b5aae517b6e2f
+projection_coverage: page-projection-pgp_ba5ea3c325322123@f4dbb70885df93e8646048b67af94ff5
 ---
 
 # Snipe
@@ -29,6 +29,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - The difficulty is the opponent's monster level . (Sword World RPG - Complete Edition.pdf p.265)
 - The target must make a success roll using ranger skill level + intelligence bonus as the baseline score, and compare his or her final score with that of the sniper's hide / camouflage . (Sword World RPG - Complete Edition.pdf p.265)
 - If the target's final score is greater, or if they're equal, the sniper's presence will be noticed. (Sword World RPG - Complete Edition.pdf p.265)
+
+## Rules
+
+- You may spend up to 4 rounds aiming and the critical target may go as low as -4 . (Sword World RPG - Complete Edition.pdf p.265)
+- He can continue to roll to increase the damage, but from here on the critical target will be determined as the normal 10 . (Sword World RPG - Complete Edition.pdf p.265)
+- You must make a success roll each round. (Sword World RPG - Complete Edition.pdf p.265)
+- The target must make a success roll using ranger skill level + intelligence bonus as the baseline score, and compare his or her final score with that of the sniper's hide / camouflage . (Sword World RPG - Complete Edition.pdf p.265)
 
 ## Technical atoms
 
@@ -80,3 +87,9 @@ When your opponent is a character, he or she can notice you by using the sense d
 ```
 you cannot reduce the critical target by aiming.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-charge]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-mow-down]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-climb-agility-equipment-restriction
 page_kind: concept
-summary: [ ⑩ Climb [Agility] ] (Equipment restriction): 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_83f6e8b5ef92c3d4@aa189f20fad55b2072e2096184b0edd2
+projection_coverage: page-projection-pgp_b9dbb085f058f7e3@d197a41093cf81374f74d714e35d9053
 ---
 
 # [ ⑩ Climb [Agility] ] (Equipment restriction)
@@ -24,3 +24,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - At this time, the game master should decide the difficulty or target score, taking into consideration the tightness of the knot and the time it'll take. (Sword World RPG - Complete Edition.pdf p.128)
 - Sailors have the ability to tie ropes at will so that they do not unravel or, conversely, quickly unravel. (Sword World RPG - Complete Edition.pdf p.128)
 - A rope that a sailor tied to keep it from coming undone should have a difficulty equal to the sailor's skill level if someone attempts to untie it. (Sword World RPG - Complete Edition.pdf p.128)
+
+## Rules
+
+- At this time, the game master should decide the difficulty or target score, taking into consideration the tightness of the knot and the time it'll take. (Sword World RPG - Complete Edition.pdf p.128)
+- A rope that a sailor tied to keep it from coming undone should have a difficulty equal to the sailor's skill level if someone attempts to untie it. (Sword World RPG - Complete Edition.pdf p.128)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-search-intelligence-no-equipment-restriction-not-retriable]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-special-combat-dexterity-agility-strength-equipment-restriction]] - contextualizes: source-supported topic dependency

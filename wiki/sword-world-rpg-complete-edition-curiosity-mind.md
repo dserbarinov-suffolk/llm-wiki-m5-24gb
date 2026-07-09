@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-curiosity-mind
 page_kind: concept
-summary: Curiosity (Mind): 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_449ecb5a398b5f16@bb8d628aaec5aed02ee76d4c21273ff9
+projection_coverage: page-projection-pgp_65ac982a9019afcc@d115c201b2dac2d5e7bb2d8c643adc88
 ---
 
 # Curiosity (Mind)
@@ -25,3 +25,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - You can summon any hand-sized mammals or birds (mice, squirrels, small cats, small birds, etc.). (Sword World RPG - Complete Edition.pdf p.109-110)
 - This spell has the effect of summoning specific small animals nearby. (Sword World RPG - Complete Edition.pdf p.109-110)
 - When this spellsong begins , all small animals within earshot of the song will gather around the bard. (Sword World RPG - Complete Edition.pdf p.109-110)
+
+## Rules
+
+- It has no effect on those who can already see the performer. (Sword World RPG - Complete Edition.pdf p.109)
+- You can summon any hand-sized mammals or birds (mice, squirrels, small cats, small birds, etc.). (Sword World RPG - Complete Edition.pdf p.109-110)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-early-bird-mind]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-sing-mind]] - contextualizes: source-supported topic dependency

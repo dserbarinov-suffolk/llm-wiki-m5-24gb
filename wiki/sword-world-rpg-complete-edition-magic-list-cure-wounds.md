@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-magic-list-cure-wounds
 page_kind: concept
-summary: Magic List [ Cure Wounds ]: 20 accepted assertion(s) and 25 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 48 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_9f9503ff77287304@7d3e8beea4264fc18bb097c059252785
+projection_coverage: page-projection-pgp_de18aae1a38d6e1c@ab41926c9a5a237d47dafb2d968b5300
 ---
 
 # Magic List [ Cure Wounds ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Only one check needs to be made. (Sword World RPG - Complete Edition.pdf p.99)
 - This spell has the effect of instantly healing any wound. (Sword World RPG - Complete Edition.pdf p.99)
@@ -37,7 +37,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Even those who have lost their consciousness with 0 mental power can be recovered with this spell. (Sword World RPG - Complete Edition.pdf p.100)
 - Please note that this spell cannot transfer more mental power (points) than the target's starting mental power (points). (Sword World RPG - Complete Edition.pdf p.100)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -82,76 +82,48 @@ Resist=Negated effect
 ```
 
 <a id="atom-7"></a>
-**Atom:** rule
-
-```
-The caster can add their own magic power to this result.
-```
-
-<a id="atom-8"></a>
-**Atom:** rule
-
-```
-If you use it on undead, and the undead fail to resist, it deals strike power 10 damage.
-```
-
-<a id="atom-9"></a>
-**Atom:** rule
-
-```
-If the spell you want to remove has a target score, you must attempt a success roll against it using magic power as the baseline score.
-```
-
-<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=5
 ```
 
-<a id="atom-11"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Distance=10 meters
 ```
 
-<a id="atom-12"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Area=A space with a 5 meter radius
 ```
 
-<a id="atom-13"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Duration=18 rounds
 ```
 
-<a id="atom-14"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Effect=Affects undead in various ways
 ```
 
-<a id="atom-15"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Resist=Negated effect
 ```
 
-<a id="atom-16"></a>
-**Atom:** rule
-
-```
-If successful, roll another 2D and an effect corresponding to the rolled score will be applied.
-```
-
-<a id="atom-17"></a>
+<a id="atom-13"></a>
 **Atom:** table
 
 ```text
@@ -164,7 +136,7 @@ Table 5-6: Turn Undead
 | 6 Same | as | above, | but penalty |  | is -3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 ```
 
-<a id="atom-18"></a>
+<a id="atom-14"></a>
 **Atom:** table
 
 ```text
@@ -181,51 +153,59 @@ Table 5-6: Turn Undead
 12 Undead crumble away
 ```
 
-<a id="atom-19"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=1
 ```
 
-<a id="atom-20"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Distance=Touch
 ```
 
-<a id="atom-21"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Area=One
 ```
 
-<a id="atom-22"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Duration=Instant
 ```
 
-<a id="atom-23"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Expansion=Effect
 ```
 
-<a id="atom-24"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-25"></a>
-**Atom:** rule
 
-```
-Even if you are a 10th level priest, if you want to give 10 points of mental power (points) to a target, you must spend 11 points of mental power (points).
-```
+## Rules and exceptions
+
+- This spell can also deal damage to undead. (Sword World RPG - Complete Edition.pdf p.99)
+- As a result, you can remove the effects of spells that affect the mind of a target. (Sword World RPG - Complete Edition.pdf p.99)
+- Emotional tensions caused by the target's personal reasons can also be removed, but unless the cause is eliminated, they will likely return to their original state. (Sword World RPG - Complete Edition.pdf p.99)
+- This spell's effect can be expanded. (Sword World RPG - Complete Edition.pdf p.99)
+- Even those who have lost their consciousness with 0 mental power can be recovered with this spell. (Sword World RPG - Complete Edition.pdf p.100)
+- Please note that this spell cannot transfer more mental power (points) than the target's starting mental power (points). (Sword World RPG - Complete Edition.pdf p.100)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-priest-skill]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-2nd-level-basic-holy-magic-list-cure-deafness]] - contextualizes: source-supported topic dependency

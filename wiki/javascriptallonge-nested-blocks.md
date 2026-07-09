@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-nested-blocks
 page_kind: concept
-summary: nested blocks: 4 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_9192ee9fae245199@830075355893dcf4512562362c6a10b0
+projection_coverage: page-projection-pgp_8cbcda443d94c70c@1991f2aaf3374ca4488e998c7b46f357
 ---
 
 # nested blocks
@@ -102,3 +102,9 @@ return even(n)
 ```
 //=> true
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-const]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-const-and-lexical-scope]] - contextualizes: source-supported topic dependency

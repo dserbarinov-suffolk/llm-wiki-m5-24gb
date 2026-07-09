@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-forger-of-colors
 page_kind: concept
-summary: Forger of Colors: 31 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 37 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_ebce76663c6dcf29@474aaf576ac8ca0cce029ed198a72cf1
+projection_coverage: page-projection-pgp_7d1895edb9d1db3d@37da1b0a47910a2243be420d239b2cfd
 ---
 
 # Forger of Colors
@@ -48,6 +48,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - But like Somska, the dwarves will not reveal that smile behind their beards. (Sword World RPG - Complete Edition.pdf p.53)
 - And, in fact, I also felt that the dwarves might have an exceptional sense of humor. (Sword World RPG - Complete Edition.pdf p.53)
 
+## Rules
+
+- Dwarves in particular excelled in their craft, and powerful and beautiful mithril silver items made by dwarves can still be found in Alecrast even today. (Sword World RPG - Complete Edition.pdf p.53)
+- Since I was told that showing off such a thing would only make me a target for thieves, I have rarely used this pen and have put it away, but when I occasionally take it out, I can see that it has not lost any of the beautiful contrast between red and yellow. (Sword World RPG - Complete Edition.pdf p.53)
+- Depending on the skill of the craftsman, it seems that different colors could be shown in a single item, as in my pen. (Sword World RPG - Complete Edition.pdf p.53)
+- It's been said that no one could surpass the dwarves when it comes to the processing of mithril silver. (Sword World RPG - Complete Edition.pdf p.53)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -56,3 +63,8 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 Was this crown not to display all the colors of the world?!" It is said that Somska answered without changing the expression beneath his beard at all, "If you mix all colors together, you will only get black."
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-mithril-silver-weapons-and-armor]] - contextualizes: source-supported topic dependency

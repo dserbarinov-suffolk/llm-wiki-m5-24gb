@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-strike-power-modifier
 page_kind: concept
-summary: Strike Power Modifier: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 5 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_621c49ab08eae334@b2f96b29748b275ab9c9782c0dfd0615
+projection_coverage: page-projection-pgp_629485ff0dc41612@179bdfb161194f4887afe84836029ef4
 ---
 
 # Strike Power Modifier
@@ -27,3 +27,9 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 In other words, even if the required strength is the same , one can say a weapon with a higher strike power modifier will deal greater damage to an opponent.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-attack-power-modifier]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-critical-target-variation]] - contextualizes: source-supported topic dependency

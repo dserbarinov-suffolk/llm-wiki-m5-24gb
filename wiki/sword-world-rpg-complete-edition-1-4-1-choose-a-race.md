@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-1-4-1-choose-a-race
 page_kind: concept
-summary: 1.4.1 Choose a Race: 23 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 31 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_1f2623075d2338e5@c09b171e71cb2a7331245555cdb346ca
+projection_coverage: page-projection-pgp_ce8c7f582e44c84e@4f4b6e1a776d3cd8a7834236e6e46599
 ---
 
 # 1.4.1 Choose a Race
@@ -40,6 +40,15 @@ Source: [[sword-world-rpg-complete-edition]]
 - Therefore, their dexterity, agility, intelligence, and mental power are slightly higher, while their strength and life force are slightly lower. (Sword World RPG - Complete Edition.pdf p.17)
 - First, a race must be chosen. (Sword World RPG - Complete Edition.pdf p.17)
 
+## Rules
+
+- First, the player character's race must be chosen. (Sword World RPG - Complete Edition.pdf p.17)
+- Humans have the most average ability scores and can do almost anything without a hitch. (Sword World RPG - Complete Edition.pdf p.17)
+- In terms of skills, sorcerer and shaman cannot be chosen. (Sword World RPG - Complete Edition.pdf p.17)
+- Rune master skills cannot be acquired. (Sword World RPG - Complete Edition.pdf p.17)
+- There is a restriction that they cannot acquire the priest skill. (Sword World RPG - Complete Edition.pdf p.17)
+- First, a race must be chosen. (Sword World RPG - Complete Edition.pdf p.17)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -48,3 +57,8 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 If they were raised by elves, there is a restriction that they cannot acquire the priest skill.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-1-4-2-determine-ability-scores]] - contextualizes: source-supported topic dependency

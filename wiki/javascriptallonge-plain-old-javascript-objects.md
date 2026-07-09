@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-plain-old-javascript-objects
 page_kind: concept
-summary: Plain Old JavaScript Objects: 8 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_89b044418b05e3cb@4744809b129cd7360bc3971938f0a5ca
+projection_coverage: page-projection-pgp_0739a8bc76e053cf@0f65fe4fc03359f7c25d3bfc2afaddc6
 ---
 
 # Plain Old JavaScript Objects
@@ -24,6 +24,11 @@ Source: [[javascriptallonge]]
 - Dictionaries store key-value pairs, so instead of binding NAME to 0 and then storing a name in an array at index 0 , we can bind a name directly to name in a dictionary, and we let JavaScript sort out whether the implementation is a list of key-value pairs, a hashed collection, a tree of some sort, or anything else. (javascriptallonge.pdf p.132)
 - JavaScript has dictionaries, and it calls them 'objects.' The word 'object' is loaded in programming circles, due to the widespread use of the term 'object-oriented programming' that was coined by Alan Kay but has since come to mean many, many things to many different people. (javascriptallonge.pdf p.132)
 - In JavaScript, an object is a map from string keys to values. (javascriptallonge.pdf p.132)
+
+## Rules
+
+- Now they could write user[NAME][LAST] or user[OCCUPATION][TITLE] instead of user[0][1] or user[1][0] . (javascriptallonge.pdf p.132)
+- Dictionaries store key-value pairs, so instead of binding NAME to 0 and then storing a name in an array at index 0 , we can bind a name directly to name in a dictionary, and we let JavaScript sort out whether the implementation is a list of key-value pairs, a hashed collection, a tree of some sort, or anything else. (javascriptallonge.pdf p.132)
 
 ## Technical atoms
 

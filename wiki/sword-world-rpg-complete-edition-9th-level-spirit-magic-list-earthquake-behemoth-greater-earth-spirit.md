@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit
 page_kind: concept
-summary: 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit): 8 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 16 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_02e1ed590373241c@ed90ba3e0e15630eb31f229df1e46478
+projection_coverage: page-projection-pgp_601153d6e3e049f2@515311bd2dfa5c7139e69d8ceb566165
 ---
 
 # 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Effect= Causes an earthquake, knocking targets prone within range and dealing strike power 20 damage. (Sword World RPG - Complete Edition.pdf p.95)
 - For the duration of the spell, you can only move 3 meters per round while crawling on the ground, taking a -4 penalty on success rolls such as attacks, evasion, etc. (Sword World RPG - Complete Edition.pdf p.95)
@@ -25,7 +25,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - However, those who successfully resist will only suffer strike power 10 and no criticals. (Sword World RPG - Complete Edition.pdf p.95)
 - Depending on the situation, falling rocks and avalanches are quite possible. (Sword World RPG - Complete Edition.pdf p.95)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -62,9 +62,12 @@ Duration=18 rounds
 Resist=Reduced effect
 ```
 
-<a id="atom-6"></a>
-**Atom:** rule
 
-```
-Please note that you may only make a resistance roll check against this spell once per round in which the spell is cast.
-```
+## Rules and exceptions
+
+- For the duration of the spell, you can only move 3 meters per round while crawling on the ground, taking a -4 penalty on success rolls such as attacks, evasion, etc. (Sword World RPG - Complete Edition.pdf p.95)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-8th-level-spirit-magic-list-ice-coffin]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-priest-skill]] - contextualizes: source-supported topic dependency

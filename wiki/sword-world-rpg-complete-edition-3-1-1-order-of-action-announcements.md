@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-3-1-1-order-of-action-announcements
 page_kind: concept
-summary: 3.1.1 Order of Action Announcements: 14 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 21 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_69a4c15ebb8f8de6@6a29572aaab077c36216e52e8f39dd7a
+projection_coverage: page-projection-pgp_65cc06552ef33759@655b4a3450832abbb215098db5fa75f5
 ---
 
 # 3.1.1 Order of Action Announcements
@@ -29,6 +29,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - The groups with the higher intelligence can decide on their actions later than the others. (Sword World RPG - Complete Edition.pdf p.35)
 - If there are three or more groups instead of two, the order of action announcements is determined in the same way. (Sword World RPG - Complete Edition.pdf p.35)
 - If there's an enemy in front of you that's attacking you, attacking another enemy several meters away is not possible, just by common sense. (Sword World RPG - Complete Edition.pdf p.35)
+- These impossible actions cannot be declared, as a matter of course. (Sword World RPG - Complete Edition.pdf p.35)
+
+## Rules
+
+- Those who announce their actions later- the ones with highest representative intelligence -- will have a significant advantage because they can announce their own actions after hearing their opponents' announcements. (Sword World RPG - Complete Edition.pdf p.35)
+- The groups with the higher intelligence can decide on their actions later than the others. (Sword World RPG - Complete Edition.pdf p.35)
 - These impossible actions cannot be declared, as a matter of course. (Sword World RPG - Complete Edition.pdf p.35)
 
 ## Technical atoms
@@ -53,3 +59,8 @@ The order in which action announcements are made within the same group (e.g., a1
 ```
 In an action announcement, you cannot declare something impossible.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-3-1-2-player-action-announcements]] - contextualizes: source-supported topic dependency

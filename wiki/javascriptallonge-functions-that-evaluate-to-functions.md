@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-functions-that-evaluate-to-functions
 page_kind: concept
-summary: functions that evaluate to functions: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_30641c1eaedede4b@aa8a42c7772f878e86074e179eae96b2
+projection_coverage: page-projection-pgp_0a8b1c46726961f5@a7b942c840856e2b71807305aba85c94
 ---
 
 # functions that evaluate to functions
@@ -20,6 +20,10 @@ Source: [[javascriptallonge]]
 - So we have a function, that returns a function, that returns zero . (javascriptallonge.pdf p.38)
 - Diffraction of a crystal is beautiful and interesting in its own right, but you can't blame us for wanting to be shown a practical use for it, like being able to determine the composition of a star millions of light years away. (javascriptallonge.pdf p.38)
 - We've been very clever, but so far this all seems very abstract. (javascriptallonge.pdf p.38)
+
+## Rules
+
+- Diffraction of a crystal is beautiful and interesting in its own right, but you can't blame us for wanting to be shown a practical use for it, like being able to determine the composition of a star millions of light years away. (javascriptallonge.pdf p.38)
 
 ## Technical atoms
 
@@ -58,3 +62,8 @@ If an expression that evaluates to a function is, well, an expression, and if a 
 ```
 () => () => { return true; }
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-ah-i-d-like-to-have-an-argument-please-22]] - contextualizes: source-supported topic dependency

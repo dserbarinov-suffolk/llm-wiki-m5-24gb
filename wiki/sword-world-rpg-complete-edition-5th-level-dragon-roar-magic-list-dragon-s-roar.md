@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-5th-level-dragon-roar-magic-list-dragon-s-roar
 page_kind: concept
-summary: 5th Level Dragon Roar Magic List [ Dragon's Roar ]: 8 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 25 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_8396037053eb848b@53783db6c151b2c5d31f1ec8df5e9ef2
+projection_coverage: page-projection-pgp_069074c99072521a@19c0213ba71ca748cc5610f67f59efa5
 ---
 
 # 5th Level Dragon Roar Magic List [ Dragon's Roar ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - If you expand the effect, those who fail to resist must roll 2D a number of times equal to the expansion. (Sword World RPG - Complete Edition.pdf p.151)
 - The caster may choose the most desirable result. (Sword World RPG - Complete Edition.pdf p.151)
@@ -25,7 +25,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Also, if you are wearing armor, you will not be able to grow your wings (unless you take some measure like having a hole in the back, etc.). (Sword World RPG - Complete Edition.pdf p.151)
 - Y ou cannot stack more than one of these spells. (Sword World RPG - Complete Edition.pdf p.151)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -70,64 +70,58 @@ Type=Mind
 ```
 
 <a id="atom-7"></a>
-**Atom:** rule
-
-```
-Due to the nature of the spell, this spell cannot be used in situations where you cannot make sound (even if you use it, it'll be useless as the opponent will not be able to hear you).
-```
-
-<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=25
 ```
 
-<a id="atom-9"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-10"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Area=Caster
 ```
 
-<a id="atom-11"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Duration=18 Rounds
 ```
 
-<a id="atom-12"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Effect=Transform into half-dragon, halfhuman
 ```
 
-<a id="atom-13"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Type=Target score
 ```
 
-<a id="atom-14"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-15"></a>
-**Atom:** rule
 
-```
-When this spell is cast, the caster takes on a form somewhere between a dragon and a human.
-```
+## Rules and exceptions
+
+- If you expand the effect, those who fail to resist must roll 2D a number of times equal to the expansion. (Sword World RPG - Complete Edition.pdf p.151)
+- The caster may choose the most desirable result. (Sword World RPG - Complete Edition.pdf p.151)
+- Those within the area of effect who fail to resist must roll 2D and receive an effect according to Table 5-5: Fears (see p. (Sword World RPG - Complete Edition.pdf p.151)
+- Y ou cannot stack more than one of these spells. (Sword World RPG - Complete Edition.pdf p.151)

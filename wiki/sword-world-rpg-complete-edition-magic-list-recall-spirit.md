@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-magic-list-recall-spirit
 page_kind: concept
-summary: Magic List [ Recall Spirit ]: 19 accepted assertion(s) and 16 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 42 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_096eb30fc1bb0678@02d578116d9561919b1e789a7a124c3a
+projection_coverage: page-projection-pgp_4c3e7af0cca9097b@8aa1e59f7510c7ec113025d6fe14eb6f
 ---
 
 # Magic List [ Recall Spirit ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Also, those who have lost their souls and are destroyed, or those who have become undead, cannot be resurrected. (Sword World RPG - Complete Edition.pdf p.104)
 - Only those that the caster knows well (or at least is acquainted with) can be resurrected. (Sword World RPG - Complete Edition.pdf p.104)
@@ -36,7 +36,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Immediately after being resurrected, they have almost no ability to act. (Sword World RPG - Complete Edition.pdf p.104)
 - It takes one week for the body to return to its normal state and to be able to function without hindrance. (Sword World RPG - Complete Edition.pdf p.104)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -129,23 +129,19 @@ Expansion=Final score
 Resist=None
 ```
 
-<a id="atom-14"></a>
-**Atom:** rule
 
-```
-In other words, this spell is useless if the soul is destroyed, and those who have become undead must first save their soul with the Save Soul spell.
-```
+## Rules and exceptions
 
-<a id="atom-15"></a>
-**Atom:** rule
+- Also, those who have lost their souls and are destroyed, or those who have become undead, cannot be resurrected. (Sword World RPG - Complete Edition.pdf p.104)
+- Only those that the caster knows well (or at least is acquainted with) can be resurrected. (Sword World RPG - Complete Edition.pdf p.104)
+- However, in return, they can use their body to bring the dead back to life. (Sword World RPG - Complete Edition.pdf p.104)
+- Priests who have given their bodies to others cannot be resurrected using Resurrection , because they have lost their soul containers (although they can have another priest cast Recall Spirit on them..). (Sword World RPG - Complete Edition.pdf p.104)
+- Also, since it's not possible to reverse your age, those who die due to old age cannot be saved. (Sword World RPG - Complete Edition.pdf p.104)
+- Once this spell fails, the caster cannot attempt Resurrection on the same dead person (it will always fail) until their magic power increases. (Sword World RPG - Complete Edition.pdf p.104)
+- However, it must not be in a state where it would die immediately even if it came back to life, such as a decapitated corpse, etc. (Sword World RPG - Complete Edition.pdf p.104)
+- or if their life force was dealt damage by weapons or magic, you must cast Cure Poison or Cure Wounds beforehand. (Sword World RPG - Complete Edition.pdf p.104)
 
-```
-If you die within one day, you can be resurrected with a final score of 20 or greater, but for each day that passes, the required final value score will increase by 1, such as 21, 22, 23......
-```
+## Related pages
 
-<a id="atom-16"></a>
-**Atom:** rule
-
-```
-You can add +6 to the final score of the spell if you have a corpse.
-```
+- [[sword-world-rpg-complete-edition-8th-level-basic-holy-magic-list]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-10th-level-basic-holy-magic-list-call-god]] - contextualizes: source-supported topic dependency

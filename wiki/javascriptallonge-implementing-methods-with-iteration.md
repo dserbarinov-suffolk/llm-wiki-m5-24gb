@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-implementing-methods-with-iteration
 page_kind: concept
-summary: implementing methods with iteration: 6 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 18 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_81cf3f46b08dc859@b2f126202d5a52b59ecba8cfc5c91987
+projection_coverage: page-projection-pgp_08e6ca8939fae513@5a5d306961daf5ca1a46b63a74cab031
 ---
 
 # implementing methods with iteration
@@ -22,6 +22,12 @@ Source: [[javascriptallonge]]
 - And if we want to create convenience methods, we can reuse common pieces. (javascriptallonge.pdf p.246)
 - To use LazyCollection , we mix it into an any iterable object. (javascriptallonge.pdf p.250)
 - For simplicity, we'll show how to mix it into Numbers and Pair . (javascriptallonge.pdf p.250)
+
+## Rules
+
+- And they should know how to accomplish the desired result, but they should do so by delegating as much of the work as possible to operations like mapWith . (javascriptallonge.pdf p.246)
+- Object- oriented collections should definitely have methods for mapping, reducing, filtering, and finding. (javascriptallonge.pdf p.246)
+- And if we want to create convenience methods, we can reuse common pieces. (javascriptallonge.pdf p.246)
 
 ## Technical atoms
 
@@ -290,3 +296,8 @@ Pair.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 .filter((x) => x % 2 == 0)
 .reduce((seed, element) => seed + element, 0)
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-lazy-collection-operations]] - contextualizes: source-supported topic dependency

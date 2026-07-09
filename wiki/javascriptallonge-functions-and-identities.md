@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-functions-and-identities
 page_kind: concept
-summary: functions and identities: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_f9d9007bfb3139ed@b2da23a82594d2d653f8df541f1583db
+projection_coverage: page-projection-pgp_17f91bc09eb3609f@b22b3dc6450bf4a255cf2cf03bb10d50
 ---
 
 # functions and identities
@@ -30,3 +30,8 @@ Source: [[javascriptallonge]]
 (() => 0) === (() => 0)
 //=> false
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-applying-functions]] - contextualizes: source-supported topic dependency

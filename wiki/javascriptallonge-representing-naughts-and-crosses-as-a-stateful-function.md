@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-representing-naughts-and-crosses-as-a-stateful-function
 page_kind: concept
-summary: representing naughts and crosses as a stateful function: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_327adf43341ebbbd@b6a59c81109546be78677a95032ba02a
+projection_coverage: page-projection-pgp_bd24fee2cbabc0db@1c68c9441d4eb684444c8a16f1ae8aff
 ---
 
 # representing naughts and crosses as a stateful function
@@ -77,3 +77,8 @@ aNaughtsAndCrossesGame(1)
 aNaughtsAndCrossesGame(4)
 //=> 3
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-this-seems-familiar]] - contextualizes: source-supported topic dependency

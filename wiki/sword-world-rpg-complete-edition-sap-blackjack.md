@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-sap-blackjack
 page_kind: concept
-summary: Sap (Blackjack): 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_e2eb52eac1c77952@409468fe7a1d3c93bed0b6590d04706e
+projection_coverage: page-projection-pgp_58b50f5b149d4c75@5af5d173fbad40e64d76a1f01dc4a35b
 ---
 
 # Sap (Blackjack)
@@ -30,3 +30,9 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 When struck by such an attack, the target must make a life force resistance roll.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-cestu]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-garrote]] - contextualizes: source-supported topic dependency

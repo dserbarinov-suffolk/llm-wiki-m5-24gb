@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-treasure-appraisal-intelligence-not-retriable
 page_kind: concept
-summary: [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable): 6 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_e3a8b045a159edad@51ebf50bd058ac11bd99221c45f17376
+projection_coverage: page-projection-pgp_21b80b1ef20d8ead@a4a73dc5ddd6d1900ad39afa4a920d98
 ---
 
 # [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable)
@@ -31,3 +31,8 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 Alternatively, if it is something that can be used in combat, such as weapons or armor, other adventurers may purchase it.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-bard-skill]] - contextualizes: source-supported topic dependency

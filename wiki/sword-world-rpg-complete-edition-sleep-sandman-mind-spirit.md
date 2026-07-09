@@ -1,26 +1,26 @@
 ---
 page_id: sword-world-rpg-complete-edition-sleep-sandman-mind-spirit
 page_kind: concept
-summary: [ Sleep ] (Sandman/Mind Spirit): 3 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_abe545c3522bcdc4@b7673c3f3a8051e26173b363445c0b17
+projection_coverage: page-projection-pgp_ccbbbefa792fffcf@092664bf4cebe254dfabec0d9433be85
 ---
 
 # [ Sleep ] (Sandman/Mind Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - This spell has the effect of putting the target into eternal sleep. (Sword World RPG - Complete Edition.pdf p.88)
 - but in the meantime, the target does not starve or grow. (Sword World RPG - Complete Edition.pdf p.88)
 - They remain asleep forever in the same state they were in when the spell was cast. (Sword World RPG - Complete Edition.pdf p.88)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -63,3 +63,9 @@ Effect=Put an opponent into eternal sleep
 ```
 Resist=Negated effect
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-sink-undine-water-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-tunnel-gnome-earth-spirit]] - contextualizes: source-supported topic dependency

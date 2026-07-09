@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-we-ll-keep-it-simple
 page_kind: concept
-summary: We'll keep it simple:: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_b2a13c0da97b25c1@3cc976324c69548656e74ffb5ffa190c
+projection_coverage: page-projection-pgp_8db888df42f85277@ccc1bf2e19305f7ef5edac1402af937a
 ---
 
 # We'll keep it simple:
@@ -19,6 +19,10 @@ Source: [[javascriptallonge]]
 - Again, this is not particularly horrendous, but like the recursive example, we're explicitly greenspunning the natural linear state. (javascriptallonge.pdf p.230)
 - In a generator, we write ' do this, then this, then this.' In an iterator, we have to wrap that up and explicitly keep track of what step we're on. (javascriptallonge.pdf p.230)
 - So we see the same thing: The generation version has state, but it's implicit in JavaScript's linear control flow. (javascriptallonge.pdf p.230)
+
+## Rules
+
+- In a generator, we write ' do this, then this, then this.' In an iterator, we have to wrap that up and explicitly keep track of what step we're on. (javascriptallonge.pdf p.230)
 
 ## Technical atoms
 

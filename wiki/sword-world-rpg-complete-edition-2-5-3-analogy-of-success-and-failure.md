@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-2-5-3-analogy-of-success-and-failure
 page_kind: concept
-summary: 2.5.3 Analogy of Success and Failure: 15 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 22 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_f65845683f633b61@3ee7e7158ee6fe859f3f1e30601ea527
+projection_coverage: page-projection-pgp_37c029ae9282f8be@34fefee7e0384131f15165ad4f51428a
 ---
 
 # 2.5.3 Analogy of Success and Failure
@@ -32,6 +32,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - Which means I can say for sure 'There are definitely no traps on this door'. (Sword World RPG - Complete Edition.pdf p.32)
 - Consider it like I never checked the door. (Sword World RPG - Complete Edition.pdf p.32)
 
+## Rules
+
+- So, even if you examine the door and do not find any traps, you should be skeptical of the results. (Sword World RPG - Complete Edition.pdf p.32)
+- In particular, when a player rolls either of the two extremes, double sixes or double ones , it means automatic success or automatic failure , so that the player can clearly see whether the success roll is successful or not. (Sword World RPG - Complete Edition.pdf p.32)
+- A player's dice roll should be interpreted as an expression of confidence in the character's actions. (Sword World RPG - Complete Edition.pdf p.32)
+- Which means I can say for sure 'There are definitely no traps on this door'. (Sword World RPG - Complete Edition.pdf p.32)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -47,3 +54,8 @@ If the roll is as high as 10 or 11, the success roll is considered to have a ver
 ```
 If the roll is low, such as 3 or 4, then there's a high chance that the success roll has failed.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-2-5-2-how-to-make-a-difficulty-check]] - contextualizes: source-supported topic dependency

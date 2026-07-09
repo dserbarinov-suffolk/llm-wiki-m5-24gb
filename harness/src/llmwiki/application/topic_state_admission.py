@@ -8,7 +8,6 @@ from llmwiki.application.assertion_graph_artifacts import AssertionGraphArtifact
 from llmwiki.domain.assertion_graph import (
     Assertion,
     AssertionKind,
-    DependencyStatus,
     GapKind,
     ProjectionPolicy,
     ProvenanceActivity,
@@ -17,7 +16,6 @@ from llmwiki.domain.assertion_graph import (
     SourceUnit,
     SourceUnitKind,
     TechnicalAtom,
-    TopicDependency,
     TopicGap,
     TopicKind,
     TopicState,
@@ -87,61 +85,6 @@ def admitted_topic_states(
             )
         )
     return tuple(states), tuple(gaps)
-
-
-def topic_dependencies(
-    graph: AssertionGraphArtifact, topics: tuple[TopicState, ...]
-) -> tuple[TopicDependency, ...]:
-    owner_by_record = _owner_by_record(topics)
-    assertion_by_id = {assertion.id: assertion for assertion in graph.assertions}
-    dependencies: list[TopicDependency] = []
-    for relationship in graph.relationships:
-        from_topic = owner_by_record.get(relationship.subject_id)
-        to_topic = owner_by_record.get(relationship.object_id)
-        if not from_topic or not to_topic or from_topic == to_topic:
-            continue
-        dependencies.append(
-            TopicDependency(
-                id=_dependency_id(relationship.id, from_topic, to_topic),
-                from_topic_state_id=from_topic,
-                to_topic_state_id=to_topic,
-                relation=relationship.predicate,
-                required_status=DependencyStatus.REQUIRED,
-                rationale_assertion_ids=relationship.assertion_ids,
-                source_order=_source_order(relationship.assertion_ids, assertion_by_id),
-            )
-        )
-    for edge in graph.argument_edges:
-        from_topic = owner_by_record.get(edge.from_assertion_id)
-        to_topic = owner_by_record.get(edge.to_assertion_id)
-        if not from_topic or not to_topic or from_topic == to_topic:
-            continue
-        dependencies.append(
-            TopicDependency(
-                id=_dependency_id(edge.id, from_topic, to_topic),
-                from_topic_state_id=from_topic,
-                to_topic_state_id=to_topic,
-                relation=edge.relation,
-                required_status=DependencyStatus.REQUIRED,
-                rationale_assertion_ids=(edge.from_assertion_id, edge.to_assertion_id),
-                source_order=_source_order(
-                    (edge.from_assertion_id, edge.to_assertion_id), assertion_by_id
-                ),
-            )
-        )
-    return tuple(dict.fromkeys(dependencies))
-
-
-def attach_dependencies(
-    topics: tuple[TopicState, ...], dependencies: tuple[TopicDependency, ...]
-) -> tuple[TopicState, ...]:
-    by_topic: dict[str, list[str]] = {}
-    for dependency in dependencies:
-        by_topic.setdefault(dependency.from_topic_state_id, []).append(dependency.id)
-    return tuple(
-        topic.model_copy(update={"required_dependency_ids": tuple(by_topic.get(topic.id, ()))})
-        for topic in topics
-    )
 
 
 def topic_state_build_activity(graph: AssertionGraphArtifact) -> ProvenanceActivity:
@@ -294,26 +237,6 @@ def _weak_topic_gap(key: str, label: str, assertions: list[Assertion]) -> TopicG
     )
 
 
-def _owner_by_record(topics: tuple[TopicState, ...]) -> dict[str, str]:
-    result: dict[str, str] = {}
-    for topic in topics:
-        if topic.topic_kind == TopicKind.SOURCE_MANIFEST:
-            continue
-        for record_id in (*topic.accepted_assertion_ids, *topic.accepted_technical_atom_ids):
-            result.setdefault(record_id, topic.id)
-    return result
-
-
-def _source_order(assertion_ids: tuple[str, ...], assertion_by_id: dict[str, Assertion]) -> int:
-    orders = [
-        int(assertion.source_unit_ids[0].rsplit("_", 1)[-1])
-        for assertion_id in assertion_ids
-        if (assertion := assertion_by_id.get(assertion_id)) is not None
-        and assertion.source_unit_ids
-    ]
-    return min(orders) if orders else 0
-
-
 def _topic_key(subject: str) -> str:
     canonical = _canonical_subject(subject)
     try:
@@ -342,6 +265,3 @@ def _canonical_subject(subject: str) -> str:
 def _topic_state_id(source_hash: str, key: str) -> str:
     return f"tps_{short_digest(source_hash + '|topic|' + key)}"
 
-
-def _dependency_id(record_id: str, from_topic: str, to_topic: str) -> str:
-    return f"tdp_{short_digest(record_id + '|' + from_topic + '|' + to_topic)}"

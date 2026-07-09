@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-say-please
 page_kind: concept
-summary: say 'please': 5 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_9b935c8444bd9c57@93a5a97f0fb906212cc178589a948844
+projection_coverage: page-projection-pgp_9460fbd394c79079@d1d807bf71bc69d9d7d6f6be0e403c9e
 ---
 
 # say 'please'
@@ -21,6 +21,11 @@ Source: [[javascriptallonge]]
 - Now we'll need to write first and rest functions for a list, and those names will collide with the first and rest we wrote for pairs. (javascriptallonge.pdf p.186)
 - We can write reverse and mapWith as well. (javascriptallonge.pdf p.187)
 - We have managed to provide the exact same functionality that === and ?: provided, but using functions and nothing else. (javascriptallonge.pdf p.188)
+
+## Rules
+
+- We can reverse this: Instead of asking a pair if it is empty and then deciding what to do, we can ask the pair to do it for us. (javascriptallonge.pdf p.186)
+- We can write reverse and mapWith as well. (javascriptallonge.pdf p.187)
 
 ## Technical atoms
 
@@ -104,3 +109,9 @@ list(
 print(mapWith(x => x * x, reverse(l123)))
 //=> 941
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-lists-with-functions-as-data]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-functions-are-not-the-real-point]] - contextualizes: source-supported topic dependency

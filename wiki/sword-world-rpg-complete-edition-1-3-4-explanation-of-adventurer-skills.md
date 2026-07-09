@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-1-3-4-explanation-of-adventurer-skills
 page_kind: concept
-summary: 1.3.4 Explanation of Adventurer Skills: 57 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 69 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_da55f10b9dcd4d7d@dcb0e872f49ffa755e4d1bf529611f7c
+projection_coverage: page-projection-pgp_fb1b0bc4d5bdbb6d@b700998e05f79bbcac38377d36aeacac
 ---
 
 # 1.3.4 Explanation of Adventurer Skills
@@ -74,6 +74,17 @@ Source: [[sword-world-rpg-complete-edition]]
 - Dragon roar is a system of magic that imbues one's own body with the characteristics of a dragon, and the ultimate goal is to transform oneself into a dragon. (Sword World RPG - Complete Edition.pdf p.16)
 - This is because it would be extremely difficult to have a character live the life of a dragon priest, when examining a role-playing game from the role-playing perspective. (Sword World RPG - Complete Edition.pdf p.16)
 
+## Rules
+
+- This is because which adventurer skills a character has acquired will determine what that character can do, and will reveal that character's characteristics. (Sword World RPG - Complete Edition.pdf p.15)
+- Although they are often thought to be confined to their study rooms, many of them do go out on adventures , because they believe that the best way to learn is to see and hear firsthand . (Sword World RPG - Complete Edition.pdf p.15)
+- The skill that can handle it is the sorcerer skill. (Sword World RPG - Complete Edition.pdf p.16)
+- The rules do not require one character to acquire both of these skills, but if they are acquired at the same time, it gives them a significant advantage. (Sword World RPG - Complete Edition.pdf p.16)
+- The skill that can use silent spirit is called the shaman skill, and those who have this skill are referred to as shamans. (Sword World RPG - Complete Edition.pdf p.16)
+- Gods who have lost their physical bodies cannot engage with the material world , which is the world for those with bodies. (Sword World RPG - Complete Edition.pdf p.16)
+- Priests, as agents of the gods, can use holy prayer and cast holy magic . (Sword World RPG - Complete Edition.pdf p.16)
+- This is because it would be significantly more difficult to have a character practice the teachings of the gods of darkness , when examining a roleplaying game from the role-playing perspective. (Sword World RPG - Complete Edition.pdf p.16)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -96,3 +107,8 @@ Players may not choose the dark priest skill as one of their character's skills.
 ```
 Players may not choose the dragon priest skill as one of their character's skills.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-1-3-3-adventurer-level]] - contextualizes: source-supported topic dependency

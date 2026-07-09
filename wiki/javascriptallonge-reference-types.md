@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-reference-types
 page_kind: concept
-summary: reference types: 6 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_d40c06fc219b034d@6506c512f00fd3d628eb85f7cd934b62
+projection_coverage: page-projection-pgp_58bff99adfc9c2c6@48a6c4ff60e42b62b8e24d508e113c25
 ---
 
 # reference types
@@ -22,6 +22,10 @@ Source: [[javascriptallonge]]
 - Every time you evaluate an expression (including typing something in) to create an array, you're creating a new, distinct value even if it appears to be the same as some other array value. (javascriptallonge.pdf p.23)
 - As we'll see, this is true of many other kinds of values, including functions , the main subject of this book. (javascriptallonge.pdf p.23)
 - They look the same, but if you examine them with === , you see that they are different. (javascriptallonge.pdf p.23)
+
+## Rules
+
+- This is an expression, and you can combine [] with other expressions. (javascriptallonge.pdf p.23)
 
 ## Technical atoms
 
@@ -41,3 +45,8 @@ Source: [[javascriptallonge]]
 [1,2,3] === [1, 2, 3]
 [1, 2, 3] === [1, 2, 3]
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-value-types]] - contextualizes: source-supported topic dependency

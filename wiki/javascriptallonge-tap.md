@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-tap
 page_kind: concept
-summary: Tap: 4 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_e77d8f478ee0a1a9@60de64cd9a2ef6e63eff61818d2c2878
+projection_coverage: page-projection-pgp_2c6bfc4e1298699b@b426d42614d06111f3c1d1a314c148b4
 ---
 
 # Tap
@@ -19,6 +19,10 @@ Source: [[javascriptallonge]]
 - One is when you want to do something with a value for sideeffects, but keep the value around. (javascriptallonge.pdf p.84)
 - It has some surprising applications. (javascriptallonge.pdf p.84)
 - tap is a traditional name borrowed from various Unix shell commands. (javascriptallonge.pdf p.84)
+- tap can do more than just act as a debugging aid. (javascriptallonge.pdf p.85)
+
+## Rules
+
 - tap can do more than just act as a debugging aid. (javascriptallonge.pdf p.85)
 
 ## Technical atoms
@@ -67,3 +71,9 @@ console.log(`Our drink is '${it}'`)
 //=> Our drink is 'espresso'
 'espresso'
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-unary]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-maybe]] - contextualizes: source-supported topic dependency

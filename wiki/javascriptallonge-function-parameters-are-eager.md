@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-function-parameters-are-eager
 page_kind: concept
-summary: function parameters are eager: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_749255bc03762f99@742f1646128857cefb085295871b37f0
+projection_coverage: page-projection-pgp_6e769687d7d8e7e1@e9da32b0a41c9f27e9cb6765ee523d46
 ---
 
 # function parameters are eager
@@ -15,6 +15,11 @@ projection_coverage: topic-state-tps_749255bc03762f99@742f1646128857cefb08529587
 Source: [[javascriptallonge]]
 
 ## Statements
+
+- If we need to have functions with control-flow semantics, we can pass anonymous functions. (javascriptallonge.pdf p.98)
+- Here we've passed functions that contain the expressions we want to evaluate, and now we can write our own functions that can delay evaluation. (javascriptallonge.pdf p.99)
+
+## Rules
 
 - If we need to have functions with control-flow semantics, we can pass anonymous functions. (javascriptallonge.pdf p.98)
 - Here we've passed functions that contain the expressions we want to evaluate, and now we can write our own functions that can delay evaluation. (javascriptallonge.pdf p.99)
@@ -44,3 +49,9 @@ or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
 even(7)
 //=> false
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-truthiness-and-operators]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-summary]] - contextualizes: source-supported topic dependency

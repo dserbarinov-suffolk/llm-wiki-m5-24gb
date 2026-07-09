@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-youma
 page_kind: concept
-summary: Youma: 71 accepted assertion(s) and 32 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 106 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_4c5e441e3f769e7f@546f11d9c13397e10af535a08c3240dd
+projection_coverage: page-projection-pgp_4a30a85dd2f59b89@d119baff3cdbd0a2f475fc44538ac079
 ---
 
 # Youma
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Kobolds are small youma with doglike faces and tails. (Sword World RPG - Complete Edition.pdf p.178)
 - They have no body hair at all. (Sword World RPG - Complete Edition.pdf p.178)
@@ -88,228 +88,214 @@ Source: [[sword-world-rpg-complete-edition]]
 - They also will not attack low grade undead that do not have a mind. (Sword World RPG - Complete Edition.pdf p.181)
 - The other type is one that collides directly with anything that comes into view. (Sword World RPG - Complete Edition.pdf p.181)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-They usually attack with their fangs, but they may also use a piece of wood as a club (in terms of data, they are the same).
-```
-
-<a id="atom-2"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-3"></a>
-**Atom:** rule
-
-```
-In their villages, they may use kobolds and human children as slaves.
-```
-
-<a id="atom-4"></a>
+<a id="atom-2"></a>
 **Atom:** formula
 
 ```
 Monster Level=3
 ```
 
-<a id="atom-5"></a>
+<a id="atom-3"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-6"></a>
+<a id="atom-4"></a>
 **Atom:** formula
 
 ```
 Agility=13
 ```
 
-<a id="atom-7"></a>
+<a id="atom-5"></a>
 **Atom:** formula
 
 ```
 Frequency=Rare
 ```
 
-<a id="atom-8"></a>
+<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=12/11 (4)
 ```
 
-<a id="atom-9"></a>
+<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=15/11 (4)
 ```
 
-<a id="atom-10"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Special Abilities=3rd level spirit magic (Magic Intensity/Magic Power=12/5)
 ```
 
-<a id="atom-11"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Intensity/Magic Power=10/3)
 ```
 
+<a id="atom-10"></a>
+**Atom:** formula
+
+```
+Monster Level=4
+```
+
+<a id="atom-11"></a>
+**Atom:** formula
+
+```
+Monster Level=4
+```
+
 <a id="atom-12"></a>
-**Atom:** formula
-
-```
-Monster Level=4
-```
-
-<a id="atom-13"></a>
-**Atom:** formula
-
-```
-Monster Level=4
-```
-
-<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Rarity=15
 ```
 
-<a id="atom-15"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Agility=13
 ```
 
-<a id="atom-16"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Movement Speed=6/18 (water)
 ```
 
-<a id="atom-17"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Number=One to several
 ```
 
-<a id="atom-18"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Frequency=Very rare
 ```
 
-<a id="atom-19"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Intellect=Human
 ```
 
-<a id="atom-20"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Reaction=Adversarial
 ```
 
-<a id="atom-21"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Attack Points=Claw: 12 (5) /Claw: 12 (5)
 ```
 
-<a id="atom-22"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Strike Points=11/11
 ```
 
-<a id="atom-23"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=18 (13/6)
 ```
 
-<a id="atom-24"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=15 (12/5)
 ```
 
-<a id="atom-25"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Special Abilities=4th level spirit magic (Magic Intensity/Magic Power=13/6)
 ```
 
-<a id="atom-26"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Habitat=Swamps
 ```
 
-<a id="atom-27"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (infravision)
 ```
 
-<a id="atom-28"></a>
-**Atom:** rule
-
-```
-They're weak against fire and heat, so when attacking a marshman with firebased magic, add +10 to strike power when making the check.
-```
-
-<a id="atom-29"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Monster Level=3
 ```
 
-<a id="atom-30"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Monster Level=6
 ```
 
-<a id="atom-31"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-32"></a>
-**Atom:** rule
 
-```
-When they appear as mad spirits, there are two actions they can take.
-```
+## Rules and exceptions
+
+- Although they may live in a goblin village, they usually live alone or in groups of several, frequently changing locations and living relatively far from human villages. (Sword World RPG - Complete Edition.pdf p.178)
+- They may also live with a hobgoblin who acts as their bodyguard. (Sword World RPG - Complete Edition.pdf p.179)
+- Some goblin shamans are also dark priests who can use dark magic. (Sword World RPG - Complete Edition.pdf p.179)
+- A character who is attacked by a poisoned weapon and suffers damage must immediately make a life force resistance roll against target score 10. (Sword World RPG - Complete Edition.pdf p.180)
+- Those who lead larger groups can be even stronger. (Sword World RPG - Complete Edition.pdf p.180)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-13-2-2-fae]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-13-2-4-spirits]] - contextualizes: source-supported topic dependency

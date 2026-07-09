@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-ability-scores
 page_kind: concept
-summary: Ability Scores: 18 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 20 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_cacd7ae7189720cb@53e2d09622e92a9fdb8af5a1bc79d6ea
+projection_coverage: page-projection-pgp_bbb3fe6859838f93@ce3ed8b2e292644ffa8fb677e12ef21e
 ---
 
 # Ability Scores
@@ -33,4 +33,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - Life force represents how well an adventurer can withstand physical injury. (Sword World RPG - Complete Edition.pdf p.12)
 - Mental power is also related to magic resistance. (Sword World RPG - Complete Edition.pdf p.12)
 - Mental power represents the adventurer's willpower and perseverance. (Sword World RPG - Complete Edition.pdf p.12)
+- Using magic is hard work, and one cannot hope to cast much magic without a high mental capacity. (Sword World RPG - Complete Edition.pdf p.12)
+
+## Rules
+
+- Life force represents how well an adventurer can withstand physical injury. (Sword World RPG - Complete Edition.pdf p.12)
 - Using magic is hard work, and one cannot hope to cast much magic without a high mental capacity. (Sword World RPG - Complete Edition.pdf p.12)

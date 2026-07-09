@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-human
 page_kind: concept
-summary: Humans: 33 accepted assertion(s) and 94 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 134 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_de0b858b419ed68f@cedb8dde9c313925efdf317a8dd0d41e
+projection_coverage: page-projection-pgp_8651ba58a575fba5@6639fa870b7eda7bbc710f815361fcf6
 ---
 
 # Humans
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Monster Level=0 Rarity=- (Everyone knows them) Agility=10 Movement Speed =10 Number=One to hundreds Frequency=Frequent Intellect=Human Reaction=Friendly Attack Points=Farming Tools:7 (0) Strike Points=3 Evasion Points=8 (1) Defense Points=2 Life Points/Resistance=10/8 (1) Mental Points/Resistance=10/8 (1) Special Abilities=None in particular Habitat=Human villages Languages=Regional Perception=Five senses. (Sword World RPG - Complete Edition.pdf p.230)
 - with no fighting ability are drawn into combat. (Sword World RPG - Complete Edition.pdf p.230)
@@ -50,7 +50,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Monster Level=5 Rarity=10 Agility=16 Movement Speed =16 Number=One Frequency=Rare Intellect=Human Reaction=Depends on the situation Attack Points=Weapon:12 (5) Strike Points=11 Evasion Points=13 (6) Defense Points=9 Life Points/Resistance=16/13 (6) Mental Points/Resistance=16/13 (6) Special Abilities=5th level dark magic (magic intensity/magic power=12/5) Habitat=Human villages Languages=Regional. (Sword World RPG - Complete Edition.pdf p.232)
 - Those who reach the bigwig-class who plot great evil acts will tend to have a much deeper connection with the dark gods and can use powerful magic. (Sword World RPG - Complete Edition.pdf p.232)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -709,3 +709,17 @@ Special Abilities=3rd level dark magic (magic
 ```
 Perception=Five senses
 ```
+
+
+## Rules and exceptions
+
+- Bandit henchmen should generally be at about this level. (Sword World RPG - Complete Edition.pdf p.231)
+- In this case, the ratio of henchmen : leaders : chiefs : bosses should be 64 : 16 : 4 : 1. (Sword World RPG - Complete Edition.pdf p.231)
+- This boss's scores should equal the total scores of a chief +1 . (Sword World RPG - Complete Edition.pdf p.231)
+- This level of skill is required to serve in the king's royal guard (though this depends on the country). (Sword World RPG - Complete Edition.pdf p.231)
+- Those who reach the bigwig-class who plot great evil acts will tend to have a much deeper connection with the dark gods and can use powerful magic. (Sword World RPG - Complete Edition.pdf p.232)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-daemons-underworld-creatures]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-13-2-13-other]] - contextualizes: source-supported topic dependency

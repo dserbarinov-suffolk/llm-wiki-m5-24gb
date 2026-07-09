@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-types-of-monsters
 page_kind: concept
-summary: Types of Monsters: 73 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 82 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_9d2cea9f2ba8f47a@c7d020882a9464a89a2c8afbe45521ce
+projection_coverage: page-projection-pgp_965f1c3801f5ce43@6dde091bb256d3bf0847e5fb2435a306
 ---
 
 # Types of Monsters
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - The meaning of each type are as follows. (Sword World RPG - Complete Edition.pdf p.170)
 - There are 12 types of monsters in Alecrast: fae , youma , spirits , titans , mythical beasts , magical beasts , animals , plants , undead , magical creatures , daemons , humans , and others . (Sword World RPG - Complete Edition.pdf p.170)
@@ -90,47 +90,24 @@ Source: [[sword-world-rpg-complete-edition]]
 - In the underworld where daemons live, there are also animal-like creatures with low intellect. (Sword World RPG - Complete Edition.pdf p.171-172)
 - Sages say that they are comparable to the animals in our world, and claim that this is proof that there are multiple material worlds. (Sword World RPG - Complete Edition.pdf p.171-172)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-They may also use spirit magic or dark magic.
-```
-
-<a id="atom-2"></a>
-**Atom:** rule
-
-```
-In addition, spirits may reside in natural creatures and objects, and above all, it seems Spirits that appear in the material world in response to a shaman's summoning usually return to the spirit world after fulfilling their role (when you use spirit magic).
-```
-
-<a id="atom-3"></a>
-**Atom:** rule
-
-```
-Spirits can use an unlimited amount of spirit magic depending on their power.
-```
-
-<a id="atom-4"></a>
-**Atom:** rule
-
-```
-When encountering a spirit, a shaman can recognize a spirit without the need for a success roll.
-```
-
-<a id="atom-5"></a>
-**Atom:** rule
-
-```
-If the source of our life is called positive life force, then the undead's source can be called negative life force.
-```
-
-<a id="atom-6"></a>
 **Atom:** table
 
 ```text
 13.2
 13.2 Monster Catalog
 ```
+
+
+## Rules and exceptions
+
+- Elves, dwarves, and grassrunners are also fae, and these three races can also be player characters. (Sword World RPG - Complete Edition.pdf p.170)
+- They cannot adapt to the material world and will act destructively towards everything in it. (Sword World RPG - Complete Edition.pdf p.170)
+- Spirits have a will, but they can be called energy rather than living beings. (Sword World RPG - Complete Edition.pdf p.170)
+- However, they cannot expand the power of their spells. (Sword World RPG - Complete Edition.pdf p.170)
+- Many of them are unable to reproduce on their own and can only produce offspring with the help of humans. (Sword World RPG - Complete Edition.pdf p.170)
+- However, on the other hand, they can survive on very little food. (Sword World RPG - Complete Edition.pdf p.170-171)
+- They do not require rest in the normal sense and can never be magically put to sleep. (Sword World RPG - Complete Edition.pdf p.171)
+- The sorcerers sought to gain power as creators. (Sword World RPG - Complete Edition.pdf p.171)

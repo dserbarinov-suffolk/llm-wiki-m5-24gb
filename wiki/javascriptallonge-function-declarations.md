@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-function-declarations
 page_kind: concept
-summary: function declarations: 8 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 16 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_1fb7b9f8effabe54@e470f6611352c9fc52b61dd6cf622e50
+projection_coverage: page-projection-pgp_d378ab294c1078ed@0b4c45af3869f899778c47d6cf943be7
 ---
 
 # function declarations
@@ -93,3 +93,9 @@ return "Fizz" + "Buzz";
 return fizzbuzz();
 })()
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-function-keyword]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-function-declaration-caveats-34]] - contextualizes: source-supported topic dependency

@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-special-dark-magic-list
 page_kind: concept
-summary: Special Dark Magic List: 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_4b99c65892e03a34@7a50c25271dbc4ccb8e240bdff66679e
+projection_coverage: page-projection-pgp_166782f1f12400ac@5c3566a255a68ec045acc52591ce04e0
 ---
 
 # Special Dark Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Resist= Negated effect This spell has the effect of amplifying the evil spirit that lies dormant in a person's heart. (Sword World RPG - Complete Edition.pdf p.147)
 - What the target does depends on the situation at the moment and their desires. (Sword World RPG - Complete Edition.pdf p.147)
@@ -22,7 +22,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Targets that fail to resist will impulsively act in evil ways. (Sword World RPG - Complete Edition.pdf p.147)
 - This spell has no effect on beings without intelligence or beasts who always act on impulse. (Sword World RPG - Complete Edition.pdf p.147)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula

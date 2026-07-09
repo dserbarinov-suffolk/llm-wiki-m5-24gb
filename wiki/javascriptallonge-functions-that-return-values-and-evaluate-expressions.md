@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-functions-that-return-values-and-evaluate-expressions
 page_kind: concept
-summary: functions that return values and evaluate expressions: 6 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 14 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_c94054c549e83662@30a9155f230d3d2c4c42b26e27c33a78
+projection_coverage: page-projection-pgp_5122fe3f9c7c3d61@6415aef888b9d00b0eb602b9448f21c0
 ---
 
 # functions that return values and evaluate expressions
@@ -21,6 +21,11 @@ Source: [[javascriptallonge]]
 - Values like 0 are expressions, as are things like 40 + 2 . (javascriptallonge.pdf p.32)
 - We can put any expression to the right of the arrow. (javascriptallonge.pdf p.32)
 - For example, (() => 0)() is an expression. (javascriptallonge.pdf p.32)
+- Functions can return the value of evaluating another function. (javascriptallonge.pdf p.32)
+
+## Rules
+
+- We can put any expression to the right of the arrow. (javascriptallonge.pdf p.32)
 - Functions can return the value of evaluating another function. (javascriptallonge.pdf p.32)
 
 ## Technical atoms
@@ -74,3 +79,8 @@ When dealing with expressions that have a lot of the same characters (like paren
 )()
 //=> 0
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-applying-functions]] - contextualizes: source-supported topic dependency

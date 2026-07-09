@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-3-1-3-npc-and-monster-action-announcements
 page_kind: concept
-summary: 3.1.3 NPC and Monster Action Announcements: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_82df38b207f056b2@08b1bec70f0b8af1c9d302a92c8c6302
+projection_coverage: page-projection-pgp_622d6794bdc09fad@ab35743d84178c32fe56c4a8d5775a06
 ---
 
 # 3.1.3 NPC and Monster Action Announcements
@@ -23,6 +23,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - The game master, as the person who manages the game, must know the actions of all the characters and monsters that appear. (Sword World RPG - Complete Edition.pdf p.35)
 - So, if a character cannot predict something, the player cannot know it either. (Sword World RPG - Complete Edition.pdf p.35)
 - Of course, if a character has a wealth of knowledge, or if they're an advanced spellcaster, they might know such things. (Sword World RPG - Complete Edition.pdf p.35)
+
+## Rules
+
+- Specific action announcements may not be made at this time. (Sword World RPG - Complete Edition.pdf p.35)
+- However, the players should only act from their characters' point of view. (Sword World RPG - Complete Edition.pdf p.35)
+- The game master, as the person who manages the game, must know the actions of all the characters and monsters that appear. (Sword World RPG - Complete Edition.pdf p.35)
+- So, if a character cannot predict something, the player cannot know it either. (Sword World RPG - Complete Edition.pdf p.35)
 
 ## Technical atoms
 

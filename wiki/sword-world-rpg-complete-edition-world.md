@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-world
 page_kind: concept
-summary: World: 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_880fbe7d3fa53aae@7b8e500d72f72aacc74fb80cd9b95fc0
+projection_coverage: page-projection-pgp_1a05f14c786861d9@bd69fee79f0ea8621aaee70ee9ea1ec3
 ---
 
 # World
@@ -25,3 +25,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - And in the west is the Gate of Water. (Sword World RPG - Complete Edition.pdf p.282)
 - However, this Water Gate is said to be unsealed, falling as a waterfall into the Void. (Sword World RPG - Complete Edition.pdf p.282)
 - The Alecrast continent is believed to be located quite far north in the world of Forcelia. (Sword World RPG - Complete Edition.pdf p.282)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-sun-moon-stars]] - contextualizes: source-supported topic dependency

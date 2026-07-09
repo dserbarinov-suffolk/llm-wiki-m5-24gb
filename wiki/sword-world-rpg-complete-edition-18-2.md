@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-18-2
 page_kind: concept
-summary: 18.2: 5 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 10 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_ad1cdc4411f4d819@9ee92907ad7228b28f8a3689d88b70a5
+projection_coverage: page-projection-pgp_57fe6ec9b0a670e4@7cd82bd9e03ccc2837fd0e6b1d8f5904
 ---
 
 # 18.2
@@ -21,6 +21,11 @@ Source: [[sword-world-rpg-complete-edition]]
 - For example, in a scenario where you negotiate with a dragon, which is a 10th level monster, and get it to give you an item, you don't have to fi ght the dragon and you don't need to roll any dice. (Sword World RPG - Complete Edition.pdf p.276)
 - These are the experience points for accomplishing the mission. (Sword World RPG - Complete Edition.pdf p.276)
 - If a 10th level monster is your biggest obstacle, that's 10 x 500 = 5000 . (Sword World RPG - Complete Edition.pdf p.276)
+
+## Rules
+
+- Typically, it'll probably be the strongest monster, but in some cases it may be a high difficulty trap. (Sword World RPG - Complete Edition.pdf p.276)
+- For example, in a scenario where you negotiate with a dragon, which is a 10th level monster, and get it to give you an item, you don't have to fi ght the dragon and you don't need to roll any dice. (Sword World RPG - Complete Edition.pdf p.276)
 
 ## Technical atoms
 

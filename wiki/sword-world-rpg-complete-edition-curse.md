@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-curse
 page_kind: concept
-summary: Curse: 42 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 45 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_d373a735dc915188@9c3d38e0ad4fd5e09a63a51d0b11c31d
+projection_coverage: page-projection-pgp_c5ad309313acbc6f@d29d4c022f936256a199f48858a61cae
 ---
 
 # Curse
@@ -58,6 +58,11 @@ Source: [[sword-world-rpg-complete-edition]]
 - The bottle that had been knocked aside fell off the table and shattered with a loud crash. (Sword World RPG - Complete Edition.pdf p.145)
 - The man suffering from the curse replied , in a hoarse voice. (Sword World RPG - Complete Edition.pdf p.145)
 - The man in the black robe turned and walked away, with a cold, triumphant smile hidden beneath his hood. (Sword World RPG - Complete Edition.pdf p.145)
+
+## Rules
+
+- according to the caster's commands, but due to their low intellect, they can only understand simple commands such as kill anyone who enters this room or dig a hole . (Sword World RPG - Complete Edition.pdf p.144)
+- As he was about to put his hand on his shoulder, the waiter noticed a strong, suffocating smell of alcohol. (Sword World RPG - Complete Edition.pdf p.144)
 
 ## Technical atoms
 

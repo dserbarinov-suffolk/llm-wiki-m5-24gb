@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-forget-leprechaun-mind-spirit
 page_kind: concept
-summary: [ Forget ] (Leprechaun/Mind Spirit): 7 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 16 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_7090d43f6ada2b2b@b29e484c362f374c70c488e7f2ba3371
+projection_coverage: page-projection-pgp_e1297b77ea8a2ef5@57f48f4a2973f3813f9268a2cc4cd5aa
 ---
 
 # [ Forget ] (Leprechaun/Mind Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Among sages, the reason for this is thought to be that the spell doesn't just require a hand, but a wing . (Sword World RPG - Complete Edition.pdf p.86)
 - A gremlin casting this spell on a pegasus carrying the hero Grax, and flinging Grax off of it, is a very well-known tragic episode in Alecrast. (Sword World RPG - Complete Edition.pdf p.86)
@@ -24,7 +24,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Legend has it that Grax, astride a pegasus, single-handedly defeated hundreds of enemy soldiers. (Sword World RPG - Complete Edition.pdf p.86)
 - This is worthy of special mention even among the many tales of bravery passed down in Alecrast. (Sword World RPG - Complete Edition.pdf p.86)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -75,9 +75,11 @@ Type=Mind
 Resist=Negated effect
 ```
 
-<a id="atom-8"></a>
-**Atom:** rule
 
-```
-Only featherfolk (fae) and gremlins (youma) can use it.
-```
+## Rules and exceptions
+
+- Among sages, the reason for this is thought to be that the spell doesn't just require a hand, but a wing . (Sword World RPG - Complete Edition.pdf p.86)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-fanaticism-valkyrie-mind-spirit]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-whip-net-bola
 page_kind: concept
-summary: Whip, Net, Bola: 9 accepted assertion(s) and 4 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_d6f03becabfbfc06@cee1da4b0bedb30bd8f4fd3c7a9e4677
+projection_coverage: page-projection-pgp_c07534c57dc6e7f7@bcbc4f1c9553c13e48999243561805ea
 ---
 
 # Whip, Net, Bola
@@ -25,6 +25,11 @@ Source: [[sword-world-rpg-complete-edition]]
 - If the attack hits and the opponent is not entangled, the whip will return to the attacker's hand. (Sword World RPG - Complete Edition.pdf p.270)
 - At this time, roll 2D, and it'll only entangle the opponent if you roll double ones . (Sword World RPG - Complete Edition.pdf p.270)
 - However, its range is limited to 5 meters. (Sword World RPG - Complete Edition.pdf p.270)
+
+## Rules
+
+- If an attack with one of these weapons hits, the evader must make a success roll using adventurer level + agility bonus as the baseline score and attacker's final score at this time as the target score. (Sword World RPG - Complete Edition.pdf p.269)
+- To escape, you must first release any armaments you're holding. (Sword World RPG - Complete Edition.pdf p.270)
 
 ## Technical atoms
 
@@ -55,3 +60,9 @@ The attacker may choose , even if it hits , to return the whip to his or her han
 ```
 Even if this hits, it cannot deal damage.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-main-gauche-sword-breaker]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-shield-attack]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-age-of-sword-the-new-kingdoms
 page_kind: concept
-summary: The Age of Sword = The New Kingdoms: 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_994283bc15c6feae@4a08112d95573aa62bdcbdbb840516b9
+projection_coverage: page-projection-pgp_fd614e662533b166@867932470edf6840007d20b4a05fa6f2
 ---
 
 # The Age of Sword = The New Kingdoms
@@ -25,3 +25,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - While magic still exists, advanced spells have been lost, and the number of Rune Masters has decreased. (Sword World RPG - Complete Edition.pdf p.282)
 - Having survived the chaotic period after the Ancient Kingdom's fall, the New Kingdom has now continued for over 500 years. (Sword World RPG - Complete Edition.pdf p.282)
 - To put it more simply, it's a world that emanates what is commonly called a "fantasy" atmosphere. (Sword World RPG - Complete Edition.pdf p.282)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-age-of-magic-the-kingdom-of-kastuul]] - contextualizes: source-supported topic dependency

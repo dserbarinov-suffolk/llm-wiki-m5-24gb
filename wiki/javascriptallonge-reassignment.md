@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-reassignment
 page_kind: concept
-summary: Reassignment: 7 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 15 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_56cd8a70321054d9@8f0a3f77bae371f420072727ce6edd1d
+projection_coverage: page-projection-pgp_d8ff2856b01602d4@63bb8a94a5e4e1b2c7b0c8a0f17ffa80
 ---
 
 # Reassignment
@@ -23,6 +23,10 @@ Source: [[javascriptallonge]]
 - The key is to understand that we are rebinding a different value to the same name in the same environment. (javascriptallonge.pdf p.149)
 - Using let to bind 50 to age within the block does not change the binding of age in the outer environment because the binding of age in the block shadows the binding of age in the outer environment, just like const . (javascriptallonge.pdf p.149)
 - Like evaluating variable labels, when a binding is rebound, JavaScript searches for the binding in the current environment and then each ancestor in turn until it finds one. (javascriptallonge.pdf p.150)
+
+## Rules
+
+- We can shadow it by using const to declare a new binding with a new function or block scope, but we cannot rebind a name that was bound with const in an existing scope. (javascriptallonge.pdf p.149)
 
 ## Technical atoms
 

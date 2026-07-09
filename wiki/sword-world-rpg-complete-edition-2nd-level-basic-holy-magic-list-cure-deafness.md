@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-2nd-level-basic-holy-magic-list-cure-deafness
 page_kind: concept
-summary: 2nd Level Basic Holy Magic List [ Cure Deafness ]: 7 accepted assertion(s) and 28 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 35 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_9a02c77a29c0193a@137bb365ff6deb97861686676a12df85
+projection_coverage: page-projection-pgp_c11507cb91cffc1d@ddd4dd5ad04606f3a17b815f986d9fcb
 ---
 
 # 2nd Level Basic Holy Magic List [ Cure Deafness ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - It is also a counter spell to the dark magic Deafness . (Sword World RPG - Complete Edition.pdf p.100)
 - This is a spell that restores hearing lost due to illness, injury, etc. (Sword World RPG - Complete Edition.pdf p.100)
@@ -24,7 +24,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - This is a spell that applies a negative force against undead to a weapon, rather than to space like Turn Undead . (Sword World RPG - Complete Edition.pdf p.100)
 - This additional strike power does not apply to anything other than undead. (Sword World RPG - Complete Edition.pdf p.100)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -160,64 +160,56 @@ Resist=Reduced effect
 ```
 
 <a id="atom-20"></a>
-**Atom:** rule
-
-```
-When you chant this spell, an invisible shockwave is emitted from the caster, dealing strike power 10 damage to the target.
-```
-
-<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=8
 ```
 
-<a id="atom-22"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Distance=10 meters
 ```
 
-<a id="atom-23"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Area=One weapon
 ```
 
-<a id="atom-24"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Duration=18 rounds
 ```
 
-<a id="atom-25"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Effect=+10 to a weapon's strike power against undead
 ```
 
-<a id="atom-26"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Type=Weapon enhancement
 ```
 
-<a id="atom-27"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-28"></a>
-**Atom:** rule
 
-```
-As a result of this, you can add 10 to the strike power of a normal weapon when making a damage check against undead.
-```
+## Related pages
+
+- [[sword-world-rpg-complete-edition-magic-list-cure-wounds]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-3rd-level-basic-holy-magic-list-cure-poison]] - contextualizes: source-supported topic dependency

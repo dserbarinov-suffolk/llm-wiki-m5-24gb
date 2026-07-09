@@ -1,20 +1,20 @@
 ---
 page_id: javascriptallonge-back-on-the-block
 page_kind: concept
-summary: back on the block: 5 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_a882ccdf17ba322d@e695abb7a1850d86a933879fb91cf6e1
+projection_coverage: page-projection-pgp_8645c08ce7b2331d@dfe176767baec98b017ee35ff56d8788
 ---
 
 # back on the block
 
 Source: [[javascriptallonge]]
 
-## Statements
+## Procedure
 
 - We haven't discussed these statements . (javascriptallonge.pdf p.36)
 - Although they aren't very practical, these are valid JavaScript functions, and they return undefined when applied:. (javascriptallonge.pdf p.36)
@@ -22,7 +22,7 @@ Source: [[javascriptallonge]]
 - As we saw with commas above, we can rearrange these functions onto multiple lines when we feel its more readable that way:. (javascriptallonge.pdf p.36)
 - But no matter how we arrange them, a block with one or more expressions still evaluates to undefined :. (javascriptallonge.pdf p.36)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -35,32 +35,6 @@ Back to our function. We evaluated this:
 ```
 
 <a id="atom-2"></a>
-**Atom:** code block
-
-```
-(() => {})()
-//=> undefined
-```
-
-<a id="atom-3"></a>
-**Atom:** code block
-
-```
-() => { 2 + 2 }
-() => { 1 + 1; 2 + 2 }
-```
-
-<a id="atom-4"></a>
-**Atom:** code block
-
-```
-() => {
-1 + 1;
-2 + 2
-}
-```
-
-<a id="atom-5"></a>
 **Atom:** table
 
 ```text
@@ -161,3 +135,12 @@ The first sip: Basic Functions
 16
 Ah. I’d Like to Have an Argument, Please.22
 ```
+
+
+## Rules and exceptions
+
+- As we saw with commas above, we can rearrange these functions onto multiple lines when we feel its more readable that way:. (javascriptallonge.pdf p.36)
+
+## Related pages
+
+- [[javascriptallonge-void]] - contextualizes: source-supported topic dependency

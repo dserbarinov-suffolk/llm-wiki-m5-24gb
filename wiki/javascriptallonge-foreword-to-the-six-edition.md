@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-foreword-to-the-six-edition
 page_kind: concept
-summary: Foreword to the 'Six' edition: 7 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_c51955ef7fc203b6@7b2a1b1a3edba07df3761127e763e0d4
+projection_coverage: page-projection-pgp_eddcdf694f35dd1f@aecf89cebe9d9bf123fb85f43a49a449
 ---
 
 # Foreword to the 'Six' edition
@@ -23,3 +23,7 @@ Source: [[javascriptallonge]]
 - A smaller upgrade would bring a few minor enhancements to ECMAScript 3. (javascriptallonge.pdf p.13)
 - This upgrade became ECMAScript 6 (some features that were initially discussed will show up later, in upcoming ECMAScript versions). (javascriptallonge.pdf p.13)
 - A larger upgrade would substantially improve JavaScript, but without being as radical as ECMAScript 4. (javascriptallonge.pdf p.13)
+
+## Related pages
+
+- [[javascriptallonge-what-javascript-allong-is-and-isn-t]] - contextualizes: source-supported topic dependency

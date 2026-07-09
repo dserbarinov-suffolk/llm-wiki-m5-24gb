@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-will-be-represented-as
 page_kind: concept
-summary: Will be represented as:: 2 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_477a01be997a831c@f7d387b52f70de0bf451f1a6bac1c577
+projection_coverage: page-projection-pgp_f717e332bdf3d1de@ef3060b832d9b255d22d5724408ab53c
 ---
 
 # Will be represented as:
@@ -17,6 +17,10 @@ Source: [[javascriptallonge]]
 ## Statements
 
 - We'll use the [] notation for keys, it allows us to use any expression as a key, and JavaScript will convert it to a string. (javascriptallonge.pdf p.277)
+- We can use a POJO to make a map from positions to moves. (javascriptallonge.pdf p.277)
+
+## Rules
+
 - We can use a POJO to make a map from positions to moves. (javascriptallonge.pdf p.277)
 
 ## Technical atoms

@@ -1,20 +1,20 @@
 ---
 page_id: javascriptallonge-yielding-iterables
 page_kind: concept
-summary: yielding iterables: 5 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 9 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_42a0bebac88b43c6@df9e1ad213b997282dc1886c14c1e1b1
+projection_coverage: page-projection-pgp_f0b0e2f96119b05d@ccb61b574f952acb8aefcfc74447daaf
 ---
 
 # yielding iterables
 
 Source: [[javascriptallonge]]
 
-## Statements
+## Procedure
 
 - It works, but as we've just seen, a function that returns an iterable can often be written much more simply as a generator, rather than a function that returns an iterable object: 93. (javascriptallonge.pdf p.240)
 - 93 There are more complex cases where you want an iterable object, because you want to maintain state in properties or declare helper methods for the generator function, and so forth. (javascriptallonge.pdf p.240)
@@ -22,194 +22,9 @@ Source: [[javascriptallonge]]
 - Wetake advantage of the for..of loop in a plain and direct way: For each element e , if it is iterable, treat it as a tree and iterate over it, yielding each of its elements. (javascriptallonge.pdf p.241)
 - Things like arrays can be easily catenated, but append iterates lazily, so there's no need to construct intermediary results. (javascriptallonge.pdf p.242)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** code block
-
-```
-const isIterable = (something) =>
-!!something[Symbol.iterator];
-const TreeIterable = (iterable) =>
-({
-[Symbol.iterator]: function * () {
-for (const e of iterable) {
-if (isIterable(e)) {
-for (const ee of TreeIterable(e)) {
-yield ee;
-}
-}
-else {
-yield e;
-}
-}
-}
-})
-for (const i of TreeIterable([1, [2, [3, 4], 5]])) {
-console.log(i);
-}
-//=>
-1
-2
-3
-4
-5
-```
-
-<a id="atom-2"></a>
-**Atom:** rule
-
-```
-But if you can write it as a simple generator, write it as a simple generator.
-```
-
-<a id="atom-3"></a>
-**Atom:** code block
-
-```
-function * tree (iterable) {
-for (const e of iterable) {
-if (isIterable(e)) {
-for (const ee of tree(e)) {
-yield ee;
-}
-}
-else {
-yield e;
-}
-}
-};
-for (const i of tree([1, [2, [3, 4], 5]])) {
-console.log(i);
-}
-//=>
-1
-2
-3
-4
-5
-```
-
-<a id="atom-4"></a>
-**Atom:** code block
-
-```
-for (const ee of tree(e)) {
-yield ee;
-}
-```
-
-<a id="atom-5"></a>
-**Atom:** code block
-
-```
-function * append (...iterables) {
-for (const iterable of iterables) {
-for (const element of iterable) {
-yield element;
-}
-}
-}
-const lyrics = append(["a", "b", "c"], ["one", "two", "three"], ["do", "re", "me\
-"]);
-for (const word of lyrics) {
-console.log(word);
-}
-//=>
-a
-b
-c
-one
-two
-three
-do
-re
-me
-```
-
-<a id="atom-6"></a>
-**Atom:** code block
-
-```
-function * append (...iterables) {
-for (const iterable of iterables) {
-yield * iterable;
-}
-}
-const lyrics = append(["a", "b", "c"], ["one", "two", "three"], ["do", "re", "me\
-"]);
-for (const word of lyrics) {
-console.log(word);
-}
-```
-
-<a id="atom-7"></a>
-**Atom:** code block
-
-```
-//=>
-a
-b
-c
-one
-two
-thre
-do
-re
-```
-
-<a id="atom-8"></a>
-**Atom:** code block
-
-```
-const isIterable = (something) =>
-!!something[Symbol.iterator];
-function * tree (iterable) {
-for (const e of iterable) {
-if (isIterable(e)) {
-yield * tree(e);
-}
-else {
-yield e;
-}
-}
-};
-for (const i of tree([1, [2, [3, 4
-console.log(i);
-}
-//=>
-1
-2
-3
-4
-5
-```
-
-<a id="atom-9"></a>
-**Atom:** code block
-
-```
-three
-do
-re
-me
-yield * yields all of the elements of an iterable, in order. We can use it in tree, too:
-const isIterable = (something) =>
-!!something[Symbol.iterator];
-function * tree (iterable) {
-for (const e of iterable) {
-if (isIterable(e)) {
-yield * tree(e);
-}
-else {
-yield e;
-}
-}
-};
-for (const i of tree([1, [2, [3, 4], 5]])) {
-```
-
-<a id="atom-10"></a>
 **Atom:** table
 
 ```text
@@ -282,3 +97,13 @@ iterator.next();
 yield * iterator;
 }
 ```
+
+
+## Rules and exceptions
+
+- It works, but as we've just seen, a function that returns an iterable can often be written much more simply as a generator, rather than a function that returns an iterable object: 93. (javascriptallonge.pdf p.240)
+- Things like arrays can be easily catenated, but append iterates lazily, so there's no need to construct intermediary results. (javascriptallonge.pdf p.242)
+
+## Related pages
+
+- [[javascriptallonge-more-generators]] - contextualizes: source-supported topic dependency

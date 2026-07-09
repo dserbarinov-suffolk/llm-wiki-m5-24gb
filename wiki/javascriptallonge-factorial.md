@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-factorial
 page_kind: concept
-summary: factorials: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_3e55847e27466768@8c96d3618aec576c7a4de6bf603c8352
+projection_coverage: page-projection-pgp_2ba5aeef7a560aff@c422bc00e6e5823cd48fe9e01e05116a
 ---
 
 # factorials
@@ -19,6 +19,10 @@ Source: [[javascriptallonge]]
 - While this is mathematically elegant, it is computational filigree 63 . (javascriptallonge.pdf p.122)
 - Once again, it is not tail-recursive, it needs to save the stack with each invocation so that it can take the result returned and compute n * factorial(n -1) . (javascriptallonge.pdf p.122)
 - Asbefore, we wrote a factorialWithDelayedWork function, then used partial application ( callLast ) to make a factorial function that took just the one argument and supplied the initial work value. (javascriptallonge.pdf p.123)
+
+## Rules
+
+- Once again, it is not tail-recursive, it needs to save the stack with each invocation so that it can take the result returned and compute n * factorial(n -1) . (javascriptallonge.pdf p.122)
 
 ## Technical atoms
 
@@ -61,3 +65,9 @@ factorial(1)
 factorial(5)
 //=> 120
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-tail-calls-and-default-arguments]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-default-arguments]] - contextualizes: source-supported topic dependency

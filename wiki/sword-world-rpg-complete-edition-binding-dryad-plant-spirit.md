@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-binding-dryad-plant-spirit
 page_kind: concept
-summary: [ Binding ] (Dryad/Plant Spirit): 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_9c1b8752288921d3@2ebecef5c82b9f3d53b4ac54ced88756
+projection_coverage: page-projection-pgp_c963e75191f1f8dd@4143885d019fab157401d270924a28c0
 ---
 
 # [ Binding ] (Dryad/Plant Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - To cast this spell, you need enough grass, tree branches, etc. (Sword World RPG - Complete Edition.pdf p.87)
 - Targets within the area of effect will become entangled in those plants and be unable to move. (Sword World RPG - Complete Edition.pdf p.87)
@@ -22,7 +22,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Targets that successfully resist are not affected in any way. (Sword World RPG - Complete Edition.pdf p.87)
 - Those who fail to resist will be unable to take any actions for 18 rounds and will suffer a -4 modifier to their evasion speed (points). (Sword World RPG - Complete Edition.pdf p.87)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -59,9 +59,8 @@ Duration=18 rounds
 Resist=Negated effect
 ```
 
-<a id="atom-6"></a>
-**Atom:** rule
 
-```
-Also, even if you're caught by this spell once, you can attempt to escape each round by making a success roll using adventurer level + strength bonus as the baseline score.
-```
+## Related pages
+
+- [[sword-world-rpg-complete-edition-stone-blast-gnome-earth-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-healing-the-unknown-spirit-of-life]] - contextualizes: source-supported topic dependency

@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-1-4-2-determine-ability-scores
 page_kind: concept
-summary: 1.4.2 Determine Ability Scores: 14 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 28 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_d5c2ae95043919e8@60b45c33af7ad6a382f4a78fe6d7c8bd
+projection_coverage: page-projection-pgp_1191ac6c1b7819ef@f9cecf7b7af4944c94fd6efcf497b2eb
 ---
 
 # 1.4.2 Determine Ability Scores
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - First, you must roll the dice to determine subability scores A~H . (Sword World RPG - Complete Edition.pdf p.17)
 - Table 1-3: Determining Sub-Ability Scores shows how to determine subability scores for each race. (Sword World RPG - Complete Edition.pdf p.17)
@@ -31,16 +31,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - Since the average human ability score is 14, +2 is a very average ability bonus. (Sword World RPG - Complete Edition.pdf p.18)
 - For this character being created, the bonuses are dexterity +2, agility +2, intelligence +2, strength +2, life force +3, and mental power +2. (Sword World RPG - Complete Edition.pdf p.18)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-Once you've chosen a race, you can determine your ability scores.
-```
-
-<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -58,7 +51,7 @@ Table 1-3: Determining Sub-Ability Scores
                                               H            2D    2D+4      2D+4      1D+6      2D
 ```
 
-<a id="atom-3"></a>
+<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -73,7 +66,7 @@ Table 1-3: Determining Sub-Ability Scores
 | Mental Power | 14 | 24 | 22 | 17 | 14.5 |
 ```
 
-<a id="atom-4"></a>
+<a id="atom-3"></a>
 **Atom:** table
 
 ```text
@@ -87,37 +80,50 @@ Table 1-5: Backgrounds
 | 12 Noble Fighter 1 & Sage 1 2000 2Dx500 citizen Once ability scores are determined, the sub-ability scores are never used during Once the ability scores have been general the game. determined, also find the ability bonuses character | If the player's (roll 7), game master skill and | background they must to appropriate acquire | determine it at | is ordinary consult for 3rd level. | with one | the At |
 ```
 
-<a id="atom-5"></a>
+<a id="atom-4"></a>
 **Atom:** formula
 
 ```
 9+7= 16
 ```
 
-<a id="atom-6"></a>
+<a id="atom-5"></a>
 **Atom:** formula
 
 ```
 7+5= 12
 ```
 
-<a id="atom-7"></a>
+<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 5+8= 13
 ```
 
-<a id="atom-8"></a>
+<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 6+8= 14
 ```
 
-<a id="atom-9"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 8+10= 18
 ```
+
+
+## Rules and exceptions
+
+- First, you must roll the dice to determine subability scores A~H . (Sword World RPG - Complete Edition.pdf p.17)
+- Depending on whether a half-elf was raised by humans or elves, the skills they have from the start and the limitations on the skills they can acquire differ. (Sword World RPG - Complete Edition.pdf p.17)
+- Since our race is human, all we have to do is roll 2D, that's two dice, from A-H, all the way down. (Sword World RPG - Complete Edition.pdf p.18)
+- These can be considered average, with neither extremely high nor low rolls. (Sword World RPG - Complete Edition.pdf p.18)
+- This character can be considered fairly mediocre except for the excellent life force bonus. (Sword World RPG - Complete Edition.pdf p.18)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-1-4-1-choose-a-race]] - contextualizes: source-supported topic dependency

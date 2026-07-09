@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-3rd-level-basic-holy-magic-list-cure-poison
 page_kind: concept
-summary: 3rd Level Basic Holy Magic List [ Cure Poison ]: 12 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 31 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_0b54f98d6710f77e@548a16f97c1c099142930270c1731346
+projection_coverage: page-projection-pgp_6b8430cb01861071@3031d60229590fba1bab4cbc2b7d4007
 ---
 
 # 3rd Level Basic Holy Magic List [ Cure Poison ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - If the final score when casting the spell is greater than or equal to the toxicity score of each poison, that poison can be neutralized. (Sword World RPG - Complete Edition.pdf p.101)
 - This spell is an antidote spell used on an individual. (Sword World RPG - Complete Edition.pdf p.101)
@@ -29,7 +29,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Those who lose their vision suffer a penalty of -4 to attack power (points) and evasion speed (points). (Sword World RPG - Complete Edition.pdf p.101)
 - This spell cannot take effect within the area of effect of Darkness . (Sword World RPG - Complete Edition.pdf p.101)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -81,50 +81,56 @@ Resist=None
 ```
 
 <a id="atom-8"></a>
-**Atom:** rule
-
-```
-Even if your body is infected by multiple poisons, you can neutralize them all with a single spell, as long as the final score is greater than or equal to each toxicity score.
-```
-
-<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=12
 ```
 
-<a id="atom-10"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-11"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Area=A space within a 10 meter radius from the caster
 ```
 
-<a id="atom-12"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Duration=Instant
 ```
 
-<a id="atom-13"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Type=Damage (Special)
 ```
 
-<a id="atom-14"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Resist=Reduced effect
 ```
+
+
+## Rules and exceptions
+
+- If the final score when casting the spell is greater than or equal to the toxicity score of each poison, that poison can be neutralized. (Sword World RPG - Complete Edition.pdf p.101)
+- you can also remove their effects. (Sword World RPG - Complete Edition.pdf p.101)
+- As a result, you can deal damage to undead within 10 meters of the caster. (Sword World RPG - Complete Edition.pdf p.101)
+- This spell cannot take effect within the area of effect of Darkness . (Sword World RPG - Complete Edition.pdf p.101)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-2nd-level-basic-holy-magic-list-cure-deafness]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-4th-level-basic-holy-magic-list-cure-disease]] - contextualizes: source-supported topic dependency

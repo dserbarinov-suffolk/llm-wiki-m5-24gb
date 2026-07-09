@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-mapping
 page_kind: concept
-summary: mapping: 3 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_c68d9900234c8c5a@b4b1322991c2171568769c97da49b689
+projection_coverage: page-projection-pgp_4e5e5498a1f2c9ce@f8131f961736f03f1b3da3cbef9b03c0
 ---
 
 # mapping
@@ -18,6 +18,10 @@ Source: [[javascriptallonge]]
 
 - Another common problem is applying a function to every element of an array. (javascriptallonge.pdf p.113)
 - This specific case of linear recursion is called 'mapping,' and it is not necessary to constantly write out the same pattern again and again. (javascriptallonge.pdf p.114)
+- Even in this small function, we can identify the terminal condition, the piece being broken off, and recomposing the solution. (javascriptallonge.pdf p.114)
+
+## Rules
+
 - Even in this small function, we can identify the terminal condition, the piece being broken off, and recomposing the solution. (javascriptallonge.pdf p.114)
 
 ## Technical atoms
@@ -65,3 +69,9 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 mapWith((x) => !!x, [null, true, 25, false, "foo"])
 //=> [false,true,true,false,true]
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-linear-recursion]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-folding]] - contextualizes: source-supported topic dependency

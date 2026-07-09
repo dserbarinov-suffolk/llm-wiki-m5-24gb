@@ -1,27 +1,27 @@
 ---
 page_id: sword-world-rpg-complete-edition-fear-shade-dark-spirit
 page_kind: concept
-summary: [ Fear ] (Shade/Dark Spirit): 4 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_7009b240465f82a9@c847c0e2b987ad926721939687e15f9e
+projection_coverage: page-projection-pgp_6f049c31c238965e@c2745ef8f13fdc66ce4c801b4613e549
 ---
 
 # [ Fear ] (Shade/Dark Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - For those affected , please determine the specific effect according to Table 5-5: Fears. (Sword World RPG - Complete Edition.pdf p.89)
 - An opponent who suffers the effect of this spell will feel an immeasurable fear towards the caster. (Sword World RPG - Complete Edition.pdf p.89)
 - This spell has the effect of instilling fear in the target. (Sword World RPG - Complete Edition.pdf p.89)
 - This spell's effect can be expanded. (Sword World RPG - Complete Edition.pdf p.89)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -72,9 +72,12 @@ Type=Mind
 Resist=Negated effect
 ```
 
-<a id="atom-8"></a>
-**Atom:** rule
 
-```
-If expanded, make an equivalent number of checks on the Fears table, then apply which result the caster finds most desirable.
-```
+## Rules and exceptions
+
+- This spell's effect can be expanded. (Sword World RPG - Complete Edition.pdf p.89)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-tunnel-gnome-earth-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-restore-health-the-unknown-spirit-of-life]] - contextualizes: source-supported topic dependency

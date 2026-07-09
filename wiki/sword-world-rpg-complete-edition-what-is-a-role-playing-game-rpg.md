@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-what-is-a-role-playing-game-rpg
 page_kind: concept
-summary: What is a Role-Playing Game (RPG)?: 28 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 34 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_8e84851cf76c6f6c@dfe118ceb84f116a10857332e84c19f3
+projection_coverage: page-projection-pgp_5eef330a4c534e1a@c1e9379b78beae69632b419988bed466
 ---
 
 # What is a Role-Playing Game (RPG)?
@@ -43,6 +43,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - Even in real life, if you start a fight, you won't know who will win without actually fighting. (Sword World RPG - Complete Edition.pdf p.5)
 - Player ： ( rolls ) Hey, I got a good roll, my attack is a hit!. (Sword World RPG - Complete Edition.pdf p.5)
 - Player ： ( rolls ) Agh, my roll was bad. (Sword World RPG - Complete Edition.pdf p.5)
+- In this way, due to two types of randomness, player's choice and random numbers (dice) , the actual game can display a wide degree of fluctuation, sometimes the "story" will evolve beyond the expectations of the game master. (Sword World RPG - Complete Edition.pdf p.5)
+
+## Rules
+
+- Participants in an RPG can be roughly divided into two groups: One is the game master ( GM ), while the other are the players . (Sword World RPG - Complete Edition.pdf p.5)
+- You may either create your own, or you may use an existing one. (Sword World RPG - Complete Edition.pdf p.5)
+- Before playing a game, the game master must prepare what's called a scenario . (Sword World RPG - Complete Edition.pdf p.5)
 - In this way, due to two types of randomness, player's choice and random numbers (dice) , the actual game can display a wide degree of fluctuation, sometimes the "story" will evolve beyond the expectations of the game master. (Sword World RPG - Complete Edition.pdf p.5)
 
 ## Technical atoms

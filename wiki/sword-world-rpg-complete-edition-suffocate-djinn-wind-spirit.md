@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-suffocate-djinn-wind-spirit
 page_kind: concept
-summary: [ Suffocate ] (Djinn/Wind Spirit): 5 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_98572a7d4e81449b@cd031d8643bcef82212feeb1670a5123
+projection_coverage: page-projection-pgp_db441d254fb10876@f977176cfe1595b645fcb424af7726d1
 ---
 
 # [ Suffocate ] (Djinn/Wind Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Then, once life force (points) rounds have elapsed, they will suffocate and die. (Sword World RPG - Complete Edition.pdf p.94)
 - Those who've had this spell cast on them and fail to resist will be unable to breathe. (Sword World RPG - Complete Edition.pdf p.94)
@@ -22,7 +22,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - However, if the spell's duration expires before life force (points) rounds have elapsed, the spell becomes meaningless. (Sword World RPG - Complete Edition.pdf p.94)
 - This spell has no effect on plant monsters, undead, magical creatures, etc. (Sword World RPG - Complete Edition.pdf p.94)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -44,3 +44,13 @@ Type=Target score
 ```
 Resist=Negated effect
 ```
+
+
+## Rules and exceptions
+
+- For this reason, spells cannot be used and all other actions also suffer a -4 penalty. (Sword World RPG - Complete Edition.pdf p.94)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-current-kraken-greater-water-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-nightmare-incubus-succubus-dream-spirit]] - contextualizes: source-supported topic dependency

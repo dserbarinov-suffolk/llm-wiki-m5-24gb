@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-this-seems-familiar
 page_kind: concept
-summary: this seems familiar: 8 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_504f45f11c8de90e@01b8d3ab520ffd102595e20bf7ec0903
+projection_coverage: page-projection-pgp_43911e662849abbc@0690998c4c921f7fe9db0f180b211f92
 ---
 
 # this seems familiar
@@ -24,6 +24,10 @@ Source: [[javascriptallonge]]
 - But we can clearly see that if we wanted to, we could represent the state of the program implicitly in a decision tree. (javascriptallonge.pdf p.281)
 - With iterators, we wrote a generator function using function * , and then used yield to yield values while maintaining the implicit state of the generator's control flow. (javascriptallonge.pdf p.281-282)
 - But the first glance is deceptive, because we only see what we've seen so far. (javascriptallonge.pdf p.282)
+
+## Rules
+
+- But we can clearly see that if we wanted to, we could represent the state of the program implicitly in a decision tree. (javascriptallonge.pdf p.281)
 
 ## Technical atoms
 
@@ -62,3 +66,8 @@ break;
 }
 }
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-representing-naughts-and-crosses-as-a-stateful-function]] - contextualizes: source-supported topic dependency

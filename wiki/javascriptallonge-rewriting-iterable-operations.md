@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-rewriting-iterable-operations
 page_kind: concept
-summary: rewriting iterable operations: 5 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 14 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_0dfcfc87c6a9b425@3646150ff7ba8b70de4bc11290f3f7cd
+projection_coverage: page-projection-pgp_ff9c58cd44d565ad@32b5e3f3cb74d8c51c313ca6adbde165
 ---
 
 # rewriting iterable operations
@@ -19,6 +19,12 @@ Source: [[javascriptallonge]]
 - Now that we know about iterables, we can rewrite our iterable operations as generators. (javascriptallonge.pdf p.243)
 - No need to explicitly construct an object that has a [Symbol.iterator] method. (javascriptallonge.pdf p.244)
 - No need to return an object with a .next() method. (javascriptallonge.pdf p.244)
+- We can do the same thing with our other operations like filterWith and untilWith . (javascriptallonge.pdf p.244)
+- first works directly with iterators and remains unchanged, but rest can be rewritten as a generator:. (javascriptallonge.pdf p.245)
+
+## Rules
+
+- Now that we know about iterables, we can rewrite our iterable operations as generators. (javascriptallonge.pdf p.243)
 - We can do the same thing with our other operations like filterWith and untilWith . (javascriptallonge.pdf p.244)
 - first works directly with iterators and remains unchanged, but rest can be rewritten as a generator:. (javascriptallonge.pdf p.245)
 
@@ -93,3 +99,8 @@ iterator.next();
 yield * iterator;
 }
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-generating-iterables]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-nameless-god-of-madness-wicked-god
 page_kind: concept
-summary: The Nameless God of Madness (Wicked God): 20 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 28 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_4ced2f19de5cb0d1@a08b59f5fbd9a2a865ecf980b0f499aa
+projection_coverage: page-projection-pgp_1c94297fe5d7d820@8d166695486cb218f5b5967b46b7dc8e
 ---
 
 # The Nameless God of Madness (Wicked God)
@@ -34,6 +34,15 @@ Source: [[sword-world-rpg-complete-edition]]
 - Priests can use the following abilities. (Sword World RPG - Complete Edition.pdf p.98)
 - This is the ability to pray and communicate with a god, asking whether or not one's actions are right. (Sword World RPG - Complete Edition.pdf p.98)
 - Occasionally a god will give you a revelation (given at the game master's discretion). (Sword World RPG - Complete Edition.pdf p.98)
+- Revelations should not be used too conveniently for the characters (players). (Sword World RPG - Complete Edition.pdf p.98)
+- It must be done only when they absolutely need a word from their god to protect their faith. (Sword World RPG - Complete Edition.pdf p.98)
+
+## Rules
+
+- He is the god of madness, and because of his madness, he is a deity whose name cannot be identified. (Sword World RPG - Complete Edition.pdf p.98)
+- Believers consider destruction and slaughter to be their mission anyway, as they believe that without destruction there can be no new beginning. (Sword World RPG - Complete Edition.pdf p.98)
+- Game masters can also create original gods and spells in addition to these. (Sword World RPG - Complete Edition.pdf p.98)
+- Priests can use the following abilities. (Sword World RPG - Complete Edition.pdf p.98)
 - Revelations should not be used too conveniently for the characters (players). (Sword World RPG - Complete Edition.pdf p.98)
 - It must be done only when they absolutely need a word from their god to protect their faith. (Sword World RPG - Complete Edition.pdf p.98)
 

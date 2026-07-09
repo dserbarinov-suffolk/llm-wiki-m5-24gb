@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-western-countries-language-western-except-palmer-village-which-uses-eastern
 page_kind: concept
-summary: Western Countries (Language: Western, except Palmer Village which uses Eastern): 9 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_ca52c4e889c4dab8@b9db2ed5f62da6f68ae768200d87ca2a
+projection_coverage: page-projection-pgp_c977e9565305b401@e0f03055dd4680608be74e97d368646e
 ---
 
 # Western Countries (Language: Western, except Palmer Village which uses Eastern)
@@ -25,3 +25,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - Furthermore, to the west of the western nations, at the end of the "Road of Free People," there is a village called Palmer. (Sword World RPG - Complete Edition.pdf p.288)
 - For more information about the western nations, detailed settings can be found in the "Ten Children World Guide". (Sword World RPG - Complete Edition.pdf p.288)
 - Please refer to it for more details. (Sword World RPG - Complete Edition.pdf p.288)
+
+## Rules
+
+- These small nations alone cannot stand against the great powers of the east. (Sword World RPG - Complete Edition.pdf p.288)
+- For more information about the western nations, detailed settings can be found in the "Ten Children World Guide". (Sword World RPG - Complete Edition.pdf p.288)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-southern-central-region-language-western-gundar]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-islands-of-azarn-language-eastern-m-rdan]] - contextualizes: source-supported topic dependency

@@ -7,9 +7,11 @@ from pydantic import BaseModel, ConfigDict
 from llmwiki.application.assertion_graph_artifacts import AssertionGraphArtifact
 from llmwiki.application.topic_state_admission import (
     admitted_topic_states,
+    topic_state_build_activity,
+)
+from llmwiki.application.topic_state_dependencies import (
     attach_dependencies,
     topic_dependencies,
-    topic_state_build_activity,
 )
 from llmwiki.domain.assertion_graph import (
     ProvenanceActivity,

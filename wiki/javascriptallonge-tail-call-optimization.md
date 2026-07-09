@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-tail-call-optimization
 page_kind: concept
-summary: tail-call optimization: 11 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 18 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_1d9a84cec4cde70c@7a458680ef43eed5462d051a2f5d95e5
+projection_coverage: page-projection-pgp_5727a692f5bce3a2@10619f0425653ebfde01335d8ce2d547
 ---
 
 # tail-call optimization
@@ -26,6 +26,13 @@ Source: [[javascriptallonge]]
 - This is a very important characteristic of JavaScript: If a function makes a call in tail position, JavaScript optimizes away the function call overhead and stack space. (javascriptallonge.pdf p.119)
 - That is excellent, but one wrapping is not a big deal. (javascriptallonge.pdf p.119)
 - The length function calls itself, but it is not a tail-call, because it returns 1 + length(rest) , not length(rest) . (javascriptallonge.pdf p.119)
+- The problem can be stated in such a way that the answer is obvious: length does not call itself in tail position, because it has to do two pieces of work, and while one of them is in the recursive call to length , the other happens after the recursive call. (javascriptallonge.pdf p.119)
+
+## Rules
+
+- It isn't going to do any more work, so it can throw its existing stack frame away. (javascriptallonge.pdf p.119)
+- This is interesting, because after sorting out what to supply as arguments ( this , args ), JavaScript can throw away everything in its current stack frame. (javascriptallonge.pdf p.119)
+- And in fact, it does exactly that: It throws the stack frame away, and does not consume extra memory when making a maybe -wrapped call. (javascriptallonge.pdf p.119)
 - The problem can be stated in such a way that the answer is obvious: length does not call itself in tail position, because it has to do two pieces of work, and while one of them is in the recursive call to length , the other happens after the recursive call. (javascriptallonge.pdf p.119)
 
 ## Technical atoms
@@ -57,3 +64,8 @@ first === undefined
 ? 0
 : 1 + length(rest);
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-converting-non-tail-calls-to-tail-calls]] - contextualizes: source-supported topic dependency

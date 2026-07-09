@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-magic-names-and-fat-arrows
 page_kind: concept
-summary: magic names and fat arrows: 16 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 23 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_0dc63a88f1c371db@f0cf0867b9cecb48783b919112267ba7
+projection_coverage: page-projection-pgp_da321371530a4529@ced3268c1c6feb77dcbc1cc1ba05f732
 ---
 
 # magic names and fat arrows
@@ -31,6 +31,12 @@ Source: [[javascriptallonge]]
 - Although this example is clearly unrealistic, there is a general design principle that deserves attention. (javascriptallonge.pdf p.77)
 - It's a simple representation of an expression to be computed. (javascriptallonge.pdf p.77)
 - In our example above, row is a Big-F function, but (column) => column * arguments[0] is a small-f function, it exists just to give mapWith something to apply. (javascriptallonge.pdf p.77)
+- Having magic variables apply to Big-F functions but not to small-G functions makes it much easier to use small-F functions as syntax, treating them as expressions or blocks that can be passed to functions like mapWith . (javascriptallonge.pdf p.77)
+
+## Rules
+
+- If we were writing a library of functions, we would have to disambiguate the two kinds of mapping functions with special names, namespaces, or modules. (javascriptallonge.pdf p.76)
+- But for the purposes of discussing ideas, we can use the same name twice in two different contexts. (javascriptallonge.pdf p.76)
 - Having magic variables apply to Big-F functions but not to small-G functions makes it much easier to use small-F functions as syntax, treating them as expressions or blocks that can be passed to functions like mapWith . (javascriptallonge.pdf p.77)
 
 ## Technical atoms

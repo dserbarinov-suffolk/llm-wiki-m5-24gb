@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-common-runes
 page_kind: concept
-summary: Common Runes: 7 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_2ff9d80287435fea@9973aebb61cd13dc85264fddb63e08e0
+projection_coverage: page-projection-pgp_0f5fccfe86522b13@9c302fc0b0e346eb7edffe8eba078ece
 ---
 
 # Common Runes
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - By expanding the effect of this spell, you can increase the weight of the target metal mass. (Sword World RPG - Complete Edition.pdf p.108)
 - You can increase the weight of metal that can be affected by 20 kilograms by consuming double the mental power, 40 kilograms by consuming quadruple the mental power.... (Sword World RPG - Complete Edition.pdf p.108)
@@ -24,7 +24,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - The following are common runes that characters can obtain. (Sword World RPG - Complete Edition.pdf p.108-109)
 - For detailed effects of these, please refer to the ancient magic of the same name (see Table 5-9: Common Runes). (Sword World RPG - Complete Edition.pdf p.109)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -54,16 +54,9 @@ Table 5-9: Common  Runes
  extra mental power. However, increasing
 ```
 
-<a id="atom-2"></a>
-**Atom:** rule
 
-```
-In the middle of combat, it can only be used on enemies that are engaged with you, and if you suffer damage from an enemy's counterattack, your focus will be broken and the magic's effect will be lost.
-```
+## Rules and exceptions
 
-<a id="atom-3"></a>
-**Atom:** rule
-
-```
-The game master may add other common runes at their discretion.
-```
+- By expanding the effect of this spell, you can increase the weight of the target metal mass. (Sword World RPG - Complete Edition.pdf p.108)
+- You can increase the weight of metal that can be affected by 20 kilograms by consuming double the mental power, 40 kilograms by consuming quadruple the mental power.... (Sword World RPG - Complete Edition.pdf p.108)
+- The following are common runes that characters can obtain. (Sword World RPG - Complete Edition.pdf p.108-109)

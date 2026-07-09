@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-default-arguments
 page_kind: concept
-summary: default arguments: 5 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_e117e65a8fc5fb83@800ac37f7fd9bb33eaf02696bd2aec85
+projection_coverage: page-projection-pgp_adb5909df15e6116@30fbf54d3fd3832d41e5edf666bc4218
 ---
 
 # default arguments
@@ -76,3 +76,9 @@ first === undefined
 mapWith((x) => x * x, [1, 2, 3, 4, 5])
 //=> [1,4,9,16,25]
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-factorial]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-defaults-and-destructuring]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-truthiness-and-operators
 page_kind: concept
-summary: truthiness and operators: 11 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_e7ed86092161f3fb@6f7eca3eef2790d9e7e68e9998dfda1b
+projection_coverage: page-projection-pgp_7317b36dbadeb3f1@7aeb61cd05de4b25478b4a9135407304
 ---
 
 # truthiness and operators
@@ -68,3 +68,9 @@ n === 0 || (n !== 1 && even(n - 2))
 even(42)
 //=> true
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-truthiness-and-the-ternary-operator]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-function-parameters-are-eager]] - contextualizes: source-supported topic dependency

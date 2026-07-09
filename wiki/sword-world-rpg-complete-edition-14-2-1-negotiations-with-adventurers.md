@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-14-2-1-negotiations-with-adventurers
 page_kind: concept
-summary: 14.2.1 Negotiations With Adventurers: 12 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_9a229e38ce056d43@e0b3f4d125ad0101d2ac23e4234cb792
+projection_coverage: page-projection-pgp_26b00a18f761fe3b@e0b3f4d125ad0101d2ac23e4234cb792
 ---
 
 # 14.2.1 Negotiations With Adventurers

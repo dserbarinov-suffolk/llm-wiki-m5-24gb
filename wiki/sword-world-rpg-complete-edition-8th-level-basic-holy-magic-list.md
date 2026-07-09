@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-8th-level-basic-holy-magic-list
 page_kind: concept
-summary: 8th Level Basic Holy Magic List: 17 accepted assertion(s) and 19 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 43 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_a000453f4ed8885b@98ff96674664816049f8572cffcae142
+projection_coverage: page-projection-pgp_fe5ec07d030035c6@1414c418cc05bed115299f0314ed86d5
 ---
 
 # 8th Level Basic Holy Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - By chanting this spell, the caster can summon animals (mammals, birds, reptiles, or amphibians) within a 1 kilometer radius and give them simple commands. (Sword World RPG - Complete Edition.pdf p.103)
 - However, you cannot summon different types of animals at the same time. (Sword World RPG - Complete Edition.pdf p.103)
@@ -34,7 +34,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - It also cannot regenerate missing body parts. (Sword World RPG - Complete Edition.pdf p.103)
 - This spell cannot restore a lost life or recover mental power (points). (Sword World RPG - Complete Edition.pdf p.103)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -86,85 +86,69 @@ Resist=None
 ```
 
 <a id="atom-8"></a>
-**Atom:** rule
-
-```
-You can also give commands to encourage suicide, such as jumping into a fire to become food, but if you give such commands unnecessarily, you may risk losing your priest skill depending on the god you worship.
-```
-
-<a id="atom-9"></a>
-**Atom:** example
-
-```
-The commands you give the animal should be very simple. For example, launching an attack on a specific target, delivering a certain package somewhere, heading to a certain location as a group, etc. You can also give commands to encourage suicide, such as jumping into a fire to become food, but if you give such commands unnecessarily, you may risk losing your priest skill depending on the god you worship. For example, a priest of Myrii should only use animals to buy time while he escapes from an enemy, unless the enemy is extremely unmanageable.
-```
-
-<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-11"></a>
-**Atom:** rule
-
-```
-Those within range must agree to the spell, and if so, decide how many points of mental power (points) they want to pour into the accumulation field.
-```
-
-<a id="atom-12"></a>
-**Atom:** rule
-
-```
-Those who agreed to the spell cannot take back the mental power (points) poured into the collection field.
-```
-
-<a id="atom-13"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=40
 ```
 
-<a id="atom-14"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Distance=10 meters
 ```
 
-<a id="atom-15"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Area=One
 ```
 
-<a id="atom-16"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Duration=Instant
 ```
 
-<a id="atom-17"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Effect=Get the target back to perfect health
 ```
 
-<a id="atom-18"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Resist=Negated effect
 ```
 
-<a id="atom-19"></a>
-**Atom:** rule
 
-```
-When used against undead, if the undead fails to resist, you can instantly reduce its life points 0.
-```
+## Rules and exceptions
+
+- By chanting this spell, the caster can summon animals (mammals, birds, reptiles, or amphibians) within a 1 kilometer radius and give them simple commands. (Sword World RPG - Complete Edition.pdf p.103)
+- However, you cannot summon different types of animals at the same time. (Sword World RPG - Complete Edition.pdf p.103)
+- It can be any number of animals, and you can also summon just the one closest to you, or all within range. (Sword World RPG - Complete Edition.pdf p.103)
+- Those who agree to the spell will have their mental power (points) reduced by the amount they sent to the accumulation field (at this time, if their mental power/points are reduced to 0, they will lose consciousness), but they can freely draw out the mental points stored in the accumulation field and use them to cast magic, etc. (Sword World RPG - Complete Edition.pdf p.103)
+- This spell has the effect of accumulating the mental power (points) of those within the area of effect (can be chosen by the caster at will) and creating a sort of accumulation field. (Sword World RPG - Complete Edition.pdf p.103)
+- The caster him or herself can also pour their mental power (points) into the pool. (Sword World RPG - Complete Edition.pdf p.103)
+- you cannot substitute them with mental points from the collection field. (Sword World RPG - Complete Edition.pdf p.103)
+- Also, those who do not agree cannot be forced into this spell. (Sword World RPG - Complete Edition.pdf p.103)
+- It also cannot regenerate missing body parts. (Sword World RPG - Complete Edition.pdf p.103)
+- This spell cannot restore a lost life or recover mental power (points). (Sword World RPG - Complete Edition.pdf p.103)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-7th-level-basic-holy-magic-list]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-magic-list-recall-spirit]] - contextualizes: source-supported topic dependency

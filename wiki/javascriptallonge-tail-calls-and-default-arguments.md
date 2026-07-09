@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-tail-calls-and-default-arguments
 page_kind: concept
-summary: Tail Calls (and Default Arguments): 15 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 25 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_106ee4c367739684@63182e006dae34aa5fd7cc85658634c2
+projection_coverage: page-projection-pgp_6e535ea85d759998@40bac315af1b819a40668040dd48ce30
 ---
 
 # Tail Calls (and Default Arguments)
@@ -31,6 +31,13 @@ Source: [[javascriptallonge]]
 - In practice, using a method like this with more than about 50 items in an array may cause some implementations to run very slow, run out of memory and freeze, or cause an error. (javascriptallonge.pdf p.118)
 - In fact, there are several better ways. (javascriptallonge.pdf p.118)
 - Making algorithms faster is a very highly studied field of computer science. (javascriptallonge.pdf p.118)
+
+## Rules
+
+- JavaScript cannot throw first away. (javascriptallonge.pdf p.117)
+- It can start assembling the resulting array and start discarding the information it is saving. (javascriptallonge.pdf p.118)
+- Furthermore, doubling the length of an array will double the amount of space we need on the stack, plus double all the work required to set up and tear down the housekeeping data for each call (these are called call frames , and they include the place where the function was called, an environment, and so on). (javascriptallonge.pdf p.118)
+- In practice, using a method like this with more than about 50 items in an array may cause some implementations to run very slow, run out of memory and freeze, or cause an error. (javascriptallonge.pdf p.118)
 
 ## Technical atoms
 
@@ -116,3 +123,9 @@ mapWith((x) => x * x, [
 ])
 //=> ???
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-self-similarity]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-factorial]] - contextualizes: source-supported topic dependency

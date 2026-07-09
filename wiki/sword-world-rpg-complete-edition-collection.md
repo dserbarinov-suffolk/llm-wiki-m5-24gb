@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-collection
 page_kind: concept
-summary: Collections: 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_65265d4e02878ab2@84e94368fbe00e7063f2c027c9ee6026
+projection_coverage: page-projection-pgp_318d2dbd2e3deee8@98c406e1cb3f16469de8906c12b85c49
 ---
 
 # Collections
@@ -19,6 +19,11 @@ Source: [[sword-world-rpg-complete-edition]]
 - Not only will they save you from creating scenarios, but they will also serve as a useful model when you do create your own. (Sword World RPG - Complete Edition.pdf p.8)
 - However, since there are almost no revisions, they can be used nearly as-is. (Sword World RPG - Complete Edition.pdf p.8)
 - This is because the information in this book has been modified for more general use. (Sword World RPG - Complete Edition.pdf p.8)
+- For this reason, there may be times when game balance within the scenario is not fully supported. (Sword World RPG - Complete Edition.pdf p.8)
+
+## Rules
+
+- However, since there are almost no revisions, they can be used nearly as-is. (Sword World RPG - Complete Edition.pdf p.8)
 - For this reason, there may be times when game balance within the scenario is not fully supported. (Sword World RPG - Complete Edition.pdf p.8)
 
 ## Technical atoms

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-shadowy-variables-from-a-shadowy-planet
 page_kind: concept
-summary: shadowy variables from a shadowy planet: 7 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_ff26428c4005ba56@b63cad10ce99c6bfe5b1373f9628fe96
+projection_coverage: page-projection-pgp_08ad775113d9e565@2b435e7176060db1c48be365b4ef0017
 ---
 
 # shadowy variables from a shadowy planet
@@ -44,3 +44,9 @@ Source: [[javascriptallonge]]
 (w) =>
 x + y + z
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-it-s-always-the-environment]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-which-came-first-the-chicken-or-the-egg]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-mixing-let-and-const
 page_kind: concept
-summary: mixing let and const: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 7 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_11fa102510b81d22@4d49c0b078e52c1bc1cc57dec2087615
+projection_coverage: page-projection-pgp_13d86437f23edf7d@f6b0c25e55ac3a5329bda5cb6e66a826
 ---
 
 # mixing let and const
@@ -58,3 +58,8 @@ return age;
 })()
 //=> ERROR: age is read-only
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-why-const-and-let-were-invented]] - contextualizes: source-supported topic dependency

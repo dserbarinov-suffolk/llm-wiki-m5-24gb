@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-area-aim
 page_kind: concept
-summary: Area Aim: 17 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 30 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_29fa1a4bb8b5b0c2@a51523a65f4bfb5501ea2f7efd54e0a1
+projection_coverage: page-projection-pgp_d6d623f0050f4054@db40665b3d40f13e49a21ffdea948d3a
 ---
 
 # Area Aim
@@ -33,6 +33,15 @@ Source: [[sword-world-rpg-complete-edition]]
 - Aiming for a weapon will be in vain against monsters that attack with fangs and claws on their bodies. (Sword World RPG - Complete Edition.pdf p.267)
 - For example, you probably won't be able to knock a fourlegged monster prone even if you aim for its legs. (Sword World RPG - Complete Edition.pdf p.267)
 - These processes are for when the opponent is a human or a similar race. (Sword World RPG - Complete Edition.pdf p.267)
+
+## Rules
+
+- Monsters with mental attack immunity cannot be knocked unconscious. (Sword World RPG - Complete Edition.pdf p.267)
+- Your opponent must make a life force (points) resistance roll against a target score of 10 and with damage dealt to life force as a penalty. (Sword World RPG - Complete Edition.pdf p.267)
+- Since you can only aim at one arm at a time, you cannot make your opponent drop a two-handed weapon using this method (if you make two attacks with two weapons, each aimed at a different arm, and hit, they'll drop both if they fail both resistance rolls, as described below). (Sword World RPG - Complete Edition.pdf p.267)
+- Your opponent must make a life force (points) resistance roll against a target score of 10 and with damage dealt to life force (points) as a penalty. (Sword World RPG - Complete Edition.pdf p.267)
+- If it hits, your opponent must make a success roll against target score 10, using adventurer level + strength bonus as the baseline score. (Sword World RPG - Complete Edition.pdf p.267)
+- However, this strike roll cannot result in a critical . (Sword World RPG - Complete Edition.pdf p.267)
 
 ## Technical atoms
 
@@ -77,3 +86,8 @@ In this case, you cannot deal damage to your opponent's life force.
 ```
 If an area aim is declared against other monsters, the game master should refer to these and use common sense when making decisions.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-ram]] - contextualizes: source-supported topic dependency

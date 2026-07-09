@@ -1,20 +1,20 @@
 ---
 page_id: javascriptallonge-values-are-expressions
 page_kind: concept
-summary: values are expressions: 18 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 22 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_a1167a04b56c17f1@a1e5d3750f6a49899bba678605744c5d
+projection_coverage: page-projection-pgp_507f6603d88b129b@c5f2fc9aedf5c97c803500e7b504e72d
 ---
 
 # values are expressions
 
 Source: [[javascriptallonge]]
 
-## Statements
+## Procedure
 
 - All values are expressions. (javascriptallonge.pdf p.19)
 - You say, 'I want one of these.' The barista is no fool, she gives it straight back to you, and you get exactly what you want. (javascriptallonge.pdf p.19)
@@ -35,39 +35,9 @@ Source: [[javascriptallonge]]
 - This corresponds to comparing two JavaScript values that have the same type but different 'content.' For example, the number 5 is not the same thing as the number 2 . (javascriptallonge.pdf p.21)
 - One holds a single, one a double. (javascriptallonge.pdf p.21)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-10 The way you can tell that it's both is very easy: When you type it into JavaScript, you get the same thing back, just like our café Cubano:
-```
-
-<a id="atom-2"></a>
-**Atom:** code block
-
-```
-42
-//=> 42
-```
-
-<a id="atom-3"></a>
-**Atom:** rule
-
-```
-And if we hand over the espresso, we get the espresso right back.
-```
-
-<a id="atom-4"></a>
-**Atom:** code block
-
-```
-"JavaScript" + " " + "Allonge"
-//=> "JavaScript Allonge"
-```
-
-<a id="atom-5"></a>
 **Atom:** table
 
 ```text
@@ -75,14 +45,7 @@ And if we hand over the espresso, we get the espresso right back.
 11 In some languages, expressions are a kind of value unto themselves and can be manipulated. The grandfather of such languages is Lisp. JavaScript is not such a language, expressions in and of themselves are not values.
 ```
 
-<a id="atom-6"></a>
-**Atom:** example
-
-```
-Nowwesee that 'strings' are values, and you can make an expression out of strings and an operator + . Since strings are values, they are also expressions by themselves. But strings with operators are not values, they are expressions. Now we know what was missing with our 'coffee grounds plus hot water' example. The coffee grounds were a value, the boiling hot water was a value, and the 'plus' operator between them made the whole thing an expression that was not a value.
-```
-
-<a id="atom-7"></a>
+<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -92,34 +55,8 @@ Nowwesee that 'strings' are values, and you can make an expression out of string
 2 + 2 === 4 //=> true (2 + 2 === 4) === (2 !== 5) //=> true Note well what is happening with these examples: Even when we obtain a string, number, or boolean as the result of evaluating an expression, it is identical to another value of the same type with the same “content.” Strings, numbers, and booleans are examples of what JavaScript calls “value” or “primitive” types. We’ll use both terms interchangeably. We haven’t encountered the fourth possibility yet. Stretching the metaphor somewhat, some types of cups have a serial number on the bottom. So even if you have two cups of the same type, and their contents are the same, you can still distinguish between them. Cafe Macchiato is also a fine drink, especially when following up on the fortunes of the Azzurri or the standings in the Giro d’Italia reference types So what kinds of values might be the same type and have the same contents, but not be considered identical to JavaScript? Let’s meet a data structure that is very common in contemporary programming languages, the Array (other languages sometimes call it a List or a Vector). Prelude: Values and Expressions over Coffee xviii An array looks like this: [1, 2, 3]. This is an expression, and you can combine [] with other expressions. Go wild with things like: [2-1, 2, 2+1] [1, 1+1, 1+1+1] Notice that you are always generating arrays with the same contents. But are they identical the same way that every value of is identical to every other value of 42? Try these for yourself: 42 [2-1, 2, 2+1] === [1,2,3] [1,2,3] === [1, 2, 3] [1, 2, 3] === [1, 2, 3] How about that! When you type or any of its variations, you are typing an expression [1, 2, 3] that generates its own unique array that is not identical to any other array, even if that other array also looks like 3]. It’s as if JavaScript is generating new cups of coffee with serial numbers [1, 2, on the bottom. They look the same, but if you examine them with ===, you see that they are different. Every time you evaluate an expression (including typing something in) to create an array, you’re creating a new, distinct value even if it appears to be the same as some other array value. As we’ll see, this is true of many other kinds of values, including functions, the main subject of this book.
 ```
 
-<a id="atom-8"></a>
-**Atom:** code block
 
-```
-2 === 2
-//=> true
-'hello' !== 'goodbye'
-//=> true
-```
+## Rules and exceptions
 
-<a id="atom-9"></a>
-**Atom:** code block
-
-```
-2 === '2'
-//=> false
-true !== 'true'
-//=> true
-```
-
-<a id="atom-10"></a>
-**Atom:** code block
-
-```
-true === false
-//=> false
-2 !== 5
-//=> true
-'two' === 'five'
-//=> false
-```
+- Thus, a café Cubano is an expression (you can use it to place an order) and a value (you get it back from the barista). (javascriptallonge.pdf p.19)
+- Instead of handing over the finished coffee, we can hand over the ingredients. (javascriptallonge.pdf p.19)

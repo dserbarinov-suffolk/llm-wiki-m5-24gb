@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-folding
 page_kind: concept
-summary: folding: 2 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 10 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_1936a7535811e848@9f6b7e5a3c0f3979ee885c04aee3a3b8
+projection_coverage: page-projection-pgp_e4b1a71d07903b78@69361ad51a5121715304ea3a6440c092
 ---
 
 # folding
@@ -17,6 +17,10 @@ Source: [[javascriptallonge]]
 ## Statements
 
 - Our foldWith function is a generalization of our mapWith function. (javascriptallonge.pdf p.115)
+- And to return to our first example, our version of length can be written as a fold:. (javascriptallonge.pdf p.116)
+
+## Rules
+
 - And to return to our first example, our version of length can be written as a fold:. (javascriptallonge.pdf p.116)
 
 ## Technical atoms
@@ -79,3 +83,8 @@ const length = (array) => foldWith((first, rest) => 1 + rest, 0, array);
 length([1, 2, 3, 4, 5])
 //=> 5
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-mapping]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-forcelia
 page_kind: concept
-summary: Forcelia: 33 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 37 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_5a1a71b26e07749a@dd52954c3afa4a7d48d970af71cb46b7
+projection_coverage: page-projection-pgp_fb09abd14723f4e1@9c233a0b3281071a1aef804db35bf4a4
 ---
 
 # Forcelia
@@ -49,6 +49,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - Other intelligent races that make their home in the sea also use this language. (Sword World RPG - Complete Edition.pdf p.158)
 - Lizardmen, wyrms, and elder dragons use this language as their normal language. (Sword World RPG - Complete Edition.pdf p.158)
 - It is also said to be a lesser language of dragon roar, which are the runes of dragon roar magic. (Sword World RPG - Complete Edition.pdf p.158)
+
+## Rules
+
+- If the game master desires, more regional languages may be created. (Sword World RPG - Complete Edition.pdf p.157)
+- Strictly speaking, each kingdom should have its own regional language, but we don't want to place too many restrictions on language, so the rules only allow for two broad categories: mārdan and gundar . (Sword World RPG - Complete Edition.pdf p.157)
+- Some intelligent flying races can speak this language. (Sword World RPG - Complete Edition.pdf p.158)
 
 ## Technical atoms
 

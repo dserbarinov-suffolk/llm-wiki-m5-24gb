@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-look-back-at-functional-iterators
 page_kind: concept
-summary: a look back at functional iterators: 4 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 14 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_66626f425176d876@06c29fa42124efc0fdae927ef1191316
+projection_coverage: page-projection-pgp_d93db6352e6c25f7@8071f750a9d9fedbf8b329254c6b7809
 ---
 
 # a look back at functional iterators
@@ -20,6 +20,12 @@ Source: [[javascriptallonge]]
 - We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method:. (javascriptallonge.pdf p.209)
 - If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. (javascriptallonge.pdf p.209)
 - Our functions don't need to know anything about how an object implements iteration, and we get the benefit of lazily traversing our objects. (javascriptallonge.pdf p.209)
+
+## Rules
+
+- We can do the same thing for objects. (javascriptallonge.pdf p.206)
+- We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method:. (javascriptallonge.pdf p.209)
+- If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. (javascriptallonge.pdf p.209)
 
 ## Technical atoms
 
@@ -135,3 +141,8 @@ return sum
 collectionSum(stack)
 //=> 6
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-iterator-objects]] - contextualizes: source-supported topic dependency

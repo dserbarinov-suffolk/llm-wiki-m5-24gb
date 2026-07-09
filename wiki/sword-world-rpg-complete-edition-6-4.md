@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-6-4
 page_kind: concept
-summary: 6.4: 10 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 14 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_365f047c1b6782d1@dd7fe72e595e3445b70f84728d48c798
+projection_coverage: page-projection-pgp_d523700ce8edd36e@9338c9611d63d4f1172fb050cdc090d6
 ---
 
 # 6.4
@@ -25,6 +25,10 @@ Source: [[sword-world-rpg-complete-edition]]
 - Using sage skill level + intelligence bonus as the baseline score, make a success roll with this rarity as the target score, and if you succeed, you know the monster. (Sword World RPG - Complete Edition.pdf p.118)
 - Each monster has a score called rarity . (Sword World RPG - Complete Edition.pdf p.118)
 - If the check fails, the character has no knowledge of the monster. (Sword World RPG - Complete Edition.pdf p.118)
+- Sages can learn different languages depending on their skill level. (Sword World RPG - Complete Edition.pdf p.118)
+
+## Rules
+
 - Sages can learn different languages depending on their skill level. (Sword World RPG - Complete Edition.pdf p.118)
 
 ## Technical atoms

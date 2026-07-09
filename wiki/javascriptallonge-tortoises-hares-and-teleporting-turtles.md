@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-tortoises-hares-and-teleporting-turtles
 page_kind: concept
-summary: Tortoises, Hares, and Teleporting Turtles: 7 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_e0b6335c1a78cd20@6441ef189c68544fceb398494b7d14a8
+projection_coverage: page-projection-pgp_438e8869869f9f26@241e5708f7f463d17ef283cf919ef9f9
 ---
 
 # Tortoises, Hares, and Teleporting Turtles
@@ -115,3 +115,8 @@ forceAppend(aList, aList.rest.rest);
 teleportingTurtle(aList);
 //=> true
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-functional-iterators]] - contextualizes: source-supported topic dependency

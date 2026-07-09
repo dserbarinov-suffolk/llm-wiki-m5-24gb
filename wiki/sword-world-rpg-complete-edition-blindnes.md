@@ -1,25 +1,25 @@
 ---
 page_id: sword-world-rpg-complete-edition-blindnes
 page_kind: concept
-summary: Blindness: 2 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_50e02be8c78ad708@9b5a331fede7e9a3e4f9dd5e3dd47faa
+projection_coverage: page-projection-pgp_13d3aeca64646aa8@adc71c5059e6b592515d8a4d0c2d9909
 ---
 
 # Blindness
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - If the target successfully resists, it'll have no effect. (Sword World RPG - Complete Edition.pdf p.143)
 - This spell has the effect of taking away the target's vision. (Sword World RPG - Complete Edition.pdf p.143)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula

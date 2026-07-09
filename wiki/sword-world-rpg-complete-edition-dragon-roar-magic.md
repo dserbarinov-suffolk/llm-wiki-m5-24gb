@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-dragon-roar-magic
 page_kind: concept
-summary: Dragon Roar Magic: 16 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 21 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_146a266484720ab9@731beb7b55ceb1fbfede8998474a6f7f
+projection_coverage: page-projection-pgp_caae9283f70fa20e@509ca6d18f8d51046e6d4149dd505feb
 ---
 
 # Dragon Roar Magic
@@ -30,6 +30,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - However, the original cause of this incident was that the savage tribes on the shores of Lake Air, where Krish was born and raised, were all exterminated because they were evil believers who worshiped dragons. (Sword World RPG - Complete Edition.pdf p.149)
 - It is a famous story that the evil dragon that destroyed the kingdom of Moraana, which had flourished in the central part of Alecrast, was the reincarnation of Krish, a user of dragon roar magic. (Sword World RPG - Complete Edition.pdf p.149)
 - Dragon priests will not join an adventurer's party due to their religious beliefs. (Sword World RPG - Complete Edition.pdf p.149)
+- It can be said that this skill is not suitable for a player character. (Sword World RPG - Complete Edition.pdf p.149)
+- Dragon priests worship dragons, so the dragon priest skill cannot be acquired at the same time as the priest skill (and dark priest skill). (Sword World RPG - Complete Edition.pdf p.149)
+
+## Rules
+
+- Even if Silence or Mute spirit magic is cast on you, you can still use dragon roar magic!. (Sword World RPG - Complete Edition.pdf p.149)
+- Through repeated training, users of dragon roar magic can master the physical, mental, and magical transcendental abilities of dragons. (Sword World RPG - Complete Edition.pdf p.149)
 - It can be said that this skill is not suitable for a player character. (Sword World RPG - Complete Edition.pdf p.149)
 - Dragon priests worship dragons, so the dragon priest skill cannot be acquired at the same time as the priest skill (and dark priest skill). (Sword World RPG - Complete Edition.pdf p.149)
 

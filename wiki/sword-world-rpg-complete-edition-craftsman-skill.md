@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-craftsman-skill
 page_kind: concept
-summary: Craftsman Skill: 20 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 29 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_02abc20241a5a420@f8093277013fbaecb8f9a68c7a47149c
+projection_coverage: page-projection-pgp_7f3c5bcd2064d6f6@017e2805e01fdf6bd16bef92a4642bf6
 ---
 
 # Craftsman Skill
@@ -37,6 +37,15 @@ Source: [[sword-world-rpg-complete-edition]]
 - The target score is 15 + the decrease in required strength . (Sword World RPG - Complete Edition.pdf p.126)
 - Craftsmen know how high the quality of the products they have made are, so naturally they can determine the value of items made by others. (Sword World RPG - Complete Edition.pdf p.126)
 
+## Rules
+
+- Also, a craftsman must belong to a guild. (Sword World RPG - Complete Edition.pdf p.126)
+- Of course, depending on the item, you may need tools and equipment. (Sword World RPG - Complete Edition.pdf p.126)
+- Success rolls are not required to create items of normal quality, but success rolls are required for weapon The price will increase or decrease by about 3% for every 1 point of difference in the final score. (Sword World RPG - Complete Edition.pdf p.126)
+- Since the difference between the two is 16-8= 8 , the antique dealer can offer to take it for 38 gamels, which is 8 x 3%, or 24% off, from the normal taking price (i.e. (Sword World RPG - Complete Edition.pdf p.126)
+- Ducard II thinks the price is unreasonable, but he can't refute the antique dealer's argument and agrees to sell the vase at that price. (Sword World RPG - Complete Edition.pdf p.126)
+- Craftsmen know how high the quality of the products they have made are, so naturally they can determine the value of items made by others. (Sword World RPG - Complete Edition.pdf p.126)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -45,3 +54,9 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 However, you cannot create weapons or armor with a required strength of 6 or lower.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-7-3]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-healer-skill]] - contextualizes: source-supported topic dependency

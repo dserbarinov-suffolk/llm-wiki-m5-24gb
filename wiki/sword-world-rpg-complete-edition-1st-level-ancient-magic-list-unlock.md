@@ -1,27 +1,27 @@
 ---
 page_id: sword-world-rpg-complete-edition-1st-level-ancient-magic-list-unlock
 page_kind: concept
-summary: 1st Level Ancient Magic List [ Unlock ]: 4 accepted assertion(s) and 20 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 27 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_8fa269c416377cf2@735e6456b727d0c9bc1dc464f1873418
+projection_coverage: page-projection-pgp_299855f938afb2aa@d12bf1483f0aa861224dc682aa6204fe
 ---
 
 # 1st Level Ancient Magic List [ Unlock ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - This arrow will never miss. (Sword World RPG - Complete Edition.pdf p.68)
 - So a strike power 10 weapon would become 15. (Sword World RPG - Complete Edition.pdf p.68)
 - Attack power and critical target do not change. (Sword World RPG - Complete Edition.pdf p.68)
 - This spell can be used on any weapon (of any type) and adds +5 to that weapon's strike power. (Sword World RPG - Complete Edition.pdf p.68)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -162,3 +162,13 @@ Type=Weapon enhancement
 ```
 Resist=None
 ```
+
+
+## Rules and exceptions
+
+- This spell can be used on any weapon (of any type) and adds +5 to that weapon's strike power. (Sword World RPG - Complete Edition.pdf p.68)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-detail]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-ancient-magic-list]] - contextualizes: source-supported topic dependency

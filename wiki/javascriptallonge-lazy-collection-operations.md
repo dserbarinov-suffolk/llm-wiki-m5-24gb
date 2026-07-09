@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-lazy-collection-operations
 page_kind: concept
-summary: lazy collection operations: 10 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 23 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_3b8a1c45bf9ab609@da76875e7e3d20c6bdaf6e3d81bc4bb8
+projection_coverage: page-projection-pgp_342b9c69d8a6d69d@a467580ed883d7188881d7d6147501f7
 ---
 
 # lazy collection operations
@@ -26,6 +26,12 @@ Source: [[javascriptallonge]]
 - Finally, we take the first element of that filtered , squared iterable and now JavaScript actually iterates over the stack's elements, and it only needs to square two of those elements, 29 and 28 , to return the answer. (javascriptallonge.pdf p.254)
 - This is why 'pure' functional languages like Haskell combine lazy semantics with immutable collections, and why even 'impure' languages like Clojure emphasize the use of immutable collections. (javascriptallonge.pdf p.256)
 - If we mutate a collection after taking an iterable, we might get an unexpected result. (javascriptallonge.pdf p.256)
+
+## Rules
+
+- But it can be an excellent strategy for efficiency in algorithms. (javascriptallonge.pdf p.253)
+- Same with .filter , we get an iterable that can iterate over the even squares, but not an actual stack or array. (javascriptallonge.pdf p.254)
+- It maps to the squares of all 30 numbers, but our code for mapping an iteration returns an iterable that can iterate over the squares of our numbers, not an array or stack of the squares. (javascriptallonge.pdf p.254)
 
 ## Technical atoms
 
@@ -180,3 +186,9 @@ Numbers
 .first()
 //=> 1331
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-implementing-methods-with-iteration]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-eager-collections]] - contextualizes: source-supported topic dependency

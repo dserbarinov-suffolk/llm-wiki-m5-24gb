@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-mithril-silver-weapons-and-armor
 page_kind: concept
-summary: Mithril Silver Weapons and Armor: 15 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 23 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_5e6eb047a1feb132@ea88b9bef9c30b5d8193fb925524a600
+projection_coverage: page-projection-pgp_806c62dc1a62d093@fc408c5a4dd5b6002f1fed6eb69bab42
 ---
 
 # Mithril Silver Weapons and Armor
@@ -32,6 +32,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - Mithril silver chain mail does not interfere with the thief or ranger skills. (Sword World RPG - Complete Edition.pdf p.52-53)
 - It should be noted that, although this does not affect the numeric aspects of the game, mithril silver can be made to emit a variety of colors depending on how it's processed, and these colors will never fade. (Sword World RPG - Complete Edition.pdf p.53)
 
+## Rules
+
+- Therefore, you can find a broadsword clad in mithril silver that has required strength 16 and strike power 21 . (Sword World RPG - Complete Edition.pdf p.52)
+- Therefore, a shaman can wear mithril silver armor and still use spirit magic. (Sword World RPG - Complete Edition.pdf p.52)
+- It should be noted that, although this does not affect the numeric aspects of the game, mithril silver can be made to emit a variety of colors depending on how it's processed, and these colors will never fade. (Sword World RPG - Complete Edition.pdf p.53)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -54,3 +60,9 @@ Mithril silver weapons can deal damage to monsters that normal weapons cannot ha
 ```
 Mithril silver weapons and armor are never , if ever, placed in shops or traded for money.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-magical-weapons-and-armor]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-forger-of-colors]] - contextualizes: source-supported topic dependency

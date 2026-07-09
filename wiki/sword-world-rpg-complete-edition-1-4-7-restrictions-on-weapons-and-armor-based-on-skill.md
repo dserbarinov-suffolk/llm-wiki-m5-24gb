@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-1-4-7-restrictions-on-weapons-and-armor-based-on-skill
 page_kind: concept
-summary: 1.4.7 Restrictions on Weapons and Armor Based on Skill: 34 accepted assertion(s) and 12 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 50 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_d16ed6a95f462aaf@252d9518e3a93ea96e885c5c4c0e8ef9
+projection_coverage: page-projection-pgp_9e1110dc9ae52fba@4702f42d588ce79f73514bae1060b448
 ---
 
 # 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - The general rule is to choose one whose required strength equals the character's strength , but a character may be substantially limited by the skills they have. (Sword World RPG - Complete Edition.pdf p.23)
 - In this case, it wouldn't make sense to have the shaman skill. (Sword World RPG - Complete Edition.pdf p.23)
@@ -51,16 +51,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - If we have a large shield, the ranger skill will be limited, so our choice here is limited to a small shield . (Sword World RPG - Complete Edition.pdf p.24)
 - Since our starting amount was 1200 gamels, our character now has 1200 - 320 - 240 - 60 = 580 gamels remaining. (Sword World RPG - Complete Edition.pdf p.24)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-If the equipment has both unrestricted and restricted skills, please understand that your equipment must conform to the restricted skill if you want to take full advantage of both skills.
-```
-
-<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -71,72 +64,33 @@ Table 1-9: Armor
 | However, character's | in defensive | terms |  | of ability, | increasing the effects | a Lamellar armor 11~22 x70+70 of Plate armor 13~ x100+100 |
 ```
 
-<a id="atom-3"></a>
-**Atom:** rule
-
-```
-If you want to take advantage of your thief skill, your weapons and armor must be light .
-```
-
-<a id="atom-4"></a>
-**Atom:** rule
-
-```
-If you want to make use of your ranger skill, your armor must be light .
-```
-
-<a id="atom-5"></a>
-**Atom:** rule
-
-```
-Therefore, it is a good idea to choose a projectile, if you have to choose a weapon.
-```
-
-<a id="atom-6"></a>
-**Atom:** rule
-
-```
-If you want to make use of your sorcerer skill, your armor must be cloth or soft leather .
-```
-
-<a id="atom-7"></a>
-**Atom:** rule
-
-```
-If the character's strength is 10 or less, it is appropriate to buy one with the same required strength as the character's strength; if the character's strength is 10 or greater, it is appropriate to buy one with a required strength of 10.
-```
-
-<a id="atom-8"></a>
-**Atom:** rule
-
-```
-If a character has acquired only these skills, the basic idea is to choose weapons and armor whose required strength is the same as their own strength.
-```
-
-<a id="atom-9"></a>
-**Atom:** rule
-
-```
-So, when choosing a weapon, we'll choose one that has a required strength equal to the character's strength (14).
-```
-
-<a id="atom-10"></a>
+<a id="atom-2"></a>
 **Atom:** formula
 
 ```
 The price is 14 x 20 + 40 = 320 (gamels).
 ```
 
-<a id="atom-11"></a>
-**Atom:** rule
-
-```
-When choosing armor, the ranger skill's limitations come into play (required strength can only be up to half one's own strength, armor can only be non-metal or ring mail ).
-```
-
-<a id="atom-12"></a>
+<a id="atom-3"></a>
 **Atom:** formula
 
 ```
 The price is 7 x 30 + 30 = 240 (gamels).
 ```
+
+
+## Rules and exceptions
+
+- The general rule is to choose one whose required strength equals the character's strength , but a character may be substantially limited by the skills they have. (Sword World RPG - Complete Edition.pdf p.23)
+- For example, if one with the shaman skill wears metal armor, they cannot use spirit magic, which is the primary ability of the shaman skill. (Sword World RPG - Complete Edition.pdf p.23)
+- Weapons and armor that have a required strength less than your own strength will make your character's attack and defense incomplete, and weapons and armor with a required strength greater than your own strength cannot be handled. (Sword World RPG - Complete Edition.pdf p.23)
+- For armor, metal armor other than ring mail may not be used, regardless of the character's strength or required strength. (Sword World RPG - Complete Edition.pdf p.23)
+- For armor, metal armor other than ring mail may not be used, regardless of the character's strength or required strength. (Sword World RPG - Complete Edition.pdf p.23)
+- Y ou should buy a weapon whose required strength is the same as your own strength. (Sword World RPG - Complete Edition.pdf p.23)
+- Also, you should not buy a shield. (Sword World RPG - Complete Edition.pdf p.24)
+- Either of these should be the one with the greatest required strength within the character's strength range. (Sword World RPG - Complete Edition.pdf p.24)
+- Also, you should not buy a shield. (Sword World RPG - Complete Edition.pdf p.24)
+- Of these, the one with the greatest required strength within the character's strength range should be chosen. (Sword World RPG - Complete Edition.pdf p.24)
+- Ranger has an advantage in projectiles, but this is consequently irrelevant because of the higher level of the can use any weapon fighter. (Sword World RPG - Complete Edition.pdf p.24)
+- Our character's strength is 14, so we can buy armor with a required strength of 7. (Sword World RPG - Complete Edition.pdf p.24)
+- Since a broadsword is a one-handed weapon, this character can also hold a shield. (Sword World RPG - Complete Edition.pdf p.24)

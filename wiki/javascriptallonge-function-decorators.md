@@ -1,26 +1,26 @@
 ---
 page_id: javascriptallonge-function-decorators
 page_kind: concept
-summary: function decorators: 3 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_f28c0c921fc52977@94e69125379819188e50e687de1769e5
+projection_coverage: page-projection-pgp_8ff172cee865ccd5@81a010ee422f9e708d81d9246d762d62
 ---
 
 # function decorators
 
 Source: [[javascriptallonge]]
 
-## Statements
+## Procedure
 
 - So instead of writing !someFunction(42) , we can write not(someFunction)(42) . (javascriptallonge.pdf p.70)
 - not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. (javascriptallonge.pdf p.70)
 - Function decorators aren't strict about being pure functions, so there's more latitude for making decorators than combinators. (javascriptallonge.pdf p.70)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -32,30 +32,11 @@ A function decorator is a higher-order function that takes one function as an ar
 38 We'll see later why an even more useful version would be written (fn) => (...args) => !fn(...args)
 ```
 
-<a id="atom-2"></a>
-**Atom:** code block
 
-```
-const not = (fn) => (x) => !fn(x)
-```
+## Rules and exceptions
 
-<a id="atom-3"></a>
-**Atom:** code block
+- So instead of writing !someFunction(42) , we can write not(someFunction)(42) . (javascriptallonge.pdf p.70)
 
-```
-const something = (x) => x != null;
-```
+## Related pages
 
-<a id="atom-4"></a>
-**Atom:** code block
-
-```
-const nothing = (x) => !something(x);
-```
-
-<a id="atom-5"></a>
-**Atom:** code block
-
-```
-const nothing = not(something);
-```
+- [[javascriptallonge-balanced-statement-about-combinators]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-18-3-3-handling-spirit-walls
 page_kind: concept
-summary: 18.3.3 Handling Spirit Walls: 7 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_74797be071478819@922f3368757c3d6806e649551fb24c5c
+projection_coverage: page-projection-pgp_f16f7960197a25c1@922f3368757c3d6806e649551fb24c5c
 ---
 
 # 18.3.3 Handling Spirit Walls

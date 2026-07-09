@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-hunter-skill
 page_kind: concept
-summary: Hunter Skill: 11 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_11f9a22201877163@75d80b17155ef6f978c62fda8df1fe72
+projection_coverage: page-projection-pgp_2ccc0eb7acab848e@d86e7a4687eee584a879c82a6651c87d
 ---
 
 # Hunter Skill
@@ -28,6 +28,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - If this pre-processing fails, the value of the product will decrease to half of its normal value. (Sword World RPG - Complete Edition.pdf p.127)
 - For each pre-processing attempt, the game master should set a target score and have the player make a success roll. (Sword World RPG - Complete Edition.pdf p.127)
 
+## Rules
+
+- It may not be difficult to cut off the horns, but tasks like skinning small animals and Healers also know how to effectively treat illnesses. (Sword World RPG - Complete Edition.pdf p.127)
+- This is the ability to pre-process the prey obtained from hunting so that it can be sold as a product. (Sword World RPG - Complete Edition.pdf p.127)
+- For each pre-processing attempt, the game master should set a target score and have the player make a success roll. (Sword World RPG - Complete Edition.pdf p.127)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -36,3 +42,9 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 You can also use it to take apart and smoke meat.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-healer-skill]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-sailor-skill]] - contextualizes: source-supported topic dependency

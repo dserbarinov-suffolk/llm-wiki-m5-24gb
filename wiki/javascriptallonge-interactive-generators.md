@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-interactive-generators
 page_kind: concept
-summary: Interactive Generators: 13 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 15 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_066f7af2abba9f1d@c7e1492a20f2d3a9af6bf7e3ec342914
+projection_coverage: page-projection-pgp_f9a769a89a243d94@39384152603a8b91116c96755ec5e05f
 ---
 
 # Interactive Generators
@@ -29,6 +29,10 @@ Source: [[javascriptallonge]]
 - It isn't a collection, it has no meaning if we try to spread it into parameters or as the subject of a for..of block. (javascriptallonge.pdf p.283)
 - And sometimes, we want to use implicit state instead of explicitly storing state in our data. (javascriptallonge.pdf p.283)
 - But the generator function allows us to maintain state implicitly. (javascriptallonge.pdf p.283)
+
+## Rules
+
+- The moves a player makes are a stream of values, just like the contents of an array can be consider a stream of values. (javascriptallonge.pdf p.273)
 
 ## Technical atoms
 

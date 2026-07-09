@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-lost-spells
 page_kind: concept
-summary: Lost Spells: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 7 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_d1dff64fb1a7c39e@0036e4e5421e21a504731df31138c98b
+projection_coverage: page-projection-pgp_aad9a4b2fe4983e3@9d8bb308b9ad631702ce8ab2883f9da0
 ---
 
 # Lost Spells
@@ -22,3 +22,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - These are called lost spells . (Sword World RPG - Complete Edition.pdf p.273)
 - You must know of a spell's existence and learn how to use it. (Sword World RPG - Complete Edition.pdf p.273)
 - The learning methods are as follows. (Sword World RPG - Complete Edition.pdf p.273)
+
+## Rules
+
+- You must know of a spell's existence and learn how to use it. (Sword World RPG - Complete Edition.pdf p.273)

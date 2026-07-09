@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-4th-level-ancient-magic-list-counter-sense
 page_kind: concept
-summary: 4th Level Ancient Magic List [ Counter Sense ]: 37 accepted assertion(s) and 44 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 92 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_97dfeae0f17811fe@dda5aed5397d8763aeec867bc40d9600
+projection_coverage: page-projection-pgp_2c00a96a6003a2ad@30db8e16949478339aca119414112736
 ---
 
 # 4th Level Ancient Magic List [ Counter Sense ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Effect=You can negate the power of detection spells and items, and know the type (effect) of spell or item, the one who cast it, their whereabouts, etc. (Sword World RPG - Complete Edition.pdf p.73)
 - At the same time, it will also reveal the type (effect) of spell or item used on you, as well as the clear identity of the person who used it (not just knowing their name, but what they look like). (Sword World RPG - Complete Edition.pdf p.73)
@@ -54,7 +54,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - No matter how far away the object is from the caster, the spell will still take effect. (Sword World RPG - Complete Edition.pdf p.74-75)
 - Therefore, unspecified objects such as a sword or a goblin cannot be detected (it's not possible if it's my favorite sword ). (Sword World RPG - Complete Edition.pdf p.74-75)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -99,267 +99,261 @@ Resist=None
 ```
 
 <a id="atom-7"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-If you cast this spell, you can know if you or something you're wearing is being detected by a magical item or spell.
+Base Mental Power Cost=16
 ```
 
 <a id="atom-8"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-You cannot cast this spell multiple times in advance, to be able to trace back multiple times without having to recast it.
+Base Mental Power Cost=20
 ```
 
 <a id="atom-9"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=16
-```
-
-<a id="atom-10"></a>
-**Atom:** rule
-
-```
-However, you can feel their presence if you touch them.
-```
-
-<a id="atom-11"></a>
-**Atom:** formula
-
-```
-Base Mental Power Cost=20
-```
-
-<a id="atom-12"></a>
-**Atom:** formula
-
-```
 Distance=Caster
 ```
 
-<a id="atom-13"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Area=Caster
 ```
 
-<a id="atom-14"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Type=Target score
 ```
 
-<a id="atom-15"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Expansion=Final score
 ```
 
-<a id="atom-16"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-17"></a>
-**Atom:** rule
-
-```
-The caster can cancel the spell's effect at any time, but once it's canceled, you cannot take on that form again unless you cast the spell again.
-```
-
-<a id="atom-18"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=12
 ```
 
-<a id="atom-19"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-20"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Duration=18 rounds
 ```
 
-<a id="atom-21"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Effect=The caster can distinguish the kind of powers present in their surroundings
 ```
 
-<a id="atom-22"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Type=Detection
 ```
 
-<a id="atom-23"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Expansion=Duration
 ```
 
-<a id="atom-24"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-25"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=12
 ```
 
-<a id="atom-26"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Duration=1 hour
 ```
 
-<a id="atom-27"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Effect=Become able to speak unknown languages
 ```
 
-<a id="atom-28"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Area=One
 ```
 
-<a id="atom-29"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Duration=Until focus ends
 ```
 
-<a id="atom-30"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Effect=Completely seals
 ```
 
-<a id="atom-31"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=20
 ```
 
-<a id="atom-32"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Distance=20 Meters
 ```
 
-<a id="atom-33"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Area=A space with a 3 meter radius
 ```
 
-<a id="atom-34"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Duration=Instant
 ```
 
-<a id="atom-35"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Type=Damage (Fire-type)
 ```
 
-<a id="atom-36"></a>
+<a id="atom-32"></a>
 **Atom:** formula
 
 ```
 Resist=Reduced effect
 ```
 
-<a id="atom-37"></a>
+<a id="atom-33"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=16
 ```
 
-<a id="atom-38"></a>
+<a id="atom-34"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-39"></a>
+<a id="atom-35"></a>
 **Atom:** formula
 
 ```
 Area=Infinite
 ```
 
-<a id="atom-40"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Duration=1 Day
 ```
 
-<a id="atom-41"></a>
+<a id="atom-37"></a>
 **Atom:** formula
 
 ```
 Effect=Know the direction in which a target item is located
 ```
 
-<a id="atom-42"></a>
+<a id="atom-38"></a>
 **Atom:** formula
 
 ```
 Type=Detection
 ```
 
-<a id="atom-43"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Expansion=Duration
 ```
 
-<a id="atom-44"></a>
+<a id="atom-40"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
+
+
+## Rules and exceptions
+
+- Effect=You can negate the power of detection spells and items, and know the type (effect) of spell or item, the one who cast it, their whereabouts, etc. (Sword World RPG - Complete Edition.pdf p.73)
+- After that the effect of the Counter Sense spell vanishes (although you can recast it, of course). (Sword World RPG - Complete Edition.pdf p.73)
+- This spell cannot be cast on others. (Sword World RPG - Complete Edition.pdf p.73-74)
+- You can only change into humans, fae, youma, titans, and animals, and only those the caster knows in detail (you must succeed on a roll such as the sage skill's monster check ). (Sword World RPG - Complete Edition.pdf p.74)
+- You can never change into something whose origins are not clearly known, such as magical beasts, mythical beasts, etc. (Sword World RPG - Complete Edition.pdf p.74)
+- You can think of the maximum as a 6meter tall titan and the minimum as a medium-sized cat. (Sword World RPG - Complete Edition.pdf p.74)
+- However, the creatures they can change into are limited to about 10 times or 1/10th of the caster's weight. (Sword World RPG - Complete Edition.pdf p.74)
+- The caster will not lose their sense of self, and can cancel the spell at will. (Sword World RPG - Complete Edition.pdf p.74)
+- This spell only allows you to speak one language each time you cast it, so in order to be able to speak two or three unknown languages at the same time, you must expand the effect of the spell. (Sword World RPG - Complete Edition.pdf p.74)
+- To maintain this spell, the caster must keep focus. (Sword World RPG - Complete Edition.pdf p.74)
+- Someone who's had this spell cast on them may only attempt to resist the first time the spell is cast. (Sword World RPG - Complete Edition.pdf p.74)
+- Also, the closer you get, the more you can feel its presence, so you can get a rough estimate of the distance. (Sword World RPG - Complete Edition.pdf p.74-75)
+- Therefore, unspecified objects such as a sword or a goblin cannot be detected (it's not possible if it's my favorite sword ). (Sword World RPG - Complete Edition.pdf p.74-75)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-3rd-level-ancient-magic-list]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-5th-level-ancient-magic-list-apport]] - contextualizes: source-supported topic dependency

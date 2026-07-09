@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-tunnel-gnome-earth-spirit
 page_kind: concept
-summary: [ Tunnel ] (Gnome/Earth Spirit): 13 accepted assertion(s) and 5 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 23 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_f8409300b18569d6@f95da1828c5001bcc081fa926a6cb2b8
+projection_coverage: page-projection-pgp_34bb6dfda4d79e34@c5cdc112f555d1de08ccf1eb32cf8d20
 ---
 
 # [ Tunnel ] (Gnome/Earth Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - The effect of this spell can be expanded regarding the size of the hole being made (target volume). (Sword World RPG - Complete Edition.pdf p.88)
 - In other words, you can 't open holes in two walls with one spell. (Sword World RPG - Complete Edition.pdf p.88)
@@ -30,7 +30,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - At this time, those at the bottom of the hole will not be buried alive. (Sword World RPG - Complete Edition.pdf p.88)
 - Once the duration has expired, the hole will slowly return to its original state. (Sword World RPG - Complete Edition.pdf p.88)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -86,3 +86,15 @@ Target freezes in fear. They become unable to act
 Same as above
 12 Target loses consciousness from fear. It takes 1 hour to regain consciousness naturally
 ```
+
+
+## Rules and exceptions
+
+- The effect of this spell can be expanded regarding the size of the hole being made (target volume). (Sword World RPG - Complete Edition.pdf p.88)
+- In other words, you can 't open holes in two walls with one spell. (Sword World RPG - Complete Edition.pdf p.88)
+- those present can attempt to resist. (Sword World RPG - Complete Edition.pdf p.88)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-sleep-sandman-mind-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-fear-shade-dark-spirit]] - contextualizes: source-supported topic dependency

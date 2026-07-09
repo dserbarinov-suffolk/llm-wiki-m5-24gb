@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-13-2-1
 page_kind: concept
-summary: 13.2.1: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_ed14f76b0af0f8f3@ed52ad44625b2a329e39935fe8aa2a69
+projection_coverage: page-projection-pgp_2fd78ae6f79a2c4e@ed52ad44625b2a329e39935fe8aa2a69
 ---
 
 # 13.2.1

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-quasi-literal
 page_kind: concept
-summary: quasi-literals: 6 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_47946ded39bed72e@d1e0f55ffd5516d06fad0eb91dd8ef6d
+projection_coverage: page-projection-pgp_6273681eb3210536@9fa12a6faf25ed80873c23e2e095cd7a
 ---
 
 # quasi-literals
@@ -22,6 +22,11 @@ Source: [[javascriptallonge]]
 - Aquasi-literal is computationally equivalent to an expression using + . (javascriptallonge.pdf p.203)
 - Quasi-literals are expressions that resemble their result. (javascriptallonge.pdf p.204)
 - However, there is a big semantic difference between a quasi-literal and an expression. (javascriptallonge.pdf p.204)
+
+## Rules
+
+- Quasi-literal strings are denoted with back quotes, and most strings that can be expressed as literals have the exact same meaning as quasi-literals, e.g. (javascriptallonge.pdf p.203)
+- A quasi-literal can contain an expression to be evaluated. (javascriptallonge.pdf p.203)
 
 ## Technical atoms
 
@@ -58,3 +63,8 @@ Source: [[javascriptallonge]]
 'A popular number for nerds is' + (40 + 2)
 //=> 'A popular number for nerds is42'
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-evaluation-time]] - contextualizes: source-supported topic dependency

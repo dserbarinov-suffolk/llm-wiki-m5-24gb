@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-more-generators
 page_kind: concept
-summary: more generators: 3 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_380a7cb7fe6408c5@f76fc551ee585b4ee508c86a76ecc7db
+projection_coverage: page-projection-pgp_6c1429cf94a63924@cc77ddf0c2ee78e663682f8511d4986b
 ---
 
 # more generators
@@ -175,3 +175,9 @@ console.log(i);
 144
 ...
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-generators-and-iterables]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-yielding-iterables]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-copy-on-read
 page_kind: concept
-summary: copy-on-read: 7 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_c07144304dbbacde@976445a1ea6c2152fd93c9f9cc88df56
+projection_coverage: page-projection-pgp_ef9a96a2a07c34fe@d7f0a9fde98fc3616e26934c083a7caa
 ---
 
 # copy-on-read
@@ -23,6 +23,10 @@ Source: [[javascriptallonge]]
 - Sometimes we don't need to make a copy because we won't be modifying the list. (javascriptallonge.pdf p.161)
 - As we expected , making a copy lets us modify the copy without interfering with the original. (javascriptallonge.pdf p.161)
 - Our mapWith function would be very expensive if we make a copy every time we call rest(node) . (javascriptallonge.pdf p.161)
+
+## Rules
+
+- Thereafter, we can write to the parent or the copy of the child freely. (javascriptallonge.pdf p.161)
 
 ## Technical atoms
 

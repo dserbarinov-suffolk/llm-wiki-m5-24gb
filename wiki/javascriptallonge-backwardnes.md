@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-backwardnes
 page_kind: concept
-summary: backwardness: 4 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_36ce370fd79798e0@193bb36bb7d9f85373a8f4cabc114b33
+projection_coverage: page-projection-pgp_e6841941e35799a8@2520d1c3d5e0e5a53bb128a2f059bc75
 ---
 
 # backwardness
@@ -61,3 +61,9 @@ latin(first)
 latin(second)
 //=> "secundus"
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-kestrel-and-the-idiot]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-vireo]] - contextualizes: source-supported topic dependency

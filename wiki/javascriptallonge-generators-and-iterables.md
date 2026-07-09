@@ -1,20 +1,20 @@
 ---
 page_id: javascriptallonge-generators-and-iterables
 page_kind: concept
-summary: generators and iterables: 7 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_ce69548962482358@ea5ec902835589fe4baf16ae80135f20
+projection_coverage: page-projection-pgp_76b434583f5f8876@a86973a6941d1511e1a4ef8194b83d01
 ---
 
 # generators and iterables
 
 Source: [[javascriptallonge]]
 
-## Statements
+## Procedure
 
 - We write the function to yield values instead of return a single value, and JavaScript takes care of turning this into an object with a .next() function we can call. (javascriptallonge.pdf p.234)
 - Our generator function oneTwoThree is not an iterator. (javascriptallonge.pdf p.234)
@@ -24,52 +24,9 @@ Source: [[javascriptallonge]]
 - Because it's declared *[Symbol.iterator] , it's a generator instead of an iterator. (javascriptallonge.pdf p.236)
 - This object declares a [Symbol.iterator] function that makes it iterable. (javascriptallonge.pdf p.236)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-If we call our generator function more than once, we get new iterators.
-```
-
-<a id="atom-2"></a>
-**Atom:** code block
-
-```
-const ThreeNumbers = {
-[Symbol.iterator]: function * () {
-yield 1;
-yield 2;
-yield 3
-}
-}
-for (const i of ThreeNumbers) {
-console.log(i);
-}
-//=>
-1
-2
-3
-[...ThreeNumbers]
-//=>
-[1,2,3]
-const iterator = ThreeNumbers[Symbol.iterator]();
-iterator.next()
-//=>
-{"done":false, value: 1}
-iterator.next()
-//=>
-{"done":false, value: 2}
-iterator.next()
-//=>
-{"done":false, value: 3}
-iterator.next()
-//=>
-{"done":true}
-```
-
-<a id="atom-3"></a>
 **Atom:** table
 
 ```text
@@ -172,15 +129,13 @@ console.log(n)
 }
 ```
 
-<a id="atom-4"></a>
-**Atom:** code block
 
-```
-const ThreeNumbers = {
-*[Symbol.iterator] () {
-yield 1;
-yield 2;
-yield 3
-}
-}
-```
+## Rules and exceptions
+
+- We write the function to yield values instead of return a single value, and JavaScript takes care of turning this into an object with a .next() function we can call. (javascriptallonge.pdf p.234)
+- Recalling the way we wrote ordered collections, we could make a collection that uses a generator function:. (javascriptallonge.pdf p.234)
+
+## Related pages
+
+- [[javascriptallonge-generators-are-coroutines]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-more-generators]] - contextualizes: source-supported topic dependency

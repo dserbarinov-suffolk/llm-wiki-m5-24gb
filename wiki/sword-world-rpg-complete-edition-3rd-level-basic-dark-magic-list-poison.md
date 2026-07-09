@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-3rd-level-basic-dark-magic-list-poison
 page_kind: concept
-summary: 3rd Level Basic Dark Magic List [ Poison ]: 10 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 25 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_ba7e11f47c0c6209@c8357dd3dac6a1dcca2517e7aec2ba78
+projection_coverage: page-projection-pgp_f44eaf3d63eb9ea2@64df22e945a58058857d85a918d45b49
 ---
 
 # 3rd Level Basic Dark Magic List [ Poison ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - The target can also attempt a resistance roll, and targets that succeed will not suffer any effect. (Sword World RPG - Complete Edition.pdf p.143)
 - This is a spell that creates a poison within the target's body, and its effect depends on the type of poison produced. (Sword World RPG - Complete Edition.pdf p.143)
@@ -27,7 +27,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - The poison then lasts until the final determined damage is dealt. (Sword World RPG - Complete Edition.pdf p.143)
 - Magic power should be added to damage as usual. (Sword World RPG - Complete Edition.pdf p.143)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -120,9 +120,8 @@ Effect=Creates a damage poison in the
 Type=Target score, damage (Poison-type) Countered (Negated) By: Cure Poison
 ```
 
-<a id="atom-14"></a>
-**Atom:** rule
 
-```
-Also, your opponent cannot reduce this damage using adventurer level.
-```
+## Rules and exceptions
+
+- The target can also attempt a resistance roll, and targets that succeed will not suffer any effect. (Sword World RPG - Complete Edition.pdf p.143)
+- Magic power should be added to damage as usual. (Sword World RPG - Complete Edition.pdf p.143)

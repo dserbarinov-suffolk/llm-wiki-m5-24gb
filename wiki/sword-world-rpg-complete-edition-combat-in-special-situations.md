@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-combat-in-special-situations
 page_kind: concept
-summary: Combat in Special Situations: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_581dfc435046e4ca@38d5a735596ee529da9a9142532030a0
+projection_coverage: page-projection-pgp_e7e0e08ffd257b29@75d44793e9c188ae7aa273d90e01d60d
 ---
 
 # Combat in Special Situations
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - If the same conditions apply to monsters, the same penalty (bonus) will be given to the monster's attack and evasion points. (Sword World RPG - Complete Edition.pdf p.138)
 - In such cases, a penalty (sometimes a bonus) is given to an adventurer's attack power or evasion speed, depending on the situation. (Sword World RPG - Complete Edition.pdf p.138)
@@ -22,7 +22,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - This penalty will be considered in accordance with 9.3: General Modifiers (see p. (Sword World RPG - Complete Edition.pdf p.138)
 - An example is shown in Table 10-1: Attack Power and Evasion Speed Modifiers. (Sword World RPG - Complete Edition.pdf p.138)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -35,3 +35,9 @@ Surprise Attacks
 | When footing is bad (Rocks and debris are everywhere, water is up to your waist, etc.) | -2 |
 | Fallen (Same as when trying to stand up because you're in an unstable state) | -2 |
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-npc-and-monster-action-announcement]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-surprise-attacks]] - contextualizes: source-supported topic dependency

@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-greater-daemons-doppelganger
 page_kind: concept
-summary: [ Greater Daemons ] Doppelganger: 10 accepted assertion(s) and 11 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 25 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_e47e4e7187b37c46@621634bcdf4c351d92c9910bf5a7e2bb
+projection_coverage: page-projection-pgp_ff30afbedd290fd1@1d19f8bc84a5de245418871d49d19fa5
 ---
 
 # [ Greater Daemons ] Doppelganger
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - A doppelganger can copy the appearance, abilities, memories, etc. (Sword World RPG - Complete Edition.pdf p.230)
 - Then, if they observe them for over one hour, they will be able to completely copy their abilities and memories. (Sword World RPG - Complete Edition.pdf p.230)
@@ -27,7 +27,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - In addition, a doppelganger can use its own ability, ancient magic. (Sword World RPG - Complete Edition.pdf p.230)
 - If combat occurs without them shapeshifting, a doppelganger will fight primarily using ancient magic. (Sword World RPG - Complete Edition.pdf p.230)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -92,16 +92,15 @@ Special Abilities=7th level ancient (magic intensity/magic power=16/9)
 Perception=Five senses (Darkvision)
 ```
 
-<a id="atom-10"></a>
-**Atom:** rule
 
-```
-If they observe them for one minute, they can imitate their tone of speech and gestures exactly.
-```
+## Rules and exceptions
 
-<a id="atom-11"></a>
-**Atom:** rule
+- A doppelganger can copy the appearance, abilities, memories, etc. (Sword World RPG - Complete Edition.pdf p.230)
+- At a glance, all they can capture is their appearance (including their belongings). (Sword World RPG - Complete Edition.pdf p.230)
+- If they transform into a dragon, they can breathe fire, and if they transform into a 10th level fighter, they can fight with their attack power, strike power, and bonus damage. (Sword World RPG - Complete Edition.pdf p.230)
+- However, they cannot use holy magic or dragon roar magic (they can use other magic). (Sword World RPG - Complete Edition.pdf p.230)
+- In addition, a doppelganger can use its own ability, ancient magic. (Sword World RPG - Complete Edition.pdf p.230)
 
-```
-A doppelganger who has copied the abilities and memories of an opponent can use all of their abilities.
-```
+## Related pages
+
+- [[sword-world-rpg-complete-edition-lesser-daemon-grunel]] - contextualizes: source-supported topic dependency

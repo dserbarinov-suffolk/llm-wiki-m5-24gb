@@ -1,25 +1,25 @@
 ---
 page_id: sword-world-rpg-complete-edition-water-breathing-undine-water-spirit
 page_kind: concept
-summary: [ Water Breathing ] (Undine/Water Spirit): 2 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_b24776848d88c9f1@cd22279d96a409440dc4406e60ef245b
+projection_coverage: page-projection-pgp_aa18071d5955e2f6@00b9a7584b7ae1df97ee2e3677ff4737
 ---
 
 # [ Water Breathing ] (Undine/Water Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Targets who have had this spell cast on them will be able to breathe in water without drowning. (Sword World RPG - Complete Edition.pdf p.87)
 - During this time, you can breathe normally, so you don't have to worry about suffocating to death on land. (Sword World RPG - Complete Edition.pdf p.87)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -69,3 +69,12 @@ Type=Target score
 ```
 Resist=None
 ```
+
+
+## Rules and exceptions
+
+- During this time, you can breathe normally, so you don't have to worry about suffocating to death on land. (Sword World RPG - Complete Edition.pdf p.87)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-control-spirit-various-lesser-spirits]] - contextualizes: source-supported topic dependency

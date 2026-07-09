@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-6-collection-series
 page_kind: concept
-summary: 6. Collection Series: 3 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_877f4363c3d56a55@615849beaf4a3c0db0acea2efa955259
+projection_coverage: page-projection-pgp_f74741a2e35278fb@615849beaf4a3c0db0acea2efa955259
 ---
 
 # 6. Collection Series

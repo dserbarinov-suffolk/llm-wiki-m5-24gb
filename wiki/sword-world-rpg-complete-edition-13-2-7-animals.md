@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-13-2-7-animals
 page_kind: concept
-summary: 13.2.7 Animals: 299 accepted assertion(s) and 289 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 614 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_9536f5bb4a57fdf9@3b5162f8e2a25787485bc9c016ecb64a
+projection_coverage: page-projection-pgp_0757c6c6810eb9f7@b0f9d1d807544e74cfdc4a4aa077a6a9
 ---
 
 # 13.2.7 Animals
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - and dexterous, and thus can stand on their hind legs and use simple tools. (Sword World RPG - Complete Edition.pdf p.199)
 - They are omnivorous, and usually live in groups. (Sword World RPG - Complete Edition.pdf p.199)
@@ -316,419 +316,419 @@ Source: [[sword-world-rpg-complete-edition]]
 - Its tentacles, which are up to 10 meters long, can entangle boats and sink them. (Sword World RPG - Complete Edition.pdf p.212)
 - If you deal 5 or more points of damage (14 or more points of damage if defense points are taken into account) to a giant octopus with a bladed weapon, you'll have cut off one of its tentacles, and the octopus' number of attacks will be reduced by one. (Sword World RPG - Complete Edition.pdf p.212)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-Even on the rare occasion that they do attack you, they will quickly run away if you wound them, and you can easily drive them away with fire.
-```
-
-<a id="atom-2"></a>
-**Atom:** rule
-
-```
-You must roll 2D again.
-```
-
-<a id="atom-3"></a>
-**Atom:** rule
-
-```
-The victim must make a life force resistance roll against target score 8, and if they fail, their body is taken from them regardless of their will.
-```
-
-<a id="atom-4"></a>
-**Atom:** rule
-
-```
-If other allies want to help, they must attack and be prepared to hit their own ally.
-```
-
-<a id="atom-5"></a>
-**Atom:** rule
-
-```
-However, even if its opponent has human intellect, it cannot speak their languages, nor can it take their knowledge and experience as its own.
-```
-
-<a id="atom-6"></a>
-**Atom:** rule
-
-```
-When a hanger leg attaches itself to an adventurer, it cannot use that person's skills or adventurer level as is.
-```
-
-<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 Monster Level=2
 ```
 
-<a id="atom-8"></a>
+<a id="atom-2"></a>
 **Atom:** formula
 
 ```
 Rarity=6
 ```
 
-<a id="atom-9"></a>
+<a id="atom-3"></a>
 **Atom:** formula
 
 ```
 Agility=18 Movement Speed=8/30 (air)
 ```
 
-<a id="atom-10"></a>
+<a id="atom-4"></a>
 **Atom:** formula
 
 ```
 Intellect=Animal
 ```
 
-<a id="atom-11"></a>
+<a id="atom-5"></a>
 **Atom:** formula
 
 ```
 Reaction=Hunger-based
 ```
 
-<a id="atom-12"></a>
+<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 Attack Points=Beak: 9 (2)/Talons: 10 (3)
 ```
 
-<a id="atom-13"></a>
+<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 Strike Points=5/5
 ```
 
-<a id="atom-14"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=16/10 (3)
 ```
 
-<a id="atom-15"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=7/9 (2)
 ```
 
-<a id="atom-16"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Opponent's attack is -2
 ```
 
-<a id="atom-17"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Habitat=Mountains
 ```
 
-<a id="atom-18"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-19"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-20"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Monster Level=2
 ```
 
-<a id="atom-21"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 motor function decline=success roll-2)
 ```
 
-<a id="atom-22"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-23"></a>
-**Atom:** rule
-
-```
-An adventurer bitten by a giant centipede must make a life force resistance roll against target score 9.
-```
-
-<a id="atom-24"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-25"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Monster Level=2
 ```
 
-<a id="atom-26"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-27"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Agility=16 Movement Speed=5/18 (air)
 ```
 
-<a id="atom-28"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Intellect=Almost none
 ```
 
-<a id="atom-29"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Strike Points=7+poison
 ```
 
-<a id="atom-30"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=8/9 (2)
 ```
 
-<a id="atom-31"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=6/9 (2) Special Abilities=Poison (Toxicity score 12, paralysis)
 ```
 
-<a id="atom-32"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-33"></a>
-**Atom:** rule
-
-```
-To fight on horseback, you must make a success roll against target score 7 each round using adventurer level + agility bonus as the baseline score.
-```
-
-<a id="atom-34"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Monster Level=3
 ```
 
-<a id="atom-35"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-36"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Number=Depends on the situation
 ```
 
-<a id="atom-37"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Frequency=Rare
 ```
 
-<a id="atom-38"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Strike Points=10
 ```
 
-<a id="atom-39"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=16/11 (4)
 ```
 
-<a id="atom-40"></a>
+<a id="atom-32"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=10/10 (3)
 ```
 
-<a id="atom-41"></a>
+<a id="atom-33"></a>
 **Atom:** formula
 
 ```
 Special Abilities=None in particular
 ```
 
-<a id="atom-42"></a>
+<a id="atom-34"></a>
 **Atom:** formula
 
 ```
 Habitat=Human villages
 ```
 
-<a id="atom-43"></a>
+<a id="atom-35"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-44"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-45"></a>
-**Atom:** rule
-
-```
-They can fight more than equally against normal soldiers, even if their opponents are well armed.
-```
-
-<a id="atom-46"></a>
+<a id="atom-37"></a>
 **Atom:** formula
 
 ```
 Monster Level=3
 ```
 
-<a id="atom-47"></a>
+<a id="atom-38"></a>
 **Atom:** formula
 
 ```
 Rarity=8
 ```
 
-<a id="atom-48"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Number=One to several
 ```
 
-<a id="atom-49"></a>
+<a id="atom-40"></a>
 **Atom:** formula
 
 ```
 Frequency=Moderate
 ```
 
-<a id="atom-50"></a>
+<a id="atom-41"></a>
 **Atom:** formula
 
 ```
 Intellect=Animal Reaction=Hunger-based
 ```
 
-<a id="atom-51"></a>
+<a id="atom-42"></a>
 **Atom:** formula
 
 ```
 Strike Points=13
 ```
 
-<a id="atom-52"></a>
+<a id="atom-43"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=25/13 (6)
 ```
 
-<a id="atom-53"></a>
+<a id="atom-44"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=6/10 (3)
 ```
 
-<a id="atom-54"></a>
+<a id="atom-45"></a>
 **Atom:** formula
 
 ```
 Monster Level=3
 ```
 
-<a id="atom-55"></a>
+<a id="atom-46"></a>
 **Atom:** formula
 
 ```
 Rarity=6
 ```
 
-<a id="atom-56"></a>
+<a id="atom-47"></a>
 **Atom:** formula
 
 ```
 Strike Points=12/10
 ```
 
-<a id="atom-57"></a>
+<a id="atom-48"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=20/12 (5)
 ```
 
-<a id="atom-58"></a>
+<a id="atom-49"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=6/10 (3)
 ```
 
-<a id="atom-59"></a>
+<a id="atom-50"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Strangling with large jaws Water adaptation
+```
+
+<a id="atom-51"></a>
+**Atom:** formula
+
+```
+Languages=None
+```
+
+<a id="atom-52"></a>
+**Atom:** formula
+
+```
+Perception=Five senses
+```
+
+<a id="atom-53"></a>
+**Atom:** formula
+
+```
+Monster Level=3
+```
+
+<a id="atom-54"></a>
+**Atom:** formula
+
+```
+Rarity=8
+```
+
+<a id="atom-55"></a>
+**Atom:** formula
+
+```
+Number=Several to around ten
+```
+
+<a id="atom-56"></a>
+**Atom:** formula
+
+```
+Frequency=Moderate
+```
+
+<a id="atom-57"></a>
+**Atom:** formula
+
+```
+Attack Points=Pincer:11 (4)/Pincer:11 (4)/
+```
+
+<a id="atom-58"></a>
+**Atom:** formula
+
+```
+Life Points/Resistance=18/12 (5)
+```
+
+<a id="atom-59"></a>
+**Atom:** formula
+
+```
+Mental Points/Resistance=5/9 (2)
 ```
 
 <a id="atom-60"></a>
@@ -746,164 +746,164 @@ Perception=Five senses
 ```
 
 <a id="atom-62"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-A crocodile's tail is also a powerful weapon, but it cannot attack the same target with its jaws and tail at the same time.
+Monster Level=3
 ```
 
 <a id="atom-63"></a>
 **Atom:** formula
 
 ```
-Monster Level=3
+Rarity=13
 ```
 
 <a id="atom-64"></a>
 **Atom:** formula
 
 ```
-Rarity=8
+Agility=18
 ```
 
 <a id="atom-65"></a>
 **Atom:** formula
 
 ```
-Number=Several to around ten
+Movement Speed=18/20 (air)
 ```
 
 <a id="atom-66"></a>
 **Atom:** formula
 
 ```
-Frequency=Moderate
+Intellect=Almost none
 ```
 
 <a id="atom-67"></a>
 **Atom:** formula
 
 ```
-Attack Points=Pincer:11 (4)/Pincer:11 (4)/
+Reaction=Hunger-based
 ```
 
 <a id="atom-68"></a>
 **Atom:** formula
 
 ```
-Life Points/Resistance=18/12 (5)
+Attack Points=Sickle:10 (3)/Sickle:10 (3)
 ```
 
 <a id="atom-69"></a>
 **Atom:** formula
 
 ```
-Mental Points/Resistance=5/9 (2)
+Strike Points=8/8
 ```
 
 <a id="atom-70"></a>
 **Atom:** formula
 
 ```
-Languages=None
+Life Points/Resistance=14/11 (4)
 ```
 
 <a id="atom-71"></a>
 **Atom:** formula
 
 ```
-Perception=Five senses
+Mental Points/Resistance=7/10 (3)
 ```
 
 <a id="atom-72"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-Their personality is ferocious, moreover, they're carnivorous, always hungry and when any moving thing comes into view, they'll attack it immediately.
+Habitat=Remote Deserts and Wastelands
 ```
 
 <a id="atom-73"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-When in combat, a giant scorpion can use the pincers on its arms and the barb on its tail to attack different targets (of course, it can also concentrate its attacks on a single target).
+Languages=None
 ```
 
 <a id="atom-74"></a>
 **Atom:** formula
 
 ```
-Monster Level=3
+Perception=Five senses
 ```
 
 <a id="atom-75"></a>
 **Atom:** formula
 
 ```
-Rarity=13
+Languages=None
 ```
 
 <a id="atom-76"></a>
 **Atom:** formula
 
 ```
-Agility=18
+Perception=Five senses (darkvision)
 ```
 
 <a id="atom-77"></a>
 **Atom:** formula
 
 ```
-Movement Speed=18/20 (air)
+Perception=Five senses (illumination)
 ```
 
 <a id="atom-78"></a>
 **Atom:** formula
 
 ```
-Intellect=Almost none
+Monster Level=2
 ```
 
 <a id="atom-79"></a>
 **Atom:** formula
 
 ```
-Reaction=Hunger-based
+Rarity=10
 ```
 
 <a id="atom-80"></a>
 **Atom:** formula
 
 ```
-Attack Points=Sickle:10 (3)/Sickle:10 (3)
+Languages=None
 ```
 
 <a id="atom-81"></a>
 **Atom:** formula
 
 ```
-Strike Points=8/8
+Perception=Five senses (sonar)
 ```
 
 <a id="atom-82"></a>
 **Atom:** formula
 
 ```
-Life Points/Resistance=14/11 (4)
+Special Abilities=Capture
 ```
 
 <a id="atom-83"></a>
 **Atom:** formula
 
 ```
-Mental Points/Resistance=7/10 (3)
+Languages=None
 ```
 
 <a id="atom-84"></a>
 **Atom:** formula
 
 ```
-Habitat=Remote Deserts and Wastelands
+Perception=Five senses (sonar)
 ```
 
 <a id="atom-85"></a>
@@ -917,882 +917,882 @@ Languages=None
 **Atom:** formula
 
 ```
-Perception=Five senses
+Perception=Five senses (illumination)
 ```
 
 <a id="atom-87"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-You must roll the dice to determine which arm is trapped.
+Perception=Five senses (illumination)
 ```
 
 <a id="atom-88"></a>
-**Atom:** rule
-
-```
-On the other hand, while capturing a human's arm with one sickle, a giant mantis can only use its other sickle to attack, and since it cannot move freely, its evasion points will be reduced by -2.
-```
-
-<a id="atom-89"></a>
-**Atom:** formula
-
-```
-Languages=None
-```
-
-<a id="atom-90"></a>
-**Atom:** formula
-
-```
-Perception=Five senses (darkvision)
-```
-
-<a id="atom-91"></a>
-**Atom:** formula
-
-```
-Perception=Five senses (illumination)
-```
-
-<a id="atom-92"></a>
-**Atom:** rule
-
-```
-If they're hungry, they may also attack humans.
-```
-
-<a id="atom-93"></a>
-**Atom:** rule
-
-```
-They are sensitive to light, and if an adventurer with a light carelessly enters the nest, they may blindly attack in groups.
-```
-
-<a id="atom-94"></a>
-**Atom:** formula
-
-```
-Monster Level=2
-```
-
-<a id="atom-95"></a>
-**Atom:** formula
-
-```
-Rarity=10
-```
-
-<a id="atom-96"></a>
-**Atom:** formula
-
-```
-Languages=None
-```
-
-<a id="atom-97"></a>
-**Atom:** formula
-
-```
-Perception=Five senses (sonar)
-```
-
-<a id="atom-98"></a>
-**Atom:** rule
-
-```
-Also, to detach the vampire bat, you must make a resistance roll using adventurer level + strength bonus as the baseline score.
-```
-
-<a id="atom-99"></a>
-**Atom:** formula
-
-```
-Special Abilities=Capture
-```
-
-<a id="atom-100"></a>
-**Atom:** formula
-
-```
-Languages=None
-```
-
-<a id="atom-101"></a>
-**Atom:** formula
-
-```
-Perception=Five senses (sonar)
-```
-
-<a id="atom-102"></a>
-**Atom:** rule
-
-```
-They're omnivorous and mainly catch and eat small animals, but when they're starving they may also attack livestock and humans.
-```
-
-<a id="atom-103"></a>
-**Atom:** rule
-
-```
-If hit by both claws at the same time, a victim adventurer must make a resistance roll using the giant bat's attack points (or if using optional rules, the attack's final score, whichever is higher) as the target score and adventurer level + strength bonus as the baseline score, to prevent being carried away.
-```
-
-<a id="atom-104"></a>
-**Atom:** rule
-
-```
-In this state, the bear cannot attack other opponents.
-```
-
-<a id="atom-105"></a>
-**Atom:** formula
-
-```
-Languages=None
-```
-
-<a id="atom-106"></a>
-**Atom:** formula
-
-```
-Perception=Five senses (illumination)
-```
-
-<a id="atom-107"></a>
-**Atom:** formula
-
-```
-Perception=Five senses (illumination)
-```
-
-<a id="atom-108"></a>
 **Atom:** formula
 
 ```
 Habitat=Damp
 ```
 
-<a id="atom-109"></a>
+<a id="atom-89"></a>
 **Atom:** formula
 
 ```
 Monster Level=1
 ```
 
-<a id="atom-110"></a>
+<a id="atom-90"></a>
 **Atom:** formula
 
 ```
 Rarity=7
 ```
 
-<a id="atom-111"></a>
+<a id="atom-91"></a>
 **Atom:** formula
 
 ```
 Agility=8 Movement Speed=8/10 (water)
 ```
 
-<a id="atom-112"></a>
+<a id="atom-92"></a>
 **Atom:** formula
 
 ```
 Number=Several to around ten
 ```
 
-<a id="atom-113"></a>
+<a id="atom-93"></a>
 **Atom:** formula
 
 ```
 Frequency=Moderate
 ```
 
-<a id="atom-114"></a>
+<a id="atom-94"></a>
 **Atom:** formula
 
 ```
 Attack Points=Strike Points=-
 ```
 
-<a id="atom-115"></a>
+<a id="atom-95"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=7/8 (1)
 ```
 
-<a id="atom-116"></a>
+<a id="atom-96"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=2/7 (0)
 ```
 
-<a id="atom-117"></a>
+<a id="atom-97"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Poison body surface
 ```
 
-<a id="atom-118"></a>
+<a id="atom-98"></a>
 **Atom:** formula
 
 ```
 Habitat=Lakes
 ```
 
-<a id="atom-119"></a>
+<a id="atom-99"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-120"></a>
+<a id="atom-100"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-121"></a>
-**Atom:** rule
-
-```
-Anyone within 3 meters of a poison toad when it spews its venom must succeed on a life force resistance roll against target score 9.
-```
-
-<a id="atom-122"></a>
+<a id="atom-101"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-123"></a>
+<a id="atom-102"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-124"></a>
-**Atom:** rule
-
-```
-If someone becomes entangled in a Toad's tongue, the other party members can attempt to sever it with a bladed weapon.
-```
-
-<a id="atom-125"></a>
-**Atom:** rule
-
-```
-If you have a dagger, shortsword, or similar bladed weapon, you can use it to slice through the toad's belly and attempt to escape.
-```
-
-<a id="atom-126"></a>
-**Atom:** rule
-
-```
-penalty, and if you hit, the damage check is made as normal, and if the toad dies, you can escape.
-```
-
-<a id="atom-127"></a>
-**Atom:** rule
-
-```
-In that case, if you deal more damage than the toad's remaining life points, that same damage (before it's reduced by the toad's defense points) is also dealt to the victim inside its belly at the same time.
-```
-
-<a id="atom-128"></a>
+<a id="atom-103"></a>
 **Atom:** formula
 
 ```
 Monster Level=3
 ```
 
-<a id="atom-129"></a>
+<a id="atom-104"></a>
 **Atom:** formula
 
 ```
 Rarity=8
 ```
 
-<a id="atom-130"></a>
+<a id="atom-105"></a>
 **Atom:** formula
 
 ```
 Number=Several to around ten
 ```
 
-<a id="atom-131"></a>
+<a id="atom-106"></a>
 **Atom:** formula
 
 ```
 Frequency=Moderate
 ```
 
-<a id="atom-132"></a>
+<a id="atom-107"></a>
 **Atom:** formula
 
 ```
 Strike Points=8
 ```
 
-<a id="atom-133"></a>
+<a id="atom-108"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=24/13 (6)
 ```
 
-<a id="atom-134"></a>
+<a id="atom-109"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=6/10 (3)
 ```
 
-<a id="atom-135"></a>
+<a id="atom-110"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Mental attack immunity
 ```
 
-<a id="atom-136"></a>
+<a id="atom-111"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-137"></a>
+<a id="atom-112"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-138"></a>
+<a id="atom-113"></a>
 **Atom:** formula
 
 ```
 Monster Level=3
 ```
 
-<a id="atom-139"></a>
+<a id="atom-114"></a>
 **Atom:** formula
 
 ```
 Rarity=8
 ```
 
-<a id="atom-140"></a>
+<a id="atom-115"></a>
 **Atom:** formula
 
 ```
 Number=Several to around ten
 ```
 
-<a id="atom-141"></a>
+<a id="atom-116"></a>
 **Atom:** formula
 
 ```
 Frequency=Rare
 ```
 
-<a id="atom-142"></a>
+<a id="atom-117"></a>
 **Atom:** formula
 
 ```
 Strike Points=8
 ```
 
-<a id="atom-143"></a>
+<a id="atom-118"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=20/12 (5)
 ```
 
-<a id="atom-144"></a>
+<a id="atom-119"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=6/10 (3)
 ```
 
-<a id="atom-145"></a>
+<a id="atom-120"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Mental attack immunity
 ```
 
-<a id="atom-146"></a>
+<a id="atom-121"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-147"></a>
+<a id="atom-122"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-148"></a>
+<a id="atom-123"></a>
 **Atom:** formula
 
 ```
 Monster Level=4
 ```
 
-<a id="atom-149"></a>
+<a id="atom-124"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-150"></a>
+<a id="atom-125"></a>
 **Atom:** formula
 
 ```
 Attack Points=Fangs:11 (4)/Claw:12 (5)/
 ```
 
-<a id="atom-151"></a>
+<a id="atom-126"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=25/14 (7)
 ```
 
-<a id="atom-152"></a>
+<a id="atom-127"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=6/11 (4)
 ```
 
-<a id="atom-153"></a>
+<a id="atom-128"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-154"></a>
+<a id="atom-129"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-155"></a>
-**Atom:** rule
-
-```
-If the fangs cannot penetrate armor, damage from the acid will not be dealt.
-```
-
-<a id="atom-156"></a>
+<a id="atom-130"></a>
 **Atom:** formula
 
 ```
 Monster Level=5
 ```
 
-<a id="atom-157"></a>
+<a id="atom-131"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-158"></a>
+<a id="atom-132"></a>
 **Atom:** formula
 
 ```
 Number=One
 ```
 
-<a id="atom-159"></a>
+<a id="atom-133"></a>
 **Atom:** formula
 
 ```
 Frequency=Rare
 ```
 
-<a id="atom-160"></a>
+<a id="atom-134"></a>
 **Atom:** formula
 
 ```
 Intellect=Low
 ```
 
-<a id="atom-161"></a>
+<a id="atom-135"></a>
 **Atom:** formula
 
 ```
 Reaction=Adversarial
 ```
 
-<a id="atom-162"></a>
+<a id="atom-136"></a>
 **Atom:** formula
 
 ```
 Strike Points=16
 ```
 
-<a id="atom-163"></a>
+<a id="atom-137"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=35/16 (9)
 ```
 
-<a id="atom-164"></a>
+<a id="atom-138"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=15/13 (6)
 ```
 
-<a id="atom-165"></a>
+<a id="atom-139"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Entangling
 ```
 
-<a id="atom-166"></a>
+<a id="atom-140"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-167"></a>
+<a id="atom-141"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-168"></a>
-**Atom:** rule
-
-```
-However, if you're unable to escape, the target score for the success roll required to escape increases by 2 points each time you're hit by the mucus, increasing to 14, 16…… and so on.
-```
-
-<a id="atom-169"></a>
+<a id="atom-142"></a>
 **Atom:** formula
 
 ```
 Monster Level=1
 ```
 
-<a id="atom-170"></a>
+<a id="atom-143"></a>
 **Atom:** formula
 
 ```
 Rarity=5
 ```
 
-<a id="atom-171"></a>
+<a id="atom-144"></a>
 **Atom:** formula
 
 ```
 Number=Several to around ten
 ```
 
-<a id="atom-172"></a>
+<a id="atom-145"></a>
 **Atom:** formula
 
 ```
 Frequency=Moderate
 ```
 
-<a id="atom-173"></a>
+<a id="atom-146"></a>
 **Atom:** formula
 
 ```
 Reaction=Neutral
 ```
 
-<a id="atom-174"></a>
+<a id="atom-147"></a>
 **Atom:** formula
 
 ```
 Strike Points=3
 ```
 
-<a id="atom-175"></a>
+<a id="atom-148"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=12/9 (2)
 ```
 
-<a id="atom-176"></a>
+<a id="atom-149"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=10/8 (1)
 ```
 
-<a id="atom-177"></a>
+<a id="atom-150"></a>
 **Atom:** formula
 
 ```
 Special Abilities=None in particular
 ```
 
-<a id="atom-178"></a>
+<a id="atom-151"></a>
 **Atom:** formula
 
 ```
 Habitat=Forests and mountains near human villages
 ```
 
-<a id="atom-179"></a>
+<a id="atom-152"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-180"></a>
+<a id="atom-153"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-181"></a>
+<a id="atom-154"></a>
 **Atom:** formula
 
 ```
 Intellect=Low
 ```
 
-<a id="atom-182"></a>
+<a id="atom-155"></a>
 **Atom:** formula
 
 ```
 Monster Level=2
 ```
 
-<a id="atom-183"></a>
+<a id="atom-156"></a>
 **Atom:** formula
 
 ```
 Rarity=5
 ```
 
-<a id="atom-184"></a>
+<a id="atom-157"></a>
 **Atom:** formula
 
 ```
 Strike Points=5
 ```
 
-<a id="atom-185"></a>
+<a id="atom-158"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=14/10 (3)
 ```
 
-<a id="atom-186"></a>
+<a id="atom-159"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=10/9 (2)
 ```
 
-<a id="atom-187"></a>
+<a id="atom-160"></a>
 **Atom:** formula
 
 ```
 Special Abilities=None in particular
 ```
 
-<a id="atom-188"></a>
+<a id="atom-161"></a>
 **Atom:** formula
 
 ```
 Habitat=Forests and mountains near human villages
 ```
 
-<a id="atom-189"></a>
+<a id="atom-162"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-190"></a>
+<a id="atom-163"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-191"></a>
+<a id="atom-164"></a>
 **Atom:** formula
 
 ```
 Monster Level=2
 ```
 
-<a id="atom-192"></a>
+<a id="atom-165"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-193"></a>
+<a id="atom-166"></a>
 **Atom:** formula
 
 ```
 Strike Points=12
 ```
 
-<a id="atom-194"></a>
+<a id="atom-167"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=24/15 (8)
 ```
 
-<a id="atom-195"></a>
+<a id="atom-168"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=10/12 (5)
 ```
 
-<a id="atom-196"></a>
+<a id="atom-169"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Strangling
 ```
 
-<a id="atom-197"></a>
+<a id="atom-170"></a>
 **Atom:** formula
 
 ```
 Habitat=Jungles
 ```
 
-<a id="atom-198"></a>
+<a id="atom-171"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-199"></a>
+<a id="atom-172"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-200"></a>
+<a id="atom-173"></a>
 **Atom:** formula
 
 ```
 Monster Level=5
 ```
 
-<a id="atom-201"></a>
+<a id="atom-174"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-202"></a>
+<a id="atom-175"></a>
 **Atom:** formula
 
 ```
 Agility=7
 ```
 
-<a id="atom-203"></a>
+<a id="atom-176"></a>
 **Atom:** formula
 
 ```
 Movement Speed=10/10 (underground)
 ```
 
-<a id="atom-204"></a>
+<a id="atom-177"></a>
 **Atom:** formula
 
 ```
 Strike Points=14
 ```
 
-<a id="atom-205"></a>
+<a id="atom-178"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=20/14 (7)
 ```
 
-<a id="atom-206"></a>
+<a id="atom-179"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=10/12 (5)
 ```
 
-<a id="atom-207"></a>
+<a id="atom-180"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Capture with large jaws
 ```
 
-<a id="atom-208"></a>
+<a id="atom-181"></a>
 **Atom:** formula
 
 ```
 Surprise attack (Sense target score=16)
 ```
 
-<a id="atom-209"></a>
+<a id="atom-182"></a>
 **Atom:** formula
 
 ```
 Habitat=Deserts (Khan Desert only)
 ```
 
-<a id="atom-210"></a>
+<a id="atom-183"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-211"></a>
+<a id="atom-184"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
+```
+
+<a id="atom-185"></a>
+**Atom:** formula
+
+```
+Languages=None
+```
+
+<a id="atom-186"></a>
+**Atom:** formula
+
+```
+Perception=Five senses
+```
+
+<a id="atom-187"></a>
+**Atom:** formula
+
+```
+Perception=Five senses
+```
+
+<a id="atom-188"></a>
+**Atom:** formula
+
+```
+Perception=Five senses
+```
+
+<a id="atom-189"></a>
+**Atom:** formula
+
+```
+Monster Level=5
+```
+
+<a id="atom-190"></a>
+**Atom:** formula
+
+```
+Rarity=10
+```
+
+<a id="atom-191"></a>
+**Atom:** formula
+
+```
+Agility=5
+```
+
+<a id="atom-192"></a>
+**Atom:** formula
+
+```
+Movement Speed=12/10 (underground)
+```
+
+<a id="atom-193"></a>
+**Atom:** formula
+
+```
+Strike Points=See description
+```
+
+<a id="atom-194"></a>
+**Atom:** formula
+
+```
+Life Points/Resistance=28/15 (8)
+```
+
+<a id="atom-195"></a>
+**Atom:** formula
+
+```
+Mental Points/Resistance=9/13 (5)
+```
+
+<a id="atom-196"></a>
+**Atom:** formula
+
+```
+Habitat=Underground
+```
+
+<a id="atom-197"></a>
+**Atom:** formula
+
+```
+Languages=None
+```
+
+<a id="atom-198"></a>
+**Atom:** formula
+
+```
+Perception=Five senses
+```
+
+<a id="atom-199"></a>
+**Atom:** formula
+
+```
+Monster Level=6 Rarity=15 Agility=10 Movement Speed=10/20 (underground)
+```
+
+<a id="atom-200"></a>
+**Atom:** formula
+
+```
+Perception=Five senses
+```
+
+<a id="atom-201"></a>
+**Atom:** formula
+
+```
+Monster Level=5
+```
+
+<a id="atom-202"></a>
+**Atom:** formula
+
+```
+Rarity=10
+```
+
+<a id="atom-203"></a>
+**Atom:** formula
+
+```
+Agility=10
+```
+
+<a id="atom-204"></a>
+**Atom:** formula
+
+```
+Movement Speed=10/17 (water)
+```
+
+<a id="atom-205"></a>
+**Atom:** formula
+
+```
+Number=Several to over a hundred
+```
+
+<a id="atom-206"></a>
+**Atom:** formula
+
+```
+Frequency=Moderate
+```
+
+<a id="atom-207"></a>
+**Atom:** formula
+
+```
+Strike Points=12
+```
+
+<a id="atom-208"></a>
+**Atom:** formula
+
+```
+Life Points/Resistance=20/14 (7)
+```
+
+<a id="atom-209"></a>
+**Atom:** formula
+
+```
+Mental Points/Resistance=10/12 (5)
+```
+
+<a id="atom-210"></a>
+**Atom:** formula
+
+```
+Special Abilities=Ice adaptation
+```
+
+<a id="atom-211"></a>
+**Atom:** formula
+
+```
+Habitat=Ice fields
 ```
 
 <a id="atom-212"></a>
@@ -1827,56 +1827,56 @@ Perception=Five senses
 **Atom:** formula
 
 ```
-Monster Level=5
+Languages=None
 ```
 
 <a id="atom-217"></a>
 **Atom:** formula
 
 ```
-Rarity=10
+Perception=Five senses
 ```
 
 <a id="atom-218"></a>
 **Atom:** formula
 
 ```
-Agility=5
+Monster Level=4
 ```
 
 <a id="atom-219"></a>
 **Atom:** formula
 
 ```
-Movement Speed=12/10 (underground)
+Rarity=12
 ```
 
 <a id="atom-220"></a>
 **Atom:** formula
 
 ```
-Strike Points=See description
+Intellect=Animal Reaction=Hunger-based
 ```
 
 <a id="atom-221"></a>
 **Atom:** formula
 
 ```
-Life Points/Resistance=28/15 (8)
+Strike Points=8
 ```
 
 <a id="atom-222"></a>
 **Atom:** formula
 
 ```
-Mental Points/Resistance=9/13 (5)
+Life Points/Resistance=18/13 (6)
 ```
 
 <a id="atom-223"></a>
 **Atom:** formula
 
 ```
-Habitat=Underground
+Mental Points/Resistance=10/11 (4)
 ```
 
 <a id="atom-224"></a>
@@ -1894,449 +1894,260 @@ Perception=Five senses
 ```
 
 <a id="atom-226"></a>
-**Atom:** rule
-
-```
-Armor cannot reduce it.
-```
-
-<a id="atom-227"></a>
-**Atom:** formula
-
-```
-Monster Level=6 Rarity=15 Agility=10 Movement Speed=10/20 (underground)
-```
-
-<a id="atom-228"></a>
-**Atom:** formula
-
-```
-Perception=Five senses
-```
-
-<a id="atom-229"></a>
-**Atom:** rule
-
-```
-They usually burrow underground, but are always hungry, so when other creatures pass by on the ground, they leap out to attack them for food.
-```
-
-<a id="atom-230"></a>
-**Atom:** rule
-
-```
-Giant seals can also use their fins to advance over ice fields, but they do not eat land animals, so they won't attack you unless you attack them or invade their territory.
-```
-
-<a id="atom-231"></a>
-**Atom:** formula
-
-```
-Monster Level=5
-```
-
-<a id="atom-232"></a>
-**Atom:** formula
-
-```
-Rarity=10
-```
-
-<a id="atom-233"></a>
-**Atom:** formula
-
-```
-Agility=10
-```
-
-<a id="atom-234"></a>
-**Atom:** formula
-
-```
-Movement Speed=10/17 (water)
-```
-
-<a id="atom-235"></a>
-**Atom:** formula
-
-```
-Number=Several to over a hundred
-```
-
-<a id="atom-236"></a>
-**Atom:** formula
-
-```
-Frequency=Moderate
-```
-
-<a id="atom-237"></a>
-**Atom:** formula
-
-```
-Strike Points=12
-```
-
-<a id="atom-238"></a>
-**Atom:** formula
-
-```
-Life Points/Resistance=20/14 (7)
-```
-
-<a id="atom-239"></a>
-**Atom:** formula
-
-```
-Mental Points/Resistance=10/12 (5)
-```
-
-<a id="atom-240"></a>
-**Atom:** formula
-
-```
-Special Abilities=Ice adaptation
-```
-
-<a id="atom-241"></a>
-**Atom:** formula
-
-```
-Habitat=Ice fields
-```
-
-<a id="atom-242"></a>
-**Atom:** formula
-
-```
-Languages=None
-```
-
-<a id="atom-243"></a>
-**Atom:** formula
-
-```
-Perception=Five senses
-```
-
-<a id="atom-244"></a>
-**Atom:** rule
-
-```
-Fishermen never choose to hunt females, out of fear that seal numbers will decline.
-```
-
-<a id="atom-245"></a>
-**Atom:** formula
-
-```
-Perception=Five senses
-```
-
-<a id="atom-246"></a>
-**Atom:** formula
-
-```
-Perception=Five senses
-```
-
-<a id="atom-247"></a>
-**Atom:** formula
-
-```
-Languages=None
-```
-
-<a id="atom-248"></a>
-**Atom:** formula
-
-```
-Perception=Five senses
-```
-
-<a id="atom-249"></a>
-**Atom:** formula
-
-```
-Monster Level=4
-```
-
-<a id="atom-250"></a>
-**Atom:** formula
-
-```
-Rarity=12
-```
-
-<a id="atom-251"></a>
-**Atom:** formula
-
-```
-Intellect=Animal Reaction=Hunger-based
-```
-
-<a id="atom-252"></a>
-**Atom:** formula
-
-```
-Strike Points=8
-```
-
-<a id="atom-253"></a>
-**Atom:** formula
-
-```
-Life Points/Resistance=18/13 (6)
-```
-
-<a id="atom-254"></a>
-**Atom:** formula
-
-```
-Mental Points/Resistance=10/11 (4)
-```
-
-<a id="atom-255"></a>
-**Atom:** formula
-
-```
-Languages=None
-```
-
-<a id="atom-256"></a>
-**Atom:** formula
-
-```
-Perception=Five senses
-```
-
-<a id="atom-257"></a>
-**Atom:** rule
-
-```
-A python can attack and evade without penalty while dancing.
-```
-
-<a id="atom-258"></a>
 **Atom:** formula
 
 ```
 Monster Level=1
 ```
 
-<a id="atom-259"></a>
+<a id="atom-227"></a>
 **Atom:** formula
 
 ```
 Rarity=6
 ```
 
-<a id="atom-260"></a>
+<a id="atom-228"></a>
 **Atom:** formula
 
 ```
 Number=One to several
 ```
 
-<a id="atom-261"></a>
+<a id="atom-229"></a>
 **Atom:** formula
 
 ```
 Frequency=Moderate
 ```
 
-<a id="atom-262"></a>
+<a id="atom-230"></a>
 **Atom:** formula
 
 ```
 Intellect=Almost none
 ```
 
-<a id="atom-263"></a>
+<a id="atom-231"></a>
 **Atom:** formula
 
 ```
 Reaction=Hunger-based
 ```
 
-<a id="atom-264"></a>
+<a id="atom-232"></a>
 **Atom:** formula
 
 ```
 Strike Points=6
 ```
 
-<a id="atom-265"></a>
+<a id="atom-233"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (Vibration sense)
 ```
 
-<a id="atom-266"></a>
-**Atom:** rule
-
-```
-They usually feed on small animals such as rabbits, but if they can't stand their hunger they may attack larger creatures than themselves such as humans, etc.
-```
-
-<a id="atom-267"></a>
-**Atom:** rule
-
-```
-If hit by the string attack, an adventurer will become entangled and lose their freedom of movement.
-```
-
-<a id="atom-268"></a>
+<a id="atom-234"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-269"></a>
-**Atom:** rule
-
-```
-While dancing, you'll suffer a 4 penalty on attack and evasion, and cannot use ancient magic or spirit magic.
-```
-
-<a id="atom-270"></a>
+<a id="atom-235"></a>
 **Atom:** formula
 
 ```
 Monster Level=6
 ```
 
-<a id="atom-271"></a>
+<a id="atom-236"></a>
 **Atom:** formula
 
 ```
 and escape target score=13)
 ```
 
-<a id="atom-272"></a>
+<a id="atom-237"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-273"></a>
-**Atom:** rule
-
-```
-If you fail, you will get caught in the web and attract the attention of the giant webspinner.
-```
-
-<a id="atom-274"></a>
+<a id="atom-238"></a>
 **Atom:** formula
 
 ```
 Monster Level=7
 ```
 
-<a id="atom-275"></a>
+<a id="atom-239"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-276"></a>
+<a id="atom-240"></a>
 **Atom:** formula
 
 ```
 Agility=10
 ```
 
-<a id="atom-277"></a>
+<a id="atom-241"></a>
 **Atom:** formula
 
 ```
 Movement Speed=5/20 (water)
 ```
 
-<a id="atom-278"></a>
+<a id="atom-242"></a>
 **Atom:** formula
 
 ```
 Number=One
 ```
 
-<a id="atom-279"></a>
+<a id="atom-243"></a>
 **Atom:** formula
 
 ```
 Frequency=Very Rare
 ```
 
-<a id="atom-280"></a>
+<a id="atom-244"></a>
 **Atom:** formula
 
 ```
 Intellect=Animal
 ```
 
-<a id="atom-281"></a>
+<a id="atom-245"></a>
 **Atom:** formula
 
 ```
 Reaction=Hunger-based
 ```
 
-<a id="atom-282"></a>
+<a id="atom-246"></a>
 **Atom:** formula
 
 ```
 Strike Points=16
 ```
 
-<a id="atom-283"></a>
+<a id="atom-247"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=50/21 (14)
 ```
 
-<a id="atom-284"></a>
+<a id="atom-248"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=10/14 (7)
 ```
 
-<a id="atom-285"></a>
+<a id="atom-249"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Strangling
 ```
 
-<a id="atom-286"></a>
+<a id="atom-250"></a>
 **Atom:** formula
 
 ```
 Habitat=Seas
 ```
 
-<a id="atom-287"></a>
+<a id="atom-251"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-288"></a>
+<a id="atom-252"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-289"></a>
-**Atom:** rule
 
-```
-A giant octopus can use each of its eight tentacles to perform a strangling (see p.
-```
+## Rules and exceptions
+
+- and dexterous, and thus can stand on their hind legs and use simple tools. (Sword World RPG - Complete Edition.pdf p.199)
+- It can easily jump up to 3 meters, and once it attaches itself to a creature's head, it won't come off even if a giant pulls at it. (Sword World RPG - Complete Edition.pdf p.199)
+- Its body is only 20 cm long, but its supple legs, which also serve as tentacles, are equipped with countless suckers, and can stretch to over 1 meter when extended. (Sword World RPG - Complete Edition.pdf p.199)
+- A hanger leg can freely use the body of the victim it's taken over. (Sword World RPG - Complete Edition.pdf p.199)
+- Naturally, you cannot escape on your own, but once killed, the parasite leaves the host's body. (Sword World RPG - Complete Edition.pdf p.199)
+- This is because they have to attack animals to lay their eggs. (Sword World RPG - Complete Edition.pdf p.200)
+- Those dealt damage by a wasp's attack must succeed on a life force resistance roll, or else the poison will paralyze their bodies, leaving them in a state of suspended animation. (Sword World RPG - Complete Edition.pdf p.200)
+- This means you can't use shields or two-handed weapons. (Sword World RPG - Complete Edition.pdf p.201)
+- Their standard body length is 1.5 meters, but larger ones can exceed 3 meters. (Sword World RPG - Complete Edition.pdf p.201)
+- The barb on the tip of its tail is a stinger that secretes a deadly poison (toxicity score 10), and those stung must make a life force resistance roll. (Sword World RPG - Complete Edition.pdf p.201)
+- Ancient magic cannot be used while one arm is trapped. (Sword World RPG - Complete Edition.pdf p.202)
+- Also, on subsequent rounds, you cannot escape from the giant mantis, so your evasion points will be -4. (Sword World RPG - Complete Edition.pdf p.202)
+- If you cannot escape, you will suffer 8 points of damage from strangling (see p. (Sword World RPG - Complete Edition.pdf p.202)
+- In order to escape from a sickle that's trapped your arm, you must succeed on a resistance roll against target score 10 (or attack points from when the attack hits, if using optional rules) using adventurer level + strength bonus as the baseline score. (Sword World RPG - Complete Edition.pdf p.202)
+- The scarlet vulture has strong legs, and can move quite freely on the ground. (Sword World RPG - Complete Edition.pdf p.202)
+- It can lift anything from small animals such as dogs, cats, etc. (Sword World RPG - Complete Edition.pdf p.202)
+- This bird can see things even at night. (Sword World RPG - Complete Edition.pdf p.202)
+- To attack scarlet vulture while in the air, you must suffer a -2 penalty to attack power. (Sword World RPG - Complete Edition.pdf p.202)
+- Therefore, in order for the possessed opponent to attack the vampire bat in question, they will need a melee weapon that can be used at close range, such as a dagger. (Sword World RPG - Complete Edition.pdf p.203)
+- Y ou can try to resist again while being carried, but you'll have to be prepared to suffer falling damage. (Sword World RPG - Complete Edition.pdf p.203)
+- A giant bat can capture and carry away a small human. (Sword World RPG - Complete Edition.pdf p.203)
+- They are omnivores and are said to eat anything they can fit into their mouths. (Sword World RPG - Complete Edition.pdf p.203)
+- They're about 3 meters tall, but some giant grizzlies can reach 4 meters. (Sword World RPG - Complete Edition.pdf p.203)
+- Also, a mother bear with her cubs will do everything in her power to protect them, so travelers should avoid approaching groups of bears carelessly. (Sword World RPG - Complete Edition.pdf p.203)
+- No actions can be taken while the slug is passing over. (Sword World RPG - Complete Edition.pdf p.204)
+- It'll recover naturally after 3 days, but it can also be cured with the holy magic Cure Poison . (Sword World RPG - Complete Edition.pdf p.204)
+- If the prey can 't escape within 3 rounds, the toad will pull it in on the next round and swallow it whole. (Sword World RPG - Complete Edition.pdf p.204)
+- A toad's tongue has 4 defense points, and can be severed if it's dealt a total of 7 or more points of damage. (Sword World RPG - Complete Edition.pdf p.204)
+- Alternatively, someone else could kill the toad, then cut its belly open and rescue the victim before they're digested. (Sword World RPG - Complete Edition.pdf p.205)
+- Anyone hit by a giant ant soldier will have their wound burned by the acid and, in addition to normal damage, must make a life force resistance roll, which if they fail, they will suffer damage resulting from a strike power 10 strike roll plus bonus damage 4. (Sword World RPG - Complete Edition.pdf p.205)
+- Therefore, her body length can reach over 10 meters. (Sword World RPG - Complete Edition.pdf p.205)
+- While entangled in the mucus, attack and evasion suffer a -4 penalty, and ancient magic and spirit magic cannot be used. (Sword World RPG - Complete Edition.pdf p.205)
+- You can escape from the mucus by succeeding on a success roll against target score 12 using adventurer level + strength bonus as the baseline score. (Sword World RPG - Complete Edition.pdf p.205)
+- Giant ant queens can spit out mucus from their mouths that's used to alter the food they feed to their young. (Sword World RPG - Complete Edition.pdf p.205)
+- With a certain scent (pheromone), she can command other giant ants, devise some strategy, and make them fight. (Sword World RPG - Complete Edition.pdf p.205-206)
+- They are generally docile and do not attack humans, but in rare cases when faced with severe hunger or the need to protect their group, they may display hostile behavior. (Sword World RPG - Complete Edition.pdf p.206)
+- They also have high intellect for an animal, so in that sense you should not let your guard down. (Sword World RPG - Complete Edition.pdf p.206)
+- In large groups, the number may swell to several dozen, centered around a strong male leader (boss ape). (Sword World RPG - Complete Edition.pdf p.206)
+- This is the boss ape that leads a group of small apes, and only males can become one. (Sword World RPG - Complete Edition.pdf p.206)
+- The mutant big ape is a mutant species of gorilla, a ferocious giant ape that can in fact reach up to 5 meters in height. (Sword World RPG - Complete Edition.pdf p.206)
+- Those with the ranger skill may be able to sense an attack from this dangerous creature with their sense danger ability. (Sword World RPG - Complete Edition.pdf p.207)
+- They have a slender build and don't wear any clothes, but their gender can't be known. (Sword World RPG - Complete Edition.pdf p.207)
+- Its weapons are its two large pincers, but the right pincer is considerably larger than the left one, and can grasp anything the size of a human torso. (Sword World RPG - Complete Edition.pdf p.207)
+- While a giant crab is holding one person with its right pincer, it can attack another target with its left. (Sword World RPG - Complete Edition.pdf p.207)
+- Huge and dangerous caterpillar-like creatures can sometimes be seen in Forcelia . (Sword World RPG - Complete Edition.pdf p.207)
+- Although they live in the deep sea, sea worms are sensitive to light, and will appear in shallow water when attracted by light. (Sword World RPG - Complete Edition.pdf p.207-208)
+- It is also completely omnivorous, digesting and eating anything the tentacles can catch and fit in its mouth. (Sword World RPG - Complete Edition.pdf p.207-208)
+- They will not approach gold or silver, perhaps because they cannot digest them with their digestive juices. (Sword World RPG - Complete Edition.pdf p.208)
+- This means that the characters must be equipped with iceproof shoes, etc., otherwise combat actions, etc. (Sword World RPG - Complete Edition.pdf p.208)
+- Although young females may wander alone, they usually belong to a kingdom. (Sword World RPG - Complete Edition.pdf p.208)
+- Only the strongest of the males can win their battle, and become the new king. (Sword World RPG - Complete Edition.pdf p.209)
+- Among giant seals, one in every thousand males may be born with a mutation that results in golden skin. (Sword World RPG - Complete Edition.pdf p.209)
+- This rare seal is called the golden wanderer, and its skin can sell for tens of times more than the skin of a normal seal. (Sword World RPG - Complete Edition.pdf p.209)
+- A python is a giant snake that can reach up to 10 meters in length. (Sword World RPG - Complete Edition.pdf p.210)
+- Those who see a Hypnopython's dance must succeed on a mental power resistance roll against target score 11, or they will be hypnotized, unable to move or think. (Sword World RPG - Complete Edition.pdf p.210)
+- Their body length starts at 10 meters, but it's said that some can reach over 20 meters. (Sword World RPG - Complete Edition.pdf p.210)
+- Escaping from this should be resolved the same way as strangling (see p. (Sword World RPG - Complete Edition.pdf p.211)
+- To safely pass through a giant webspinner's nest without touching the surrounding webs, you must succeed on a success roll against target score 13 using adventurer level + agility bonus as the baseline score. (Sword World RPG - Complete Edition.pdf p.211)
+- To shake free from the web, you must succeed on a success roll against target score 13 using adventurer level + strength bonus (for monsters, use monster level ). (Sword World RPG - Complete Edition.pdf p.211)
+- On rare occasions, they may come ashore, in which case they suffer a -4 penalty to hit and evasion. (Sword World RPG - Complete Edition.pdf p.211)
+- Its tentacles, which are up to 10 meters long, can entangle boats and sink them. (Sword World RPG - Complete Edition.pdf p.212)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-mythical-beasts-and-magical-beasts]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-converting-character-data-to-monster-data]] - contextualizes: source-supported topic dependency

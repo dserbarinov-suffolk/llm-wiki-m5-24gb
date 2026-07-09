@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-destructuring-objects
 page_kind: concept
-summary: destructuring objects: 2 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_17b2512bda8273dd@10611f9906d0bad25136fa055bed8fa6
+projection_coverage: page-projection-pgp_1ab5bf3dc5440c27@29bb7dbc0a988e73de41270ef838d77c
 ---
 
 # destructuring objects
@@ -88,3 +88,9 @@ return { first, last, title};
 abbrev(user)
 //=> {"first":"Reginald","last":"Braithwaite","title":"Author"}
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-literal-object-syntax]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-revisiting-linked-lists]] - contextualizes: source-supported topic dependency

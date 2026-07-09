@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-creeping-tree
 page_kind: concept
-summary: Creeping Tree: 257 accepted assertion(s) and 258 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 541 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_6f7de2142764388d@b497a87754a26872c42ae18c8028e959
+projection_coverage: page-projection-pgp_11b086a5f8472586@949a62a8f46f6ffd486a1d77368e3fc1
 ---
 
 # Creeping Tree
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Creeping trees do not have roots underground, but move around on the ground using their roots like imitation toes. (Sword World RPG - Complete Edition.pdf p.212)
 - Tentacle attacks are resolved the same way as strangling (see p. (Sword World RPG - Complete Edition.pdf p.212)
@@ -274,7 +274,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - As far as is currently known, simulacra seem to be unable to speak or use any magic at all. (Sword World RPG - Complete Edition.pdf p.222)
 - The only way to attack a simulacra is to attack directly with a weapon. (Sword World RPG - Complete Edition.pdf p.222)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -375,1410 +375,1410 @@ Perception=Magic
 ```
 
 <a id="atom-15"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-Since it is a plant, it is weak against fire attacks, and when using spells such as Fire Weapon and Fire Bolt , you gain a +10 bonus to the usual strike power of spells.
+Monster Level=3
 ```
 
 <a id="atom-16"></a>
 **Atom:** formula
 
 ```
-Monster Level=3
+Rarity=18
 ```
 
 <a id="atom-17"></a>
 **Atom:** formula
 
 ```
-Rarity=18
+Intellect=None
 ```
 
 <a id="atom-18"></a>
 **Atom:** formula
 
 ```
-Intellect=None
+Reaction=Violent
 ```
 
 <a id="atom-19"></a>
 **Atom:** formula
 
 ```
-Reaction=Violent
+Strike Points=5
 ```
 
 <a id="atom-20"></a>
 **Atom:** formula
 
 ```
-Strike Points=5
+Evasion Points=10 (3) Defense Points=6 Life Points/Resistance=19/12 (5)
 ```
 
 <a id="atom-21"></a>
 **Atom:** formula
 
 ```
-Evasion Points=10 (3) Defense Points=6 Life Points/Resistance=19/12 (5)
+Mental Points/Resistance=-/11 (4)
 ```
 
 <a id="atom-22"></a>
 **Atom:** formula
 
 ```
-Mental Points/Resistance=-/11 (4)
+Special Abilities=Capture with tentacles
 ```
 
 <a id="atom-23"></a>
 **Atom:** formula
 
 ```
-Special Abilities=Capture with tentacles
+Habitat=Woods
 ```
 
 <a id="atom-24"></a>
 **Atom:** formula
 
 ```
-Habitat=Woods
+Languages=None
 ```
 
 <a id="atom-25"></a>
 **Atom:** formula
 
 ```
-Languages=None
+Perception=Magic
 ```
 
 <a id="atom-26"></a>
 **Atom:** formula
 
 ```
-Perception=Magic
-```
-
-<a id="atom-27"></a>
-**Atom:** rule
-
-```
-An ethnoa can attack using all six tentacles at the same time, but it can use only two against a single target.
-```
-
-<a id="atom-28"></a>
-**Atom:** rule
-
-```
-While the victim is still conscious, they can attack from within using a dagger, shortsword, or similar small bladed weapon.
-```
-
-<a id="atom-29"></a>
-**Atom:** formula
-
-```
 Monster Level=3
 ```
 
-<a id="atom-30"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-31"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Strike Points=7
 ```
 
-<a id="atom-32"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=30/14 (7)
 ```
 
-<a id="atom-33"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/11 (4)
 ```
 
-<a id="atom-34"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Strangling
 ```
 
-<a id="atom-35"></a>
-**Atom:** rule
-
-```
-A character entangled in two or more vines cannot use ancient magic or spirit magic, because they're unable to move.
-```
-
-<a id="atom-36"></a>
-**Atom:** rule
-
-```
-If successful, you can pull off the vines.
-```
-
-<a id="atom-37"></a>
-**Atom:** rule
-
-```
-Despite being plants, they have some intellect and can use spirit magic sourced from the power of dryad and gnome.
-```
-
-<a id="atom-38"></a>
-**Atom:** rule
-
-```
-Anyone who hears this at close range without first wearing earplugs must make a mental power resistance roll against target score 12.
-```
-
-<a id="atom-39"></a>
-**Atom:** rule
-
-```
-Additionally, those who fail the resistance roll must make another one, this time a life force resistance roll against target score 12.
-```
-
-<a id="atom-40"></a>
+<a id="atom-32"></a>
 **Atom:** formula
 
 ```
 Special Abilities=4th level spirit dryad only)
 ```
 
-<a id="atom-41"></a>
-**Atom:** rule
-
-```
-Alraune look exactly like humans, and can speak and think like humans, but when they are wounded, a thick, red mucus oozes out of them.
-```
-
-<a id="atom-42"></a>
+<a id="atom-33"></a>
 **Atom:** formula
 
 ```
 Monster Level=6
 ```
 
-<a id="atom-43"></a>
+<a id="atom-34"></a>
 **Atom:** formula
 
 ```
 Rarity=11
 ```
 
-<a id="atom-44"></a>
+<a id="atom-35"></a>
 **Atom:** formula
 
 ```
 Strike Points=7
 ```
 
-<a id="atom-45"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Evasion Points=13 (6) Defense Points=8 Life Points/Resistance=1/12 (5)
 ```
 
-<a id="atom-46"></a>
+<a id="atom-37"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/14 (7)
 ```
 
-<a id="atom-47"></a>
+<a id="atom-38"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Strangling
 ```
 
-<a id="atom-48"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Habitat=Forests
 ```
 
-<a id="atom-49"></a>
+<a id="atom-40"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-50"></a>
+<a id="atom-41"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-51"></a>
+<a id="atom-42"></a>
 **Atom:** formula
 
 ```
 Number=One
 ```
 
-<a id="atom-52"></a>
+<a id="atom-43"></a>
 **Atom:** formula
 
 ```
 Frequency=Very Rare
 ```
 
-<a id="atom-53"></a>
+<a id="atom-44"></a>
 **Atom:** formula
 
 ```
 Intellect=None
 ```
 
-<a id="atom-54"></a>
+<a id="atom-45"></a>
 **Atom:** formula
 
 ```
 Reaction=Adversarial
 ```
 
-<a id="atom-55"></a>
+<a id="atom-46"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=20/15 (8)
 ```
 
-<a id="atom-56"></a>
+<a id="atom-47"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/14 (7)
 ```
 
-<a id="atom-57"></a>
+<a id="atom-48"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Mental attack immunity
 ```
 
-<a id="atom-58"></a>
+<a id="atom-49"></a>
 **Atom:** formula
 
 ```
 Habitat=Forests
 ```
 
-<a id="atom-59"></a>
+<a id="atom-50"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-60"></a>
+<a id="atom-51"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-61"></a>
-**Atom:** rule
-
-```
-Adventurers can also attack the body.
-```
-
-<a id="atom-62"></a>
+<a id="atom-52"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-63"></a>
-**Atom:** rule
-
-```
-After combat, they must make a life force resistance roll against target score 16, and those who fail will then have mushrooms growing all over their bodies after 24 hours.
-```
-
-<a id="atom-64"></a>
+<a id="atom-53"></a>
 **Atom:** formula
 
 ```
 Monster Level=Based on previous
 ```
 
-<a id="atom-65"></a>
+<a id="atom-54"></a>
 **Atom:** formula
 
 ```
 Rarity=16
 ```
 
-<a id="atom-66"></a>
+<a id="atom-55"></a>
 **Atom:** formula
 
 ```
 Agility=Half of previous
 ```
 
-<a id="atom-67"></a>
+<a id="atom-56"></a>
 **Atom:** formula
 
 ```
 Movement Speed=Half of previous
 ```
 
-<a id="atom-68"></a>
+<a id="atom-57"></a>
 **Atom:** formula
 
 ```
 Reaction=Command-based
 ```
 
-<a id="atom-69"></a>
+<a id="atom-58"></a>
 **Atom:** formula
 
 ```
 Attack Points=/Strike Points/Evasion Points/
 ```
 
-<a id="atom-70"></a>
+<a id="atom-59"></a>
 **Atom:** formula
 
 ```
 Defense Points=Based on previous
 ```
 
-<a id="atom-71"></a>
+<a id="atom-60"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=Based on
 ```
 
-<a id="atom-72"></a>
+<a id="atom-61"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/Based on
 ```
 
-<a id="atom-73"></a>
+<a id="atom-62"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Retains previous abilities
 ```
 
-<a id="atom-74"></a>
+<a id="atom-63"></a>
 **Atom:** formula
 
 ```
 Habitat=Various
 ```
 
-<a id="atom-75"></a>
+<a id="atom-64"></a>
 **Atom:** formula
 
 ```
 Languages=Based on previous
 ```
 
-<a id="atom-76"></a>
+<a id="atom-65"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-77"></a>
-**Atom:** example
-
-```
-Therefore, they will do their best to obey even abstract commands (for example, sneak into a house and steal something, etc.). They can also use tools such as weapons, armor, etc.
-```
-
-<a id="atom-78"></a>
+<a id="atom-66"></a>
 **Atom:** formula
 
 ```
 Monster Level=1
 ```
 
-<a id="atom-79"></a>
+<a id="atom-67"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-80"></a>
+<a id="atom-68"></a>
 **Atom:** formula
 
 ```
 Number=Several to dozens
 ```
 
-<a id="atom-81"></a>
+<a id="atom-69"></a>
 **Atom:** formula
 
 ```
 Frequency=Frequent
 ```
 
-<a id="atom-82"></a>
+<a id="atom-70"></a>
 **Atom:** formula
 
 ```
 Intellect=Obeys commands
 ```
 
-<a id="atom-83"></a>
+<a id="atom-71"></a>
 **Atom:** formula
 
 ```
 Reaction=Command-based
 ```
 
-<a id="atom-84"></a>
+<a id="atom-72"></a>
 **Atom:** formula
 
 ```
 Strike Points=4
 ```
 
-<a id="atom-85"></a>
+<a id="atom-73"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=7/8 (1)
 ```
 
-<a id="atom-86"></a>
+<a id="atom-74"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/9 (2)
 ```
 
-<a id="atom-87"></a>
+<a id="atom-75"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Bladed weapons cannot critical
 ```
 
-<a id="atom-88"></a>
+<a id="atom-76"></a>
 **Atom:** formula
 
 ```
 Habitat=Ruins
 ```
 
-<a id="atom-89"></a>
+<a id="atom-77"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-90"></a>
+<a id="atom-78"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-91"></a>
-**Atom:** rule
-
-```
-Due to their characteristic lack of flesh, bladed weapons cannot deal additional critical damage to skeletons.
-```
-
-<a id="atom-92"></a>
+<a id="atom-79"></a>
 **Atom:** formula
 
 ```
 Evasion Points=8 (1) Defense Points=3 Life Points/Resistance=19/10 (3) Mental Points/Resistance=-/9 (2)
 ```
 
-<a id="atom-93"></a>
+<a id="atom-80"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Mental attack immunity
 ```
 
-<a id="atom-94"></a>
-**Atom:** rule
-
-```
-It's usually spread out on the ground like sand, but if something living approaches it, it will suddenly fly up as if blown by the wind, take the form of a human, and attack.
-```
-
-<a id="atom-95"></a>
-**Atom:** rule
-
-```
-The target of the attack must make a success roll using adventurer level + agility bonus as the baseline score, and if they fail, they will inhale a portion of the ash.
-```
-
-<a id="atom-96"></a>
-**Atom:** rule
-
-```
-If you cast the spirit magic Missile Protection , you can protect yourself from being enwrapped by the ash.
-```
-
-<a id="atom-97"></a>
+<a id="atom-81"></a>
 **Atom:** formula
 
 ```
 Monster Level=3
 ```
 
-<a id="atom-98"></a>
+<a id="atom-82"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-99"></a>
+<a id="atom-83"></a>
 **Atom:** formula
 
 ```
 Number=Several to dozens
 ```
 
-<a id="atom-100"></a>
+<a id="atom-84"></a>
 **Atom:** formula
 
 ```
 Frequency=Moderate
 ```
 
-<a id="atom-101"></a>
+<a id="atom-85"></a>
 **Atom:** formula
 
 ```
 Attack Points=Fangs:10 (3)/Claw:11 (4)/
 ```
 
-<a id="atom-102"></a>
+<a id="atom-86"></a>
 **Atom:** formula
 
 ```
 Strike Points=9+poison/8+poison/8+poison
 ```
 
-<a id="atom-103"></a>
+<a id="atom-87"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=14/11 (4)
 ```
 
-<a id="atom-104"></a>
+<a id="atom-88"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=10/10 (3)
 ```
 
-<a id="atom-105"></a>
+<a id="atom-89"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-106"></a>
+<a id="atom-90"></a>
 **Atom:** formula
 
 ```
 Monster Level=4
 ```
 
-<a id="atom-107"></a>
+<a id="atom-91"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-108"></a>
+<a id="atom-92"></a>
 **Atom:** formula
 
 ```
 Agility=14
 ```
 
-<a id="atom-109"></a>
+<a id="atom-93"></a>
 **Atom:** formula
 
 ```
 Movement Speed=14
 ```
 
-<a id="atom-110"></a>
+<a id="atom-94"></a>
 **Atom:** formula
 
 ```
 Number=One to several
 ```
 
-<a id="atom-111"></a>
+<a id="atom-95"></a>
 **Atom:** formula
 
 ```
 Frequency=Very Rare
 ```
 
-<a id="atom-112"></a>
+<a id="atom-96"></a>
 **Atom:** formula
 
 ```
 Strike Points=10
 ```
 
-<a id="atom-113"></a>
+<a id="atom-97"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=16/12 (5)
 ```
 
-<a id="atom-114"></a>
+<a id="atom-98"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/13 (6)
 ```
 
-<a id="atom-115"></a>
+<a id="atom-99"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Life point regenerate (3 points per round)
 ```
 
-<a id="atom-116"></a>
+<a id="atom-100"></a>
 **Atom:** formula
 
 ```
 Damage from healing magic Habitat=Various
 ```
 
-<a id="atom-117"></a>
+<a id="atom-101"></a>
 **Atom:** formula
 
 ```
 Languages=Those previous
 ```
 
-<a id="atom-118"></a>
+<a id="atom-102"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-119"></a>
-**Atom:** rule
-
-```
-For this, you can only reduce the damage with your character's adventurer level.
-```
-
-<a id="atom-120"></a>
-**Atom:** rule
-
-```
-If you can clear up those lingering regrets and grudges, they will cease to exist.
-```
-
-<a id="atom-121"></a>
-**Atom:** rule
-
-```
-If a haunt finds that a creature it comes into contact with does not sympathize with its feelings, it may attempt to possess them.
-```
-
-<a id="atom-122"></a>
+<a id="atom-103"></a>
 **Atom:** formula
 
 ```
 Monster Level=5
 ```
 
-<a id="atom-123"></a>
+<a id="atom-104"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-124"></a>
+<a id="atom-105"></a>
 **Atom:** formula
 
 ```
 Strike Points=10
 ```
 
-<a id="atom-125"></a>
+<a id="atom-106"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=14/13 (6)
 ```
 
-<a id="atom-126"></a>
+<a id="atom-107"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/14 (7)
 ```
 
-<a id="atom-127"></a>
+<a id="atom-108"></a>
 **Atom:** formula
 
 ```
 Habitat=Various
 ```
 
-<a id="atom-128"></a>
+<a id="atom-109"></a>
 **Atom:** formula
 
 ```
 Languages=Those previous
 ```
 
-<a id="atom-129"></a>
+<a id="atom-110"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-130"></a>
-**Atom:** rule
-
-```
-Those who had rune master skills can use magic of that level and magic power.
-```
-
-<a id="atom-131"></a>
-**Atom:** rule
-
-```
-If a ghost's corpse is destroyed, it will always attempt to possess someone nearby.
-```
-
-<a id="atom-132"></a>
-**Atom:** rule
-
-```
-When its lingering regrets and grudges are cleared, or when its mental points are reduced to 0 or less due to a Shade , etc.
-```
-
-<a id="atom-133"></a>
-**Atom:** rule
-
-```
-When attacking a ghost in the form of a skeleton with a weapon, you cannot deal additional critical damage with a bladed weapon.
-```
-
-<a id="atom-134"></a>
+<a id="atom-111"></a>
 **Atom:** formula
 
 ```
 Monster Level=5
 ```
 
-<a id="atom-135"></a>
+<a id="atom-112"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-136"></a>
+<a id="atom-113"></a>
 **Atom:** formula
 
 ```
 Attack Points=- Strike Points=-
 ```
 
-<a id="atom-137"></a>
+<a id="atom-114"></a>
 **Atom:** formula
 
 ```
 Evasion Points=Defense Points=-
 ```
 
-<a id="atom-138"></a>
+<a id="atom-115"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/14 (7)
 ```
 
-<a id="atom-139"></a>
+<a id="atom-116"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Possess (Resist target
 ```
 
-<a id="atom-140"></a>
+<a id="atom-117"></a>
 **Atom:** formula
 
 ```
 score=12)
 ```
 
-<a id="atom-141"></a>
+<a id="atom-118"></a>
 **Atom:** formula
 
 ```
 Habitat=Various
 ```
 
-<a id="atom-142"></a>
+<a id="atom-119"></a>
 **Atom:** formula
 
 ```
 Languages=Those previous
 ```
 
-<a id="atom-143"></a>
+<a id="atom-120"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-144"></a>
-**Atom:** rule
-
-```
-Those who had rune master skills previously can use magic.
-```
-
-<a id="atom-145"></a>
-**Atom:** rule
-
-```
-When a specter's regrets or grudges are cleared, or when its mental points are reduced to 0 or less due to Shade , etc.
-```
-
-<a id="atom-146"></a>
+<a id="atom-121"></a>
 **Atom:** formula
 
 ```
 Monster Level=5
 ```
 
-<a id="atom-147"></a>
+<a id="atom-122"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-148"></a>
+<a id="atom-123"></a>
 **Atom:** formula
 
 ```
 Attack Points=- Strike Points=-
 ```
 
-<a id="atom-149"></a>
+<a id="atom-124"></a>
 **Atom:** formula
 
 ```
 Evasion Points=- Defense Points=-
 ```
 
-<a id="atom-150"></a>
+<a id="atom-125"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/13 (6)
 ```
 
-<a id="atom-151"></a>
+<a id="atom-126"></a>
 **Atom:** formula
 
 ```
 Habitat=Various
 ```
 
-<a id="atom-152"></a>
+<a id="atom-127"></a>
 **Atom:** formula
 
 ```
 Languages=Those previous
 ```
 
-<a id="atom-153"></a>
+<a id="atom-128"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-154"></a>
+<a id="atom-129"></a>
 **Atom:** formula
 
 ```
 Monster Level=6
 ```
 
-<a id="atom-155"></a>
+<a id="atom-130"></a>
 **Atom:** formula
 
 ```
 Rarity=11
 ```
 
-<a id="atom-156"></a>
+<a id="atom-131"></a>
 **Atom:** formula
 
 ```
 Strike Points=12
 ```
 
-<a id="atom-157"></a>
+<a id="atom-132"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=14/14 (7)
 ```
 
-<a id="atom-158"></a>
+<a id="atom-133"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=21/15 (8)
 ```
 
-<a id="atom-159"></a>
+<a id="atom-134"></a>
 **Atom:** formula
 
 ```
 Special Abilities=6th level dark magic (Magic Intensity/Magic Power=16/9)
 ```
 
-<a id="atom-160"></a>
+<a id="atom-135"></a>
 **Atom:** formula
 
 ```
 Habitat=Above swamps or ponds
 ```
 
-<a id="atom-161"></a>
+<a id="atom-136"></a>
 **Atom:** formula
 
 ```
 Languages=Regional
 ```
 
-<a id="atom-162"></a>
+<a id="atom-137"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-163"></a>
+<a id="atom-138"></a>
 **Atom:** formula
 
 ```
 Monster Level=7
 ```
 
-<a id="atom-164"></a>
+<a id="atom-139"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-165"></a>
+<a id="atom-140"></a>
 **Atom:** formula
 
 ```
 Agility=16
 ```
 
-<a id="atom-166"></a>
+<a id="atom-141"></a>
 **Atom:** formula
 
 ```
 Movement Speed=16
 ```
 
-<a id="atom-167"></a>
+<a id="atom-142"></a>
 **Atom:** formula
 
 ```
 Number=One
 ```
 
-<a id="atom-168"></a>
+<a id="atom-143"></a>
 **Atom:** formula
 
 ```
 Frequency=Rare
 ```
 
-<a id="atom-169"></a>
+<a id="atom-144"></a>
 **Atom:** formula
 
 ```
 Intellect=Human
 ```
 
-<a id="atom-170"></a>
+<a id="atom-145"></a>
 **Atom:** formula
 
 ```
 Reaction=Adversarial
 ```
 
-<a id="atom-171"></a>
+<a id="atom-146"></a>
 **Atom:** formula
 
 ```
 Strike Points=14
 ```
 
-<a id="atom-172"></a>
+<a id="atom-147"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=20/16 (9)
 ```
 
-<a id="atom-173"></a>
+<a id="atom-148"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/16 (9)
 ```
 
-<a id="atom-174"></a>
+<a id="atom-149"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Summon chariot
 ```
 
-<a id="atom-175"></a>
+<a id="atom-150"></a>
 **Atom:** formula
 
 ```
 Languages=Regional
 ```
 
-<a id="atom-176"></a>
+<a id="atom-151"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-177"></a>
-**Atom:** rule
-
-```
-The dullahan will always appear at the place you moved to (or to one of the places moved to, if the residents have split up and moved to different places), even if it's on the sea, or in a room that's been walled off on all sides.......
-```
-
-<a id="atom-178"></a>
+<a id="atom-152"></a>
 **Atom:** formula
 
 ```
 Monster Level=4
 ```
 
-<a id="atom-179"></a>
+<a id="atom-153"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-180"></a>
+<a id="atom-154"></a>
 **Atom:** formula
 
 ```
 Agility=16
 ```
 
-<a id="atom-181"></a>
+<a id="atom-155"></a>
 **Atom:** formula
 
 ```
 Movement Speed=30/30 (air)
 ```
 
-<a id="atom-182"></a>
+<a id="atom-156"></a>
 **Atom:** formula
 
 ```
 Strike Points=15
 ```
 
-<a id="atom-183"></a>
+<a id="atom-157"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=30/15 (8)
 ```
 
-<a id="atom-184"></a>
+<a id="atom-158"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/12 (5)
 ```
 
-<a id="atom-185"></a>
+<a id="atom-159"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Normal weapon immunity
 ```
 
-<a id="atom-186"></a>
-**Atom:** rule
-
-```
-The chariot can also attack while moving up to a maximum of 90 meters in one round.
-```
-
-<a id="atom-187"></a>
-**Atom:** rule
-
-```
-Also, healing magic cannot deal damage.
-```
-
-<a id="atom-188"></a>
-**Atom:** rule
-
-```
-You can attack a headless horse that is pulling a chariot normally.
-```
-
-<a id="atom-189"></a>
-**Atom:** rule
-
-```
-They act faithfully to their master's commands and may also attack enemies.
-```
-
-<a id="atom-190"></a>
-**Atom:** rule
-
-```
-When a headless horse's master dullahan is defeated, it loses its ability to act.
-```
-
-<a id="atom-191"></a>
+<a id="atom-160"></a>
 **Atom:** formula
 
 ```
 Languages=Regional
 ```
 
-<a id="atom-192"></a>
+<a id="atom-161"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-193"></a>
-**Atom:** rule
-
-```
-Also, if an undead knight's attack hits, the character will suffer damage to their mental power in addition to normal damage.
-```
-
-<a id="atom-194"></a>
+<a id="atom-162"></a>
 **Atom:** formula
 
 ```
 Monster Level=8
 ```
 
-<a id="atom-195"></a>
+<a id="atom-163"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-196"></a>
+<a id="atom-164"></a>
 **Atom:** formula
 
 ```
 Attack Points=Strike Points=-
 ```
 
-<a id="atom-197"></a>
+<a id="atom-165"></a>
 **Atom:** formula
 
 ```
 Evasion Points=Defense Points=-
 ```
 
-<a id="atom-198"></a>
+<a id="atom-166"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=16/16 (9)
 ```
 
-<a id="atom-199"></a>
+<a id="atom-167"></a>
 **Atom:** formula
 
 ```
 Special Abilities=8th level ancient magic (Magic Intensity/Magic Power=18/11)
 ```
 
-<a id="atom-200"></a>
+<a id="atom-168"></a>
 **Atom:** formula
 
 ```
 Habitat=Ruins
 ```
 
-<a id="atom-201"></a>
+<a id="atom-169"></a>
 **Atom:** formula
 
 ```
 Languages=Those previous (always includes low ancient)
 ```
 
-<a id="atom-202"></a>
+<a id="atom-170"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
 
-<a id="atom-203"></a>
+<a id="atom-171"></a>
 **Atom:** formula
 
 ```
 Monster Level=6
 ```
 
-<a id="atom-204"></a>
+<a id="atom-172"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-205"></a>
+<a id="atom-173"></a>
 **Atom:** formula
 
 ```
 Agility=10
 ```
 
-<a id="atom-206"></a>
+<a id="atom-174"></a>
 **Atom:** formula
 
 ```
 Movement Speed=14
 ```
 
-<a id="atom-207"></a>
+<a id="atom-175"></a>
 **Atom:** formula
 
 ```
 Intellect=Obeys commands
 ```
 
-<a id="atom-208"></a>
+<a id="atom-176"></a>
 **Atom:** formula
 
 ```
 Reaction=Violent
 ```
 
-<a id="atom-209"></a>
+<a id="atom-177"></a>
 **Atom:** formula
 
 ```
 Strike Points=8+curse
 ```
 
-<a id="atom-210"></a>
+<a id="atom-178"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=7/13 (6)
 ```
 
-<a id="atom-211"></a>
+<a id="atom-179"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/14 (7)
 ```
 
-<a id="atom-212"></a>
+<a id="atom-180"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Curse (Resist target
 ```
 
-<a id="atom-213"></a>
+<a id="atom-181"></a>
 **Atom:** formula
 
 ```
 score=13)
 ```
 
-<a id="atom-214"></a>
+<a id="atom-182"></a>
 **Atom:** formula
 
 ```
 Habitat=Tombs
 ```
 
-<a id="atom-215"></a>
+<a id="atom-183"></a>
 **Atom:** formula
 
 ```
 Languages=None
+```
+
+<a id="atom-184"></a>
+**Atom:** formula
+
+```
+Perception=Pseudo
+```
+
+<a id="atom-185"></a>
+**Atom:** formula
+
+```
+Monster Level=9
+```
+
+<a id="atom-186"></a>
+**Atom:** formula
+
+```
+Rarity=15
+```
+
+<a id="atom-187"></a>
+**Atom:** formula
+
+```
+Agility=14
+```
+
+<a id="atom-188"></a>
+**Atom:** formula
+
+```
+Movement Speed=14
+```
+
+<a id="atom-189"></a>
+**Atom:** formula
+
+```
+Number=One
+```
+
+<a id="atom-190"></a>
+**Atom:** formula
+
+```
+Frequency=Very rare
+```
+
+<a id="atom-191"></a>
+**Atom:** formula
+
+```
+Intellect=High
+```
+
+<a id="atom-192"></a>
+**Atom:** formula
+
+```
+Reaction=Adversarial
+```
+
+<a id="atom-193"></a>
+**Atom:** formula
+
+```
+Strike Points=16+curse
+```
+
+<a id="atom-194"></a>
+**Atom:** formula
+
+```
+Life Points/Resistance=21/18 (11)
+```
+
+<a id="atom-195"></a>
+**Atom:** formula
+
+```
+Mental Points/Resistance=21/18 (11)
+```
+
+<a id="atom-196"></a>
+**Atom:** formula
+
+```
+Special Abilities=7th level ancient magic (Magic intensity/magic power=17/10)
+```
+
+<a id="atom-197"></a>
+**Atom:** formula
+
+```
+Curse (Resist target score=16)
+```
+
+<a id="atom-198"></a>
+**Atom:** formula
+
+```
+Habitat=Tombs
+```
+
+<a id="atom-199"></a>
+**Atom:** formula
+
+```
+Languages=Low ancient
+```
+
+<a id="atom-200"></a>
+**Atom:** formula
+
+```
+Perception=Pseudo
+```
+
+<a id="atom-201"></a>
+**Atom:** formula
+
+```
+Habitat=Various
+```
+
+<a id="atom-202"></a>
+**Atom:** formula
+
+```
+Languages=Those previous
+```
+
+<a id="atom-203"></a>
+**Atom:** formula
+
+```
+Perception=Pseudo
+```
+
+<a id="atom-204"></a>
+**Atom:** formula
+
+```
+Strike Points=14+mental damage
+```
+
+<a id="atom-205"></a>
+**Atom:** formula
+
+```
+Life Points/Resistance=26/20 (13)
+```
+
+<a id="atom-206"></a>
+**Atom:** formula
+
+```
+Mental Points/Resistance=26/20 (13)
+```
+
+<a id="atom-207"></a>
+**Atom:** formula
+
+```
+Special Abilities=8th level dark magic (Magic intensity/magic power=18/11)
+```
+
+<a id="atom-208"></a>
+**Atom:** formula
+
+```
+Habitat=Places with unholy soil
+```
+
+<a id="atom-209"></a>
+**Atom:** formula
+
+```
+Languages=Those previous
+```
+
+<a id="atom-210"></a>
+**Atom:** formula
+
+```
+Perception=Pseudo
+```
+
+<a id="atom-211"></a>
+**Atom:** formula
+
+```
+Life Points/Resistance=26/25 (18)
+```
+
+<a id="atom-212"></a>
+**Atom:** formula
+
+```
+Mental Points/Resistance=32/26 (19)
+```
+
+<a id="atom-213"></a>
+**Atom:** formula
+
+```
+Special Abilities=10th level ancient magic (Magic intensity/magic power=22/15)
+```
+
+<a id="atom-214"></a>
+**Atom:** formula
+
+```
+Habitat=Places with unholy soil
+```
+
+<a id="atom-215"></a>
+**Atom:** formula
+
+```
+Languages=Low ancient
 ```
 
 <a id="atom-216"></a>
@@ -1789,295 +1789,97 @@ Perception=Pseudo
 ```
 
 <a id="atom-217"></a>
-**Atom:** rule
-
-```
-If a mummy's attack hits, in addition to physical damage, a curse will befall you.
-```
-
-<a id="atom-218"></a>
-**Atom:** formula
-
-```
-Monster Level=9
-```
-
-<a id="atom-219"></a>
-**Atom:** formula
-
-```
-Rarity=15
-```
-
-<a id="atom-220"></a>
-**Atom:** formula
-
-```
-Agility=14
-```
-
-<a id="atom-221"></a>
-**Atom:** formula
-
-```
-Movement Speed=14
-```
-
-<a id="atom-222"></a>
-**Atom:** formula
-
-```
-Number=One
-```
-
-<a id="atom-223"></a>
-**Atom:** formula
-
-```
-Frequency=Very rare
-```
-
-<a id="atom-224"></a>
-**Atom:** formula
-
-```
-Intellect=High
-```
-
-<a id="atom-225"></a>
-**Atom:** formula
-
-```
-Reaction=Adversarial
-```
-
-<a id="atom-226"></a>
-**Atom:** formula
-
-```
-Strike Points=16+curse
-```
-
-<a id="atom-227"></a>
-**Atom:** formula
-
-```
-Life Points/Resistance=21/18 (11)
-```
-
-<a id="atom-228"></a>
-**Atom:** formula
-
-```
-Mental Points/Resistance=21/18 (11)
-```
-
-<a id="atom-229"></a>
-**Atom:** formula
-
-```
-Special Abilities=7th level ancient magic (Magic intensity/magic power=17/10)
-```
-
-<a id="atom-230"></a>
-**Atom:** formula
-
-```
-Curse (Resist target score=16)
-```
-
-<a id="atom-231"></a>
-**Atom:** formula
-
-```
-Habitat=Tombs
-```
-
-<a id="atom-232"></a>
-**Atom:** formula
-
-```
-Languages=Low ancient
-```
-
-<a id="atom-233"></a>
-**Atom:** formula
-
-```
-Perception=Pseudo
-```
-
-<a id="atom-234"></a>
-**Atom:** rule
-
-```
-If a master mummy's attack hits, in addition to physical damage, a curse will befall you.
-```
-
-<a id="atom-235"></a>
-**Atom:** rule
-
-```
-Also, if a vampire's attack hits a character, in addition to normal damage, mental power will also be damaged.
-```
-
-<a id="atom-236"></a>
-**Atom:** rule
-
-```
-If they cannot steal mental power for one full day, they will automatically lose 1 mental point.
-```
-
-<a id="atom-237"></a>
-**Atom:** formula
-
-```
-Habitat=Various
-```
-
-<a id="atom-238"></a>
-**Atom:** formula
-
-```
-Languages=Those previous
-```
-
-<a id="atom-239"></a>
-**Atom:** formula
-
-```
-Perception=Pseudo
-```
-
-<a id="atom-240"></a>
-**Atom:** formula
-
-```
-Strike Points=14+mental damage
-```
-
-<a id="atom-241"></a>
-**Atom:** formula
-
-```
-Life Points/Resistance=26/20 (13)
-```
-
-<a id="atom-242"></a>
-**Atom:** formula
-
-```
-Mental Points/Resistance=26/20 (13)
-```
-
-<a id="atom-243"></a>
-**Atom:** formula
-
-```
-Special Abilities=8th level dark magic (Magic intensity/magic power=18/11)
-```
-
-<a id="atom-244"></a>
-**Atom:** formula
-
-```
-Habitat=Places with unholy soil
-```
-
-<a id="atom-245"></a>
-**Atom:** formula
-
-```
-Languages=Those previous
-```
-
-<a id="atom-246"></a>
-**Atom:** formula
-
-```
-Perception=Pseudo
-```
-
-<a id="atom-247"></a>
-**Atom:** rule
-
-```
-You cannot attempt this success roll if you do not know about vampires.
-```
-
-<a id="atom-248"></a>
-**Atom:** rule
-
-```
-If someone with the shaman skill looks at the soil , they can immediately tell that it's something out of the ordinary.
-```
-
-<a id="atom-249"></a>
-**Atom:** formula
-
-```
-Life Points/Resistance=26/25 (18)
-```
-
-<a id="atom-250"></a>
-**Atom:** formula
-
-```
-Mental Points/Resistance=32/26 (19)
-```
-
-<a id="atom-251"></a>
-**Atom:** formula
-
-```
-Special Abilities=10th level ancient magic (Magic intensity/magic power=22/15)
-```
-
-<a id="atom-252"></a>
-**Atom:** formula
-
-```
-Habitat=Places with unholy soil
-```
-
-<a id="atom-253"></a>
-**Atom:** formula
-
-```
-Languages=Low ancient
-```
-
-<a id="atom-254"></a>
-**Atom:** formula
-
-```
-Perception=Pseudo
-```
-
-<a id="atom-255"></a>
 **Atom:** formula
 
 ```
 Monster Level=Based on original
 ```
 
-<a id="atom-256"></a>
+<a id="atom-218"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Duplication
 ```
 
-<a id="atom-257"></a>
+<a id="atom-219"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-258"></a>
+<a id="atom-220"></a>
 **Atom:** formula
 
 ```
 Perception=Pseudo
 ```
+
+
+## Rules and exceptions
+
+- The victim cannot escape from inside unless the ethnoa dies. (Sword World RPG - Complete Edition.pdf p.212)
+- There may be cases where the property of former victims remains undigested inside the ethnoa's pouch. (Sword World RPG - Complete Edition.pdf p.212)
+- This vine can crawl on the ground and if there are trees, etc. (Sword World RPG - Complete Edition.pdf p.212-213)
+- A single vine may grow over a radius of several tens of meters. (Sword World RPG - Complete Edition.pdf p.212-213)
+- it can attach itself to them and grow. (Sword World RPG - Complete Edition.pdf p.212-213)
+- This is always a surprise attack, so for one round, only the killer creeper can attack. (Sword World RPG - Complete Edition.pdf p.213)
+- There is an immeasurable number of these vines, but only three vines can attack a single target at the same time. (Sword World RPG - Complete Edition.pdf p.213)
+- However, holy magic can be used freely. (Sword World RPG - Complete Edition.pdf p.213)
+- If entangled in multiple vines, you must make separate checks for each. (Sword World RPG - Complete Edition.pdf p.213)
+- A character entangled in vines can also attempt to pull the entangled vines off instead of making a normal attack. (Sword World RPG - Complete Edition.pdf p.213)
+- A Mandrake can only scream once per day. (Sword World RPG - Complete Edition.pdf p.213)
+- If you fail, you cannot attack or cast spells for one full round, and you suffer a -4 penalty to evasion. (Sword World RPG - Complete Edition.pdf p.213)
+- They cannot grow with the blood of fae, youma, etc. (Sword World RPG - Complete Edition.pdf p.213)
+- This plant can grow up to about 10 meters in height. (Sword World RPG - Complete Edition.pdf p.214)
+- They cannot survive for long in dry or sunny areas. (Sword World RPG - Complete Edition.pdf p.214)
+- While fighting a fungus, anyone within a 5 meter radius may inhale the spores. (Sword World RPG - Complete Edition.pdf p.214)
+- Those who have completely become a fungus cannot be cured with the holy magic Cure Poison nor the spirit magic Restore Health . (Sword World RPG - Complete Edition.pdf p.214)
+- Unlike normal zombies, they possess intellect, albeit low, and can make independent decisions and follow the commands of their creator. (Sword World RPG - Complete Edition.pdf p.214)
+- All magic and bard skill spellsong abilities cannot be used once you become a buau zombie. (Sword World RPG - Complete Edition.pdf p.214-215)
+- Unlike zombies, they decay slowly and can work for decades to centuries. (Sword World RPG - Complete Edition.pdf p.214-215)
+- Game masters should be aware of changes due to ability scores (reduced dexterity and agility). (Sword World RPG - Complete Edition.pdf p.214-215)
+- Every round thereafter, they must make a life force resistance roll against target score 10. (Sword World RPG - Complete Edition.pdf p.215)
+- Ghouls have paralyzing poison in their claws and fangs, and a character who suffers damage must succeed on a life force resistance roll against target score 10 or they will be paralyzed at the end of the next round. (Sword World RPG - Complete Edition.pdf p.215)
+- Their appearance remains the same as when they were alive, and other than their abnormally pale skin and cloudy eyes, they are no different from a normal human (however, their clothes may be tattered depending on the number of years since their death). (Sword World RPG - Complete Edition.pdf p.216)
+- When a haunt takes over your body, it can use your character's abilities in addition to its own previous skills. (Sword World RPG - Complete Edition.pdf p.216)
+- The target of the possession must attempt a mental power resistance roll. (Sword World RPG - Complete Edition.pdf p.216)
+- Depending on how long ago they died , they can look like zombies (rotting corpses) or skeletons (moving skeletons). (Sword World RPG - Complete Edition.pdf p.216)
+- However, they cannot use holy magic (but they can use dark magic). (Sword World RPG - Complete Edition.pdf p.217)
+- Also, after performing possession , they can freely use the skills they had previously. (Sword World RPG - Complete Edition.pdf p.217)
+- However, holy magic cannot be used. (Sword World RPG - Complete Edition.pdf p.217)
+- Only Exorcism and Save Soul can be expected to be effective. (Sword World RPG - Complete Edition.pdf p.217)
+- It can also communicate its intentions while disappearing. (Sword World RPG - Complete Edition.pdf p.217)
+- At this time, it may cause rapping sounds or poltergeist phenomena. (Sword World RPG - Complete Edition.pdf p.217)
+- After possessing , it can only use the abilities of that body. (Sword World RPG - Complete Edition.pdf p.217)
+- There are no eyeballs, and an evil red light can be seen deep inside the eye sockets. (Sword World RPG - Complete Edition.pdf p.217)
+- However, one (?) dullahan has only one chariot and two headless horses, and if these are defeated, they cannot be summoned again. (Sword World RPG - Complete Edition.pdf p.218)
+- A dullahan can summon its chariot and headless horse at any time and in any place. (Sword World RPG - Complete Edition.pdf p.218)
+- Also, it can hit-and-run different opposing characters again and again. (Sword World RPG - Complete Edition.pdf p.218)
+- A dullahan riding and controlling a chariot cannot attack on its own at the same time (because it's pulling the reins with one hand and holding its head in the other). (Sword World RPG - Complete Edition.pdf p.218)
+- Headless horses also cannot attack while pulling a chariot. (Sword World RPG - Complete Edition.pdf p.218)
+- Criticals can occur as usual with axes , maces , fl ails , slings , rocks , and warhammers . (Sword World RPG - Complete Edition.pdf p.218)
+- To attack a dullahan aboard a chariot, you must suffer a -2 penalty to attack power. (Sword World RPG - Complete Edition.pdf p.218)
+- Monster Level=4 Rarity=14 Agility=12 Movement Speed =30/30 (air) Number=Two horses Frequency=Rare Intellect=Animal Reaction=Adversarial Attack Points=Heel:10 (3) Strike Points=12 Evasion Points=11 (4) Defense Points=7 Life Points/Resistance=20/13 (6) Mental Points/Resistance=-/12 (5) Special Abilities=Normal weapon immunity Mental attack immunity Not affected by poison and illness Damage from healing magic Habitat=Unknown, appears with (or summoned by) dullahan Languages=None Perception=Magic Headless horses are the horses that pull the chariot with a dullahan on board, and can gallop through the air. (Sword World RPG - Complete Edition.pdf p.218)
+- They cannot attack while pulling the chariot, but the dullahan can freely detach the chariot from the headless horses at will. (Sword World RPG - Complete Edition.pdf p.218)
+- You can touch the armor, but apart from the glowing red eyes behind the helmet, there's nothing to be found inside. (Sword World RPG - Complete Edition.pdf p.218)
+- An undead knight can similarly drain the mental power of its enemies with its gaze. (Sword World RPG - Complete Edition.pdf p.219)
+- The scores given here are for an average wraith, and can vary considerably depending on its previous knowledge, mental power, sorcerer skill level, etc. (Sword World RPG - Complete Edition.pdf p.219)
+- Although a wraith has lost all of its physical abilities, its knowledge-related abilities and rune master skills are still effective, and it can use magic. (Sword World RPG - Complete Edition.pdf p.219)
+- However, holy magic cannot be used (dark magic is allowed). (Sword World RPG - Complete Edition.pdf p.219)
+- The character must make a mental power resistance roll against target score 13. (Sword World RPG - Complete Edition.pdf p.219)
+- The character must make a mental power resistance roll against target score 16. (Sword World RPG - Complete Edition.pdf p.220)
+- This regeneration or summoning can only be done once per round. (Sword World RPG - Complete Edition.pdf p.220)
+- A master mummy can use this ability while taking other actions. (Sword World RPG - Complete Edition.pdf p.220)
+- Anyone who makes eye contact with a vampire must first make a mental power resistance roll. (Sword World RPG - Complete Edition.pdf p.220)
+- A vampire can suck the lifeblood of one human who cannot resist in 10 minutes, allowing them to fully recover their mental points. (Sword World RPG - Complete Edition.pdf p.220)
+- Vampires can also steal mental power even with normal attacks, which are directly added to the vampire's mental points (but never exceed the upper limit). (Sword World RPG - Complete Edition.pdf p.220)
+- A character who makes eye contact with a lesser vampire must first resist the gaze against target score 10. (Sword World RPG - Complete Edition.pdf p.220)
+- Vampires can also turn into mist at their own will before their life points reach 0, and regenerate in a place with soil . (Sword World RPG - Complete Edition.pdf p.221)
+- they can still turn into a mist. (Sword World RPG - Complete Edition.pdf p.221)
+- A sage who has knowledge of vampires can look at the soil and completely find out its true identity through their knowledge ability. (Sword World RPG - Complete Edition.pdf p.221)
+- To do so, you must know about vampires and must also make a success roll against target score 16. (Sword World RPG - Complete Edition.pdf p.221)
+- You can defeat a vampire by reducing its mental points to 0, or by removing the soil from its original location and reducing its life points to 0. (Sword World RPG - Complete Edition.pdf p.221)
+- However, magical weapons and armor cannot be duplicated. (Sword World RPG - Complete Edition.pdf p.222)
+- It cannot duplicate someone's personality or even their memories. (Sword World RPG - Complete Edition.pdf p.222)

@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-ancient-magic-list
 page_kind: concept
-summary: Ancient Magic List: 40 accepted assertion(s) and 65 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 112 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_e08f5d3fea0eb556@c4587c9446c27affef9dfd4b49631b20
+projection_coverage: page-projection-pgp_09b3a9046259b276@4ce07385d8e68551a9f0a83c852c2026
 ---
 
 # Ancient Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - the strike roll can only be made with the strike power set to 5, regardless of the weapon's own strike power. (Sword World RPG - Complete Edition.pdf p.68)
 - This spell can also be cast directly on a living creature. (Sword World RPG - Complete Edition.pdf p.68)
@@ -57,251 +57,251 @@ Source: [[sword-world-rpg-complete-edition]]
 - This password does not have to be in high ancient. (Sword World RPG - Complete Edition.pdf p.70)
 - This spell can be used on objects that open and close, such as doors, treasure chest lids, etc. (Sword World RPG - Complete Edition.pdf p.70)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-If you apply it to a projectile such as a bow, everything fired from it will gain +5 to strike power, which makes it effective against monsters that normal weapons cannot affect.
+Base Mental Power Cost=3
 ```
 
 <a id="atom-2"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=3
+Distance=10 meters
 ```
 
 <a id="atom-3"></a>
 **Atom:** formula
 
 ```
-Distance=10 meters
+Area=One
 ```
 
 <a id="atom-4"></a>
 **Atom:** formula
 
 ```
-Area=One
+Duration=18 rounds
 ```
 
 <a id="atom-5"></a>
 **Atom:** formula
 
 ```
-Duration=18 rounds
+Effect=+2 to mental power resistance
 ```
 
 <a id="atom-6"></a>
 **Atom:** formula
 
 ```
-Effect=+2 to mental power resistance
+Resist=None
 ```
 
 <a id="atom-7"></a>
 **Atom:** formula
 
 ```
-Resist=None
+Base Mental Power Cost=3
 ```
 
 <a id="atom-8"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=3
+Distance=Caster
 ```
 
 <a id="atom-9"></a>
 **Atom:** formula
 
 ```
-Distance=Caster
+Area=Caster
 ```
 
 <a id="atom-10"></a>
 **Atom:** formula
 
 ```
-Area=Caster
+Duration=Until focus ends
 ```
 
 <a id="atom-11"></a>
 **Atom:** formula
 
 ```
-Duration=Until focus ends
+Expansion=Final score
 ```
 
 <a id="atom-12"></a>
 **Atom:** formula
 
 ```
-Expansion=Final score
+Resist=Negated effect
 ```
 
 <a id="atom-13"></a>
 **Atom:** formula
 
 ```
-Resist=Negated effect
+Base Mental Power Cost=5
 ```
 
 <a id="atom-14"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=5
+Distance=30 meters
 ```
 
 <a id="atom-15"></a>
 **Atom:** formula
 
 ```
-Distance=30 meters
+Area=A space with a 5 meter radius
 ```
 
 <a id="atom-16"></a>
 **Atom:** formula
 
 ```
-Area=A space with a 5 meter radius
+Duration=Instant
 ```
 
 <a id="atom-17"></a>
 **Atom:** formula
 
 ```
-Duration=Instant
-```
-
-<a id="atom-18"></a>
-**Atom:** rule
-
-```
-happening in their surroundings, they can make a resistance roll each round, and wake up if successful.
-```
-
-<a id="atom-19"></a>
-**Atom:** formula
-
-```
 Base Mental Power Cost=3
 ```
 
-<a id="atom-20"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-21"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Duration=18 rounds
 ```
 
-<a id="atom-22"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Effect=Know where and what magical power
 ```
 
-<a id="atom-23"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Type=Detection
 ```
 
-<a id="atom-24"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Expansion=Duration
 ```
 
-<a id="atom-25"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-26"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=3
 ```
 
-<a id="atom-27"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Distance=10 meters
 ```
 
-<a id="atom-28"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Area=A space with a 10 meter radius
 ```
 
-<a id="atom-29"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Duration=12 hours
 ```
 
-<a id="atom-30"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Effect=Creates a dark space within the area of effect
 ```
 
-<a id="atom-31"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-32"></a>
-**Atom:** rule
-
-```
-If cast on a weapon or armor, it has the effect of reducing the target's required strength by -1 without changing its strike power or defense power.
-```
-
-<a id="atom-33"></a>
-**Atom:** rule
-
-```
-Even if you reduce the required strength, the strike power or defense power of weapons and armor will not change.
-```
-
-<a id="atom-34"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=5
 ```
 
-<a id="atom-35"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Distance=10 meters
+```
+
+<a id="atom-32"></a>
+**Atom:** formula
+
+```
+Duration=Instant
+```
+
+<a id="atom-33"></a>
+**Atom:** formula
+
+```
+Base Mental Power Cost=3
+```
+
+<a id="atom-34"></a>
+**Atom:** formula
+
+```
+Distance=Touch
+```
+
+<a id="atom-35"></a>
+**Atom:** formula
+
+```
+Area=Flammable material a few cm in size
 ```
 
 <a id="atom-36"></a>
@@ -315,201 +315,173 @@ Duration=Instant
 **Atom:** formula
 
 ```
-Base Mental Power Cost=3
+Effect=Ignites flammable materials such as pieces of wood or paper
 ```
 
 <a id="atom-38"></a>
 **Atom:** formula
 
 ```
-Distance=Touch
+Resist=None
 ```
 
 <a id="atom-39"></a>
 **Atom:** formula
 
 ```
-Area=Flammable material a few cm in size
+Base Mental Power Cost=3
 ```
 
 <a id="atom-40"></a>
 **Atom:** formula
 
 ```
-Duration=Instant
+Distance=10 meters
 ```
 
 <a id="atom-41"></a>
 **Atom:** formula
 
 ```
-Effect=Ignites flammable materials such as pieces of wood or paper
+Area=One
 ```
 
 <a id="atom-42"></a>
 **Atom:** formula
 
 ```
-Resist=None
+Duration=18 rounds
 ```
 
 <a id="atom-43"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=3
+Effect=Reduce any damage dealt to life force
 ```
 
 <a id="atom-44"></a>
 **Atom:** formula
 
 ```
-Distance=10 meters
+Base Mental Power Cost=4
 ```
 
 <a id="atom-45"></a>
 **Atom:** formula
 
 ```
-Area=One
+Distance=Touch
 ```
 
 <a id="atom-46"></a>
 **Atom:** formula
 
 ```
-Duration=18 rounds
+Area=One specific object
 ```
 
 <a id="atom-47"></a>
 **Atom:** formula
 
 ```
-Effect=Reduce any damage dealt to life force
+Duration=Permanent
 ```
 
 <a id="atom-48"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=4
+Effect=Gives the targeted object resistance to
 ```
 
 <a id="atom-49"></a>
 **Atom:** formula
 
 ```
-Distance=Touch
+Type=Target score
 ```
 
 <a id="atom-50"></a>
 **Atom:** formula
 
 ```
-Area=One specific object
+Expansion=Final score
 ```
 
 <a id="atom-51"></a>
 **Atom:** formula
 
 ```
-Duration=Permanent
+Resist=None
 ```
 
 <a id="atom-52"></a>
 **Atom:** formula
 
 ```
-Effect=Gives the targeted object resistance to
+Base Mental Power Cost=3
 ```
 
 <a id="atom-53"></a>
 **Atom:** formula
 
 ```
-Type=Target score
+Distance=10 meters
 ```
 
 <a id="atom-54"></a>
 **Atom:** formula
 
 ```
-Expansion=Final score
+Area=A space with a 10 meter radius
 ```
 
 <a id="atom-55"></a>
 **Atom:** formula
 
 ```
-Resist=None
-```
-
-<a id="atom-56"></a>
-**Atom:** rule
-
-```
-If a successful resist, the opponent's spell will either completely lose its effect, or will take only an incomplete effect.
-```
-
-<a id="atom-57"></a>
-**Atom:** formula
-
-```
-Base Mental Power Cost=3
-```
-
-<a id="atom-58"></a>
-**Atom:** formula
-
-```
-Distance=10 meters
-```
-
-<a id="atom-59"></a>
-**Atom:** formula
-
-```
-Area=A space with a 10 meter radius
-```
-
-<a id="atom-60"></a>
-**Atom:** formula
-
-```
 Duration=12 hours
 ```
 
-<a id="atom-61"></a>
+<a id="atom-56"></a>
 **Atom:** formula
 
 ```
 Effect=Lights a magical light within the area
 ```
 
-<a id="atom-62"></a>
+<a id="atom-57"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-63"></a>
-**Atom:** rule
-
-```
-If you cast it on a portable object such as a shield, you can move the light source along with the object.
-```
-
-<a id="atom-64"></a>
+<a id="atom-58"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-65"></a>
-**Atom:** rule
 
-```
-As a result, the door or lid will never open unless you chant the password you chose when casting the spell.
-```
+## Rules and exceptions
+
+- the strike roll can only be made with the strike power set to 5, regardless of the weapon's own strike power. (Sword World RPG - Complete Edition.pdf p.68)
+- This spell can also be cast directly on a living creature. (Sword World RPG - Complete Edition.pdf p.68)
+- You also cannot find things whose form you can't see directly, such as things inside a box. (Sword World RPG - Complete Edition.pdf p.68)
+- Expansion=Duration, Distance, Target volume Resist=None This can be used on any single point in space or on any object, canceling out the light in a space within a 10 meter radius from that point, completely closing it in darkness. (Sword World RPG - Complete Edition.pdf p.68-69)
+- the required strength can become -2 or -3 .... (Sword World RPG - Complete Edition.pdf p.69)
+- This spell's effect can be expanded. (Sword World RPG - Complete Edition.pdf p.69)
+- Also, in this case, required strength can only be reduced to 1. (Sword World RPG - Complete Edition.pdf p.69)
+- Effect=Removes the effects of other spells cast on the target Type=Ritual Counters (Negates): All magic except curses and non-removable Expansion=Final score, distance, targets or area Resist=None This spell acts as a negative force against all other spells and can remove their effects. (Sword World RPG - Complete Edition.pdf p.69)
+- The effect of the spell will disappear in an instant, but the object should burn on its own afterwards. (Sword World RPG - Complete Edition.pdf p.69)
+- For example, if you cast Kindle on a bundle of straw that has Magic Protection cast on it, if Kindle cannot break through the protection of Magic Protection (the final score is insufficient), it won't be able to ignite. (Sword World RPG - Complete Edition.pdf p.69)
+- This password does not have to be in high ancient. (Sword World RPG - Complete Edition.pdf p.70)
+- This spell can be used on objects that open and close, such as doors, treasure chest lids, etc. (Sword World RPG - Complete Edition.pdf p.70)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-1st-level-ancient-magic-list-unlock]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-2nd-level-ancient-magic-list-oak]] - contextualizes: source-supported topic dependency

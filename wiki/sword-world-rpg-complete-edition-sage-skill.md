@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-sage-skill
 page_kind: concept
-summary: Sage Skill: 18 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 27 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_da7e45ee5b547fe8@ad71fbec397b8c4458d548523cf5be72
+projection_coverage: page-projection-pgp_d5d148bfbd2c86a5@37c6ebc317360598004f09f5ef15a5a2
 ---
 
 # Sage Skill
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - As an optional rule, you can set a target score or difficulty for text or conversations so that it cannot be understood if you fail a success roll. (Sword World RPG - Complete Edition.pdf p.118)
 - You can also write in any language that you can read and speak. (Sword World RPG - Complete Edition.pdf p.118)
@@ -35,16 +35,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - Suppose a character has a 3rd level sorcerer skill and a 1st level sage skill and increases his sage skill to 2nd level. (Sword World RPG - Complete Edition.pdf p.131)
 - The reduction on the 2 levels row is 500 points , so the experience points spent are 1000 points (experience points originally. (Sword World RPG - Complete Edition.pdf p.131)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-If you can read both common and low ancient, you are free to learn subsequent languages.
-```
-
-<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -64,3 +57,15 @@ Table 8-1: Experience Points by Skill.        There is no reduction in experienc
           8.3            How    to Use    Experience      Points:   Increasing      Ability  Scores
  8.3 How  to Use Experience  Points: Increasing Ability Scores
 ```
+
+
+## Rules and exceptions
+
+- As an optional rule, you can set a target score or difficulty for text or conversations so that it cannot be understood if you fail a success roll. (Sword World RPG - Complete Edition.pdf p.118)
+- You can also write in any language that you can read and speak. (Sword World RPG - Complete Edition.pdf p.118)
+- However, runes cannot be chosen. (Sword World RPG - Complete Edition.pdf p.118)
+- Characters who cannot read common must fi rst learn how to read common before learning other languages. (Sword World RPG - Complete Edition.pdf p.118)
+- Then, a character who cannot read low ancient (but has learned common) must learn to read low ancient before learning any other language. (Sword World RPG - Complete Edition.pdf p.118)
+- For this reason, a character can spend fewer experience points only when acquiring both the sorcerer and sage skills. (Sword World RPG - Complete Edition.pdf p.130)
+- When a character who already has the sorcerer skill acquires the sage skill at the same level or lower, or when a character who already has the sage skill acquires the sorcerer skill at the same level or lower, the amount of experience points spent can be reduced depending on the skill level. (Sword World RPG - Complete Edition.pdf p.131)
+- At this time, the newly acquired sage skill level 2 is lower than the already acquired sorcerer skill level 3 , so he can acquire it for fewer experience points. (Sword World RPG - Complete Edition.pdf p.131)

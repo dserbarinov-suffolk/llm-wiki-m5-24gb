@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-ordered-collections
 page_kind: concept
-summary: ordered collections: 9 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_04e3066e57b38ee8@911d8f2d567343e04598713b494c18bf
+projection_coverage: page-projection-pgp_8f95ff08c0afa97c@af8f5a13ae0d6652dc4c2815c1f49e2b
 ---
 
 # ordered collections
@@ -78,3 +78,9 @@ console.log(i)
 0.20259276474826038
 ...
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-iterables-out-to-infinity]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-operations-on-ordered-collections]] - contextualizes: source-supported topic dependency

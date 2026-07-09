@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-literal-object-syntax
 page_kind: concept
-summary: literal object syntax: 8 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 20 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_380119f8ed2bf55b@e7a5468c89299d7d6a54d94c2933c3a3
+projection_coverage: page-projection-pgp_a64cd14c6b0128e0@955bb2fdc42b31f5a255b71d7c7b8d5c
 ---
 
 # literal object syntax
@@ -24,6 +24,10 @@ Source: [[javascriptallonge]]
 - Expressions can be used for keys as well. (javascriptallonge.pdf p.134)
 - It is very common to associate named function expressions with keys in objects, and there is a 'compact method syntax' for binding named function expressions to keywords:. (javascriptallonge.pdf p.135)
 - (There are some other technical differences between binding a named function expression and using compact method syntax, but they are not relevant here. (javascriptallonge.pdf p.135-136)
+
+## Rules
+
+- Expressions can be used for keys as well. (javascriptallonge.pdf p.134)
 
 ## Technical atoms
 
@@ -167,3 +171,8 @@ return cyphertext
 }
 }
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-destructuring-objects]] - contextualizes: source-supported topic dependency

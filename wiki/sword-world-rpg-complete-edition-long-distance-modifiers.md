@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-long-distance-modifiers
 page_kind: concept
-summary: Long Distance Modifiers: 2 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 2 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_713ffa6672e76d3e@7187cffd3b05c2f94d82b1c603661938
+projection_coverage: page-projection-pgp_d2f7c4c81a208abf@7187cffd3b05c2f94d82b1c603661938
 ---
 
 # Long Distance Modifiers

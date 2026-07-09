@@ -1,20 +1,20 @@
 ---
 page_id: javascriptallonge-variables-and-bindings
 page_kind: concept
-summary: variables and bindings: 15 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 21 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_230836c9fa7294bc@16faab18015673eda6b760b268236d95
+projection_coverage: page-projection-pgp_10d97b4dfed97019@18b1530ce6a192cc72f21a933414343e
 ---
 
 # variables and bindings
 
 Source: [[javascriptallonge]]
 
-## Statements
+## Procedure
 
 - Right now everything looks simple and straightforward, and we can move on to talk about arguments in more detail. (javascriptallonge.pdf p.41)
 - Besides a desire to use long words to sound impressive, this is not going to seem attractive until we find ourselves wanting to discuss the role of the Church of England in 19th century British politics. (javascriptallonge.pdf p.41)
@@ -32,26 +32,23 @@ Source: [[javascriptallonge]]
 - The value of a variable when evaluated in an environment is the value bound to the variable's name in that environment, which is '2'. (javascriptallonge.pdf p.42)
 - meaning, that the environment is a dictionary, and that the value 2 is bound to the name x , and that there might be other stuff in that dictionary we aren't discussing right now. (javascriptallonge.pdf p.42)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** code block
-
-```
-(x) => (y) => x
-```
-
-<a id="atom-2"></a>
-**Atom:** code block
-
-```
-((x) => x)(2)
-//=> 2
-```
-
-<a id="atom-3"></a>
 **Atom:** formula
 
 ```
 One sub-expression, (x) => x evaluates to a function.
 ```
+
+
+## Rules and exceptions
+
+- Right now everything looks simple and straightforward, and we can move on to talk about arguments in more detail. (javascriptallonge.pdf p.41)
+- 24 We said that you can 't apply a function to an expression. (javascriptallonge.pdf p.41)
+- You can apply a function to one or more functions. (javascriptallonge.pdf p.41)
+
+## Related pages
+
+- [[javascriptallonge-ah-i-d-like-to-have-an-argument-please-22]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-call-by-sharing]] - contextualizes: source-supported topic dependency

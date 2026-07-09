@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-silence-sylph-wind-spirit
 page_kind: concept
-summary: [ Silence ] (Sylph/Wind Spirit): 5 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_2d262877f744ca59@3208314bb66f00a4860926848e6547d0
+projection_coverage: page-projection-pgp_3fcb8bf429418aef@9e0719d8e2f658a33b6152b276836d09
 ---
 
 # [ Silence ] (Sylph/Wind Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - This spell has the effect of stopping the movement of air and muffling all sounds within the area of effect. (Sword World RPG - Complete Edition.pdf p.87)
 - If you fail to resist, you won't make a sound even if you cast a spell, so you won't be able to use magic. (Sword World RPG - Complete Edition.pdf p.87)
@@ -22,7 +22,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - If they fail, they will no longer be able to generate sounds or voices within the area of effect. (Sword World RPG - Complete Edition.pdf p.87)
 - If someone who was outside the spell's area of effect when it was cast later enters the area of effect, they must make a resistance check at that point. (Sword World RPG - Complete Edition.pdf p.87)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -66,9 +66,12 @@ Effect=Muffle all sound within the area of effect
 Resist=Negated effect
 ```
 
-<a id="atom-7"></a>
-**Atom:** rule
 
-```
-Those within the area of effect can attempt to resist, and if they succeed, only the voices and sounds they make will be communicated to the outside, but other sounds will not be transmitted at all (those who succeed also cannot hear sounds from outside).
-```
+## Rules and exceptions
+
+- If someone who was outside the spell's area of effect when it was cast later enters the area of effect, they must make a resistance check at that point. (Sword World RPG - Complete Edition.pdf p.87)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-control-spirit-various-lesser-spirits]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-stone-blast-gnome-earth-spirit]] - contextualizes: source-supported topic dependency

@@ -4,18 +4,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from llmwiki.application.assertion_graph_artifacts import (
-    AssertionGraphArtifact,
-    assertion_graph_artifact_to_json,
-)
-from llmwiki.application.source_artifacts import (
-    CanonicalSourceArtifact,
-    canonical_source_artifact_to_json,
-)
-from llmwiki.application.topic_state_artifacts import (
-    TopicStateArtifact,
-    topic_state_artifact_to_json,
-)
+from llmwiki.application.assertion_graph_artifacts import AssertionGraphArtifact
+from llmwiki.application.page_projection_artifacts import PageProjectionArtifact
+from llmwiki.application.source_artifacts import CanonicalSourceArtifact
+from llmwiki.application.topic_state_artifacts import TopicStateArtifact
 from llmwiki.domain.ledger.artifacts import (
     BlockedWriteDiagnosticArtifact,
     ClaimLedgerArtifact,
@@ -31,10 +23,7 @@ from llmwiki.domain.ledger.artifacts import (
 )
 from llmwiki.domain.ledger.canonical import canonical_json
 from llmwiki.domain.ledger.knowledge_shapes import KnowledgeShapeCatalog
-from llmwiki.domain.ledger.proposed_change_review import (
-    ProposedChangeReviewArtifact,
-    proposed_change_review_artifact_to_json,
-)
+from llmwiki.domain.ledger.proposed_change_review import ProposedChangeReviewArtifact
 from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.staged_contracts import (
     LedgerExtractionResult,
@@ -43,6 +32,7 @@ from llmwiki.domain.ledger.staged_contracts import (
     SourcePlan,
     StagedWikiPageSet,
 )
+from llmwiki.runtime.ledger_artifact_files import artifact_files
 
 
 @dataclass(frozen=True)
@@ -73,6 +63,7 @@ def build_serialized_artifact_bundle(
     proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
     assertion_graph_artifact: AssertionGraphArtifact | None,
     topic_state_artifact: TopicStateArtifact | None,
+    page_projection_artifact: PageProjectionArtifact | None,
 ) -> SerializedLedgerArtifacts:
     members = _artifact_members(
         ds_artifact,
@@ -95,32 +86,34 @@ def build_serialized_artifact_bundle(
         proposed_change_review_artifact,
         assertion_graph_artifact,
         topic_state_artifact,
+        page_projection_artifact,
     )
-    artifact_files = _artifact_files(
-        ds_artifact,
-        ledger_artifact,
-        catalog_artifact,
-        ledger_report_artifact,
-        projection_report_artifact,
-        coverage_artifact,
-        projection_context_artifact,
-        section_plan,
-        knowledge_shape_catalog,
-        source_coverage_artifact,
-        blocked,
-        source_plan,
-        extraction_result,
-        staged_page_set,
-        lint_run,
-        publish_run,
-        source_artifact,
-        proposed_change_review_artifact,
-        assertion_graph_artifact,
-        topic_state_artifact,
+    files = artifact_files(
+        ds_artifact=ds_artifact,
+        ledger_artifact=ledger_artifact,
+        catalog_artifact=catalog_artifact,
+        ledger_report_artifact=ledger_report_artifact,
+        projection_report_artifact=projection_report_artifact,
+        coverage_artifact=coverage_artifact,
+        projection_context_artifact=projection_context_artifact,
+        section_plan=section_plan,
+        knowledge_shape_catalog=knowledge_shape_catalog,
+        source_coverage_artifact=source_coverage_artifact,
+        blocked=blocked,
+        source_plan=source_plan,
+        extraction_result=extraction_result,
+        staged_page_set=staged_page_set,
+        lint_run=lint_run,
+        publish_run=publish_run,
+        source_artifact=source_artifact,
+        proposed_change_review_artifact=proposed_change_review_artifact,
+        assertion_graph_artifact=assertion_graph_artifact,
+        topic_state_artifact=topic_state_artifact,
+        page_projection_artifact=page_projection_artifact,
     )
     manifest = build_portable_artifact_set(tuple(members))
-    artifact_files["portable-artifact-set.json"] = canonical_json(manifest, indent=2)
-    return SerializedLedgerArtifacts(artifact_files, manifest)
+    files["portable-artifact-set.json"] = canonical_json(manifest, indent=2)
+    return SerializedLedgerArtifacts(files, manifest)
 
 
 def _artifact_members(
@@ -144,6 +137,7 @@ def _artifact_members(
     proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
     assertion_graph_artifact: AssertionGraphArtifact | None,
     topic_state_artifact: TopicStateArtifact | None,
+    page_projection_artifact: PageProjectionArtifact | None,
 ) -> list[PortableArtifactMember]:
     members = [
         _member(
@@ -249,6 +243,14 @@ def _artifact_members(
                 topic_state_artifact.topic_state_fingerprint,
             )
         )
+    if page_projection_artifact is not None:
+        members.append(
+            _member(
+                "page-projection-artifact",
+                page_projection_artifact.page_projection_artifact_id,
+                page_projection_artifact.page_projection_fingerprint,
+            )
+        )
     if source_coverage_artifact is not None:
         members.append(
             _member(
@@ -266,65 +268,6 @@ def _artifact_members(
             )
         )
     return members
-
-
-def _artifact_files(
-    ds_artifact: DocumentStructureArtifact,
-    ledger_artifact: ClaimLedgerArtifact,
-    catalog_artifact: QualityCheckCatalogArtifact,
-    ledger_report_artifact: LedgerQualityReportArtifact,
-    projection_report_artifact: LedgerQualityReportArtifact,
-    coverage_artifact: ProjectionCoverageArtifact,
-    projection_context_artifact: ProjectionContextArtifact,
-    section_plan: SectionGroundedPlan,
-    knowledge_shape_catalog: KnowledgeShapeCatalog,
-    source_coverage_artifact: SourceCoverageArtifact | None,
-    blocked: BlockedWriteDiagnosticArtifact | None,
-    source_plan: SourcePlan,
-    extraction_result: LedgerExtractionResult,
-    staged_page_set: StagedWikiPageSet,
-    lint_run: ProjectionLintRun,
-    publish_run: PublishRun,
-    source_artifact: CanonicalSourceArtifact | None,
-    proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
-    assertion_graph_artifact: AssertionGraphArtifact | None,
-    topic_state_artifact: TopicStateArtifact | None,
-) -> dict[str, str]:
-    artifact_files = {
-        "document-structure.json": canonical_json(ds_artifact, indent=2),
-        "claim-ledger.json": canonical_json(ledger_artifact, indent=2),
-        "quality-check-catalog.json": canonical_json(catalog_artifact, indent=2),
-        "ledger-quality-report.json": canonical_json(ledger_report_artifact, indent=2),
-        "projection-quality-report.json": canonical_json(projection_report_artifact, indent=2),
-        "projection-coverage.json": canonical_json(coverage_artifact, indent=2),
-        "projection-context.json": canonical_json(projection_context_artifact, indent=2),
-        "section-plan.json": canonical_json(section_plan, indent=2),
-        "knowledge-shapes.json": canonical_json(knowledge_shape_catalog, indent=2),
-        "source-plan.json": canonical_json(source_plan, indent=2),
-        "extraction-result.json": canonical_json(extraction_result, indent=2),
-        "staged-pages.json": canonical_json(staged_page_set, indent=2),
-        "lint-run.json": canonical_json(lint_run, indent=2),
-        "publish-run.json": canonical_json(publish_run, indent=2),
-    }
-    if source_artifact is not None:
-        artifact_files["assertion-graph-source-artifact.json"] = canonical_source_artifact_to_json(
-            source_artifact
-        )
-    if proposed_change_review_artifact is not None:
-        artifact_files["proposed-change-review.json"] = proposed_change_review_artifact_to_json(
-            proposed_change_review_artifact
-        )
-    if assertion_graph_artifact is not None:
-        artifact_files["assertion-graph.json"] = assertion_graph_artifact_to_json(
-            assertion_graph_artifact
-        )
-    if topic_state_artifact is not None:
-        artifact_files["topic-states.json"] = topic_state_artifact_to_json(topic_state_artifact)
-    if source_coverage_artifact is not None:
-        artifact_files["source-coverage.json"] = canonical_json(source_coverage_artifact, indent=2)
-    if blocked is not None:
-        artifact_files["blocked-write-diagnostic.json"] = canonical_json(blocked, indent=2)
-    return artifact_files
 
 
 def _member(kind: str, target_id: str, fingerprint: str) -> PortableArtifactMember:

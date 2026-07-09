@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-treasure-and-rewards-in-sword-world
 page_kind: concept
-summary: Treasure and Rewards in Sword World: 6 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 6 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_160dd1946c26d71c@5636fa1278dd08da077ba9e79932b1ca
+projection_coverage: page-projection-pgp_3a4a8b64ab39faaf@5636fa1278dd08da077ba9e79932b1ca
 ---
 
 # Treasure and Rewards in Sword World

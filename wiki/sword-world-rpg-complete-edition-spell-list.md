@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-spell-list
 page_kind: concept
-summary: Spell List: 10 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 15 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_137a406fd177a8c5@f5ed6ba126206b6bc01f1bc8cd6bada8
+projection_coverage: page-projection-pgp_04ae36c06702d226@7b9bd43a71887790a51d45e155d82c09
 ---
 
 # Spell List
@@ -26,6 +26,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - However, no matter what modifiers are applied, if the 2D roll when calculating the final score is double ones, the summoned creature will immediately appear and attack the caster him or herself. (Sword World RPG - Complete Edition.pdf p.149)
 - All summons are non-removable magic. (Sword World RPG - Complete Edition.pdf p.149)
 - Therefore, Dispel Magic has no effect. (Sword World RPG - Complete Edition.pdf p.149)
+
+## Rules
+
+- Here is a list of dragon roar magic that dragon priests can use. (Sword World RPG - Complete Edition.pdf p.149)
+- The caster can also increase the final score through spell expansion or rituals. (Sword World RPG - Complete Edition.pdf p.149)
+- If you can basically infer that they'll be in the surrounding 10km, please add +2. (Sword World RPG - Complete Edition.pdf p.149)
 
 ## Technical atoms
 

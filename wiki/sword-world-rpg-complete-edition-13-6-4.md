@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-13-6-4
 page_kind: concept
-summary: 13.6.4: 18 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 26 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_4802c1d959184d70@9e82d2fdcf5a5f2ed197c25cecd79061
+projection_coverage: page-projection-pgp_2ea50343fd2958ee@f4915fcecd274175228a27568d4d34c4
 ---
 
 # 13.6.4
@@ -35,6 +35,14 @@ Source: [[sword-world-rpg-complete-edition]]
 - Characters suffer a -2 penalty to attack and evasion, even if they're equipped for ice. (Sword World RPG - Complete Edition.pdf p.237)
 - Characters suffer a -2 penalty to attack and evasion, even if they're equipped for snow and cold. (Sword World RPG - Complete Edition.pdf p.238)
 
+## Rules
+
+- You cannot touch this kind of monster directly, but it is possible to cast spells with a distance of touch . (Sword World RPG - Complete Edition.pdf p.237)
+- In the case of combat between monsters, if a monster can also only be wounded by silver or magical weapons, or has a greater monster level than its opponent, it can deal damage to such a monster. (Sword World RPG - Complete Edition.pdf p.237)
+- There are weapons that cannot deliver effective strikes due to their form, etc. (Sword World RPG - Complete Edition.pdf p.237)
+- They have keen perception and react very well to approaching weapons, etc., or can move quickly through the air. (Sword World RPG - Complete Edition.pdf p.237)
+- Some monsters with this ability may not be able to go on land at all, or may not be suited for land combat, so they'll suffer a -4 penalty to attack and evasion. (Sword World RPG - Complete Edition.pdf p.237)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -50,3 +58,8 @@ Normal weapons, no matter how powerful, cannot deal damage.
 ```
 Even in combat between monsters, if an opponent monster's attack method is equivalent to an ineffective weapon, it will not deal damage.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-13-6-5]] - contextualizes: source-supported topic dependency

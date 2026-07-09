@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-spirit-magic-list
 page_kind: concept
-summary: Spirit Magic List: 6 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 18 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_76ff97a6dd1c66e0@2e263c54142ebfd9701eb60fc2b51d77
+projection_coverage: page-projection-pgp_42a6110a5b7b37de@5af2e3949c7f2052d431fb737b036872
 ---
 
 # Spirit Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Conversely, you can also transmit your voice to the location. (Sword World RPG - Complete Edition.pdf p.84)
 - This spell has the effect of commanding a sylph to deliver air vibrations (sounds) to the caster without weakening them. (Sword World RPG - Complete Edition.pdf p.84)
@@ -23,7 +23,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - 5.1.14 Spirit Magic Lis t There must always be a passage of wind between the target and the caster. (Sword World RPG - Complete Edition.pdf p.84)
 - Sound travels along that path (over the Therefore, those in the path can hear the sounds shortest possible distance). (Sword World RPG - Complete Edition.pdf p.84)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -73,3 +73,15 @@ Type=Detection
 ```
 Resist=None
 ```
+
+
+## Rules and exceptions
+
+- Conversely, you can also transmit your voice to the location. (Sword World RPG - Complete Edition.pdf p.84)
+- Since it can be used to narrow the area of effect, it's also possible to communicate with just a single target. (Sword World RPG - Complete Edition.pdf p.84)
+- 5.1.14 Spirit Magic Lis t There must always be a passage of wind between the target and the caster. (Sword World RPG - Complete Edition.pdf p.84)
+- Sound travels along that path (over the Therefore, those in the path can hear the sounds shortest possible distance). (Sword World RPG - Complete Edition.pdf p.84)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit]] - contextualizes: source-supported topic dependency

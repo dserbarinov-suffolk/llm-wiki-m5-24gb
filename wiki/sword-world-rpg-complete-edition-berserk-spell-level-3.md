@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-berserk-spell-level-3
 page_kind: concept
-summary: [ Berserk ] (Spell Level=3): 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_17da40f5c83baf84@2997369da01d026d200c16a31a6bc942
+projection_coverage: page-projection-pgp_ae7de721d36c7f22@1e08a618dd7fa5d47f0db116ec79881a
 ---
 
 # [ Berserk ] (Spell Level=3)
@@ -25,6 +25,10 @@ Source: [[sword-world-rpg-complete-edition]]
 - While under the influence of this spell, you will not fall unconscious even if your life force (points) drops to 0 or less. (Sword World RPG - Complete Edition.pdf p.148)
 - However, a death check must be made. (Sword World RPG - Complete Edition.pdf p.148)
 
+## Rules
+
+- However, a death check must be made. (Sword World RPG - Complete Edition.pdf p.148)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -33,3 +37,8 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 The first time it becomes 0 or less, and each time you receive a new wound, you must make a death check, and if you fail, you will die.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-lunatic-seed-spell-level-4]] - contextualizes: source-supported topic dependency

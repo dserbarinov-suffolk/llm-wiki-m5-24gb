@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-which-came-first-the-chicken-or-the-egg
 page_kind: concept
-summary: which came first, the chicken or the egg?: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_0b6e95547b3446d1@2563cb9aeffe6ed25aa53ad64e69ecfe
+projection_coverage: page-projection-pgp_a2820eaabb6d05db@940032b74a382050eb686875fc8f8322
 ---
 
 # which came first, the chicken or the egg?
@@ -18,6 +18,10 @@ Source: [[javascriptallonge]]
 
 - This behaviour of pure functions and closures has many, many consequences that can be exploited to write software. (javascriptallonge.pdf p.47)
 - JavaScript always has the notion of at least one environment we do not control: A global environment in which many useful things are bound such as libraries full of standard functions. (javascriptallonge.pdf p.48)
+
+## Rules
+
+- This behaviour of pure functions and closures has many, many consequences that can be exploited to write software. (javascriptallonge.pdf p.47)
 
 ## Technical atoms
 
@@ -38,3 +42,8 @@ If you don't want your code to operate directly within the global environment, w
 })();
 // bottom of the file
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-shadowy-variables-from-a-shadowy-planet]] - contextualizes: source-supported topic dependency

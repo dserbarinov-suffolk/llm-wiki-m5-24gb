@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-8th-level-dragon-roar-magic-list
 page_kind: concept
-summary: 8th Level Dragon Roar Magic List: 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_39e3ab46f11bcca2@4a1fa118fb1feccf2498a05b88fa87c1
+projection_coverage: page-projection-pgp_8b0685b478dcc330@a3b70b2878c848129f9446321a618177
 ---
 
 # 8th Level Dragon Roar Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Effect=By wrapping your entire body in a dragon egg and sleeping inside, you will fully recover. (Sword World RPG - Complete Edition.pdf p.152)
 - The caster will fall into a magical sleep inside this egg. (Sword World RPG - Complete Edition.pdf p.152)
@@ -22,7 +22,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - During this time, all undesirable conditions such as wounds, exhaustion, poison, illness, and curses vanish, and the caster awakens fully recovered . (Sword World RPG - Complete Edition.pdf p.152)
 - If it's forcibly removed , there will be no recovery effect at all, no matter how long you remain in the egg. (Sword World RPG - Complete Edition.pdf p.152)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula

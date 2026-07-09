@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-5-1-9-magic-types
 page_kind: concept
-summary: 5.1.9 Magic Types: 84 accepted assertion(s) and 14 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 134 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_c5ba9e1c118d0009@26ba5f799997158f987ba34841c6daf8
+projection_coverage: page-projection-pgp_781dbba4a0f1f11c@f6cfab851694bca5a498f0a6ad3a4c1f
 ---
 
 # 5.1.9 Magic Types
@@ -100,6 +100,43 @@ Source: [[sword-world-rpg-complete-edition]]
 - It's acceptable to have all spells on the magic list be lost, or conversely, to have all magic be known and no spells be lost. (Sword World RPG - Complete Edition.pdf p.65)
 - If a spell says lost under its magic details, it may be easier to maintain balance when enjoying the game if you consider it a lost spell. (Sword World RPG - Complete Edition.pdf p.65)
 - Unless the game master has a particular reason, please consider these to be lost spells. (Sword World RPG - Complete Edition.pdf p.65)
+
+## Rules
+
+- Some magic can nullify the effects of other magic. (Sword World RPG - Complete Edition.pdf p.63)
+- If you're trying to nullify magic that has a target score with another spell, you must use that other spell's 2D roll to determine your final score. (Sword World RPG - Complete Edition.pdf p.63)
+- Therefore, when an adventurer uses magic that has a target score , that player should note down that score and remember it. (Sword World RPG - Complete Edition.pdf p.63)
+- and Increase Weight (which makes an object heavier), but when both of these are cast on the same object at the same time, they will cancel each other out and disappear without taking effect. (Sword World RPG - Complete Edition.pdf p.63)
+- When casting counters (negates): magic to cancel the effect of certain magic, if the magic that was cast prior has a target score , then according to the definition of magic with a target score , the magic that's cast after cannot cancel the prior magic unless its final score is greater than or equal to the determined target score . (Sword World RPG - Complete Edition.pdf p.63)
+- For example, the ancient magic Darkness can nullify the effects of the spirit magic Will-O-Wisp and still close the surrounding area in darkness, which means Darkness itself is more effective. (Sword World RPG - Complete Edition.pdf p.63)
+- ② Next, the one casting the magic must roll 2D to find their final score (by adding their magic power). (Sword World RPG - Complete Edition.pdf p.64)
+- ④ If fi nal score in ② is greater than or equal to target score in ① , the target may attempt to resist . (Sword World RPG - Complete Edition.pdf p.64)
+- This kind of magic can only take effect on one target at a time. (Sword World RPG - Complete Edition.pdf p.64)
+- Magic of this type can only take effect on humans , fae , and youma . (Sword World RPG - Complete Edition.pdf p.64)
+- Also, with magic of the physical ability type, two or more cannot affect the same target at the same time. (Sword World RPG - Complete Edition.pdf p.64)
+- Two or more of this kind of magic cannot affect the same weapon at the same time. (Sword World RPG - Complete Edition.pdf p.64)
+- Therefore, that power cannot be nullified, so even if you cast new weapon enhancement magic, it'll be useless . (Sword World RPG - Complete Edition.pdf p.64)
+- Some magic, such as Dispel Magic (ancient magic) and Remove Curse (holy magic), can be used as counter magic that removes other magic. (Sword World RPG - Complete Edition.pdf p.64)
+- Although, the ancient magic Perfect Cancellation is able to remove nonremovable magic. (Sword World RPG - Complete Edition.pdf p.64)
+- However, Remove Curse (holy magic) can be used to remove it. (Sword World RPG - Complete Edition.pdf p.64)
+- Dispel Magic (ancient magic) can be used to remove most magic, but for magic of the curse type, this is not possible. (Sword World RPG - Complete Edition.pdf p.64)
+- you can still attempt to evade it. (Sword World RPG - Complete Edition.pdf p.64)
+- The game master should decide in which cases it seems suspicious. (Sword World RPG - Complete Edition.pdf p.65)
+- For NPCs and monsters, the game master should decide based on their intelligence. (Sword World RPG - Complete Edition.pdf p.65)
+- In the case of player characters (adventurers), this may be when the players themselves suspect an illusion. (Sword World RPG - Complete Edition.pdf p.65)
+- However, in order to do this, you must first be suspicious of the illusion. (Sword World RPG - Complete Edition.pdf p.65)
+- No matter how foolish you are , you should suspect that the floor is an illusion. (Sword World RPG - Complete Edition.pdf p.65)
+- However, you can only make this resistance roll once . (Sword World RPG - Complete Edition.pdf p.65)
+- Once you fail, no matter how suspicious it may be, you won't be able to detect its true form (of course, you can walk around suspicious floors). (Sword World RPG - Complete Edition.pdf p.65)
+- Magic of the ritual type can increase its effect (final score) due to carefully preparing and performing a ritual. (Sword World RPG - Complete Edition.pdf p.65)
+- and if it's holy (dark) magic, they must be a believer. (Sword World RPG - Complete Edition.pdf p.65)
+- If additional casters who can use the same spell also participate in the ritual, you will gain +1 to your final score for each one. (Sword World RPG - Complete Edition.pdf p.65)
+- If it's ancient magic, the caster must have been taught at a school such as an academy of sages , etc. (Sword World RPG - Complete Edition.pdf p.65)
+- Even humans who cannot use spells can participate in the ritual. (Sword World RPG - Complete Edition.pdf p.65)
+- In this case, you can gain +1 to your final score for every 10 people (rounded down). (Sword World RPG - Complete Edition.pdf p.65)
+- Fractions of the number of days must be rounded down , so if you can't spend a full day, the final score bonus will be 0 , regardless of how many participants there are. (Sword World RPG - Complete Edition.pdf p.65)
+- A ritual must be performed without sleep or rest, and is usually limited to 2 days. (Sword World RPG - Complete Edition.pdf p.65)
+- If a spell says lost under its magic details, it may be easier to maintain balance when enjoying the game if you consider it a lost spell. (Sword World RPG - Complete Edition.pdf p.65)
 
 ## Technical atoms
 
@@ -200,3 +237,9 @@ If the ritual takes two days (+2), one extra priest who can also use Remove Curs
 ```
 The game master may also use a ritual to perform other expansions (targets, area, volume, etc.) that the magic would allow.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-5-1-8-magic-contraction]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-detail]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-operations-on-ordered-collections
 page_kind: concept
-summary: operations on ordered collections: 17 accepted assertion(s) and 9 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 30 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_bf4e3b69aaec0a56@ca81b7d1e3606b0d4f2635a07ad52ad9
+projection_coverage: page-projection-pgp_3de22b6191a4ffe6@cf7c9634a5d005a9c36dff9384029f60
 ---
 
 # operations on ordered collections
@@ -33,6 +33,11 @@ Source: [[javascriptallonge]]
 - first returns the first element of an iterable (if it has one), and rest returns an iterable that iterates over all but the first element of an iterable. (javascriptallonge.pdf p.221)
 - For completeness, here are two more handy iterable functions. (javascriptallonge.pdf p.221)
 - like our other operations, rest preserves the ordered collection semantics of its argument. (javascriptallonge.pdf p.221)
+
+## Rules
+
+- But for the purposes of discussing ideas, we can use the same name twice in two different contexts. (javascriptallonge.pdf p.217)
+- If we were writing a library of functions, we would have to disambiguate the two kinds of mapping functions with special names, namespaces, or modules. (javascriptallonge.pdf p.217)
 
 ## Technical atoms
 
@@ -194,3 +199,9 @@ return iterator;
 }
 });
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-ordered-collections]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-from]] - contextualizes: source-supported topic dependency

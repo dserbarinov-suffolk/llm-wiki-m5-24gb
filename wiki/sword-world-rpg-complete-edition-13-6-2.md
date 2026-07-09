@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-13-6-2
 page_kind: concept
-summary: 13.6.2: 5 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_9b99c9ed6199222b@9aa8708d4b04220b743a4d0732824ea3
+projection_coverage: page-projection-pgp_3a5a17e4a47e187b@d8cc995dc6a40f9678159e5530ac87c9
 ---
 
 # 13.6.2
@@ -20,6 +20,11 @@ Source: [[sword-world-rpg-complete-edition]]
 - Unless it's a poison that applies immediately (mainly damage), it can be treated with the holy magic Cure Poison or Refresh , or the spirit magic Restore Health . (Sword World RPG - Complete Edition.pdf p.236)
 - For detailed rules regarding poison, please refer to 12.2.1: Poisons (see p. (Sword World RPG - Complete Edition.pdf p.236)
 - If you fail, your body will be taken over. (Sword World RPG - Complete Edition.pdf p.236)
+- Among monsters, some can affect a character's central nervous system and take over their body. (Sword World RPG - Complete Edition.pdf p.236)
+
+## Rules
+
+- Unless it's a poison that applies immediately (mainly damage), it can be treated with the holy magic Cure Poison or Refresh , or the spirit magic Restore Health . (Sword World RPG - Complete Edition.pdf p.236)
 - Among monsters, some can affect a character's central nervous system and take over their body. (Sword World RPG - Complete Edition.pdf p.236)
 
 ## Technical atoms
@@ -44,3 +49,9 @@ In the case of a poison that deals damage, if the resist is successful, then unl
 ```
 If you're attacked by a monster with this ability, you must make a life force resistance roll against the indicated target score.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-13-6-1]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-13-6-3-special-attacks-other]] - contextualizes: source-supported topic dependency

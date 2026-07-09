@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-mutation
 page_kind: concept
-summary: Mutation: 12 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 23 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_430c5f86e0f4db5d@33a022137697750f76401d482fa86ce9
+projection_coverage: page-projection-pgp_30a8c746c271a5ce@9576d736f6b7acdd324da66b3659d428
 ---
 
 # Mutation
@@ -28,6 +28,13 @@ Source: [[javascriptallonge]]
 - We haven't rebound the inner name to a different variable, we've mutated the value that both bindings share. (javascriptallonge.pdf p.143)
 - Mutating existing objects has special implications when two bindings are aliases of the same value. (javascriptallonge.pdf p.143)
 - Note well: Declaring a variable const does not prevent us from mutating its value, only from rebinding its name. (javascriptallonge.pdf p.143)
+
+## Rules
+
+- In JavaScript, almost every type of value can mutate . (javascriptallonge.pdf p.141)
+- Recall that you can access a value from within an array or an object using [] . (javascriptallonge.pdf p.141)
+- Specifically, arrays and objects can mutate. (javascriptallonge.pdf p.141)
+- Before we could reassign things, the most important point about this is that the identities were the same, because they were the same value. (javascriptallonge.pdf p.142)
 
 ## Technical atoms
 

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-garbage-garbage-everywhere
 page_kind: concept
-summary: Garbage, Garbage Everywhere: 12 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_28efab9fc56ea941@c9a4c13f15808f460c3bde5c5b1675bb
+projection_coverage: page-projection-pgp_4acd1ef8c2e90781@c9a4c13f15808f460c3bde5c5b1675bb
 ---
 
 # Garbage, Garbage Everywhere

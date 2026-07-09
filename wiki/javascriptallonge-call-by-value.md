@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-call-by-value
 page_kind: concept
-summary: call by value: 3 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 5 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_7375dfee87c685d5@17fcd96dd9a4ba5a49fe8bfdb5973c48
+projection_coverage: page-projection-pgp_b0eb4a8538487c8b@a236c094879ce641b2d7f44530d50e99
 ---
 
 # call by value
@@ -29,3 +29,8 @@ Source: [[javascriptallonge]]
 ((diameter) => diameter * 3.14159265)(1 + 1)
 //=> 6.2831853
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-quick-summary-of-functions-and-bodies]] - contextualizes: source-supported topic dependency

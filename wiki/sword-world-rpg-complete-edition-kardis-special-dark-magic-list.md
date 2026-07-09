@@ -1,25 +1,25 @@
 ---
 page_id: sword-world-rpg-complete-edition-kardis-special-dark-magic-list
 page_kind: concept
-summary: Kardis Special Dark Magic List: 2 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_26e22d5270c81134@eda8e85a08301d336ab364a3e42d6505
+projection_coverage: page-projection-pgp_20f3c40542bf77b3@2b810b7baa164494e73f44f7ef3af0b3
 ---
 
 # Kardis Special Dark Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - A target who has this spell cast on them and fails a resistance roll will die instantly. (Sword World RPG - Complete Edition.pdf p.148)
 - It has no effect on things that do not have normal life, such as undead, magical creatures etc. (Sword World RPG - Complete Edition.pdf p.148)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula

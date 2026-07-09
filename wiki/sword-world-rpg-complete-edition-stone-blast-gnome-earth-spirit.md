@@ -1,26 +1,26 @@
 ---
 page_id: sword-world-rpg-complete-edition-stone-blast-gnome-earth-spirit
 page_kind: concept
-summary: [ Stone Blast ] (Gnome/Earth Spirit): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 13 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_44d873c03ea7921b@c0bf94eafafa228a6dcdc06f68a07d87
+projection_coverage: page-projection-pgp_0f78c1f84038fb2a@958a207219d1671517b3165389dc0449
 ---
 
 # [ Stone Blast ] (Gnome/Earth Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - The spell has no effect if the target is standing on a solid chunk of rock or on a cobblestone surface. (Sword World RPG - Complete Edition.pdf p.87)
 - These stones always hit, and the target will suffer strike power 20 damage. (Sword World RPG - Complete Edition.pdf p.87)
 - To cast this spell, there must be bare, natural ground directly under the target's feet. (Sword World RPG - Complete Edition.pdf p.87)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -70,3 +70,13 @@ Type=Damage (Stone-type)
 ```
 Resist=Reduced effect
 ```
+
+
+## Rules and exceptions
+
+- To cast this spell, there must be bare, natural ground directly under the target's feet. (Sword World RPG - Complete Edition.pdf p.87)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-silence-sylph-wind-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-binding-dryad-plant-spirit]] - contextualizes: source-supported topic dependency

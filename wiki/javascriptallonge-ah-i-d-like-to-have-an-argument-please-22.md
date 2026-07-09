@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-ah-i-d-like-to-have-an-argument-please-22
 page_kind: concept
-summary: Ah. I'd Like to Have an Argument, Please. 22: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 15 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_e5a28d9d003dd1ef@84841874cede700b8960a6e158255bbf
+projection_coverage: page-projection-pgp_c2150921a5b5cb6a@11b1e2a290dfa5a2ee19a13a568c97b2
 ---
 
 # Ah. I'd Like to Have an Argument, Please. 22
@@ -63,3 +63,9 @@ Source: [[javascriptallonge]]
 ((room, board) => room + board)(800, 150)
 //=> 950
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-functions-that-evaluate-to-functions]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-variables-and-bindings]] - contextualizes: source-supported topic dependency

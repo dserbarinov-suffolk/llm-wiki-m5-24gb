@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-summary
 page_kind: concept
-summary: summary: 18 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 23 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_5e534a35d0de9466@98d967c3280a5cfe7d4e1f79e48fa865
+projection_coverage: page-projection-pgp_07d5f01da2f82e2d@775733ef07ed418d2d98e38426c50431
 ---
 
 # summary
@@ -34,3 +34,14 @@ Source: [[javascriptallonge]]
 - This is especially useful for making iterables. (javascriptallonge.pdf p.245)
 - We have looked at generators as ways of making iterators over static collections, where state is modelled implicitly in control flow. (javascriptallonge.pdf p.283)
 - Again, the salient difference is that an 'interactive' generator is stateful, and it embodies its state in its control flow. (javascriptallonge.pdf p.283)
+
+## Rules
+
+- Its specialized cases of mapping and folding are especially useful and can be used to build other functions. (javascriptallonge.pdf p.116)
+- Although we showed how to use tail calls to map and fold over arrays with [first, ..rest] , in reality this is not how it ought to be done. (javascriptallonge.pdf p.131)
+- Iterable ordered collections can be iterated over or gathered into another collection. (javascriptallonge.pdf p.223)
+- Using a generator instead of writing an iterator object that has a .next() method allows us to write code that can be much simpler for cases like recursive iterations or state patterns. (javascriptallonge.pdf p.245)
+
+## Related pages
+
+- [[javascriptallonge-function-parameters-are-eager]] - contextualizes: source-supported topic dependency

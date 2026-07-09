@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-10th-level-basic-dark-magic-list-call-god
 page_kind: concept
-summary: 10th Level Basic Dark Magic List [ Call God ]: 9 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_1d8a7b027e62560e@7e135a110925a51d4fbbc76a47c1aa09
+projection_coverage: page-projection-pgp_e6cf3667d8ec7830@d95d7de082595fa83e3b1dbde0dfeab6
 ---
 
 # 10th Level Basic Dark Magic List [ Call God ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - However, humans' frail bodies and minds cannot withstand the great power of a god, so the sacrifice to the spell is destroyed, and you will not be able to bring them back to life again. (Sword World RPG - Complete Edition.pdf p.147)
 - Even wicked gods who have lost contact with the material world will be able to use their full power if summoned with this spell. (Sword World RPG - Complete Edition.pdf p.147)
@@ -26,7 +26,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Each game master is responsible for determining the suitability of sacrifices, etc. (Sword World RPG - Complete Edition.pdf p.147)
 - For example, it is for this reason that innocent girls are preferred as sacrifices. (Sword World RPG - Complete Edition.pdf p.147)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -35,9 +35,7 @@ Source: [[sword-world-rpg-complete-edition]]
 Resist=Negated effect
 ```
 
-<a id="atom-2"></a>
-**Atom:** rule
 
-```
-If the person being sacrificed is close to a god (regardless of whether it's a god of light or a god of darkness), you can add +1 to +6 to the final score.
-```
+## Rules and exceptions
+
+- However, humans' frail bodies and minds cannot withstand the great power of a god, so the sacrifice to the spell is destroyed, and you will not be able to bring them back to life again. (Sword World RPG - Complete Edition.pdf p.147)

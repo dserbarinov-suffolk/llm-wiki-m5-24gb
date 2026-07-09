@@ -1,20 +1,20 @@
 ---
 page_id: javascriptallonge-state-machines
 page_kind: concept
-summary: state machines: 6 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_226693a04fa98b5d@d68997a56a0f39e79a7243d30a284d3b
+projection_coverage: page-projection-pgp_6c02e517e2ab6904@84e1a99584c1e74cee27213afda80b94
 ---
 
 # state machines
 
 Source: [[javascriptallonge]]
 
-## Statements
+## Procedure
 
 - Some iterables can be modelled as state machines. (javascriptallonge.pdf p.228)
 - The first element of the fibonacci sequence is zero. (javascriptallonge.pdf p.228)
@@ -23,37 +23,9 @@ Source: [[javascriptallonge]]
 - This isn't a good fit for an iterator, because iterators have one functional entry point and therefore, we'd have to represent our three states explicitly, perhaps using a state pattern 90 :. (javascriptallonge.pdf p.229)
 - The thing to note here is that our fibonacci generator has three states: generating 0 , generating 1 , and generating everything after that. (javascriptallonge.pdf p.229)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** code block
-
-```
-// Generation
-const fibonacci = () => {
-let a, b;
-console.log(a = 0);
-console.log(b = 1);
-while (true) {
-[a, b] = [b, a + b];
-console.log(b);
-}
-}
-fibonacci()
-//=>
-0
-1
-1
-2
-3
-5
-8
-13
-21
-34
-```
-
-<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -151,3 +123,14 @@ Served by the Pot: Collections
 208
 function * only (something) {
 ```
+
+
+## Rules and exceptions
+
+- Some iterables can be modelled as state machines. (javascriptallonge.pdf p.228)
+- This isn't a good fit for an iterator, because iterators have one functional entry point and therefore, we'd have to represent our three states explicitly, perhaps using a state pattern 90 :. (javascriptallonge.pdf p.229)
+
+## Related pages
+
+- [[javascriptallonge-recursive-iterators]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-javascript-s-generators]] - contextualizes: source-supported topic dependency

@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-mythical-beasts-and-magical-beasts
 page_kind: concept
-summary: Mythical Beasts and Magical Beasts: 287 accepted assertion(s) and 213 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 534 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_eac13799bf03f905@59fc5ce41db3b24390b019e0037c170c
+projection_coverage: page-projection-pgp_d36048cc45c028c3@4b9e9afd8b3f636d71ed69913f60ad4f
 ---
 
 # Mythical Beasts and Magical Beasts
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Monster Level=3 Rarity=14 Agility=15 Movement Speed =15 Number=One to several Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Horns: 9 (2) Strike Points=9 Evasion Points=11 (4) Defense Points=5 Life Points/Resistance=12/11 (4) Mental Points/Resistance=18/12 (5) Special Abilities=Manipulate emotions with a flute (Resist target score=10) Habitat=Forests Languages=Regional. (Sword World RPG - Complete Edition.pdf p.188)
 - Female satyrs are called she-satyrs. (Sword World RPG - Complete Edition.pdf p.188)
@@ -304,7 +304,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Monster Level=1 Rarity=6 Agility=18 Movement Speed =20 Number=Several to around ten Frequency=Moderate Intellect=Animal Reaction=Neutral Attack Points=Fangs:8 (1)/Claw:9 (2)/Claw:9 (2) Strike Points=4/3/3 Evasion Points=10 (3) Defense Points=4 Life Points/Resistance=9/8 (1) Mental Points/Resistance=7/8 (1) Special Abilities=Disease (Intensity 5) Habitat=Underground tunnels, caves, ruins Languages=None. (Sword World RPG - Complete Edition.pdf p.199)
 - A giant rat is a huge rodent, about 1 meter long. (Sword World RPG - Complete Edition.pdf p.199)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -370,1147 +370,951 @@ Mental Points/Resistance=11/10(3)
 ```
 
 <a id="atom-10"></a>
-**Atom:** rule
-
-```
-By sticking with this lower body, a ceiling hanger can also move along walls and ceilings.
-```
-
-<a id="atom-11"></a>
-**Atom:** rule
-
-```
-Ceiling hangers primarily attack sleeping prey, but when hungry they may attack active prey as well.
-```
-
-<a id="atom-12"></a>
-**Atom:** rule
-
-```
-From then on, in each round, a death check must be made when applying damage (even if it's 0).
-```
-
-<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-14"></a>
-**Atom:** rule
-
-```
-Anyone who hears a deela's song must make a mental power resistance roll against target score 10.
-```
-
-<a id="atom-15"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Monster Level=3
 ```
 
-<a id="atom-16"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Rarity=18
 ```
 
-<a id="atom-17"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Agility=16 Movement Speed=6/30 (air)
 ```
 
-<a id="atom-18"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Strike Points=9
 ```
 
-<a id="atom-19"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Evasion Points=11 (4) Defense Points=6 Life Points/Resistance=15/11 (4)
 ```
 
-<a id="atom-20"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=12/11 (4) Special Abilities=None in particular Habitat=Coasts Languages=Harpy, regional Perception=Five senses
 ```
 
-<a id="atom-21"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
+```
+
+<a id="atom-18"></a>
+**Atom:** formula
+
+```
+Special Abilities=Water adaptation
+```
+
+<a id="atom-19"></a>
+**Atom:** formula
+
+```
+Perception=Five senses (illumination)
+```
+
+<a id="atom-20"></a>
+**Atom:** formula
+
+```
+Habitat=Deserts
+```
+
+<a id="atom-21"></a>
+**Atom:** formula
+
+```
+Perception=Five senses (infravision)
 ```
 
 <a id="atom-22"></a>
 **Atom:** formula
 
 ```
-Special Abilities=Water adaptation
+Perception=Five senses
 ```
 
 <a id="atom-23"></a>
 **Atom:** formula
 
 ```
-Perception=Five senses (illumination)
+Monster Level=4
 ```
 
 <a id="atom-24"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-Also, you cannot cast magic on the medusa in these states.
+Rarity=15
 ```
 
 <a id="atom-25"></a>
 **Atom:** formula
 
 ```
-Habitat=Deserts
+Strike Points=9+petrify
 ```
 
 <a id="atom-26"></a>
 **Atom:** formula
 
 ```
-Perception=Five senses (infravision)
+Life Points/Resistance=16/12 (5)
 ```
 
 <a id="atom-27"></a>
 **Atom:** formula
 
 ```
-Perception=Five senses
+Mental Points/Resistance=8/11 (4)
 ```
 
 <a id="atom-28"></a>
 **Atom:** formula
 
 ```
-Monster Level=4
+Habitat=Wilderness
 ```
 
 <a id="atom-29"></a>
 **Atom:** formula
 
 ```
-Rarity=15
+Languages=None
 ```
 
 <a id="atom-30"></a>
 **Atom:** formula
 
 ```
-Strike Points=9+petrify
+Perception=Five senses
 ```
 
 <a id="atom-31"></a>
 **Atom:** formula
 
 ```
-Life Points/Resistance=16/12 (5)
+Monster Level=5
 ```
 
 <a id="atom-32"></a>
 **Atom:** formula
 
 ```
-Mental Points/Resistance=8/11 (4)
+Rarity=13
 ```
 
 <a id="atom-33"></a>
 **Atom:** formula
 
 ```
-Habitat=Wilderness
+Attack Points=Fangs:12 (5)/Snake's fangs:12 (5)
 ```
 
 <a id="atom-34"></a>
 **Atom:** formula
 
 ```
-Languages=None
+Strike Points=15/13+poison
 ```
 
 <a id="atom-35"></a>
 **Atom:** formula
 
 ```
-Perception=Five senses
-```
-
-<a id="atom-36"></a>
-**Atom:** rule
-
-```
-If you find and eat henruda in advance, you can neutralize the cockatrice's magical power and prevent being petrified.
-```
-
-<a id="atom-37"></a>
-**Atom:** rule
-
-```
-When in combat, a scylla can attack different targets at the same time with its six heads.
-```
-
-<a id="atom-38"></a>
-**Atom:** formula
-
-```
-Monster Level=5
-```
-
-<a id="atom-39"></a>
-**Atom:** formula
-
-```
-Rarity=13
-```
-
-<a id="atom-40"></a>
-**Atom:** formula
-
-```
-Attack Points=Fangs:12 (5)/Snake's fangs:12 (5)
-```
-
-<a id="atom-41"></a>
-**Atom:** formula
-
-```
-Strike Points=15/13+poison
-```
-
-<a id="atom-42"></a>
-**Atom:** formula
-
-```
 Life Points/Resistance=24/15 (8)
 ```
 
-<a id="atom-43"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=18/14 (7)
 ```
 
-<a id="atom-44"></a>
+<a id="atom-37"></a>
 **Atom:** formula
 
 ```
 Special Abilities=5th level dark magic (Magic Intensity/Magic Power=14/7)
 ```
 
-<a id="atom-45"></a>
+<a id="atom-38"></a>
 **Atom:** formula
 
 ```
 Habitat=Mountain recesses
 ```
 
-<a id="atom-46"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-47"></a>
+<a id="atom-40"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-48"></a>
-**Atom:** rule
-
-```
-In combat, a Chimera can attack two targets at the same time, using its lion fangs and the snake fangs at the tip of its tail.
-```
-
-<a id="atom-49"></a>
+<a id="atom-41"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses infravision)
 ```
 
-<a id="atom-50"></a>
-**Atom:** rule
-
-```
-If this happens, they will never betray their friends.
-```
-
-<a id="atom-51"></a>
-**Atom:** rule
-
-```
-They can use ancient magic and spirit magic, but they are especially fond of illusions and magic that affects the mind.
-```
-
-<a id="atom-52"></a>
-**Atom:** rule
-
-```
-When in danger, telchines will use a Shape Change spell to take on the form of a titan or an ugly beast to intimidate their opponents.
-```
-
-<a id="atom-53"></a>
+<a id="atom-42"></a>
 **Atom:** formula
 
 ```
 Monster Level=5
 ```
 
-<a id="atom-54"></a>
+<a id="atom-43"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-55"></a>
-**Atom:** rule
-
-```
-If you catch one as a child and tame it, you can even use it as a riding horse.
-```
-
-<a id="atom-56"></a>
+<a id="atom-44"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-57"></a>
+<a id="atom-45"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-58"></a>
-**Atom:** rule
-
-```
-A head displacer itself has the ability to speak low ancient, but cannot use any of its host's (?) skills.
-```
-
-<a id="atom-59"></a>
-**Atom:** rule
-
-```
-If the tentacles are not clear, those with the sage skill cannot use the monster check ability.
-```
-
-<a id="atom-60"></a>
-**Atom:** rule
-
-```
-A head displacer may use dark magic on very rare occasions.
-```
-
-<a id="atom-61"></a>
+<a id="atom-46"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-62"></a>
-**Atom:** rule
-
-```
-Whenever they suck blood, they must return to their original form.
-```
-
-<a id="atom-63"></a>
-**Atom:** rule
-
-```
-Slaves have low intellect and cannot use magic.
-```
-
-<a id="atom-64"></a>
+<a id="atom-47"></a>
 **Atom:** formula
 
 ```
 Monster Level=8
 ```
 
-<a id="atom-65"></a>
+<a id="atom-48"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-66"></a>
+<a id="atom-49"></a>
 **Atom:** formula
 
 ```
 Agility=18
 ```
 
-<a id="atom-67"></a>
+<a id="atom-50"></a>
 **Atom:** formula
 
 ```
 Movement Speed=10/10 (water)
 ```
 
-<a id="atom-68"></a>
+<a id="atom-51"></a>
 **Atom:** formula
 
 ```
 Number=Several to dozens
 ```
 
-<a id="atom-69"></a>
+<a id="atom-52"></a>
 **Atom:** formula
 
 ```
 Frequency=Rare
 ```
 
-<a id="atom-70"></a>
+<a id="atom-53"></a>
 **Atom:** formula
 
 ```
 Strike Points=7
 ```
 
-<a id="atom-71"></a>
+<a id="atom-54"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=16/10 (3)
 ```
 
-<a id="atom-72"></a>
+<a id="atom-55"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=10/9 (2)
 ```
 
-<a id="atom-73"></a>
+<a id="atom-56"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Water adaptation
 ```
 
-<a id="atom-74"></a>
+<a id="atom-57"></a>
 **Atom:** formula
 
 ```
 Languages=Lizardman
 ```
 
-<a id="atom-75"></a>
+<a id="atom-58"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (illumination)
 ```
 
-<a id="atom-76"></a>
+<a id="atom-59"></a>
 **Atom:** formula
 
 ```
 Monster Level=5
 ```
 
-<a id="atom-77"></a>
+<a id="atom-60"></a>
 **Atom:** formula
 
 ```
 Rarity=15
 ```
 
-<a id="atom-78"></a>
+<a id="atom-61"></a>
 **Atom:** formula
 
 ```
 Agility=14
 ```
 
-<a id="atom-79"></a>
+<a id="atom-62"></a>
 **Atom:** formula
 
 ```
 Movement Speed=10/10 (water)
 ```
 
-<a id="atom-80"></a>
+<a id="atom-63"></a>
 **Atom:** formula
 
 ```
 Number=One to several
 ```
 
-<a id="atom-81"></a>
+<a id="atom-64"></a>
 **Atom:** formula
 
 ```
 Frequency=Very Rare
 ```
 
-<a id="atom-82"></a>
+<a id="atom-65"></a>
 **Atom:** formula
 
 ```
 Strike Points=10
 ```
 
-<a id="atom-83"></a>
+<a id="atom-66"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=20/14 (7)
 ```
 
-<a id="atom-84"></a>
+<a id="atom-67"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=14/13 (6)
 ```
 
-<a id="atom-85"></a>
+<a id="atom-68"></a>
 **Atom:** formula
 
 ```
 Special Abilities=5th level dragon roar magic
 ```
 
-<a id="atom-86"></a>
+<a id="atom-69"></a>
 **Atom:** formula
 
 ```
 (Magic Intensity/Magic Power=14/7)
 ```
 
-<a id="atom-87"></a>
+<a id="atom-70"></a>
 **Atom:** formula
 
 ```
 Habitat=Swamps
 ```
 
-<a id="atom-88"></a>
+<a id="atom-71"></a>
 **Atom:** formula
 
 ```
 Languages=Lizardman
 ```
 
-<a id="atom-89"></a>
+<a id="atom-72"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-90"></a>
+<a id="atom-73"></a>
 **Atom:** formula
 
 ```
 Monster Level=6
 ```
 
-<a id="atom-91"></a>
+<a id="atom-74"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-92"></a>
+<a id="atom-75"></a>
 **Atom:** formula
 
 ```
 Agility=14
 ```
 
-<a id="atom-93"></a>
+<a id="atom-76"></a>
 **Atom:** formula
 
 ```
 Movement Speed=6/40 (air)
 ```
 
-<a id="atom-94"></a>
+<a id="atom-77"></a>
 **Atom:** formula
 
 ```
 Attack Points=Talon:14 (7)/Talon:14 (7)/
 ```
 
-<a id="atom-95"></a>
+<a id="atom-78"></a>
 **Atom:** formula
 
 ```
 Evasion Points=13 (6)
 ```
 
-<a id="atom-96"></a>
+<a id="atom-79"></a>
 **Atom:** formula
 
 ```
 Defense Points=10
 ```
 
-<a id="atom-97"></a>
+<a id="atom-80"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=26/16 (9)
 ```
 
-<a id="atom-98"></a>
+<a id="atom-81"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=14/14 (7)
 ```
 
-<a id="atom-99"></a>
+<a id="atom-82"></a>
 **Atom:** formula
 
 ```
 Special Abilities=None in particular
 ```
 
-<a id="atom-100"></a>
+<a id="atom-83"></a>
 **Atom:** formula
 
 ```
 Habitat=Steep mountains
 ```
 
-<a id="atom-101"></a>
+<a id="atom-84"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-102"></a>
+<a id="atom-85"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-103"></a>
+<a id="atom-86"></a>
 **Atom:** formula
 
 ```
 Monster Level=6
 ```
 
-<a id="atom-104"></a>
+<a id="atom-87"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-105"></a>
+<a id="atom-88"></a>
 **Atom:** formula
 
 ```
 Attack Points=Fangs:13 (6)/Needle:13 (6)
 ```
 
-<a id="atom-106"></a>
+<a id="atom-89"></a>
 **Atom:** formula
 
 ```
 Strike Points=15/17+poison
 ```
 
-<a id="atom-107"></a>
+<a id="atom-90"></a>
 **Atom:** formula
 
 ```
 Evasion Points=12 (5)
 ```
 
-<a id="atom-108"></a>
+<a id="atom-91"></a>
 **Atom:** formula
 
 ```
 Points=10
 ```
 
-<a id="atom-109"></a>
+<a id="atom-92"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=23/15 (8)
 ```
 
-<a id="atom-110"></a>
+<a id="atom-93"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=18/15 (8)
 ```
 
-<a id="atom-111"></a>
+<a id="atom-94"></a>
 **Atom:** formula
 
 ```
 Special Abilities=5th level dark magic (Magic
 ```
 
-<a id="atom-112"></a>
+<a id="atom-95"></a>
 **Atom:** formula
 
 ```
 Intensity/Magic Power=15/8)
 ```
 
-<a id="atom-113"></a>
+<a id="atom-96"></a>
 **Atom:** formula
 
 ```
 Languages=Low ancient
 ```
 
-<a id="atom-114"></a>
+<a id="atom-97"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-115"></a>
-**Atom:** rule
-
-```
-In combat, a manticore can attack separate targets at the same time with its lion fangs and scorpion tail (it can also attack the same target twice).
-```
-
-<a id="atom-116"></a>
+<a id="atom-98"></a>
 **Atom:** formula
 
 ```
 Monster Level=6
 ```
 
-<a id="atom-117"></a>
+<a id="atom-99"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-118"></a>
+<a id="atom-100"></a>
 **Atom:** formula
 
 ```
 Attack Points=Two-handed ax: 13 (6)
 ```
 
-<a id="atom-119"></a>
+<a id="atom-101"></a>
 **Atom:** formula
 
 ```
 Strike Points=16
 ```
 
-<a id="atom-120"></a>
+<a id="atom-102"></a>
 **Atom:** formula
 
 ```
 Strike Points=14
 ```
 
-<a id="atom-121"></a>
+<a id="atom-103"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=25/16 (9)
 ```
 
-<a id="atom-122"></a>
+<a id="atom-104"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=10/13 (6)
 ```
 
-<a id="atom-123"></a>
+<a id="atom-105"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Strangling
 ```
 
-<a id="atom-124"></a>
+<a id="atom-106"></a>
 **Atom:** formula
 
 ```
 Languages=Minotaur
 ```
 
-<a id="atom-125"></a>
+<a id="atom-107"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-126"></a>
-**Atom:** rule
-
-```
-With that being said, all minotaurs are male, so they must use human women to produce offspring.
-```
-
-<a id="atom-127"></a>
+<a id="atom-108"></a>
 **Atom:** formula
 
 ```
 Monster Level=6
 ```
 
-<a id="atom-128"></a>
+<a id="atom-109"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-129"></a>
+<a id="atom-110"></a>
 **Atom:** formula
 
 ```
 Number=One to several
 ```
 
-<a id="atom-130"></a>
+<a id="atom-111"></a>
 **Atom:** formula
 
 ```
 Frequency=Very Rare
 ```
 
-<a id="atom-131"></a>
+<a id="atom-112"></a>
 **Atom:** formula
 
 ```
 Attack Points=Horn:12 (5)/Heel:12 (5)
 ```
 
-<a id="atom-132"></a>
+<a id="atom-113"></a>
 **Atom:** formula
 
 ```
 Strike Points=17/16
 ```
 
-<a id="atom-133"></a>
+<a id="atom-114"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=25/16 (9)
 ```
 
-<a id="atom-134"></a>
+<a id="atom-115"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/15 (8)
 ```
 
-<a id="atom-135"></a>
+<a id="atom-116"></a>
 **Atom:** formula
 
 ```
 Special Abilities=6th level spirit magic (Magic Intensity/Magic Power=16/9)
 ```
 
-<a id="atom-136"></a>
+<a id="atom-117"></a>
 **Atom:** formula
 
 ```
 outside Unicorn Woods Languages=Silent spirit
 ```
 
-<a id="atom-137"></a>
+<a id="atom-118"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (infravision)
 ```
 
-<a id="atom-138"></a>
-**Atom:** rule
-
-```
-Unicorns can also use spirit magic unrelated to the spirit of life, but at this time their shaman skill is only 6th level.
-```
-
-<a id="atom-139"></a>
-**Atom:** rule
-
-```
-If a unicorn loses its horn due to overuse of magic or it being cut off, it will never grow back again.
-```
-
-<a id="atom-140"></a>
+<a id="atom-119"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-141"></a>
-**Atom:** rule
-
-```
-Although they can cast ancient magic, they will not use magic recklessly or challenge you to a fight unless something really bad happens.
-```
-
-<a id="atom-142"></a>
-**Atom:** rule
-
-```
-If approached in a friendly manner, the sphinx may play a game of riddles to determine the intelligence of their opponent.
-```
-
-<a id="atom-143"></a>
+<a id="atom-120"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (illumination)
 ```
 
-<a id="atom-144"></a>
-**Atom:** rule
-
-```
-Unlike dragons, they have low intellect, so they cannot cast spells, nor can they breathe fire.
-```
-
-<a id="atom-145"></a>
-**Atom:** rule
-
-```
-If you fail, the poison deals damage resulting from a strike power 20 strike roll plus bonus damage 7.
-```
-
-<a id="atom-146"></a>
+<a id="atom-121"></a>
 **Atom:** formula
 
 ```
 Monster Level=8
 ```
 
-<a id="atom-147"></a>
+<a id="atom-122"></a>
 **Atom:** formula
 
 ```
 Rarity=9
 ```
 
-<a id="atom-148"></a>
+<a id="atom-123"></a>
 **Atom:** formula
 
 ```
 Strike Points=18
 ```
 
-<a id="atom-149"></a>
+<a id="atom-124"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=25/18 (11)
 ```
 
-<a id="atom-150"></a>
+<a id="atom-125"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=12/16 (9)
 ```
 
-<a id="atom-151"></a>
+<a id="atom-126"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Gaze
 ```
 
-<a id="atom-152"></a>
+<a id="atom-127"></a>
 **Atom:** formula
 
 ```
 Habitat=Deserts
 ```
 
-<a id="atom-153"></a>
+<a id="atom-128"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-154"></a>
+<a id="atom-129"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-155"></a>
-**Atom:** rule
-
-```
-Anyone holding a weapon with basilisk blood on it must make a life force resistance roll against target score 15 each round, and if they fail, they will suffer damage resulting from a strike power 10 strike roll plus bonus damage 8.
-```
-
-<a id="atom-156"></a>
+<a id="atom-130"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=19/14 (7)
 ```
 
-<a id="atom-157"></a>
+<a id="atom-131"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=9/12 (5)
 ```
 
-<a id="atom-158"></a>
+<a id="atom-132"></a>
 **Atom:** formula
 
 ```
 Habitat=Deserts
 ```
 
-<a id="atom-159"></a>
+<a id="atom-133"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-160"></a>
+<a id="atom-134"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-161"></a>
+<a id="atom-135"></a>
 **Atom:** formula
 
 ```
 Habitat=Seas
 ```
 
-<a id="atom-162"></a>
+<a id="atom-136"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-163"></a>
+<a id="atom-137"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-164"></a>
-**Atom:** rule
-
-```
-A sea dragon can attack with its fangs and tail, and at the same time, it can also wrap its long body around its opponent and perform a strangling attack (see p.
-```
-
-<a id="atom-165"></a>
+<a id="atom-138"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (illumination)
 ```
 
-<a id="atom-166"></a>
+<a id="atom-139"></a>
 **Atom:** formula
 
 ```
 Monster Level=9
 ```
 
-<a id="atom-167"></a>
+<a id="atom-140"></a>
 **Atom:** formula
 
 ```
 Rarity=15
 ```
 
-<a id="atom-168"></a>
+<a id="atom-141"></a>
 **Atom:** formula
 
 ```
 Strike Points=18
 ```
 
-<a id="atom-169"></a>
+<a id="atom-142"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=27/19 (12)
 ```
 
-<a id="atom-170"></a>
+<a id="atom-143"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=17/17 (10)
 ```
 
-<a id="atom-171"></a>
+<a id="atom-144"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Ray (Resist target
 ```
 
-<a id="atom-172"></a>
-**Atom:** rule
-
-```
-The game master should roll 1D to determine which ray the buckbaird fires (or if it attempts to ram).
-```
-
-<a id="atom-173"></a>
+<a id="atom-145"></a>
 **Atom:** table
 
 ```text
@@ -1527,282 +1331,309 @@ Destroys metal weapons and armor you are wearing. Magical weapons and armor are 
 6. No firing
 ```
 
-<a id="atom-174"></a>
+<a id="atom-146"></a>
 **Atom:** formula
 
 ```
 Monster Level=10
 ```
 
-<a id="atom-175"></a>
+<a id="atom-147"></a>
 **Atom:** formula
 
 ```
 Rarity=13
 ```
 
-<a id="atom-176"></a>
+<a id="atom-148"></a>
 **Atom:** formula
 
 ```
 Agility=9
 ```
 
-<a id="atom-177"></a>
+<a id="atom-149"></a>
 **Atom:** formula
 
 ```
 Movement Speed=12/20 (Underwater)
 ```
 
-<a id="atom-178"></a>
+<a id="atom-150"></a>
 **Atom:** formula
 
 ```
 Strike Points=20 x 9
 ```
 
-<a id="atom-179"></a>
+<a id="atom-151"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (illumination)
 ```
 
-<a id="atom-180"></a>
+<a id="atom-152"></a>
 **Atom:** formula
 
 ```
 Monster Level=10
 ```
 
-<a id="atom-181"></a>
+<a id="atom-153"></a>
 **Atom:** formula
 
 ```
 Rarity=15
 ```
 
-<a id="atom-182"></a>
+<a id="atom-154"></a>
 **Atom:** formula
 
 ```
 Strike Points=17
 ```
 
-<a id="atom-183"></a>
+<a id="atom-155"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=21/19 (12)
 ```
 
-<a id="atom-184"></a>
+<a id="atom-156"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=21/19 (12)
 ```
 
-<a id="atom-185"></a>
+<a id="atom-157"></a>
 **Atom:** formula
 
 ```
 Habitat=Forests
 ```
 
-<a id="atom-186"></a>
+<a id="atom-158"></a>
 **Atom:** formula
 
 ```
 Languages=Low ancient
 ```
 
-<a id="atom-187"></a>
+<a id="atom-159"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses
 ```
 
-<a id="atom-188"></a>
-**Atom:** rule
-
-```
-Those struck by this gaze must make a mental power resistance roll against target score 17.
-```
-
-<a id="atom-189"></a>
-**Atom:** rule
-
-```
-You must roll 2D and if you don't roll a 7 or greater, you will become infected.
-```
-
-<a id="atom-190"></a>
-**Atom:** rule
-
-```
-A humbaba cannot use gaze, fire, and normal attacks at the same time.
-```
-
-<a id="atom-191"></a>
+<a id="atom-160"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/21 (14)
 ```
 
-<a id="atom-192"></a>
+<a id="atom-161"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Capture
 ```
 
-<a id="atom-193"></a>
+<a id="atom-162"></a>
 **Atom:** formula
 
 ```
 Perception=Five Senses
 ```
 
-<a id="atom-194"></a>
+<a id="atom-163"></a>
 **Atom:** formula
 
 ```
 Monster Level=10
 ```
 
-<a id="atom-195"></a>
+<a id="atom-164"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-196"></a>
+<a id="atom-165"></a>
 **Atom:** formula
 
 ```
 Agility=10
 ```
 
-<a id="atom-197"></a>
+<a id="atom-166"></a>
 **Atom:** formula
 
 ```
 Movement Speed=10/30 (air)
 ```
 
-<a id="atom-198"></a>
+<a id="atom-167"></a>
 **Atom:** formula
 
 ```
 Number=One
 ```
 
-<a id="atom-199"></a>
+<a id="atom-168"></a>
 **Atom:** formula
 
 ```
 Frequency=Very Rare
 ```
 
-<a id="atom-200"></a>
+<a id="atom-169"></a>
 **Atom:** formula
 
 ```
 Intellect=Low
 ```
 
-<a id="atom-201"></a>
+<a id="atom-170"></a>
 **Atom:** formula
 
 ```
 Reaction=Neutral
 ```
 
-<a id="atom-202"></a>
+<a id="atom-171"></a>
 **Atom:** formula
 
 ```
 Attack Points=Fangs:17 (10)/Talon:18 (11)/
 ```
 
-<a id="atom-203"></a>
+<a id="atom-172"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=50/24 (17)
 ```
 
-<a id="atom-204"></a>
+<a id="atom-173"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/19 (12)
 ```
 
-<a id="atom-205"></a>
+<a id="atom-174"></a>
 **Atom:** formula
 
 ```
 Languages=Lizardman
 ```
 
-<a id="atom-206"></a>
+<a id="atom-175"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (darkvision)
 ```
 
-<a id="atom-207"></a>
-**Atom:** rule
-
-```
-Those within range must make a mental power resistance roll against target score 17.
-```
-
-<a id="atom-208"></a>
-**Atom:** rule
-
-```
-Anyone who hears the dragon's roar must make a mental power resistance roll against target score 17.
-```
-
-<a id="atom-209"></a>
-**Atom:** rule
-
-```
-Dragons may take long periods of rest called dormant season , but they do not require sleep in the normal sense of the word and cannot be put to sleep by magic.
-```
-
-<a id="atom-210"></a>
+<a id="atom-176"></a>
 **Atom:** formula
 
 ```
 (Magic Intensity/Magic Power=20/13)
 ```
 
-<a id="atom-211"></a>
-**Atom:** rule
-
-```
-Furthermore, they can also use dragon roar magic that uses the lost dragon roar (though they possess most of their abilities without using magic).
-```
-
-<a id="atom-212"></a>
+<a id="atom-177"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (illumination)
 ```
 
-<a id="atom-213"></a>
+<a id="atom-178"></a>
 **Atom:** formula
 
 ```
 Perception=Five senses (illumination)
 ```
+
+
+## Rules and exceptions
+
+- They always carry a flute and can manipulate human emotions with their melodies. (Sword World RPG - Complete Edition.pdf p.188)
+- Humans who hear the satyr's flute may suddenly become frightened and run away, get excited and start dancing, or become lewd and start taking off their clothes. (Sword World RPG - Complete Edition.pdf p.188)
+- To resist this, you must succeed on a mental power resistance roll against target score 10. (Sword World RPG - Complete Edition.pdf p.188)
+- To do so, you must succeed on a success toll against target score 12 using ranger skill level + intelligence bonus as the baseline score. (Sword World RPG - Complete Edition.pdf p.188)
+- A hanging character cannot breathe, nor even cast spells. (Sword World RPG - Complete Edition.pdf p.188)
+- Ceiling hangers with prey suspended from the ceiling cannot be reached by melee weapons, so it'll be extremely difficult to provide support to a suspended character. (Sword World RPG - Complete Edition.pdf p.188)
+- If you fail, you will be charmed and must do what the deela tells you to do. (Sword World RPG - Complete Edition.pdf p.188)
+- Deelas live on the coast, are beautiful, and can speak. (Sword World RPG - Complete Edition.pdf p.188)
+- A flock blessed with a male can produce offspring without the use of a human male, so that male is made their king. (Sword World RPG - Complete Edition.pdf p.189)
+- Furia mate with male eagles and may be encountered along with them. (Sword World RPG - Complete Edition.pdf p.189)
+- They can move around quickly underwater, but once on land they suffer a -4 penalty to attack and evasion. (Sword World RPG - Complete Edition.pdf p.189)
+- You can avoid being petrified by fighting with your eyes closed or your face turned away, but in such a state you will suffer a -4 penalty to your attack power and evasion speed. (Sword World RPG - Complete Edition.pdf p.189)
+- Anyone who encounters a medusa must succeed on a mental power resistance roll against target score 10 or they will instantly be turned into a stone statue. (Sword World RPG - Complete Edition.pdf p.189)
+- Therefore, you can fight while looking at a medusa's reflection in a mirror. (Sword World RPG - Complete Edition.pdf p.189)
+- The snakes are poisonous, and anyone dealt damage by the snakes' attacks must immediately make a life force resistance roll against target score 10. (Sword World RPG - Complete Edition.pdf p.189)
+- It is possible to put the severed head of a Medusa in a bag, then show it to an enemy in combat to turn them to stone, but it must be used carefully, as there is a risk of it turning your allies to stone as well. (Sword World RPG - Complete Edition.pdf p.189)
+- They can use spirit magic, and their shaman skill level is 3. (Sword World RPG - Complete Edition.pdf p.189-190)
+- In combat, an androscorpio uses a sword in his hand, but he can also attack with his tail at the same time. (Sword World RPG - Complete Edition.pdf p.190)
+- The enemy's appearance can change, or it can appear as multiple . (Sword World RPG - Complete Edition.pdf p.190)
+- They are not interested in money, but aside from that, if you bring them a suitable gift, you may be able to form a friendship. (Sword World RPG - Complete Edition.pdf p.190)
+- In melee combat, a centaur can attack a single target with the weapon in its hand and its heel at the same time. (Sword World RPG - Complete Edition.pdf p.190)
+- It is said that there are very rare centaurs who have very advanced knowledge and can use magic. (Sword World RPG - Complete Edition.pdf p.190)
+- Its beak has the ability to petrify living creatures, and anyone hit by a cockatrice (regardless of whether they're dealt damage or not) must make a life force resistance roll against target score 11. (Sword World RPG - Complete Edition.pdf p.190)
+- This herb is also effective against medusa and basilisk, but its drawback is that it cannot be stored and its effect only lasts for one day. (Sword World RPG - Complete Edition.pdf p.190)
+- They are amphibious and can move freely on land, but mainly prefer to live in water. (Sword World RPG - Complete Edition.pdf p.190)
+- Scylla can also use spirit magic. (Sword World RPG - Complete Edition.pdf p.190)
+- However, she can only attack a single target three times in one round. (Sword World RPG - Complete Edition.pdf p.190)
+- It cannot attack the same target twice in one turn. (Sword World RPG - Complete Edition.pdf p.191)
+- The black goat head on its back can also cast dark magic up to 5th level. (Sword World RPG - Complete Edition.pdf p.191)
+- However, it is a true mythical beast that has an intellect greater than humans and can also use magic. (Sword World RPG - Complete Edition.pdf p.191)
+- Although extremely rare, friendships may form between humans and twintail cats. (Sword World RPG - Complete Edition.pdf p.191)
+- Twintail Cats may have rare magical items related to these kinds of magic. (Sword World RPG - Complete Edition.pdf p.191)
+- All of them have deep knowledge of ancient magic and poisons, and can also cast ancient magic. (Sword World RPG - Complete Edition.pdf p.191)
+- Pegasus is a winged white horse that can fly. (Sword World RPG - Complete Edition.pdf p.191-192)
+- It is said among the sages that they may have been created primarily for attacking castles during war. (Sword World RPG - Complete Edition.pdf p.192)
+- The tentacles are usually about 15 cm long, but can extend up to 4 meters. (Sword World RPG - Complete Edition.pdf p.192)
+- If a character is in danger of a surprise attack by a head displacer, a character with the ranger skill may be able to notice it due to their sense danger ability. (Sword World RPG - Complete Edition.pdf p.192)
+- With this amount of damage, a healthy young person will only feel mild fatigue and should recover quickly. (Sword World RPG - Complete Edition.pdf p.192)
+- Since they cannot survive without depending on humans, they usually live quietly in villages and towns, and you're unlikely to encounter them outdoors or in labyrinths. (Sword World RPG - Complete Edition.pdf p.192)
+- Nobles are far superior to slaves in both physique and intellect, and they can also use magic (dragon roar magic). (Sword World RPG - Complete Edition.pdf p.192)
+- The griffon is a magical beast with the body of a lion, the head of an eagle, and the wings of an eagle, and it can fly. (Sword World RPG - Complete Edition.pdf p.193)
+- They mainly feed on small animals and do not attack humans unnecessarily, but if an adventurer is ostentatiously wearing jewelry, they may attack in order to steal it. (Sword World RPG - Complete Edition.pdf p.193)
+- Unicorns have high intellect and can communicate in silent spirit, but will only trust human (or elf or half-elf) virgin girls. (Sword World RPG - Complete Edition.pdf p.194)
+- The reserve mental points cannot be recovered, and once they are used up, the horn will wear out and crumble away. (Sword World RPG - Complete Edition.pdf p.194)
+- A unicorn's horn can be cut off, allowing others to use magic related to the spirit of life. (Sword World RPG - Complete Edition.pdf p.194)
+- The user does not have to be a shaman or a woman, and may also wear metal armor. (Sword World RPG - Complete Edition.pdf p.194)
+- Anyone dealt damage by a wyvern's tail attack must immediately make a life force resistance roll against target score 14. (Sword World RPG - Complete Edition.pdf p.195)
+- Those gazed at by the basilisk must succeed on a mental power resistance roll against target score 15, or they will instantly turn to stone. (Sword World RPG - Complete Edition.pdf p.195)
+- Its gaze can only be used once every two rounds, cannot be used at the same time as its fangs, and can only aim at one target. (Sword World RPG - Complete Edition.pdf p.195)
+- You can attempt to use a large mirror (at least the size of a small shield) to catch the basilisk's gaze and reflect it back to turn the basilisk into stone. (Sword World RPG - Complete Edition.pdf p.195)
+- Monster Level=8 Rarity=18 Agility=12 Movement Speed =35 (air) Number=One Frequency=Very Rare Intellect=Human Reaction=Neutral Attack Points=Fangs:15 (8)/Tail:15 (8) Strike Points=18/17 Evasion Points=14 (7) Defense Points=11 Life Points/Resistance=25/18 (11) Mental Points/Resistance=16/16 (9) Special Abilities=None in particular Habitat=Steep mountains that humans can't pass through Languages=Lizardman. (Sword World RPG - Complete Edition.pdf p.196)
+- They have human-like intellect and can speak lizardman, but they do not have the ability to use magic. (Sword World RPG - Complete Edition.pdf p.196)
+- Wyrms are highly territorial, and when other wyrms or giant creatures enter their territory, which is a radius of about 20 kilometers, they will immediately try to drive them out or they may approach them to eat them as food. (Sword World RPG - Complete Edition.pdf p.196)
+- The ray can only affect one target. (Sword World RPG - Complete Edition.pdf p.196)
+- This ray cannot affect the buckbaird itself, even if it's reflected using a mirror, etc. (Sword World RPG - Complete Edition.pdf p.196)
+- They mainly live in lakes and rivers, but can also act on land without penalty. (Sword World RPG - Complete Edition.pdf p.196)
+- At this time, it can attack a single target 9 times, or aim at different targets. (Sword World RPG - Complete Edition.pdf p.196)
+- it cannot affect the humbaba. (Sword World RPG - Complete Edition.pdf p.197)
+- Only one of these attacks can be performed per round. (Sword World RPG - Complete Edition.pdf p.197)
+- Like the griffon, it may have a habit of collecting shiny objects. (Sword World RPG - Complete Edition.pdf p.197)
+- A roc's talons alone are over 1 meter long, and it can lift and carry humansized animals with one foot, or a cow or horse with both feet. (Sword World RPG - Complete Edition.pdf p.197)
+- Rock eggs can measure up to 2 meters in diameter, making even newborn infants larger than humans. (Sword World RPG - Complete Edition.pdf p.197)
+- By contrast, their hands are slender, but they can move them dexterously. (Sword World RPG - Complete Edition.pdf p.197)
+- The use of fire is at the dragon's discretion, and there is no limit to the number of times it can use it, but it cannot make physical attacks with fangs or claws on the same round in which it uses fire. (Sword World RPG - Complete Edition.pdf p.197-198)
+- A dragon cannot breathe fire or attack with their fangs or claws on the same round in which it roars. (Sword World RPG - Complete Edition.pdf p.198)
+- Some sages claim that this is based on the lost dragon roar, and should not be called ancient magic, although the results are the same. (Sword World RPG - Complete Edition.pdf p.198)
+- Like lesser-species, elder-species can only use one of fire, roar, or physical attack (or magic) in one round. (Sword World RPG - Complete Edition.pdf p.198)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-13-2-5-titans]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-13-2-7-animals]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-like-this
 page_kind: concept
-summary: Like this:: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_808ecedc133f6831@007683e394e1e623352b8c503e7ec081
+projection_coverage: page-projection-pgp_8e99dc9bf0a23fb2@007683e394e1e623352b8c503e7ec081
 ---
 
 # Like this:

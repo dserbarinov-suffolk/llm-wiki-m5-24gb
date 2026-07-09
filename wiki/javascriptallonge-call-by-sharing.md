@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-call-by-sharing
 page_kind: concept
-summary: call by sharing: 11 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_2028d72daaf88573@8e0af50e94514b68d0c519a4dbc26ef6
+projection_coverage: page-projection-pgp_7d17823ba88e766a@74a08c0f17d30b86af58a00a1da35cc5
 ---
 
 # call by sharing
@@ -28,6 +28,11 @@ Source: [[javascriptallonge]]
 - Call by sharing is generally understood to be a specialization of call by value, and it explains why some values are known as value types and other values are known as reference types. (javascriptallonge.pdf p.43)
 - 26 Unless the argument is NaN , which isn't equal to anything, including itself . (javascriptallonge.pdf p.43)
 
+## Rules
+
+- There is a property that JavaScript strictly maintains: When a value-any value-is passed as an argument to a function, the value bound in the function's environment must be identical to the original. (javascriptallonge.pdf p.42)
+- Now we can elaborate: When JavaScript binds a value-type to a name, it makes a copy of the value and places the copy in the environment. (javascriptallonge.pdf p.42-43)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -44,3 +49,9 @@ So JavaScript can make as many copies of strings, numbers, or booleans as it wis
 (value) =>
 ((ref1, ref2) => ref1 === ref2)(value, value)
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-variables-and-bindings]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-closures-and-scope]] - contextualizes: source-supported topic dependency

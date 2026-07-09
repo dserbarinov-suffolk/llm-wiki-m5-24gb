@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-spellsong
 page_kind: concept
-summary: Spellsongs: 15 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 25 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_56f2187c996d0e7a@3c088bf53ebb51c542d8884a0ea5ff09
+projection_coverage: page-projection-pgp_57376155c599c6ae@8bc36d5ca29a742aa35daa1c0b245a9e
 ---
 
 # Spellsongs
@@ -31,6 +31,16 @@ Source: [[sword-world-rpg-complete-edition]]
 - Resistance rolls against spellsongs are generally made only once at the beginning of the song (depending on the spellsong, they may be on the fourth round). (Sword World RPG - Complete Edition.pdf p.109)
 - However, unlike focus , it' s not interrupted by damage dealt to life force or mental power (unless, of course, you fall unconscious as a result of the damage). (Sword World RPG - Complete Edition.pdf p.109)
 - Once you successfully resist, you do not need to make any further resistance rolls and will not suffer from the effect, even if the spellsong continues. (Sword World RPG - Complete Edition.pdf p.109)
+
+## Rules
+
+- Furthermore, you must sing the lyrics in high ancient at the same time. (Sword World RPG - Complete Edition.pdf p.109)
+- This instrument must be unique to each bard, and the spellsong cannot be used when playing another instrument. (Sword World RPG - Complete Edition.pdf p.109)
+- To use a spellsong, you must play an instrument. (Sword World RPG - Complete Edition.pdf p.109)
+- Every time your level goes up, you have to learn a new spellsong. (Sword World RPG - Complete Edition.pdf p.109)
+- Y ou can learn one spellsong per bard level. (Sword World RPG - Complete Edition.pdf p.109)
+- Also, the effect of a spellsong cannot be expanded. (Sword World RPG - Complete Edition.pdf p.109)
+- Resistance rolls against spellsongs are generally made only once at the beginning of the song (depending on the spellsong, they may be on the fourth round). (Sword World RPG - Complete Edition.pdf p.109)
 
 ## Technical atoms
 

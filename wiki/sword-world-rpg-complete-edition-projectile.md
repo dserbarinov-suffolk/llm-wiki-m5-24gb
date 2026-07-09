@@ -1,34 +1,27 @@
 ---
 page_id: sword-world-rpg-complete-edition-projectile
 page_kind: concept
-summary: Projectiles: 2 accepted assertion(s) and 3 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_05e69b76fa4809e5@ed0be075554f3cce0e6660da2fa15c52
+projection_coverage: page-projection-pgp_d62bcebf02dac69f@e5eb3397796fe46e04bc9f2949bc662e
 ---
 
 # Projectiles
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Note that these cannot be used in melee. (Sword World RPG - Complete Edition.pdf p.22)
 - On Table 1-8: Weapons, weapons with made for throwing or shooting after the weapon's name are strictly projectile weapons. (Sword World RPG - Complete Edition.pdf p.22)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-Throwable weapons are basically used in melee, although they can be thrown when the need arises.
-```
-
-<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -45,7 +38,7 @@ Table 1-8: Weapons-2
                                       Heavy flail                        1~2H     10~         x20+40
 ```
 
-<a id="atom-3"></a>
+<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -53,3 +46,13 @@ Table 1-8: Weapons-2
 10 for 12
 5 for 20
 ```
+
+
+## Rules and exceptions
+
+- Note that these cannot be used in melee. (Sword World RPG - Complete Edition.pdf p.22)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-one-handed-and-twohanded-weapons]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-armor]] - contextualizes: source-supported topic dependency

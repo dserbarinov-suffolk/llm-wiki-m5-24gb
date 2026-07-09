@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-why-const-and-let-were-invented
 page_kind: concept
-summary: why const and let were invented: 10 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_3ce723304af83947@d5f55351109b4b3aff12391b26bf0c40
+projection_coverage: page-projection-pgp_6dec1904ea3d9de4@f7fbafc4f2686c29f63d6c7c3d8f6a53
 ---
 
 # why const and let were invented
@@ -27,6 +27,10 @@ Source: [[javascriptallonge]]
 - There are 50 pairs of numbers, so the answer is 50*101 = 5050. (javascriptallonge.pdf p.154)
 - If you notice every pair of numbers adds up to 101. (javascriptallonge.pdf p.154)
 
+## Rules
+
+- Hopefully, you can think of a faster way to calculate this sum. (javascriptallonge.pdf p.154)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -40,3 +44,8 @@ sum = sum + i
 sum
 #=> 5050
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-mixing-let-and-const]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-meaning-of-the-rulebook
 page_kind: concept
-summary: The Meaning of the Rulebook: 21 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 29 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_05ccccab79f59ad7@820d62858780dd2a2c81f1a6341ecd37
+projection_coverage: page-projection-pgp_189efb7dcba201e5@c9da75f672fc3ae5449a1084d4a79d8d
 ---
 
 # The Meaning of the Rulebook
@@ -36,6 +36,15 @@ Source: [[sword-world-rpg-complete-edition]]
 - If you don't understand them, you won't be able to grasp the characteristics of Forcelia, but not all of Forcelia's laws are written in this book. (Sword World RPG - Complete Edition.pdf p.6)
 - It should be noted that, as a general principle of role-playing games, the game master makes the final decisions. (Sword World RPG - Complete Edition.pdf p.6)
 - In all cases, the word of the game master is absolute in the progress of the game. (Sword World RPG - Complete Edition.pdf p.6)
+- You may think of the rules as the law and the game master as the judge who applies it. (Sword World RPG - Complete Edition.pdf p.6)
+
+## Rules
+
+- There is magic, and creatures that can only be found in fiction will come to life. (Sword World RPG - Complete Edition.pdf p.6)
+- Because you're a hero doesn't mean you can do everything. (Sword World RPG - Complete Edition.pdf p.6)
+- If decisions are made according to the rulebook, success or failure of the characters' abilities and actions in the fictional world can all be determined with certainty. (Sword World RPG - Complete Edition.pdf p.6)
+- For things that the rules cannot fully define, please use your own common sense to make decisions. (Sword World RPG - Complete Edition.pdf p.6)
+- It should be noted that, as a general principle of role-playing games, the game master makes the final decisions. (Sword World RPG - Complete Edition.pdf p.6)
 - You may think of the rules as the law and the game master as the judge who applies it. (Sword World RPG - Complete Edition.pdf p.6)
 
 ## Technical atoms

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-one-handed-and-twohanded-weapons
 page_kind: concept
-summary: One-Handed and TwoHanded Weapons: 5 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 8 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_14d697adbbb019cd@131ab7de2f56858bb445411959a05fee
+projection_coverage: page-projection-pgp_4fb975780e05ec8e@c35f57c497bda57cbebcb7f6fb5ad461
 ---
 
 # One-Handed and TwoHanded Weapons
@@ -30,3 +30,9 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 Of course, if you have a twohanded weapon, you cannot hold a shield, which will make your character less capable of defense.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-required-strength]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-projectile]] - contextualizes: source-supported topic dependency

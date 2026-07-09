@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-asking-npcs-to-use-magic
 page_kind: concept
-summary: Asking NPCs to Use Magic: 31 accepted assertion(s) and 9 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 43 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_d7cd1a7dfd5da77e@ac388e84b505c1fe38af269d45449217
+projection_coverage: page-projection-pgp_202b907d73102f24@8a1b621c08f6556ebb63adc75a2e403b
 ---
 
 # Asking NPCs to Use Magic
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - You may want to have a Remove Curse cast on you when you're cursed, a Resurrection cast when someone dies, or have a magical item appraised using Analyze Enchantment . (Sword World RPG - Complete Edition.pdf p.154)
 - In some cases, adventurers may need to rely on NPCs to save them from situations that are beyond their control. (Sword World RPG - Complete Edition.pdf p.154)
@@ -48,16 +48,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - These are the going rates when an adventurer makes a request to an NPC . (Sword World RPG - Complete Edition.pdf p.155)
 - Adventurers themselves cannot go around charging these same rates. (Sword World RPG - Complete Edition.pdf p.155)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-Of course, these services are not always available, and when they are, they are not free.
-```
-
-<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -72,7 +65,7 @@ Table 11-2: NPC Presence by Level.
  granted. The   higher-ranking rune
 ```
 
-<a id="atom-3"></a>
+<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -83,44 +76,19 @@ Table 11-2: NPC Presence by Level
 | Analyze | Of | Enchantment. course, | these |  | services |  | are not | 1st | level | All | but the | most |  | remote | village |  |  |  |  |  |  |  |
 ```
 
-<a id="atom-4"></a>
-**Atom:** rule
 
-```
-If you have the magic expanded, the price will increase by double, triple......
-```
+## Rules and exceptions
 
-<a id="atom-5"></a>
-**Atom:** rule
+- You may want to have a Remove Curse cast on you when you're cursed, a Resurrection cast when someone dies, or have a magical item appraised using Analyze Enchantment . (Sword World RPG - Complete Edition.pdf p.154)
+- In some cases, adventurers may need to rely on NPCs to save them from situations that are beyond their control. (Sword World RPG - Complete Edition.pdf p.154)
+- First, the game master must decide whether there are enough rune masters to do this. (Sword World RPG - Complete Edition.pdf p.154)
+- Even in a large country, there may or may not be at least one rune master who has reached 10th level. (Sword World RPG - Complete Edition.pdf p.154)
+- Once you have found such a rune master, you must next determine whether or not your request will be granted. (Sword World RPG - Complete Edition.pdf p.154)
+- Basically, you can expect to meet any rune master up to 2 levels higher than the adventurers' adventurer level. (Sword World RPG - Complete Edition.pdf p.154)
+- through a ritual, you have to double, triple.... (Sword World RPG - Complete Edition.pdf p.154)
+- By increasing their level, they can have deeper connections to dragons, and they can gain access to new powers (spells) immediately. (Sword World RPG - Complete Edition.pdf p.154)
+- Adventurers themselves cannot go around charging these same rates. (Sword World RPG - Complete Edition.pdf p.155)
 
-```
-If the magic use fails , you do not have to pay the remainder.
-```
+## Related pages
 
-<a id="atom-6"></a>
-**Atom:** rule
-
-```
-If you want to cast Resurrection normally, the required money is 10 (priest's level) x 45 (base mental power cost for Resurrection ) x 20 = 9000 (gamels).
-```
-
-<a id="atom-7"></a>
-**Atom:** rule
-
-```
-Thinking that this is not enough, the adventurers ask the priest if they can expand the magic and increase the final
-```
-
-<a id="atom-8"></a>
-**Atom:** rule
-
-```
-If you do this, the resurrection will be successful unless you roll double ones.
-```
-
-<a id="atom-9"></a>
-**Atom:** rule
-
-```
-If you don't have clients, you won't get paid.
-```
+- [[sword-world-rpg-complete-edition-acquiring-rune-master-skills-and-increasing-levels]] - contextualizes: source-supported topic dependency

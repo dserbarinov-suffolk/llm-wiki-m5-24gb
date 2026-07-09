@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-from
 page_kind: concept
-summary: from: 7 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 15 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_d5b4122584c3a224@2d3b19b08ad5e375f01df953ec671c7d
+projection_coverage: page-projection-pgp_008f42192560c7c2@14b71dd1d4d0cc69b894ec6fb8045f4f
 ---
 
 # from
@@ -22,6 +22,13 @@ Source: [[javascriptallonge]]
 - And we can assign properties to functions with a . (javascriptallonge.pdf p.222)
 - We can do the same with our own collections. (javascriptallonge.pdf p.222)
 - And if we assign a function to a property, we've created a method. (javascriptallonge.pdf p.222)
+- Nowwecan go ' end to end,' If we want to map a linked list of numbers to a linked list of the squares of some numbers, we can do that:. (javascriptallonge.pdf p.222)
+
+## Rules
+
+- No, of course not, we can do anything we like with them. (javascriptallonge.pdf p.221)
+- And we can assign properties to functions with a . (javascriptallonge.pdf p.222)
+- We can do the same with our own collections. (javascriptallonge.pdf p.222)
 - Nowwecan go ' end to end,' If we want to map a linked list of numbers to a linked list of the squares of some numbers, we can do that:. (javascriptallonge.pdf p.222)
 
 ## Technical atoms
@@ -63,3 +70,8 @@ Pair1.from(Squares)
 "rest":{"first":4,
 "rest":{ ...
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-operations-on-ordered-collections]] - contextualizes: source-supported topic dependency

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-applying-functions
 page_kind: concept
-summary: applying functions: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_96a9969a51f59db5@2747d964114d26404f3ca3b8fc303aa3
+projection_coverage: page-projection-pgp_db8091539846a3c6@8ec6a07b0ce44db644c988608e3d1c35
 ---
 
 # applying functions
@@ -36,3 +36,9 @@ fn_expr(args)
 (() => 0)()
 //=> 0
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-functions-and-identities]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-functions-that-return-values-and-evaluate-expressions]] - contextualizes: source-supported topic dependency

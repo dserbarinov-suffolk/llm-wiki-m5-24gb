@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-calendar-and-time
 page_kind: concept
-summary: Calendar and Time: 16 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 17 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_644204adacea2cde@fdab33cd87bee96e0a1e74665be9eac9
+projection_coverage: page-projection-pgp_064613b0074642d0@918a951b1d8fa0bc4606bb4639870730
 ---
 
 # Calendar and Time
@@ -32,3 +32,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - For shorter time units, 1 day is divided into 24 hours, and 1 hour into 60 minutes. (Sword World RPG - Complete Edition.pdf p.282)
 - These time units are almost identical to those we use in real life (that is, on Earth). (Sword World RPG - Complete Edition.pdf p.282)
 - While seconds are used in game rules, in Alecrast, such short time units are rarely needed and therefore not used. (Sword World RPG - Complete Edition.pdf p.282)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-climate]] - contextualizes: source-supported topic dependency

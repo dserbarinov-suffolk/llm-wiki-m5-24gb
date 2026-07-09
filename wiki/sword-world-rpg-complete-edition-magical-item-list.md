@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-magical-item-list
 page_kind: concept
-summary: Magical Item List: 15 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 23 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_4e89160af94d2810@b7bea2946491514d905283ece4e507ce
+projection_coverage: page-projection-pgp_0a65d385a685ce59@a992d6249f3dc3769ada2efd5b7e9268
 ---
 
 # Magical Item List
@@ -32,6 +32,15 @@ Source: [[sword-world-rpg-complete-edition]]
 - For adventurers, magical swords and armor are not something you can give up. (Sword World RPG - Complete Edition.pdf p.242)
 - However, even then, you should not be able to get your hands on items that are too powerful. (Sword World RPG - Complete Edition.pdf p.242)
 
+## Rules
+
+- and their specific power can be appraised using Analyze Enchantment . (Sword World RPG - Complete Edition.pdf p.242)
+- These magical treasures can be understood through spells such as Sense Magic , etc. (Sword World RPG - Complete Edition.pdf p.242)
+- If you're a sage who can read ancient, you can discover the specific value and cost of these items using the treasure appraisal ability. (Sword World RPG - Complete Edition.pdf p.242)
+- Of course, in many cases the value of these treasures cannot be converted into a price. (Sword World RPG - Complete Edition.pdf p.242)
+- For adventurers, magical swords and armor are not something you can give up. (Sword World RPG - Complete Edition.pdf p.242)
+- However, even then, you should not be able to get your hands on items that are too powerful. (Sword World RPG - Complete Edition.pdf p.242)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -40,3 +49,8 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 Also, even if there's no magical power, books and scrolls may contain high ancient spellbooks or valuable information about the culture of the ancient kingdom, so don't ever treat them lightly.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-magical-items]] - contextualizes: source-supported topic dependency

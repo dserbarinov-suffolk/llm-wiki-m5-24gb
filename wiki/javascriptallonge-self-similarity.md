@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-self-similarity
 page_kind: concept
-summary: Self-Similarity: 16 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 28 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_dbdfb1817043f3a5@0806647bfd2c35986cdebf0d9979c7d6
+projection_coverage: page-projection-pgp_c1c028bd3dda52f8@f7bd307adbab0db86484f1befd91760e
 ---
 
 # Self-Similarity
@@ -32,6 +32,13 @@ Source: [[javascriptallonge]]
 - Well, the length of first is 1 , there's just one element at the front. (javascriptallonge.pdf p.111)
 - Our length function is recursive , it calls itself. (javascriptallonge.pdf p.111)
 - This makes sense because our definition of a list is recursive, and if a list is self-similar, it is natural to create an algorithm that is also self-similar. (javascriptallonge.pdf p.111)
+
+## Rules
+
+- Some data structures, like lists, can obviously be seen as a collection of items. (javascriptallonge.pdf p.109)
+- Thanks to the parallel between array literals + spreads with destructuring + rests, we can also use the same rules to decompose lists:. (javascriptallonge.pdf p.109)
+- We know that we can get the length of an array using its .length . (javascriptallonge.pdf p.110-111)
+- If only there was a function we could call… Like length !. (javascriptallonge.pdf p.111)
 
 ## Technical atoms
 
@@ -121,3 +128,9 @@ length(["foo", "bar", "baz"])
 ```
 //=> 3
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-arrays-and-destructuring-arguments]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-tail-calls-and-default-arguments]] - contextualizes: source-supported topic dependency

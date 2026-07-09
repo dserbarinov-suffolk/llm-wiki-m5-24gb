@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-9th-level-basic-dark-magic-list-plague
 page_kind: concept
-summary: 9th Level Basic Dark Magic List [ Plague ]: 13 accepted assertion(s) and 15 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 32 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_4b594c65c65dcae8@9842d0aa32a5380e3a072bce7528e209
+projection_coverage: page-projection-pgp_4745f7c2af04397d@32bc29ef682313e698ec13ea951a75d7
 ---
 
 # 9th Level Basic Dark Magic List [ Plague ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Each game master should specify the symptoms. (Sword World RPG - Complete Edition.pdf p.146)
 - This is a spell that inflicts a plague on the target. (Sword World RPG - Complete Edition.pdf p.146)
@@ -30,7 +30,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Even if you defeat the sacrifice's resist, if you do not attain a final score of 20 or greater, the dead who was resurrected will lose their memories. (Sword World RPG - Complete Edition.pdf p.147)
 - This spell requires a final score of 20 or greater while also defeating the sacrifice's resist for it to be fully effective. (Sword World RPG - Complete Edition.pdf p.147)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -136,3 +136,11 @@ Expansion=Final score
 ```
 Resist=Negated effect
 ```
+
+
+## Rules and exceptions
+
+- Each game master should specify the symptoms. (Sword World RPG - Complete Edition.pdf p.146)
+- The person who was sacrificed loses their soul container and cannot be resurrected. (Sword World RPG - Complete Edition.pdf p.147)
+- Also, those who have lost their souls and are destroyed, or those who have become undead, cannot be resurrected. (Sword World RPG - Complete Edition.pdf p.147)
+- Only those that the caster knows well (or at least is acquainted with) can be resurrected. (Sword World RPG - Complete Edition.pdf p.147)

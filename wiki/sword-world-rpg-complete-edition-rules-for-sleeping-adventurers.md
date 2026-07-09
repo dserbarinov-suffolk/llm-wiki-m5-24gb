@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-rules-for-sleeping-adventurers
 page_kind: concept
-summary: Rules for Sleeping Adventurers: 5 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_7838c7f2670f3156@938f0a6e4c1ca98ac7c684567e6aab8f
+projection_coverage: page-projection-pgp_af0a55a720587e05@70a2848956e7acf0e91d36268148588c
 ---
 
 # Rules for Sleeping Adventurers
@@ -37,3 +37,8 @@ If a sleeping adventurer is approached by a monster, the baseline score is adven
 ```
 If you're put to sleep by magical means such as Sleep Cloud , you must make a check via mental power resistance roll each round as long as combat continues.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-rules-for-sleeping-monsters]] - contextualizes: source-supported topic dependency

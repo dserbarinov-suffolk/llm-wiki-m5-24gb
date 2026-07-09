@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-rules-for-sleeping-monsters
 page_kind: concept
-summary: Rules for Sleeping Monsters: 15 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 25 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_928137877f47dece@9dcd3ccaaa5309be90d4ece06be565d5
+projection_coverage: page-projection-pgp_0763cac801373a26@f86c2acefb280a6ca1f169f3acd54f03
 ---
 
 # Rules for Sleeping Monsters
@@ -31,6 +31,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - However, creatures that live underwater, such as mermen, do not suffer any penalties other than weapon restrictions. (Sword World RPG - Complete Edition.pdf p.139)
 - In the case of something sleeping due to the ancient magic Sleep Cloud or the spellsong Lullaby , a resistance check must be made every round to judge. (Sword World RPG - Complete Edition.pdf p.139)
 - However, the spirit magic Sleep is an exception. (Sword World RPG - Complete Edition.pdf p.139)
+
+## Rules
+
+- To get within 5 meters of a sleeping monster, you must successfully perform the thief skill stealthy step . (Sword World RPG - Complete Edition.pdf p.139)
+- Some creatures, such as hydra and scylla, can act both in water and on land without penalty. (Sword World RPG - Complete Edition.pdf p.139)
+- In the case of something sleeping due to the ancient magic Sleep Cloud or the spellsong Lullaby , a resistance check must be made every round to judge. (Sword World RPG - Complete Edition.pdf p.139)
 
 ## Technical atoms
 
@@ -75,3 +81,8 @@ If it's natural sleep, there is no need to roll and it'll always wake up.
 ```
 Unless the magic itself is broken by Dispel Magic or other magic belonging to mind , it will never wake up.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-rules-for-sleeping-adventurers]] - contextualizes: source-supported topic dependency

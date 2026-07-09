@@ -1,26 +1,26 @@
 ---
 page_id: sword-world-rpg-complete-edition-inspiration-spell-level-3
 page_kind: concept
-summary: [ Inspiration ] (Spell Level=3): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_674728ac87f13afb@7e01b042b3de823e4b0bc5e05223591a
+projection_coverage: page-projection-pgp_8992c778ea600b14@30be20830b8d43544e15b43ce8f91cab
 ---
 
 # [ Inspiration ] (Spell Level=3)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Effect=You can turn a failed success roll related to knowledge into a success only once. (Sword World RPG - Complete Edition.pdf p.106)
 - If a knowledge- related success roll fails , the player can optionally make it a success . (Sword World RPG - Complete Edition.pdf p.106)
 - This spell cannot be recast until the caster falls asleep. (Sword World RPG - Complete Edition.pdf p.106)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -64,9 +64,13 @@ Type=Non-removable
 Resist=None
 ```
 
-<a id="atom-7"></a>
-**Atom:** rule
 
-```
-If you cast this spell, you can turn a failure into a success only once on a success roll to see if you know something, such as appraise treasure or monster check .
-```
+## Rules and exceptions
+
+- Effect=You can turn a failed success roll related to knowledge into a success only once. (Sword World RPG - Complete Edition.pdf p.106)
+- If a knowledge- related success roll fails , the player can optionally make it a success . (Sword World RPG - Complete Edition.pdf p.106)
+- This spell cannot be recast until the caster falls asleep. (Sword World RPG - Complete Edition.pdf p.106)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-weak-point-spell-level-3]] - contextualizes: source-supported topic dependency

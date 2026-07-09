@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-left-variadic-functions
 page_kind: concept
-summary: Left-Variadic Functions: 5 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 11 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_940e934f55bbbfff@947b9e0e3268ecd7c214e4fbc4c3c42d
+projection_coverage: page-projection-pgp_976eaa00e937014f@ef40fc8da7e29ece52805644426a5547
 ---
 
 # Left-Variadic Functions
@@ -21,6 +21,11 @@ Source: [[javascriptallonge]]
 - This can be useful when writing certain kinds of destructuring algorithms. (javascriptallonge.pdf p.89)
 - 52 English is about as inconsistent as JavaScript: Functions with a fixed number of arguments can be unary, binary, ternary, and so forth. (javascriptallonge.pdf p.89)
 - ECMAScript 2015 only permits gathering parameters from the end of the parameter list. (javascriptallonge.pdf p.90)
+
+## Rules
+
+- This can be useful when writing certain kinds of destructuring algorithms. (javascriptallonge.pdf p.89)
+- 52 English is about as inconsistent as JavaScript: Functions with a fixed number of arguments can be unary, binary, ternary, and so forth. (javascriptallonge.pdf p.89)
 
 ## Technical atoms
 
@@ -74,3 +79,8 @@ console.log(`squad coached by ${coach}`);
 }
 //=> Unexpected token
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-once]] - contextualizes: source-supported topic dependency

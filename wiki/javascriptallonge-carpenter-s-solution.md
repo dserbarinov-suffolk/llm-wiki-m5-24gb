@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-carpenter-s-solution
 page_kind: concept
-summary: the carpenter's solution: 12 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 22 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_1cd0b0b915ba47e1@4817238ff039f8dbd7c149429599ea48
+projection_coverage: page-projection-pgp_aaf1e2ff8dbfa13e@317c632f8ae12cebb5ad6c18f691cd3b
 ---
 
 # the carpenter's solution
@@ -28,6 +28,10 @@ Source: [[javascriptallonge]]
 - I approached this question in that spirit. (javascriptallonge.pdf p.267)
 - The question was , Given a linked list, detect whether it contains a cycle. (javascriptallonge.pdf p.268)
 - I have never forgotten the question, or the general form of the solution. (javascriptallonge.pdf p.268)
+
+## Rules
+
+- He then coached subsequent candidates to give polished answers to the company's pet technical questions. (javascriptallonge.pdf p.264)
 
 ## Technical atoms
 
@@ -165,3 +169,9 @@ terminates(Game({board: test, position: [0, 3]}))
 terminates(Game({board: test, position: [3, 3]}))
 //=> false
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-problem]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-aftermath]] - contextualizes: source-supported topic dependency

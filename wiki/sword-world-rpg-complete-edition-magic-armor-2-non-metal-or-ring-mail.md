@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-magic-armor-2-non-metal-or-ring-mail
 page_kind: concept
-summary: 《 Magic Armor (+2) 》 Non-metal or ring mail: 27 accepted assertion(s) and 20 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 44 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_df1537f89ab5b7de@d456d9c8dd2e9c051af0bb4791af4f10
+projection_coverage: page-projection-pgp_a5cc8488aef29bf3@07083c02ffa2376b9b17e149277985ee
 ---
 
 # 《 Magic Armor (+2) 》 Non-metal or ring mail
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Rarity=14 Enchanter=Many Form =Non-metal or ring mail armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction. (Sword World RPG - Complete Edition.pdf p.247)
 - Here is a list of prices of magical nonmetal or ring mail armor with +2 power. (Sword World RPG - Complete Edition.pdf p.247)
@@ -44,7 +44,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - If the emerald is removed, all magical power is lost. (Sword World RPG - Complete Edition.pdf p.248)
 - The emerald itself is worth 1000 gamels. (Sword World RPG - Complete Edition.pdf p.248)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -126,64 +126,43 @@ Required Strength=3 (Defense power 3)
 ```
 
 <a id="atom-12"></a>
-**Atom:** rule
-
-```
-When performing a treasure appraisal with the sage skill , if the fi nal score of the success roll is between 12 and 17, it will only be identified as a +1 soft leather.
-```
-
-<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-14"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Powers=-1 to opponent's strike points or +1 to their critical target
 ```
 
-<a id="atom-15"></a>
-**Atom:** rule
-
-```
-When facing opponents who use weapons like adventurers and determine damage through strike rolls, there is an effect that increases their critical target by +1 , but there is no direct damage reduction.
-```
-
-<a id="atom-16"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Rarity=13/18
 ```
 
-<a id="atom-17"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Form=Large shield with an emerald set in the center
 ```
 
-<a id="atom-18"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Required Strength=13
 ```
 
-<a id="atom-19"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Base Trade Price=3300 gamels
-```
-
-<a id="atom-20"></a>
-**Atom:** rule
-
-```
-When performing a treasure appraisal with the sage skill, if the success roll's fi nal score is 13 or higher but less than 18, you can only determine that it is a +1 large shield that also provides +2 resistance against breath attacks.
 ```

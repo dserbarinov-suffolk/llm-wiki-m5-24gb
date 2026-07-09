@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-8th-level-basic-dark-magic-list-cripple
 page_kind: concept
-summary: 8th Level Basic Dark Magic List [ Cripple ]: 7 accepted assertion(s) and 13 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 19 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_96b5c098615cb67c@676eebfefadaab256a25be638938d495
+projection_coverage: page-projection-pgp_c3b3b53d49073576@19eb17b0eb1ff3b5e39fa26d873109ba
 ---
 
 # 8th Level Basic Dark Magic List [ Cripple ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - If freedom of your head is taken away, you will be unable to see, hear, speak, or smell. (Sword World RPG - Complete Edition.pdf p.146)
 - This spell has the effect of taking away freedom of a part of the target's body, such as a limb, etc. (Sword World RPG - Complete Edition.pdf p.146)
@@ -24,7 +24,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Please refer to the following list. (Sword World RPG - Complete Edition.pdf p.146)
 - The creatures summoned vary depending on the wicked god. (Sword World RPG - Complete Edition.pdf p.146)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -62,55 +62,48 @@ Resist=Negated effect
 ```
 
 <a id="atom-6"></a>
-**Atom:** rule
-
-```
-If you lose freedom of your arms, you won't be able to hold anything in those arms, and if you lose freedom of your legs, you will have difficulty moving, so you will suffer a -2 penalty on attack and evasion in combat, respectively.
-```
-
-<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=32
 ```
 
-<a id="atom-8"></a>
+<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-9"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Area=An area within a 1 kilometer radius
 ```
 
-<a id="atom-10"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Duration=1 hour
 ```
 
-<a id="atom-11"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Effect=Summon animals that represent a god
 ```
 
-<a id="atom-12"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Type=Target score
 ```
 
-<a id="atom-13"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```

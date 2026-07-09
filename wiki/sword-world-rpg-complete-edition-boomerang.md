@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-boomerang
 page_kind: concept
-summary: Boomerang: 2 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 6 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_6a37ea30ba9a70ba@3e88fdd926daf8b3b00236221ad4df4c
+projection_coverage: page-projection-pgp_a5dbf9d469408f33@0d8d7d463aa426b5c69f59d87deac03c
 ---
 
 # Boomerang
@@ -34,3 +34,9 @@ The boomerang cannot be used if there's not enough space for the boomerang to fo
 ```
 The boomerang cannot be used if there's not enough space for the boomerang to follow an arc. You should also consider carefully before using it when there are allies nearby.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-lance]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-shotel]] - contextualizes: source-supported topic dependency

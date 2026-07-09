@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-10th-level-basic-holy-magic-list-call-god
 page_kind: concept
-summary: 10th Level Basic Holy Magic List [ Call God ]: 21 accepted assertion(s) and 31 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 55 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_79be01a8202eb75c@4f3a48046eb5962fd2b0f3164894ca31
+projection_coverage: page-projection-pgp_89453a3995a7c88e@b614d187d470932b97461f45cf4a195c
 ---
 
 # 10th Level Basic Holy Magic List [ Call God ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - However, the effect of the spell is temporary, and moreover, humans' frail bodies and minds cannot withstand the great power of a god, so after the spell's duration has expired, the caster's soul is destroyed, and even if you use spells such as Resurrection etc. (Sword World RPG - Complete Edition.pdf p.104)
 - you will not be able to bring them back to life again. (Sword World RPG - Complete Edition.pdf p.104)
@@ -38,7 +38,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - The caster can remove anything from the target of this spell, even within the area of effect. (Sword World RPG - Complete Edition.pdf p.105)
 - Conversely, you cannot force this spell to take effect on those who do not agree to it. (Sword World RPG - Complete Edition.pdf p.105)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -90,83 +90,62 @@ Resist=None
 ```
 
 <a id="atom-8"></a>
-**Atom:** rule
-
-```
-When you chant this spell, you can summon a major god into your own body.
-```
-
-<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=40
 ```
 
-<a id="atom-10"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Distance=Touch
 ```
 
-<a id="atom-11"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Area=One Soul
 ```
 
-<a id="atom-12"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Duration=Instant
 ```
 
-<a id="atom-13"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Effect=Rescue an undead soul
 ```
 
-<a id="atom-14"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Type=Ritual
 ```
 
-<a id="atom-15"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Expansion=Final score
 ```
 
-<a id="atom-16"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Resist=Negated effect
 ```
 
-<a id="atom-17"></a>
-**Atom:** rule
-
-```
-If the undead agrees, the spell is almost guaranteed to succeed (with the exception of double ones), but otherwise you must attain a final score greater than or equal to the undead's mental point resistance.
-```
-
-<a id="atom-18"></a>
-**Atom:** rule
-
-```
-If you fail, you cannot try again until your magic power increases.
-```
-
-<a id="atom-19"></a>
+<a id="atom-16"></a>
 **Atom:** table
 
 ```text
@@ -184,86 +163,93 @@ Table 5-8: Reincarnation Memory 5.1.17
 | Duration=Until |  | reincarnated |  |  | radius of the caster | Base Mental | (Spell Level=1) Power Cost=4 |  |
 ```
 
-<a id="atom-20"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Effect=Reincarnate a soul into a new body
 ```
 
-<a id="atom-21"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Type=Ritual
 ```
 
-<a id="atom-22"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Expansion=Final score
 ```
 
-<a id="atom-23"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-24"></a>
-**Atom:** rule
-
-```
-Even before a person regains their personality, if someone who knew them well before reincarnation can identify their body after reincarnation, they can try to restore the person's old memories.
-```
-
-<a id="atom-25"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=50
 ```
 
-<a id="atom-26"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-27"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Area=Up to 10 people within a 10 meter
 ```
 
-<a id="atom-28"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Duration=Instant
 ```
 
-<a id="atom-29"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Effect=Help the party escape to a safe place
 ```
 
-<a id="atom-30"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Expansion=Targets as well as area
 ```
 
-<a id="atom-31"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
+
+
+## Rules and exceptions
+
+- However, the effect of the spell is temporary, and moreover, humans' frail bodies and minds cannot withstand the great power of a god, so after the spell's duration has expired, the caster's soul is destroyed, and even if you use spells such as Resurrection etc. (Sword World RPG - Complete Edition.pdf p.104)
+- One priest can only attempt one Save Soul against a given undead. (Sword World RPG - Complete Edition.pdf p.104)
+- By expanding the effect of this spell, you can simultaneously increase the area of effect as well as the number of people it targets. (Sword World RPG - Complete Edition.pdf p.105)
+- The caster can remove anything from the target of this spell, even within the area of effect. (Sword World RPG - Complete Edition.pdf p.105)
+- Conversely, you cannot force this spell to take effect on those who do not agree to it. (Sword World RPG - Complete Edition.pdf p.105)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-magic-list-recall-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-sense-evil-spell-level-1]] - contextualizes: source-supported topic dependency

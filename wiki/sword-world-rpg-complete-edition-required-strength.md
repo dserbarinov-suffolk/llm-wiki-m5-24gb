@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-required-strength
 page_kind: concept
-summary: Required Strength: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_60b6ec89b870d427@d173ee6140f11d60a391053529a25aa9
+projection_coverage: page-projection-pgp_bb8210baa2d56bff@831a685f1b945711e7cc01eb0686677f
 ---
 
 # Required Strength
@@ -39,3 +39,9 @@ When buying weapons and armor, one must be aware of their required strength .
 ```
 Therefore, if the required strength of the weapon you're buying on Table 1-8: Weapons does not match your character's strength, you should not buy that weapon.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-1-4-6-purchasing-weapons-and-armor]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-one-handed-and-twohanded-weapons]] - contextualizes: source-supported topic dependency

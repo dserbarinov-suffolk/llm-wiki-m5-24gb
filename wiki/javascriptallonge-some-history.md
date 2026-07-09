@@ -1,20 +1,20 @@
 ---
 page_id: javascriptallonge-some-history
 page_kind: concept
-summary: some history: 16 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 21 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_3deb4bcc9994a88f@fb51271585c3d5e3e8bb2cd531199831
+projection_coverage: page-projection-pgp_214a089f5563a4fa@5d7b15e290b90248d1c292de22c9172c
 ---
 
 # some history
 
 Source: [[javascriptallonge]]
 
-## Statements
+## Procedure
 
 - In broad terms, this means that a single 36-bit word could store two separate 15-bit values and it was very fast to save and retrieve pairs of values. (javascriptallonge.pdf p.129)
 - Lisp's basic data type is often said to be the list, but in actuality it was the 'cons cell,' the term used to describe two 15-bit values stored in one word. (javascriptallonge.pdf p.129)
@@ -33,7 +33,7 @@ Source: [[javascriptallonge]]
 - And so it is today that languages like JavaScript have arrays that are slow to split into the equivalent of a car / cdr pair, but instructional examples of recursive programs still have echoes of their Lisp origins. (javascriptallonge.pdf p.130)
 - We'll look at linked lists again when we look at Plain Old JavaScript Objects. (javascriptallonge.pdf p.130)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -47,63 +47,13 @@ The 704 had a 36-bit word, meaning that it was very fast to store and retrieve 3
 66 Lisp is still very much alive, and one of the most interesting and exciting programming languages in use today is Clojure, a Lisp dialect that runs on the JVM, along with its sibling ClojureScript, Clojure that transpiles to JavaScript.
 ```
 
-<a id="atom-2"></a>
-**Atom:** rule
 
-```
-If you had two 15-bit values and wished to write them to the register, the CONS macro would take the values and write them to a 36-bit word.
-```
+## Rules and exceptions
 
-<a id="atom-3"></a>
-**Atom:** code block
+- In broad terms, this means that a single 36-bit word could store two separate 15-bit values and it was very fast to save and retrieve pairs of values. (javascriptallonge.pdf p.129)
+- The 15-bit values were used as pointers that could refer to a location in memory, so in effect, a cons cell was a little data structure with two pointers to other cons cells. (javascriptallonge.pdf p.129)
+- That being said, it is easy to understand and helps us grasp how literals and destructuring works, and how recursive algorithms ought to mirror the self-similarity of the data structures they manipulate. (javascriptallonge.pdf p.130)
 
-```
-const cons = (a, d) => [a, d],
-car
-= ([a, d]) => a,
-cdr
-= ([a, d]) => d;
-```
+## Related pages
 
-<a id="atom-4"></a>
-**Atom:** code block
-
-```
-const oneToFive = cons(1, cons(2, cons(3, cons(4, cons(5, null)))));
-```
-
-<a id="atom-5"></a>
-**Atom:** code block
-
-```
-oneToFive
-//=> [1,[2,[3,[4,[5,null]]]]]
-```
-
-<a id="atom-6"></a>
-**Atom:** code block
-
-```
-const node5 = [5,null],
-node4 = [4, node5],
-node3 = [3, node4],
-node2 = [2, node3],
-node1 = [1, node2];
-const oneToFive = node1;
-```
-
-<a id="atom-7"></a>
-**Atom:** code block
-
-```
-car(oneToFive)
-//=> 1
-```
-
-<a id="atom-8"></a>
-**Atom:** code block
-
-```
-cdr(oneToFive)
-//=> [2,[3,[4,[5,null]]]]
-```
+- [[javascriptallonge-so-why-arrays]] - contextualizes: source-supported topic dependency

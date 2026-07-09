@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-after-another-drink
 page_kind: concept
-summary: after another drink: 5 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 8 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_a1cdeadf39520512@61674958e211dff58557ae210fa390ee
+projection_coverage: page-projection-pgp_74d04c4861ce38fb@8deaf7b434f8855dcad2fa735a1616f2
 ---
 
 # after another drink
@@ -64,3 +64,8 @@ visited.add(element);
 return false;
 };
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-aftermath]] - contextualizes: source-supported topic dependency

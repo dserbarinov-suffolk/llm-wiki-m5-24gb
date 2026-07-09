@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-age-of-magic-the-kingdom-of-kastuul
 page_kind: concept
-summary: The Age of Magic = The Kingdom of Kastuul: 8 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 10 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_ad509bfad2de961a@98d55c7f2b8fc739807213b33b1daf2a
+projection_coverage: page-projection-pgp_6fb5e04d1efeb089@7805de9e314ef83372f9dba896cb087f
 ---
 
 # The Age of Magic = The Kingdom of Kastuul
@@ -24,3 +24,8 @@ Source: [[sword-world-rpg-complete-edition]]
 - This was the Kingdom of Kastuul. (Sword World RPG - Complete Edition.pdf p.281)
 - Humans with low magical ability, or those completely lacking it, were either treated as slaves or banished from the peaceful kingdom to become savages living in dangerous wilderness. (Sword World RPG - Complete Edition.pdf p.281)
 - This era is known as "The Age of Magic." It is said that three systems of magic - ancient magic, spirit magic, and holy magic - created a brilliant culture, enabled cities to float in the sky, and even commanded grown dragons as servants. (Sword World RPG - Complete Edition.pdf p.281)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-age-of-mythology]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-age-of-sword-the-new-kingdoms]] - contextualizes: source-supported topic dependency

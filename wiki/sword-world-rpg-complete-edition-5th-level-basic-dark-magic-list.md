@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-5th-level-basic-dark-magic-list
 page_kind: concept
-summary: 5th Level Basic Dark Magic List: 9 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_389bf0c91107a31f@bd163feb907d2b18199ad05888244955
+projection_coverage: page-projection-pgp_cd04137caa009ae5@8dbe5bc1f2d601cab64f86596330d26e
 ---
 
 # 5th Level Basic Dark Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - The curse will be lifted when you obtain the item or complete the action. (Sword World RPG - Complete Edition.pdf p.144)
 - An example of a curse is making a beautiful face ugly or changing the color of one's skin. (Sword World RPG - Complete Edition.pdf p.144)
@@ -26,7 +26,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - The corpse can be resurrected as a zombie and used as a slave. (Sword World RPG - Complete Edition.pdf p.144)
 - To cast this spell, you need a corpse that is within a few days of death. (Sword World RPG - Complete Edition.pdf p.144)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -35,9 +35,8 @@ Source: [[sword-world-rpg-complete-edition]]
 Resist=Negated effect
 ```
 
-<a id="atom-2"></a>
-**Atom:** rule
 
-```
-For example, if the caster sacrifices their own life, it is acceptable to apply a fairly powerful curse.
-```
+## Rules and exceptions
+
+- Game masters should limit the effects of curses so that they do not immediately kill the individual. (Sword World RPG - Complete Edition.pdf p.144)
+- The corpse can be resurrected as a zombie and used as a slave. (Sword World RPG - Complete Edition.pdf p.144)

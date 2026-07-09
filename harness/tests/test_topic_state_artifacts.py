@@ -11,7 +11,14 @@ from llmwiki.application.topic_state_artifacts import (
     build_topic_state_artifact,
     topic_state_artifact_to_json,
 )
-from llmwiki.domain.assertion_graph import TopicKind
+from llmwiki.application.topic_state_dependencies import topic_dependencies
+from llmwiki.domain.assertion_graph import (
+    ProjectionPolicy,
+    SourceUnit,
+    SourceUnitKind,
+    TopicKind,
+    TopicState,
+)
 
 
 def test_topic_state_artifact_admits_coherent_topics_and_manifest() -> None:
@@ -69,3 +76,71 @@ def test_topic_state_artifact_json_has_no_dangling_references() -> None:
         assert set(topic["accepted_technical_atom_ids"]) <= atom_ids
     kinds = {member["activity_kind"] for member in serialized["provenance_activities"]}
     assert "topic_state_build" in kinds
+
+
+def test_topic_dependencies_link_adjacent_topics_by_source_section_anchors() -> None:
+    canonical_source, ledger = _source_and_ledger()
+    graph = build_assertion_graph_artifact(
+        source_artifact=canonical_source.artifact,
+        ledger=ledger,
+    )
+    graph = graph.model_copy(
+        update={
+            "source_units": (
+                _unit("su_chapter", SourceUnitKind.HEADING, 1, None, ("su_first", "su_second")),
+                _unit("su_first", SourceUnitKind.HEADING, 2, "su_chapter", ("su_first_body",)),
+                _unit("su_first_body", SourceUnitKind.PARAGRAPH, 3, "su_first", ()),
+                _unit("su_second", SourceUnitKind.HEADING, 4, "su_chapter", ("su_second_body",)),
+                _unit("su_second_body", SourceUnitKind.PARAGRAPH, 5, "su_second", ()),
+            ),
+            "relationships": (),
+            "argument_edges": (),
+        }
+    )
+    topics = (
+        _topic("tps_first", "first", "First", ("su_first_body",)),
+        _topic("tps_second", "second", "Second", ("su_second_body",)),
+    )
+
+    dependencies = topic_dependencies(graph, topics)
+
+    endpoints = {
+        (dependency.from_topic_state_id, dependency.to_topic_state_id)
+        for dependency in dependencies
+    }
+    assert ("tps_first", "tps_second") in endpoints
+    assert ("tps_second", "tps_first") in endpoints
+
+
+def _unit(
+    unit_id: str,
+    kind: SourceUnitKind,
+    order: int,
+    parent_id: str | None,
+    child_ids: tuple[str, ...],
+) -> SourceUnit:
+    return SourceUnit(
+        id=unit_id,
+        source_locator="source.pdf",
+        source_hash="a" * 64,
+        source_order=order,
+        kind=kind,
+        text=unit_id,
+        page_span=(1, 1),
+        parent_id=parent_id,
+        child_ids=child_ids,
+    )
+
+
+def _topic(
+    topic_id: str, topic_key: str, label: str, unit_ids: tuple[str, ...]
+) -> TopicState:
+    return TopicState(
+        id=topic_id,
+        topic_key=topic_key,
+        label=label,
+        topic_kind=TopicKind.CONCEPT,
+        accepted_assertion_ids=("ast_fake",),
+        source_unit_ids=unit_ids,
+        projection_policy=ProjectionPolicy(page_kind="concept", page_family="topic-concept"),
+    )

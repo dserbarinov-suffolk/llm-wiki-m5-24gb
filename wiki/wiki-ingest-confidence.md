@@ -9,7 +9,7 @@ updated: 2026-07-09
 
 ## Summary
 
-Run id: 2026-07-09-095142
+Run id: 2026-07-09-102104
 Source: raw/Sword World RPG - Complete Edition.pdf
 Confidence status: passed with warnings
 Blockers: 0
@@ -40,7 +40,7 @@ FalseSourceUncertaintyClaims: 0
 SourceFramingBullets: 0
 MissingUnitCoverage: 1
 MissingUnitCoverageExamples:
-- sword-world-rpg-complete-edition-2-4-bonuses-and-penalties-through-2-5-1-difficulty: unit-0064
+- sword-world-rpg-complete-edition-2-5-difficulty-checks-through-2-5-1-2-5-3-analogy-of-success: unit-0064
 
 ### evidence-registry
 - Kind: deterministic
@@ -48,7 +48,7 @@ MissingUnitCoverageExamples:
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 192
+Source ranges: 276
 Evidence records: 12346
 
 ### evidence-locators
@@ -56,7 +56,7 @@ Evidence records: 12346
 - Scope: raw/Sword World RPG - Complete Edition.pdf
 - Status: pass
 - Findings: none
-Locators: 11884
+Locators: 11891
 Invalid locators: 0
 
 ### claim-support

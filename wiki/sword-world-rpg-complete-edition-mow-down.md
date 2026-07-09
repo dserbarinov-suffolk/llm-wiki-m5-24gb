@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-mow-down
 page_kind: concept
-summary: Mow Down: 7 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 14 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_19b08f271d05dca1@f0be875190791d3a57cdc010c6eb947d
+projection_coverage: page-projection-pgp_ab5b10a854458ea3@5205ce4a37ed280bec78af9bdcbd0566
 ---
 
 # Mow Down
@@ -22,6 +22,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - If it hits, damage is determined as normal. (Sword World RPG - Complete Edition.pdf p.265)
 - For example, if there are three , you cannot attack only two of them. (Sword World RPG - Complete Edition.pdf p.265)
 - Usually there won't be more than three. (Sword World RPG - Complete Edition.pdf p.265)
+- Mow down can only be performed against enemies in front of you. (Sword World RPG - Complete Edition.pdf p.265)
+
+## Rules
+
+- When there are multiple enemies in front of you, you can swing your weapon horizontally and attack them all at once . (Sword World RPG - Complete Edition.pdf p.265)
+- For example, if there are three , you cannot attack only two of them. (Sword World RPG - Complete Edition.pdf p.265)
 - Mow down can only be performed against enemies in front of you. (Sword World RPG - Complete Edition.pdf p.265)
 
 ## Technical atoms
@@ -39,3 +45,9 @@ A character can only do this if he or she has a two-handed weapon and it's the t
 ```
 If you do decide to mow down, you must attack all enemies in front of you.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-snipe]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-grapple]] - contextualizes: source-supported topic dependency

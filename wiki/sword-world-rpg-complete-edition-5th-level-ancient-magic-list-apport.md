@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-5th-level-ancient-magic-list-apport
 page_kind: concept
-summary: 5th Level Ancient Magic List [ Apport ]: 29 accepted assertion(s) and 52 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 90 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_2e11ce9da81bdf5a@5aea6a558dc1e705357ae7f355fc0f71
+projection_coverage: page-projection-pgp_f7df2a8cc2ba4bac@5bb9a9b37091e8adcba326c375296d6c
 ---
 
 # 5th Level Ancient Magic List [ Apport ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - However, even though it's their possession, the caster must have a complete memory of it, and moreover must be able to identify specifically where it's kept. (Sword World RPG - Complete Edition.pdf p.75)
 - This is a spell that allows the caster to teleport their possessions into the palm of their hand. (Sword World RPG - Complete Edition.pdf p.75)
@@ -46,7 +46,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Its strike power is 20. (Sword World RPG - Complete Edition.pdf p.76)
 - Expansion=Final score, distance, area, damage certainty Resist= Reduced effect This spell creates a sudden storm containing countless pieces of ice the size of pebbles, in a space within a 5 meter radius centered on a point, dealing cold damage to everything within range. (Sword World RPG - Complete Edition.pdf p.76)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -91,323 +91,315 @@ Resist=Negated effect
 ```
 
 <a id="atom-7"></a>
-**Atom:** rule
-
-```
-For example, you can create a wall of fire via illusion, but you won't feel any heat even if you approach it, and you won't burn to death even if you jump into it.
-```
-
-<a id="atom-8"></a>
-**Atom:** example
-
-```
-This spell creates illusions that affect the senses of hearing and vision. The illusion can be anything within its area of effect, but it cannot cause any realistic effects. For example, you can create a wall of fire via illusion, but you won't feel any heat even if you approach it, and you won't burn to death even if you jump into it. However, the illusions created by this spell are so realistic that they cannot be discovered just by looking at them normally. The spell's effect continues even if you touch it. If an illusion of a stone wall is in a passage, you can't see beyond it, but you're completely free to pass through it (if you try). However, this result will not destroy the illusion of the stone wall. As long as the caster maintains focus, they can freely change the illusion, but if they lose focus, only static or simple repeating illusions can remain. The caster can freely cancel the spell's effect, but a Dispel Magic spell is required if someone else attempts to remove it.
-```
-
-<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=20
 ```
 
-<a id="atom-10"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Distance=10 meters
 ```
 
-<a id="atom-11"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Effect=Negate any one of the four major spirit
 ```
 
-<a id="atom-12"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Type=Target score
+```
+
+<a id="atom-11"></a>
+**Atom:** formula
+
+```
+Resist=None
+```
+
+<a id="atom-12"></a>
+**Atom:** formula
+
+```
+Base Mental Power Cost=20
 ```
 
 <a id="atom-13"></a>
 **Atom:** formula
 
 ```
-Resist=None
+Distance=Touch
 ```
 
 <a id="atom-14"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=20
+Duration=Permanent
 ```
 
 <a id="atom-15"></a>
 **Atom:** formula
 
 ```
-Distance=Touch
+Effect=Create a skeleton warrior and make it
 ```
 
 <a id="atom-16"></a>
 **Atom:** formula
 
 ```
-Duration=Permanent
+Type=Non-removable
 ```
 
 <a id="atom-17"></a>
 **Atom:** formula
 
 ```
-Effect=Create a skeleton warrior and make it
+Expansion=Target score
 ```
 
 <a id="atom-18"></a>
 **Atom:** formula
 
 ```
-Type=Non-removable
+Base Mental Power Cost=15
 ```
 
 <a id="atom-19"></a>
 **Atom:** formula
 
 ```
-Expansion=Target score
+Distance=Caster
 ```
 
 <a id="atom-20"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=15
+Area=Area that the caster can hear
 ```
 
 <a id="atom-21"></a>
 **Atom:** formula
 
 ```
-Distance=Caster
+Duration=1 hour
 ```
 
 <a id="atom-22"></a>
 **Atom:** formula
 
 ```
-Area=Area that the caster can hear
+Effect=Can discover lies
 ```
 
 <a id="atom-23"></a>
 **Atom:** formula
 
 ```
-Duration=1 hour
+Type=Detection
 ```
 
 <a id="atom-24"></a>
 **Atom:** formula
 
 ```
-Effect=Can discover lies
+Expansion=Duration
 ```
 
 <a id="atom-25"></a>
 **Atom:** formula
 
 ```
-Type=Detection
+Resist=None
 ```
 
 <a id="atom-26"></a>
 **Atom:** formula
 
 ```
-Expansion=Duration
+Base Mental Power Cost=15
 ```
 
 <a id="atom-27"></a>
 **Atom:** formula
 
 ```
-Resist=None
+Distance=Caster
 ```
 
 <a id="atom-28"></a>
-**Atom:** rule
+**Atom:** formula
 
 ```
-You can only know that if it's a lie, it's a lie, and if it's an exaggeration, it's an exaggeration.
+Area=Caster
 ```
 
 <a id="atom-29"></a>
 **Atom:** formula
 
 ```
-Base Mental Power Cost=15
+Duration=1 Hour
 ```
 
 <a id="atom-30"></a>
 **Atom:** formula
 
 ```
-Distance=Caster
+Effect=Can read unknown languages
 ```
 
 <a id="atom-31"></a>
 **Atom:** formula
 
 ```
-Area=Caster
+Base Mental Power Cost=15
 ```
 
 <a id="atom-32"></a>
 **Atom:** formula
 
 ```
-Duration=1 Hour
+Distance=Caster
 ```
 
 <a id="atom-33"></a>
 **Atom:** formula
 
 ```
-Effect=Can read unknown languages
-```
-
-<a id="atom-34"></a>
-**Atom:** rule
-
-```
-Each time you use this spell, you can only read one language, if you want to read two unknown languages at the same time, you must double the spell's effect.
-```
-
-<a id="atom-35"></a>
-**Atom:** formula
-
-```
-Base Mental Power Cost=15
-```
-
-<a id="atom-36"></a>
-**Atom:** formula
-
-```
-Distance=Caster
-```
-
-<a id="atom-37"></a>
-**Atom:** formula
-
-```
 Duration=18 rounds
 ```
 
-<a id="atom-38"></a>
+<a id="atom-34"></a>
 **Atom:** formula
 
 ```
 Type=Detection
 ```
 
-<a id="atom-39"></a>
+<a id="atom-35"></a>
 **Atom:** formula
 
 ```
 Expansion=Duration
 ```
 
-<a id="atom-40"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-41"></a>
+<a id="atom-37"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=20
 ```
 
-<a id="atom-42"></a>
+<a id="atom-38"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-43"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Area=Caster
 ```
 
-<a id="atom-44"></a>
+<a id="atom-40"></a>
 **Atom:** formula
 
 ```
 Duration=1 hour
 ```
 
-<a id="atom-45"></a>
+<a id="atom-41"></a>
 **Atom:** formula
 
 ```
 Effect=Gives the caster the ability to fly
 ```
 
-<a id="atom-46"></a>
+<a id="atom-42"></a>
 **Atom:** formula
 
 ```
 Type=Target score
 ```
 
-<a id="atom-47"></a>
+<a id="atom-43"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
 
-<a id="atom-48"></a>
+<a id="atom-44"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=25
 ```
 
-<a id="atom-49"></a>
+<a id="atom-45"></a>
 **Atom:** formula
 
 ```
 Distance=20 meters
 ```
 
-<a id="atom-50"></a>
+<a id="atom-46"></a>
 **Atom:** formula
 
 ```
 Area=A space with a 5 meter radius
 ```
 
-<a id="atom-51"></a>
+<a id="atom-47"></a>
 **Atom:** formula
 
 ```
 Duration=Instant
 ```
 
-<a id="atom-52"></a>
+<a id="atom-48"></a>
 **Atom:** formula
 
 ```
 Type=Damage (Cold-type)
 ```
+
+
+## Rules and exceptions
+
+- However, even though it's their possession, the caster must have a complete memory of it, and moreover must be able to identify specifically where it's kept. (Sword World RPG - Complete Edition.pdf p.75)
+- If the duration expires or if the spell is canceled, the target immediately returns to its original location. (Sword World RPG - Complete Edition.pdf p.75)
+- Also, the size of the target is limited to something you can hold in your hand (for example, you can summon a sword, but not armor). (Sword World RPG - Complete Edition.pdf p.75)
+- However, only one kind of spirit power can be erased at a time. (Sword World RPG - Complete Edition.pdf p.75)
+- This spell cannot be expanded to block two or more kinds of spirit power from working at the same time. (Sword World RPG - Complete Edition.pdf p.75)
+- Only the caster can give commands. (Sword World RPG - Complete Edition.pdf p.75)
+- The caster can give commands to the skeleton warrior in high ancient. (Sword World RPG - Complete Edition.pdf p.75)
+- For example, commands such as kill anyone who enters this room or kill that man are very simple and can be carried out, but a command such as go to the next village and kidnap the chief's daughter cannot be carried out. (Sword World RPG - Complete Edition.pdf p.75)
+- They cannot understand overly complex commands, but they handle simple commands accurately. (Sword World RPG - Complete Edition.pdf p.75)
+- However, while you can discover lies, you cannot know truths. (Sword World RPG - Complete Edition.pdf p.75)
+- By casting this spell, the caster can discover parts that are untrue, exaggerated, and dramatized in conversations they overhear. (Sword World RPG - Complete Edition.pdf p.75)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-4th-level-ancient-magic-list-counter-sense]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-6th-level-ancient-magic-list-acid-cloud]] - contextualizes: source-supported topic dependency

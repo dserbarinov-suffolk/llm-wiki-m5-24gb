@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-race
 page_kind: concept
-summary: Races: 29 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 34 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_81d61630bac37778@ee986011925acd70415fbe7d7bc0e370
+projection_coverage: page-projection-pgp_517badf4a36da6d1@49b55f8188631bf90a846ea24a64750e
 ---
 
 # Races
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - They have already lost the ability to return to the fairy world, but as fae of the meadows, they have a truly diverse range of abilities. (Sword World RPG - Complete Edition.pdf p.13)
 - However, they are very curious and many have abandoned the fairy world to become residents of human society. (Sword World RPG - Complete Edition.pdf p.13)
@@ -46,7 +46,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Their ears are slightly pointed, but they also have a spot where a beard grows. (Sword World RPG - Complete Edition.pdf p.14)
 - They are almost the same height as humans, but are more delicate. (Sword World RPG - Complete Edition.pdf p.14)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -56,3 +56,14 @@ Races
 2. Among the craftsman general skill, has  any  one  of  the  following  at  level  5: carpentry, smithing, woodworking, stonemasonry, gem crafting (details are explained under 7.3: Craftsman Skill, see p. 126).
 3. Unable  to  learn  ancient  magic  or spirit magic.
 ```
+
+
+## Rules and exceptions
+
+- What they desire are the various experiences and incidents one encounters while traveling, so for this reason they may join groups of adventurers. (Sword World RPG - Complete Edition.pdf p.13)
+- They are also close as a species to humans and both can produce offspring. (Sword World RPG - Complete Edition.pdf p.13)
+- As such, they may act aggressively toward intruders into the forest. (Sword World RPG - Complete Edition.pdf p.13)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-skill]] - contextualizes: source-supported topic dependency

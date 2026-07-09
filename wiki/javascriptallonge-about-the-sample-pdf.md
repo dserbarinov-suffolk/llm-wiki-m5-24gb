@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-about-the-sample-pdf
 page_kind: concept
-summary: About The Sample PDF: 3 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 3 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_6b887258a1758a78@bdffdb63b6c9a1405fbcf656d62b1918
+projection_coverage: page-projection-pgp_59c0c87f72c079e7@bdffdb63b6c9a1405fbcf656d62b1918
 ---
 
 # About The Sample PDF

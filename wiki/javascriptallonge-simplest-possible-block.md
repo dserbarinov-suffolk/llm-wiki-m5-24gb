@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-simplest-possible-block
 page_kind: concept
-summary: the simplest possible block: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 6 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_43a5fd19bc0e93a3@1b7d8e90e9f78cb50267e6ecb05cfea2
+projection_coverage: page-projection-pgp_f2614e06d3900b82@755bcbaacb989101284b0e9dfb6f04b8
 ---
 
 # the simplest possible block
@@ -18,6 +18,10 @@ Source: [[javascriptallonge]]
 
 - There's another thing we can put to the right of an arrow, a block . (javascriptallonge.pdf p.34)
 - It returns the result of evaluating a block that has no statements. (javascriptallonge.pdf p.34)
+
+## Rules
+
+- There's another thing we can put to the right of an arrow, a block . (javascriptallonge.pdf p.34)
 
 ## Technical atoms
 
@@ -35,3 +39,8 @@ Source: [[javascriptallonge]]
 (() => {})()
 //=> undefined
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-void]] - contextualizes: source-supported topic dependency

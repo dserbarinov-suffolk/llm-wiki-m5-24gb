@@ -8,7 +8,7 @@ updated: 2026-07-09
 domain: javascriptallonge
 category_path: sources
 source_id: javascriptallonge.pdf
-projection_coverage: projection-coverage-14ed440039d48288@b55682d0047d302a
+projection_coverage: page-projection-pgp_4137404dd983e224@737303541732891a2b78d4accc60e653
 ---
 
 # Javascriptallonge
@@ -20,166 +20,165 @@ projection_coverage: projection-coverage-14ed440039d48288@b55682d0047d302a
 
 ## Page Families
 
-- source-manifest: 1 page(s) - source entry point
-- topic-concept: 155 page(s) - focused concept pages
+- topic-concept: 155 page(s) - generated topic-state projections
 
 ## Concept Entry Points
 
-- [[javascriptallonge-balanced-statement-about-combinators]] - topic concept: a balanced statement about combinators: 2 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-history-lesson]] - topic concept: a history lesson: 2 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-look-back-at-functional-iterators]] - topic concept: a look back at functional iterators: 4 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-quick-summary-of-functions-and-bodies]] - topic concept: a quick summary of functions and bodies: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-return-to-backward-thinking]] - topic concept: a return to backward thinking: 16 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-rich-aroma-basic-numbers]] - topic concept: A Rich Aroma: Basic Numbers: 10 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-warm-cup-basic-strings-and-quasi-literals]] - topic concept: A Warm Cup: Basic Strings and Quasi-Literals: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-about-javascript-allong]] - topic concept: About JavaScript Allongé: 5 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-about-the-sample-pdf]] - topic concept: About The Sample PDF: 3 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-after-another-drink]] - topic concept: after another drink: 5 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-ah-i-d-like-to-have-an-argument-please-22]] - topic concept: Ah. I'd Like to Have an Argument, Please. 22: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-applying-functions]] - topic concept: applying functions: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-are-consts-also-from-a-shadowy-planet]] - topic concept: are consts also from a shadowy planet?: 13 accepted assertion(s) and 11 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-array-literals]] - topic concept: array literals: 5 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-arrays-and-destructuring-arguments]] - topic concept: Arrays and Destructuring Arguments: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less]] - topic concept: As Little As Possible About Functions, But No Less: 8 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-back-on-the-block]] - topic concept: back on the block: 5 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-backwardnes]] - topic concept: backwardness: 4 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-bonu]] - topic concept: bonus: 6 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-building-blocks]] - topic concept: Building Blocks: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-building-with-mutation]] - topic concept: building with mutation: 5 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-call-by-sharing]] - topic concept: call by sharing: 11 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-call-by-value]] - topic concept: call by value: 3 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-caveat]] - topic concept: caveat: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-closures-and-scope]] - topic concept: Closures and Scope: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-combinator]] - topic concept: combinators: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-composition]] - topic concept: composition: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-const]] - topic concept: const: 11 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-const-and-lexical-scope]] - topic concept: const and lexical scope: 8 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-converting-non-tail-calls-to-tail-calls]] - topic concept: converting non-tail-calls to tail-calls: 5 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-copy-on-write]] - topic concept: Copy on Write: 13 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-copy-on-read]] - topic concept: copy-on-read: 7 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-default-arguments]] - topic concept: default arguments: 5 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-defaults-and-destructuring]] - topic concept: defaults and destructuring: 2 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-destructuring-arrays]] - topic concept: destructuring arrays: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-destructuring-is-not-pattern-matching]] - topic concept: destructuring is not pattern matching: 7 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-destructuring-objects]] - topic concept: destructuring objects: 2 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-destructuring-parameters]] - topic concept: destructuring parameters: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-disclaimer]] - topic concept: Disclaimer: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-eager-collections]] - topic concept: eager collections: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-ecmascript-6-has-three-major-groups-of-features]] - topic concept: ECMAScript 6 has three major groups of features:: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-element-references]] - topic concept: element references: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-evaluation-time]] - topic concept: evaluation time: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-factorial]] - topic concept: factorials: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-floating]] - topic concept: floating: 7 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-folding]] - topic concept: folding: 2 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-foreword-to-the-six-edition]] - topic concept: Foreword to the 'Six' edition: 7 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-from]] - topic concept: from: 7 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-declaration-caveats-34]] - topic concept: function declaration caveats 34: 7 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-declarations]] - topic concept: function declarations: 8 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-decorators]] - topic concept: function decorators: 3 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-parameters-are-eager]] - topic concept: function parameters are eager: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functional-iterators]] - topic concept: Functional Iterators: 7 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function]] - topic concept: Functions: 11 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functions-and-identities]] - topic concept: functions and identities: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functions-are-not-the-real-point]] - topic concept: functions are not the real point: 9 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functions-that-evaluate-to-functions]] - topic concept: functions that evaluate to functions: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functions-that-return-values-and-evaluate-expressions]] - topic concept: functions that return values and evaluate expressions: 6 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-garbage-garbage-everywhere]] - topic concept: Garbage, Garbage Everywhere: 12 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-gathering]] - topic concept: gathering: 4 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-generating-iterables]] - topic concept: Generating Iterables: 8 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-generators-and-iterables]] - topic concept: generators and iterables: 7 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-generators-are-coroutines]] - topic concept: generators are coroutines: 22 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-higher-order-functions]] - topic concept: higher-order functions: 2 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-how-this-book-is-organized]] - topic concept: how this book is organized: 3 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-how-to-run-the-examples]] - topic concept: How to run the examples: 8 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-if-functions-without-free-variables-are-pure-are-closures-impure]] - topic concept: if functions without free variables are pure, are closures impure?: 18 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-implementing-methods-with-iteration]] - topic concept: implementing methods with iteration: 6 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-inside-out]] - topic concept: inside-out: 11 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-interactive-generators]] - topic concept: Interactive Generators: 13 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-it-s-always-the-environment]] - topic concept: it's always the environment: 10 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterable]] - topic concept: iterables: 15 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterables-out-to-infinity]] - topic concept: iterables out to infinity: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterating]] - topic concept: iterating: 9 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iteration-and-iterables]] - topic concept: Iteration and Iterables: 3 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterator-objects]] - topic concept: iterator objects: 6 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-javascript-s-generators]] - topic concept: javascript's generators: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-lazy-and-eager-collections]] - topic concept: Lazy and Eager Collections: 10 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-lazy-collection-operations]] - topic concept: lazy collection operations: 10 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-left-variadic-destructuring]] - topic concept: left-variadic destructuring: 3 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-left-variadic-functions]] - topic concept: Left-Variadic Functions: 5 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-like-this]] - topic concept: Like this:: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-linear-recursion]] - topic concept: linear recursion: 19 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-lists-with-functions-as-data]] - topic concept: lists with functions as data: 4 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-literal-object-syntax]] - topic concept: literal object syntax: 8 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-magic-names]] - topic concept: Magic Names: 2 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-magic-names-and-fat-arrows]] - topic concept: magic names and fat arrows: 16 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-making-data-out-of-functions]] - topic concept: Making Data Out Of Functions: 8 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mapping]] - topic concept: mapping: 3 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mapwith]] - topic concept: mapWith: 7 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-maybe]] - topic concept: Maybe: 5 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-michael-fogus]] - topic concept: michael fogus: 12 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mixing-let-and-const]] - topic concept: mixing let and const: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-more-generators]] - topic concept: more generators: 3 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mutation]] - topic concept: Mutation: 12 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mutation-and-data-structures]] - topic concept: mutation and data structures: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-nested-blocks]] - topic concept: nested blocks: 4 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-once]] - topic concept: Once: 4 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-operations-on-numbers]] - topic concept: operations on numbers: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-operations-on-ordered-collections]] - topic concept: operations on ordered collections: 17 accepted assertion(s) and 9 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-ordered-collections]] - topic concept: ordered collections: 9 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-overcoming-limitations]] - topic concept: overcoming limitations: 2 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-partial-application]] - topic concept: partial application: 14 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-picking-the-bean-choice-and-truthiness]] - topic concept: Picking the Bean: Choice and Truthiness: 4 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-plain-old-javascript-objects]] - topic concept: Plain Old JavaScript Objects: 8 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-quasi-literal]] - topic concept: quasi-literals: 6 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-reassignment]] - topic concept: Reassignment: 7 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-rebinding]] - topic concept: rebinding: 3 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-recipes-with-basic-functions]] - topic concept: Recipes with Basic Functions: 2 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-recursive-iterators]] - topic concept: recursive iterators: 6 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-reference-types]] - topic concept: reference types: 6 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-representing-naughts-and-crosses-as-a-stateful-function]] - topic concept: representing naughts and crosses as a stateful function: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-revisiting-linked-lists]] - topic concept: revisiting linked lists: 12 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-rewriting-iterable-operations]] - topic concept: rewriting iterable operations: 5 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-say-please]] - topic concept: say 'please': 5 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-self-currying-flip]] - topic concept: self-currying flip: 2 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-self-similarity]] - topic concept: Self-Similarity: 16 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-shadowy-variables-from-a-shadowy-planet]] - topic concept: shadowy variables from a shadowy planet: 7 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-so-why-arrays]] - topic concept: so why arrays: 5 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-some-history]] - topic concept: some history: 16 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-state-machines]] - topic concept: state machines: 6 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-summary]] - topic concept: summary: 18 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tail-calls-and-default-arguments]] - topic concept: Tail Calls (and Default Arguments): 15 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tail-call-optimization]] - topic concept: tail-call optimization: 11 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tap]] - topic concept: Tap: 4 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-that-constant-coffee-craving]] - topic concept: That Constant Coffee Craving: 9 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-that-s-nice-is-that-the-only-reason]] - topic concept: that's nice. is that the only reason?: 10 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-aftermath]] - topic concept: the aftermath: 4 accepted assertion(s) and 0 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-carpenter-s-solution]] - topic concept: the carpenter's solution: 12 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-keyword]] - topic concept: the function keyword: 22 accepted assertion(s) and 19 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-kestrel-and-the-idiot]] - topic concept: the kestrel and the idiot: 7 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-problem]] - topic concept: the problem: 7 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-simplest-possible-block]] - topic concept: the simplest possible block: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-vireo]] - topic concept: the vireo: 8 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-this-seems-familiar]] - topic concept: this seems familiar: 8 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tortoises-hares-and-teleporting-turtles]] - topic concept: Tortoises, Hares, and Teleporting Turtles: 7 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-truthiness-and-operators]] - topic concept: truthiness and operators: 11 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-truthiness-and-the-ternary-operator]] - topic concept: truthiness and the ternary operator: 12 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-unary]] - topic concept: Unary: 7 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-undefined]] - topic concept: undefined: 8 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-unfolding-and-laziness]] - topic concept: unfolding and laziness: 6 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-value-types]] - topic concept: value types: 6 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-values-are-expressions]] - topic concept: values are expressions: 18 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-var]] - topic concept: var: 7 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-variables-and-bindings]] - topic concept: variables and bindings: 15 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-void]] - topic concept: void: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-we-ll-keep-it-simple]] - topic concept: We'll keep it simple:: 3 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-what-javascript-allong-is-and-isn-t]] - topic concept: What JavaScript Allongé is. And isn't.: 17 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-which-came-first-the-chicken-or-the-egg]] - topic concept: which came first, the chicken or the egg?: 2 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-why-const-and-let-were-invented]] - topic concept: why const and let were invented: 10 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-why-the-six-edition]] - topic concept: why the 'six' edition?: 15 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-why]] - topic concept: Why?: 6 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-will-be-represented-as]] - topic concept: Will be represented as:: 2 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-yes-consider-this-variation]] - topic concept: Yes. Consider this variation:: 9 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-yielding-iterables]] - topic concept: yielding iterables: 5 accepted assertion(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-balanced-statement-about-combinators]] - topic-concept: a balanced statement about combinators; 4 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-history-lesson]] - topic-concept: a history lesson; 7 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-look-back-at-functional-iterators]] - topic-concept: a look back at functional iterators; 14 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-quick-summary-of-functions-and-bodies]] - topic-concept: a quick summary of functions and bodies; 6 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-return-to-backward-thinking]] - topic-concept: a return to backward thinking; 27 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-rich-aroma-basic-numbers]] - topic-concept: A Rich Aroma: Basic Numbers; 12 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-warm-cup-basic-strings-and-quasi-literals]] - topic-concept: A Warm Cup: Basic Strings and Quasi-Literals; 6 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-about-javascript-allong]] - topic-concept: About JavaScript Allongé; 7 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-about-the-sample-pdf]] - topic-concept: About The Sample PDF; 3 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-after-another-drink]] - topic-concept: after another drink; 8 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-ah-i-d-like-to-have-an-argument-please-22]] - topic-concept: Ah. I'd Like to Have an Argument, Please. 22; 15 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-applying-functions]] - topic-concept: applying functions; 7 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-are-consts-also-from-a-shadowy-planet]] - topic-concept: are consts also from a shadowy planet?; 30 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-array-literals]] - topic-concept: array literals; 13 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-arrays-and-destructuring-arguments]] - topic-concept: Arrays and Destructuring Arguments; 5 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less]] - topic-concept: As Little As Possible About Functions, But No Less; 13 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-back-on-the-block]] - topic-concept: back on the block; 9 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-backwardnes]] - topic-concept: backwardness; 9 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-bonu]] - topic-concept: bonus; 12 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-building-blocks]] - topic-concept: Building Blocks; 8 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-building-with-mutation]] - topic-concept: building with mutation; 13 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-call-by-sharing]] - topic-concept: call by sharing; 17 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-call-by-value]] - topic-concept: call by value; 5 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-caveat]] - topic-concept: caveat; 6 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-closures-and-scope]] - topic-concept: Closures and Scope; 12 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-combinator]] - topic-concept: combinators; 7 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-composition]] - topic-concept: composition; 18 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-const]] - topic-concept: const; 26 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-const-and-lexical-scope]] - topic-concept: const and lexical scope; 17 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-converting-non-tail-calls-to-tail-calls]] - topic-concept: converting non-tail-calls to tail-calls; 9 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-copy-on-write]] - topic-concept: Copy on Write; 22 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-copy-on-read]] - topic-concept: copy-on-read; 9 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-default-arguments]] - topic-concept: default arguments; 11 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-defaults-and-destructuring]] - topic-concept: defaults and destructuring; 6 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-destructuring-arrays]] - topic-concept: destructuring arrays; 12 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-destructuring-is-not-pattern-matching]] - topic-concept: destructuring is not pattern matching; 13 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-destructuring-objects]] - topic-concept: destructuring objects; 9 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-destructuring-parameters]] - topic-concept: destructuring parameters; 7 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-disclaimer]] - topic-concept: Disclaimer; 9 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-eager-collections]] - topic-concept: eager collections; 11 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-ecmascript-6-has-three-major-groups-of-features]] - topic-concept: ECMAScript 6 has three major groups of features:; 5 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-element-references]] - topic-concept: element references; 9 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-evaluation-time]] - topic-concept: evaluation time; 6 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-factorial]] - topic-concept: factorials; 9 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-floating]] - topic-concept: floating; 12 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-folding]] - topic-concept: folding; 10 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-foreword-to-the-six-edition]] - topic-concept: Foreword to the 'Six' edition; 8 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-from]] - topic-concept: from; 15 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-function-declaration-caveats-34]] - topic-concept: function declaration caveats 34; 13 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-function-declarations]] - topic-concept: function declarations; 16 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-function-decorators]] - topic-concept: function decorators; 6 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-function-parameters-are-eager]] - topic-concept: function parameters are eager; 8 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-functional-iterators]] - topic-concept: Functional Iterators; 15 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-function]] - topic-concept: Functions; 13 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-functions-and-identities]] - topic-concept: functions and identities; 6 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-functions-are-not-the-real-point]] - topic-concept: functions are not the real point; 15 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-functions-that-evaluate-to-functions]] - topic-concept: functions that evaluate to functions; 11 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-functions-that-return-values-and-evaluate-expressions]] - topic-concept: functions that return values and evaluate expressions; 14 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-garbage-garbage-everywhere]] - topic-concept: Garbage, Garbage Everywhere; 13 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-gathering]] - topic-concept: gathering; 7 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-generating-iterables]] - topic-concept: Generating Iterables; 14 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-generators-and-iterables]] - topic-concept: generators and iterables; 12 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-generators-are-coroutines]] - topic-concept: generators are coroutines; 27 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-higher-order-functions]] - topic-concept: higher-order functions; 5 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-how-this-book-is-organized]] - topic-concept: how this book is organized; 4 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-how-to-run-the-examples]] - topic-concept: How to run the examples; 11 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-if-functions-without-free-variables-are-pure-are-closures-impure]] - topic-concept: if functions without free variables are pure, are closures impure?; 25 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-implementing-methods-with-iteration]] - topic-concept: implementing methods with iteration; 18 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-inside-out]] - topic-concept: inside-out; 21 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-interactive-generators]] - topic-concept: Interactive Generators; 15 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-it-s-always-the-environment]] - topic-concept: it's always the environment; 19 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-iterable]] - topic-concept: iterables; 24 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-iterables-out-to-infinity]] - topic-concept: iterables out to infinity; 7 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-iterating]] - topic-concept: iterating; 20 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-iteration-and-iterables]] - topic-concept: Iteration and Iterables; 5 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-iterator-objects]] - topic-concept: iterator objects; 10 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-javascript-s-generators]] - topic-concept: javascript's generators; 19 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-lazy-and-eager-collections]] - topic-concept: Lazy and Eager Collections; 13 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-lazy-collection-operations]] - topic-concept: lazy collection operations; 23 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-left-variadic-destructuring]] - topic-concept: left-variadic destructuring; 11 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-left-variadic-functions]] - topic-concept: Left-Variadic Functions; 11 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-like-this]] - topic-concept: Like this:; 4 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-linear-recursion]] - topic-concept: linear recursion; 25 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-lists-with-functions-as-data]] - topic-concept: lists with functions as data; 13 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-literal-object-syntax]] - topic-concept: literal object syntax; 20 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-magic-names]] - topic-concept: Magic Names; 3 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-magic-names-and-fat-arrows]] - topic-concept: magic names and fat arrows; 23 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-making-data-out-of-functions]] - topic-concept: Making Data Out Of Functions; 13 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-mapping]] - topic-concept: mapping; 10 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-mapwith]] - topic-concept: mapWith; 19 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-maybe]] - topic-concept: Maybe; 11 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-michael-fogus]] - topic-concept: michael fogus; 12 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-mixing-let-and-const]] - topic-concept: mixing let and const; 7 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-more-generators]] - topic-concept: more generators; 11 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-mutation]] - topic-concept: Mutation; 23 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-mutation-and-data-structures]] - topic-concept: mutation and data structures; 15 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-nested-blocks]] - topic-concept: nested blocks; 12 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-once]] - topic-concept: Once; 9 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-operations-on-numbers]] - topic-concept: operations on numbers; 7 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-operations-on-ordered-collections]] - topic-concept: operations on ordered collections; 30 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-ordered-collections]] - topic-concept: ordered collections; 13 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-overcoming-limitations]] - topic-concept: overcoming limitations; 7 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-partial-application]] - topic-concept: partial application; 21 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-picking-the-bean-choice-and-truthiness]] - topic-concept: Picking the Bean: Choice and Truthiness; 6 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-plain-old-javascript-objects]] - topic-concept: Plain Old JavaScript Objects; 13 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-quasi-literal]] - topic-concept: quasi-literals; 13 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-reassignment]] - topic-concept: Reassignment; 15 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-rebinding]] - topic-concept: rebinding; 8 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-recipes-with-basic-functions]] - topic-concept: Recipes with Basic Functions; 2 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-recursive-iterators]] - topic-concept: recursive iterators; 11 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-reference-types]] - topic-concept: reference types; 10 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-representing-naughts-and-crosses-as-a-stateful-function]] - topic-concept: representing naughts and crosses as a stateful function; 7 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-revisiting-linked-lists]] - topic-concept: revisiting linked lists; 21 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-rewriting-iterable-operations]] - topic-concept: rewriting iterable operations; 14 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-say-please]] - topic-concept: say 'please'; 14 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-self-currying-flip]] - topic-concept: self-currying flip; 4 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-self-similarity]] - topic-concept: Self-Similarity; 28 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-shadowy-variables-from-a-shadowy-planet]] - topic-concept: shadowy variables from a shadowy planet; 11 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-so-why-arrays]] - topic-concept: so why arrays; 8 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-some-history]] - topic-concept: some history; 21 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-state-machines]] - topic-concept: state machines; 11 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-summary]] - topic-concept: summary; 23 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-tail-calls-and-default-arguments]] - topic-concept: Tail Calls (and Default Arguments); 25 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-tail-call-optimization]] - topic-concept: tail-call optimization; 18 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-tap]] - topic-concept: Tap; 10 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-that-constant-coffee-craving]] - topic-concept: That Constant Coffee Craving; 16 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-that-s-nice-is-that-the-only-reason]] - topic-concept: that's nice. is that the only reason?; 13 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-aftermath]] - topic-concept: the aftermath; 6 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-carpenter-s-solution]] - topic-concept: the carpenter's solution; 22 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-function-keyword]] - topic-concept: the function keyword; 26 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-kestrel-and-the-idiot]] - topic-concept: the kestrel and the idiot; 16 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-problem]] - topic-concept: the problem; 12 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-simplest-possible-block]] - topic-concept: the simplest possible block; 6 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-vireo]] - topic-concept: the vireo; 15 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-this-seems-familiar]] - topic-concept: this seems familiar; 11 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-tortoises-hares-and-teleporting-turtles]] - topic-concept: Tortoises, Hares, and Teleporting Turtles; 11 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-truthiness-and-operators]] - topic-concept: truthiness and operators; 17 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-truthiness-and-the-ternary-operator]] - topic-concept: truthiness and the ternary operator; 16 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-unary]] - topic-concept: Unary; 16 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-undefined]] - topic-concept: undefined; 14 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-unfolding-and-laziness]] - topic-concept: unfolding and laziness; 17 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-value-types]] - topic-concept: value types; 9 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-values-are-expressions]] - topic-concept: values are expressions; 22 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-var]] - topic-concept: var; 15 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-variables-and-bindings]] - topic-concept: variables and bindings; 21 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-void]] - topic-concept: void; 7 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-we-ll-keep-it-simple]] - topic-concept: We'll keep it simple:; 7 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-what-javascript-allong-is-and-isn-t]] - topic-concept: What JavaScript Allongé is. And isn't.; 25 projected supported fragment(s), 2 related link(s).
+- [[javascriptallonge-which-came-first-the-chicken-or-the-egg]] - topic-concept: which came first, the chicken or the egg?; 6 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-why-const-and-let-were-invented]] - topic-concept: why const and let were invented; 13 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-why-the-six-edition]] - topic-concept: why the 'six' edition?; 23 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-why]] - topic-concept: Why?; 10 projected supported fragment(s), 1 related link(s).
+- [[javascriptallonge-will-be-represented-as]] - topic-concept: Will be represented as:; 6 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-yes-consider-this-variation]] - topic-concept: Yes. Consider this variation:; 16 projected supported fragment(s), 0 related link(s).
+- [[javascriptallonge-yielding-iterables]] - topic-concept: yielding iterables; 9 projected supported fragment(s), 1 related link(s).
 
 ## Source review
 

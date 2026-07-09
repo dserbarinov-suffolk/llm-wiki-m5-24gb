@@ -1,26 +1,26 @@
 ---
 page_id: sword-world-rpg-complete-edition-firestorm-efreet-greater-fire-spirit
 page_kind: concept
-summary: [ Firestorm ] (Efreet/Greater Fire Spirit): 3 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 11 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_7ba0e14717745512@6275d429de659e9d85910662bbfb4967
+projection_coverage: page-projection-pgp_6733c3dd59b4c9f9@cd52ce8f1c32bae4e15d7da2fc4223a8
 ---
 
 # [ Firestorm ] (Efreet/Greater Fire Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Expansion=Final score, distance, damage certainty Resist= Reduced effect area,. (Sword World RPG - Complete Edition.pdf p.95)
 - Its strike power is 30. (Sword World RPG - Complete Edition.pdf p.95)
 - This spell creates a storm of scorching flame in a 10 meter radius centered on a point in space. (Sword World RPG - Complete Edition.pdf p.95)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -63,3 +63,9 @@ Effect=Creates a storm of flames that deals 30 strike power damage
 ```
 Type=Damage (Fire-type)
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-nightmare-incubus-succubus-dream-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-maze-woods-ent-greater-plant-spirit]] - contextualizes: source-supported topic dependency

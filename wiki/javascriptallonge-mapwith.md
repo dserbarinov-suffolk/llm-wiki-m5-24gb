@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-mapwith
 page_kind: concept
-summary: mapWith: 7 accepted assertion(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 19 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_95b3c04f999a96f2@1b540f8e3891048ce40f7ee5639931c8
+projection_coverage: page-projection-pgp_0e37c367b06f9361@9c220425bbb4fbc6065ddf6ab951396d
 ---
 
 # mapWith
@@ -23,6 +23,13 @@ Source: [[javascriptallonge]]
 - But for the purposes of discussing ideas, we can use the same name twice in two different contexts. (javascriptallonge.pdf p.193)
 - If we didn't use mapWith , we'd could have also used callRight with map to accomplish the same result:. (javascriptallonge.pdf p.194)
 - mapWith is a very convenient abstraction for a very common pattern. (javascriptallonge.pdf p.194)
+
+## Rules
+
+- That means that you can pass a function to mapWith and get back a function that applies that mapping to any array. (javascriptallonge.pdf p.193)
+- If we were writing a library of functions, we would have to disambiguate the two kinds of mapping functions with special names, namespaces, or modules. (javascriptallonge.pdf p.193)
+- But for the purposes of discussing ideas, we can use the same name twice in two different contexts. (javascriptallonge.pdf p.193)
+- If we didn't use mapWith , we'd could have also used callRight with map to accomplish the same result:. (javascriptallonge.pdf p.194)
 
 ## Technical atoms
 
@@ -83,3 +90,8 @@ const squaresOf = callRight(map, (n => n * n);
 squaresOf([1, 2, 3, 4, 5])
 //=> [1, 4, 9, 16, 25]
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-why]] - contextualizes: source-supported topic dependency

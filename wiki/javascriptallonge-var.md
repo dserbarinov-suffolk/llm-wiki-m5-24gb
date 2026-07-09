@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-var
 page_kind: concept
-summary: var: 7 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 15 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_6c095acd6618f8b4@2528b281bd46763752a088080fde80ea
+projection_coverage: page-projection-pgp_397e268523c0144c@2dfb27b7e4f2bcf6cc4ed0ad2b68853a
 ---
 
 # var
@@ -23,6 +23,11 @@ Source: [[javascriptallonge]]
 - A function declaration can appear anywhere within a function, but the declaration and the definition are hoisted. (javascriptallonge.pdf p.152)
 - In that way, var is a little like const and let , we should always declare and bind names before using them. (javascriptallonge.pdf p.154)
 - But it's not like const and let in that it's function scoped , not block scoped. (javascriptallonge.pdf p.154)
+
+## Rules
+
+- A function declaration can appear anywhere within a function, but the declaration and the definition are hoisted. (javascriptallonge.pdf p.152)
+- In that way, var is a little like const and let , we should always declare and bind names before using them. (javascriptallonge.pdf p.154)
 
 ## Technical atoms
 

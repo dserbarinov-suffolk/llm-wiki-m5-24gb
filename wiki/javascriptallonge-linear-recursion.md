@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-linear-recursion
 page_kind: concept
-summary: linear recursion: 19 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 25 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_72ee3054bba39f38@2d0737af4659f016f951604e74e6dab0
+projection_coverage: page-projection-pgp_9587443011b9b264@e754fb555e4f9631d61bda67157acfcd
 ---
 
 # linear recursion
@@ -35,6 +35,12 @@ Source: [[javascriptallonge]]
 - 62 flatten is a very simple unfold, a function that takes a seed value and turns it into an array. (javascriptallonge.pdf p.112)
 - Unfolds can be thought of a 'path' through a data structure, and flattening a tree is equivalent to a depth-first traverse. (javascriptallonge.pdf p.112)
 - Once again, the solution directly displays the important elements: Dividing a problem into subproblems, detecting terminal cases, solving the terminal cases, and composing a solution from the solved portions. (javascriptallonge.pdf p.113)
+
+## Rules
+
+- Our solutions are a little simpler in that we don't really break a problem down into multiple pieces, we break a piece off the problem that may or may not be solvable, and solve that before sticking it onto a solution for the rest of the problem. (javascriptallonge.pdf p.112)
+- The next terminal case is that if an element isn't an array, we don't flatten it, and can put it together with the rest of our solution directly. (javascriptallonge.pdf p.112)
+- Unfolds can be thought of a 'path' through a data structure, and flattening a tree is equivalent to a depth-first traverse. (javascriptallonge.pdf p.112)
 
 ## Technical atoms
 
@@ -66,3 +72,8 @@ return [...flatten(first), ...flatten(rest)];
 flatten(["foo", [3, 4, []]])
 //=> ["foo",3,4]
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-mapping]] - contextualizes: source-supported topic dependency

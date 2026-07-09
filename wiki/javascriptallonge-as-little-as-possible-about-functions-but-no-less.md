@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-as-little-as-possible-about-functions-but-no-less
 page_kind: concept
-summary: As Little As Possible About Functions, But No Less: 8 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 13 supported fragment(s) and 0 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_89f1f4040dfb10d8@211bee14c89e8180b4eb24d03bf241a2
+projection_coverage: page-projection-pgp_9f0c94166cd04f3a@a856afe68857700b378a22a7f73bab14
 ---
 
 # As Little As Possible About Functions, But No Less
@@ -22,6 +22,11 @@ Source: [[javascriptallonge]]
 - This is a function that is applied to no values and returns 0 . (javascriptallonge.pdf p.30)
 - The simplest and easiest answer is that although the JavaScript interpreter does indeed return that value, displaying it on the screen is a slightly different matter. (javascriptallonge.pdf p.30)
 - This seems to break our rule that if an expression is also a value, JavaScript will give the same value back to us. (javascriptallonge.pdf p.30)
+- I'd prefer something else, but I must accept that what gets typed back to us on the screen is arbitrary, and all that really counts is that it is somewhat useful for a human to read. (javascriptallonge.pdf p.31)
+- But we must understand that whether we see [Function] or () => 0 , internally JavaScript has a full and proper function. (javascriptallonge.pdf p.31)
+
+## Rules
+
 - I'd prefer something else, but I must accept that what gets typed back to us on the screen is arbitrary, and all that really counts is that it is somewhat useful for a human to read. (javascriptallonge.pdf p.31)
 - But we must understand that whether we see [Function] or () => 0 , internally JavaScript has a full and proper function. (javascriptallonge.pdf p.31)
 

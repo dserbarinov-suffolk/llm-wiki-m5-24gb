@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-action-order
 page_kind: concept
-summary: Action Order: 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 9 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_395f67020e4b9200@7205e606457b4d2d45dac14657a2d83f
+projection_coverage: page-projection-pgp_e64db7ed749777ff@7205e606457b4d2d45dac14657a2d83f
 ---
 
 # Action Order

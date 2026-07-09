@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-revisiting-linked-lists
 page_kind: concept
-summary: revisiting linked lists: 12 accepted assertion(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 21 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_55c1a51c7d02da67@852e8b272f9b39eca9f7c030cf73ec5d
+projection_coverage: page-projection-pgp_03753f403edddc15@326307758955fd327353bcd67ee4fb12
 ---
 
 # revisiting linked lists
@@ -28,6 +28,11 @@ Source: [[javascriptallonge]]
 - Mind you, this is still much, much faster than making partial copies of arrays. (javascriptallonge.pdf p.140)
 - For a list of length n , wecreated n superfluous nodes and copied n superfluous values. (javascriptallonge.pdf p.140)
 - Whereas our naïve array algorithm created 2 n superfluous arrays and copied n 2 superfluous values. (javascriptallonge.pdf p.140)
+
+## Rules
+
+- But now that we've looked at objects, we can use an object instead of a two-element array. (javascriptallonge.pdf p.137)
+- We could follow the strategy of delaying the work. (javascriptallonge.pdf p.138)
 
 ## Technical atoms
 
@@ -124,3 +129,8 @@ node === EMPTY
 mapWith((x) => x * x, OneTwoThree)
 //=> {"first":1,"rest":{"first":4,"rest":{"first":9,"rest":{}}}}
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-destructuring-objects]] - contextualizes: source-supported topic dependency

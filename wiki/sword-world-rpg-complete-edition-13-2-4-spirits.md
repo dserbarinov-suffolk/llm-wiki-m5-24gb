@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-13-2-4-spirits
 page_kind: concept
-summary: 13.2.4 Spirits: 128 accepted assertion(s) and 79 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 231 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_796de010380d417d@709e0a9930d6a79d7e43df3ead762bcb
+projection_coverage: page-projection-pgp_3c512a68d2cd3aff@92f103b930b8b20f6be005d46ff759f8
 ---
 
 # 13.2.4 Spirits
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Armor is ineffective against this attack, and only adventurer level can reduce the damage. (Sword World RPG - Complete Edition.pdf p.181)
 - Since the shade itself has 12 evasion points, it's unlikely that your attacks will hit it (it'll definitely disintegrate if they do). (Sword World RPG - Complete Edition.pdf p.181)
@@ -145,132 +145,132 @@ Source: [[sword-world-rpg-complete-edition]]
 - To harm a valkyrie, you need magical or silver weapons. (Sword World RPG - Complete Edition.pdf p.185)
 - They attack from above, casting the spell Valkyrie Javelin where sword attacks can 't reach. (Sword World RPG - Complete Edition.pdf p.185)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-If you strike a will-o-wisp with a melee weapon (it doesn't have to be silver or magical), you can destroy it, but the attacker will also suffer damage as if they were hit by the will-o-wisp.
-```
-
-<a id="atom-2"></a>
 **Atom:** formula
 
 ```
 Monster Level=2
 ```
 
-<a id="atom-3"></a>
+<a id="atom-2"></a>
 **Atom:** formula
 
 ```
 Intellect=Almost none
 ```
 
-<a id="atom-4"></a>
+<a id="atom-3"></a>
 **Atom:** formula
 
 ```
 Reaction=Violent
 ```
 
-<a id="atom-5"></a>
+<a id="atom-4"></a>
 **Atom:** formula
 
 ```
 Habitat=Anywhere
 ```
 
-<a id="atom-6"></a>
+<a id="atom-5"></a>
 **Atom:** formula
 
 ```
 Languages=None
 ```
 
-<a id="atom-7"></a>
+<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-8"></a>
+<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=1/8 (1)
 ```
 
-<a id="atom-9"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=-/10 (3)
 ```
 
-<a id="atom-10"></a>
-**Atom:** rule
-
-```
-They will always attack by ramming any being with a will that comes into their view.
-```
-
-<a id="atom-11"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-12"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Monster Level=4
 ```
 
-<a id="atom-13"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Agility=10
 ```
 
-<a id="atom-14"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Movement Speed=6/10 (water)
 ```
 
-<a id="atom-15"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Attack Points=Strike Points=-
 ```
 
-<a id="atom-16"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Evasion Points=12 (5) Defense Points=6 Life Points/Resistance=10/11 (4)
 ```
 
-<a id="atom-17"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/13 (6)
 ```
 
-<a id="atom-18"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Special Abilities=4th level spirit magic (Magic Intensity/Magic Power=13/6, undine only)
+```
+
+<a id="atom-17"></a>
+**Atom:** formula
+
+```
+Perception=Magic
+```
+
+<a id="atom-18"></a>
+**Atom:** formula
+
+```
+Special Abilities=Fire (Strike power 10, bonus damage 5, Magic Intensity/Magic Power=12/5)
 ```
 
 <a id="atom-19"></a>
@@ -281,297 +281,297 @@ Perception=Magic
 ```
 
 <a id="atom-20"></a>
-**Atom:** rule
-
-```
-They can stick to their opponent and make them uncomfortable, or they can wrap around their face and make them feel pain for a while, but if the opponent has the will to resist, they can easily escape.
-```
-
-<a id="atom-21"></a>
-**Atom:** rule
-
-```
-Undine can cast magic sourced from the power of undine without consuming its own mental points (the spells cannot be expanded).
-```
-
-<a id="atom-22"></a>
-**Atom:** rule
-
-```
-To do so, you must make a successful life force resistance roll.
-```
-
-<a id="atom-23"></a>
-**Atom:** formula
-
-```
-Special Abilities=Fire (Strike power 10, bonus damage 5, Magic Intensity/Magic Power=12/5)
-```
-
-<a id="atom-24"></a>
-**Atom:** formula
-
-```
-Perception=Magic
-```
-
-<a id="atom-25"></a>
-**Atom:** rule
-
-```
-Also, when a person using the spirit magic Water Screen is attacked by a salamander, after the normal effect, 2 points of damage will be dealt to the salamander (the salamander cannot reduce this damage), then the magic's effect will vanish.
-```
-
-<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Monster Level=4
 ```
 
-<a id="atom-27"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Agility=18
 ```
 
-<a id="atom-28"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Special Abilities=4th level spirit (Magic Intensity/Magic sandman only)
 ```
 
-<a id="atom-29"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Habitat=Anywhere
 ```
 
-<a id="atom-30"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Languages=Silent spirit
 ```
 
-<a id="atom-31"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-32"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=10/11 (4)
 ```
 
-<a id="atom-33"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/13 (6)
 ```
 
-<a id="atom-34"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Monster Level=4
 ```
 
-<a id="atom-35"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Wind cutter (Strike power 10, bonus damage 6, Magic Intensity/Magic Power=13/6)
 ```
 
-<a id="atom-36"></a>
-**Atom:** rule
-
-```
-Also, you cannot cast magic on mad sprites.
-```
-
-<a id="atom-37"></a>
-**Atom:** rule
-
-```
-When a mad sprite performs this attack, the target must make a mental power resistance roll (target score 13).
-```
-
-<a id="atom-38"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Monster Level=4
 ```
 
-<a id="atom-39"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Monster Level=4
 ```
 
-<a id="atom-40"></a>
+<a id="atom-32"></a>
 **Atom:** formula
 
 ```
 Attack Points=Strike Points=-
 ```
 
-<a id="atom-41"></a>
+<a id="atom-33"></a>
 **Atom:** formula
 
 ```
 Evasion Points=12 (5) Defense Points=6 Life Points/Resistance=10/11 (4)
 ```
 
-<a id="atom-42"></a>
+<a id="atom-34"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/13 (6)
 ```
 
-<a id="atom-43"></a>
+<a id="atom-35"></a>
 **Atom:** formula
 
 ```
 Special Abilities=Cold (Strike power 10, bonus damage 6, Magic Intensity/Magic Power=13/6)
 ```
 
-<a id="atom-44"></a>
-**Atom:** rule
-
-```
-Also, when attacking with a weapon, you will only be able to deal damage if it's a magical or a silver weapon.
-```
-
-<a id="atom-45"></a>
+<a id="atom-36"></a>
 **Atom:** formula
 
 ```
 Monster Level=4
 ```
 
-<a id="atom-46"></a>
+<a id="atom-37"></a>
 **Atom:** formula
 
 ```
 Agility=18 Movement Speed=16/6 (air)
 ```
 
-<a id="atom-47"></a>
+<a id="atom-38"></a>
 **Atom:** formula
 
 ```
 Strike Points=7
 ```
 
-<a id="atom-48"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Life Points/Resistance=10/11 (4)
 ```
 
-<a id="atom-49"></a>
+<a id="atom-40"></a>
 **Atom:** formula
 
 ```
 Mental Points/Resistance=20/13 (6)
 ```
 
-<a id="atom-50"></a>
+<a id="atom-41"></a>
 **Atom:** formula
 
 ```
 Special Abilities=4th level spirit magic
 ```
 
-<a id="atom-51"></a>
+<a id="atom-42"></a>
 **Atom:** formula
 
 ```
 (Magic Intensity/Magic Power=13/6, leprechaun only)
 ```
 
-<a id="atom-52"></a>
+<a id="atom-43"></a>
 **Atom:** formula
 
 ```
 Habitat=Anywhere
 ```
 
-<a id="atom-53"></a>
+<a id="atom-44"></a>
 **Atom:** formula
 
 ```
 Languages=Silent spirit
 ```
 
-<a id="atom-54"></a>
+<a id="atom-45"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
 
-<a id="atom-55"></a>
-**Atom:** rule
-
-```
-In addition to normal movement, they can also perform teleportation.
-```
-
-<a id="atom-56"></a>
+<a id="atom-46"></a>
 **Atom:** formula
 
 ```
 Monster Level=5
 ```
 
-<a id="atom-57"></a>
+<a id="atom-47"></a>
 **Atom:** formula
 
 ```
 Strike Points=6
 ```
 
-<a id="atom-58"></a>
+<a id="atom-48"></a>
 **Atom:** formula
 
 ```
 Evasion Points=14 (7) Defense Points=7 Life Points/Resistance=10/12 (5)
 ```
 
-<a id="atom-59"></a>
-**Atom:** rule
-
-```
-If magic cannot be cast on the target, the dryad will attack barehanded.
-```
-
-<a id="atom-60"></a>
+<a id="atom-49"></a>
 **Atom:** formula
 
 ```
 Monster Level=6
 ```
 
-<a id="atom-61"></a>
+<a id="atom-50"></a>
 **Atom:** formula
 
 ```
 Attack Points=- Strike Points=-
+```
+
+<a id="atom-51"></a>
+**Atom:** formula
+
+```
+Life Points/Resistance=15/14 (7)
+```
+
+<a id="atom-52"></a>
+**Atom:** formula
+
+```
+Mental Points/Resistance=25/16 (9)
+```
+
+<a id="atom-53"></a>
+**Atom:** formula
+
+```
+Monster Level=6
+```
+
+<a id="atom-54"></a>
+**Atom:** formula
+
+```
+Agility=14
+```
+
+<a id="atom-55"></a>
+**Atom:** formula
+
+```
+Movement Speed=14/30 (air)
+```
+
+<a id="atom-56"></a>
+**Atom:** formula
+
+```
+Number=One
+```
+
+<a id="atom-57"></a>
+**Atom:** formula
+
+```
+Frequency=Very Rare
+```
+
+<a id="atom-58"></a>
+**Atom:** formula
+
+```
+Intellect=Human
+```
+
+<a id="atom-59"></a>
+**Atom:** formula
+
+```
+Reaction=Adversarial
+```
+
+<a id="atom-60"></a>
+**Atom:** formula
+
+```
+Evasion Points=14 (7)
+```
+
+<a id="atom-61"></a>
+**Atom:** formula
+
+```
+Defense Points=8
 ```
 
 <a id="atom-62"></a>
@@ -589,113 +589,72 @@ Mental Points/Resistance=25/16 (9)
 ```
 
 <a id="atom-64"></a>
-**Atom:** rule
-
-```
-The target must make a mental power resistance roll (target score 15).
-```
-
-<a id="atom-65"></a>
-**Atom:** formula
-
-```
-Monster Level=6
-```
-
-<a id="atom-66"></a>
-**Atom:** formula
-
-```
-Agility=14
-```
-
-<a id="atom-67"></a>
-**Atom:** formula
-
-```
-Movement Speed=14/30 (air)
-```
-
-<a id="atom-68"></a>
-**Atom:** formula
-
-```
-Number=One
-```
-
-<a id="atom-69"></a>
-**Atom:** formula
-
-```
-Frequency=Very Rare
-```
-
-<a id="atom-70"></a>
-**Atom:** formula
-
-```
-Intellect=Human
-```
-
-<a id="atom-71"></a>
-**Atom:** formula
-
-```
-Reaction=Adversarial
-```
-
-<a id="atom-72"></a>
-**Atom:** formula
-
-```
-Evasion Points=14 (7)
-```
-
-<a id="atom-73"></a>
-**Atom:** formula
-
-```
-Defense Points=8
-```
-
-<a id="atom-74"></a>
-**Atom:** formula
-
-```
-Life Points/Resistance=15/14 (7)
-```
-
-<a id="atom-75"></a>
-**Atom:** formula
-
-```
-Mental Points/Resistance=25/16 (9)
-```
-
-<a id="atom-76"></a>
 **Atom:** formula
 
 ```
 Special Abilities=6th level spirit magic (Magic Intensity/Magic Power=15/8, valkyrie only)
 ```
 
-<a id="atom-77"></a>
+<a id="atom-65"></a>
 **Atom:** formula
 
 ```
 Habitat=Anywhere
 ```
 
-<a id="atom-78"></a>
+<a id="atom-66"></a>
 **Atom:** formula
 
 ```
 Languages=Silent spirit
 ```
 
-<a id="atom-79"></a>
+<a id="atom-67"></a>
 **Atom:** formula
 
 ```
 Perception=Magic
 ```
+
+
+## Rules and exceptions
+
+- Armor is ineffective against this attack, and only adventurer level can reduce the damage. (Sword World RPG - Complete Edition.pdf p.181)
+- All natural light within 5 meters of its body is canceled out, leaving you in total darkness. (Sword World RPG - Complete Edition.pdf p.181)
+- Strike power is 10, bonus damage is 2, and only adventurer level can reduce it. (Sword World RPG - Complete Edition.pdf p.181)
+- If the humans living in the mansion disappear or die, the brownie may turn into a mad spirit. (Sword World RPG - Complete Edition.pdf p.181)
+- However, these abilities can only be manifested within the mansion, and the brownie cannot leave the mansion. (Sword World RPG - Complete Edition.pdf p.182)
+- However, if anyone bathes or swims in a spring or river where this spirit resides, without realizing its presence, the mad undine will do everything it can to drown its opponent, including casting a Sink spell to take away their buoyancy or fly directly into their lungs. (Sword World RPG - Complete Edition.pdf p.182)
+- It often takes the form of a small girl, but it can take any form as long as its weight and volume remain the same. (Sword World RPG - Complete Edition.pdf p.182)
+- Undine's shaman skill level should be 4. (Sword World RPG - Complete Edition.pdf p.182)
+- This check must be made every round until you escape from the spring or river containing the undine. (Sword World RPG - Complete Edition.pdf p.182)
+- As long as you hold your breath, you don't have to worry about drinking the water. (Sword World RPG - Complete Edition.pdf p.182)
+- However, in this case, you can obviously hold your breath. (Sword World RPG - Complete Edition.pdf p.182)
+- Also, you cannot spit out the undine while underwater. (Sword World RPG - Complete Edition.pdf p.182)
+- This check may be attempted once per round, but you cannot take any other actions while swallowing the undine. (Sword World RPG - Complete Edition.pdf p.182)
+- However, the victim can attempt to spit the undine out once swallowed. (Sword World RPG - Complete Edition.pdf p.182)
+- The number of rounds in which you can hold your breath, or in which you can survive while swallowing an undine, is equal to your life force. (Sword World RPG - Complete Edition.pdf p.182)
+- Undines do not leave their habitat, so they are not a threat as long as you can escape from the water. (Sword World RPG - Complete Edition.pdf p.182)
+- A Salamander's fire breath ability should be treated as shaman skill level 4, magic intensity 12 (magic power 5). (Sword World RPG - Complete Edition.pdf p.182)
+- This fire always hits, but an adventurer can attempt to resist just the same way they would against magic. (Sword World RPG - Complete Edition.pdf p.182)
+- A salamander cannot reduce this damage either. (Sword World RPG - Complete Edition.pdf p.182-183)
+- Iron can obstruct the workings of a spirit, but it cannot be used as a means to extinguish it. (Sword World RPG - Complete Edition.pdf p.182-183)
+- A sandman can instantly appear wherever there's a working mind, and during combat, it can perform actions while teleporting. (Sword World RPG - Complete Edition.pdf p.183)
+- This attack cannot be evaded. (Sword World RPG - Complete Edition.pdf p.183)
+- Its pale upper body is translucent, but from the waist down it is completely invisible and nothing can be seen. (Sword World RPG - Complete Edition.pdf p.183)
+- Because it's invisible, its appearance cannot be identified, but it is said to resemble a leprechaun, etc. (Sword World RPG - Complete Edition.pdf p.183)
+- Those who have become invisible cannot see themselves either. (Sword World RPG - Complete Edition.pdf p.183)
+- This invisibility cannot be removed unless you use Dispel Magic , etc. (Sword World RPG - Complete Edition.pdf p.183)
+- To harm a sprite, it must be a silver or magic weapon. (Sword World RPG - Complete Edition.pdf p.183)
+- However, the gnome cannot take any other actions during the round in which this action was chosen. (Sword World RPG - Complete Edition.pdf p.184)
+- A gnome can disappear into the ground, move underground, and reappear above ground all in one round. (Sword World RPG - Complete Edition.pdf p.184)
+- They cannot take any other actions during the round in which this action was chosen The teleportation destination is within the leprechaun's view. (Sword World RPG - Complete Edition.pdf p.184)
+- They usually reside in trees, but a shaman can summon them anywhere there are plants. (Sword World RPG - Complete Edition.pdf p.184)
+- To harm a dryad, it must be a magical or silver weapon. (Sword World RPG - Complete Edition.pdf p.184)
+- To harm a mad spirit of life, it must be a magical or silver weapon. (Sword World RPG - Complete Edition.pdf p.185)
+- They attack from above, casting the spell Valkyrie Javelin where sword attacks can 't reach. (Sword World RPG - Complete Edition.pdf p.185)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-youma]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-13-2-5-titans]] - contextualizes: source-supported topic dependency

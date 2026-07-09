@@ -1,20 +1,20 @@
 ---
 page_id: javascriptallonge-truthiness-and-the-ternary-operator
 page_kind: concept
-summary: truthiness and the ternary operator: 12 accepted assertion(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 16 supported fragment(s) and 1 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_e8b89169b920868c@e9a1bffb5c604bb12e19d14c311e6fa7
+projection_coverage: page-projection-pgp_fdcdd275185d892b@4ebfc4bc006600566ad457f3142e7d34
 ---
 
 # truthiness and the ternary operator
 
 Source: [[javascriptallonge]]
 
-## Statements
+## Procedure
 
 - In JavaScript, there is a notion of 'truthiness.' Every value is either 'truthy' or 'falsy.' Obviously, false is falsy. (javascriptallonge.pdf p.95)
 - So are null and undefined , values that semantically represent 'no value.' NaN is falsy, a value representing the result of a calculation that is not a number. (javascriptallonge.pdf p.95)
@@ -29,21 +29,9 @@ Source: [[javascriptallonge]]
 - This is a lot like the if statement, however it is an expression , not a statement, and that can be very valuable. (javascriptallonge.pdf p.96)
 - Wecertainly don't want JavaScript trying to evaluate deleteRecord(currentRecord) unless isAuthorized (currentUser) returns true . (javascriptallonge.pdf p.96)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** code block
-
-```
-true ? 'Hello' : 'Good bye'
-//=> 'Hello'
-0 ? 'Hello' : 'Good bye'
-//=> 'Good bye'
-[1, 2, 3, 4, 5].length === 5 ? 'Pentatonic' : 'Quasimodal'
-//=> 'Pentatonic'
-```
-
-<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -142,3 +130,13 @@ const and = (a, b) => a() && b()
 const even = (n) =>
 or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
 ```
+
+
+## Rules and exceptions
+
+- It also doesn't introduce braces, and that can be a help or a hindrance if we want to introduce a new scope or use statements. (javascriptallonge.pdf p.96)
+- This is a lot like the if statement, however it is an expression , not a statement, and that can be very valuable. (javascriptallonge.pdf p.96)
+
+## Related pages
+
+- [[javascriptallonge-truthiness-and-operators]] - contextualizes: source-supported topic dependency

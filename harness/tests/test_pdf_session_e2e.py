@@ -212,6 +212,7 @@ class TestLedgerPdfIngest:
             "proposed-change-review.json",
             "assertion-graph.json",
             "topic-states.json",
+            "page-projections.json",
         ):
             assert (ledger_dir / name).is_file(), name
         portable = json.loads((ledger_dir / "portable-artifact-set.json").read_text())
@@ -220,6 +221,7 @@ class TestLedgerPdfIngest:
         assert "proposed-change-review-artifact" in member_kinds
         assert "assertion-graph-artifact" in member_kinds
         assert "topic-state-artifact" in member_kinds
+        assert "page-projection-artifact" in member_kinds
         # The manifest is persisted and marked integrated after ingest.
         manifest = from_json((extraction.cache_dir / "manifest.json").read_text(encoding="utf-8"))
         assert manifest.integrated

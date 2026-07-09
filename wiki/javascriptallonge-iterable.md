@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-iterable
 page_kind: concept
-summary: iterables: 15 accepted assertion(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 24 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_566afaf28f4830b8@0e35945938caf079abcb239e9a7f114d
+projection_coverage: page-projection-pgp_d53c6798e0663dbb@adbcd2b578b5489e5c9eeb762e1f28f1
 ---
 
 # iterables
@@ -31,6 +31,11 @@ Source: [[javascriptallonge]]
 - For example, if we spread a large collection just to find an element in the collection, it might have been wiser to iterate over the element using its iterator directly. (javascriptallonge.pdf p.215)
 - That might be very wasteful for extremely large collections. (javascriptallonge.pdf p.215)
 - And if we have an infinite collection, spreading is going to fail outright as we're about to see. (javascriptallonge.pdf p.215)
+
+## Rules
+
+- The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object. (javascriptallonge.pdf p.211)
+- Nowis the time to note that we can spread any iterable. (javascriptallonge.pdf p.215)
 
 ## Technical atoms
 
@@ -165,3 +170,9 @@ const firstAndSecondElement = (first, second) =>
 firstAndSecondElement(...stack)
 //=> {"first":5,"second":10}
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-iterator-objects]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-iterables-out-to-infinity]] - contextualizes: source-supported topic dependency

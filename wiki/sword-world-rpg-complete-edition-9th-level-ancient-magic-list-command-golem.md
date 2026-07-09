@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-9th-level-ancient-magic-list-command-golem
 page_kind: concept
-summary: 9th Level Ancient Magic List [ Command Golem ]: 37 accepted assertion(s) and 34 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 78 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_4aa5240765042eaa@e6eb47853e2abe36cebc1dd03c856fcc
+projection_coverage: page-projection-pgp_fc134e26f06f611b@0cc1d1eabbe051f15d0b51685a68e43d
 ---
 
 # 9th Level Ancient Magic List [ Command Golem ]
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Effect=You can control and give commands to golems that have not received commands yet. (Sword World RPG - Complete Edition.pdf p.81)
 - This spell is not a spell that creates golems. (Sword World RPG - Complete Edition.pdf p.81)
@@ -54,7 +54,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Any spell effects that were applied to the caster will also be lost. (Sword World RPG - Complete Edition.pdf p.82)
 - During the duration of this spell, the caster can still use other spells, but any spells that also affect the caster will be blocked by the Rune Shield and nullified just the same. (Sword World RPG - Complete Edition.pdf p.82)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -148,148 +148,150 @@ Resist=None
 ```
 
 <a id="atom-14"></a>
-**Atom:** rule
-
-```
-Even if someone is within the area of effect, they cannot resist this spell.
-```
-
-<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=45
 ```
 
-<a id="atom-16"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Distance=Touch
 ```
 
-<a id="atom-17"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Area=One individual or object up to 1 cubic
 ```
 
-<a id="atom-18"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Duration=Instant
 ```
 
-<a id="atom-19"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Resist=Negated effect
 ```
 
-<a id="atom-20"></a>
-**Atom:** rule
-
-```
-If it was a living thing, it can never be revived again, and cannot be revived by Resurrection .
-```
-
-<a id="atom-21"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=36
 ```
 
-<a id="atom-22"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Distance=10 meters
 ```
 
-<a id="atom-23"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Area=One
 ```
 
-<a id="atom-24"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Duration=Permanent
 ```
 
-<a id="atom-25"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Effect=Petrify your opponent
 ```
 
-<a id="atom-26"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Type=Target score
 ```
 
-<a id="atom-27"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Resist=Negated effect
 ```
 
-<a id="atom-28"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Base Mental Power Cost=36
 ```
 
-<a id="atom-29"></a>
+<a id="atom-27"></a>
 **Atom:** formula
 
 ```
 Distance=Caster
 ```
 
-<a id="atom-30"></a>
+<a id="atom-28"></a>
 **Atom:** formula
 
 ```
 Area=Caster
 ```
 
-<a id="atom-31"></a>
+<a id="atom-29"></a>
 **Atom:** formula
 
 ```
 Duration=18 rounds
 ```
 
-<a id="atom-32"></a>
+<a id="atom-30"></a>
 **Atom:** formula
 
 ```
 Effect=Create a barrier that completely protects against magic
 ```
 
-<a id="atom-33"></a>
+<a id="atom-31"></a>
 **Atom:** formula
 
 ```
 Type=Target score
 ```
 
-<a id="atom-34"></a>
+<a id="atom-32"></a>
 **Atom:** formula
 
 ```
 Resist=None
 ```
+
+
+## Rules and exceptions
+
+- Effect=You can control and give commands to golems that have not received commands yet. (Sword World RPG - Complete Edition.pdf p.81)
+- Moreover, the target golem must be in a state where no commands have been given. (Sword World RPG - Complete Edition.pdf p.81)
+- Golems in a state without commands are extremely rarely found, but may be found in the ruins of the ancient kingdom. (Sword World RPG - Complete Edition.pdf p.81)
+- This is a spell that can change the weather within its area of effect. (Sword World RPG - Complete Edition.pdf p.81)
+- Weather you can change to includes sunny, cloudy, rainy, foggy, or snowy. (Sword World RPG - Complete Edition.pdf p.81)
+- Only creatures with natural life (humans, plants, animals, mythical beasts, magical beasts, fae, youma, and daemons) can be targets of this spell, with the exception of magical creatures such as spirits, undead, and golems. (Sword World RPG - Complete Edition.pdf p.82)
+- You can attempt to remove it with Dispel Magic , but all other possible spells will be blocked by this barrier, and cannot have any effect. (Sword World RPG - Complete Edition.pdf p.82)
+- During the duration of this spell, the caster can still use other spells, but any spells that also affect the caster will be blocked by the Rune Shield and nullified just the same. (Sword World RPG - Complete Edition.pdf p.82)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-10th-level-ancient-magic-list-dimension-gate]] - contextualizes: source-supported topic dependency

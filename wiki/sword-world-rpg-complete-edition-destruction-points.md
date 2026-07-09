@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-destruction-points
 page_kind: concept
-summary: Destruction Points: 17 accepted assertion(s) and 8 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 20 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_f79fa05de5876285@7a753fc6564cf54d72474b0ce078be3f
+projection_coverage: page-projection-pgp_5d87a225c670b086@cba00adcbe3af430ffe874dea1c677a5
 ---
 
 # Destruction Points
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - In the case of paper, the score is 1~10, so the minimum destruction points are 1 . (Sword World RPG - Complete Edition.pdf p.277)
 - The lowest of this score is called the minimum destruction points . (Sword World RPG - Complete Edition.pdf p.277)
@@ -34,23 +34,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - There's no mention of entangling weapons, but there's no way they can do any damage. (Sword World RPG - Complete Edition.pdf p.278)
 - Crack is classified as earthquaketype, but given the way the magic is applied, it's unlikely that it'll be effective. (Sword World RPG - Complete Edition.pdf p.278)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-As expected, it indicates the strength of the material, and the game master must determine a specific score depending on the thickness.
-```
-
-<a id="atom-2"></a>
-**Atom:** rule
-
-```
-If the result is greater than 1 but less than the destruction points, the defense points are reduced by 1 point.
-```
-
-<a id="atom-3"></a>
 **Atom:** table
 
 ```text
@@ -60,37 +46,11 @@ Table 18-2 Types of Magic
  destruction points reach 1, the paper
 ```
 
-<a id="atom-4"></a>
-**Atom:** rule
 
-```
-If the damage is greater than 8 but less than 21 points , the defense points will be reduced by 1 point (if the defense points become 0 , the destruction points will start to decrease .
-```
+## Rules and exceptions
 
-<a id="atom-5"></a>
-**Atom:** rule
+- There's no mention of entangling weapons, but there's no way they can do any damage. (Sword World RPG - Complete Edition.pdf p.278)
 
-```
-If it says complete immunity , it can never be destroyed by that weapon or magic.
-```
+## Related pages
 
-<a id="atom-6"></a>
-**Atom:** rule
-
-```
-If it says no criticals , bonus damage cannot be dealt by a critical .
-```
-
-<a id="atom-7"></a>
-**Atom:** rule
-
-```
-If it says ignores defense points , the defense points are not taken into consideration, and if the damage exceeds the destruction points, it'll be destroyed in one blow .
-```
-
-<a id="atom-8"></a>
-**Atom:** rule
-
-```
-Beyond this, game masters should also use common sense.
-```
+- [[sword-world-rpg-complete-edition-special]] - contextualizes: source-supported topic dependency

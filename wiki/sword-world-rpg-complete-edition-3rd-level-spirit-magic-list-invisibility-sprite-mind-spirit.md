@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit
 page_kind: concept
-summary: 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit): 8 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 12 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_f69fd1e747bf36b0@0a558a3faf78753e20c31f9a8ae3fcb7
+projection_coverage: page-projection-pgp_d926c1fe068a5d61@a67cd3c89e210ab6b1afcfa2810afd0d
 ---
 
 # 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Base Mental Power Cost=12 Distance=Caster Area=Caster Duration=Until focus ends Effect=Makes the caster invisible Type=Focus, Illusion Expansion=-. (Sword World RPG - Complete Edition.pdf p.86)
 - By casting this spell, the caster can turn invisible. (Sword World RPG - Complete Edition.pdf p.86)
@@ -25,7 +25,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - Caught off-guard, the pegasus was struck by the spell, and without realizing what it was doing, it flung its master off its back, and flew off. (Sword World RPG - Complete Edition.pdf p.86)
 - Ever since, gremlins have come to be known as "the Goblins of the Sky". (Sword World RPG - Complete Edition.pdf p.86)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -34,9 +34,12 @@ Source: [[sword-world-rpg-complete-edition]]
 Resist=None
 ```
 
-<a id="atom-2"></a>
-**Atom:** rule
 
-```
-If you cast Invisibility during combat and then attempt to cancel it voluntarily (in order to take another action), by the definition of focus magic, at the beginning of that round, you must declare it when no one has yet made their action announcements.
-```
+## Rules and exceptions
+
+- By casting this spell, the caster can turn invisible. (Sword World RPG - Complete Edition.pdf p.86)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-4th-level-spirit-magic-list-water-walking-undine-water-spirit]] - contextualizes: source-supported topic dependency

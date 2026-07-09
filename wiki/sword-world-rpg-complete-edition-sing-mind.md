@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-sing-mind
 page_kind: concept
-summary: Sing (Mind): 4 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_3446b36f843d0375@79d40bb4313a6e2447bf27e76ad9af71
+projection_coverage: page-projection-pgp_62f67b0353569bb0@9cd313ba2b9cc0d38ad3a24098f26caa
 ---
 
 # Sing (Mind)
@@ -29,3 +29,9 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 Of course, they can't even converse, and they cannot use spellsongs or common runes.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-curiosity-mind]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-dance-mind]] - contextualizes: source-supported topic dependency

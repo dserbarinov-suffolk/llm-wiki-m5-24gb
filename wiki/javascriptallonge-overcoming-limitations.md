@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-overcoming-limitations
 page_kind: concept
-summary: overcoming limitations: 2 accepted assertion(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 7 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_016e7ec24dc6943f@1068a071e85772239111c0eba1755516
+projection_coverage: page-projection-pgp_8924535f6806c8f6@4983922148306392648bec5fade665ef
 ---
 
 # overcoming limitations
@@ -58,3 +58,9 @@ const butLastAndLast = leftVariadic((butLast, last) => [butLast, last]);
 butLastAndLast('why', 'hello', 'there', 'little', 'droid')
 //=> [["why","hello","there","little"],"droid"]
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-history-lesson]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-left-variadic-destructuring]] - contextualizes: source-supported topic dependency

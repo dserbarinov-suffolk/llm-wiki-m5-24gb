@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-nameless-god-of-madness-special-dark-magic-list
 page_kind: concept
-summary: The Nameless God of Madness Special Dark Magic List: 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 12 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_9302c7c578c961a3@1fd87ca3fb097653669d7f7cb44bb0bc
+projection_coverage: page-projection-pgp_ef9632e5b3b1a103@f226a7cef3fd416bcf04e1b03d577b25
 ---
 
 # The Nameless God of Madness Special Dark Magic List
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Targets who lose their sanity due to this spell go into bizarre states such as staring vacantly in bewilderment, yelling nonsense, or curling up and sobbing, and become completely unable to take logical actions. (Sword World RPG - Complete Edition.pdf p.147)
 - This spell has the effect of giving a strong shock to the opponent's mind, with the power to ruin their peace of mind and cause them to lose their sanity. (Sword World RPG - Complete Edition.pdf p.147)
@@ -22,7 +22,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - In this case, they will be in the same state as when Berserk is cast, described below. (Sword World RPG - Complete Edition.pdf p.147)
 - Most of the time, they will only be rendered useless, but only when they roll 2D again and the result is double ones, they will go berserk with madness and engage in destructive acts. (Sword World RPG - Complete Edition.pdf p.147)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -65,3 +65,8 @@ Type=Mind
 ```
 Resist=Negated effect
 ```
+
+
+## Rules and exceptions
+
+- Targets who lose their sanity due to this spell go into bizarre states such as staring vacantly in bewilderment, yelling nonsense, or curling up and sobbing, and become completely unable to take logical actions. (Sword World RPG - Complete Edition.pdf p.147)

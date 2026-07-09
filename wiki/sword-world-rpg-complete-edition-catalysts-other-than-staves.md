@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-catalysts-other-than-staves
 page_kind: concept
-summary: Catalysts Other Than Staves: 2 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 4 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_899273543b74d654@759bce0a1f2b758a74267a5dc48a9935
+projection_coverage: page-projection-pgp_ca81157a0a2bd211@38af702a3f47249279dd0e8858106857
 ---
 
 # Catalysts Other Than Staves
@@ -17,6 +17,10 @@ Source: [[sword-world-rpg-complete-edition]]
 ## Statements
 
 - Commonly used ones include mage's wands , mage's rings , mage's medals , etc. (Sword World RPG - Complete Edition.pdf p.274)
+- In any case, when chanting a spell, you must hold the magic catalyst in at least one hand, and. (Sword World RPG - Complete Edition.pdf p.274)
+
+## Rules
+
 - In any case, when chanting a spell, you must hold the magic catalyst in at least one hand, and. (Sword World RPG - Complete Edition.pdf p.274)
 
 ## Technical atoms

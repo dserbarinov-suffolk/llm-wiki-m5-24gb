@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-const-and-lexical-scope
 page_kind: concept
-summary: const and lexical scope: 8 accepted assertion(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-state-tps_951fcc246b4d0448@40c20126c2250d96349a26e944d8fd4c
+projection_coverage: page-projection-pgp_0428b653ab99e33a@1b9ab8ee61294615cf6d0ca56ff405b1
 ---
 
 # const and lexical scope
@@ -24,6 +24,12 @@ Source: [[javascriptallonge]]
 - Although we have bound 3 to PI in the environment surrounding diameter_fn(2) , the value that counts is 3.14159265 , the value we bound to PI in the environment surrounding (diameter) ⇒ diameter * PI. (javascriptallonge.pdf p.56)
 - That much we can carefully work out from the way closures work. (javascriptallonge.pdf p.56)
 - Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (javascriptallonge.pdf p.57)
+
+## Rules
+
+- We can use any expression in there, and that expression can invoke diameter_fn . (javascriptallonge.pdf p.55)
+- We can see that PI is bound in an environment surrounding (diameter) => diameter * PI , we don't need to know where diameter_fn is invoked. (javascriptallonge.pdf p.56)
+- That much we can carefully work out from the way closures work. (javascriptallonge.pdf p.56)
 
 ## Technical atoms
 
@@ -85,3 +91,9 @@ return (diameter) => diameter * PI
 )
 //=> 6.2831853
 ```
+
+
+## Related pages
+
+- [[javascriptallonge-nested-blocks]] - contextualizes: source-supported topic dependency
+- [[javascriptallonge-are-consts-also-from-a-shadowy-planet]] - contextualizes: source-supported topic dependency

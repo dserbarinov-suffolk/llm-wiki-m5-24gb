@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-charm-dryad-plant-spirit
 page_kind: concept
-summary: [ Charm ] (Dryad/Plant Spirit): 7 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 17 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_8af4c62af57d5549@ff68b2e2a4e2d4ec33cb41555e84c057
+projection_coverage: page-projection-pgp_5a1c434d321424ac@536da253475356ef2b36d226201b9e54
 ---
 
 # [ Charm ] (Dryad/Plant Spirit)
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - This spell has the effect of using the dryad's mind spirit power to charm the target. (Sword World RPG - Complete Edition.pdf p.90)
 - If the target successfully resists this spell, they will not suffer any effects. (Sword World RPG - Complete Edition.pdf p.90)
@@ -24,7 +24,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - This spell cannot be used if there are no plants in your surroundings. (Sword World RPG - Complete Edition.pdf p.90)
 - Dryads are not spirits that are always present in the minds of humans (or other creatures). (Sword World RPG - Complete Edition.pdf p.90)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -68,9 +68,13 @@ Effect=Charms the target
 Resist=Negated effect
 ```
 
-<a id="atom-7"></a>
-**Atom:** rule
 
-```
-At this time, if both your intentions are mutual , you can make them follow your will in the form of a proposal, and if your intentions are not mutual, you will deprive them of hostility.
-```
+## Rules and exceptions
+
+- Additionally, if the caster loses their life for any reason, the spell's effect will be canceled immediately. (Sword World RPG - Complete Edition.pdf p.90)
+- This spell cannot be used if there are no plants in your surroundings. (Sword World RPG - Complete Edition.pdf p.90)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-shoot-arrow-sylph-wind-spirit]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-valkyrie-javelin-valkyrie-mind-spirit]] - contextualizes: source-supported topic dependency

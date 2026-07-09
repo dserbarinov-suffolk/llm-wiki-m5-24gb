@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-loss-of-ability-scores-and-its-impact
 page_kind: concept
-summary: Loss of Ability Scores and Its Impact: 22 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 24 supported fragment(s) and 0 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_6b33a4ff924ba6d3@d8adda3b36c9617b938b0e9b86e0e454
+projection_coverage: page-projection-pgp_cbf088c80e3a6f2b@2738b5d64f6ca28ecc4998602a10a6b5
 ---
 
 # Loss of Ability Scores and Its Impact
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - The four other ability scores of dexterity, agility, intelligence, and strength are rarely reduced, but if this does happen and these ability scores do fall to 0 or less, the adventurer will still become disabled. (Sword World RPG - Complete Edition.pdf p.12)
 - If either life force or mental power fall to 0 or less, the adventurer will fall unconscious and be unable to act. (Sword World RPG - Complete Edition.pdf p.12)
@@ -39,16 +39,9 @@ Source: [[sword-world-rpg-complete-edition]]
 - They mainly worship the gods of the earth, with Braki as their main deity, who is also the god of smithing. (Sword World RPG - Complete Edition.pdf p.13)
 - The life span of a dwarf is longer than that of a human, thought to be around 200 years. (Sword World RPG - Complete Edition.pdf p.13)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
-**Atom:** rule
-
-```
-etc.) When a character's ability score increases or decreases, even temporarily, the ability bonus increases or decreases accordingly.
-```
-
-<a id="atom-2"></a>
 **Atom:** table
 
 ```text
@@ -62,3 +55,8 @@ Table 1-1: Ability Bonuses
                                     the adventurer will fall unconscious and
  physical balance and agility. It's related to                                              12~17            +2
 ```
+
+
+## Rules and exceptions
+
+- They can see things in the dark as well as they can in daylight. (Sword World RPG - Complete Edition.pdf p.13)

@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-illnesse
 page_kind: concept
-summary: Illnesses: 99 accepted assertion(s) and 47 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: broad-topic: 159 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_985970d740b827e6@d9169f83786ddccc945a24644a20c925
+projection_coverage: page-projection-pgp_76d7eea9d3bb14fd@0ee4e0db4383f3e37a3cfe884a609257
 ---
 
 # Illnesses
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Illness details are expressed as follows. (Sword World RPG - Complete Edition.pdf p.164)
 - As the cold progresses, you may develop a high fever and also have difficulty breathing. (Sword World RPG - Complete Edition.pdf p.164)
@@ -116,7 +116,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - This results in lockjaw, a disease that causes a severe fever. (Sword World RPG - Complete Edition.pdf p.167)
 - A wound can greatly disturb the balance of spirit power within the body, and the power of salamander in particular may become stronger. (Sword World RPG - Complete Edition.pdf p.167)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** formula
@@ -140,206 +140,206 @@ Infection Power=Moderate
 ```
 
 <a id="atom-4"></a>
-**Atom:** rule
-
-```
-If a disease can be identified, owners of the healer skill can provide appropriate treatment.
-```
-
-<a id="atom-5"></a>
-**Atom:** rule
-
-```
-If the roll is less than the progression intensity , the disease gets worse and the depth increases by 1.
-```
-
-<a id="atom-6"></a>
-**Atom:** rule
-
-```
-Even if a shaman cannot use the spell Restore Health , they can still work with one type of spirit to alleviate symptoms.
-```
-
-<a id="atom-7"></a>
-**Atom:** rule
-
-```
-When the holy magic Cure Disease or Refresh , or the spirit magic Restore Health are cast, the caster must make a success roll using their magic power as the baseline score.
-```
-
-<a id="atom-8"></a>
-**Atom:** rule
-
-```
-immediately after the illness's progression check), and you can only make one success roll.
-```
-
-<a id="atom-9"></a>
-**Atom:** rule
-
-```
-The game master may also create any other illnesses they desire.
-```
-
-<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Fatal Depth=3
 ```
 
-<a id="atom-11"></a>
+<a id="atom-5"></a>
 **Atom:** formula
 
 ```
 Infection Power=Moderate
 ```
 
-<a id="atom-12"></a>
+<a id="atom-6"></a>
 **Atom:** formula
 
 ```
 Symptoms=Cotton-like tissue peels off from the wound
 ```
 
-<a id="atom-13"></a>
+<a id="atom-7"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-14"></a>
+<a id="atom-8"></a>
 **Atom:** formula
 
 ```
 Infection Power=Weak
 ```
 
-<a id="atom-15"></a>
+<a id="atom-9"></a>
 **Atom:** formula
 
 ```
 Symptoms=The surface of the body gradually becomes hard like stone
 ```
 
-<a id="atom-16"></a>
+<a id="atom-10"></a>
 **Atom:** formula
 
 ```
 Rarity=14
 ```
 
-<a id="atom-17"></a>
+<a id="atom-11"></a>
 **Atom:** formula
 
 ```
 Fatal Depth=4
 ```
 
-<a id="atom-18"></a>
+<a id="atom-12"></a>
 **Atom:** formula
 
 ```
 Infection Power=Weak
 ```
 
-<a id="atom-19"></a>
+<a id="atom-13"></a>
 **Atom:** formula
 
 ```
 Rarity=13
 ```
 
-<a id="atom-20"></a>
+<a id="atom-14"></a>
 **Atom:** formula
 
 ```
 Fatal Depth=4
 ```
 
-<a id="atom-21"></a>
+<a id="atom-15"></a>
 **Atom:** formula
 
 ```
 Infection Power=Strong
 ```
 
-<a id="atom-22"></a>
+<a id="atom-16"></a>
 **Atom:** formula
 
 ```
 Infection Power=Weak
 ```
 
-<a id="atom-23"></a>
+<a id="atom-17"></a>
 **Atom:** formula
 
 ```
 Symptoms=Fever
 ```
 
-<a id="atom-24"></a>
+<a id="atom-18"></a>
 **Atom:** formula
 
 ```
 Rarity=10
 ```
 
-<a id="atom-25"></a>
+<a id="atom-19"></a>
 **Atom:** formula
 
 ```
 Fatal Depth=6
 ```
 
-<a id="atom-26"></a>
+<a id="atom-20"></a>
 **Atom:** formula
 
 ```
 Infection Power=Weak
 ```
 
-<a id="atom-27"></a>
+<a id="atom-21"></a>
 **Atom:** formula
 
 ```
 Rarity=12
 ```
 
-<a id="atom-28"></a>
+<a id="atom-22"></a>
 **Atom:** formula
 
 ```
 Fatal Depth=3
 ```
 
-<a id="atom-29"></a>
+<a id="atom-23"></a>
 **Atom:** formula
 
 ```
 Infection Power=Weak
 ```
 
-<a id="atom-30"></a>
+<a id="atom-24"></a>
 **Atom:** formula
 
 ```
 Symptoms=Become extremely weak against sunlight
 ```
 
-<a id="atom-31"></a>
+<a id="atom-25"></a>
 **Atom:** formula
 
 ```
 Rarity=15
 ```
 
-<a id="atom-32"></a>
+<a id="atom-26"></a>
 **Atom:** formula
 
 ```
 Fatal Depth=5
+```
+
+<a id="atom-27"></a>
+**Atom:** formula
+
+```
+Infection Power=Weak
+```
+
+<a id="atom-28"></a>
+**Atom:** formula
+
+```
+Symptoms=Extreme fever, vomiting, diarrhea, shortness of breath Rarity=16 Intensity/
+```
+
+<a id="atom-29"></a>
+**Atom:** formula
+
+```
+Infection Power=Very strong
+```
+
+<a id="atom-30"></a>
+**Atom:** formula
+
+```
+Symptoms=Become a lycanthrope
+```
+
+<a id="atom-31"></a>
+**Atom:** formula
+
+```
+Rarity=8 Intensity/
+```
+
+<a id="atom-32"></a>
+**Atom:** formula
+
+```
+Infection Power=Very weak
 ```
 
 <a id="atom-33"></a>
@@ -353,96 +353,68 @@ Infection Power=Weak
 **Atom:** formula
 
 ```
-Symptoms=Extreme fever, vomiting, diarrhea, shortness of breath Rarity=16 Intensity/
+Rarity=12
 ```
 
 <a id="atom-35"></a>
 **Atom:** formula
 
 ```
-Infection Power=Very strong
+Fatal Depth=5
 ```
 
 <a id="atom-36"></a>
 **Atom:** formula
 
 ```
-Symptoms=Become a lycanthrope
+Infection Power=Very strong (Infection through gaze)
 ```
 
 <a id="atom-37"></a>
 **Atom:** formula
 
 ```
-Rarity=8 Intensity/
+Rarity=7
 ```
 
 <a id="atom-38"></a>
 **Atom:** formula
 
 ```
-Infection Power=Very weak
-```
-
-<a id="atom-39"></a>
-**Atom:** rule
-
-```
-Anyone wounded by a lycanthrope must roll 2D.
-```
-
-<a id="atom-40"></a>
-**Atom:** formula
-
-```
-Infection Power=Weak
-```
-
-<a id="atom-41"></a>
-**Atom:** formula
-
-```
-Rarity=12
-```
-
-<a id="atom-42"></a>
-**Atom:** formula
-
-```
-Fatal Depth=5
-```
-
-<a id="atom-43"></a>
-**Atom:** formula
-
-```
-Infection Power=Very strong (Infection through gaze)
-```
-
-<a id="atom-44"></a>
-**Atom:** rule
-
-```
-If you make eye contact with someone who has the illness, a progression check must be made immediately.
-```
-
-<a id="atom-45"></a>
-**Atom:** formula
-
-```
-Rarity=7
-```
-
-<a id="atom-46"></a>
-**Atom:** formula
-
-```
 Fatal Depth=4
 ```
 
-<a id="atom-47"></a>
+<a id="atom-39"></a>
 **Atom:** formula
 
 ```
 Infection Power=Very weak
 ```
+
+
+## Rules and exceptions
+
+- As the cold progresses, you may develop a high fever and also have difficulty breathing. (Sword World RPG - Complete Edition.pdf p.164)
+- Some people may experience diarrhea symptoms or joint pain. (Sword World RPG - Complete Edition.pdf p.164)
+- If an owner of the sage skill or healer skill succeeds on a success roll using skill level + intelligence bonus as the baseline score and rarity as the target score, they can look at a sick patient and identify which illness they have. (Sword World RPG - Complete Edition.pdf p.164)
+- Adventurer level may also be hero level, but even if you're a hero, you cannot win against illness . (Sword World RPG - Complete Edition.pdf p.164)
+- In addition to these, depending on the illness, there are herbs and special medicines that can provide bonuses to progression/healing checks. (Sword World RPG - Complete Edition.pdf p.164)
+- You can continue to make this check until you fail or until the illness is completely cured. (Sword World RPG - Complete Edition.pdf p.164)
+- However, even if they fail, the same healer can continue to care for the patient. (Sword World RPG - Complete Edition.pdf p.164)
+- If a healer who knows the true nature of an illness cares for the patient for more than one hour per day, they can make a similar check using that healer's healer skill level + intelligence bonus as the baseline score. (Sword World RPG - Complete Edition.pdf p.164)
+- However, this must be at each progression speed of the illness (i.e. (Sword World RPG - Complete Edition.pdf p.164)
+- If after some time has passed, an illness progression check occurs, the healer can also make a healing check. (Sword World RPG - Complete Edition.pdf p.164)
+- This is a strange disease that occurs due to a significant decrease in the power of undine within the body. (Sword World RPG - Complete Edition.pdf p.165)
+- Due to this, some argue that the spirit power of fire may also be involved in the onset of the illness. (Sword World RPG - Complete Edition.pdf p.166)
+- Some sages claim that this is a type of curse (although these sages' claim is not accepted, as it cannot be removed with a Remove Curse spell). (Sword World RPG - Complete Edition.pdf p.166)
+- If the roll is a 6 or less, you'll be infected with lycanthropy (the game master must secretly roll the dice if the adventurer does not know that lycanthropy is an infectious disease). (Sword World RPG - Complete Edition.pdf p.166)
+- Once the score is equal to or less than the number of days, the character becomes a full lycanthrope and transforms into a beast form. (Sword World RPG - Complete Edition.pdf p.166)
+- Those infected with lycanthropy will have swollen wounds and a high fever. (Sword World RPG - Complete Edition.pdf p.166)
+- This cannot heal naturally. (Sword World RPG - Complete Edition.pdf p.166)
+- (the target score is 16), but once you become a beast, you cannot be cured again. (Sword World RPG - Complete Edition.pdf p.166)
+- Before becoming a full lycanthrope, it can be cured with a spell such as the holy magic Cure Disease , etc. (Sword World RPG - Complete Edition.pdf p.166)
+- A wound can greatly disturb the balance of spirit power within the body, and the power of salamander in particular may become stronger. (Sword World RPG - Complete Edition.pdf p.167)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-12-2-3-herbs]] - contextualizes: source-supported topic dependency

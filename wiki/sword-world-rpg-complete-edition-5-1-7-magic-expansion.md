@@ -1,20 +1,20 @@
 ---
 page_id: sword-world-rpg-complete-edition-5-1-7-magic-expansion
 page_kind: concept
-summary: 5.1.7 Magic Expansion: 40 accepted assertion(s) and 11 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 64 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_b3d04e7ac18c3e0a@581e8158b101dd80efe2efc3d56ea96e
+projection_coverage: page-projection-pgp_a35e006a3f38c5d6@aeec3750ba1be5b4512a5b7c78fa61f6
 ---
 
 # 5.1.7 Magic Expansion
 
 Source: [[sword-world-rpg-complete-edition]]
 
-## Statements
+## Procedure
 
 - Magic expansion includes the following types. (Sword World RPG - Complete Edition.pdf p.61)
 - the mental power consumed will also be doubled or tripled .... (Sword World RPG - Complete Edition.pdf p.61)
@@ -57,7 +57,7 @@ Source: [[sword-world-rpg-complete-edition]]
 - In this case, the multiplied rate of mental power consumed is 3 x 2 x 4 = 24!. (Sword World RPG - Complete Edition.pdf p.62)
 - Suppose a sorcerer casts an Energy Bolt on three enemies ( x 3 expansion) with a +1 to his final score ( x 2 expansion) and he makes 4 damage checks for each ( x 4 expansion). (Sword World RPG - Complete Edition.pdf p.62)
 
-## Technical atoms
+## Required tables and formulas
 
 <a id="atom-1"></a>
 **Atom:** table
@@ -73,34 +73,6 @@ Suppose a sorcerer with sorcerer skill level  2  doubles  the  range  of  his En
 ```
 
 <a id="atom-2"></a>
-**Atom:** rule
-
-```
-If you expand a spell that affects one enemy (or ally), it can instead affect multiple at the same time.
-```
-
-<a id="atom-3"></a>
-**Atom:** rule
-
-```
-In this case, you must roll the dice separately for each target to determine if they resist the magic, and other effects such as damage must also be determined separately.
-```
-
-<a id="atom-4"></a>
-**Atom:** rule
-
-```
-If you expand a spell that affects a specific area, it can affect a larger area than originally intended.
-```
-
-<a id="atom-5"></a>
-**Atom:** rule
-
-```
-You can also expand an area by a fraction (x1.5, x8/3, etc.), in which case the fraction is rounded up when determining the multiplier for mental power consumed.
-```
-
-<a id="atom-6"></a>
 **Atom:** table
 
 ```text
@@ -132,37 +104,31 @@ x 10
 2.2
 ```
 
-<a id="atom-7"></a>
-**Atom:** rule
 
-```
-Y ou can also increase it by a fraction, such as x1.5, in which case the fraction is rounded up when determining the multiplier for mental power consumed.
-```
+## Rules and exceptions
 
-<a id="atom-8"></a>
-**Atom:** rule
+- For spells that can perform this expansion, targets is written in the expansion section of the magic details. (Sword World RPG - Complete Edition.pdf p.61)
+- Since it's the area that gets expanded , the radius of a circle, a side of a square, etc., can only be increased by the square root of the expansion rate. (Sword World RPG - Complete Edition.pdf p.61)
+- For spells that can perform this expansion, area is written in the expansion section of the magic details. (Sword World RPG - Complete Edition.pdf p.61)
+- Some spells that affect a space or object can have their volume expanded. (Sword World RPG - Complete Edition.pdf p.61)
+- Rounding should be handled the same way you would for area expansion. (Sword World RPG - Complete Edition.pdf p.61)
+- Since it' s the volume that gets expanded , the radius of a sphere, a side of a cube, etc., can only be increased by the cube root of the expansion rate. (Sword World RPG - Complete Edition.pdf p.61)
+- For spells that can perform this expansion, target volume is written in the expansion section of the magic details. (Sword World RPG - Complete Edition.pdf p.61)
+- For spells whose effects last a certain amount of time, you can expand that duration. (Sword World RPG - Complete Edition.pdf p.61)
+- For spells that can perform this expansion, duration is written in the expansion section of the magic details. (Sword World RPG - Complete Edition.pdf p.61)
+- However, there are spells that can extend their reach. (Sword World RPG - Complete Edition.pdf p.61)
+- For spells that can perform this expansion, distance is written in the expansion section of the magic details. (Sword World RPG - Complete Edition.pdf p.62)
+- For spells that deal damage, expansion can increase the certainty of that damage. (Sword World RPG - Complete Edition.pdf p.62)
+- For spells that can perform this expansion, damage certainty is written in the expansion section of the magic details. (Sword World RPG - Complete Edition.pdf p.62)
+- This increase in final score may also take effect if a nullifying spell is cast later. (Sword World RPG - Complete Edition.pdf p.62)
+- For spells that can perform this expansion, fi nal score is written in the expansion section of the magic details. (Sword World RPG - Complete Edition.pdf p.62)
+- Therefore, it cannot be done infinitely. (Sword World RPG - Complete Edition.pdf p.62)
+- Final score can only be increased up to a maximum of caster's rune master skill level ÷ 2 (rounded up) . (Sword World RPG - Complete Edition.pdf p.62)
+- For spells that can perform these special expansions, effect is written in the expansion section of the magic details, and an explanation is given under each spell. (Sword World RPG - Complete Edition.pdf p.62)
+- In these cases, you can perform multiple expansions at the same time. (Sword World RPG - Complete Edition.pdf p.62)
+- By multiplying the rates determined for each expansion, you can determine the total multiplied rate of mental power consumed. (Sword World RPG - Complete Edition.pdf p.62)
 
-```
-You can also increase it by a fraction, such as x1.5, in which case the fraction is rounded up when determining the multiplier for mental power consumed.
-```
+## Related pages
 
-<a id="atom-9"></a>
-**Atom:** rule
-
-```
-you can make a damage check (strike roll) twice or three times .
-```
-
-<a id="atom-10"></a>
-**Atom:** rule
-
-```
-There's some magic whose effects are negated or reduced if they're resisted by the target, but will also let you increase the magic's final score (resist target score) in order to prevent this.
-```
-
-<a id="atom-11"></a>
-**Atom:** rule
-
-```
-you can add a +1 or +2 bonus to your final score.
-```
+- [[sword-world-rpg-complete-edition-power]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-5-1-8-magic-contraction]] - contextualizes: source-supported topic dependency

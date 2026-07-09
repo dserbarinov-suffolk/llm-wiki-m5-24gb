@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-king
 page_kind: concept
-summary: Kings: 5 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 9 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_72afcdb22adeb6ce@47810f4a8389dbac17f07f511803b1e5
+projection_coverage: page-projection-pgp_be78ec4aba479cef@ecc1fb369167b37177f42ab4b91f888e
 ---
 
 # Kings
@@ -21,3 +21,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - However, this is only on the surface if a king were to govern poorly, movements to overthrow such a king would inevitably arise. (Sword World RPG - Complete Edition.pdf p.283)
 - This could also create opportunities for foreign invasion. (Sword World RPG - Complete Edition.pdf p.283)
 - Therefore, it is said that even kings have things they must protect and laws they must follow. (Sword World RPG - Complete Edition.pdf p.283)
+
+## Rules
+
+- This could also create opportunities for foreign invasion. (Sword World RPG - Complete Edition.pdf p.283)
+- Therefore, it is said that even kings have things they must protect and laws they must follow. (Sword World RPG - Complete Edition.pdf p.283)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-kingdom]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-nobles-knight]] - contextualizes: source-supported topic dependency

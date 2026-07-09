@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-pole-weapons
 page_kind: concept
-summary: Pole Weapons: 28 accepted assertion(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 40 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_b2332f05cf8a480f@ea3a2226020bdeba358436a435ceb83e
+projection_coverage: page-projection-pgp_2128fbb8e5763ab9@079718b3e7ca5717cb410ff9e20ebdf9
 ---
 
 # Pole Weapons
@@ -45,6 +45,18 @@ Source: [[sword-world-rpg-complete-edition]]
 - Pole weapons cannot reach their full power in tight spaces. (Sword World RPG - Complete Edition.pdf p.269)
 - The length of a pole weapon is required strength x 15 centimeters. (Sword World RPG - Complete Edition.pdf p.269)
 
+## Rules
+
+- This attack cannot target anything that's not bipedal, and it cannot knock anything larger than the adventurer, such as an ogre, giant, etc. (Sword World RPG - Complete Edition.pdf p.269)
+- Y ou can treat these the same as spears. (Sword World RPG - Complete Edition.pdf p.269)
+- It cannot be used to declare mercy . (Sword World RPG - Complete Edition.pdf p.269)
+- If the attack is successful, the opponent suffers damage and at the same time must make a success roll using adventurer level + dexterity bonus ( evasion points -7 for monsters) as the baseline score and the attacker's final Players should examine which attack methods they can use with each pole weapon (for example, a halberd can be used in four ways: thrust , cut , stab , and sweep ) and arm themselves accordingly. (Sword World RPG - Complete Edition.pdf p.269)
+- It can be used in two ways: thrust and cut . (Sword World RPG - Complete Edition.pdf p.269)
+- It's the most sophisticated pole weapon, and can be used to thrust , cut , stab , and sweep . (Sword World RPG - Complete Edition.pdf p.269)
+- This weapon can be used to thrust , cut and beat . (Sword World RPG - Complete Edition.pdf p.269)
+- This weapon can be used in two ways: thrust and cut . (Sword World RPG - Complete Edition.pdf p.269)
+- Pole weapons cannot reach their full power in tight spaces. (Sword World RPG - Complete Edition.pdf p.269)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -60,3 +72,8 @@ For those with multiple attack methods, you must declare which attack method you
 ```
 If you don't have a space with this radius, you cannot use attack methods other than thrust .
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-main-gauche-sword-breaker]] - contextualizes: source-supported topic dependency

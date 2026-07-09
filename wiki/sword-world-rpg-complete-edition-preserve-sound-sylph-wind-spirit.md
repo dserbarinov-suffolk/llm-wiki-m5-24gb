@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-preserve-sound-sylph-wind-spirit
 page_kind: concept
-summary: [ Preserve Sound ] (Sylph/Wind Spirit): 8 accepted assertion(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 13 supported fragment(s) and 1 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_b5e88a03985f62ff@fa9f353a9bf609508a4595bb67e4a9a1
+projection_coverage: page-projection-pgp_75f1159f722c5c44@79cd9a9851e4fe9539febb78055d2cf3
 ---
 
 # [ Preserve Sound ] (Sylph/Wind Spirit)
@@ -25,6 +25,12 @@ Source: [[sword-world-rpg-complete-edition]]
 - It secures a sylph in place and allows it to transmit recorded sounds to others. (Sword World RPG - Complete Edition.pdf p.92)
 - Once the sound is transmitted, the effect of this spell vanishes. (Sword World RPG - Complete Edition.pdf p.92)
 
+## Rules
+
+- You can optionally determine the person to whom the sound is transmitted to some extent, such as the first person to step into that space. (Sword World RPG - Complete Edition.pdf p.92)
+- Also, at the same time you cast the spell, you must also generate the sound you want to transmit. (Sword World RPG - Complete Edition.pdf p.92)
+- However, in order to specify a specific person, the caster must be familiar with the person's features and appearance. (Sword World RPG - Complete Edition.pdf p.92)
+
 ## Technical atoms
 
 <a id="atom-1"></a>
@@ -33,3 +39,8 @@ Source: [[sword-world-rpg-complete-edition]]
 ```
 Even if Silence is cast later, this spell still takes effect.
 ```
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-decrease-water-pressure-undine-water-spirit]] - contextualizes: source-supported topic dependency

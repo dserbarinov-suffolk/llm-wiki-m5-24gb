@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-southern-central-region-language-western-gundar
 page_kind: concept
-summary: Southern Central Region (Language = Western/Gundar): 26 accepted assertion(s) and 0 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: topic-concept: 30 supported fragment(s) and 2 related link(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-09
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-state-tps_04884c03a4ca2b75@3c2bb3e8dabdb1c3bb774a5a193080f1
+projection_coverage: page-projection-pgp_d911cd720f2bbd74@3d7768d65ad2896b6d564552899f745a
 ---
 
 # Southern Central Region (Language = Western/Gundar)
@@ -42,3 +42,13 @@ Source: [[sword-world-rpg-complete-edition]]
 - Recently, Lomar has recruited Lukial, who is renowned as a military strategist. (Sword World RPG - Complete Edition.pdf p.288)
 - With major conflicts between Orphan and Phandria, and between Orphan and Zain, many humans are worried that Lomar's action might be a sign that they are preparing to start a new war. (Sword World RPG - Complete Edition.pdf p.288)
 - For detailed information about the Far East region to the Central Plains, please refer to the "Sword World RPG World Guide". (Sword World RPG - Complete Edition.pdf p.288)
+
+## Rules
+
+- Known as "Lomar's Black Market," one can acquire various goods there. (Sword World RPG - Complete Edition.pdf p.287-288)
+- Sometimes, one might even spot items that should only be available through underground channels, such as unicorn horns. (Sword World RPG - Complete Edition.pdf p.287-288)
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-northern-central-region-language-western-gundar]] - contextualizes: source-supported topic dependency
+- [[sword-world-rpg-complete-edition-western-countries-language-western-except-palmer-village-which-uses-eastern]] - contextualizes: source-supported topic dependency
