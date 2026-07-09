@@ -1,6 +1,7 @@
 """CLI argument contract and explicit config resolution."""
 
 import asyncio
+import json
 import signal
 from pathlib import Path
 
@@ -8,8 +9,12 @@ import pytest
 from fakes import FakeClient
 from forge.context import ContextManager, NoCompact
 
+from llmwiki.application.ingestion_trace_builder import build_ingestion_trace
+from llmwiki.application.ingestion_trace_records import ingestion_trace_artifact_to_json
 from llmwiki.cli import _build_parser, _read_chat_line, _run, _run_chat
 from llmwiki.config import ConfigError, WikiPaths, load_backend_config
+from llmwiki.domain.graph import GraphStatus
+from llmwiki.domain.ledger.artifacts import PortableArtifactMember
 from llmwiki.domain.pages import PageMetadata, WikiPage
 from llmwiki.runtime.session import Session
 from llmwiki.store import WikiStore
@@ -33,6 +38,14 @@ class TestParser:
         args = _build_parser().parse_args(["graph", "--check"])
         assert args.op == "graph"
         assert args.check
+
+    def test_inspect_ingest_args(self) -> None:
+        args = _build_parser().parse_args(
+            ["inspect-ingest", "article.pdf", "--stage", "topic-state"]
+        )
+        assert args.op == "inspect-ingest"
+        assert args.source == "article.pdf"
+        assert args.stage == "topic-state"
 
     def test_op_is_required(self) -> None:
         with pytest.raises(SystemExit):
@@ -86,6 +99,58 @@ class TestGraphCommand:
 
         assert "Graph export: current" in written.output
         assert "Graph export: current" in checked.output
+
+
+class TestInspectIngestCommand:
+    async def test_inspect_ingest_reads_trace_without_backend(
+        self, paths: WikiPaths, monkeypatch: pytest.MonkeyPatch
+    ) -> None:
+        store = WikiStore(paths)
+        store.write_ledger_artifacts("article.pdf", {"ingestion-trace.json": _trace_json()})
+
+        async def fail_start_backend(_config: object) -> None:
+            raise AssertionError("inspect-ingest must not start the backend")
+
+        monkeypatch.setattr("llmwiki.cli.start_backend", fail_start_backend)
+        args = _build_parser().parse_args(
+            ["--root", str(paths.root), "inspect-ingest", "article.pdf"]
+        )
+
+        result = await _run(args)
+
+        assert "Ingestion trace for raw/article.pdf" in result.output
+        assert "topic-state" in result.output
+
+    async def test_inspect_ingest_stage_and_json_modes(self, paths: WikiPaths) -> None:
+        store = WikiStore(paths)
+        store.write_ledger_artifacts("article.pdf", {"ingestion-trace.json": _trace_json()})
+        stage_args = _build_parser().parse_args(
+            [
+                "--root",
+                str(paths.root),
+                "inspect-ingest",
+                "article.pdf",
+                "--stage",
+                "topic-state",
+            ]
+        )
+        json_args = _build_parser().parse_args(
+            ["--root", str(paths.root), "inspect-ingest", "article.pdf", "--json"]
+        )
+
+        stage = await _run(stage_args)
+        rendered_json = await _run(json_args)
+
+        assert "Ingestion trace stage: topic-state" in stage.output
+        assert json.loads(rendered_json.output)["source_locator"] == "article.pdf"
+
+    async def test_inspect_ingest_missing_trace_fails(self, paths: WikiPaths) -> None:
+        args = _build_parser().parse_args(
+            ["--root", str(paths.root), "inspect-ingest", "missing.pdf"]
+        )
+
+        with pytest.raises(ConfigError, match="No ingestion-trace artifact"):
+            await _run(args)
 
 
 class TestLintCommand:
@@ -165,3 +230,35 @@ class TestChatInputLoop:
 
         assert result.output == "chat ended: 0 turns across 0 conversation(s)"
         assert "chat |" not in paths.log_path.read_text(encoding="utf-8")
+
+
+def _trace_json() -> str:
+    trace = build_ingestion_trace(
+        source_locator="article.pdf",
+        source_hash="a" * 64,
+        run_id="cli-test",
+        artifact_files={
+            "source-plan.json": "{}",
+            "extraction-result.json": "{}",
+            "assertion-graph-source-artifact.json": "{}",
+            "document-structure.json": "{}",
+            "claim-ledger.json": '{"ledger": {}}',
+            "proposed-change-review.json": "{}",
+            "assertion-graph.json": "{}",
+            "topic-states.json": '{"topic_states": [], "topic_dependencies": [], "topic_gaps": []}',
+            "page-projections.json": '{"page_projections": []}',
+            "staged-pages.json": '{"pages": []}',
+            "lint-run.json": json.dumps(
+                {"status": "accepted", "accepted_page_ids": [], "rejected_page_ids": []}
+            ),
+            "publish-run.json": json.dumps(
+                {"status": "published", "accepted_page_ids": [], "rejected_page_ids": []}
+            ),
+            "projection-coverage.json": "{}",
+            "provenance-audit.json": "{}",
+        },
+        artifact_members=(PortableArtifactMember("source-plan-artifact", "source-plan", "fp"),),
+        graph_status=GraphStatus("current", 0, 0, 0, "current"),
+        metric_providers=(),
+    )
+    return ingestion_trace_artifact_to_json(trace)

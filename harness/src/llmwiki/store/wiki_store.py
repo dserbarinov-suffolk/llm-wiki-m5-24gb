@@ -303,6 +303,10 @@ class WikiStore:
         path = self.page_plan_artifact_dir(source_locator) / "ledger" / "claim-ledger.json"
         return path.read_text(encoding="utf-8") if path.is_file() else None
 
+    def read_ingestion_trace_artifact(self, source_locator: str) -> str | None:
+        path = self.page_plan_artifact_dir(source_locator) / "ledger" / "ingestion-trace.json"
+        return path.read_text(encoding="utf-8") if path.is_file() else None
+
     def list_claim_ledger_artifacts(self) -> list[str]:
         """Every stored claim ledger (canonical JSON), one per ingested source."""
         base = self._paths.cache_dir / "page-plans"

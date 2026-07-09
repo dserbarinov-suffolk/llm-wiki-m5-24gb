@@ -296,6 +296,7 @@ PORTABLE_ARTIFACT_KINDS: Final = (
     "blocked-write-diagnostic-artifact",
     "proposed-change-review-artifact",
     "assertion-graph-artifact",
+    "ingestion-trace-artifact",
 )
 
 

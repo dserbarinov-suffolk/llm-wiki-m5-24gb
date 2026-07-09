@@ -168,6 +168,7 @@ class TestIngest:
             "assertion-graph.json",
             "topic-states.json",
             "page-projections.json",
+            "ingestion-trace.json",
         ):
             assert (ledger_dir / name).is_file(), name
         for retired_name in (
@@ -187,10 +188,14 @@ class TestIngest:
         assert "assertion-graph-artifact" in kinds
         assert "topic-state-artifact" in kinds
         assert "page-projection-artifact" in kinds
+        assert "ingestion-trace-artifact" in kinds
         assert "portable-artifact-set" not in kinds
         assert "projection-context-artifact" not in kinds
         assert "section-grounded-plan-artifact" not in kinds
         assert "knowledge-shape-catalog-artifact" not in kinds
+        trace = json.loads((ledger_dir / "ingestion-trace.json").read_text())
+        stage_ids = {stage["stage_id"] for stage in trace["stages"]}
+        assert {"topic-state", "page-projection", "graph-export"} <= stage_ids
 
     async def test_ledger_artifact_write_replaces_stale_files(
         self, store: WikiStore, paths: WikiPaths, source: str

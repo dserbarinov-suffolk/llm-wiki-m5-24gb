@@ -1341,4 +1341,4 @@ http://creativecommons.org/licenses/by/2.0/deed.en
 
 ## Lint-maintained links
 
-- [[wiki-ingest-confidence]] - Ingest confidence report is related to the JavaScriptAllonge source hub.
+- [[wiki-ingest-confidence]] - Ingest confidence is critical for source integration, and this hub page covers foundational concepts relevant to the topic.

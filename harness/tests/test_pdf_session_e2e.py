@@ -213,6 +213,7 @@ class TestLedgerPdfIngest:
             "assertion-graph.json",
             "topic-states.json",
             "page-projections.json",
+            "ingestion-trace.json",
         ):
             assert (ledger_dir / name).is_file(), name
         for retired_name in (
@@ -229,9 +230,13 @@ class TestLedgerPdfIngest:
         assert "assertion-graph-artifact" in member_kinds
         assert "topic-state-artifact" in member_kinds
         assert "page-projection-artifact" in member_kinds
+        assert "ingestion-trace-artifact" in member_kinds
         assert "projection-context-artifact" not in member_kinds
         assert "section-grounded-plan-artifact" not in member_kinds
         assert "knowledge-shape-catalog-artifact" not in member_kinds
+        trace = json.loads((ledger_dir / "ingestion-trace.json").read_text())
+        stage_ids = {stage["stage_id"] for stage in trace["stages"]}
+        assert {"topic-state", "page-projection", "graph-export"} <= stage_ids
         # The manifest is persisted and marked integrated after ingest.
         manifest = from_json((extraction.cache_dir / "manifest.json").read_text(encoding="utf-8"))
         assert manifest.integrated

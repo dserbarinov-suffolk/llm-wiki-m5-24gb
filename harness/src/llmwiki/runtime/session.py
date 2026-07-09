@@ -17,6 +17,9 @@ from forge.context import ContextManager
 from forge.core.messages import Message
 from forge.core.runner import WorkflowRunner
 
+from llmwiki.application.ingestion_trace_builder import build_ingestion_trace
+from llmwiki.application.ingestion_trace_metrics import default_metric_providers
+from llmwiki.application.ingestion_trace_records import ingestion_trace_artifact_to_json
 from llmwiki.application.source_artifacts import (
     CanonicalLedgerSource,
     build_canonical_ledger_source,
@@ -30,7 +33,8 @@ from llmwiki.domain.claim_support import (
 from llmwiki.domain.evidence_registry import SourceText, source_text_from_text
 from llmwiki.domain.evidence_registry_io import registry_to_json
 from llmwiki.domain.graph import GraphStatus, build_wiki_graph, graph_status
-from llmwiki.domain.ledger.canonical import short_digest
+from llmwiki.domain.ledger.artifacts import PortableArtifactMember, build_portable_artifact_set
+from llmwiki.domain.ledger.canonical import canonical_json, short_digest
 from llmwiki.domain.links import compute_findings
 from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 from llmwiki.domain.objects import (
@@ -311,18 +315,20 @@ class Session:
             }
             self.store.delete_source_pages_not_in(source_locator, keep_page_ids)
         provenance_line = "Provenance audit: skipped because authoritative write was blocked."
+        derived_artifacts: dict[str, str] = {}
         if ledger.wiki_page is not None:
             audit = build_provenance_audit(
                 self.store.page_texts(),
                 source_page_id=ledger.page_id,
                 artifact_files=ledger.artifact_files,
             )
+            derived_artifacts = {
+                "provenance-audit.json": report_to_json(audit),
+                "provenance-audit.md": render_markdown(audit),
+            }
             self.store.write_ledger_artifacts(
                 source_locator,
-                {
-                    "provenance-audit.json": report_to_json(audit),
-                    "provenance-audit.md": render_markdown(audit),
-                },
+                derived_artifacts,
                 replace=False,
             )
             provenance_line = (
@@ -330,6 +336,13 @@ class Session:
                 f"{audit.non_manifest_finding_count} outside source manifests."
             )
         graph = self._write_graph_export()
+        self._write_ingestion_trace(
+            source_locator=source_locator,
+            source_hash=source_text.source_hash,
+            ledger=ledger,
+            graph=graph,
+            derived_artifacts=derived_artifacts,
+        )
         if self.on_chunk_note is not None:
             self.on_chunk_note(ledger.summary)
         report = (
@@ -344,6 +357,42 @@ class Session:
         )
         self.store.append_log(self.today, "ingest", source_locator, report)
         return OperationResult("ingest", source_locator, report, None, run)
+
+    def _write_ingestion_trace(
+        self,
+        *,
+        source_locator: str,
+        source_hash: str,
+        ledger: Any,
+        graph: GraphStatus,
+        derived_artifacts: dict[str, str],
+    ) -> None:
+        artifact_files = {**ledger.artifact_files, **derived_artifacts}
+        trace = build_ingestion_trace(
+            source_locator=source_locator,
+            source_hash=source_hash,
+            run_id=self.run_id or self.today,
+            artifact_files=artifact_files,
+            artifact_members=ledger.portable_artifact_set.members,
+            graph_status=graph,
+            metric_providers=default_metric_providers(),
+        )
+        trace_member = PortableArtifactMember(
+            "ingestion-trace-artifact",
+            trace.ingestion_trace_artifact_id,
+            trace.ingestion_trace_fingerprint,
+        )
+        portable = build_portable_artifact_set(
+            (*ledger.portable_artifact_set.members, trace_member)
+        )
+        self.store.write_ledger_artifacts(
+            source_locator,
+            {
+                "ingestion-trace.json": ingestion_trace_artifact_to_json(trace),
+                "portable-artifact-set.json": canonical_json(portable, indent=2),
+            },
+            replace=False,
+        )
 
     def _canonical_source_from_chunks(
         self, source_locator: str, source_hash: str, chunks: tuple[ChunkText, ...]

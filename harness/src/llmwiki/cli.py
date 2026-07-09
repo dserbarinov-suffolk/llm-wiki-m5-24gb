@@ -15,6 +15,10 @@ from pathlib import Path
 
 from forge.context import ContextManager, NoCompact
 
+from llmwiki.application.ingestion_trace_records import (
+    ingestion_trace_artifact_from_json,
+    ingestion_trace_artifact_to_json,
+)
 from llmwiki.config import ConfigError, WikiPaths, load_backend_config, load_model_profile
 from llmwiki.domain.citations import SourceInventory
 from llmwiki.domain.claim_support import (
@@ -30,6 +34,7 @@ from llmwiki.pdf.pipeline import ExtractionResult, ensure_extracted
 from llmwiki.pdf.vision import AppleVisionRecognizer
 from llmwiki.runtime.backend import start_backend
 from llmwiki.runtime.chat_repl import ChatRepl
+from llmwiki.runtime.ingestion_trace_inspect import render_trace_stage, render_trace_summary
 from llmwiki.runtime.session import ExtractFn, OperationResult, Session
 from llmwiki.store import WikiStore
 from llmwiki.store.chat_store import ChatStore
@@ -67,6 +72,14 @@ def _build_parser() -> argparse.ArgumentParser:
     query.add_argument("question", help="The question to answer.")
 
     sub.add_parser("lint", help="Health-check the wiki.")
+
+    inspect_ingest = sub.add_parser(
+        "inspect-ingest",
+        help="Inspect one source ingest trace without starting the model backend.",
+    )
+    inspect_ingest.add_argument("source", help="Source path relative to raw/.")
+    inspect_ingest.add_argument("--stage", default="", help="Restrict output to one trace stage.")
+    inspect_ingest.add_argument("--json", action="store_true", help="Print canonical trace JSON.")
 
     graph = sub.add_parser("graph", help="Write or check the deterministic wiki graph export.")
     graph.add_argument(
@@ -140,6 +153,9 @@ async def _run(args: argparse.Namespace) -> OperationResult:
     if args.op == "claim-support":
         return await _run_claim_support(paths, args, now)
 
+    if args.op == "inspect-ingest":
+        return _run_inspect_ingest(args, paths)
+
     if args.op == "graph":
         return _run_graph(args, paths, now.date().isoformat())
 
@@ -211,6 +227,28 @@ def _run_graph(args: argparse.Namespace, paths: WikiPaths, today: str) -> Operat
     report = status.render()
     store.append_log(today, "graph", "wiki graph", report)
     return OperationResult("graph", "wiki graph", report, None)
+
+
+def _run_inspect_ingest(args: argparse.Namespace, paths: WikiPaths) -> OperationResult:
+    store = WikiStore(paths)
+    source = args.source.removeprefix("raw/")
+    text = store.read_ingestion_trace_artifact(source)
+    if text is None:
+        raise ConfigError(
+            "No ingestion-trace artifact found for "
+            f"raw/{source}. Run `uv run llmwiki ingest {source}` first."
+        )
+    trace = ingestion_trace_artifact_from_json(text)
+    if args.json:
+        output = ingestion_trace_artifact_to_json(trace)
+    elif args.stage:
+        try:
+            output = render_trace_stage(trace, args.stage)
+        except ValueError as exc:
+            raise ConfigError(str(exc)) from exc
+    else:
+        output = render_trace_summary(trace)
+    return OperationResult("inspect-ingest", source, output, None)
 
 
 async def _run_claim_support(
