@@ -1,0 +1,292 @@
+---
+page_id: javascriptallonge-implementing-methods-with-iteration
+page_kind: concept
+summary: implementing methods with iteration: 6 accepted assertion(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
+page_family: topic-concept
+sources: raw/javascriptallonge.pdf
+updated: 2026-07-09
+domain: javascriptallonge
+category_path: concepts
+projection_coverage: topic-state-tps_81cf3f46b08dc859@b2f126202d5a52b59ecba8cfc5c91987
+---
+
+# implementing methods with iteration
+
+Source: [[javascriptallonge]]
+
+## Statements
+
+- And they should know how to accomplish the desired result, but they should do so by delegating as much of the work as possible to operations like mapWith . (javascriptallonge.pdf p.246)
+- Object- oriented collections should definitely have methods for mapping, reducing, filtering, and finding. (javascriptallonge.pdf p.246)
+- Composing an iterable with a mapIterable method cleaves the responsibility for knowing how to map from the fiddly bits of how a linked list differs from a stack. (javascriptallonge.pdf p.246)
+- And if we want to create convenience methods, we can reuse common pieces. (javascriptallonge.pdf p.246)
+- To use LazyCollection , we mix it into an any iterable object. (javascriptallonge.pdf p.250)
+- For simplicity, we'll show how to mix it into Numbers and Pair . (javascriptallonge.pdf p.250)
+
+## Technical atoms
+
+<a id="atom-1"></a>
+**Atom:** code block
+
+```
+const extend = function (consumer, ...providers) {
+for (let i = 0; i < providers.length; ++i) {
+const provider = providers[i];
+for (let key in provider) {
+if (provider.hasOwnProperty(key)) {
+consumer[key] = provider[key]
+}
+}
+}
+return consumer
+};
+const LazyCollection = {
+map(fn) {
+return Object.assign({
+[Symbol.iterator]: () => {
+const iterator = this[Symbol.iterator]();
+return {
+next: () => {
+const {
+done, value
+} = iterator.next();
+return ({
+done, value: done ? undefined : fn(value)
+});
+}
+}
+}
+}, LazyCollection);
+},
+reduce(fn, seed) {
+const iterator = this[Symbol.iterator]();
+let iterationResult,
+accumulator = seed;
+while ((iterationResult = iterator.next(), !iterationResult.done)) {
+accumulator = fn(accumulator, iterationResult.value);
+}
+return accumulator;
+```
+
+<a id="atom-2"></a>
+**Atom:** code block
+
+```
+},
+filter(fn) {
+return Object.assign({
+[Symbol.iterator]: () => {
+const iterator = this[Symbol.iterator]();
+return {
+next: () => {
+do {
+const {
+done, value
+} = iterator.next();
+} while (!done && !fn(value));
+return {
+done, value
+};
+}
+}
+}
+}, LazyCollection)
+},
+find(fn) {
+return Object.assign({
+[Symbol.iterator]: () => {
+const iterator = this[Symbol.iterator]();
+return {
+next: () => {
+let {
+done, value
+} = iterator.next();
+done = done || fn(value);
+return ({
+done, value: done ? undefined : value
+});
+}
+}
+}
+```
+
+<a id="atom-3"></a>
+**Atom:** code block
+
+```
+}, LazyCollection)
+},
+until(fn) {
+return Object.assign({
+[Symbol.iterator]: () => {
+const iterator = this[Symbol.iterator]();
+return {
+next: () => {
+let {
+done, value
+} = iterator.next();
+done = done || fn(value);
+return ({
+done, value: done ? undefined : value
+});
+}
+}
+}
+}, LazyCollection)
+},
+first() {
+return this[Symbol.iterator]().next().value;
+},
+rest() {
+return Object.assign({
+[Symbol.iterator]: () => {
+const iterator = this[Symbol.iterator]();
+iterator.next();
+return iterator;
+}
+}, LazyCollection);
+},
+take(numberToTake) {
+return Object.assign({
+```
+
+<a id="atom-4"></a>
+**Atom:** code block
+
+```
+[Symbol.iterator]: () => {
+const iterator = this[Symbol.iterator]();
+let remainingElements = numberToTake;
+return {
+next: () => {
+let {
+done, value
+} = iterator.next();
+done = done || remainingElements-- <= 0;
+return ({
+done, value: done ? undefined : value
+});
+}
+}
+}
+}, LazyCollection);
+}
+}
+```
+
+<a id="atom-5"></a>
+**Atom:** code block
+
+```
+const Numbers = Object.assign({
+[Symbol.iterator]: () => {
+let n = 0;
+return {
+next: () =>
+({done: false, value: n++})
+}
+}
+}, LazyCollection);
+// Pair, a/k/a linked lists
+const EMPTY = {
+isEmpty: () => true
+```
+
+<a id="atom-6"></a>
+**Atom:** code block
+
+```
+};
+const isEmpty = (node) => node === EMPTY;
+const Pair = (car, cdr = EMPTY) =>
+Object.assign({
+car,
+cdr,
+isEmpty: () => false,
+[Symbol.iterator]: function () {
+let currentPair = this;
+return {
+next: () => {
+if (currentPair.isEmpty()) {
+return {done: true}
+}
+else {
+const value = currentPair.car;
+currentPair = currentPair.cdr;
+return {done: false, value}
+}
+}
+}
+}
+}, LazyCollection);
+Pair.from = (iterable) =>
+(function iterationToList (iteration) {
+const {done, value} = iteration.next();
+return done ? EMPTY : Pair(value, iterationToList(iteration));
+})(iterable[Symbol.iterator]());
+// Stack
+const Stack = () =>
+Object.assign({
+array: [],
+index: -1,
+push: function (value) {
+```
+
+<a id="atom-7"></a>
+**Atom:** code block
+
+```
+return this.array[this.index += 1] = value;
+},
+pop: function () {
+const value = this.array[this.index];
+this.array[this.index] = undefined;
+if (this.index >= 0) {
+this.index -= 1
+}
+return value
+},
+isEmpty: function () {
+return this.index < 0
+},
+[Symbol.iterator]: function () {
+let iterationIndex = this.index;
+return {
+next: () => {
+if (iterationIndex > this.index) {
+iterationIndex = this.index;
+}
+if (iterationIndex < 0) {
+return {done: true};
+}
+else {
+return {done: false, value: this.array[iterationIndex--]}
+}
+}
+}
+}
+}, LazyCollection);
+Stack.from = function (iterable) {
+const stack = this();
+for (let element of iterable) {
+stack.push(element);
+}
+return stack;
+}
+```
+
+<a id="atom-8"></a>
+**Atom:** code block
+
+```
+// Pair and Stack in action
+Stack.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+.map((x) => x * x)
+.filter((x) => x % 2 == 0)
+.first()
+//=> 100
+Pair.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+.map((x) => x * x)
+.filter((x) => x % 2 == 0)
+.reduce((seed, element) => seed + element, 0)
+```

@@ -9,11 +9,11 @@ updated: 2026-07-09
 
 ## Summary
 
-Run id: 2026-07-09-091621
+Run id: 2026-07-09-095142
 Source: raw/Sword World RPG - Complete Edition.pdf
-Confidence status: passed
+Confidence status: passed with warnings
 Blockers: 0
-Warnings: 0
+Warnings: 1
 Gates: 5
 
 ## Artifact Reuse
@@ -33,12 +33,14 @@ Gates: 5
 ### source-summary-quality
 - Kind: deterministic
 - Scope: raw/Sword World RPG - Complete Edition.pdf
-- Status: pass
-- Findings: none
+- Status: fail
+- Findings: validation-finding-f32f9db9f342bab7
 SelectedIneligibleClaims: 0
 FalseSourceUncertaintyClaims: 0
 SourceFramingBullets: 0
-MissingUnitCoverage: 0
+MissingUnitCoverage: 1
+MissingUnitCoverageExamples:
+- sword-world-rpg-complete-edition-2-4-bonuses-and-penalties-through-2-5-1-difficulty: unit-0064
 
 ### evidence-registry
 - Kind: deterministic
@@ -46,7 +48,7 @@ MissingUnitCoverage: 0
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 405
+Source ranges: 192
 Evidence records: 12346
 
 ### evidence-locators
@@ -66,6 +68,7 @@ ClaimSupportAuditReport is model-assisted and is not run by ordinary ingest.
 
 ## Findings
 
+- WARNING source-summary: Source-summary plans omit covered source units. Count: 1.
 - INFO claim-support: ClaimSupportAuditReport is model-assisted and is not run by ordinary ingest.
 
 ## Caveat

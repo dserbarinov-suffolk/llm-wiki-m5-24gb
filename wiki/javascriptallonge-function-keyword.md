@@ -1,132 +1,93 @@
 ---
 page_id: javascriptallonge-function-keyword
 page_kind: concept
-summary: the function keyword: 22 statement(s) and 16 atom(s) from raw/javascriptallonge.pdf.
+summary: the function keyword: 22 accepted assertion(s) and 19 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-09
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-function-keyword@4780135fa81fc87c2e19b24dd731a6fa
+projection_coverage: topic-state-tps_635462d5982e25dc@edef56825f2654f8aa377c1694340543
 ---
 
 # the function keyword
 
-What [[javascriptallonge]] covers about the function keyword:
+Source: [[javascriptallonge]]
 
 ## Statements
 
-### Naming Functions / the function keyword
-
-- JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00488))_
-
-- Something else we're about to discuss is optional. _(javascriptallonge.pdf (source-range-c98ab3e6-00495))_
-
-- We have arguments in parentheses, just like fat arrow functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00496))_
-
-- We do not have a fat arrow, we go directly to the body. _(javascriptallonge.pdf (source-range-c98ab3e6-00497))_
-
-- We always use a block, we cannot write function (str) str + str . This means that if we want our functions to return a value, we always need to use the return keyword _(javascriptallonge.pdf (source-range-c98ab3e6-00498))_
-
-- In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, but think of the binding names as properties of the environment, not of the function. While the name of the function is a property of the function, not of the environment. _(javascriptallonge.pdf (source-range-c98ab3e6-00508))_
-
-- 33 'Yes of course?' Well, in chapter of a book dedicated to naming functions, it is not surprising that feature we mention has something to do with naming functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00512))_
-
-- Now, the function's actual name has no effect on the environment in which it is used. To whit: _(javascriptallonge.pdf (source-range-c98ab3e6-00514))_
-
-- So 'actualName' isn't bound in the environment where we use the named function expression. Is it bound anywhere else? Yes it is. Here's a function that determines whether a positive integer is even or not. We'll use it in an IIFE so that we don't have to bind it to a name with const : _(javascriptallonge.pdf (source-range-c98ab3e6-00516))_
-
-- Clearly, the name even is bound to the function within the function's body . Is it bound to the function outside of the function's body? _(javascriptallonge.pdf (source-range-c98ab3e6-00518))_
-
-- even is bound within the function itself, but not outside it. This is useful for making recursive functions as we see above, and it speaks to the principle of least privilege: If you don't need to name it anywhere else, you needn't. _(javascriptallonge.pdf (source-range-c98ab3e6-00520))_
-
-### Magic Names / the function keyword
-
-- There are two separate rules for these 'magic' names, one for when you invoke a function using the function keyword, and another for functions defined with 'fat arrows.' We'll begin with how things work for functions defined with the function keyword. _(javascriptallonge.pdf (source-range-c98ab3e6-00592))_
-
-- The first magic name is this , and it is bound to something called the function's context. We will explore this in more detail when we start discussing objects and classes. The second magic name is very interesting, it's called arguments , and the most interesting thing about it is that it contains a list of arguments passed to a function: _(javascriptallonge.pdf (source-range-c98ab3e6-00593))_
-
-- arguments always contains all of the arguments passed to a function, regardless of how many are declared. Therefore, we can write plus like this: _(javascriptallonge.pdf (source-range-c98ab3e6-00597))_
-
-- The most common use of the arguments binding is to build functions that can take a variable number of arguments. We'll see it used in many of the recipes, starting off with partial application and ellipses. _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
-
+- JavaScript does have a syntax for naming a function, we use the function keyword. (javascriptallonge.pdf p.62)
+- Until ECMAScript 2015 was created, function was the usual syntax for writing functions. (javascriptallonge.pdf p.62)
+- Something else we're about to discuss is optional. (javascriptallonge.pdf p.62)
+- We have arguments in parentheses, just like fat arrow functions. (javascriptallonge.pdf p.62)
+- We do not have a fat arrow, we go directly to the body. (javascriptallonge.pdf p.62)
+- This means that if we want our functions to return a value, we always need to use the return keyword. (javascriptallonge.pdf p.62)
+- In this expression, double is the name in the environment, but repeat is the function's actual name. (javascriptallonge.pdf p.63)
+- While the name of the function is a property of the function, not of the environment. (javascriptallonge.pdf p.63)
+- That may seem confusing, but think of the binding names as properties of the environment, not of the function. (javascriptallonge.pdf p.63)
+- 33 'Yes of course?' Well, in chapter of a book dedicated to naming functions, it is not surprising that feature we mention has something to do with naming functions. (javascriptallonge.pdf p.63)
+- Now, the function's actual name has no effect on the environment in which it is used. (javascriptallonge.pdf p.64)
+- Here's a function that determines whether a positive integer is even or not. (javascriptallonge.pdf p.64)
+- So 'actualName' isn't bound in the environment where we use the named function expression. (javascriptallonge.pdf p.64)
+- Clearly, the name even is bound to the function within the function's body . (javascriptallonge.pdf p.64)
+- This is useful for making recursive functions as we see above, and it speaks to the principle of least privilege: If you don't need to name it anywhere else, you needn't. (javascriptallonge.pdf p.65)
+- even is bound within the function itself, but not outside it. (javascriptallonge.pdf p.65)
+- There are two separate rules for these 'magic' names, one for when you invoke a function using the function keyword, and another for functions defined with 'fat arrows.' We'll begin with how things work for functions defined with the function keyword. (javascriptallonge.pdf p.74)
+- The second magic name is very interesting, it's called arguments , and the most interesting thing about it is that it contains a list of arguments passed to a function:. (javascriptallonge.pdf p.74)
+- The first magic name is this , and it is bound to something called the function's context. (javascriptallonge.pdf p.74)
+- arguments always contains all of the arguments passed to a function, regardless of how many are declared. (javascriptallonge.pdf p.74)
+- We'll see it used in many of the recipes, starting off with partial application and ellipses. (javascriptallonge.pdf p.75)
+- The most common use of the arguments binding is to build functions that can take a variable number of arguments. (javascriptallonge.pdf p.75)
 
 ## Technical atoms
 
-### Technical frame 1: Naming Functions / the function keyword
+<a id="atom-1"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00495))_
-
-> Something else we're about to discuss is optional.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00490))_
-
-<a id="atom-technical-atom-f633081bc01f986f"></a>
 ```
 (str) => str + str
 ```
 
-### Technical frame 2: Naming Functions / the function keyword
+<a id="atom-2"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00495))_
-
-> Something else we're about to discuss is optional.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00492))_
-
-<a id="atom-technical-atom-4e6d1d42a8beb35b"></a>
 ```
 function (str) { return str + str }
 ```
 
-### Technical frame 3: Naming Functions / the function keyword
+<a id="atom-3"></a>
+**Atom:** rule
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00497))_
+```
+We always use a block, we cannot write function (str) str + str .
+```
 
-> We do not have a fat arrow, we go directly to the body.
+<a id="atom-4"></a>
+**Atom:** example
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00498))_
+```
+If we leave out the 'something optional' that comes after the function keyword, we can translate all of the fat arrow functions that we've seen into function keyword functions, e.g.
+```
 
-<a id="atom-technical-atom-99f6410861836322"></a>
-> We always use a block, we cannot write function (str) str + str .
+<a id="atom-5"></a>
+**Atom:** code block
 
-### Technical frame 4: Naming Functions / the function keyword
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00508))_
-
-> In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, but think of the binding names as properties of the environment, not of the function. While the name of the function is a property of the function, not of the environment.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00500))_
-
-<a id="atom-technical-atom-c22d055dbc6bf1f2"></a>
 ```
 (n) => (1.618**n - -1.618**-n) / 2.236
 ```
 
-### Technical frame 5: Naming Functions / the function keyword
+<a id="atom-6"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00508))_
-
-> In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, but think of the binding names as properties of the environment, not of the function. While the name of the function is a property of the function, not of the environment.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00502))_
-
-<a id="atom-technical-atom-59d7d99068f8242c"></a>
 ```
 function (n) {
 return (1.618**n - -1.618**-n) / 2.236;
 }
 ```
 
-### Technical frame 6: Naming Functions / the function keyword
+<a id="atom-7"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00508))_
-
-> In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, but think of the binding names as properties of the environment, not of the function. While the name of the function is a property of the function, not of the environment.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00505))_
-
-<a id="atom-technical-atom-e99ecfd29880436e"></a>
 ```
 const repeat = function repeat (str) {
 return str + str;
@@ -136,59 +97,42 @@ return (1.618**n - -1.618**-n) / 2.236;
 };
 ```
 
-### Technical frame 7: Naming Functions / the function keyword
+<a id="atom-8"></a>
+**Atom:** example
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00508))_
+```
+Placing a name between the function keyword and the argument list names the function. Confusingly, the name of the function is not exactly the same thing as the name we may choose to bind to the value of the function. For example, we can write:
+```
 
-> In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, but think of the binding names as properties of the environment, not of the function. While the name of the function is a property of the function, not of the environment.
+<a id="atom-9"></a>
+**Atom:** code block
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00507))_
-
-<a id="atom-technical-atom-99130ddccdd26a72"></a>
 ```
 const double = function repeat (str) {
 return str + str;
 }
 ```
 
-### Technical frame 8: Naming Functions / the function keyword
+<a id="atom-10"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00512))_
-
-> 33 'Yes of course?' Well, in chapter of a book dedicated to naming functions, it is not surprising that feature we mention has something to do with naming functions.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00510))_
-
-<a id="atom-technical-atom-97859c5620327334"></a>
 ```
 double.name
 //=> 'repeat'
 ```
 
-### Technical frame 9: Naming Functions / the function keyword
+<a id="atom-11"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00514))_
-
-> Now, the function's actual name has no effect on the environment in which it is used. To whit:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00513))_
-
-<a id="atom-technical-atom-41934a4235867742"></a>
 ```
 someBackboneView.on('click', function clickHandler () {
 //...
 });
 ```
 
-### Technical frame 10: Naming Functions / the function keyword
+<a id="atom-12"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00516))_
-
-> So 'actualName' isn't bound in the environment where we use the named function expression. Is it bound anywhere else? Yes it is. Here's a function that determines whether a positive integer is even or not. We'll use it in an IIFE so that we don't have to bind it to a name with const :
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00515))_
-
-<a id="atom-technical-atom-5478fe3e486312e0"></a>
 ```
 const bindingName = function actualName () {
 //...
@@ -199,15 +143,9 @@ actualName
 //=> ReferenceError: actualName is not defined
 ```
 
-### Technical frame 11: Naming Functions / the function keyword
+<a id="atom-13"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00518))_
-
-> Clearly, the name even is bound to the function within the function's body . Is it bound to the function outside of the function's body?
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00517))_
-
-<a id="atom-technical-atom-44be2641185165b4"></a>
 ```
 (function even (n) {
 if (n === 0) {
@@ -225,29 +163,17 @@ else return !even(n - 1)
 //=> true
 ```
 
-### Technical frame 12: Naming Functions / the function keyword
+<a id="atom-14"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00520))_
-
-> even is bound within the function itself, but not outside it. This is useful for making recursive functions as we see above, and it speaks to the principle of least privilege: If you don't need to name it anywhere else, you needn't.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00519))_
-
-<a id="atom-technical-atom-3c3941f3152f01e3"></a>
 ```
 even
 //=> Can't find variable: even
 ```
 
-### Technical frame 13: Magic Names / the function keyword
+<a id="atom-15"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00597))_
-
-> arguments always contains all of the arguments passed to a function, regardless of how many are declared. Therefore, we can write plus like this:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00594))_
-
-<a id="atom-technical-atom-c8785b9ba7a50297"></a>
 ```
 const plus = function (a, b) {
 return arguments[0] + arguments[1];
@@ -256,15 +182,9 @@ plus(2,3)
 //=> 5
 ```
 
-### Technical frame 14: Magic Names / the function keyword
+<a id="atom-16"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00597))_
-
-> arguments always contains all of the arguments passed to a function, regardless of how many are declared. Therefore, we can write plus like this:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00596))_
-
-<a id="atom-technical-atom-9046e00b2e52a6e1"></a>
 ```
 const args = function (a, b) {
 return arguments;
@@ -273,15 +193,17 @@ args(2,3)
 //=> { '0': 2, '1': 3 }
 ```
 
-### Technical frame 15: Magic Names / the function keyword
+<a id="atom-17"></a>
+**Atom:** table
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
+```text
+42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
+43 We'll look at arrays and plain old javascript objects in depth later.
+```
 
-> The most common use of the arguments binding is to build functions that can take a variable number of arguments. We'll see it used in many of the recipes, starting off with partial application and ellipses.
+<a id="atom-18"></a>
+**Atom:** code block
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00599))_
-
-<a id="atom-technical-atom-ac1c70644f1aa641"></a>
 ```
 const plus = function () {
 return arguments[0] + arguments[1];
@@ -290,15 +212,9 @@ plus(2,3)
 //=> 5
 ```
 
-### Technical frame 16: Magic Names / the function keyword
+<a id="atom-19"></a>
+**Atom:** code block
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
-
-> The most common use of the arguments binding is to build functions that can take a variable number of arguments. We'll see it used in many of the recipes, starting off with partial application and ellipses.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00601))_
-
-<a id="atom-technical-atom-34f544b484ed61c2"></a>
 ```
 const howMany = function () {
 return arguments['length'];
@@ -310,26 +226,3 @@ howMany('hello')
 howMany('sharks', 'are', 'apex', 'predators')
 //=> 4
 ```
-
-
-## Related pages
-
-### Source structure
-
-- [[javascriptallonge-section-naming-functions-the-function-keyword-46a79cb6]] - source section: Naming Functions / the function keyword shares source evidence from Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions.; Naming Functions / the function keyword shares technical record from Naming Functions / the function keyword: (str) => str + str (16 shared statement(s), 12 shared atom(s))
-- [[javascriptallonge-section-magic-names-the-function-keyword-55f3d121]] - source section: Magic Names / the function keyword shares source evidence from Magic Names / the function keyword: There are two separate rules for these 'magic' names, one for when you invoke a function using the function keyword, and another for functions defined with 'fat arro ... [truncated]; Magic Names / the function keyword shares technical record from Magic Names / the function keyword: const plus = function (a, b) { return arguments[0] + arguments[1]; } plus(2,3) //=> 5 (6 shared statement(s), 4 shared atom(s))
-
-### Shared technical atoms
-
-- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from Magic Names / the function keyword: arguments always contains all of the arguments passed to a function, regardless of how many are declared. Therefore, we can write plus like this:; Argument shares technical record from Magic Names / the function keyword: const plus = function (a, b) { return arguments[0] + arguments[1]; } plus(2,3) //=> 5 (1 shared statement(s), 4 shared atom(s))
-- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from Naming Functions / the function keyword: const double = function repeat (str) { return str + str; } (3 shared atom(s))
-- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from Naming Functions / the function keyword: In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, b ... [truncated]; Expression shares technical record from Naming Functions / the function keyword: (function even (n) { if (n === 0) { return true } else return !even(n - 1) })(5) //=> false (function even (n) { if (n === 0) { return true } else return !even(n - 1 ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions.; Javascript shares technical record from Naming Functions / the function keyword: someBackboneView.on('click', function clickHandler () { //... }); (1 shared statement(s), 1 shared atom(s))
-
-### Shared claims
-
-- [[javascriptallonge-ecmascript]] - shared statements: Ecmascript shares source evidence from Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions. (1 shared statement(s))
-
-## Source
-
-- [[javascriptallonge]]

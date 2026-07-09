@@ -12,6 +12,10 @@ from llmwiki.application.source_artifacts import (
     CanonicalSourceArtifact,
     canonical_source_artifact_to_json,
 )
+from llmwiki.application.topic_state_artifacts import (
+    TopicStateArtifact,
+    topic_state_artifact_to_json,
+)
 from llmwiki.domain.ledger.artifacts import (
     BlockedWriteDiagnosticArtifact,
     ClaimLedgerArtifact,
@@ -39,7 +43,6 @@ from llmwiki.domain.ledger.staged_contracts import (
     SourcePlan,
     StagedWikiPageSet,
 )
-from llmwiki.domain.ledger.topic_models import TopicIndex
 
 
 @dataclass(frozen=True)
@@ -59,7 +62,6 @@ def build_serialized_artifact_bundle(
     projection_context_artifact: ProjectionContextArtifact,
     section_plan: SectionGroundedPlan,
     knowledge_shape_catalog: KnowledgeShapeCatalog,
-    topic_index: TopicIndex,
     source_coverage_artifact: SourceCoverageArtifact | None,
     blocked: BlockedWriteDiagnosticArtifact | None,
     source_plan: SourcePlan,
@@ -70,6 +72,7 @@ def build_serialized_artifact_bundle(
     source_artifact: CanonicalSourceArtifact | None,
     proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
     assertion_graph_artifact: AssertionGraphArtifact | None,
+    topic_state_artifact: TopicStateArtifact | None,
 ) -> SerializedLedgerArtifacts:
     members = _artifact_members(
         ds_artifact,
@@ -91,6 +94,7 @@ def build_serialized_artifact_bundle(
         source_artifact,
         proposed_change_review_artifact,
         assertion_graph_artifact,
+        topic_state_artifact,
     )
     artifact_files = _artifact_files(
         ds_artifact,
@@ -102,7 +106,6 @@ def build_serialized_artifact_bundle(
         projection_context_artifact,
         section_plan,
         knowledge_shape_catalog,
-        topic_index,
         source_coverage_artifact,
         blocked,
         source_plan,
@@ -113,6 +116,7 @@ def build_serialized_artifact_bundle(
         source_artifact,
         proposed_change_review_artifact,
         assertion_graph_artifact,
+        topic_state_artifact,
     )
     manifest = build_portable_artifact_set(tuple(members))
     artifact_files["portable-artifact-set.json"] = canonical_json(manifest, indent=2)
@@ -139,6 +143,7 @@ def _artifact_members(
     source_artifact: CanonicalSourceArtifact | None,
     proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
     assertion_graph_artifact: AssertionGraphArtifact | None,
+    topic_state_artifact: TopicStateArtifact | None,
 ) -> list[PortableArtifactMember]:
     members = [
         _member(
@@ -236,6 +241,14 @@ def _artifact_members(
                 assertion_graph_artifact.assertion_graph_fingerprint,
             )
         )
+    if topic_state_artifact is not None:
+        members.append(
+            _member(
+                "topic-state-artifact",
+                topic_state_artifact.topic_state_artifact_id,
+                topic_state_artifact.topic_state_fingerprint,
+            )
+        )
     if source_coverage_artifact is not None:
         members.append(
             _member(
@@ -265,7 +278,6 @@ def _artifact_files(
     projection_context_artifact: ProjectionContextArtifact,
     section_plan: SectionGroundedPlan,
     knowledge_shape_catalog: KnowledgeShapeCatalog,
-    topic_index: TopicIndex,
     source_coverage_artifact: SourceCoverageArtifact | None,
     blocked: BlockedWriteDiagnosticArtifact | None,
     source_plan: SourcePlan,
@@ -276,6 +288,7 @@ def _artifact_files(
     source_artifact: CanonicalSourceArtifact | None,
     proposed_change_review_artifact: ProposedChangeReviewArtifact | None,
     assertion_graph_artifact: AssertionGraphArtifact | None,
+    topic_state_artifact: TopicStateArtifact | None,
 ) -> dict[str, str]:
     artifact_files = {
         "document-structure.json": canonical_json(ds_artifact, indent=2),
@@ -287,7 +300,6 @@ def _artifact_files(
         "projection-context.json": canonical_json(projection_context_artifact, indent=2),
         "section-plan.json": canonical_json(section_plan, indent=2),
         "knowledge-shapes.json": canonical_json(knowledge_shape_catalog, indent=2),
-        "topics.json": canonical_json(topic_index, indent=2),
         "source-plan.json": canonical_json(source_plan, indent=2),
         "extraction-result.json": canonical_json(extraction_result, indent=2),
         "staged-pages.json": canonical_json(staged_page_set, indent=2),
@@ -306,6 +318,8 @@ def _artifact_files(
         artifact_files["assertion-graph.json"] = assertion_graph_artifact_to_json(
             assertion_graph_artifact
         )
+    if topic_state_artifact is not None:
+        artifact_files["topic-states.json"] = topic_state_artifact_to_json(topic_state_artifact)
     if source_coverage_artifact is not None:
         artifact_files["source-coverage.json"] = canonical_json(source_coverage_artifact, indent=2)
     if blocked is not None:

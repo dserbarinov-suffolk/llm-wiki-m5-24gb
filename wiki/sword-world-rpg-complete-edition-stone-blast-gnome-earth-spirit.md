@@ -1,0 +1,72 @@
+---
+page_id: sword-world-rpg-complete-edition-stone-blast-gnome-earth-spirit
+page_kind: concept
+summary: [ Stone Blast ] (Gnome/Earth Spirit): 3 accepted assertion(s) and 7 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: topic-concept
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-09
+domain: sword-world-rpg-complete-edition
+category_path: concepts
+projection_coverage: topic-state-tps_44d873c03ea7921b@c0bf94eafafa228a6dcdc06f68a07d87
+---
+
+# [ Stone Blast ] (Gnome/Earth Spirit)
+
+Source: [[sword-world-rpg-complete-edition]]
+
+## Statements
+
+- The spell has no effect if the target is standing on a solid chunk of rock or on a cobblestone surface. (Sword World RPG - Complete Edition.pdf p.87)
+- These stones always hit, and the target will suffer strike power 20 damage. (Sword World RPG - Complete Edition.pdf p.87)
+- To cast this spell, there must be bare, natural ground directly under the target's feet. (Sword World RPG - Complete Edition.pdf p.87)
+
+## Technical atoms
+
+<a id="atom-1"></a>
+**Atom:** formula
+
+```
+Base Mental Power Cost=12
+```
+
+<a id="atom-2"></a>
+**Atom:** formula
+
+```
+Distance=30 meters
+```
+
+<a id="atom-3"></a>
+**Atom:** formula
+
+```
+Area=One
+```
+
+<a id="atom-4"></a>
+**Atom:** formula
+
+```
+Duration=Instant
+```
+
+<a id="atom-5"></a>
+**Atom:** formula
+
+```
+Effect=Deals strike power 20 stone damage to
+```
+
+<a id="atom-6"></a>
+**Atom:** formula
+
+```
+Type=Damage (Stone-type)
+```
+
+<a id="atom-7"></a>
+**Atom:** formula
+
+```
+Resist=Reduced effect
+```

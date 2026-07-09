@@ -47,10 +47,18 @@ def _fake_extraction(paths: WikiPaths) -> ExtractionResult:
                     "Functions",
                     1,
                     10,
-                    "A function must return a result.",
+                    "Functions can be passed to other functions.",
                 ),
                 SourceUnitBlock(
                     "element-000004",
+                    "paragraph",
+                    "Functions",
+                    1,
+                    10,
+                    "A function must return a result.",
+                ),
+                SourceUnitBlock(
+                    "element-000005",
                     "code_block",
                     "Functions",
                     1,
@@ -66,9 +74,9 @@ def _fake_extraction(paths: WikiPaths) -> ExtractionResult:
             11,
             20,
             (
-                SourceUnitBlock("element-000005", "heading", "Closures", 11, 11, "Closures"),
+                SourceUnitBlock("element-000006", "heading", "Closures", 11, 11, "Closures"),
                 SourceUnitBlock(
-                    "element-000006",
+                    "element-000007",
                     "paragraph",
                     "Closures",
                     11,
@@ -76,7 +84,7 @@ def _fake_extraction(paths: WikiPaths) -> ExtractionResult:
                     "Closures contain their captured scope.",
                 ),
                 SourceUnitBlock(
-                    "element-000007",
+                    "element-000008",
                     "paragraph",
                     "Closures",
                     11,
@@ -154,7 +162,7 @@ class TestLedgerPdfIngest:
         assert "[[book]]" in result.output
         body = store.read_page("book")
         assert "## Page Families" in body
-        assert "## Source Section Index" in body
+        assert "## Concept Entry Points" in body
         assert "Functions are ordinary first-class values." not in body
         assert "Functions are ordinary first-class values." in _page_containing(
             store, "Functions are ordinary first-class values."
@@ -203,6 +211,7 @@ class TestLedgerPdfIngest:
             "assertion-graph-source-artifact.json",
             "proposed-change-review.json",
             "assertion-graph.json",
+            "topic-states.json",
         ):
             assert (ledger_dir / name).is_file(), name
         portable = json.loads((ledger_dir / "portable-artifact-set.json").read_text())
@@ -210,6 +219,7 @@ class TestLedgerPdfIngest:
         assert "assertion-graph-source-artifact" in member_kinds
         assert "proposed-change-review-artifact" in member_kinds
         assert "assertion-graph-artifact" in member_kinds
+        assert "topic-state-artifact" in member_kinds
         # The manifest is persisted and marked integrated after ingest.
         manifest = from_json((extraction.cache_dir / "manifest.json").read_text(encoding="utf-8"))
         assert manifest.integrated

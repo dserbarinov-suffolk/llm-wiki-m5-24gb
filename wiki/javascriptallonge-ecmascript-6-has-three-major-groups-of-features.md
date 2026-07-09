@@ -1,0 +1,33 @@
+---
+page_id: javascriptallonge-ecmascript-6-has-three-major-groups-of-features
+page_kind: concept
+summary: ECMAScript 6 has three major groups of features:: 4 accepted assertion(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+page_family: topic-concept
+sources: raw/javascriptallonge.pdf
+updated: 2026-07-09
+domain: javascriptallonge
+category_path: concepts
+projection_coverage: topic-state-tps_a2d5335b7d02ca64@afb842a8566041c7f930020df89737c1
+---
+
+# ECMAScript 6 has three major groups of features:
+
+Source: [[javascriptallonge]]
+
+## Statements
+
+- With ECMAScript 6, JavaScript has become much larger as a language. (javascriptallonge.pdf p.13)
+- JavaScript Allongé, the 'Six' Edition is both a comprehensive tour of its features and a rich collection of techniques for making better use of them. (javascriptallonge.pdf p.13)
+- And you'll do so via ES6 code, handed to you in small, easily digestible pieces. (javascriptallonge.pdf p.13)
+- You will learn much about functional programming and object-oriented programming. (javascriptallonge.pdf p.13)
+
+## Technical atoms
+
+<a id="atom-1"></a>
+**Atom:** table
+
+```text
+2 http://www.2ality.com
+4 http://exploringjs.com
+3 http://ecmanauten.de
+```

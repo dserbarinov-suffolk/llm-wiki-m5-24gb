@@ -139,12 +139,21 @@ def _used_span_ids(
 def _used_unit_ids(
     source_artifact: CanonicalSourceArtifact, span_ids: frozenset[str]
 ) -> frozenset[str]:
-    return frozenset(
+    direct_ids = frozenset(
         unit_id
         for span in source_artifact.evidence_spans
         if span.id in span_ids
         for unit_id in span.source_unit_ids
     )
+    unit_by_id = {unit.id: unit for unit in source_artifact.source_units}
+    with_ancestors = set(direct_ids)
+    for unit_id in direct_ids:
+        unit = unit_by_id.get(unit_id)
+        parent_id = unit.parent_id if unit is not None else None
+        while parent_id is not None and parent_id in unit_by_id:
+            with_ancestors.add(parent_id)
+            parent_id = unit_by_id[parent_id].parent_id
+    return frozenset(with_ancestors)
 
 
 def _validate_graph_references(artifact: AssertionGraphArtifact) -> None:

@@ -51,6 +51,8 @@ _WIDGETS_MD = """# Widget Protocol
 
 A widget contains three slots.
 
+A widget contains a name.
+
 The handler must validate every request.
 
 ```python
@@ -92,13 +94,13 @@ class TestIngest:
         assert "[[widgets]]" in result.output
         body = store.read_page("widgets")
         assert "## Page Families" in body
-        assert "## Source Section Index" in body
+        assert "## Concept Entry Points" in body
         assert "A widget contains three slots." not in body
         section_body = _page_containing(
-            store, "A widget contains three slots.", "page_family: section-reference"
+            store, "A widget contains three slots.", "page_family: topic-concept"
         )
         assert "## Statements" in section_body
-        assert "widgets.md (" in section_body  # source-facing citation label
+        assert "(widgets.md document)" in section_body  # source-facing citation label
         assert isinstance(result.run, IngestRun)
         log = paths.log_path.read_text(encoding="utf-8")
         assert f"## [{TODAY}] ingest | widgets.md" in log
@@ -164,6 +166,7 @@ class TestIngest:
             "portable-artifact-set.json",
             "proposed-change-review.json",
             "assertion-graph.json",
+            "topic-states.json",
         ):
             assert (ledger_dir / name).is_file(), name
         # The evidence registry remains the prior link in the authority chain.
@@ -174,6 +177,7 @@ class TestIngest:
         assert "document-structure-artifact" in kinds
         assert "proposed-change-review-artifact" in kinds
         assert "assertion-graph-artifact" in kinds
+        assert "topic-state-artifact" in kinds
         assert "portable-artifact-set" not in kinds
 
     async def test_claim_ledger_references_document_structure_and_has_entries(

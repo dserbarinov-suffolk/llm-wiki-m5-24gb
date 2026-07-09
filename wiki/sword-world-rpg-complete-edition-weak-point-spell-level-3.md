@@ -1,0 +1,67 @@
+---
+page_id: sword-world-rpg-complete-edition-weak-point-spell-level-3
+page_kind: concept
+summary: [ Weak Point ] (Spell Level=3): 5 accepted assertion(s) and 6 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: topic-concept
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-09
+domain: sword-world-rpg-complete-edition
+category_path: concepts
+projection_coverage: topic-state-tps_e25666595799eb14@5f357fdbec37157a438d4a3d83c83e27
+---
+
+# [ Weak Point ] (Spell Level=3)
+
+Source: [[sword-world-rpg-complete-edition]]
+
+## Statements
+
+- In other words, the normal critical target of 10 becomes 9 (9 to 8 for a thief). (Sword World RPG - Complete Edition.pdf p.106-107)
+- Resist= Negated effect This spell shows you your target's weak point and guides your attack there. (Sword World RPG - Complete Edition.pdf p.106-107)
+- This effect is expressed as a -1 to the attacker's critical target. (Sword World RPG - Complete Edition.pdf p.106-107)
+- Note that the critical target can only be lowered for weapon attacks, while the critical target of damage magic cannot be lowered. (Sword World RPG - Complete Edition.pdf p.107)
+- In this case, even if the defense roll result is not only 2 (double ones) but also 3 , no damage reduction will be possible. (Sword World RPG - Complete Edition.pdf p.107)
+
+## Technical atoms
+
+<a id="atom-1"></a>
+**Atom:** formula
+
+```
+Base Mental Power Cost=15
+```
+
+<a id="atom-2"></a>
+**Atom:** formula
+
+```
+Distance=10 meters
+```
+
+<a id="atom-3"></a>
+**Atom:** formula
+
+```
+Area=One
+```
+
+<a id="atom-4"></a>
+**Atom:** formula
+
+```
+Duration=18 rounds
+```
+
+<a id="atom-5"></a>
+**Atom:** formula
+
+```
+Type=Target score
+```
+
+<a id="atom-6"></a>
+**Atom:** rule
+
+```
+If a character has this spell cast on them and a monster with fixed strike points attacks, the character's defense roll will be affected.
+```

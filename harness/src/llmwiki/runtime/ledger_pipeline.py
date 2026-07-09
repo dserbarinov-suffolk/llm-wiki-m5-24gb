@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from llmwiki.application.assertion_graph_artifacts import build_assertion_graph_artifact
 from llmwiki.application.source_artifacts import CanonicalLedgerSource
+from llmwiki.application.topic_state_artifacts import build_topic_state_artifact
 from llmwiki.domain.ledger.artifacts import (
     build_blocked_write_diagnostic_artifact,
     build_claim_ledger_artifact,
@@ -46,17 +47,16 @@ from llmwiki.domain.ledger.staged_flow import (
     build_source_plan,
     build_staged_page_set,
 )
-from llmwiki.domain.ledger.topics import build_topic_index, plan_source_topic_result
 from llmwiki.domain.pages import WikiPage, slugify
 from llmwiki.pdf.document import DocumentModel
 from llmwiki.runtime.ledger_artifact_bundle import build_serialized_artifact_bundle
-from llmwiki.runtime.ledger_linked_pages import build_linked_page_projection
 from llmwiki.runtime.ledger_pages import (
     ledger_summary,
     source_element_records,
     source_title,
 )
 from llmwiki.runtime.ledger_result import SourceLedgerResult
+from llmwiki.runtime.topic_state_pages import build_topic_state_page_projection
 
 
 def build_source_ledger(
@@ -130,6 +130,7 @@ def build_source_ledger(
         source_artifact=canonical_source.artifact,
         ledger=ledger,
     )
+    topic_state_artifact = build_topic_state_artifact(assertion_graph_artifact)
     source_coverage_artifact = None
     if document_model is not None:
         source_coverage = build_source_coverage(
@@ -187,16 +188,6 @@ def build_source_ledger(
         source_hash=source_hash,
         projection_context=projection_context,
     )
-    topic_result = plan_source_topic_result(ledger, structure, section_plan=section_plan)
-    topics = topic_result.topics
-    topic_index = build_topic_index(
-        ledger,
-        topics,
-        source_locator=source_locator,
-        source_hash=source_hash,
-        projection_source_support_id=support.projection_source_support_id,
-        rejected_candidates=topic_result.rejected_candidates,
-    )
 
     decision = page_write_decision(ledger_report, projection_report)
     blocked = None
@@ -213,13 +204,9 @@ def build_source_ledger(
             ),
         )
     else:
-        linked_projection = build_linked_page_projection(
+        linked_projection = build_topic_state_page_projection(
             ledger=ledger,
             structure=structure,
-            section_plan=section_plan,
-            shape_catalog=shape_catalog,
-            projection_context=projection_context,
-            topics=topics,
             page_id=page_id,
             title=title,
             source_locator=source_locator,
@@ -228,6 +215,8 @@ def build_source_ledger(
             rendered=rendered,
             support=support,
             projection_report_artifact=projection_report_artifact,
+            assertion_graph_artifact=assertion_graph_artifact,
+            topic_state_artifact=topic_state_artifact,
         )
         wiki_page = linked_projection.source_page
         topic_pages = linked_projection.linked_pages
@@ -255,7 +244,6 @@ def build_source_ledger(
         projection_context_artifact=projection_context_artifact,
         section_plan=section_plan,
         knowledge_shape_catalog=shape_catalog,
-        topic_index=topic_index,
         source_coverage_artifact=source_coverage_artifact,
         blocked=blocked,
         source_plan=source_plan,
@@ -266,6 +254,7 @@ def build_source_ledger(
         source_artifact=canonical_source.artifact,
         proposed_change_review_artifact=ledger.proposed_change_review,
         assertion_graph_artifact=assertion_graph_artifact,
+        topic_state_artifact=topic_state_artifact,
     )
 
     return SourceLedgerResult(
