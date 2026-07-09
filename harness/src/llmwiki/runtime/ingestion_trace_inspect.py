@@ -7,8 +7,11 @@ from llmwiki.application.ingestion_trace_records import (
     IngestionMetricGroup,
     IngestionTraceArtifact,
     IngestionTraceCheck,
+    IngestionTraceFinding,
     IngestionTraceStage,
 )
+
+_SUMMARY_FINDING_LIMIT = 12
 
 
 def render_trace_summary(trace: IngestionTraceArtifact) -> str:
@@ -26,6 +29,12 @@ def render_trace_summary(trace: IngestionTraceArtifact) -> str:
             f"- {stage.stage_id}: {_status_label(failed)}"
             f" ({_counts_label(stage.summary_counts)}{finding_label})"
         )
+    if trace.findings:
+        lines.extend(("", "Diagnostics:"))
+        lines.extend(_finding_lines(_ranked_findings(trace.findings)[:_SUMMARY_FINDING_LIMIT]))
+        omitted = len(trace.findings) - _SUMMARY_FINDING_LIMIT
+        if omitted > 0:
+            lines.append(f"- ... {omitted} additional finding(s)")
     return "\n".join(lines).rstrip()
 
 
@@ -62,7 +71,7 @@ def render_trace_stage(trace: IngestionTraceArtifact, stage_id: str) -> str:
     findings = [finding for finding in trace.findings if finding.finding_id in stage.finding_ids]
     if findings:
         lines.extend(("", "Findings:"))
-        lines.extend(f"- {finding.severity}: {finding.message}" for finding in findings)
+        lines.extend(_finding_lines(_ranked_findings(tuple(findings))))
     return "\n".join(lines).rstrip()
 
 
@@ -87,6 +96,40 @@ def _metric_lines(metrics: tuple[IngestionMetric, ...]) -> list[str]:
     if not metrics:
         return ["- none"]
     return [f"- {metric.metric_kind}: {metric.value} {metric.unit}" for metric in metrics]
+
+
+def _finding_lines(findings: tuple[IngestionTraceFinding, ...]) -> list[str]:
+    return [
+        f"- {finding.severity}: {finding.stage_id}/{finding.reason}: {finding.message}"
+        for finding in findings
+    ]
+
+
+def _ranked_findings(
+    findings: tuple[IngestionTraceFinding, ...],
+) -> tuple[IngestionTraceFinding, ...]:
+    severity_rank = {"blocking": 0, "warning": 1, "info": 2}
+    reason_rank = {
+        "extreme-projection-coverage": 0,
+        "oversized-topic-closure": 1,
+        "concept-rendered-as-procedure": 2,
+        "heading-in-continuation": 3,
+        "parent-change-across-continuation": 4,
+        "weak-assertion-attribution": 5,
+        "accepted-output-with-diagnostics": 6,
+    }
+    return tuple(
+        sorted(
+            findings,
+            key=lambda finding: (
+                severity_rank[finding.severity],
+                reason_rank.get(finding.reason, 99),
+                finding.reason,
+                finding.stage_id,
+                finding.subject_id,
+            ),
+        )
+    )
 
 
 def _failed_count(stage: IngestionTraceStage) -> int:

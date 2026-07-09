@@ -182,6 +182,40 @@ Recovery must be visible as rejection, quarantine, validation error, or
 reviewable `ProposedChange`.
 Invalid model output must not become accepted state.
 
+### Ingestion trace experiment loop
+JavaScript Allonge and Sword World are the canonical ingest-quality regression
+sources for agentic development:
+
+- `raw/javascriptallonge.pdf`
+- `raw/Sword World RPG - Complete Edition.pdf`
+
+For any change that can affect source parsing, extraction, ledger assembly,
+topic state, page planning, projection, graph links, lint, query grounding, chat
+grounding, or generated wiki quality, use this loop:
+
+- Before changing code, collect the latest baseline from the previous ingest:
+  - `uv run llmwiki inspect-ingest javascriptallonge.pdf`
+  - `uv run llmwiki inspect-ingest "Sword World RPG - Complete Edition.pdf"`
+- When validating the change, reingest both canonical sources:
+  - `uv run llmwiki ingest javascriptallonge.pdf`
+  - `uv run llmwiki ingest "Sword World RPG - Complete Edition.pdf"`
+- After the reingest, inspect both ingestion traces again:
+  - `uv run llmwiki inspect-ingest javascriptallonge.pdf`
+  - `uv run llmwiki inspect-ingest "Sword World RPG - Complete Edition.pdf"`
+- For the subsystem being changed, inspect the relevant trace stage with
+  `--stage` and compare the before and after metrics, decisions, findings,
+  counts, and representative records.
+- Treat comparison as the experiment result. If the result improves wiki
+  coherence, comprehensiveness, walkability, or source support, keep iterating
+  from the observed dynamics. If the result is disastrous or regresses an
+  important page family, investigate the root cause and either roll back the
+  feature or revisit the design before continuing.
+
+Do not judge by page count alone. A lower page count is good only when
+incoherent pages disappear and important source-backed pages become richer.
+Do not add source-specific logic for these PDFs; they are regression sources
+used to validate universal source-derived categories and pipeline behavior.
+
 ### forge — reliability layer for small-model tool calling
 Cloned locally from https://github.com/antoinezambelli/forge (MIT).
 A Python framework for reliable tool-calling and multi-step agentic

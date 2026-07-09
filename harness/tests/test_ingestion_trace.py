@@ -4,6 +4,7 @@ import pytest
 from pydantic import ValidationError
 
 from llmwiki.application.ingestion_trace_builder import build_ingestion_trace
+from llmwiki.application.ingestion_trace_metrics import default_metric_providers
 from llmwiki.application.ingestion_trace_records import (
     IngestionMetric,
     IngestionMetricGroup,
@@ -14,6 +15,7 @@ from llmwiki.application.ingestion_trace_records import (
 )
 from llmwiki.domain.graph import GraphStatus
 from llmwiki.domain.ledger.artifacts import PortableArtifactMember
+from llmwiki.runtime.ingestion_trace_inspect import render_trace_stage, render_trace_summary
 
 _HASH = "a" * 64
 
@@ -108,6 +110,31 @@ def test_trace_builder_uses_artifacts_not_generated_wiki_markdown() -> None:
     assert "generated-page.md" not in ingestion_trace_artifact_to_json(trace)
 
 
+def test_diagnostics_surface_projection_assertion_and_boundary_issues() -> None:
+    trace = _trace(_diagnostic_artifact_files(), providers=default_metric_providers())
+
+    summary = render_trace_summary(trace)
+    page_projection = render_trace_stage(trace, "page-projection")
+    assertion_graph = render_trace_stage(trace, "assertion-graph")
+    canonical_source = render_trace_stage(trace, "canonical-source")
+
+    assert "Diagnostics:" in summary
+    assert "concept page rendered a Procedure section" in summary
+    assert summary.index("extreme projection size") < summary.index("weak subject 'They'")
+    assert "extreme projection size" in page_projection
+    assert "weak subject 'They'" in assertion_graph
+    assert "heading appears inside a sentence continuation" in canonical_source
+
+
+def test_zero_rejections_with_diagnostics_surfaces_gate_effectiveness_warning() -> None:
+    trace = _trace(_diagnostic_artifact_files(), providers=default_metric_providers())
+
+    lint = render_trace_stage(trace, "lint-run")
+
+    assert "accepted-output-with-diagnostics" in lint
+    assert "rejected 0 pages" in lint
+
+
 def _trace(artifact_files: dict[str, str], providers: tuple = ()):
     return build_ingestion_trace(
         source_locator="src.pdf",
@@ -172,3 +199,119 @@ def _artifact_files() -> dict[str, str]:
         },
     }
     return {filename: json.dumps(payload) for filename, payload in payloads.items()}
+
+
+def _diagnostic_artifact_files() -> dict[str, str]:
+    files = _artifact_files()
+    files.update(
+        {
+            "assertion-graph-source-artifact.json": json.dumps(
+                {
+                    "source_units": [
+                        {
+                            "id": "su_aaaaaaaa_00001",
+                            "kind": "paragraph",
+                            "text": "The record starts but does not finish",
+                            "source_order": 1,
+                            "page_span": [9, 9],
+                            "parent_id": "su_aaaaaaaa_parent",
+                        },
+                        {
+                            "id": "su_aaaaaaaa_00002",
+                            "kind": "heading",
+                            "text": "## Category",
+                            "source_order": 2,
+                            "page_span": [9, 9],
+                            "parent_id": None,
+                        },
+                        {
+                            "id": "su_aaaaaaaa_00003",
+                            "kind": "paragraph",
+                            "text": "and continues after the heading.",
+                            "source_order": 3,
+                            "page_span": [9, 9],
+                            "parent_id": "su_aaaaaaaa_00002",
+                        },
+                    ]
+                }
+            ),
+            "assertion-graph.json": json.dumps(
+                {
+                    "assertions": [
+                        {
+                            "id": "ast_weak",
+                            "subject": "They",
+                            "predicate": "are",
+                            "object_value": "unclear without context",
+                            "evidence_span_ids": ["evs_weak"],
+                        },
+                        {
+                            "id": "ast_fragment",
+                            "subject": "and therefore",
+                            "predicate": "can",
+                            "object_value": "continue",
+                            "evidence_span_ids": ["evs_fragment"],
+                        },
+                    ],
+                    "technical_atoms": [],
+                    "evidence_spans": [
+                        {
+                            "id": "evs_weak",
+                            "exact_text": "They are unclear without context.",
+                        },
+                        {
+                            "id": "evs_fragment",
+                            "exact_text": "and therefore can continue.",
+                        },
+                    ],
+                }
+            ),
+            "topic-states.json": json.dumps(
+                {
+                    "topic_states": [
+                        {
+                            "id": "tps_big",
+                            "accepted_assertion_ids": [f"ast_{index}" for index in range(130)],
+                            "accepted_technical_atom_ids": [],
+                            "projection_policy": {"page_family": "broad-topic"},
+                        }
+                    ],
+                    "topic_dependencies": [],
+                    "topic_gaps": [],
+                }
+            ),
+            "page-projections.json": json.dumps(
+                {
+                    "page_projections": [
+                        {
+                            "page_id": "category",
+                            "topic_state_id": "tps_big",
+                            "page_kind": "concept",
+                            "page_family": "broad-topic",
+                            "page_body": "# Category\n\n## Procedure\n\n- They are unclear.",
+                            "coverage_records": [
+                                {"support_record_id": f"ast_{index}"} for index in range(130)
+                            ],
+                            "rendered_related_links": [],
+                        }
+                    ]
+                }
+            ),
+            "lint-run.json": json.dumps(
+                {
+                    "status": "accepted",
+                    "accepted_page_ids": ["category"],
+                    "rejected_page_ids": [],
+                    "findings": [],
+                }
+            ),
+            "publish-run.json": json.dumps(
+                {
+                    "status": "published",
+                    "accepted_page_ids": ["category"],
+                    "rejected_page_ids": [],
+                }
+            ),
+        }
+    )
+    return files

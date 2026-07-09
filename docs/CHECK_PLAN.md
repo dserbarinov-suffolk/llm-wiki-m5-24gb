@@ -97,7 +97,27 @@ Use it with `AGENTS.md`, `docs/llm-wiki.md`, and the KoteKomi TDD.
 
 ## 10. Ingest Quality Checks
 
+- Before implementing any change that can affect ingest quality, collect the
+  latest baseline traces for `javascriptallonge.pdf` and
+  `Sword World RPG - Complete Edition.pdf`.
+- Use `uv run llmwiki inspect-ingest javascriptallonge.pdf` for the JavaScript
+  Allonge baseline.
+- Use `uv run llmwiki inspect-ingest "Sword World RPG - Complete Edition.pdf"`
+  for the Sword World baseline.
 - Reingest the current test sources after each deliverable that changes ingest behavior.
+- Treat `javascriptallonge.pdf` and `Sword World RPG - Complete Edition.pdf` as
+  the canonical test-ingest sources for wiki-quality experiments.
+- After the reingest, inspect both ingestion traces again.
+- Inspect changed subsystems with `uv run llmwiki inspect-ingest <source> --stage <stage>`.
+- Compare pre-change and post-change trace metrics, stage decisions, findings,
+  counts, representative records, and generated page outcomes.
+- Explain every meaningful movement in extraction, evidence span creation,
+  assertion admission, relationship or argument-edge creation, topic state,
+  page projection, lint, graph export, and publish results.
+- If results improve coherence, comprehensiveness, walkability, or source
+  support, continue iterating from the observed dynamics.
+- If results regress important pages or produce incoherent output, do root cause
+  analysis and either roll back the feature or revisit the design before moving on.
 - Verify generated page count drops only because incoherent pages are not published.
 - Verify major pages become richer than the current page-first output.
 - Verify SwordWorld character creation has steps, dependencies, tables, examples, and gaps.

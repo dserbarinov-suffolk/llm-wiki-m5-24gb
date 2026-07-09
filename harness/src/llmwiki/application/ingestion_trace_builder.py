@@ -153,8 +153,8 @@ def build_ingestion_trace(
     artifacts = _parse_artifacts(artifact_files, graph_status)
     inputs = IngestionTraceInput(source_locator, source_hash, artifacts, graph_status)
     findings: list[IngestionTraceFinding] = []
-    stages = tuple(_stage(spec, artifacts, findings) for spec in _STAGES)
     metric_groups = tuple(_metric_groups(inputs, metric_providers, findings))
+    stages = tuple(_stage(spec, artifacts, findings) for spec in _STAGES)
     return finalized_trace_artifact(
         draft_trace_artifact(
             source_locator=source_locator,
@@ -203,7 +203,11 @@ def _stage(
         for check in (*pre, *post)
         if check.status == "failed"
     )
+    existing_stage_findings = tuple(
+        finding for finding in findings if finding.stage_id == spec.stage_id
+    )
     findings.extend(stage_findings)
+    all_stage_findings = (*existing_stage_findings, *stage_findings)
     return IngestionTraceStage(
         stage_id=spec.stage_id,
         label=spec.label,
@@ -213,7 +217,7 @@ def _stage(
         postcondition_checks=post,
         decisions=_decisions(spec.stage_id, artifacts),
         summary_counts=_stage_counts(spec.stage_id, artifacts),
-        finding_ids=tuple(finding.finding_id for finding in stage_findings),
+        finding_ids=tuple(finding.finding_id for finding in all_stage_findings),
     )
 
 
@@ -281,7 +285,9 @@ def _metric_groups(
     groups = []
     for provider in providers:
         try:
-            groups.append(provider(inputs))
+            group = provider(inputs)
+            findings.extend(group.findings)
+            groups.append(group)
         except Exception as exc:
             provider_id = getattr(provider, "__name__", "metric-provider")
             finding = IngestionTraceFinding(
